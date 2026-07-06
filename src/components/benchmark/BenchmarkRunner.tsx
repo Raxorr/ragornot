@@ -5,6 +5,7 @@ import {
   callApi,
   checkBenchmarkQuota,
   uploadDocs,
+  submitBenchmarkInterest,
   type ApiMode,
   type ApiError,
   type BenchmarkQuota,
@@ -111,7 +112,6 @@ function newRunId() {
 }
 
 export default function BenchmarkRunner() {
-  const [benchmarkKey, setBenchmarkKey] = useState("");
   const [running, setRunning] = useState(false);
   const [progress, setProgress] = useState("");
   const [results, setResults] = useState<QueryResult[]>([]);
@@ -121,7 +121,8 @@ export default function BenchmarkRunner() {
   const [cooldownSec, setCooldownSec] = useState(0);
   const abortRef = useRef(false);
 
-  // Personal-docs state
+  // Advanced (personal-docs / 10x) state
+  const [advancedKey, setAdvancedKey] = useState("");
   const [sessionId, setSessionId] = useState<string | null>(null);
   const [uploadedFiles, setUploadedFiles] = useState<File[]>([]);
   const [uploadStatus, setUploadStatus] = useState("");
@@ -130,6 +131,13 @@ export default function BenchmarkRunner() {
   const [usePersonalDocs, setUsePersonalDocs] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
+  // Interest form state
+  const [interestEmail, setInterestEmail] = useState("");
+  const [interestName, setInterestName] = useState("");
+  const [interestNote, setInterestNote] = useState("");
+  const [interestStatus, setInterestStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
+  const [interestMsg, setInterestMsg] = useState("");
+
   // Cooldown ticker
   useEffect(() => {
     if (cooldownSec <= 0) return;
@@ -137,21 +145,16 @@ export default function BenchmarkRunner() {
     return () => clearTimeout(t);
   }, [cooldownSec]);
 
-  const refreshQuota = useCallback(async (key: string) => {
-    if (!key.trim()) return;
-    const result = await checkBenchmarkQuota(key.trim());
+  // Load quota on mount — standard benchmark is open, no key needed.
+  const refreshQuota = useCallback(async () => {
+    const result = await checkBenchmarkQuota();
     if (result.ok && result.quota) {
       setQuota(result.quota);
       setCooldownSec(result.quota.seconds_until_next);
     }
   }, []);
 
-  // Refresh quota when key changes (debounced)
-  useEffect(() => {
-    if (!benchmarkKey.trim()) { setQuota(null); return; }
-    const t = setTimeout(() => { void refreshQuota(benchmarkKey); }, 600);
-    return () => clearTimeout(t);
-  }, [benchmarkKey, refreshQuota]);
+  useEffect(() => { void refreshQuota(); }, [refreshQuota]);
 
   async function handleUpload() {
     if (uploadedFiles.length === 0) return;
@@ -171,10 +174,6 @@ export default function BenchmarkRunner() {
   }
 
   async function runBenchmark(iterCount = 1, sid: string | null = null) {
-    if (!benchmarkKey.trim()) {
-      setError("Enter your benchmark key to run.");
-      return;
-    }
     setRunning(true);
     setError(null);
     setResults([]);
@@ -203,14 +202,23 @@ export default function BenchmarkRunner() {
           if (reqIdx > 0) await sleep(REQUEST_DELAY_MS);
           reqIdx++;
 
+          // Advanced path (session) needs the key; standard path does not.
+          const options = sid
+            ? {
+                benchmark: true,
+                benchmarkKey: advancedKey.trim(),
+                benchmarkMode: iterCount > 1 ? "x10" as const : "normal" as const,
+                runId,
+                sessionId: sid,
+              }
+            : {
+                benchmark: true,
+                benchmarkMode: "normal" as const,
+                runId,
+              };
+
           try {
-            const { data, latencyMs } = await callApi(q, mode, {
-              benchmark: true,
-              benchmarkKey: benchmarkKey.trim(),
-              benchmarkMode: iterCount > 1 ? "x10" : "normal",
-              runId,
-              ...(sid ? { sessionId: sid } : {}),
-            });
+            const { data, latencyMs } = await callApi(q, mode, options);
             summaries[mode] = buildSummary(data, latencyMs);
             if (data.quota) lastQuotaInfo = data.quota;
           } catch (err) {
@@ -262,7 +270,7 @@ export default function BenchmarkRunner() {
       setQuota(lastQuotaInfo);
       setCooldownSec(lastQuotaInfo.seconds_until_next);
     } else {
-      await refreshQuota(benchmarkKey);
+      await refreshQuota();
     }
 
     setRunning(false);
@@ -292,7 +300,7 @@ export default function BenchmarkRunner() {
         if (r.winner === "tie") winCounts.tie++;
       }
     }
-    const payload = {
+    const blob_payload = {
       exported_at: new Date().toISOString(),
       query_list: BENCHMARK_QUERIES,
       summary: {
@@ -306,7 +314,7 @@ export default function BenchmarkRunner() {
       history,
       quota,
     };
-    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+    const blob = new Blob([JSON.stringify(blob_payload, null, 2)], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
@@ -317,10 +325,28 @@ export default function BenchmarkRunner() {
     URL.revokeObjectURL(url);
   }
 
-  const canRun =
-    !running &&
-    !!benchmarkKey.trim() &&
-    (quota === null || (quota.remaining_runs > 0 && cooldownSec === 0));
+  async function handleInterestSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    if (!interestEmail.trim()) return;
+    setInterestStatus("submitting");
+    const result = await submitBenchmarkInterest(
+      interestEmail.trim(),
+      interestName.trim(),
+      interestNote.trim(),
+    );
+    if (result.ok) {
+      setInterestStatus("success");
+      setInterestMsg(result.message ?? "Thanks!");
+    } else {
+      setInterestStatus("error");
+      setInterestMsg(result.error ?? "Submission failed.");
+    }
+  }
+
+  // Standard benchmark is open — only gate is quota.
+  const canRun = !running && (quota === null || (quota.remaining_runs > 0 && cooldownSec === 0));
+  // Advanced run additionally requires a key and (for personal-docs) a session.
+  const canRunAdvanced = canRun && !!advancedKey.trim() && (!usePersonalDocs || !!sessionId);
 
   const allLatencies = {
     flat: [] as number[],
@@ -349,68 +375,44 @@ export default function BenchmarkRunner() {
           Live Benchmark
         </h2>
         <p className="max-w-prose text-sm text-text-muted">
-          Runs {BENCHMARK_QUERIES.length} queries through all four modes against the live AWS Lambda
-          backend. Rate limits are enforced server-side: {DAILY_LIMIT} runs per day per IP, with a
-          1-hour gap between runs.
+          Runs {BENCHMARK_QUERIES.length} queries through all four retrieval modes — Flat BM25,
+          Hierarchical, LLM-only (Bedrock), and RAG — against the live AWS Lambda backend.
+          {DAILY_LIMIT} runs per day per IP, 1-hour gap between runs. No account needed.
         </p>
       </div>
 
-      {/* Benchmark key input */}
-      <div className="flex flex-col gap-2">
-        <label htmlFor="bm-key" className="text-sm font-medium text-text">
-          Benchmark key
-        </label>
-        <input
-          id="bm-key"
-          type="password"
-          value={benchmarkKey}
-          onChange={(e) => setBenchmarkKey(e.target.value)}
-          placeholder="Enter key to unlock benchmark"
-          className="w-full max-w-sm rounded-lg border border-border bg-surface-2 px-3 py-2 text-sm text-text placeholder:text-text-muted focus:outline focus:outline-2 focus:outline-focus"
-          disabled={running}
-          autoComplete="off"
-        />
+      {/* Quota display */}
+      {quota && (
+        <div className="rounded-lg border border-border bg-surface px-4 py-3 text-sm">
+          {quota.remaining_runs > 0 ? (
+            <p className="text-text-muted">
+              <span className="font-medium text-text">{quota.remaining_runs}</span> of{" "}
+              {quota.daily_limit} runs left today
+              {cooldownSec > 0 && (
+                <>
+                  {" · "}next run in{" "}
+                  <span className="font-medium text-text">{fmtCooldown(cooldownSec)}</span>
+                </>
+              )}
+            </p>
+          ) : (
+            <p className="text-accent-text">
+              Daily limit reached ({quota.daily_limit}/{quota.daily_limit} runs). Resets at midnight UTC.
+            </p>
+          )}
+        </div>
+      )}
 
-        {/* Quota status */}
-        {quota && (
-          <p className="text-xs text-text-muted">
-            {quota.remaining_runs > 0 ? (
-              <>
-                <span className="font-medium text-text">{quota.remaining_runs}</span> of{" "}
-                {quota.daily_limit} runs left today
-                {cooldownSec > 0 && (
-                  <>
-                    {" "}
-                    · next run in{" "}
-                    <span className="font-medium text-text">{fmtCooldown(cooldownSec)}</span>
-                  </>
-                )}
-              </>
-            ) : (
-              <span className="text-accent-text">
-                Daily limit reached ({quota.daily_limit}/{quota.daily_limit} runs). Resets at
-                midnight UTC.
-              </span>
-            )}
-          </p>
-        )}
-      </div>
-
-      {/* Run controls */}
+      {/* Standard run controls */}
       <div className="flex flex-wrap items-center gap-3">
         {!running ? (
           <button
             type="button"
-            onClick={() =>
-              void runBenchmark(
-                usePersonalDocs ? iterations : 1,
-                usePersonalDocs ? sessionId : null,
-              )
-            }
-            disabled={!canRun || (usePersonalDocs && !sessionId)}
+            onClick={() => void runBenchmark(1, null)}
+            disabled={!canRun}
             className="inline-flex min-h-11 items-center rounded-lg bg-accent px-5 font-medium text-white transition-colors hover:bg-accent-hover disabled:opacity-40 disabled:cursor-not-allowed"
           >
-            {usePersonalDocs ? `Run on Personal Docs (×${iterations})` : "Run Benchmark"}
+            Run Benchmark
           </button>
         ) : (
           <button
@@ -433,7 +435,6 @@ export default function BenchmarkRunner() {
         {progress && <p className="text-sm text-text-muted">{progress}</p>}
       </div>
 
-      {/* Disabled-run explanation */}
       {!running && quota && quota.remaining_runs === 0 && (
         <p className="text-sm text-accent-text">
           Daily benchmark limit reached. Runs reset at midnight UTC.
@@ -452,89 +453,173 @@ export default function BenchmarkRunner() {
         </div>
       )}
 
-      {/* Personal-docs section */}
+      {/* Advanced: personal-docs (requires key) */}
       <section className="flex flex-col gap-4 rounded-lg border border-border bg-surface p-5">
-        <div className="flex items-center gap-3">
-          <input
-            id="use-personal"
-            type="checkbox"
-            checked={usePersonalDocs}
-            onChange={(e) => setUsePersonalDocs(e.target.checked)}
-            className="h-4 w-4 accent-accent"
-          />
-          <label htmlFor="use-personal" className="text-sm font-medium text-text">
-            Benchmark against my own uploaded docs
+        <h3 className="text-base font-semibold text-text">Advanced: Benchmark on your own docs</h3>
+        <p className="text-xs text-text-muted">
+          Upload your own PDFs or TXTs and benchmark retrieval against them with up to 10 iterations.
+          Requires an access key — request one below if you don&apos;t have one.
+        </p>
+
+        <div className="flex flex-col gap-2">
+          <label htmlFor="adv-key" className="text-sm font-medium text-text">
+            Access key
           </label>
+          <input
+            id="adv-key"
+            type="password"
+            value={advancedKey}
+            onChange={(e) => setAdvancedKey(e.target.value)}
+            placeholder="Paste your access key"
+            className="w-full max-w-sm rounded-lg border border-border bg-surface-2 px-3 py-2 text-sm text-text placeholder:text-text-muted focus:outline focus:outline-2 focus:outline-focus"
+            disabled={running}
+            autoComplete="off"
+          />
         </div>
 
-        {usePersonalDocs && (
-          <div className="flex flex-col gap-3 pl-7">
-            <p className="text-xs text-text-muted">
-              Upload your PDFs/TXTs (max 5 files, 10 MB each). The benchmark will search your docs
-              instead of the system corpus. Counts as one run against the daily cap.
-            </p>
-
-            <div className="flex flex-wrap items-center gap-3">
-              <button
-                type="button"
-                onClick={() => fileInputRef.current?.click()}
-                className="inline-flex items-center rounded-lg border border-border px-4 py-2 text-sm font-medium text-text hover:bg-surface-2"
-                disabled={uploading || running}
-              >
-                Select files
-              </button>
+        {advancedKey.trim() && (
+          <>
+            <div className="flex items-center gap-3">
               <input
-                ref={fileInputRef}
-                type="file"
-                multiple
-                accept=".pdf,.txt,.md,.csv,.html,.htm,.json"
-                className="hidden"
-                onChange={(e) => {
-                  const chosen = Array.from(e.target.files ?? []);
-                  setUploadedFiles(chosen);
-                  setSessionId(null);
-                  setUploadStatus("");
-                }}
+                id="use-personal"
+                type="checkbox"
+                checked={usePersonalDocs}
+                onChange={(e) => setUsePersonalDocs(e.target.checked)}
+                className="h-4 w-4 accent-accent"
               />
-              {uploadedFiles.length > 0 && (
-                <span className="text-sm text-text-muted">
-                  {uploadedFiles.map((f) => f.name).join(", ")}
-                </span>
-              )}
-              {uploadedFiles.length > 0 && !sessionId && (
-                <button
-                  type="button"
-                  onClick={() => void handleUpload()}
-                  disabled={uploading || running}
-                  className="inline-flex items-center rounded-lg bg-accent px-4 py-2 text-sm font-medium text-white hover:bg-accent-hover disabled:opacity-40"
-                >
-                  {uploading ? "Uploading…" : "Upload & Index"}
-                </button>
-              )}
+              <label htmlFor="use-personal" className="text-sm font-medium text-text">
+                Benchmark against my own uploaded docs
+              </label>
             </div>
 
-            {uploadStatus && (
-              <p className="text-xs text-text-muted">{uploadStatus}</p>
-            )}
+            {usePersonalDocs && (
+              <div className="flex flex-col gap-3 pl-7">
+                <div className="flex flex-wrap items-center gap-3">
+                  <button
+                    type="button"
+                    onClick={() => fileInputRef.current?.click()}
+                    className="inline-flex items-center rounded-lg border border-border px-4 py-2 text-sm font-medium text-text hover:bg-surface-2"
+                    disabled={uploading || running}
+                  >
+                    Select files
+                  </button>
+                  <input
+                    ref={fileInputRef}
+                    type="file"
+                    multiple
+                    accept=".pdf,.txt,.md,.csv,.html,.htm,.json"
+                    className="hidden"
+                    onChange={(e) => {
+                      const chosen = Array.from(e.target.files ?? []);
+                      setUploadedFiles(chosen);
+                      setSessionId(null);
+                      setUploadStatus("");
+                    }}
+                  />
+                  {uploadedFiles.length > 0 && (
+                    <span className="text-sm text-text-muted">
+                      {uploadedFiles.map((f) => f.name).join(", ")}
+                    </span>
+                  )}
+                  {uploadedFiles.length > 0 && !sessionId && (
+                    <button
+                      type="button"
+                      onClick={() => void handleUpload()}
+                      disabled={uploading || running}
+                      className="inline-flex items-center rounded-lg bg-accent px-4 py-2 text-sm font-medium text-white hover:bg-accent-hover disabled:opacity-40"
+                    >
+                      {uploading ? "Uploading…" : "Upload & Index"}
+                    </button>
+                  )}
+                </div>
 
-            {sessionId && (
-              <div className="flex items-center gap-3">
-                <label htmlFor="iter-count" className="text-sm text-text">
-                  Iterations (1–10):
-                </label>
-                <input
-                  id="iter-count"
-                  type="number"
-                  min={1}
-                  max={10}
-                  value={iterations}
-                  onChange={(e) => setIterations(Math.max(1, Math.min(10, parseInt(e.target.value, 10) || 1)))}
-                  className="w-16 rounded-lg border border-border bg-surface-2 px-2 py-1 text-sm text-text"
-                  disabled={running}
-                />
+                {uploadStatus && (
+                  <p className="text-xs text-text-muted">{uploadStatus}</p>
+                )}
+
+                {sessionId && (
+                  <div className="flex items-center gap-3">
+                    <label htmlFor="iter-count" className="text-sm text-text">
+                      Iterations (1–10):
+                    </label>
+                    <input
+                      id="iter-count"
+                      type="number"
+                      min={1}
+                      max={10}
+                      value={iterations}
+                      onChange={(e) => setIterations(Math.max(1, Math.min(10, parseInt(e.target.value, 10) || 1)))}
+                      className="w-16 rounded-lg border border-border bg-surface-2 px-2 py-1 text-sm text-text"
+                      disabled={running}
+                    />
+                  </div>
+                )}
               </div>
             )}
-          </div>
+
+            <div className="flex flex-wrap gap-3">
+              <button
+                type="button"
+                onClick={() =>
+                  void runBenchmark(
+                    usePersonalDocs ? iterations : 1,
+                    usePersonalDocs ? sessionId : null,
+                  )
+                }
+                disabled={!canRunAdvanced}
+                className="inline-flex min-h-11 items-center rounded-lg bg-accent px-5 font-medium text-white transition-colors hover:bg-accent-hover disabled:opacity-40 disabled:cursor-not-allowed"
+              >
+                {usePersonalDocs ? `Run on Personal Docs (×${iterations})` : "Run Advanced Benchmark"}
+              </button>
+            </div>
+          </>
+        )}
+      </section>
+
+      {/* Request access form */}
+      <section className="flex flex-col gap-4 rounded-lg border border-dashed border-border bg-surface p-5">
+        <h3 className="text-base font-semibold text-text">Request access to advanced benchmark</h3>
+        <p className="text-xs text-text-muted">
+          Leave your email and we&apos;ll send you an access key to run benchmarks on your own documents.
+        </p>
+
+        {interestStatus === "success" ? (
+          <p className="rounded-lg bg-surface-2 px-4 py-3 text-sm text-text">{interestMsg}</p>
+        ) : (
+          <form onSubmit={(e) => void handleInterestSubmit(e)} className="flex flex-col gap-3">
+            <input
+              type="email"
+              required
+              value={interestEmail}
+              onChange={(e) => setInterestEmail(e.target.value)}
+              placeholder="your@email.com"
+              className="w-full max-w-sm rounded-lg border border-border bg-surface-2 px-3 py-2 text-sm text-text placeholder:text-text-muted focus:outline focus:outline-2 focus:outline-focus"
+            />
+            <input
+              type="text"
+              value={interestName}
+              onChange={(e) => setInterestName(e.target.value)}
+              placeholder="Name (optional)"
+              className="w-full max-w-sm rounded-lg border border-border bg-surface-2 px-3 py-2 text-sm text-text placeholder:text-text-muted focus:outline focus:outline-2 focus:outline-focus"
+            />
+            <textarea
+              value={interestNote}
+              onChange={(e) => setInterestNote(e.target.value)}
+              placeholder="What will you benchmark? (optional)"
+              rows={2}
+              className="w-full max-w-sm rounded-lg border border-border bg-surface-2 px-3 py-2 text-sm text-text placeholder:text-text-muted focus:outline focus:outline-2 focus:outline-focus"
+            />
+            {interestStatus === "error" && (
+              <p className="text-xs text-accent-text">{interestMsg}</p>
+            )}
+            <button
+              type="submit"
+              disabled={interestStatus === "submitting"}
+              className="inline-flex min-h-10 w-fit items-center rounded-lg bg-accent px-5 text-sm font-medium text-white transition-colors hover:bg-accent-hover disabled:opacity-40"
+            >
+              {interestStatus === "submitting" ? "Submitting…" : "Request access"}
+            </button>
+          </form>
         )}
       </section>
 

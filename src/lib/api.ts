@@ -120,18 +120,12 @@ export async function callApi(
   return { data: raw, latencyMs };
 }
 
-export async function checkBenchmarkQuota(
-  benchmarkKey: string,
-): Promise<{ ok: boolean; quota?: BenchmarkQuota; error?: string }> {
-  const headers: Record<string, string> = {
-    "Content-Type": "application/json",
-    "X-Benchmark-Key": benchmarkKey,
-    "X-Benchmark-Mode": "normal",
-  };
+// Quota check is open to all — no benchmark key required.
+export async function checkBenchmarkQuota(): Promise<{ ok: boolean; quota?: BenchmarkQuota; error?: string }> {
   try {
     const res = await fetch(API_URL, {
       method: "POST",
-      headers,
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ benchmark: true, quota_check: true }),
     });
     const data = await res.json() as { quota?: BenchmarkQuota; error?: string };
@@ -139,6 +133,25 @@ export async function checkBenchmarkQuota(
     return { ok: true, quota: data.quota };
   } catch (e) {
     return { ok: false, error: (e as Error).message ?? "Quota check failed." };
+  }
+}
+
+export async function submitBenchmarkInterest(
+  email: string,
+  name?: string,
+  note?: string,
+): Promise<{ ok: boolean; message?: string; error?: string }> {
+  try {
+    const res = await fetch(`${API_BASE}/api/benchmark-interest`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, name: name ?? "", note: note ?? "" }),
+    });
+    const data = await res.json() as { success?: boolean; message?: string; error?: string };
+    if (!res.ok) return { ok: false, error: data.error ?? `Request failed (${res.status})` };
+    return { ok: true, message: data.message };
+  } catch (e) {
+    return { ok: false, error: (e as Error).message ?? "Submission failed." };
   }
 }
 
