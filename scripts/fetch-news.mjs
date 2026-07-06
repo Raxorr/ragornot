@@ -70,7 +70,7 @@ const HN_QUERIES = ["RAG retrieval augmented generation", "LLM inference cost", 
 
 const MAX_ITEMS = 40;
 const OUTPUT_PATH = path.join(process.cwd(), "public", "news.json");
-const USER_AGENT = "ragornot-news-fetcher/1.0 (+https://github.com/rohitsarna/ragornot)";
+const USER_AGENT = "ragornot-news-fetcher/1.0 (+https://github.com/Raxorr/ragornot)";
 const FETCH_TIMEOUT_MS = 10_000;
 
 /** Fetch text with a timeout; returns null (never throws) on any failure. */

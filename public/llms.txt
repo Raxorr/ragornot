@@ -12,12 +12,12 @@ The live benchmark runs all four modes against the same query and reports latenc
 
 ## Pages
 
-- /news — AI, LLM, RAG, cost, and sustainability news aggregated from arXiv, Hacker News, and publisher RSS feeds. Refreshed every 6 hours via GitHub Actions.
+- /news — AI, LLM, RAG, cost, and sustainability news aggregated from arXiv, Hacker News, and publisher RSS feeds. Refreshed every hour via GitHub Actions.
 - /explore — Interactive search over 116 AWS documentation pages with mode selection and live results.
 - /benchmark — Live multi-query benchmark runner comparing all four retrieval modes side by side, plus an impact analytics section showing cost and CO₂ estimates.
 
 ## Source
 
-- Repository: https://github.com/rohitsarna/ragornot
-- Author: Rohit Sarna (https://github.com/rohitsarna)
+- Repository: https://github.com/Raxorr/ragornot
+- Author: Rohit Sarna (https://github.com/Raxorr)
 - License: MIT

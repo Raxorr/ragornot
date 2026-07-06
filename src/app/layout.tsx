@@ -14,7 +14,7 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://rohitsarna.github.io/ragornot";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://raxorr.github.io/ragornot";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   description:
     "Compare retrieval architectures, track real cost and latency, and follow the AI, LLM, and RAG conversation — in one place.",
-  authors: [{ name: "Rohit Sarna", url: "https://github.com/rohitsarna" }],
+  authors: [{ name: "Rohit Sarna", url: "https://github.com/Raxorr" }],
   keywords: ["RAG", "retrieval augmented generation", "LLM", "AWS docs", "benchmark", "AI", "vector search"],
   openGraph: {
     type: "website",
@@ -73,7 +73,7 @@ const JSON_LD = {
   author: {
     "@type": "Person",
     name: "Rohit Sarna",
-    url: "https://github.com/rohitsarna",
+    url: "https://github.com/Raxorr",
   },
 };
 

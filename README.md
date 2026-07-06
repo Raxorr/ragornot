@@ -2,7 +2,7 @@
 
 Compare retrieval architectures, track real cost and latency, and follow the AI, LLM, and RAG conversation — in one place.
 
-**Live site:** https://rohitsarna.github.io/ragornot
+**Live site:** https://raxorr.github.io/ragornot
 
 ---
 
@@ -72,7 +72,7 @@ To add a source: edit `RSS_SOURCES` in `scripts/fetch-news.mjs`.
 Build env vars set in the workflow:
 ```
 NEXT_PUBLIC_API_BASE_URL=https://d8mkun1yo4v0c.cloudfront.net
-NEXT_PUBLIC_SITE_URL=https://rohitsarna.github.io/ragornot
+NEXT_PUBLIC_SITE_URL=https://raxorr.github.io/ragornot
 NEXT_BASE_PATH=/ragornot
 ```
 
@@ -91,7 +91,7 @@ The Lambda backend is in a separate repo (`aws-serverless-docs-assistant`) and i
 ## Custom domain (deferred — do after GitHub Pages is live)
 
 1. GitHub repo Settings → Pages → Custom domain: enter your domain
-2. Cloudflare/Route 53 DNS: `CNAME` pointing to `rohitsarna.github.io`
+2. Cloudflare/Route 53 DNS: `CNAME` pointing to `raxorr.github.io`
 3. In `.github/workflows/deploy.yml`: remove `NEXT_BASE_PATH=/ragornot` and update `NEXT_PUBLIC_SITE_URL` to the new domain
 4. Update `public/robots.txt` and `public/sitemap.xml` URLs
 5. No CORS changes needed — Lambda already allows any origin

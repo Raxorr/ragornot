@@ -35,7 +35,7 @@ export default function Footer() {
           All articles link to their original publisher. ragornot does not reproduce full article text.
           Code is MIT licensed.{" "}
           <a
-            href="https://github.com/rohitsarna/ragornot/blob/main/LICENSE"
+            href="https://github.com/Raxorr/ragornot/blob/main/LICENSE"
             target="_blank"
             rel="noopener noreferrer"
             className="underline hover:text-accent-text"

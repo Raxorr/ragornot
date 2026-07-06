@@ -22,7 +22,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
 
       - name: Install dependencies
@@ -31,7 +31,7 @@ jobs:
       - name: Build
         env:
           NEXT_PUBLIC_API_BASE_URL: https://d8mkun1yo4v0c.cloudfront.net
-          NEXT_PUBLIC_SITE_URL: https://rohitsarna.github.io/ragornot
+          NEXT_PUBLIC_SITE_URL: https://raxorr.github.io/ragornot
           NEXT_BASE_PATH: /ragornot
         run: npm run build
 

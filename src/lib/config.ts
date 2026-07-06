@@ -8,7 +8,7 @@ export const site = {
   heroSubtitle:
     "Compare retrieval architectures, track real cost and latency, and follow the AI, LLM, and RAG conversation — in one place.",
   author: "Rohit Sarna",
-  githubUrl: "https://github.com/rohitsarna",
+  githubUrl: "https://github.com/Raxorr",
   linkedinUrl: "https://www.linkedin.com/in/rohitsarna",
 } as const;
 

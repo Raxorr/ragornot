@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rohitsarna.github.io/ragornot/sitemap.xml
+Sitemap: https://raxorr.github.io/ragornot/sitemap.xml
