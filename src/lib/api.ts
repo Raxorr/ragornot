@@ -29,6 +29,14 @@ export interface ApiDebug {
   total_scored_chunks?: number;
 }
 
+export interface BenchmarkQuota {
+  remaining_runs: number;
+  runs_used: number;
+  daily_limit: number;
+  seconds_until_next: number;
+  next_run_allowed: boolean;
+}
+
 export interface ApiResponse {
   query: string;
   mode: ApiMode;
@@ -42,6 +50,8 @@ export interface ApiResponse {
   retrieval_stats: Record<string, unknown> | null;
   remaining?: number;
   expires_in_hours?: number;
+  quota?: BenchmarkQuota;
+  retry_after_seconds?: number;
 }
 
 export interface ApiError extends Error {
@@ -59,6 +69,8 @@ interface CallOptions {
   benchmark?: boolean;
   benchmarkKey?: string;
   benchmarkMode?: "normal" | "x10";
+  runId?: string;
+  sessionId?: string;
 }
 
 export async function callApi(
@@ -76,7 +88,9 @@ export async function callApi(
       headers["X-Benchmark-Key"] = options.benchmarkKey;
     }
     headers["X-Benchmark-Mode"] = options.benchmarkMode ?? "normal";
+    if (options.runId) body.run_id = options.runId;
   }
+  if (options.sessionId) body.session_id = options.sessionId;
 
   const started = performance.now();
   const res = await fetch(API_URL, {
@@ -97,9 +111,8 @@ export async function callApi(
       const parsed = parseInt(retryHeader, 10);
       if (!isNaN(parsed)) err.retryAfterSeconds = parsed;
     }
-    const rawAny = raw as unknown as Record<string, unknown>;
-    if (typeof rawAny.retry_after_seconds === "number") {
-      err.retryAfterSeconds = rawAny.retry_after_seconds;
+    if (typeof raw.retry_after_seconds === "number") {
+      err.retryAfterSeconds = raw.retry_after_seconds;
     }
     throw err;
   }
@@ -108,24 +121,56 @@ export async function callApi(
 }
 
 export async function checkBenchmarkQuota(
-  benchmarkMode: "normal" | "x10",
   benchmarkKey: string,
-): Promise<{ ok: boolean; remaining?: number; error?: string }> {
+): Promise<{ ok: boolean; quota?: BenchmarkQuota; error?: string }> {
   const headers: Record<string, string> = {
     "Content-Type": "application/json",
     "X-Benchmark-Key": benchmarkKey,
-    "X-Benchmark-Mode": benchmarkMode,
+    "X-Benchmark-Mode": "normal",
   };
   try {
     const res = await fetch(API_URL, {
       method: "POST",
       headers,
-      body: JSON.stringify({ benchmark: true, quota_check: true, benchmark_mode: benchmarkMode }),
+      body: JSON.stringify({ benchmark: true, quota_check: true }),
     });
-    const data = await res.json() as { remaining?: number; error?: string };
+    const data = await res.json() as { quota?: BenchmarkQuota; error?: string };
     if (!res.ok) return { ok: false, error: data.error ?? `Quota check failed (${res.status})` };
-    return { ok: true, remaining: data.remaining };
+    return { ok: true, quota: data.quota };
   } catch (e) {
     return { ok: false, error: (e as Error).message ?? "Quota check failed." };
   }
+}
+
+const UPLOAD_URL = `${API_BASE}/api/upload`;
+
+export interface UploadResult {
+  session_id: string;
+  total_chunks: number;
+  expires_in_hours: number;
+  files: Array<{ name: string; status: string; chunks?: number; reason?: string }>;
+}
+
+export async function uploadDocs(files: File[]): Promise<UploadResult> {
+  const filesPayload: Array<{ name: string; content: string }> = [];
+  for (const file of files) {
+    const b64 = await new Promise<string>((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => {
+        const result = reader.result as string;
+        resolve(result.split(",")[1]);
+      };
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+    filesPayload.push({ name: file.name, content: b64 });
+  }
+  const res = await fetch(UPLOAD_URL, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ files: filesPayload }),
+  });
+  const data = await res.json() as UploadResult & { error?: string };
+  if (!res.ok) throw new Error(data.error ?? `Upload failed (${res.status})`);
+  return data;
 }
