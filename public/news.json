@@ -1,110 +1,368 @@
 [
   {
-    "id": "seed-2026-07-05-google-longcontext",
-    "headline": "Google DeepMind outlines new evaluation benchmarks for long-context reasoning",
+    "id": "google-ai-blog-the-latest-ai-news-we-announced-in-june-2026",
+    "headline": "The latest AI news we announced in June 2026",
     "source": "Google AI Blog",
-    "url": "https://blog.google/technology/ai/",
-    "publishedAt": "2026-07-05T14:00:00Z",
-    "topic": "AI",
-    "summary": "The benchmarks probe how models hold up as context windows grow, a question directly relevant to RAG vs. long-context tradeoffs."
-  },
-  {
-    "id": "seed-2026-07-05-openai-cost-latency",
-    "headline": "OpenAI details cost and latency tradeoffs for its latest model tier",
-    "source": "OpenAI",
-    "url": "https://openai.com/news/",
-    "publishedAt": "2026-07-05T09:00:00Z",
-    "topic": "LLM",
-    "summary": "New pricing tiers trade throughput for lower per-token cost, shifting the math on when retrieval is worth adding."
-  },
-  {
-    "id": "seed-2026-07-04-arxiv-rag-survey",
-    "headline": "New arXiv survey compares retrieval-augmented generation against long-context prompting",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/list/cs.CL/recent",
-    "publishedAt": "2026-07-04T18:00:00Z",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+    "publishedAt": "2026-07-01T18:15:00.000Z",
     "topic": "RAG",
-    "summary": "The survey finds RAG still wins on cost and freshness even as context windows grow, but long-context narrows the accuracy gap."
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from June 2026.",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp"
   },
   {
-    "id": "seed-2026-07-04-hf-embedding-benchmark",
-    "headline": "Hugging Face publishes an open benchmark for embedding models used in retrieval",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog",
-    "publishedAt": "2026-07-04T10:00:00Z",
-    "topic": "RAG",
-    "summary": "A shared leaderboard for retrieval-quality embeddings, aimed at teams choosing a model for a RAG pipeline."
-  },
-  {
-    "id": "seed-2026-07-03-aws-vector-cost",
-    "headline": "AWS ML Blog: right-sizing vector search infrastructure to cut inference spend",
+    "id": "aws-machine-learning-blog-structured-memory-filtering-with-metadata-in-agentcore-memor",
+    "headline": "Structured memory filtering with metadata in AgentCore Memory",
     "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/",
-    "publishedAt": "2026-07-03T16:00:00Z",
-    "topic": "Cost",
-    "summary": "Guidance on matching index size and instance type to query volume instead of over-provisioning by default."
-  },
-  {
-    "id": "seed-2026-07-02-datacenter-electricity",
-    "headline": "Report estimates data center electricity demand from AI workloads keeps climbing through 2030",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/",
-    "publishedAt": "2026-07-02T12:00:00Z",
-    "topic": "Environment",
-    "summary": "Inference, not training, is flagged as the fastest-growing share of that demand as usage scales."
-  },
-  {
-    "id": "seed-2026-07-01-anthropic-retrieval-guidance",
-    "headline": "Anthropic shares guidance on when retrieval beats fine-tuning for enterprise knowledge bases",
-    "source": "Anthropic",
-    "url": "https://www.anthropic.com/news",
-    "publishedAt": "2026-07-01T08:00:00Z",
-    "topic": "LLM",
-    "summary": "A practical decision framework: retrieval for fast-changing knowledge, fine-tuning for stable style and format."
-  },
-  {
-    "id": "seed-2026-06-29-enterprise-pilots-stall",
-    "headline": "Survey: most enterprise AI pilots still stall before reaching production",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/",
-    "publishedAt": "2026-06-29T15:00:00Z",
-    "topic": "AI",
-    "summary": "Grounding and evaluation gaps, more than model quality, are cited as the top blockers past the pilot stage."
-  },
-  {
-    "id": "seed-2026-06-27-hybrid-retrieval-paper",
-    "headline": "New arXiv paper proposes a cheaper hybrid lexical + dense retrieval for large document sets",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/list/cs.IR/recent",
-    "publishedAt": "2026-06-27T11:00:00Z",
+    "url": "https://aws.amazon.com/blogs/machine-learning/structured-memory-filtering-with-metadata-in-agentcore-memory/",
+    "publishedAt": "2026-07-01T18:03:10.000Z",
     "topic": "RAG",
-    "summary": "Combining a lexical first pass with dense re-ranking cuts vector-index size without much of an accuracy hit."
+    "summary": "In this post, you will learn how metadata works across configuration, ingestion, and retrieval, explore enterprise use cases including multi-agent and multi-tenant architectures, and discover best practices for implement"
   },
   {
-    "id": "seed-2026-06-24-token-pricing-vs-rag-cost",
-    "headline": "Analysis: falling token prices haven't closed the cost gap between RAG and raw generation",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/",
-    "publishedAt": "2026-06-24T09:00:00Z",
-    "topic": "Cost",
-    "summary": "Retrieval itself is nearly free — the added cost comes from the extra context tokens sent to the model."
+    "id": "aws-machine-learning-blog-hipporag-neurobiologically-inspired-rag-using-amazon-bedrock",
+    "headline": "HippoRAG: Neurobiologically inspired RAG using Amazon Bedrock, Amazon Neptune, and personalized PageRank",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/hipporag-neurobiologically-inspired-rag-using-amazon-bedrock-amazon-neptune-and-personalized-pagerank/",
+    "publishedAt": "2026-07-01T18:01:32.000Z",
+    "topic": "RAG",
+    "summary": "In this post, we demonstrate how to implement HippoRAG using a comprehensive AWS stack. We use Amazon Bedrock for LLM capabilities, Amazon Neptune for graph database functionality, Amazon Neptune Analytics for advanced g"
   },
   {
-    "id": "seed-2026-06-21-hf-energy-model-cards",
-    "headline": "Hugging Face adds energy-use estimates to its model cards",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog",
-    "publishedAt": "2026-06-21T13:00:00Z",
-    "topic": "Environment",
-    "summary": "Per-inference energy figures now sit alongside accuracy numbers, making the tradeoff visible at model-selection time."
-  },
-  {
-    "id": "seed-2026-06-18-google-responsible-ai-retrieval",
-    "headline": "Google AI publishes updated responsible-AI guidelines for retrieval-based assistants",
+    "id": "google-ai-blog-new-york-city-educators-and-industry-leaders-gathered-at-goo",
+    "headline": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
     "source": "Google AI Blog",
-    "url": "https://blog.google/technology/ai/",
-    "publishedAt": "2026-06-18T10:00:00Z",
-    "topic": "AI",
-    "summary": "New guidance on citing sources and handling conflicting retrieved evidence in assistant-style products."
+    "url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+    "publishedAt": "2026-07-01T16:00:00.000Z",
+    "topic": "RAG",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp\">Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and in",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp"
+  },
+  {
+    "id": "aws-machine-learning-blog-implementing-resilience-patterns-with-amazon-bedrock-and-llm",
+    "headline": "Implementing resilience patterns with Amazon Bedrock and LLM gateway",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/implementing-resilience-patterns-with-amazon-bedrock-and-llm-gateway/",
+    "publishedAt": "2026-06-30T16:40:47.000Z",
+    "topic": "LLM",
+    "summary": "In this post, you will learn five practical patterns for building resilient generative AI applications on AWS, progressing from native Amazon Bedrock features to multi-model orchestration using an LLM gateway. These patt"
+  },
+  {
+    "id": "hacker-news-show-hn-fenic-llms-as-dataframe-operators-query-meaning-and-",
+    "headline": "Show HN: fenic – LLMs as dataframe operators, query meaning and structure",
+    "source": "Hacker News",
+    "url": "https://github.com/typedef-ai/fenic",
+    "publishedAt": "2026-06-30T16:39:40.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "google-ai-blog-unlocking-britain-s-next-era-of-productivity-building-a-nati",
+    "headline": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
+    "publishedAt": "2026-06-30T06:00:00.000Z",
+    "topic": "RAG",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp\">Google UK shares its latest Economic Impact Report and how to enable more people to ",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp"
+  },
+  {
+    "id": "google-ai-blog-ask-an-ai-expert-what-exactly-is-the-full-stack",
+    "headline": "Ask an AI expert: What exactly is the full stack?",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+    "publishedAt": "2026-06-29T16:00:00.000Z",
+    "topic": "RAG",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp\">A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundati",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp"
+  },
+  {
+    "id": "hacker-news-show-hn-rag-vector-db-cost-calculator",
+    "headline": "Show HN: RAG Vector DB Cost Calculator",
+    "source": "Hacker News",
+    "url": "https://tools.superml.org/calculators/rag-vector-db-cost-calculator",
+    "publishedAt": "2026-06-26T22:19:14.000Z",
+    "topic": "RAG"
+  },
+  {
+    "id": "hugging-face-blog-run-a-vllm-server-on-hf-jobs-in-one-command",
+    "headline": "Run a vLLM Server on HF Jobs in One Command",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/vllm-jobs",
+    "publishedAt": "2026-06-26T00:00:00.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "google-ai-blog-our-latest-google-finance-upgrades-including-a-new-app",
+    "headline": "Our latest Google Finance upgrades, including a new app",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+    "publishedAt": "2026-06-25T16:00:00.000Z",
+    "topic": "RAG",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp\">The new Google Finance is coming out of beta and launching a new Android app.",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp"
+  },
+  {
+    "id": "hacker-news-show-hn-sipp-run-small-local-llms-in-browser-3x-faster",
+    "headline": "Show HN: Sipp – Run small local LLMs in browser 3x faster",
+    "source": "Hacker News",
+    "url": "https://www.sipp.sh",
+    "publishedAt": "2026-06-24T14:52:44.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "openai-openai-and-broadcom-unveil-llm-optimized-inference-chip",
+    "headline": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+    "publishedAt": "2026-06-24T06:00:00.000Z",
+    "topic": "LLM",
+    "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems."
+  },
+  {
+    "id": "hugging-face-blog-experimenting-with-the-proposed-cross-origin-storage-api-in-",
+    "headline": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/cross-origin-storage",
+    "publishedAt": "2026-06-23T00:00:00.000Z",
+    "topic": "RAG"
+  },
+  {
+    "id": "hacker-news-quantifying-llm-cost-savings-from-cache-aware-inference-rout",
+    "headline": "Quantifying LLM Cost Savings from Cache-Aware Inference Routing",
+    "source": "Hacker News",
+    "url": "https://www.auriko.ai/reports/llm-cost-arbitrage",
+    "publishedAt": "2026-06-18T17:21:23.000Z",
+    "topic": "Cost"
+  },
+  {
+    "id": "google-ai-blog-new-research-shows-how-amie-our-medical-ai-could-help-manage",
+    "headline": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+    "publishedAt": "2026-06-17T15:00:00.000Z",
+    "topic": "RAG",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\">Research in “Nature” shows our conversational AI system matches primary care physici",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp"
+  },
+  {
+    "id": "google-ai-blog-our-new-community-investments-in-virginia-support-local-jobs",
+    "headline": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+    "publishedAt": "2026-06-11T20:00:00.000Z",
+    "topic": "RAG",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp\">We’re helping build the state’s next-generation workforce and investing in energy programs.",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp"
+  },
+  {
+    "id": "hacker-news-mitigating-the-llm-rerun-crisis-for-minimized-inference-cost",
+    "headline": "Mitigating the LLM Rerun Crisis for Minimized-Inference-Cost Web Automation",
+    "source": "Hacker News",
+    "url": "https://arxiv.org/abs/2604.09718",
+    "publishedAt": "2026-06-07T14:29:29.000Z",
+    "topic": "Cost"
+  },
+  {
+    "id": "google-ai-blog-the-latest-ai-news-we-announced-in-may-2026",
+    "headline": "The latest AI news we announced in May 2026",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+    "publishedAt": "2026-06-05T14:45:00.000Z",
+    "topic": "RAG",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/May_AI_Recap_still.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from May 2026",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/May_AI_Recap_still.max-600x600.format-webp.webp"
+  },
+  {
+    "id": "google-ai-blog-5-ways-google-search-can-level-up-your-thrift-and-vintage-sh",
+    "headline": "5 ways Google Search can level up your thrift and vintage shopping",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+    "publishedAt": "2026-06-03T13:00:00.000Z",
+    "topic": "RAG",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp\">Uncover second-hand scores with AI tools in Google Search and Shopping.",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp"
+  },
+  {
+    "id": "google-ai-blog-how-we-used-gemini-to-build-google-i-o-2026",
+    "headline": "How we used Gemini to build Google I/O 2026",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+    "publishedAt": "2026-06-01T16:00:00.000Z",
+    "topic": "RAG",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp\">Learn how Googlers used AI to produce Google I/O 2026.",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp"
+  },
+  {
+    "id": "hugging-face-blog-beyond-llms-why-scalable-enterprise-ai-adoption-depends-on-a",
+    "headline": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+    "publishedAt": "2026-06-01T13:51:18.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "google-ai-blog-take-our-i-o-2026-quiz-vibe-coded-in-google-ai-studio",
+    "headline": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+    "publishedAt": "2026-05-29T19:00:00.000Z",
+    "topic": "RAG",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp\">We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp"
+  },
+  {
+    "id": "hacker-news-hybrid-local-and-cloud-llm-stack-for-regulated-financial-doc",
+    "headline": "Hybrid local and cloud LLM stack for regulated financial document processing?",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=48327218",
+    "publishedAt": "2026-05-29T18:22:54.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "google-ai-blog-9-demos-of-gemini-omni-and-gemini-3-5-in-action",
+    "headline": "9 demos of Gemini Omni and Gemini 3.5 in action",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+    "publishedAt": "2026-05-29T17:30:00.000Z",
+    "topic": "RAG",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Omni_and_Gemini_3.5_hero.max-600x600.format-webp.webp\">Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at ",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Omni_and_Gemini_3.5_hero.max-600x600.format-webp.webp"
+  },
+  {
+    "id": "google-ai-blog-check-out-real-life-ai-prototypes-from-the-futures-lab",
+    "headline": "Check out real-life AI prototypes from the Futures Lab.",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+    "publishedAt": "2026-05-29T12:00:00.000Z",
+    "topic": "RAG",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp\">University of Waterloo students develop AI prototypes like sign language tutors to reshape the fut",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp"
+  },
+  {
+    "id": "google-ai-blog-catch-up-on-12-major-i-o-2026-moments",
+    "headline": "Catch up on 12 major I/O 2026 moments",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+    "publishedAt": "2026-05-28T15:00:00.000Z",
+    "topic": "RAG",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_KNH.max-600x600.format-webp.webp\">Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flas",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_KNH.max-600x600.format-webp.webp"
+  },
+  {
+    "id": "google-ai-blog-catch-up-on-the-dialogues-stage-at-google-i-o-2026",
+    "headline": "Catch up on the Dialogues stage at Google I/O 2026.",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+    "publishedAt": "2026-05-22T18:00:00.000Z",
+    "topic": "RAG",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.max-600x600.format-webp.webp\">A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing,",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.max-600x600.format-webp.webp"
+  },
+  {
+    "id": "openai-how-virgin-atlantic-ships-faster-with-codex",
+    "headline": "How Virgin Atlantic ships faster with Codex",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/virgin-atlantic",
+    "publishedAt": "2026-05-22T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects."
+  },
+  {
+    "id": "weaviate-blog-build-a-coding-assistant-with-weaviate-mcp-rag-over-code-doc",
+    "headline": "Build a Coding Assistant with Weaviate MCP: RAG over Code & Docs",
+    "source": "Weaviate Blog",
+    "url": "https://weaviate.io/blog/coding-assistant-weaviate-mcp",
+    "publishedAt": "2026-05-21T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Use Weaviate's built-in MCP server to give Claude Code, Cursor, and VS Code hybrid search over your codebase and docs. No glue code."
+  },
+  {
+    "id": "google-ai-blog-we-re-announcing-new-community-investments-in-missouri",
+    "headline": "We’re announcing new community investments in Missouri.",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
+    "publishedAt": "2026-05-20T20:40:00.000Z",
+    "topic": "RAG",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MissouriSocial.max-600x600.format-webp.webp\">We’re helping build the state’s next-generation workforce and investing in energy programs.",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MissouriSocial.max-600x600.format-webp.webp"
+  },
+  {
+    "id": "google-ai-blog-100-things-we-announced-at-i-o-2026",
+    "headline": "100 things we announced at I/O 2026",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+    "publishedAt": "2026-05-20T19:30:00.000Z",
+    "topic": "RAG",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/100_things_Social.max-600x600.format-webp.webp\">We've been busy! Here’s a rundown of the top announcements, launches and demos at I/O 2026.",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/100_things_Social.max-600x600.format-webp.webp"
+  },
+  {
+    "id": "google-ai-blog-a-new-experiment-brings-better-group-meetings-to-google-beam",
+    "headline": "A new experiment brings better group meetings to Google Beam",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
+    "publishedAt": "2026-05-20T16:45:00.000Z",
+    "topic": "RAG",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_2026-05-15_at_4.21.2.max-600x600.format-webp.webp\">See and hear your colleagues in true-to-life size and sound, making hybrid meetings ",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_2026-05-15_at_4.21.2.max-600x600.format-webp.webp"
+  },
+  {
+    "id": "google-ai-blog-how-ai-mode-is-changing-the-way-people-search-in-the-u-s",
+    "headline": "How AI Mode is changing the way people search in the U.S.",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/",
+    "publishedAt": "2026-05-19T17:45:00.000Z",
+    "topic": "RAG",
+    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_US.max-600x600.format-webp.webp\">One year after launch, see how AI Mode’s users are shifting from keywords to natural language queries.",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_US.max-600x600.format-webp.webp"
+  },
+  {
+    "id": "hacker-news-ask-hn-could-free-low-cost-llms-be-a-momentary-thing",
+    "headline": "Ask HN: Could free/low cost LLMs be a momentary thing?",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=48176542",
+    "publishedAt": "2026-05-18T07:36:43.000Z",
+    "topic": "Cost"
+  },
+  {
+    "id": "hugging-face-blog-granite-embedding-multilingual-r2-open-apache-2-0-multilingu",
+    "headline": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
+    "publishedAt": "2026-05-14T18:55:01.000Z",
+    "topic": "RAG"
+  },
+  {
+    "id": "openai-parloa-builds-service-agents-customers-want-to-talk-to",
+    "headline": "Parloa builds service agents customers want to talk to",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/parloa",
+    "publishedAt": "2026-05-07T11:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions."
+  },
+  {
+    "id": "hugging-face-blog-vllm-v0-to-v1-correctness-before-corrections-in-rl",
+    "headline": "vLLM V0 to V1: Correctness Before Corrections in RL",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+    "publishedAt": "2026-05-06T19:06:55.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "weaviate-blog-your-llm-is-only-as-good-as-what-it-retrieves",
+    "headline": "Your LLM Is Only as Good as What It Retrieves",
+    "source": "Weaviate Blog",
+    "url": "https://weaviate.io/blog/retrieval-quality-rag-overview",
+    "publishedAt": "2026-05-06T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "A Researcher's Perspective on Retrieval Quality in RAG Systems"
+  },
+  {
+    "id": "hugging-face-blog-granite-4-1-llms-how-they-re-built",
+    "headline": "Granite 4.1 LLMs: How They’re Built",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+    "publishedAt": "2026-04-29T15:01:48.000Z",
+    "topic": "LLM"
   }
 ]
