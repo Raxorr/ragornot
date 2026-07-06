@@ -1,26 +1,121 @@
 @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@config "../../tailwind.config.ts";
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-text: var(--accent-text);
+  --color-focus: var(--focus);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+/*
+  Theme tokens. `data-theme` on <html> is the source of truth once JS runs
+  (see ThemeToggle / the inline script in layout.tsx). The
+  `prefers-color-scheme` block only matters for the very first paint before
+  that script runs, and for the rare case JS is disabled entirely.
+*/
+:root,
+:root[data-theme="light"] {
+  --bg: #fbf7f4;
+  --surface: #ffffff;
+  --surface-2: #f4ede7;
+  --border: #e7ddd4;
+  --text: #1a1512;
+  --text-muted: #6b5f57;
+  --accent: #e8481f;
+  --accent-hover: #cc3a16;
+  --accent-text: #b5330f;
+  --focus: #1a5fd6;
+}
+
+:root[data-theme="dark"] {
+  --bg: #14100e;
+  --surface: #1e1917;
+  --surface-2: #262019;
+  --border: #362d26;
+  --text: #f5eee9;
+  --text-muted: #b3a79e;
+  --accent: #ff6a43;
+  --accent-hover: #ff835f;
+  --accent-text: #ff8a63;
+  --focus: #6fa8ff;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  :root:not([data-theme="light"]) {
+    --bg: #14100e;
+    --surface: #1e1917;
+    --surface-2: #262019;
+    --border: #362d26;
+    --text: #f5eee9;
+    --text-muted: #b3a79e;
+    --accent: #ff6a43;
+    --accent-hover: #ff835f;
+    --accent-text: #ff8a63;
+    --focus: #6fa8ff;
   }
 }
 
+* {
+  border-color: var(--border);
+}
+
+html {
+  color-scheme: light dark;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Visible focus ring everywhere, keyboard or not — cheap and never wrong. */
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  z-index: 100;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  transition: top 0.15s ease;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff;
 }

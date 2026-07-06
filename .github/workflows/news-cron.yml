@@ -1,0 +1,39 @@
+name: Refresh news feed
+
+on:
+  schedule:
+    # Every 6 hours: 00:00, 06:00, 12:00, 18:00 UTC
+    - cron: "0 0,6,12,18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch news
+        run: npm run fetch-news
+
+      - name: Commit updated news.json (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/news.json
+          if git diff --cached --quiet; then
+            echo "No changes to news.json — skipping commit."
+          else
+            git commit -m "chore: refresh news feed [skip ci if no deploy needed]"
+            git push
+          fi

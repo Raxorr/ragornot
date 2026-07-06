@@ -1,0 +1,23 @@
+# ragornot
+
+> Compare retrieval architectures, track real cost and latency, and follow the AI, LLM, and RAG conversation.
+
+ragornot is a web app by Rohit Sarna that lets users compare four retrieval strategies:
+- **Flat (Lexical)**: global BM25-style chunk ranking across all 116 indexed AWS documentation pages
+- **Hierarchical**: document → section → chunk narrowing before ranking, improving precision
+- **LLM-only**: direct answer from AWS Bedrock (Claude Haiku) with no retrieval grounding
+- **RAG**: hierarchical retrieval followed by Bedrock generation, combining accuracy and grounding
+
+The live benchmark runs all four modes against the same query and reports latency, confidence, quality (query-term coverage), and cost per query. All generative calls go to the real AWS Lambda backend.
+
+## Pages
+
+- /news — AI, LLM, RAG, cost, and sustainability news aggregated from arXiv, Hacker News, and publisher RSS feeds. Refreshed every 6 hours via GitHub Actions.
+- /explore — Interactive search over 116 AWS documentation pages with mode selection and live results.
+- /benchmark — Live multi-query benchmark runner comparing all four retrieval modes side by side, plus an impact analytics section showing cost and CO₂ estimates.
+
+## Source
+
+- Repository: https://github.com/rohitsarna/ragornot
+- Author: Rohit Sarna (https://github.com/rohitsarna)
+- License: MIT

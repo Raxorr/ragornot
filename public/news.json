@@ -1,0 +1,110 @@
+[
+  {
+    "id": "seed-2026-07-05-google-longcontext",
+    "headline": "Google DeepMind outlines new evaluation benchmarks for long-context reasoning",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/technology/ai/",
+    "publishedAt": "2026-07-05T14:00:00Z",
+    "topic": "AI",
+    "summary": "The benchmarks probe how models hold up as context windows grow, a question directly relevant to RAG vs. long-context tradeoffs."
+  },
+  {
+    "id": "seed-2026-07-05-openai-cost-latency",
+    "headline": "OpenAI details cost and latency tradeoffs for its latest model tier",
+    "source": "OpenAI",
+    "url": "https://openai.com/news/",
+    "publishedAt": "2026-07-05T09:00:00Z",
+    "topic": "LLM",
+    "summary": "New pricing tiers trade throughput for lower per-token cost, shifting the math on when retrieval is worth adding."
+  },
+  {
+    "id": "seed-2026-07-04-arxiv-rag-survey",
+    "headline": "New arXiv survey compares retrieval-augmented generation against long-context prompting",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/list/cs.CL/recent",
+    "publishedAt": "2026-07-04T18:00:00Z",
+    "topic": "RAG",
+    "summary": "The survey finds RAG still wins on cost and freshness even as context windows grow, but long-context narrows the accuracy gap."
+  },
+  {
+    "id": "seed-2026-07-04-hf-embedding-benchmark",
+    "headline": "Hugging Face publishes an open benchmark for embedding models used in retrieval",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog",
+    "publishedAt": "2026-07-04T10:00:00Z",
+    "topic": "RAG",
+    "summary": "A shared leaderboard for retrieval-quality embeddings, aimed at teams choosing a model for a RAG pipeline."
+  },
+  {
+    "id": "seed-2026-07-03-aws-vector-cost",
+    "headline": "AWS ML Blog: right-sizing vector search infrastructure to cut inference spend",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/",
+    "publishedAt": "2026-07-03T16:00:00Z",
+    "topic": "Cost",
+    "summary": "Guidance on matching index size and instance type to query volume instead of over-provisioning by default."
+  },
+  {
+    "id": "seed-2026-07-02-datacenter-electricity",
+    "headline": "Report estimates data center electricity demand from AI workloads keeps climbing through 2030",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/",
+    "publishedAt": "2026-07-02T12:00:00Z",
+    "topic": "Environment",
+    "summary": "Inference, not training, is flagged as the fastest-growing share of that demand as usage scales."
+  },
+  {
+    "id": "seed-2026-07-01-anthropic-retrieval-guidance",
+    "headline": "Anthropic shares guidance on when retrieval beats fine-tuning for enterprise knowledge bases",
+    "source": "Anthropic",
+    "url": "https://www.anthropic.com/news",
+    "publishedAt": "2026-07-01T08:00:00Z",
+    "topic": "LLM",
+    "summary": "A practical decision framework: retrieval for fast-changing knowledge, fine-tuning for stable style and format."
+  },
+  {
+    "id": "seed-2026-06-29-enterprise-pilots-stall",
+    "headline": "Survey: most enterprise AI pilots still stall before reaching production",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/",
+    "publishedAt": "2026-06-29T15:00:00Z",
+    "topic": "AI",
+    "summary": "Grounding and evaluation gaps, more than model quality, are cited as the top blockers past the pilot stage."
+  },
+  {
+    "id": "seed-2026-06-27-hybrid-retrieval-paper",
+    "headline": "New arXiv paper proposes a cheaper hybrid lexical + dense retrieval for large document sets",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/list/cs.IR/recent",
+    "publishedAt": "2026-06-27T11:00:00Z",
+    "topic": "RAG",
+    "summary": "Combining a lexical first pass with dense re-ranking cuts vector-index size without much of an accuracy hit."
+  },
+  {
+    "id": "seed-2026-06-24-token-pricing-vs-rag-cost",
+    "headline": "Analysis: falling token prices haven't closed the cost gap between RAG and raw generation",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/",
+    "publishedAt": "2026-06-24T09:00:00Z",
+    "topic": "Cost",
+    "summary": "Retrieval itself is nearly free — the added cost comes from the extra context tokens sent to the model."
+  },
+  {
+    "id": "seed-2026-06-21-hf-energy-model-cards",
+    "headline": "Hugging Face adds energy-use estimates to its model cards",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog",
+    "publishedAt": "2026-06-21T13:00:00Z",
+    "topic": "Environment",
+    "summary": "Per-inference energy figures now sit alongside accuracy numbers, making the tradeoff visible at model-selection time."
+  },
+  {
+    "id": "seed-2026-06-18-google-responsible-ai-retrieval",
+    "headline": "Google AI publishes updated responsible-AI guidelines for retrieval-based assistants",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/technology/ai/",
+    "publishedAt": "2026-06-18T10:00:00Z",
+    "topic": "AI",
+    "summary": "New guidance on citing sources and handling conflicting retrieved evidence in assistant-style products."
+  }
+]
