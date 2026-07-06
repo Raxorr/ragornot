@@ -63,10 +63,21 @@ const RSS_SOURCES = [
   },
   { name: "Hugging Face Blog", url: "https://huggingface.co/blog/feed.xml", defaultTopic: "RAG" },
   { name: "Google AI Blog", url: "https://blog.google/technology/ai/rss/", defaultTopic: "AI" },
+  // Tier 1 additions — RAG/vector-search tooling blogs
+  { name: "LangChain Blog", url: "https://blog.langchain.dev/rss/", defaultTopic: "RAG" },
+  { name: "LlamaIndex Blog", url: "https://www.llamaindex.ai/blog/rss.xml", defaultTopic: "RAG" },
+  { name: "Pinecone Blog", url: "https://www.pinecone.io/learn/blog.rss", defaultTopic: "RAG" },
+  { name: "Weaviate Blog", url: "https://weaviate.io/blog/rss.xml", defaultTopic: "RAG" },
+  { name: "Qdrant Blog", url: "https://qdrant.tech/articles/rss.xml", defaultTopic: "RAG" },
 ];
 
 // Hacker News via the Algolia Search API — also keyless.
-const HN_QUERIES = ["RAG retrieval augmented generation", "LLM inference cost", "AI energy carbon footprint"];
+const HN_QUERIES = [
+  "RAG retrieval augmented generation",
+  "LLM inference cost",
+  "AI energy carbon footprint",
+  "vector database embeddings",
+];
 
 const MAX_ITEMS = 40;
 const OUTPUT_PATH = path.join(process.cwd(), "public", "news.json");
@@ -126,6 +137,57 @@ function extractLink(block) {
 }
 
 /**
+ * Extract an image URL from an RSS/Atom entry block.
+ * Tries <media:content>, <media:thumbnail>, <enclosure type="image/...">,
+ * and <itunes:image> in that order. Returns null if nothing is found.
+ * Upgrades http:// to https:// so images load on GitHub Pages (HTTPS).
+ */
+function extractImage(block) {
+  let url = null;
+
+  // <media:content url="..." medium="image" .../>  (WordPress, HF, AWS ML Blog)
+  const mediaContent = block.match(/<media:content[^>]+>/i);
+  if (mediaContent) {
+    const isMediumImage = /\bmedium=["']image["']/i.test(mediaContent[0]);
+    const urlMatch = mediaContent[0].match(/\burl=["']([^"']+)["']/i);
+    if (urlMatch && (isMediumImage || /\.(jpe?g|png|webp|gif)/i.test(urlMatch[1]))) {
+      url = urlMatch[1];
+    }
+  }
+
+  // <media:thumbnail url="..."/>
+  if (!url) {
+    const mediaThumbnail = block.match(/<media:thumbnail[^>]+>/i);
+    if (mediaThumbnail) {
+      const urlMatch = mediaThumbnail[0].match(/\burl=["']([^"']+)["']/i);
+      if (urlMatch) url = urlMatch[1];
+    }
+  }
+
+  // <enclosure url="..." type="image/..."/>
+  if (!url) {
+    const enclosure = block.match(/<enclosure[^>]+type=["']image\/[^"']*["'][^>]*>/i);
+    if (enclosure) {
+      const urlMatch = enclosure[0].match(/\burl=["']([^"']+)["']/i);
+      if (urlMatch) url = urlMatch[1];
+    }
+  }
+
+  // <itunes:image href="..."/>
+  if (!url) {
+    const itunesImage = block.match(/<itunes:image[^>]+>/i);
+    if (itunesImage) {
+      const hrefMatch = itunesImage[0].match(/\bhref=["']([^"']+)["']/i);
+      if (hrefMatch) url = hrefMatch[1];
+    }
+  }
+
+  if (!url) return null;
+  if (url.startsWith("http://")) return url.replace("http://", "https://");
+  return url.startsWith("https://") ? url : null;
+}
+
+/**
  * Tolerant, regex-based RSS 2.0 / Atom parser — good enough for the small,
  * well-behaved feeds this script targets. Swap in a real XML parser (e.g.
  * fast-xml-parser) if you widen the source list to less predictable feeds.
@@ -141,6 +203,7 @@ function parseFeed(xml, sourceName, defaultTopic) {
     const dateRaw = extractTag(block, isAtom ? "updated" : "pubDate") || extractTag(block, "published");
     const summary = extractTag(block, isAtom ? "summary" : "description");
     const publishedAt = dateRaw ? new Date(dateRaw).toISOString() : new Date().toISOString();
+    const imageUrl = extractImage(block) ?? undefined;
 
     return {
       headline: title,
@@ -148,6 +211,7 @@ function parseFeed(xml, sourceName, defaultTopic) {
       source: sourceName,
       publishedAt,
       summary: summary ? summary.slice(0, 220) : undefined,
+      imageUrl,
       defaultTopic,
     };
   });
@@ -284,6 +348,7 @@ export async function buildNewsPayload() {
     publishedAt: item.publishedAt,
     topic: classifyTopic(item),
     summary: item.summary,
+    ...(item.imageUrl ? { imageUrl: item.imageUrl } : {}),
   }));
 
   tagged.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());

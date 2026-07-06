@@ -8,6 +8,7 @@ export interface NewsItem {
   publishedAt: string; // ISO 8601
   topic: NewsTopic;
   summary?: string;
+  imageUrl?: string;
 }
 
 export const newsTopics: Array<NewsTopic | "All"> = ["All", "AI", "LLM", "RAG", "Cost", "Environment"];
