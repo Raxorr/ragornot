@@ -5,11 +5,14 @@ import type { NewsItem, NewsTopic } from "@/lib/news-types";
 import FilterBar from "./FilterBar";
 import NewsCard from "./NewsCard";
 
-// Fetch the committed news.json straight from GitHub raw at runtime. This
-// reflects the hourly cron commit the instant it lands — no GitHub Pages
-// rebuild required — so a plain page load / hard refresh always shows the
-// latest file. The build-time copy passed in as `initialItems` is the
-// instant-paint fallback (and what serves if this fetch ever fails).
+// Fetch the committed news.json straight from GitHub raw at runtime, so a
+// page load / hard refresh reflects the hourly cron commit WITHOUT waiting for
+// a GitHub Pages rebuild. Caveat: raw.githubusercontent.com sits behind Fastly
+// with a hard 5-min max-age and ignores query strings for cache-keying, so the
+// ?t= below only busts browser/intermediary caches — the edge copy can be up
+// to ~5 min old. That's well within an hourly cadence. The build-time copy
+// passed as `initialItems` is the instant-paint fallback (and what serves if
+// this fetch ever fails).
 const NEWS_RAW_URL = "https://raw.githubusercontent.com/Raxorr/ragornot/main/public/news.json";
 
 type SortDir = "newest" | "oldest";
