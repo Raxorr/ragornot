@@ -146,6 +146,14 @@ function stripHtml(str) {
   return decoded.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 }
 
+/** Strip arXiv preamble (e.g. "arXiv:2607.02668v1 Announce Type: new Abstract: ") and other scrape noise. */
+function cleanSummary(raw) {
+  return raw
+    .replace(/^arXiv:\S+\s+Announce Type:\s+\S+\s+Abstract:\s*/i, "")
+    .replace(/^Abstract:\s*/i, "")
+    .trim();
+}
+
 function extractTag(block, tagName) {
   const match = block.match(new RegExp(`<${tagName}[^>]*>([\\s\\S]*?)</${tagName}>`, "i"));
   return match ? stripHtml(match[1]) : "";
@@ -233,7 +241,7 @@ function parseFeed(xml, sourceName, defaultTopic) {
       url,
       source: sourceName,
       publishedAt,
-      summary: summary ? summary.slice(0, 220) : undefined,
+      summary: summary ? cleanSummary(summary).slice(0, 220) || undefined : undefined,
       imageUrl,
       defaultTopic,
     };

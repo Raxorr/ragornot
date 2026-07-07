@@ -27,8 +27,9 @@ export default function NewsPage() {
       <div className="flex flex-col gap-3">
         <h1 className="text-3xl font-extrabold tracking-tight text-text sm:text-4xl">News</h1>
         <p className="max-w-prose text-text-muted">
-          AI, LLM, and RAG coverage, refreshed on a schedule by scripts/fetch-news.mjs — plus the cost
-          and environmental footprint behind an LLM-generated answer.
+          The retrieval and AI landscape — RAG, LLMs, cost, efficiency, and the models behind them.
+          Refreshed hourly. See the <a href="/benchmark" className="underline hover:text-accent-text">Benchmark</a> tab
+          for the empirical cost and quality numbers behind these technologies.
         </p>
       </div>
       <NewsView items={items} />

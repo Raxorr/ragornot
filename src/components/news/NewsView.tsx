@@ -33,17 +33,26 @@ export default function NewsView({ items }: NewsViewProps) {
   const [sort,   setSort]   = useState<SortDir>("newest");
   const [window, setWindow] = useState<TimeWindow>("all");
 
-  // All distinct source names, sorted alphabetically, with "All" first.
+  // All distinct source names derived from usable items only, sorted alphabetically.
   const sources = useMemo(() => {
-    const names = Array.from(new Set(items.map((item) => item.source))).sort();
+    const usable = items.filter(
+      (item) => item.headline.trim().split(/\s+/).length >= 3 || (item.summary && item.summary.length > 20),
+    );
+    const names = Array.from(new Set(usable.map((item) => item.source))).sort();
     return ["All", ...names];
   }, [items]);
 
   const filtered = useMemo(() => {
     const cutoff = cutoffDate(window);
 
+    // Drop items that have a very short headline AND no summary — these render as blank-looking cards.
+    // "RAG" (one word, no context) is the canonical example. Keep anything with ≥3 words or a summary.
+    const usable = items.filter(
+      (item) => item.headline.trim().split(/\s+/).length >= 3 || (item.summary && item.summary.length > 20),
+    );
+
     // Apply topic and source filters
-    let list = topic === "All" ? items : items.filter((item) => item.topic === topic);
+    let list = topic === "All" ? usable : usable.filter((item) => item.topic === topic);
     if (source !== "All") list = list.filter((item) => item.source === source);
     if (cutoff) list = list.filter((item) => new Date(item.publishedAt) >= cutoff);
 

@@ -34,7 +34,7 @@ export default function NavBar() {
     <header className="sticky top-0 z-40 border-b border-border bg-surface">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-3 px-4 sm:px-6">
         <Link
-          href="/news"
+          href="/benchmark"
           className="shrink-0 text-xl tracking-tight rounded-sm"
           aria-label={`${site.name} — home`}
         >
@@ -42,7 +42,7 @@ export default function NavBar() {
           <span className="font-normal text-text-muted">ornot</span>
         </Link>
 
-        <nav aria-label="Primary" className="hidden min-[721px]:block">
+        <nav aria-label="Primary" className="hidden min-[840px]:block">
           <ul className="flex items-center gap-1">
             {navTabs.map((tab) => {
               const active = pathname?.startsWith(tab.href) ?? false;
@@ -72,7 +72,7 @@ export default function NavBar() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="ragornot on GitHub"
-            className="hidden h-11 w-11 items-center justify-center rounded-full border border-border text-text transition-colors hover:border-accent hover:text-accent-text min-[721px]:inline-flex"
+            className="hidden h-11 w-11 items-center justify-center rounded-full border border-border text-text transition-colors hover:border-accent hover:text-accent-text min-[840px]:inline-flex"
           >
             <GithubIcon className="h-5 w-5" />
           </a>
@@ -82,7 +82,7 @@ export default function NavBar() {
             aria-controls="mobile-nav"
             aria-label={open ? "Close menu" : "Open menu"}
             onClick={() => setOpen((v) => !v)}
-            className="inline-flex h-11 w-11 items-center justify-center rounded-md border border-border text-text min-[721px]:hidden"
+            className="inline-flex h-11 w-11 items-center justify-center rounded-md border border-border text-text min-[840px]:hidden"
           >
             {open ? <CloseIcon className="h-5 w-5" /> : <MenuIcon className="h-5 w-5" />}
           </button>
@@ -90,7 +90,7 @@ export default function NavBar() {
       </div>
 
       {open && (
-        <nav id="mobile-nav" aria-label="Primary" className="border-t border-border min-[721px]:hidden">
+        <nav id="mobile-nav" aria-label="Primary" className="border-t border-border min-[840px]:hidden">
           <ul className="flex flex-col px-4 py-2">
             {navTabs.map((tab) => {
               const active = pathname?.startsWith(tab.href) ?? false;

@@ -16,6 +16,8 @@ import { benchmarkRows, type BenchmarkRow } from "@/lib/benchmark-data";
 import type { RetrievalMode } from "@/lib/config";
 import ComparisonTable from "./ComparisonTable";
 import ImpactAnalytics from "@/components/news/ImpactAnalytics";
+import ModeIntro from "./ModeIntro";
+import InfoTooltip from "@/components/ui/InfoTooltip";
 
 const BENCHMARK_QUERIES = [
   "How do I give a Lambda function access to S3?",
@@ -465,17 +467,8 @@ export default function BenchmarkRunner() {
 
   return (
     <div className="flex flex-col gap-8">
-      {/* Header */}
-      <div className="flex flex-col gap-3">
-        <h2 id="benchmark-heading" className="text-2xl font-bold tracking-tight text-text">
-          Live Benchmark
-        </h2>
-        <p className="max-w-prose text-sm text-text-muted">
-          Runs {BENCHMARK_QUERIES.length} queries through all four retrieval modes — Flat BM25,
-          Hierarchical, LLM-only (Bedrock), and RAG — against the live AWS Lambda backend.
-          {DAILY_LIMIT} runs per day per IP, 1-hour gap between runs. No account needed.
-        </p>
-      </div>
+      {/* Mode explainer — collapsible */}
+      <ModeIntro />
 
       {/* Quota display */}
       {quota && (
@@ -724,16 +717,23 @@ export default function BenchmarkRunner() {
       {/* Per-query results */}
       {hasResults && (
         <>
+          {/* Narrative connector */}
+          <div className="rounded-lg border border-border bg-surface-2 px-4 py-3 text-sm text-text-muted">
+            <span className="font-semibold text-text">Step 1 of 3 — Raw results.</span>
+            {" "}Each card shows how that query performed across all four modes.
+            Scroll down for the aggregate comparison and org-scale impact.
+          </div>
+
           {/* Aggregate stats */}
           <section
             aria-labelledby="agg-heading"
             className="rounded-lg border border-border bg-surface p-5 sm:p-6"
           >
             <h3 id="agg-heading" className="mb-1 text-lg font-bold text-text">
-              Aggregate ({results.length} queries)
+              Step 2 — Aggregate ({results.length} queries)
             </h3>
             <p className="mb-4 text-xs text-text-muted">
-              Winner = highest BM25 quality score; within {(WINNER_QUALITY_EPSILON * 100).toFixed(0)}% quality →
+              Winner = highest BM25 quality proxy score; within {(WINNER_QUALITY_EPSILON * 100).toFixed(0)}% quality →
               latency breaks the tie; within {(WINNER_QUALITY_EPSILON * 100).toFixed(0)}% quality AND{" "}
               {WINNER_LATENCY_TIE_MS}ms → Tie. LLM-only has no retrieval quality score so it rarely wins.
             </p>
@@ -745,7 +745,10 @@ export default function BenchmarkRunner() {
                   </span>
                   <span className="text-text">avg {formatLatency(avg(allLatencies[mode]) ?? 0)}</span>
                   {allConfidences[mode].length > 0 && (
-                    <span className="text-text">avg conf {pct(avg(allConfidences[mode]))}</span>
+                    <span className="flex items-center gap-1 text-text">
+                      avg conf {pct(avg(allConfidences[mode]))}
+                      <InfoTooltip tip="avg_confidence × 100. Retrieval model's score of how relevant the top chunks were. LLM-only has none." />
+                    </span>
                   )}
                   <span className="font-semibold text-accent-text">{winCounts[mode] ?? 0} wins</span>
                 </div>
@@ -813,11 +816,11 @@ export default function BenchmarkRunner() {
                             </span>
                             {s.qualityProxy !== null && (
                               <span
-                                className={`font-mono text-xs ${isWinner ? "font-semibold text-text" : "text-text"}`}
+                                className={`flex items-center gap-1 font-mono text-xs ${isWinner ? "font-semibold text-text" : "text-text"}`}
                               >
                                 quality {pct(s.qualityProxy)}
                                 {isWinner && (
-                                  <span className="ml-1 text-accent-text" title="Deciding metric">↑</span>
+                                  <span className="text-accent-text" title="Winner by quality proxy">↑</span>
                                 )}
                               </span>
                             )}
@@ -854,11 +857,12 @@ export default function BenchmarkRunner() {
           {/* Mode Comparison — live */}
           <section aria-labelledby="comparison-heading" className="flex flex-col gap-4">
             <h2 id="comparison-heading" className="text-2xl font-bold tracking-tight text-text">
-              Mode Comparison
+              Step 3 — Mode Comparison
             </h2>
             <p className="max-w-prose text-sm text-text-muted">
-              Based on your last run of {results.length} {results.length === 1 ? "query" : "queries"}. Accuracy shows
-              average confidence score for retrieval modes; LLM-only has no retrieval quality metric.
+              Aggregated across your {results.length} {results.length === 1 ? "query" : "queries"}.
+              "Accuracy %" = avg_confidence × 100 from the retrieval model; LLM-only has no retrieval quality metric.
+              Use this to decide whether the accuracy lift from RAG justifies its cost for your use case.
             </p>
             <ComparisonTable rows={liveRows ?? undefined} />
           </section>
@@ -873,10 +877,10 @@ export default function BenchmarkRunner() {
         <>
           <section aria-labelledby="comparison-heading-sample" className="flex flex-col gap-4">
             <h2 id="comparison-heading-sample" className="text-2xl font-bold tracking-tight text-text">
-              Mode Comparison
+              Mode Comparison <span className="ml-2 text-sm font-normal text-text-muted">(illustrative — run benchmark for live data)</span>
             </h2>
             <p className="max-w-prose text-sm text-text-muted">
-              Sample data — run a benchmark above to see live numbers from your own session.
+              Numbers below are representative of the demo corpus runs. Hit &ldquo;Run Benchmark&rdquo; above to replace these with your own live results.
             </p>
             <ComparisonTable />
           </section>

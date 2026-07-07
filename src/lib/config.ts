@@ -13,9 +13,10 @@ export const site = {
 } as const;
 
 export const navTabs = [
-  { href: "/news", label: "News" },
-  { href: "/explore", label: "Explore" },
   { href: "/benchmark", label: "Benchmark" },
+  { href: "/explore", label: "Explore" },
+  { href: "/news", label: "News" },
+  { href: "/wall", label: "In the Wild" },
 ] as const;
 
 // Stat strip on the Assistant tab. Kept as plain data so the numbers can be
