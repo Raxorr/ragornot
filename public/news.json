@@ -14,7 +14,7 @@
     "url": "https://arxiv.org/abs/2607.02668",
     "publishedAt": "2026-07-07T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "arXiv:2607.02668v1 Announce Type: new Abstract: Large language models are inconsistent: varying prompts or including unrelated information can lead to unexpected changes in model outputs. The generator-validator (G-V) ga"
+    "summary": "Large language models are inconsistent: varying prompts or including unrelated information can lead to unexpected changes in model outputs. The generator-validator (G-V) gap is one manifestation of this phenomenon, where"
   },
   {
     "id": "arxiv-cs-cl-luxsqa-ask-me-in-luxembourgish-with-tts-augmented-spoken-que",
@@ -23,7 +23,7 @@
     "url": "https://arxiv.org/abs/2607.02763",
     "publishedAt": "2026-07-07T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "arXiv:2607.02763v1 Announce Type: new Abstract: Spoken Question Answering (SQA) remains largely focused on high-resource languages and carefully recorded speech, limiting the reach of speech-LLM methods in low-resource s"
+    "summary": "Spoken Question Answering (SQA) remains largely focused on high-resource languages and carefully recorded speech, limiting the reach of speech-LLM methods in low-resource settings. This paper investigates whether text-to"
   },
   {
     "id": "arxiv-cs-cl-seduced-by-the-narrative-assessing-rule-adherence-in-semi-op",
@@ -32,7 +32,16 @@
     "url": "https://arxiv.org/abs/2607.02802",
     "publishedAt": "2026-07-07T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "arXiv:2607.02802v1 Announce Type: new Abstract: As LLMs are increasingly deployed as autonomous adjudicators in semi-open textual game environments, robust rule adherence becomes critical when user intent conflicts with "
+    "summary": "As LLMs are increasingly deployed as autonomous adjudicators in semi-open textual game environments, robust rule adherence becomes critical when user intent conflicts with system rules. However, these models are trained "
+  },
+  {
+    "id": "arxiv-cs-cl-pramem-practice-derived-experiential-memory-for-long-horizon",
+    "headline": "PraMem: Practice-derived Experiential Memory for Long-horizon Behavior Prediction",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.02881",
+    "publishedAt": "2026-07-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Long-horizon behavior prediction aims to infer a user's next action based on a lengthy historical sequence, playing a crucial role in artificial intelligence field. The rise of large language models (LLMs) offers a promi"
   },
   {
     "id": "arxiv-cs-cl-where-do-llms-fall-short-in-cbt-guided-affective-reasoning",
@@ -41,7 +50,7 @@
     "url": "https://arxiv.org/abs/2607.02885",
     "publishedAt": "2026-07-07T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "arXiv:2607.02885v1 Announce Type: new Abstract: Cognitive Behavioral Therapy (CBT) provides a structured framework for understanding a user's mental state by examining the interaction between cognitive and behavioral fac"
+    "summary": "Cognitive Behavioral Therapy (CBT) provides a structured framework for understanding a user's mental state by examining the interaction between cognitive and behavioral factors. However, out-of-the-box LLMs respond fluen"
   },
   {
     "id": "arxiv-cs-cl-distill-where-the-student-goes-teacher-regularized-rl-for-en",
@@ -50,7 +59,7 @@
     "url": "https://arxiv.org/abs/2607.02966",
     "publishedAt": "2026-07-07T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "arXiv:2607.02966v1 Announce Type: new Abstract: Cross-lingual retrieval-augmented generation (RAG) is often deployed in an English-evidence regime, where users query in diverse languages but retrieved passages remain Eng"
+    "summary": "Cross-lingual retrieval-augmented generation (RAG) is often deployed in an English-evidence regime, where users query in diverse languages but retrieved passages remain English. In this setting, generation can fail despi"
   },
   {
     "id": "arxiv-cs-cl-hierarchical-sparse-attention-done-right-toward-infinite-con",
@@ -59,7 +68,7 @@
     "url": "https://arxiv.org/abs/2607.02980",
     "publishedAt": "2026-07-07T04:00:00.000Z",
     "topic": "Cost",
-    "summary": "arXiv:2607.02980v1 Announce Type: new Abstract: Scaling modern large language models (LLMs) to long contexts is limited by the quadratic computation cost, and poor length extrapolation of dense attention. Chunk-wise spar"
+    "summary": "Scaling modern large language models (LLMs) to long contexts is limited by the quadratic computation cost, and poor length extrapolation of dense attention. Chunk-wise sparse attention offers a promising alternative, but"
   },
   {
     "id": "arxiv-cs-cl-psytechlab-at-clpsych-2026-utilising-natural-language-proces",
@@ -68,16 +77,7 @@
     "url": "https://arxiv.org/abs/2607.03003",
     "publishedAt": "2026-07-07T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "arXiv:2607.03003v1 Announce Type: new Abstract: Social media posts are a rich and valuable source of data for analyzing mental health states and users' well-being using automated analysis tools. In this work, we demonstr"
-  },
-  {
-    "id": "arxiv-cs-cl-alignment-guided-largest-table-overlap-size-estimation",
-    "headline": "Alignment-Guided Largest Table Overlap Size Estimation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.03049",
-    "publishedAt": "2026-07-07T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "arXiv:2607.03049v1 Announce Type: new Abstract: Fast estimation of the size of the largest overlap between tables enables blocking and query-by-table retrieval in large table repositories. The first and the state-of-the-"
+    "summary": "Social media posts are a rich and valuable source of data for analyzing mental health states and users' well-being using automated analysis tools. In this work, we demonstrate how we used a range of Natural Language Proc"
   },
   {
     "id": "arxiv-cs-ir-long-term-optimization-for-large-scale-generative-retrieval-",
@@ -86,7 +86,7 @@
     "url": "https://arxiv.org/abs/2607.02818",
     "publishedAt": "2026-07-07T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "arXiv:2607.02818v1 Announce Type: new Abstract: Generative retrieval has become a popular paradigm for large-scale recommendation. However, it is typically trained with supervised next-item prediction objectives that do "
+    "summary": "Generative retrieval has become a popular paradigm for large-scale recommendation. However, it is typically trained with supervised next-item prediction objectives that do not directly optimize long-term user satisfactio"
   },
   {
     "id": "arxiv-cs-ir-heterqa-benchmarking-record-retrieval-over-multiple-heteroge",
@@ -95,7 +95,7 @@
     "url": "https://arxiv.org/abs/2607.03028",
     "publishedAt": "2026-07-07T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "arXiv:2607.03028v1 Announce Type: new Abstract: In emerging systems (e.g., social media and e-commerce platforms), data records are often drawn from heterogeneous sources, such as relational tables, text documents, image"
+    "summary": "In emerging systems (e.g., social media and e-commerce platforms), data records are often drawn from heterogeneous sources, such as relational tables, text documents, image repositories, spatial databases, and knowledge "
   },
   {
     "id": "arxiv-cs-ir-improving-access-to-historical-archives-with-real-time-rag-b",
@@ -104,7 +104,7 @@
     "url": "https://arxiv.org/abs/2607.03440",
     "publishedAt": "2026-07-07T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "arXiv:2607.03440v1 Announce Type: new Abstract: Digitized historical archives are large, heterogeneous cultural heritage repositories, but access methods for such archives face challenges such as noisy optical character "
+    "summary": "Digitized historical archives are large, heterogeneous cultural heritage repositories, but access methods for such archives face challenges such as noisy optical character recognition (OCR) output and rigid keyword-based"
   },
   {
     "id": "arxiv-cs-ir-sentattack-a-sentence-level-black-box-adversarial-attack-met",
@@ -113,7 +113,7 @@
     "url": "https://arxiv.org/abs/2607.03456",
     "publishedAt": "2026-07-07T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "arXiv:2607.03456v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) systems typically consist of a dense retrieval (DR) model for initial retrieval and a neural ranking model (NRM) for re-ranking.Existin"
+    "summary": "Retrieval-Augmented Generation (RAG) systems typically consist of a dense retrieval (DR) model for initial retrieval and a neural ranking model (NRM) for re-ranking.Existing robustness studies in RAG mainly focus on NRMs"
   },
   {
     "id": "arxiv-cs-ir-relevance-based-embeddings-lightweight-candidate-retrieval-v",
@@ -122,7 +122,7 @@
     "url": "https://arxiv.org/abs/2607.03515",
     "publishedAt": "2026-07-07T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "arXiv:2607.03515v1 Announce Type: new Abstract: In many machine learning applications, the most relevant items for a query should be efficiently retrieved. The relevance function is usually an expensive similarity model,"
+    "summary": "In many machine learning applications, the most relevant items for a query should be efficiently retrieved. The relevance function is usually an expensive similarity model, making the exhaustive search infeasible. A typi"
   },
   {
     "id": "arxiv-cs-ir-the-powerless-noise-how-experimental-settings-shape-the-repo",
@@ -131,7 +131,7 @@
     "url": "https://arxiv.org/abs/2607.03615",
     "publishedAt": "2026-07-07T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "arXiv:2607.03615v1 Announce Type: new Abstract: Recent work has suggested that adding irrelevant documents to the input of retrieval-augmented generation (RAG) systems can improve question-answering performance, a phenom"
+    "summary": "Recent work has suggested that adding irrelevant documents to the input of retrieval-augmented generation (RAG) systems can improve question-answering performance, a phenomenon referred to as the ``\\textit{Power of Noise"
   },
   {
     "id": "arxiv-cs-ir-next-gen-sponsored-search-crafting-the-perfect-query-with-in",
@@ -140,7 +140,7 @@
     "url": "https://arxiv.org/abs/2607.03880",
     "publishedAt": "2026-07-07T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "arXiv:2607.03880v1 Announce Type: new Abstract: Sponsored search plays a crucial role in e-commerce revenue generation, where advertisers strategically bid on keywords to capture the attention of users through relevant s"
+    "summary": "Sponsored search plays a crucial role in e-commerce revenue generation, where advertisers strategically bid on keywords to capture the attention of users through relevant search queries. However, the process of identifyi"
   },
   {
     "id": "arxiv-cs-ir-enhancement-of-e-commerce-sponsored-search-relevancy-with-ll",
@@ -149,17 +149,15 @@
     "url": "https://arxiv.org/abs/2607.03886",
     "publishedAt": "2026-07-07T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "arXiv:2607.03886v1 Announce Type: new Abstract: Sponsored search plays a crucial role as a revenue stream for search engines, wherein advertisers competitively bid on keywords that align with the users' search queries. T"
+    "summary": "Sponsored search plays a crucial role as a revenue stream for search engines, wherein advertisers competitively bid on keywords that align with the users' search queries. The task of matching relevant keywords to these q"
   },
   {
-    "id": "import-ai-import-ai-464-fable-writes-gpu-kernels-ai-automation-and-ana",
-    "headline": "Import AI 464: Fable writes GPU kernels; AI automation; and analog computation",
-    "source": "Import AI",
-    "url": "https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels",
-    "publishedAt": "2026-07-06T12:31:05.000Z",
-    "topic": "AI",
-    "summary": "Is this the beginning of a new world?",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
+    "id": "hugging-face-blog-run-ai-workloads-on-any-cloud-store-on-hugging-face-zero-egr",
+    "headline": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/skypilot-hf-storage",
+    "publishedAt": "2026-07-07T00:00:00.000Z",
+    "topic": "RAG"
   },
   {
     "id": "simon-willison-s-blog-llm-coding-agent-0-1a0",
@@ -180,24 +178,6 @@
     "summary": "In this post, you will learn how metadata works across configuration, ingestion, and retrieval, explore enterprise use cases including multi-agent and multi-tenant architectures, and discover best practices for implement"
   },
   {
-    "id": "aws-machine-learning-blog-hipporag-neurobiologically-inspired-rag-using-amazon-bedrock",
-    "headline": "HippoRAG: Neurobiologically inspired RAG using Amazon Bedrock, Amazon Neptune, and personalized PageRank",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/hipporag-neurobiologically-inspired-rag-using-amazon-bedrock-amazon-neptune-and-personalized-pagerank/",
-    "publishedAt": "2026-07-01T18:01:32.000Z",
-    "topic": "RAG",
-    "summary": "In this post, we demonstrate how to implement HippoRAG using a comprehensive AWS stack. We use Amazon Bedrock for LLM capabilities, Amazon Neptune for graph database functionality, Amazon Neptune Analytics for advanced g"
-  },
-  {
-    "id": "aws-machine-learning-blog-implementing-resilience-patterns-with-amazon-bedrock-and-llm",
-    "headline": "Implementing resilience patterns with Amazon Bedrock and LLM gateway",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/implementing-resilience-patterns-with-amazon-bedrock-and-llm-gateway/",
-    "publishedAt": "2026-06-30T16:40:47.000Z",
-    "topic": "LLM",
-    "summary": "In this post, you will learn five practical patterns for building resilient generative AI applications on AWS, progressing from native Amazon Bedrock features to multi-model orchestration using an LLM gateway. These patt"
-  },
-  {
     "id": "hacker-news-show-hn-fenic-llms-as-dataframe-operators-query-meaning-and-",
     "headline": "Show HN: fenic – LLMs as dataframe operators, query meaning and structure",
     "source": "Hacker News",
@@ -213,16 +193,6 @@
     "publishedAt": "2026-06-29T16:17:59.000Z",
     "topic": "LLM",
     "summary": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding This is an interesting new open weights (MIT licensed) model, the first model release from DeepReinforce. [...] with variants including 9B Dense, 31B Dense, 35B MoE, a"
-  },
-  {
-    "id": "import-ai-import-ai-463-self-improving-robots-a-10k-chinese-gpu-cluste",
-    "headline": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
-    "source": "Import AI",
-    "url": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
-    "publishedAt": "2026-06-29T13:03:27.000Z",
-    "topic": "AI",
-    "summary": "What eras bookend our interregnum?",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
   },
   {
     "id": "ahead-of-ai-using-local-coding-agents",
@@ -285,32 +255,12 @@
     "topic": "RAG"
   },
   {
-    "id": "import-ai-import-ai-462-superpersuasion-self-sustaining-ai-paths-to-as",
-    "headline": "Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI",
-    "source": "Import AI",
-    "url": "https://importai.substack.com/p/import-ai-462-superpersuasion-self",
-    "publishedAt": "2026-06-22T12:31:45.000Z",
-    "topic": "AI",
-    "summary": "How religious are beliefs in the singularity?",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
-  },
-  {
     "id": "hacker-news-quantifying-llm-cost-savings-from-cache-aware-inference-rout",
     "headline": "Quantifying LLM Cost Savings from Cache-Aware Inference Routing",
     "source": "Hacker News",
     "url": "https://www.auriko.ai/reports/llm-cost-arbitrage",
     "publishedAt": "2026-06-18T17:21:23.000Z",
     "topic": "Cost"
-  },
-  {
-    "id": "import-ai-import-ai-461-alignment-is-not-on-track-frontiercode-and-syn",
-    "headline": "Import AI 461: \"Alignment is not on track\"; FrontierCode; and synthetic research interns",
-    "source": "Import AI",
-    "url": "https://importai.substack.com/p/import-ai-461-alignment-is-not-on",
-    "publishedAt": "2026-06-15T11:30:53.000Z",
-    "topic": "AI",
-    "summary": "Where are your agents right now?",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
   },
   {
     "id": "google-ai-blog-our-new-community-investments-in-virginia-support-local-jobs",
@@ -321,16 +271,6 @@
     "topic": "Environment",
     "summary": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
     "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp"
-  },
-  {
-    "id": "import-ai-import-ai-460-reward-hacking-society-rsi-data-from-anthropic",
-    "headline": "Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing",
-    "source": "Import AI",
-    "url": "https://importai.substack.com/p/import-ai-460-reward-hacking-society",
-    "publishedAt": "2026-06-08T12:31:32.000Z",
-    "topic": "Cost",
-    "summary": "When will markets price the singularity?",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
   },
   {
     "id": "hacker-news-mitigating-the-llm-rerun-crisis-for-minimized-inference-cost",
@@ -359,51 +299,12 @@
     "topic": "LLM"
   },
   {
-    "id": "import-ai-import-ai-459-ai-oversight-is-difficult-scaling-laws-for-pro",
-    "headline": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems",
-    "source": "Import AI",
-    "url": "https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult",
-    "publishedAt": "2026-06-01T13:31:56.000Z",
-    "topic": "Cost",
-    "summary": "Do you feel as though you are living in a revolution?",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
-  },
-  {
     "id": "hacker-news-hybrid-local-and-cloud-llm-stack-for-regulated-financial-doc",
     "headline": "Hybrid local and cloud LLM stack for regulated financial document processing?",
     "source": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=48327218",
     "publishedAt": "2026-05-29T18:22:54.000Z",
     "topic": "LLM"
-  },
-  {
-    "id": "last-week-in-ai-last-week-in-ai-341-musk-loses-to-openai-google-s-io-updates",
-    "headline": "Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős",
-    "source": "Last Week in AI",
-    "url": "https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to",
-    "publishedAt": "2026-05-27T07:50:58.000Z",
-    "topic": "LLM",
-    "summary": "Elon Musk Loses $150 Billion Suit Against OpenAI and Sam Altman, Google updates its Gemini app to take on ChatGPT and Claude at IO 2026, and more!",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!9WND!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F703c9446-83b3-4add-9705-ad8252591f60_1376x768.jpeg"
-  },
-  {
-    "id": "import-ai-import-ai-458-reckoning-with-the-future-and-a-singularity-st",
-    "headline": "Import AI 458: Reckoning with the future; and a singularity story",
-    "source": "Import AI",
-    "url": "https://importai.substack.com/p/import-ai-458-reckoning-with-the",
-    "publishedAt": "2026-05-26T12:32:03.000Z",
-    "topic": "AI",
-    "summary": "What AI-driven miracles will happen this year?",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
-  },
-  {
-    "id": "last-week-in-ai-lwiai-podcast-246-gemini-3-5-omni-musk-loses-openai-vs-erd-s",
-    "headline": "LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős",
-    "source": "Last Week in AI",
-    "url": "https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni",
-    "publishedAt": "2026-05-26T05:10:23.000Z",
-    "topic": "LLM",
-    "summary": "Google unveils AI model Gemini 3.5 and AI agent Gemini Spark, Omni turns images, audio, and text into video, Musk loses OpenAI court battle"
   },
   {
     "id": "openai-how-virgin-atlantic-ships-faster-with-codex",
@@ -434,15 +335,6 @@
     "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MissouriSocial.max-600x600.format-webp.webp"
   },
   {
-    "id": "last-week-in-ai-lwiai-podcast-245-tml-interaction-claude-for-legal-sam-altma",
-    "headline": "LWiAI Podcast #245 - TML-Interaction, Claude For Legal, Sam Altman on Stand",
-    "source": "Last Week in AI",
-    "url": "https://lastweekin.ai/p/lwiai-podcast-245-tml-interaction",
-    "publishedAt": "2026-05-20T07:45:49.000Z",
-    "topic": "LLM",
-    "summary": "OpenAI launches new voice intelligence features in its API, Thinking Machines drops a new, highly responsive model designed for humanlike interactions in real time, and more!"
-  },
-  {
     "id": "venturebeat-ai-google-just-redesigned-the-search-box-for-the-first-time-in-",
     "headline": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
     "source": "VentureBeat AI",
@@ -460,16 +352,6 @@
     "publishedAt": "2026-05-19T00:00:00.000Z",
     "topic": "RAG",
     "summary": "GoPerfect mission is to use an AI recruiting workforce that replaces the manual, low-leverage parts of recruiting. Instead, an agent decomposes recruiter intent and runs the work end to end to find top talent. Their agen"
-  },
-  {
-    "id": "import-ai-import-ai-457-ai-stuxnet-cursed-muon-optimizer-and-positive-",
-    "headline": "Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment",
-    "source": "Import AI",
-    "url": "https://importai.substack.com/p/import-ai-457-ai-stuxnet-cursed-muon",
-    "publishedAt": "2026-05-18T13:31:17.000Z",
-    "topic": "AI",
-    "summary": "Welcome to Import AI, a newsletter about AI research.",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
   },
   {
     "id": "hacker-news-ask-hn-could-free-low-cost-llms-be-a-momentary-thing",
@@ -534,34 +416,6 @@
     "summary": "A Researcher's Perspective on Retrieval Quality in RAG Systems"
   },
   {
-    "id": "last-week-in-ai-last-week-in-ai-340-openai-vs-musk-microsoft-deepseek-v4-vis",
-    "headline": "Last Week in AI #340 - OpenAI vs Musk + Microsoft, DeepSeek v4, Vision Banana",
-    "source": "Last Week in AI",
-    "url": "https://lastweekin.ai/p/last-week-in-ai-340-openai-vs-musk",
-    "publishedAt": "2026-05-05T08:30:35.000Z",
-    "topic": "AI",
-    "summary": "First week of Musk v. Altman, OpenAI ends Microsoft legal peril over its $50B Amazon deal, DeepSeek previews new AI model that ‘closes the gap’ with frontier models, and more!",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!680g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ec989f7-4d06-402a-b757-c7c1e1527c3a_793x446.png"
-  },
-  {
-    "id": "last-week-in-ai-lwiai-podcast-243-gpt-5-5-deepseek-v4-ai-safety-sabotage",
-    "headline": "LWiAI Podcast #243 - GPT 5.5, DeepSeek V4, AI safety sabotage",
-    "source": "Last Week in AI",
-    "url": "https://lastweekin.ai/p/lwiai-podcast-243-gpt-55-deepseek",
-    "publishedAt": "2026-05-04T07:54:06.000Z",
-    "topic": "LLM",
-    "summary": "Our 243rd episode with a summary and discussion of last week’s big AI news!"
-  },
-  {
-    "id": "last-week-in-ai-lwiai-podcast-242-chatgpt-images-2-0-qwen-3-6-max-kimi-k2-6",
-    "headline": "LWiAI Podcast #242 - ChatGPT Images 2.0, Qwen 3.6 Max, Kimi-K2.6",
-    "source": "Last Week in AI",
-    "url": "https://lastweekin.ai/p/lwiai-podcast-242-chatgpt-images",
-    "publishedAt": "2026-04-30T07:14:45.000Z",
-    "topic": "LLM",
-    "summary": "ChatGPT’s new Images 2.0 model is surprisingly good at generating text , Alibaba Drops Qwen 3.6 Max Preview , SpaceX is working with Cursor"
-  },
-  {
     "id": "hugging-face-blog-granite-4-1-llms-how-they-re-built",
     "headline": "Granite 4.1 LLMs: How They’re Built",
     "source": "Hugging Face Blog",
@@ -597,14 +451,6 @@
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/43071df5-b297-42f2-b875-36915f5e33a2_1826x1020.png"
   },
   {
-    "id": "hugging-face-blog-training-and-finetuning-multimodal-embedding-reranker-models",
-    "headline": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
-    "publishedAt": "2026-04-16T00:00:00.000Z",
-    "topic": "RAG"
-  },
-  {
     "id": "openai-ai-fundamentals",
     "headline": "AI fundamentals",
     "source": "OpenAI",
@@ -631,15 +477,6 @@
     "topic": "LLM",
     "summary": "How coding agents use tools, memory, and repo context to make LLMs work better in practice",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/49b97718-57f4-4977-99c8-8ad5c4d32af3_1548x862.png"
-  },
-  {
-    "id": "last-week-in-ai-lwiai-podcast-238-gpt-5-4-mini-openai-pivot-mamba-3-attentio",
-    "headline": "LWiAI Podcast #238 - GPT 5.4 mini, OpenAI Pivot, Mamba 3, Attention Residuals",
-    "source": "Last Week in AI",
-    "url": "https://lastweekin.ai/p/lwiai-podcast-238-gpt-54-mini-openai",
-    "publishedAt": "2026-04-01T08:07:15.000Z",
-    "topic": "LLM",
-    "summary": "OpenAI ships GPT-5.4 mini and nano, faster and more capable but up to 4x pricier, DLSS 5 looks like a real-time generative AI filter for video games | The Verge, and more!"
   },
   {
     "id": "weaviate-blog-multimodal-embeddings-and-rag-a-practical-guide",
@@ -676,16 +513,6 @@
     "publishedAt": "2026-03-24T00:00:00.000Z",
     "topic": "RAG",
     "summary": "Most vector search tutorials stop at single-vector embeddings: one document, one vector, one similarity score. That works for demos. It falls apart when your retrieval pipeline needs to capture fine-grained token-level i"
-  },
-  {
-    "id": "last-week-in-ai-last-week-in-ai-339-dlss-5-openai-superapp-minimax-m2-7",
-    "headline": "Last Week in AI #339 - DLSS 5, OpenAI Superapp, MiniMax M2.7",
-    "source": "Last Week in AI",
-    "url": "https://lastweekin.ai/p/last-week-in-ai-339-dlss-5-openai",
-    "publishedAt": "2026-03-23T08:11:29.000Z",
-    "topic": "AI",
-    "summary": "DLSS 5 looks like a real-time generative AI filter for video games, OpenAI Reportedly Pivoting to a Focus on Business and Productivity Only, and more!",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!OXcT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8289d929-4b26-41a7-8fff-ec49e4d687b3_1120x630.webp"
   },
   {
     "id": "ahead-of-ai-a-visual-guide-to-attention-variants-in-modern-llms",
