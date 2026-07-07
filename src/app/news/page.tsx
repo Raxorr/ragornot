@@ -8,10 +8,10 @@ export const metadata: Metadata = {
   title: "News — ragornot",
 };
 
-// Read straight from public/news.json at render time (this page has no
-// dynamic APIs, so it still prerenders as static output — including under
-// `output: "export"`). scripts/fetch-news.mjs overwrites that file on a
-// schedule; this just reads whatever's there.
+// Read public/news.json at build time for the initial paint (fast first
+// render + SEO + offline fallback). NewsView then re-fetches the committed
+// file from GitHub raw on mount, so a hard refresh always shows the current
+// hourly-cron file without waiting for a Pages rebuild.
 function loadNews(): NewsItem[] {
   const filePath = path.join(process.cwd(), "public", "news.json");
   const raw = fs.readFileSync(filePath, "utf-8");
@@ -32,7 +32,7 @@ export default function NewsPage() {
           for the empirical cost and quality numbers behind these technologies.
         </p>
       </div>
-      <NewsView items={items} />
+      <NewsView initialItems={items} />
     </div>
   );
 }

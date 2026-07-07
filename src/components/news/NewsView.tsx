@@ -1,9 +1,16 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { NewsItem, NewsTopic } from "@/lib/news-types";
 import FilterBar from "./FilterBar";
 import NewsCard from "./NewsCard";
+
+// Fetch the committed news.json straight from GitHub raw at runtime. This
+// reflects the hourly cron commit the instant it lands — no GitHub Pages
+// rebuild required — so a plain page load / hard refresh always shows the
+// latest file. The build-time copy passed in as `initialItems` is the
+// instant-paint fallback (and what serves if this fetch ever fails).
+const NEWS_RAW_URL = "https://raw.githubusercontent.com/Raxorr/ragornot/main/public/news.json";
 
 type SortDir = "newest" | "oldest";
 type TimeWindow = "week" | "2weeks" | "month" | "all";
@@ -24,14 +31,39 @@ function cutoffDate(window: TimeWindow): Date | null {
 }
 
 interface NewsViewProps {
-  items: NewsItem[];
+  initialItems: NewsItem[];
 }
 
-export default function NewsView({ items }: NewsViewProps) {
+export default function NewsView({ initialItems }: NewsViewProps) {
+  const [items,  setItems]  = useState<NewsItem[]>(initialItems);
+  const [refreshing, setRefreshing] = useState(true);
   const [topic,  setTopic]  = useState<NewsTopic | "All">("All");
   const [source, setSource] = useState<string>("All");
   const [sort,   setSort]   = useState<SortDir>("newest");
   const [window, setWindow] = useState<TimeWindow>("all");
+
+  // On every mount (page load / hard refresh) pull the freshest committed file.
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        // Cache-bust to defeat the raw CDN's 5-min max-age on hard refresh.
+        const res = await fetch(`${NEWS_RAW_URL}?t=${Date.now()}`, { cache: "no-store" });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const fresh = (await res.json()) as NewsItem[];
+        if (!cancelled && Array.isArray(fresh) && fresh.length > 0) {
+          setItems(fresh);
+        }
+      } catch {
+        // Keep initialItems (the build-time copy) — never leave the page empty.
+      } finally {
+        if (!cancelled) setRefreshing(false);
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   // All distinct source names derived from usable items only, sorted alphabetically.
   const sources = useMemo(() => {
@@ -79,6 +111,11 @@ export default function NewsView({ items }: NewsViewProps) {
   return (
     <div className="flex flex-col gap-10">
       <section aria-label="News feed" className="flex flex-col gap-4">
+        {/* Live-refresh status — pulls the latest committed file on every load */}
+        <p aria-live="polite" className="text-xs text-text-muted">
+          {refreshing ? "Refreshing feed…" : `Showing the latest feed · ${items.length} stories`}
+        </p>
+
         {/* Topic chips */}
         <FilterBar active={topic} onChange={setTopic} />
 
