@@ -7,10 +7,15 @@ import {
   uploadDocs,
   submitBenchmarkInterest,
   type ApiMode,
+  type ApiMatch,
   type ApiError,
   type BenchmarkQuota,
 } from "@/lib/api";
 import { formatCost, formatLatency } from "@/lib/format";
+import { benchmarkRows, type BenchmarkRow } from "@/lib/benchmark-data";
+import type { RetrievalMode } from "@/lib/config";
+import ComparisonTable from "./ComparisonTable";
+import ImpactAnalytics from "@/components/news/ImpactAnalytics";
 
 const BENCHMARK_QUERIES = [
   "How do I give a Lambda function access to S3?",
@@ -30,7 +35,9 @@ const MODE_LABELS: Record<ApiMode, string> = {
   rag: "RAG",
 };
 
-const WINNER_QUALITY_EPSILON = 0.05;
+// Winner logic constants (documented here so the UI explanation stays in sync)
+const WINNER_QUALITY_EPSILON = 0.05; // modes within this quality range use latency as tiebreaker
+const WINNER_LATENCY_TIE_MS = 40;    // within this latency AND quality epsilon → "Tie"
 const REQUEST_DELAY_MS = 300;
 const DAILY_LIMIT = 3;
 
@@ -40,6 +47,9 @@ interface ModeSummary {
   latencyMs: number;
   topTitles: string[];
   costUsd: number;
+  tokens: number;
+  answerText: string;
+  matches: ApiMatch[];
   error: string | null;
 }
 
@@ -68,6 +78,9 @@ function buildSummary(
     latencyMs,
     topTitles: data.matches.slice(0, 3).map((m) => m.title || "Untitled"),
     costUsd: data.llm_stats?.cost_usd ?? 0,
+    tokens: (data.llm_stats?.input_tokens ?? 0) + (data.llm_stats?.output_tokens ?? 0),
+    answerText: data.answer_text ?? "",
+    matches: data.matches.slice(0, 5),
     error: data.error,
   };
 }
@@ -84,7 +97,7 @@ function decideWinner(results: Record<ApiMode, ModeSummary>): ApiMode | "tie" | 
   if (valid.length >= 2) {
     const qDiff = Math.abs((results[valid[0]].qualityProxy ?? 0) - (results[valid[1]].qualityProxy ?? 0));
     const latDiff = Math.abs(results[valid[0]].latencyMs - results[valid[1]].latencyMs);
-    if (qDiff <= WINNER_QUALITY_EPSILON && latDiff <= 40) return "tie";
+    if (qDiff <= WINNER_QUALITY_EPSILON && latDiff <= WINNER_LATENCY_TIE_MS) return "tie";
   }
   return valid[0];
 }
@@ -97,7 +110,7 @@ function pct(v: number | null) {
   return v === null ? "—" : `${(v * 100).toFixed(0)}%`;
 }
 
-function avg(vals: number[]) {
+function avg(vals: number[]): number | null {
   return vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : null;
 }
 
@@ -111,6 +124,159 @@ function newRunId() {
   return Math.random().toString(36).slice(2) + Date.now().toString(36);
 }
 
+/**
+ * Compute per-mode aggregate rows from live benchmark results.
+ * LLM-only rarely wins because it has no qualityProxy (BM25 score) — see winner logic.
+ * Energy for LLM/RAG is derived from cost using ~2615 Wh/$ (calibrated to static demo data).
+ * Flat/Hierarchical use the static near-zero energy figures (in-Lambda BM25, negligible GPU).
+ */
+function computeLiveRows(results: QueryResult[]): BenchmarkRow[] {
+  return MODES.map((mode) => {
+    const valid = results.filter((r) => !r[mode].error && r[mode].latencyMs > 0);
+    const avgLatency = avg(valid.map((r) => r[mode].latencyMs)) ?? 0;
+    const avgCost = avg(valid.map((r) => r[mode].costUsd)) ?? 0;
+    const confs = valid.map((r) => r[mode].confidence).filter((c): c is number => c !== null);
+    const avgConf = confs.length ? avg(confs) : null;
+    const energyPerQueryWh =
+      mode === "llm" || mode === "rag"
+        ? avgCost * 2615
+        : mode === "hierarchical"
+          ? 0.0009
+          : 0.0006;
+    const staticRow = benchmarkRows.find(
+      (r) => r.mode === (mode === "llm" ? "llm-only" : mode),
+    );
+    return {
+      mode: (mode === "llm" ? "llm-only" : mode) as RetrievalMode,
+      label: MODE_LABELS[mode],
+      accuracyPct:
+        avgConf !== null ? Math.round(avgConf * 100) : (staticRow?.accuracyPct ?? 0),
+      latencyMs: Math.round(avgLatency),
+      costPerQueryUsd: avgCost,
+      energyPerQueryWh,
+      notes: staticRow?.notes ?? "",
+    };
+  });
+}
+
+function triggerDownload(blob: Blob, filename: string) {
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function downloadCsv(results: QueryResult[]) {
+  const ts = new Date().toISOString().replace(/[:.]/g, "-");
+  const lines: string[] = [
+    "query,mode,latency_ms,confidence,quality_proxy,cost_usd,tokens,is_winner",
+  ];
+  for (const r of results) {
+    for (const mode of MODES) {
+      const s = r[mode];
+      lines.push(
+        [
+          `"${r.query.replace(/"/g, '""')}"`,
+          mode,
+          s.error ? "" : s.latencyMs,
+          s.confidence !== null ? s.confidence.toFixed(4) : "",
+          s.qualityProxy !== null ? s.qualityProxy.toFixed(4) : "",
+          s.costUsd.toFixed(8),
+          s.tokens,
+          r.winner === mode ? "true" : "false",
+        ].join(","),
+      );
+    }
+  }
+  lines.push("");
+  lines.push("# per-mode averages");
+  lines.push("mode,avg_latency_ms,avg_confidence,avg_cost_usd,avg_tokens,win_count,tie_count");
+  const ties = results.filter((r) => r.winner === "tie").length;
+  for (const mode of MODES) {
+    const valid = results.filter((r) => !r[mode].error && r[mode].latencyMs > 0);
+    const confs = valid.map((r) => r[mode].confidence).filter((c): c is number => c !== null);
+    lines.push(
+      [
+        mode,
+        Math.round(avg(valid.map((r) => r[mode].latencyMs)) ?? 0),
+        (avg(confs) ?? 0).toFixed(4),
+        (avg(valid.map((r) => r[mode].costUsd)) ?? 0).toFixed(8),
+        Math.round(avg(valid.map((r) => r[mode].tokens)) ?? 0),
+        results.filter((r) => r.winner === mode).length,
+        ties,
+      ].join(","),
+    );
+  }
+  triggerDownload(new Blob([lines.join("\n")], { type: "text/csv" }), `benchmark-${ts}.csv`);
+}
+
+function downloadJson(results: QueryResult[], history: RunRecord[]) {
+  const allLatencies: Record<ApiMode, number[]> = {
+    flat: [], hierarchical: [], llm: [], rag: [],
+  };
+  const winCounts: Record<string, number> = { flat: 0, hierarchical: 0, llm: 0, rag: 0, tie: 0 };
+  for (const r of results) {
+    for (const m of MODES) {
+      if (!r[m].error && r[m].latencyMs > 0) allLatencies[m].push(r[m].latencyMs);
+    }
+    if (r.winner !== "failed" && r.winner !== "skipped")
+      winCounts[r.winner]++;
+  }
+  // Pick model id from first available llm_stats
+  let modelId = "";
+  outer: for (const r of results) {
+    for (const m of ["llm", "rag"] as ApiMode[]) {
+      if (!r[m].error && r[m].tokens > 0) { modelId = ""; break outer; }
+    }
+  }
+  const ts = new Date().toISOString();
+  const payload = {
+    exported_at: ts,
+    run_metadata: {
+      timestamp: ts,
+      query_count: results.length,
+      model_id: modelId || "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+      winner_logic: `highest qualityProxy (BM25 score); within ${WINNER_QUALITY_EPSILON * 100}% quality uses latency; within ${WINNER_QUALITY_EPSILON * 100}% quality AND ${WINNER_LATENCY_TIE_MS}ms → Tie; LLM-only has no qualityProxy (=-1) so rarely wins`,
+    },
+    query_list: BENCHMARK_QUERIES,
+    summary: {
+      run_count: history.length,
+      avg_latency: Object.fromEntries(
+        MODES.map((m) => [m, avg(allLatencies[m])]),
+      ),
+      win_counts: winCounts,
+    },
+    results: results.map((r) => ({
+      query: r.query,
+      winner: r.winner,
+      ...Object.fromEntries(
+        MODES.map((m) => [
+          m,
+          {
+            latency_ms: r[m].latencyMs,
+            confidence: r[m].confidence,
+            quality_proxy: r[m].qualityProxy,
+            cost_usd: r[m].costUsd,
+            tokens: r[m].tokens,
+            answer_text: r[m].answerText,
+            matches: r[m].matches,
+            error: r[m].error,
+          },
+        ]),
+      ),
+    })),
+  };
+  const fname = `benchmark-${ts.replace(/[:.]/g, "-")}.json`;
+  triggerDownload(
+    new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" }),
+    fname,
+  );
+}
+
 export default function BenchmarkRunner() {
   const [running, setRunning] = useState(false);
   const [progress, setProgress] = useState("");
@@ -121,7 +287,6 @@ export default function BenchmarkRunner() {
   const [cooldownSec, setCooldownSec] = useState(0);
   const abortRef = useRef(false);
 
-  // Advanced (personal-docs / 10x) state
   const [advancedKey, setAdvancedKey] = useState("");
   const [sessionId, setSessionId] = useState<string | null>(null);
   const [uploadedFiles, setUploadedFiles] = useState<File[]>([]);
@@ -131,21 +296,18 @@ export default function BenchmarkRunner() {
   const [usePersonalDocs, setUsePersonalDocs] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  // Interest form state
   const [interestEmail, setInterestEmail] = useState("");
   const [interestName, setInterestName] = useState("");
   const [interestNote, setInterestNote] = useState("");
   const [interestStatus, setInterestStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
   const [interestMsg, setInterestMsg] = useState("");
 
-  // Cooldown ticker
   useEffect(() => {
     if (cooldownSec <= 0) return;
     const t = setTimeout(() => setCooldownSec((s) => Math.max(0, s - 1)), 1000);
     return () => clearTimeout(t);
   }, [cooldownSec]);
 
-  // Load quota on mount — standard benchmark is open, no key needed.
   const refreshQuota = useCallback(async () => {
     const result = await checkBenchmarkQuota();
     if (result.ok && result.quota) {
@@ -181,6 +343,10 @@ export default function BenchmarkRunner() {
 
     const runId = newRunId();
     let lastQuotaInfo: BenchmarkQuota | null = null;
+    const emptyModeSummary = (): ModeSummary => ({
+      confidence: null, qualityProxy: null, latencyMs: 0,
+      topTitles: [], costUsd: 0, tokens: 0, answerText: "", matches: [], error: null,
+    });
 
     for (let iter = 1; iter <= iterCount; iter++) {
       const runResults: QueryResult[] = [];
@@ -195,14 +361,11 @@ export default function BenchmarkRunner() {
         for (const mode of MODES) {
           if (abortRef.current) break;
           const iterLabel = iterCount > 1 ? ` (run ${iter}/${iterCount})` : "";
-          setProgress(
-            `Query ${qi + 1}/${BENCHMARK_QUERIES.length} — ${MODE_LABELS[mode]}${iterLabel}`,
-          );
+          setProgress(`Query ${qi + 1}/${BENCHMARK_QUERIES.length} — ${MODE_LABELS[mode]}${iterLabel}`);
 
           if (reqIdx > 0) await sleep(REQUEST_DELAY_MS);
           reqIdx++;
 
-          // Advanced path (session) needs the key; standard path does not.
           const options = sid
             ? {
                 benchmark: true,
@@ -211,11 +374,7 @@ export default function BenchmarkRunner() {
                 runId,
                 sessionId: sid,
               }
-            : {
-                benchmark: true,
-                benchmarkMode: "normal" as const,
-                runId,
-              };
+            : { benchmark: true, benchmarkMode: "normal" as const, runId };
 
           try {
             const { data, latencyMs } = await callApi(q, mode, options);
@@ -227,24 +386,10 @@ export default function BenchmarkRunner() {
               const wait = apiErr.retryAfterSeconds ?? 2;
               setProgress(`Rate-limited — waiting ${wait}s`);
               await sleep(wait * 1000);
-              summaries[mode] = {
-                confidence: null,
-                qualityProxy: null,
-                latencyMs: 0,
-                topTitles: [],
-                costUsd: 0,
-                error: "rate_limited",
-              };
+              summaries[mode] = { ...emptyModeSummary(), error: "rate_limited" };
               skipped = true;
             } else {
-              summaries[mode] = {
-                confidence: null,
-                qualityProxy: null,
-                latencyMs: 0,
-                topTitles: [],
-                costUsd: 0,
-                error: apiErr.message,
-              };
+              summaries[mode] = { ...emptyModeSummary(), error: apiErr.message };
             }
           }
         }
@@ -272,7 +417,6 @@ export default function BenchmarkRunner() {
     } else {
       await refreshQuota();
     }
-
     setRunning(false);
     setProgress("");
   }
@@ -280,49 +424,6 @@ export default function BenchmarkRunner() {
   function stop() {
     abortRef.current = true;
     setProgress("Stopping after current request…");
-  }
-
-  function downloadJson() {
-    const allLatencies = {
-      flat: [] as number[],
-      hierarchical: [] as number[],
-      llm: [] as number[],
-      rag: [] as number[],
-    };
-    const winCounts = { flat: 0, hierarchical: 0, llm: 0, rag: 0, tie: 0 };
-    for (const run of history) {
-      for (const r of run.queryResults) {
-        for (const m of MODES) {
-          if (!r[m].error && r[m].latencyMs > 0) allLatencies[m].push(r[m].latencyMs);
-        }
-        if (r.winner !== "failed" && r.winner !== "skipped")
-          winCounts[r.winner as keyof typeof winCounts]++;
-        if (r.winner === "tie") winCounts.tie++;
-      }
-    }
-    const blob_payload = {
-      exported_at: new Date().toISOString(),
-      query_list: BENCHMARK_QUERIES,
-      summary: {
-        run_count: history.length,
-        avg_flat_latency: avg(allLatencies.flat),
-        avg_hier_latency: avg(allLatencies.hierarchical),
-        avg_llm_latency: avg(allLatencies.llm),
-        avg_rag_latency: avg(allLatencies.rag),
-        win_counts: winCounts,
-      },
-      history,
-      quota,
-    };
-    const blob = new Blob([JSON.stringify(blob_payload, null, 2)], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = `benchmark-${new Date().toISOString().replace(/[:.]/g, "-")}.json`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
   }
 
   async function handleInterestSubmit(e: React.FormEvent) {
@@ -343,29 +444,24 @@ export default function BenchmarkRunner() {
     }
   }
 
-  // Standard benchmark is open — only gate is quota.
   const canRun = !running && (quota === null || (quota.remaining_runs > 0 && cooldownSec === 0));
-  // Advanced run additionally requires a key and (for personal-docs) a session.
   const canRunAdvanced = canRun && !!advancedKey.trim() && (!usePersonalDocs || !!sessionId);
 
-  const allLatencies = {
-    flat: [] as number[],
-    hierarchical: [] as number[],
-    llm: [] as number[],
-    rag: [] as number[],
-  };
-  const allConfidences = { flat: [] as number[], hierarchical: [] as number[] };
-  const winCounts = { flat: 0, hierarchical: 0, llm: 0, rag: 0, tie: 0 };
+  // ── live aggregates ────────────────────────────────────────────────────────
+  const allLatencies: Record<ApiMode, number[]> = { flat: [], hierarchical: [], llm: [], rag: [] };
+  const allConfidences: Record<ApiMode, number[]> = { flat: [], hierarchical: [], llm: [], rag: [] };
+  const winCounts: Record<string, number> = { flat: 0, hierarchical: 0, llm: 0, rag: 0, tie: 0 };
   for (const r of results) {
     for (const mode of MODES) {
       if (!r[mode].error && r[mode].latencyMs > 0) allLatencies[mode].push(r[mode].latencyMs);
-      if ((mode === "flat" || mode === "hierarchical") && r[mode].confidence !== null)
-        allConfidences[mode].push(r[mode].confidence!);
+      if (r[mode].confidence !== null) allConfidences[mode].push(r[mode].confidence!);
     }
     if (r.winner !== "failed" && r.winner !== "skipped")
-      winCounts[r.winner as keyof typeof winCounts]++;
-    if (r.winner === "tie") winCounts.tie++;
+      winCounts[r.winner]++;
   }
+
+  const hasResults = results.length > 0;
+  const liveRows = hasResults ? computeLiveRows(results) : null;
 
   return (
     <div className="flex flex-col gap-8">
@@ -410,7 +506,7 @@ export default function BenchmarkRunner() {
             type="button"
             onClick={() => void runBenchmark(1, null)}
             disabled={!canRun}
-            className="inline-flex min-h-11 items-center rounded-lg bg-accent px-5 font-medium text-white transition-colors hover:bg-accent-hover disabled:opacity-40 disabled:cursor-not-allowed"
+            className="inline-flex min-h-11 items-center rounded-lg bg-accent px-5 font-medium text-white transition-colors hover:bg-accent-hover disabled:cursor-not-allowed disabled:opacity-40"
           >
             Run Benchmark
           </button>
@@ -423,14 +519,23 @@ export default function BenchmarkRunner() {
             Stop
           </button>
         )}
-        {history.length > 0 && (
-          <button
-            type="button"
-            onClick={downloadJson}
-            className="inline-flex min-h-11 items-center rounded-lg border border-border px-4 text-sm font-medium text-text transition-colors hover:bg-surface-2"
-          >
-            Download JSON
-          </button>
+        {hasResults && (
+          <>
+            <button
+              type="button"
+              onClick={() => downloadCsv(results)}
+              className="inline-flex min-h-11 items-center rounded-lg border border-border px-4 text-sm font-medium text-text transition-colors hover:bg-surface-2"
+            >
+              Download CSV
+            </button>
+            <button
+              type="button"
+              onClick={() => downloadJson(results, history)}
+              className="inline-flex min-h-11 items-center rounded-lg border border-border px-4 text-sm font-medium text-text transition-colors hover:bg-surface-2"
+            >
+              Download JSON
+            </button>
+          </>
         )}
         {progress && <p className="text-sm text-text-muted">{progress}</p>}
       </div>
@@ -460,11 +565,8 @@ export default function BenchmarkRunner() {
           Upload your own PDFs or TXTs and benchmark retrieval against them with up to 10 iterations.
           Requires an access key — request one below if you don&apos;t have one.
         </p>
-
         <div className="flex flex-col gap-2">
-          <label htmlFor="adv-key" className="text-sm font-medium text-text">
-            Access key
-          </label>
+          <label htmlFor="adv-key" className="text-sm font-medium text-text">Access key</label>
           <input
             id="adv-key"
             type="password"
@@ -510,8 +612,7 @@ export default function BenchmarkRunner() {
                     accept=".pdf,.txt,.md,.csv,.html,.htm,.json"
                     className="hidden"
                     onChange={(e) => {
-                      const chosen = Array.from(e.target.files ?? []);
-                      setUploadedFiles(chosen);
+                      setUploadedFiles(Array.from(e.target.files ?? []));
                       setSessionId(null);
                       setUploadStatus("");
                     }}
@@ -532,11 +633,7 @@ export default function BenchmarkRunner() {
                     </button>
                   )}
                 </div>
-
-                {uploadStatus && (
-                  <p className="text-xs text-text-muted">{uploadStatus}</p>
-                )}
-
+                {uploadStatus && <p className="text-xs text-text-muted">{uploadStatus}</p>}
                 {sessionId && (
                   <div className="flex items-center gap-3">
                     <label htmlFor="iter-count" className="text-sm text-text">
@@ -548,7 +645,9 @@ export default function BenchmarkRunner() {
                       min={1}
                       max={10}
                       value={iterations}
-                      onChange={(e) => setIterations(Math.max(1, Math.min(10, parseInt(e.target.value, 10) || 1)))}
+                      onChange={(e) =>
+                        setIterations(Math.max(1, Math.min(10, parseInt(e.target.value, 10) || 1)))
+                      }
                       className="w-16 rounded-lg border border-border bg-surface-2 px-2 py-1 text-sm text-text"
                       disabled={running}
                     />
@@ -561,13 +660,10 @@ export default function BenchmarkRunner() {
               <button
                 type="button"
                 onClick={() =>
-                  void runBenchmark(
-                    usePersonalDocs ? iterations : 1,
-                    usePersonalDocs ? sessionId : null,
-                  )
+                  void runBenchmark(usePersonalDocs ? iterations : 1, usePersonalDocs ? sessionId : null)
                 }
                 disabled={!canRunAdvanced}
-                className="inline-flex min-h-11 items-center rounded-lg bg-accent px-5 font-medium text-white transition-colors hover:bg-accent-hover disabled:opacity-40 disabled:cursor-not-allowed"
+                className="inline-flex min-h-11 items-center rounded-lg bg-accent px-5 font-medium text-white transition-colors hover:bg-accent-hover disabled:cursor-not-allowed disabled:opacity-40"
               >
                 {usePersonalDocs ? `Run on Personal Docs (×${iterations})` : "Run Advanced Benchmark"}
               </button>
@@ -582,7 +678,6 @@ export default function BenchmarkRunner() {
         <p className="text-xs text-text-muted">
           Leave your email and we&apos;ll send you an access key to run benchmarks on your own documents.
         </p>
-
         {interestStatus === "success" ? (
           <p className="rounded-lg bg-surface-2 px-4 py-3 text-sm text-text">{interestMsg}</p>
         ) : (
@@ -609,9 +704,7 @@ export default function BenchmarkRunner() {
               rows={2}
               className="w-full max-w-sm rounded-lg border border-border bg-surface-2 px-3 py-2 text-sm text-text placeholder:text-text-muted focus:outline focus:outline-2 focus:outline-focus"
             />
-            {interestStatus === "error" && (
-              <p className="text-xs text-accent-text">{interestMsg}</p>
-            )}
+            {interestStatus === "error" && <p className="text-xs text-accent-text">{interestMsg}</p>}
             <button
               type="submit"
               disabled={interestStatus === "submitting"}
@@ -623,37 +716,40 @@ export default function BenchmarkRunner() {
         )}
       </section>
 
-      {/* Aggregate stats */}
-      {results.length > 0 && (
+      {/* Per-query results */}
+      {hasResults && (
         <>
+          {/* Aggregate stats */}
           <section
             aria-labelledby="agg-heading"
             className="rounded-lg border border-border bg-surface p-5 sm:p-6"
           >
-            <h3 id="agg-heading" className="mb-4 text-lg font-bold text-text">
+            <h3 id="agg-heading" className="mb-1 text-lg font-bold text-text">
               Aggregate ({results.length} queries)
             </h3>
+            <p className="mb-4 text-xs text-text-muted">
+              Winner = highest BM25 quality score; within {(WINNER_QUALITY_EPSILON * 100).toFixed(0)}% quality →
+              latency breaks the tie; within {(WINNER_QUALITY_EPSILON * 100).toFixed(0)}% quality AND{" "}
+              {WINNER_LATENCY_TIE_MS}ms → Tie. LLM-only has no retrieval quality score so it rarely wins.
+            </p>
             <div className="grid grid-cols-2 gap-4 font-mono text-sm sm:grid-cols-4">
               {MODES.map((mode) => (
                 <div key={mode} className="flex flex-col gap-1">
                   <span className="text-xs font-semibold uppercase tracking-wide text-text-muted">
                     {MODE_LABELS[mode]}
                   </span>
-                  <span className="text-text">
-                    avg {formatLatency(avg(allLatencies[mode]) ?? 0)}
-                  </span>
-                  {(mode === "flat" || mode === "hierarchical") && (
-                    <span className="text-text">
-                      avg conf {pct(avg(allConfidences[mode]))}
-                    </span>
+                  <span className="text-text">avg {formatLatency(avg(allLatencies[mode]) ?? 0)}</span>
+                  {allConfidences[mode].length > 0 && (
+                    <span className="text-text">avg conf {pct(avg(allConfidences[mode]))}</span>
                   )}
-                  <span className="font-semibold text-accent-text">{winCounts[mode]} wins</span>
+                  <span className="font-semibold text-accent-text">{winCounts[mode] ?? 0} wins</span>
                 </div>
               ))}
             </div>
             <p className="mt-3 text-xs text-text-muted">Ties: {winCounts.tie}</p>
           </section>
 
+          {/* Per-query cards */}
           <section aria-label="Per-query results" className="flex flex-col gap-6">
             {results.map((r) => (
               <article
@@ -683,14 +779,26 @@ export default function BenchmarkRunner() {
                 <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
                   {MODES.map((mode) => {
                     const s = r[mode];
+                    const isWinner = r.winner === mode;
                     return (
                       <div
                         key={mode}
-                        className="flex flex-col gap-1 rounded-md border border-border bg-surface-2 p-3"
+                        className={`flex flex-col gap-1 rounded-md border p-3 ${
+                          isWinner
+                            ? "border-accent bg-surface-2"
+                            : "border-border bg-surface-2"
+                        }`}
                       >
-                        <span className="text-xs font-semibold text-text-muted">
-                          {MODE_LABELS[mode]}
-                        </span>
+                        <div className="flex items-center justify-between gap-1">
+                          <span className="text-xs font-semibold text-text-muted">
+                            {MODE_LABELS[mode]}
+                          </span>
+                          {isWinner && (
+                            <span className="rounded-full bg-accent px-1.5 py-0 text-[10px] font-bold text-white">
+                              ✓
+                            </span>
+                          )}
+                        </div>
                         {s.error ? (
                           <span className="text-xs text-accent-text">{s.error}</span>
                         ) : (
@@ -698,19 +806,29 @@ export default function BenchmarkRunner() {
                             <span className="font-mono text-xs text-text">
                               {formatLatency(s.latencyMs)}
                             </span>
+                            {s.qualityProxy !== null && (
+                              <span
+                                className={`font-mono text-xs ${isWinner ? "font-semibold text-text" : "text-text"}`}
+                              >
+                                quality {pct(s.qualityProxy)}
+                                {isWinner && (
+                                  <span className="ml-1 text-accent-text" title="Deciding metric">↑</span>
+                                )}
+                              </span>
+                            )}
                             {s.confidence !== null && (
                               <span className="font-mono text-xs text-text">
                                 conf {pct(s.confidence)}
                               </span>
                             )}
-                            {s.qualityProxy !== null && (
-                              <span className="font-mono text-xs text-text">
-                                quality {pct(s.qualityProxy)}
-                              </span>
-                            )}
                             {s.costUsd > 0 && (
                               <span className="font-mono text-xs text-text">
                                 {formatCost(s.costUsd)}
+                              </span>
+                            )}
+                            {s.tokens > 0 && (
+                              <span className="font-mono text-xs text-text-muted">
+                                {s.tokens} tok
                               </span>
                             )}
                             {s.topTitles.length > 0 && (
@@ -727,6 +845,37 @@ export default function BenchmarkRunner() {
               </article>
             ))}
           </section>
+
+          {/* Mode Comparison — live */}
+          <section aria-labelledby="comparison-heading" className="flex flex-col gap-4">
+            <h2 id="comparison-heading" className="text-2xl font-bold tracking-tight text-text">
+              Mode Comparison
+            </h2>
+            <p className="max-w-prose text-sm text-text-muted">
+              Based on your last run of {results.length} {results.length === 1 ? "query" : "queries"}. Accuracy shows
+              average confidence score for retrieval modes; LLM-only has no retrieval quality metric.
+            </p>
+            <ComparisonTable rows={liveRows ?? undefined} />
+          </section>
+
+          {/* Impact Analytics — live */}
+          <ImpactAnalytics rows={liveRows ?? undefined} queryCount={results.length} />
+        </>
+      )}
+
+      {/* Mode Comparison + Impact Analytics — sample (no run yet) */}
+      {!hasResults && (
+        <>
+          <section aria-labelledby="comparison-heading-sample" className="flex flex-col gap-4">
+            <h2 id="comparison-heading-sample" className="text-2xl font-bold tracking-tight text-text">
+              Mode Comparison
+            </h2>
+            <p className="max-w-prose text-sm text-text-muted">
+              Sample data — run a benchmark above to see live numbers from your own session.
+            </p>
+            <ComparisonTable />
+          </section>
+          <ImpactAnalytics />
         </>
       )}
     </div>

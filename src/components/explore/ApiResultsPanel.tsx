@@ -1,5 +1,6 @@
 import type { ApiResponse } from "@/lib/api";
 import { formatCost, formatLatency } from "@/lib/format";
+import MarkdownRenderer from "@/components/MarkdownRenderer";
 
 interface ApiResultsPanelProps {
   result: ApiResponse | null;
@@ -75,10 +76,10 @@ export default function ApiResultsPanel({ result, latencyMs, pending, mode }: Ap
 
       {isGenerative && result.answer_text && (
         <div className="rounded-lg border border-border bg-surface p-4">
-          <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-text-muted">
+          <p className="mb-3 text-xs font-semibold uppercase tracking-wide text-text-muted">
             {result.mode === "rag" ? "Generated answer (grounded)" : "Generated answer (ungrounded)"}
           </p>
-          <p className="text-text">{result.answer_text}</p>
+          <MarkdownRenderer content={result.answer_text} />
         </div>
       )}
 

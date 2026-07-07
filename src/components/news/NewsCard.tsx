@@ -17,10 +17,19 @@ interface NewsCardProps {
 
 export default function NewsCard({ item, featured }: NewsCardProps) {
   return (
-    <article
-      className={`flex flex-col rounded-lg border border-border bg-surface overflow-hidden ${
-        featured ? "lg:col-span-2" : ""
-      }`}
+    <a
+      href={item.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={`${item.headline} (opens in a new tab)`}
+      className={[
+        "group flex flex-col rounded-lg border border-border bg-surface overflow-hidden",
+        "transition-all duration-200 ease-in-out",
+        "hover:border-accent hover:[box-shadow:0_0_0_2px_var(--accent),0_4px_24px_-4px_var(--accent)]",
+        "motion-safe:hover:scale-[1.015]",
+        "focus-visible:outline focus-visible:outline-2 focus-visible:outline-focus",
+        featured ? "lg:col-span-2" : "",
+      ].join(" ")}
     >
       {item.imageUrl ? (
         <img
@@ -50,20 +59,14 @@ export default function NewsCard({ item, featured }: NewsCardProps) {
           <time dateTime={item.publishedAt}>{formatRelativeTime(item.publishedAt)}</time>
         </div>
 
-        <h3 className="text-lg font-semibold leading-snug text-text">
-          <a
-            href={item.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-accent-text focus-visible:outline focus-visible:outline-2 focus-visible:outline-focus"
-          >
-            {item.headline}
-            <span className="sr-only"> (opens in a new tab)</span>
-          </a>
-        </h3>
+        <p className="text-lg font-semibold leading-snug text-text group-hover:text-accent-text transition-colors duration-150">
+          {item.headline}
+        </p>
 
-        {item.summary && <p className="text-sm text-text-muted">{item.summary}</p>}
+        {item.summary && (
+          <p className="text-sm text-text-muted">{item.summary}</p>
+        )}
       </div>
-    </article>
+    </a>
   );
 }

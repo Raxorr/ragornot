@@ -28,6 +28,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Fetch fresh news
+        run: npm run fetch-news || echo "[fetch-news] fetch failed — using cached public/news.json"
+
       - name: Build
         env:
           NEXT_PUBLIC_API_BASE_URL: https://d8mkun1yo4v0c.cloudfront.net

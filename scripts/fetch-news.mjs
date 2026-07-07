@@ -118,9 +118,11 @@ function decodeEntities(str) {
 }
 
 function stripHtml(str) {
-  return decodeEntities(str.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/<[^>]+>/g, " "))
-    .replace(/\s+/g, " ")
-    .trim();
+  // Decode entities FIRST so entity-encoded HTML (e.g. &lt;img&gt;) gets stripped,
+  // not passed through as literal text (which was the previous bug).
+  const cdataUnwrapped = str.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1");
+  const decoded = decodeEntities(cdataUnwrapped);
+  return decoded.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 }
 
 function extractTag(block, tagName) {
