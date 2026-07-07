@@ -31,6 +31,10 @@ export default function Footer() {
           </div>
         </div>
         <p className="text-xs">
+          ragornot is an independent project, not affiliated with, endorsed by, or sponsored by Amazon
+          Web Services or Amazon.com, Inc. AWS and related marks are trademarks of Amazon.com, Inc.
+        </p>
+        <p className="text-xs">
           News feed aggregates headlines from public sources (arXiv, Hacker News, publisher RSS).
           All articles link to their original publisher. ragornot does not reproduce full article text.
           Code is MIT licensed.{" "}
@@ -42,6 +46,10 @@ export default function Footer() {
           >
             License
           </a>
+          {" · "}
+          <a href="/terms" className="underline hover:text-accent-text">Terms</a>
+          {" · "}
+          <a href="/privacy" className="underline hover:text-accent-text">Privacy</a>
         </p>
       </div>
     </footer>

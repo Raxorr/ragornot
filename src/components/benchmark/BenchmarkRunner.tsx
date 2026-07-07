@@ -677,6 +677,11 @@ export default function BenchmarkRunner() {
         <h3 className="text-base font-semibold text-text">Request access to advanced benchmark</h3>
         <p className="text-xs text-text-muted">
           Leave your email and we&apos;ll send you an access key to run benchmarks on your own documents.
+          Your email is used only to send the key — we don&apos;t share it or use it for anything else.
+          See our{" "}
+          <a href="/privacy" className="underline hover:text-accent-text">
+            Privacy Policy
+          </a>.
         </p>
         {interestStatus === "success" ? (
           <p className="rounded-lg bg-surface-2 px-4 py-3 text-sm text-text">{interestMsg}</p>

@@ -22,6 +22,9 @@ export default function ExploreView() {
   const [latencyMs, setLatencyMs] = useState(0);
   const [pending, setPending] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [exploreKey, setExploreKey] = useState("");
+
+  const isAiMode = mode === "llm-only" || mode === "rag";
 
   async function runSearch(nextQuery: string, nextMode: RetrievalMode) {
     if (!nextQuery.trim()) {
@@ -35,17 +38,16 @@ export default function ExploreView() {
 
     try {
       const apiMode = MODE_MAP[nextMode];
-      const { data, latencyMs: ms } = await callApi(nextQuery, apiMode);
+      const isAi = nextMode === "llm-only" || nextMode === "rag";
+      const { data, latencyMs: ms } = await callApi(nextQuery, apiMode, {
+        ...(isAi && exploreKey.trim() ? { exploreKey: exploreKey.trim() } : {}),
+      });
       setResult(data);
       setLatencyMs(ms);
     } catch (err) {
       const apiErr = err as ApiError;
-      if (apiErr.rateLimited) {
-        const wait = apiErr.retryAfterSeconds ? ` Try again in ${apiErr.retryAfterSeconds}s.` : "";
-        setError(`Rate limit reached.${wait}`);
-      } else {
-        setError(apiErr.message || "Network error. Check your connection and try again.");
-      }
+      // Use the backend's message directly — it explains the quota and suggests alternatives.
+      setError(apiErr.message || "Network error. Check your connection and try again.");
       setResult(null);
     } finally {
       setPending(false);
@@ -95,6 +97,23 @@ export default function ExploreView() {
       </form>
 
       <ModeSelector mode={mode} onChange={handleModeChange} />
+
+      {isAiMode && (
+        <div className="flex flex-col gap-1">
+          <label htmlFor="explore-key" className="text-xs font-medium text-text-muted">
+            Access key <span className="font-normal">(optional — unlocks more daily AI answers)</span>
+          </label>
+          <input
+            id="explore-key"
+            type="password"
+            value={exploreKey}
+            onChange={(e) => setExploreKey(e.target.value)}
+            placeholder="Paste your access key"
+            autoComplete="off"
+            className="w-full max-w-xs rounded-lg border border-border bg-surface-2 px-3 py-1.5 text-sm text-text placeholder:text-text-muted focus-visible:outline focus-visible:outline-2 focus-visible:outline-focus"
+          />
+        </div>
+      )}
 
       {error && (
         <div role="alert" className="rounded-lg border border-border bg-surface px-4 py-3 text-sm text-accent-text">

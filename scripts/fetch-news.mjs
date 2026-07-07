@@ -69,6 +69,12 @@ const RSS_SOURCES = [
   { name: "Pinecone Blog", url: "https://www.pinecone.io/learn/blog.rss", defaultTopic: "RAG" },
   { name: "Weaviate Blog", url: "https://weaviate.io/blog/rss.xml", defaultTopic: "RAG" },
   { name: "Qdrant Blog", url: "https://qdrant.tech/articles/rss.xml", defaultTopic: "RAG" },
+  // Tier 2 additions — AI industry news and cost/energy coverage
+  { name: "VentureBeat AI", url: "https://venturebeat.com/category/ai/feed/", defaultTopic: "AI" },
+  { name: "The Gradient", url: "https://thegradient.pub/rss/", defaultTopic: "AI" },
+  { name: "Simon Willison's Blog", url: "https://simonwillison.net/atom/everything/", defaultTopic: "LLM" },
+  { name: "DeepMind Blog", url: "https://deepmind.google/blog/rss.xml", defaultTopic: "AI" },
+  { name: "Cohere Blog", url: "https://cohere.com/blog/rss", defaultTopic: "RAG" },
 ];
 
 // Hacker News via the Algolia Search API — also keyless.
@@ -79,7 +85,7 @@ const HN_QUERIES = [
   "vector database embeddings",
 ];
 
-const MAX_ITEMS = 40;
+const MAX_ITEMS = 60;
 const OUTPUT_PATH = path.join(process.cwd(), "public", "news.json");
 const USER_AGENT = "ragornot-news-fetcher/1.0 (+https://github.com/Raxorr/ragornot)";
 const FETCH_TIMEOUT_MS = 10_000;

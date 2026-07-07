@@ -80,6 +80,17 @@ export default function ApiResultsPanel({ result, latencyMs, pending, mode }: Ap
             {result.mode === "rag" ? "Generated answer (grounded)" : "Generated answer (ungrounded)"}
           </p>
           <MarkdownRenderer content={result.answer_text} />
+          <p className="mt-3 text-xs text-text-muted">
+            AI-generated — may be inaccurate or outdated. Verify against{" "}
+            <a
+              href="https://docs.aws.amazon.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-accent-text"
+            >
+              official AWS docs
+            </a>.
+          </p>
         </div>
       )}
 
