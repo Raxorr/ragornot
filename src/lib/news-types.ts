@@ -4,7 +4,6 @@ export interface NewsItem {
   id: string;
   headline: string;
   source: string;
-  source_url?: string;
   url: string;
   publishedAt: string; // ISO 8601
   topic: NewsTopic;
