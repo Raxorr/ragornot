@@ -71,7 +71,6 @@ interface CallOptions {
   benchmarkMode?: "normal" | "x10";
   runId?: string;
   sessionId?: string;
-  exploreKey?: string;
 }
 
 export async function callApi(
@@ -90,9 +89,6 @@ export async function callApi(
     }
     headers["X-Benchmark-Mode"] = options.benchmarkMode ?? "normal";
     if (options.runId) body.run_id = options.runId;
-  } else if (options.exploreKey) {
-    // Pass key for Explore LLM/RAG to unlock the keyed daily quota.
-    headers["X-Benchmark-Key"] = options.exploreKey;
   }
   if (options.sessionId) body.session_id = options.sessionId;
 

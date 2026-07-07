@@ -17,7 +17,7 @@ ragornot runs your question through four retrieval strategies against 116 indexe
 | **LLM-only** | Direct AWS Bedrock (Haiku) answer, no retrieval grounding |
 | **RAG** | Hierarchical retrieval + Bedrock generation |
 
-The **News** tab aggregates AI/LLM/RAG headlines from arXiv, Hacker News, and publisher RSS feeds — refreshed every 6 hours by a free GitHub Actions cron.
+The **News** tab aggregates AI/LLM/RAG headlines from arXiv, Hacker News, and publisher RSS feeds — refreshed hourly by a free GitHub Actions cron.
 
 ---
 
@@ -45,15 +45,32 @@ The app redirects `/` to `/news`. Explore is at `/explore`, Benchmark at `/bench
 
 **Security note:** the `x-origin-verify` header that protects the Lambda is injected **server-side by CloudFront** — it never appears in client code or env files.
 
+### Lambda backend env vars (set in AWS console/CLI, never in this repo)
+
+| Variable | Description |
+|----------|-------------|
+| `DATA_BUCKET` | S3 bucket for benchmark index, interest submissions, quota state |
+| `BENCHMARK_KEY` | Secret key for benchmark access (user-typed, sent as header) |
+| `ORIGIN_VERIFY_SECRET` | Must match the `x-origin-verify` CloudFront custom header |
+| `SES_SENDER` | Verified SES address for outbound email |
+| `OWNER_EMAIL` | Owner notification address for interest-form submissions |
+| `SES_REGION` | AWS region where the SES identity is verified (default: us-east-1) |
+| `EXPLORE_LLM_FREE_DAILY` | Max Explore AI answers per IP per day (default: 10) |
+| `BENCHMARK_DAILY_LIMIT` | Max benchmark runs per IP per day |
+| `BEDROCK_DAILY_USD_CAP` | Hard global Bedrock spend cap in USD per UTC day |
+| `BEDROCK_MODEL_ID` | Bedrock model for LLM/RAG (e.g. claude-haiku-4-5) |
+
 ---
 
 ## News cron
 
-The news feed lives in `public/news.json`. Updated by `.github/workflows/news-cron.yml` every 6 hours:
+The news feed lives in `public/news.json`. Updated by `.github/workflows/news-cron.yml` every hour:
 
 1. Actions runs `npm run fetch-news`
-2. If `news.json` changed, it commits and pushes
-3. The push triggers the deploy workflow, which rebuilds and redeploys
+2. If `news.json` changed, it commits and pushes to main
+3. The push triggers `deploy.yml` via the push event, which rebuilds and redeploys
+
+> **Note:** GitHub's scheduled workflows can lag 15–60 min during high load. For guaranteed hourly freshness, configure an external cron at [cron-job.org](https://cron-job.org) to POST to `https://api.github.com/repos/Raxorr/ragornot/actions/workflows/news-cron.yml/dispatches` with a GitHub PAT that has `actions:write` scope.
 
 Local: `npm run fetch-news`
 
