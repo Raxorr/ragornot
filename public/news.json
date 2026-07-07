@@ -1,13 +1,174 @@
 [
   {
-    "id": "google-ai-blog-the-latest-ai-news-we-announced-in-june-2026",
-    "headline": "The latest AI news we announced in June 2026",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
-    "publishedAt": "2026-07-01T18:15:00.000Z",
+    "id": "hacker-news-rag",
+    "headline": "RAG",
+    "source": "Hacker News",
+    "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+    "publishedAt": "2026-07-07T05:34:43.000Z",
+    "topic": "RAG"
+  },
+  {
+    "id": "arxiv-cs-cl-improving-llms-via-validator-to-generator-alignment",
+    "headline": "Improving LLMs via Validator-to-Generator Alignment",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.02668",
+    "publishedAt": "2026-07-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "arXiv:2607.02668v1 Announce Type: new Abstract: Large language models are inconsistent: varying prompts or including unrelated information can lead to unexpected changes in model outputs. The generator-validator (G-V) ga"
+  },
+  {
+    "id": "arxiv-cs-cl-luxsqa-ask-me-in-luxembourgish-with-tts-augmented-spoken-que",
+    "headline": "LuxSQA: Ask Me in Luxembourgish with TTS-Augmented Spoken Question Answering",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.02763",
+    "publishedAt": "2026-07-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "arXiv:2607.02763v1 Announce Type: new Abstract: Spoken Question Answering (SQA) remains largely focused on high-resource languages and carefully recorded speech, limiting the reach of speech-LLM methods in low-resource s"
+  },
+  {
+    "id": "arxiv-cs-cl-seduced-by-the-narrative-assessing-rule-adherence-in-semi-op",
+    "headline": "Seduced by the Narrative: Assessing Rule Adherence in Semi-Open Textual Sandboxes",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.02802",
+    "publishedAt": "2026-07-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "arXiv:2607.02802v1 Announce Type: new Abstract: As LLMs are increasingly deployed as autonomous adjudicators in semi-open textual game environments, robust rule adherence becomes critical when user intent conflicts with "
+  },
+  {
+    "id": "arxiv-cs-cl-where-do-llms-fall-short-in-cbt-guided-affective-reasoning",
+    "headline": "Where do LLMs Fall Short in CBT-Guided Affective Reasoning?",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.02885",
+    "publishedAt": "2026-07-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "arXiv:2607.02885v1 Announce Type: new Abstract: Cognitive Behavioral Therapy (CBT) provides a structured framework for understanding a user's mental state by examining the interaction between cognitive and behavioral fac"
+  },
+  {
+    "id": "arxiv-cs-cl-distill-where-the-student-goes-teacher-regularized-rl-for-en",
+    "headline": "Distill Where the Student Goes: Teacher-Regularized RL for English-Evidence Cross-Lingual RAG",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.02966",
+    "publishedAt": "2026-07-07T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from June 2026.",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp"
+    "summary": "arXiv:2607.02966v1 Announce Type: new Abstract: Cross-lingual retrieval-augmented generation (RAG) is often deployed in an English-evidence regime, where users query in diverse languages but retrieved passages remain Eng"
+  },
+  {
+    "id": "arxiv-cs-cl-hierarchical-sparse-attention-done-right-toward-infinite-con",
+    "headline": "Hierarchical Sparse Attention Done Right: Toward Infinite Context Modeling",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.02980",
+    "publishedAt": "2026-07-07T04:00:00.000Z",
+    "topic": "Cost",
+    "summary": "arXiv:2607.02980v1 Announce Type: new Abstract: Scaling modern large language models (LLMs) to long contexts is limited by the quadratic computation cost, and poor length extrapolation of dense attention. Chunk-wise spar"
+  },
+  {
+    "id": "arxiv-cs-cl-psytechlab-at-clpsych-2026-utilising-natural-language-proces",
+    "headline": "psytechlab at CLPsych 2026: Utilising Natural Language Processing methods and Large Language Models for Social Media Text Analysis",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.03003",
+    "publishedAt": "2026-07-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "arXiv:2607.03003v1 Announce Type: new Abstract: Social media posts are a rich and valuable source of data for analyzing mental health states and users' well-being using automated analysis tools. In this work, we demonstr"
+  },
+  {
+    "id": "arxiv-cs-cl-alignment-guided-largest-table-overlap-size-estimation",
+    "headline": "Alignment-Guided Largest Table Overlap Size Estimation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.03049",
+    "publishedAt": "2026-07-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "arXiv:2607.03049v1 Announce Type: new Abstract: Fast estimation of the size of the largest overlap between tables enables blocking and query-by-table retrieval in large table repositories. The first and the state-of-the-"
+  },
+  {
+    "id": "arxiv-cs-ir-long-term-optimization-for-large-scale-generative-retrieval-",
+    "headline": "Long-Term Optimization for Large-Scale Generative Retrieval with Off-Policy REINFORCE",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.02818",
+    "publishedAt": "2026-07-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "arXiv:2607.02818v1 Announce Type: new Abstract: Generative retrieval has become a popular paradigm for large-scale recommendation. However, it is typically trained with supervised next-item prediction objectives that do "
+  },
+  {
+    "id": "arxiv-cs-ir-heterqa-benchmarking-record-retrieval-over-multiple-heteroge",
+    "headline": "HETERQA: Benchmarking Record Retrieval over Multiple Heterogeneous Sources",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.03028",
+    "publishedAt": "2026-07-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "arXiv:2607.03028v1 Announce Type: new Abstract: In emerging systems (e.g., social media and e-commerce platforms), data records are often drawn from heterogeneous sources, such as relational tables, text documents, image"
+  },
+  {
+    "id": "arxiv-cs-ir-improving-access-to-historical-archives-with-real-time-rag-b",
+    "headline": "Improving Access to Historical Archives with Real-time RAG-based Systems",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.03440",
+    "publishedAt": "2026-07-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "arXiv:2607.03440v1 Announce Type: new Abstract: Digitized historical archives are large, heterogeneous cultural heritage repositories, but access methods for such archives face challenges such as noisy optical character "
+  },
+  {
+    "id": "arxiv-cs-ir-sentattack-a-sentence-level-black-box-adversarial-attack-met",
+    "headline": "SentAttack: A Sentence-Level Black-Box Adversarial Attack Method for Dense Retrieval Models",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.03456",
+    "publishedAt": "2026-07-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "arXiv:2607.03456v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) systems typically consist of a dense retrieval (DR) model for initial retrieval and a neural ranking model (NRM) for re-ranking.Existin"
+  },
+  {
+    "id": "arxiv-cs-ir-relevance-based-embeddings-lightweight-candidate-retrieval-v",
+    "headline": "Relevance-Based Embeddings: Lightweight Candidate Retrieval via Heavy-Ranker Calls",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.03515",
+    "publishedAt": "2026-07-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "arXiv:2607.03515v1 Announce Type: new Abstract: In many machine learning applications, the most relevant items for a query should be efficiently retrieved. The relevance function is usually an expensive similarity model,"
+  },
+  {
+    "id": "arxiv-cs-ir-the-powerless-noise-how-experimental-settings-shape-the-repo",
+    "headline": "The Powerless Noise: How Experimental Settings Shape the Reported Power of Noise",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.03615",
+    "publishedAt": "2026-07-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "arXiv:2607.03615v1 Announce Type: new Abstract: Recent work has suggested that adding irrelevant documents to the input of retrieval-augmented generation (RAG) systems can improve question-answering performance, a phenom"
+  },
+  {
+    "id": "arxiv-cs-ir-next-gen-sponsored-search-crafting-the-perfect-query-with-in",
+    "headline": "Next-Gen Sponsored Search: Crafting the Perfect Query with Inventory-Aware RAG (InvAwr-RAG) Based GenAI",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.03880",
+    "publishedAt": "2026-07-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "arXiv:2607.03880v1 Announce Type: new Abstract: Sponsored search plays a crucial role in e-commerce revenue generation, where advertisers strategically bid on keywords to capture the attention of users through relevant s"
+  },
+  {
+    "id": "arxiv-cs-ir-enhancement-of-e-commerce-sponsored-search-relevancy-with-ll",
+    "headline": "Enhancement of E-commerce Sponsored Search Relevancy with LLM",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.03886",
+    "publishedAt": "2026-07-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "arXiv:2607.03886v1 Announce Type: new Abstract: Sponsored search plays a crucial role as a revenue stream for search engines, wherein advertisers competitively bid on keywords that align with the users' search queries. T"
+  },
+  {
+    "id": "import-ai-import-ai-464-fable-writes-gpu-kernels-ai-automation-and-ana",
+    "headline": "Import AI 464: Fable writes GPU kernels; AI automation; and analog computation",
+    "source": "Import AI",
+    "url": "https://importai.substack.com/p/import-ai-464-fables-writes-gpu-kernels",
+    "publishedAt": "2026-07-06T12:31:05.000Z",
+    "topic": "AI",
+    "summary": "Is this the beginning of a new world?",
+    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
+  },
+  {
+    "id": "simon-willison-s-blog-llm-coding-agent-0-1a0",
+    "headline": "llm-coding-agent 0.1a0",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
+    "publishedAt": "2026-07-02T19:33:12.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm-coding-agent 0.1a0 Another Fable 5 experiment. Now that my LLM library has evolved into more of an agent framework it's time to see what a simple coding agent would look like built on it. I started a new Pyt"
   },
   {
     "id": "aws-machine-learning-blog-structured-memory-filtering-with-metadata-in-agentcore-memor",
@@ -28,16 +189,6 @@
     "summary": "In this post, we demonstrate how to implement HippoRAG using a comprehensive AWS stack. We use Amazon Bedrock for LLM capabilities, Amazon Neptune for graph database functionality, Amazon Neptune Analytics for advanced g"
   },
   {
-    "id": "google-ai-blog-new-york-city-educators-and-industry-leaders-gathered-at-goo",
-    "headline": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
-    "publishedAt": "2026-07-01T16:00:00.000Z",
-    "topic": "RAG",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp\">Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and in",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp"
-  },
-  {
     "id": "aws-machine-learning-blog-implementing-resilience-patterns-with-amazon-bedrock-and-llm",
     "headline": "Implementing resilience patterns with Amazon Bedrock and LLM gateway",
     "source": "AWS Machine Learning Blog",
@@ -55,24 +206,33 @@
     "topic": "LLM"
   },
   {
-    "id": "google-ai-blog-unlocking-britain-s-next-era-of-productivity-building-a-nati",
-    "headline": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
-    "publishedAt": "2026-06-30T06:00:00.000Z",
-    "topic": "RAG",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp\">Google UK shares its latest Economic Impact Report and how to enable more people to ",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Generated_Image_k2dxu1k2.max-600x600.format-webp.webp"
+    "id": "simon-willison-s-blog-ornith-1-0-self-scaffolding-llms-for-agentic-coding",
+    "headline": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything",
+    "publishedAt": "2026-06-29T16:17:59.000Z",
+    "topic": "LLM",
+    "summary": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding This is an interesting new open weights (MIT licensed) model, the first model release from DeepReinforce. [...] with variants including 9B Dense, 31B Dense, 35B MoE, a"
   },
   {
-    "id": "google-ai-blog-ask-an-ai-expert-what-exactly-is-the-full-stack",
-    "headline": "Ask an AI expert: What exactly is the full stack?",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
-    "publishedAt": "2026-06-29T16:00:00.000Z",
-    "topic": "RAG",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp\">A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundati",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Full_Stack.max-600x600.format-webp.webp"
+    "id": "import-ai-import-ai-463-self-improving-robots-a-10k-chinese-gpu-cluste",
+    "headline": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+    "source": "Import AI",
+    "url": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
+    "publishedAt": "2026-06-29T13:03:27.000Z",
+    "topic": "AI",
+    "summary": "What eras bookend our interregnum?",
+    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
+  },
+  {
+    "id": "ahead-of-ai-using-local-coding-agents",
+    "headline": "Using Local Coding Agents",
+    "source": "Ahead of AI",
+    "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
+    "publishedAt": "2026-06-27T11:21:58.000Z",
+    "topic": "LLM",
+    "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
+    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/4e729449-80ff-40c7-bcee-4d9349b46afe_2893x1589.png"
   },
   {
     "id": "hacker-news-show-hn-rag-vector-db-cost-calculator",
@@ -83,22 +243,21 @@
     "topic": "RAG"
   },
   {
+    "id": "simon-willison-s-blog-quoting-timothy-b-lee",
+    "headline": "Quoting Timothy B. Lee",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Jun/26/timothy-b-lee/#atom-everything",
+    "publishedAt": "2026-06-26T21:15:09.000Z",
+    "topic": "LLM",
+    "summary": "This is like saying there's no learning curve to being a manager because your employees will just do whatever you tell them to do. &mdash; Timothy B. Lee , on the idea that LLMs take no skill and have no learning curve T"
+  },
+  {
     "id": "hugging-face-blog-run-a-vllm-server-on-hf-jobs-in-one-command",
     "headline": "Run a vLLM Server on HF Jobs in One Command",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/vllm-jobs",
     "publishedAt": "2026-06-26T00:00:00.000Z",
     "topic": "LLM"
-  },
-  {
-    "id": "google-ai-blog-our-latest-google-finance-upgrades-including-a-new-app",
-    "headline": "Our latest Google Finance upgrades, including a new app",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
-    "publishedAt": "2026-06-25T16:00:00.000Z",
-    "topic": "RAG",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp\">The new Google Finance is coming out of beta and launching a new Android app.",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Finance_blog_image_June_.max-600x600.format-webp.webp"
   },
   {
     "id": "hacker-news-show-hn-sipp-run-small-local-llms-in-browser-3x-faster",
@@ -126,6 +285,16 @@
     "topic": "RAG"
   },
   {
+    "id": "import-ai-import-ai-462-superpersuasion-self-sustaining-ai-paths-to-as",
+    "headline": "Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI",
+    "source": "Import AI",
+    "url": "https://importai.substack.com/p/import-ai-462-superpersuasion-self",
+    "publishedAt": "2026-06-22T12:31:45.000Z",
+    "topic": "AI",
+    "summary": "How religious are beliefs in the singularity?",
+    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
+  },
+  {
     "id": "hacker-news-quantifying-llm-cost-savings-from-cache-aware-inference-rout",
     "headline": "Quantifying LLM Cost Savings from Cache-Aware Inference Routing",
     "source": "Hacker News",
@@ -134,14 +303,14 @@
     "topic": "Cost"
   },
   {
-    "id": "google-ai-blog-new-research-shows-how-amie-our-medical-ai-could-help-manage",
-    "headline": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-    "publishedAt": "2026-06-17T15:00:00.000Z",
-    "topic": "RAG",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp\">Research in “Nature” shows our conversational AI system matches primary care physici",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AMIE_Mx_Nature_Social_Visual_Va.max-600x600.format-webp.webp"
+    "id": "import-ai-import-ai-461-alignment-is-not-on-track-frontiercode-and-syn",
+    "headline": "Import AI 461: \"Alignment is not on track\"; FrontierCode; and synthetic research interns",
+    "source": "Import AI",
+    "url": "https://importai.substack.com/p/import-ai-461-alignment-is-not-on",
+    "publishedAt": "2026-06-15T11:30:53.000Z",
+    "topic": "AI",
+    "summary": "Where are your agents right now?",
+    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
   },
   {
     "id": "google-ai-blog-our-new-community-investments-in-virginia-support-local-jobs",
@@ -149,9 +318,19 @@
     "source": "Google AI Blog",
     "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
     "publishedAt": "2026-06-11T20:00:00.000Z",
-    "topic": "RAG",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp\">We’re helping build the state’s next-generation workforce and investing in energy programs.",
+    "topic": "Environment",
+    "summary": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
     "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp"
+  },
+  {
+    "id": "import-ai-import-ai-460-reward-hacking-society-rsi-data-from-anthropic",
+    "headline": "Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing",
+    "source": "Import AI",
+    "url": "https://importai.substack.com/p/import-ai-460-reward-hacking-society",
+    "publishedAt": "2026-06-08T12:31:32.000Z",
+    "topic": "Cost",
+    "summary": "When will markets price the singularity?",
+    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
   },
   {
     "id": "hacker-news-mitigating-the-llm-rerun-crisis-for-minimized-inference-cost",
@@ -162,34 +341,14 @@
     "topic": "Cost"
   },
   {
-    "id": "google-ai-blog-the-latest-ai-news-we-announced-in-may-2026",
-    "headline": "The latest AI news we announced in May 2026",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
-    "publishedAt": "2026-06-05T14:45:00.000Z",
-    "topic": "RAG",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/May_AI_Recap_still.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from May 2026",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/May_AI_Recap_still.max-600x600.format-webp.webp"
-  },
-  {
-    "id": "google-ai-blog-5-ways-google-search-can-level-up-your-thrift-and-vintage-sh",
-    "headline": "5 ways Google Search can level up your thrift and vintage shopping",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
-    "publishedAt": "2026-06-03T13:00:00.000Z",
-    "topic": "RAG",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp\">Uncover second-hand scores with AI tools in Google Search and Shopping.",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Thrifting_Header.max-600x600.format-webp.webp"
-  },
-  {
-    "id": "google-ai-blog-how-we-used-gemini-to-build-google-i-o-2026",
-    "headline": "How we used Gemini to build Google I/O 2026",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
-    "publishedAt": "2026-06-01T16:00:00.000Z",
-    "topic": "RAG",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp\">Learn how Googlers used AI to produce Google I/O 2026.",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp"
+    "id": "ahead-of-ai-llm-research-papers-the-2026-list-january-to-may",
+    "headline": "LLM Research Papers: The 2026 List (January to May)",
+    "source": "Ahead of AI",
+    "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+    "publishedAt": "2026-06-06T11:16:22.000Z",
+    "topic": "LLM",
+    "summary": "A curated roundup of notable LLM research papers that came out this year",
+    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/8630eb02-eeac-4411-bef3-1865c1920b03_2912x1632.png"
   },
   {
     "id": "hugging-face-blog-beyond-llms-why-scalable-enterprise-ai-adoption-depends-on-a",
@@ -200,14 +359,14 @@
     "topic": "LLM"
   },
   {
-    "id": "google-ai-blog-take-our-i-o-2026-quiz-vibe-coded-in-google-ai-studio",
-    "headline": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
-    "publishedAt": "2026-05-29T19:00:00.000Z",
-    "topic": "RAG",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp\">We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp"
+    "id": "import-ai-import-ai-459-ai-oversight-is-difficult-scaling-laws-for-pro",
+    "headline": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems",
+    "source": "Import AI",
+    "url": "https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult",
+    "publishedAt": "2026-06-01T13:31:56.000Z",
+    "topic": "Cost",
+    "summary": "Do you feel as though you are living in a revolution?",
+    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
   },
   {
     "id": "hacker-news-hybrid-local-and-cloud-llm-stack-for-regulated-financial-doc",
@@ -218,44 +377,33 @@
     "topic": "LLM"
   },
   {
-    "id": "google-ai-blog-9-demos-of-gemini-omni-and-gemini-3-5-in-action",
-    "headline": "9 demos of Gemini Omni and Gemini 3.5 in action",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
-    "publishedAt": "2026-05-29T17:30:00.000Z",
-    "topic": "RAG",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Omni_and_Gemini_3.5_hero.max-600x600.format-webp.webp\">Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at ",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Omni_and_Gemini_3.5_hero.max-600x600.format-webp.webp"
+    "id": "last-week-in-ai-last-week-in-ai-341-musk-loses-to-openai-google-s-io-updates",
+    "headline": "Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős",
+    "source": "Last Week in AI",
+    "url": "https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to",
+    "publishedAt": "2026-05-27T07:50:58.000Z",
+    "topic": "LLM",
+    "summary": "Elon Musk Loses $150 Billion Suit Against OpenAI and Sam Altman, Google updates its Gemini app to take on ChatGPT and Claude at IO 2026, and more!",
+    "imageUrl": "https://substackcdn.com/image/fetch/$s_!9WND!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F703c9446-83b3-4add-9705-ad8252591f60_1376x768.jpeg"
   },
   {
-    "id": "google-ai-blog-check-out-real-life-ai-prototypes-from-the-futures-lab",
-    "headline": "Check out real-life AI prototypes from the Futures Lab.",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
-    "publishedAt": "2026-05-29T12:00:00.000Z",
-    "topic": "RAG",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp\">University of Waterloo students develop AI prototypes like sign language tutors to reshape the fut",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp"
+    "id": "import-ai-import-ai-458-reckoning-with-the-future-and-a-singularity-st",
+    "headline": "Import AI 458: Reckoning with the future; and a singularity story",
+    "source": "Import AI",
+    "url": "https://importai.substack.com/p/import-ai-458-reckoning-with-the",
+    "publishedAt": "2026-05-26T12:32:03.000Z",
+    "topic": "AI",
+    "summary": "What AI-driven miracles will happen this year?",
+    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
   },
   {
-    "id": "google-ai-blog-catch-up-on-12-major-i-o-2026-moments",
-    "headline": "Catch up on 12 major I/O 2026 moments",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
-    "publishedAt": "2026-05-28T15:00:00.000Z",
-    "topic": "RAG",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_KNH.max-600x600.format-webp.webp\">Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flas",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/KW_KNH.max-600x600.format-webp.webp"
-  },
-  {
-    "id": "google-ai-blog-catch-up-on-the-dialogues-stage-at-google-i-o-2026",
-    "headline": "Catch up on the Dialogues stage at Google I/O 2026.",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
-    "publishedAt": "2026-05-22T18:00:00.000Z",
-    "topic": "RAG",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.max-600x600.format-webp.webp\">A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing,",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO26_Dialogues_3z680sK.max-600x600.format-webp.webp"
+    "id": "last-week-in-ai-lwiai-podcast-246-gemini-3-5-omni-musk-loses-openai-vs-erd-s",
+    "headline": "LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős",
+    "source": "Last Week in AI",
+    "url": "https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni",
+    "publishedAt": "2026-05-26T05:10:23.000Z",
+    "topic": "LLM",
+    "summary": "Google unveils AI model Gemini 3.5 and AI agent Gemini Spark, Omni turns images, audio, and text into video, Musk loses OpenAI court battle"
   },
   {
     "id": "openai-how-virgin-atlantic-ships-faster-with-codex",
@@ -281,39 +429,47 @@
     "source": "Google AI Blog",
     "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
     "publishedAt": "2026-05-20T20:40:00.000Z",
-    "topic": "RAG",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MissouriSocial.max-600x600.format-webp.webp\">We’re helping build the state’s next-generation workforce and investing in energy programs.",
+    "topic": "Environment",
+    "summary": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
     "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/MissouriSocial.max-600x600.format-webp.webp"
   },
   {
-    "id": "google-ai-blog-100-things-we-announced-at-i-o-2026",
-    "headline": "100 things we announced at I/O 2026",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
-    "publishedAt": "2026-05-20T19:30:00.000Z",
-    "topic": "RAG",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/100_things_Social.max-600x600.format-webp.webp\">We've been busy! Here’s a rundown of the top announcements, launches and demos at I/O 2026.",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/100_things_Social.max-600x600.format-webp.webp"
+    "id": "last-week-in-ai-lwiai-podcast-245-tml-interaction-claude-for-legal-sam-altma",
+    "headline": "LWiAI Podcast #245 - TML-Interaction, Claude For Legal, Sam Altman on Stand",
+    "source": "Last Week in AI",
+    "url": "https://lastweekin.ai/p/lwiai-podcast-245-tml-interaction",
+    "publishedAt": "2026-05-20T07:45:49.000Z",
+    "topic": "LLM",
+    "summary": "OpenAI launches new voice intelligence features in its API, Thinking Machines drops a new, highly responsive model designed for humanlike interactions in real time, and more!"
   },
   {
-    "id": "google-ai-blog-a-new-experiment-brings-better-group-meetings-to-google-beam",
-    "headline": "A new experiment brings better group meetings to Google Beam",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
-    "publishedAt": "2026-05-20T16:45:00.000Z",
-    "topic": "RAG",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_2026-05-15_at_4.21.2.max-600x600.format-webp.webp\">See and hear your colleagues in true-to-life size and sound, making hybrid meetings ",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_2026-05-15_at_4.21.2.max-600x600.format-webp.webp"
-  },
-  {
-    "id": "google-ai-blog-how-ai-mode-is-changing-the-way-people-search-in-the-u-s",
-    "headline": "How AI Mode is changing the way people search in the U.S.",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/",
+    "id": "venturebeat-ai-google-just-redesigned-the-search-box-for-the-first-time-in-",
+    "headline": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think",
     "publishedAt": "2026-05-19T17:45:00.000Z",
+    "topic": "AI",
+    "summary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On Tuesday, Google will ",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/1TD0Sl7Zq6nnBSZMK9FXpl/41ce2cc6da055da7647670c71ba8aa6b/Nuneybits_Vector_art_of_an_oversized_white_search_bar_rimmed_in_695cac3f-1536-4438-acc1-51c16e2ff51f.webp?w=300&amp;q=30"
+  },
+  {
+    "id": "qdrant-blog-how-goperfect-built-an-agentic-recruiting-workforce-with-qdr",
+    "headline": "How GoPerfect Built an Agentic Recruiting Workforce with Qdrant Cloud",
+    "source": "Qdrant Blog",
+    "url": "https://qdrant.tech/blog/case-study-go-perfect/",
+    "publishedAt": "2026-05-19T00:00:00.000Z",
     "topic": "RAG",
-    "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_US.max-600x600.format-webp.webp\">One year after launch, see how AI Mode’s users are shifting from keywords to natural language queries.",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_US.max-600x600.format-webp.webp"
+    "summary": "GoPerfect mission is to use an AI recruiting workforce that replaces the manual, low-leverage parts of recruiting. Instead, an agent decomposes recruiter intent and runs the work end to end to find top talent. Their agen"
+  },
+  {
+    "id": "import-ai-import-ai-457-ai-stuxnet-cursed-muon-optimizer-and-positive-",
+    "headline": "Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment",
+    "source": "Import AI",
+    "url": "https://importai.substack.com/p/import-ai-457-ai-stuxnet-cursed-muon",
+    "publishedAt": "2026-05-18T13:31:17.000Z",
+    "topic": "AI",
+    "summary": "Welcome to Import AI, a newsletter about AI research.",
+    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
   },
   {
     "id": "hacker-news-ask-hn-could-free-low-cost-llms-be-a-momentary-thing",
@@ -322,6 +478,26 @@
     "url": "https://news.ycombinator.com/item?id=48176542",
     "publishedAt": "2026-05-18T07:36:43.000Z",
     "topic": "Cost"
+  },
+  {
+    "id": "ahead-of-ai-recent-developments-in-llm-architectures-kv-sharing-mhc-and-",
+    "headline": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
+    "source": "Ahead of AI",
+    "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+    "publishedAt": "2026-05-16T11:33:51.000Z",
+    "topic": "Cost",
+    "summary": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
+    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/2b841d26-5b2d-4be9-9710-d89d4f023f0c_1600x900.png"
+  },
+  {
+    "id": "deepmind-blog-strengthening-singapore-s-ai-future-a-new-national-partnersh",
+    "headline": "Strengthening Singapore’s AI Future: A New National Partnership",
+    "source": "DeepMind Blog",
+    "url": "https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/",
+    "publishedAt": "2026-05-16T09:13:34.000Z",
+    "topic": "Environment",
+    "summary": "Google DeepMind and Singapore partner to apply frontier AI to address complex challenges across health, education, and sustainability and more.",
+    "imageUrl": "https://lh3.googleusercontent.com/Woiv_MqlJsgv6bSWD505JCSu936VdLLtR0y7Ev1wPWDmuhFK1SYxkpyU4N2vhSpSMl22NAtbxuZ1yFMHIcDFwABNZIgRtX0ccRXxWiBaHETRXUQEZQ=w528-h297-n-nu-rw-lo"
   },
   {
     "id": "hugging-face-blog-granite-embedding-multilingual-r2-open-apache-2-0-multilingu",
@@ -358,11 +534,468 @@
     "summary": "A Researcher's Perspective on Retrieval Quality in RAG Systems"
   },
   {
+    "id": "last-week-in-ai-last-week-in-ai-340-openai-vs-musk-microsoft-deepseek-v4-vis",
+    "headline": "Last Week in AI #340 - OpenAI vs Musk + Microsoft, DeepSeek v4, Vision Banana",
+    "source": "Last Week in AI",
+    "url": "https://lastweekin.ai/p/last-week-in-ai-340-openai-vs-musk",
+    "publishedAt": "2026-05-05T08:30:35.000Z",
+    "topic": "AI",
+    "summary": "First week of Musk v. Altman, OpenAI ends Microsoft legal peril over its $50B Amazon deal, DeepSeek previews new AI model that ‘closes the gap’ with frontier models, and more!",
+    "imageUrl": "https://substackcdn.com/image/fetch/$s_!680g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ec989f7-4d06-402a-b757-c7c1e1527c3a_793x446.png"
+  },
+  {
+    "id": "last-week-in-ai-lwiai-podcast-243-gpt-5-5-deepseek-v4-ai-safety-sabotage",
+    "headline": "LWiAI Podcast #243 - GPT 5.5, DeepSeek V4, AI safety sabotage",
+    "source": "Last Week in AI",
+    "url": "https://lastweekin.ai/p/lwiai-podcast-243-gpt-55-deepseek",
+    "publishedAt": "2026-05-04T07:54:06.000Z",
+    "topic": "LLM",
+    "summary": "Our 243rd episode with a summary and discussion of last week’s big AI news!"
+  },
+  {
+    "id": "last-week-in-ai-lwiai-podcast-242-chatgpt-images-2-0-qwen-3-6-max-kimi-k2-6",
+    "headline": "LWiAI Podcast #242 - ChatGPT Images 2.0, Qwen 3.6 Max, Kimi-K2.6",
+    "source": "Last Week in AI",
+    "url": "https://lastweekin.ai/p/lwiai-podcast-242-chatgpt-images",
+    "publishedAt": "2026-04-30T07:14:45.000Z",
+    "topic": "LLM",
+    "summary": "ChatGPT’s new Images 2.0 model is surprisingly good at generating text , Alibaba Drops Qwen 3.6 Max Preview , SpaceX is working with Cursor"
+  },
+  {
     "id": "hugging-face-blog-granite-4-1-llms-how-they-re-built",
     "headline": "Granite 4.1 LLMs: How They’re Built",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
     "publishedAt": "2026-04-29T15:01:48.000Z",
     "topic": "LLM"
+  },
+  {
+    "id": "qdrant-blog-how-data-graphs-built-a-true-hybrid-graph-rag-platform",
+    "headline": "How Data Graphs Built a True Hybrid Graph RAG Platform",
+    "source": "Qdrant Blog",
+    "url": "https://qdrant.tech/blog/case-study-datagraphs/",
+    "publishedAt": "2026-04-22T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Data Graphs is a UK-based platform company that provides a knowledge graph-as-a-service polystore, built on a proprietary, high-performance graph database engine. Co-founded by Paul Wilton over 10 years ago as a consulta"
+  },
+  {
+    "id": "hugging-face-blog-qimma-a-quality-first-arabic-llm-leaderboard",
+    "headline": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+    "publishedAt": "2026-04-21T10:09:58.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "ahead-of-ai-my-workflow-for-understanding-llm-architectures",
+    "headline": "My Workflow for Understanding LLM Architectures",
+    "source": "Ahead of AI",
+    "url": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
+    "publishedAt": "2026-04-18T11:24:36.000Z",
+    "topic": "LLM",
+    "summary": "A learning-oriented workflow for understanding new open-weight model releases",
+    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/43071df5-b297-42f2-b875-36915f5e33a2_1826x1020.png"
+  },
+  {
+    "id": "hugging-face-blog-training-and-finetuning-multimodal-embedding-reranker-models",
+    "headline": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
+    "publishedAt": "2026-04-16T00:00:00.000Z",
+    "topic": "RAG"
+  },
+  {
+    "id": "openai-ai-fundamentals",
+    "headline": "AI fundamentals",
+    "source": "OpenAI",
+    "url": "https://openai.com/academy/what-is-ai",
+    "publishedAt": "2026-04-10T00:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Learn what AI is, how it works, and how tools like ChatGPT use large language models. A clear, beginner-friendly guide to understanding artificial intelligence."
+  },
+  {
+    "id": "openai-cyberagent-moves-faster-with-chatgpt-enterprise-and-codex",
+    "headline": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/cyberagent",
+    "publishedAt": "2026-04-09T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming."
+  },
+  {
+    "id": "ahead-of-ai-components-of-a-coding-agent",
+    "headline": "Components of A Coding Agent",
+    "source": "Ahead of AI",
+    "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
+    "publishedAt": "2026-04-04T11:45:37.000Z",
+    "topic": "LLM",
+    "summary": "How coding agents use tools, memory, and repo context to make LLMs work better in practice",
+    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/49b97718-57f4-4977-99c8-8ad5c4d32af3_1548x862.png"
+  },
+  {
+    "id": "last-week-in-ai-lwiai-podcast-238-gpt-5-4-mini-openai-pivot-mamba-3-attentio",
+    "headline": "LWiAI Podcast #238 - GPT 5.4 mini, OpenAI Pivot, Mamba 3, Attention Residuals",
+    "source": "Last Week in AI",
+    "url": "https://lastweekin.ai/p/lwiai-podcast-238-gpt-54-mini-openai",
+    "publishedAt": "2026-04-01T08:07:15.000Z",
+    "topic": "LLM",
+    "summary": "OpenAI ships GPT-5.4 mini and nano, faster and more capable but up to 4x pricier, DLSS 5 looks like a real-time generative AI filter for video games | The Verge, and more!"
+  },
+  {
+    "id": "weaviate-blog-multimodal-embeddings-and-rag-a-practical-guide",
+    "headline": "Multimodal Embeddings and RAG: A Practical Guide",
+    "source": "Weaviate Blog",
+    "url": "https://weaviate.io/blog/multimodal-guide",
+    "publishedAt": "2026-04-01T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Multimodal embeddings allow AI systems to search and reason across text, images, audio, and video in their native formats. This blog covers the key intuitions behind how this all works and walks through three practical i"
+  },
+  {
+    "id": "weaviate-blog-your-code-is-your-schema-weaviate-managed-c-client",
+    "headline": "Your Code is Your Schema: Weaviate Managed C# Client",
+    "source": "Weaviate Blog",
+    "url": "https://weaviate.io/blog/weaviate-managed-dotnet-client",
+    "publishedAt": "2026-03-31T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Use semantic search and RAG in C# with the Weaviate Managed .NET client — attribute-driven schema, type-safe queries, and safe migrations, all in idiomatic .NET."
+  },
+  {
+    "id": "qdrant-blog-qdrant-skills-for-ai-agents",
+    "headline": "Qdrant Skills for AI Agents",
+    "source": "Qdrant Blog",
+    "url": "https://qdrant.tech/blog/qdrant-skills-release/",
+    "publishedAt": "2026-03-31T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "The standard RAG tutorial teaches a simple pattern: embed your documents, store them in a vector database, retrieve the top K, and feed them to the LLM. The vector engine is passive infrastructure. Put vectors in, get ne"
+  },
+  {
+    "id": "qdrant-blog-master-multi-vector-search-with-qdrant",
+    "headline": "Master Multi-Vector Search With Qdrant",
+    "source": "Qdrant Blog",
+    "url": "https://qdrant.tech/blog/multi-vector-search-course/",
+    "publishedAt": "2026-03-24T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Most vector search tutorials stop at single-vector embeddings: one document, one vector, one similarity score. That works for demos. It falls apart when your retrieval pipeline needs to capture fine-grained token-level i"
+  },
+  {
+    "id": "last-week-in-ai-last-week-in-ai-339-dlss-5-openai-superapp-minimax-m2-7",
+    "headline": "Last Week in AI #339 - DLSS 5, OpenAI Superapp, MiniMax M2.7",
+    "source": "Last Week in AI",
+    "url": "https://lastweekin.ai/p/last-week-in-ai-339-dlss-5-openai",
+    "publishedAt": "2026-03-23T08:11:29.000Z",
+    "topic": "AI",
+    "summary": "DLSS 5 looks like a real-time generative AI filter for video games, OpenAI Reportedly Pivoting to a Focus on Business and Productivity Only, and more!",
+    "imageUrl": "https://substackcdn.com/image/fetch/$s_!OXcT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8289d929-4b26-41a7-8fff-ec49e4d687b3_1120x630.webp"
+  },
+  {
+    "id": "ahead-of-ai-a-visual-guide-to-attention-variants-in-modern-llms",
+    "headline": "A Visual Guide to Attention Variants in Modern LLMs",
+    "source": "Ahead of AI",
+    "url": "https://magazine.sebastianraschka.com/p/visual-attention-variants",
+    "publishedAt": "2026-03-22T11:55:40.000Z",
+    "topic": "LLM",
+    "summary": "From MHA and GQA to MLA, sparse attention, and hybrid architectures",
+    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/51d52b9a-e820-45d6-8135-f94496ec1745_1600x900.png"
+  },
+  {
+    "id": "qdrant-blog-we-raised-50m-to-build-composable-vector-search-as-core-infr",
+    "headline": "We Raised $50M to Build Composable Vector Search as Core Infrastructure",
+    "source": "Qdrant Blog",
+    "url": "https://qdrant.tech/blog/series-b-announcement/",
+    "publishedAt": "2026-03-12T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Today we&rsquo;re announcing $50 million in Series B funding, led by AVP, with participation from Bosch Ventures, Unusual Ventures, Spark Capital, and 42CAP. Retrieval Is on the Critical Path of Every AI System Every ser"
+  },
+  {
+    "id": "openai-improving-instruction-hierarchy-in-frontier-llms",
+    "headline": "Improving instruction hierarchy in frontier LLMs",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/instruction-hierarchy-challenge",
+    "publishedAt": "2026-03-10T11:00:00.000Z",
+    "topic": "LLM",
+    "summary": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks."
+  },
+  {
+    "id": "qdrant-blog-qdrant-meets-google-gemini-embedding-2",
+    "headline": "Qdrant Meets Google Gemini Embedding 2",
+    "source": "Qdrant Blog",
+    "url": "https://qdrant.tech/blog/qdrant-gemini-embedding-2/",
+    "publishedAt": "2026-03-10T00:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Until now, building a search system that understands both what a document says and what its images, videos, or audio convey could be complex and limited. It meant stitching together multiple embedding models and writing "
+  },
+  {
+    "id": "weaviate-blog-building-a-legal-rag-app-in-36-hours",
+    "headline": "Building A Legal RAG App in 36 Hours",
+    "source": "Weaviate Blog",
+    "url": "https://weaviate.io/blog/legal-rag-app",
+    "publishedAt": "2026-02-26T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Learn how we built a production-ready, end-to-end RAG application in just 36 hours using the Query Agent and the new Weaviate Agent Skills library."
+  },
+  {
+    "id": "ahead-of-ai-a-dream-of-spring-for-open-weight-llms-10-architectures-from",
+    "headline": "A Dream of Spring for Open-Weight LLMs: 10 Architectures from Jan-Feb 2026",
+    "source": "Ahead of AI",
+    "url": "https://magazine.sebastianraschka.com/p/a-dream-of-spring-for-open-weight",
+    "publishedAt": "2026-02-25T13:26:56.000Z",
+    "topic": "LLM",
+    "summary": "A Round Up And Comparison of 10 Open-Weight LLM Releases in Spring 2026",
+    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/380ad0cc-566e-4e54-8862-00e2de6f269b_2670x1398.png"
+  },
+  {
+    "id": "the-gradient-after-orthogonality-virtue-ethical-agency-and-ai-alignment",
+    "headline": "After Orthogonality: Virtue-Ethical Agency and AI Alignment",
+    "source": "The Gradient",
+    "url": "https://thegradient.pub/virtue-ethics-ai-alignment/",
+    "publishedAt": "2026-02-18T23:25:52.000Z",
+    "topic": "AI",
+    "summary": "Preface This essay argues that rational people don&#x2019;t have goals, and that rational AIs shouldn&#x2019;t have goals. Human actions are rational not because we direct them at some final &#x2018;goals,&#x2019; but be",
+    "imageUrl": "https://thegradient.pub/content/images/2026/02/ramelli-featured.jpg"
+  },
+  {
+    "id": "openai-harness-engineering-leveraging-codex-in-an-agent-first-world",
+    "headline": "Harness engineering: leveraging Codex in an agent-first world",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/harness-engineering",
+    "publishedAt": "2026-02-11T09:00:00.000Z",
+    "topic": "RAG",
+    "summary": "By Ryan Lopopolo, Member of the Technical Staff"
+  },
+  {
+    "id": "ahead-of-ai-categories-of-inference-time-scaling-for-improved-llm-reason",
+    "headline": "Categories of Inference-Time Scaling for Improved LLM Reasoning",
+    "source": "Ahead of AI",
+    "url": "https://magazine.sebastianraschka.com/p/categories-of-inference-time-scaling",
+    "publishedAt": "2026-01-24T11:23:18.000Z",
+    "topic": "LLM",
+    "summary": "And an Overview of Recent Inference-Scaling Papers",
+    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/1f97789d-b769-45fe-b884-ba0f7941da9e_1846x1230.png"
+  },
+  {
+    "id": "venturebeat-ai-railway-secures-100-million-to-challenge-aws-with-ai-native-",
+    "headline": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+    "publishedAt": "2026-01-22T14:00:00.000Z",
+    "topic": "Cost",
+    "summary": "Railway , a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surgin",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/5RLyQIpBeVXxv0RpcXZxWQ/fd9680c6d82acd8208ac341fc575f5fb/nuneybits_Vector_art_of_a_sleek_bullet_train_bursting_from_a_cl_32a805aa-272c-4b34-ac16-cf20508b7ff4.webp?w=300&amp;q=30"
+  },
+  {
+    "id": "openai-stargate-community",
+    "headline": "Stargate Community",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/stargate-community",
+    "publishedAt": "2026-01-20T19:00:00.000Z",
+    "topic": "Environment",
+    "summary": "Stargate Community plans detail a community-first approach to AI infrastructure, using locally tailored plans shaped by community input, energy needs, and workforce priorities."
+  },
+  {
+    "id": "venturebeat-ai-claude-code-costs-up-to-200-a-month-goose-does-the-same-thin",
+    "headline": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+    "publishedAt": "2026-01-19T14:00:00.000Z",
+    "topic": "Cost",
+    "summary": "The artificial intelligence coding revolution comes with a catch: it&#x27;s expensive. Claude Code , Anthropic&#x27;s terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imaginat",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/1U9H8GLIqoGqKpitVfgw3T/ba56292f99409eca709dac0b176ec245/nuneybits_Vector_art_of_white_goose_silhouette_flying_through_c_8100d5a7-9e36-4ed6-a188-016470e1d0e1.webp?w=300&amp;q=30"
+  },
+  {
+    "id": "venturebeat-ai-listen-labs-raises-69m-after-viral-billboard-hiring-stunt-to",
+    "headline": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+    "publishedAt": "2026-01-16T14:01:00.000Z",
+    "topic": "AI",
+    "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs , needed to hire over 100 engineers, but competing against Mark Zuckerberg&#x27;s $100 million offers seemed impossible. So he spent $5,000 — a fifth ",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/4gD12ThOmNHZuosqC4xCTz/277b1e8968da602108a29fae2eaca440/nuneybits_Vector_art_of_billboard_with_cryptic_code_dbe5b0ff-7644-45e6-a1ca-4a5dceeff986.webp?w=300&amp;q=30"
+  },
+  {
+    "id": "venturebeat-ai-salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-mic",
+    "headline": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+    "publishedAt": "2026-01-13T13:00:00.000Z",
+    "topic": "AI",
+    "summary": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot , the company&#x27;s workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent c",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/4Xrcg14GLKFlwSEnuEzxyS/21c85d29d03c4c974076475c009e3b38/nuneybits_Vector_art_of_chat_bubbles_on_a_computer_screen_in_th_5018a7ea-3496-4103-8453-7ba1b129189a.webp?w=300&amp;q=30"
+  },
+  {
+    "id": "venturebeat-ai-anthropic-launches-cowork-a-claude-desktop-agent-that-works-",
+    "headline": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+    "publishedAt": "2026-01-12T11:30:00.000Z",
+    "topic": "LLM",
+    "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire featur",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/wHv1Wez7Ps9wYVYAo9fwT/14b41f606dbf1f5b17994be510407449/nuneybits_Hyper-realistic_image_of_a_retro_computer_with_a_glos_61ffb6e2-7c33-4d45-85f7-69c28693b3ec.webp?w=300&amp;q=30"
+  },
+  {
+    "id": "venturebeat-ai-nous-research-s-nouscoder-14b-is-an-open-source-coding-model",
+    "headline": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
+    "publishedAt": "2026-01-07T20:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Nous Research , the open-source artificial intelligence startup backed by crypto venture firm Paradigm , released a new competitive programming model on Monday that it says matches or exceeds several larger proprietary s",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/66Tw6dMGGoSZZOK6XB6gm6/0fafc7520898e26c88edf1de9e74e863/nuneybits_Vector_art_of_radiant_skull_emitting_code_beams_deep__17d19acc-0af7-41ad-ac28-16f09ef5234b.webp?w=300&amp;q=30"
+  },
+  {
+    "id": "qdrant-blog-new-deeplearning-ai-course-on-multi-vector-image-retrieval-w",
+    "headline": "New DeepLearning.AI Course on Multi-Vector Image Retrieval with ColPali and MUVERA",
+    "source": "Qdrant Blog",
+    "url": "https://qdrant.tech/blog/qdrant-deeplearning-ai-multi-vector-image-retrieval/",
+    "publishedAt": "2025-12-11T17:00:00.000Z",
+    "topic": "RAG",
+    "summary": "We&rsquo;re thrilled to announce our latest collaboration with DeepLearning.AI: Multi-Vector Image Retrieval . Building on the success of our previous course on retrieval optimization, this intermediate-level course take"
+  },
+  {
+    "id": "deepmind-blog-facts-benchmark-suite-systematically-evaluating-the-factuali",
+    "headline": "FACTS Benchmark Suite: Systematically evaluating the factuality of large language models",
+    "source": "DeepMind Blog",
+    "url": "https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/",
+    "publishedAt": "2025-12-09T11:29:03.000Z",
+    "topic": "LLM",
+    "summary": "Systematically evaluating the factuality of large language models with the FACTS Benchmark Suite.",
+    "imageUrl": "https://lh3.googleusercontent.com/eEfDhwb-u99oZnuvwc3STyyWrtN-4LnaqKBXCTP6Zy7yZGEJ-ryNjOOYaWJ3Lc8JmRXVH9DA-EqSb7k61rXtDeG0wB6Tj0ho0mAax8QWUHDkpyUjig=w528-h297-n-nu-rw-lo"
+  },
+  {
+    "id": "deepmind-blog-google-deepmind-supports-u-s-department-of-energy-on-genesis",
+    "headline": "Google DeepMind supports U.S. Department of Energy on Genesis: a national mission to accelerate innovation and scientific discovery",
+    "source": "DeepMind Blog",
+    "url": "https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis/",
+    "publishedAt": "2025-11-24T14:12:03.000Z",
+    "topic": "Environment",
+    "summary": "Google DeepMind and the DOE partner on Genesis, a new effort to accelerate science with AI.",
+    "imageUrl": "https://lh3.googleusercontent.com/Aij3S61tCOKUv_-lxFEBAvGZBWAlGh2E0gGRyol8p0L53KFkhgEEDcuw2rg9JzpdH40kwy_e_PkjaHdvbInPj55lDIKx6cd9xzzmRAy9eUapVkKJrw=w528-h297-n-nu-rw-lo"
+  },
+  {
+    "id": "qdrant-blog-how-dragonfruit-ai-scaled-real-time-computer-vision-with-qdr",
+    "headline": "How Dragonfruit AI scaled real-time computer vision with Qdrant",
+    "source": "Qdrant Blog",
+    "url": "https://qdrant.tech/blog/case-study-dragonfruit/",
+    "publishedAt": "2025-11-13T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Dragonfruit AI scales real-time computer vision with Qdrant Building enterprise-ready computer vision Dragonfruit AI builds enterprise-ready computer vision solutions, turning ordinary IP camera feeds into actionable ins"
+  },
+  {
+    "id": "deepmind-blog-how-ai-is-giving-northern-ireland-teachers-time-back",
+    "headline": "How AI is giving Northern Ireland teachers time back",
+    "source": "DeepMind Blog",
+    "url": "https://deepmind.google/blog/how-ai-is-giving-northern-ireland-teachers-time-back/",
+    "publishedAt": "2025-11-10T16:50:39.000Z",
+    "topic": "RAG",
+    "summary": "A six-month long pilot program with the Northern Ireland Education Authority’s C2k initiative found that integrating Gemini and other generative AI tools saved participating teachers an average of 10 hours per week."
+  },
+  {
+    "id": "deepmind-blog-t5gemma-a-new-collection-of-encoder-decoder-gemma-models",
+    "headline": "T5Gemma: A new collection of encoder-decoder Gemma models",
+    "source": "DeepMind Blog",
+    "url": "https://deepmind.google/blog/t5gemma-a-new-collection-of-encoder-decoder-gemma-models/",
+    "publishedAt": "2025-10-25T18:14:00.000Z",
+    "topic": "LLM",
+    "summary": "Introducing T5Gemma, a new collection of encoder-decoder LLMs.",
+    "imageUrl": "https://lh3.googleusercontent.com/G6ZuFr6d2i13JlGsO-_Sw5JxpyrqKqeQWkfCQRfgFZfabMfHW4kHIBxnFnvQz8Y5-VrTrX_4gY4PdmSm59R3rVKMoS7R6rH4ymrt-SSzvMedTINZBQ=w528-h297-n-nu-rw-lo"
+  },
+  {
+    "id": "deepmind-blog-aeneas-transforms-how-historians-connect-the-past",
+    "headline": "Aeneas transforms how historians connect the past",
+    "source": "DeepMind Blog",
+    "url": "https://deepmind.google/blog/aeneas-transforms-how-historians-connect-the-past/",
+    "publishedAt": "2025-10-24T02:58:37.000Z",
+    "topic": "RAG",
+    "summary": "Introducing the first model for contextualizing ancient inscriptions, designed to help historians better interpret, attribute and restore fragmentary texts.",
+    "imageUrl": "https://lh3.googleusercontent.com/RtYRby64YEBq-DMmlqZsVIMpiuVymqQD27nSvo1UJoxtcPOH4bmu0Of7Vm4vUC1xxOA91DhGh5-dHVHsy3f-7Vz6f-y7RjXDfOyz0z4e7aK8_65_LQ=w528-h297-n-nu-rw-lo"
+  },
+  {
+    "id": "deepmind-blog-discovering-new-solutions-to-century-old-problems-in-fluid-d",
+    "headline": "Discovering new solutions to century-old problems in fluid dynamics",
+    "source": "DeepMind Blog",
+    "url": "https://deepmind.google/blog/discovering-new-solutions-to-century-old-problems-in-fluid-dynamics/",
+    "publishedAt": "2025-10-24T00:02:06.000Z",
+    "topic": "RAG",
+    "summary": "Our new method could help mathematicians leverage AI techniques to tackle long-standing challenges in mathematics, physics and engineering.",
+    "imageUrl": "https://lh3.googleusercontent.com/zv1R07FlUC13VLtRxjmaGze53ybr3AgVpR_xP69HtBbEsQWOMH0qxWpiVhRxl2fP4kjUBi2OP4RR093Sll7KYkNeKAuIS2K1nu1gZWPZnj_T7GGM5Q=w528-h297-n-nu-rw-lo"
+  },
+  {
+    "id": "deepmind-blog-bringing-ai-to-the-next-generation-of-fusion-energy",
+    "headline": "Bringing AI to the next generation of fusion energy",
+    "source": "DeepMind Blog",
+    "url": "https://deepmind.google/blog/bringing-ai-to-the-next-generation-of-fusion-energy/",
+    "publishedAt": "2025-10-23T22:04:14.000Z",
+    "topic": "Environment",
+    "summary": "We’re partnering with Commonwealth Fusion Systems (CFS) to bring clean, safe, limitless fusion energy closer to reality.",
+    "imageUrl": "https://lh3.googleusercontent.com/I0hKlXnKlWRgtf0wd3UNbqHoLCzBo-AhaA-lRU99ohvb90leYc-IWZVsS2a9_kQNO4EphPerQjYNehMGmsBUu2S1HAfrIRJO6h_5hCrGYA80PPq7=w528-h297-n-nu-rw-lo"
+  },
+  {
+    "id": "the-gradient-agi-is-not-multimodal",
+    "headline": "AGI Is Not Multimodal",
+    "source": "The Gradient",
+    "url": "https://thegradient.pub/agi-is-not-multimodal/",
+    "publishedAt": "2025-06-04T14:00:29.000Z",
+    "topic": "AI",
+    "summary": "\"In projecting language back as the model for thought, we lose sight of the tacit embodied understanding that undergirds our intelligence.\" &#x2013;Terry Winograd The recent successes of generative AI models have convinc",
+    "imageUrl": "https://thegradient.pub/content/images/2025/06/Gradient_Article_Art3-downscaled.png"
+  },
+  {
+    "id": "the-gradient-shape-symmetries-and-structure-the-changing-role-of-mathemat",
+    "headline": "Shape, Symmetries, and Structure: The Changing Role of Mathematics in Machine Learning Research",
+    "source": "The Gradient",
+    "url": "https://thegradient.pub/shape-symmetry-structure/",
+    "publishedAt": "2024-11-16T16:46:15.000Z",
+    "topic": "AI",
+    "summary": "What is the Role of Mathematics in Modern Machine Learning? The past decade has witnessed a shift in how progress is made in machine learning. Research involving carefully designed and mathematically principled architect",
+    "imageUrl": "https://thegradient.pub/content/images/2024/11/DALL-E-2024-11-15-15.40.52---Create-an-abstract-image-that-illustrates-how-ReLU-based-neural-networks-shatter-input-space-into-numerous-polygonal-regions--each-behaving-like-a-lin.webp"
+  },
+  {
+    "id": "the-gradient-what-s-missing-from-llm-chatbots-a-sense-of-purpose",
+    "headline": "What's Missing From LLM Chatbots: A Sense of Purpose",
+    "source": "The Gradient",
+    "url": "https://thegradient.pub/dialog/",
+    "publishedAt": "2024-09-09T17:28:48.000Z",
+    "topic": "LLM",
+    "summary": "LLM-based chatbots&#x2019; capabilities have been advancing every month. These improvements are mostly measured by benchmarks like MMLU, HumanEval, and MATH (e.g. sonnet 3.5, gpt-4o). However, as these measures get more ",
+    "imageUrl": "https://thegradient.pub/content/images/2024/09/cropped.jpeg"
+  },
+  {
+    "id": "the-gradient-we-need-positive-visions-for-ai-grounded-in-wellbeing",
+    "headline": "We Need Positive Visions for AI Grounded in Wellbeing",
+    "source": "The Gradient",
+    "url": "https://thegradient.pub/we-need-positive-visions-for-ai-grounded-in-wellbeing/",
+    "publishedAt": "2024-08-03T17:00:43.000Z",
+    "topic": "AI",
+    "summary": "Introduction Imagine yourself a decade ago, jumping directly into the present shock of conversing naturally with an encyclopedic AI that crafts images, writes code, and debates philosophy. Won&#x2019;t this technology al",
+    "imageUrl": "https://thegradient.pub/content/images/2024/07/wellbeing_ai_cover_image.webp"
+  },
+  {
+    "id": "the-gradient-financial-market-applications-of-llms",
+    "headline": "Financial Market Applications of LLMs",
+    "source": "The Gradient",
+    "url": "https://thegradient.pub/financial-market-applications-of-llms/",
+    "publishedAt": "2024-04-20T17:57:39.000Z",
+    "topic": "LLM",
+    "summary": "The AI revolution drove frenzied investment in both private and public companies and captured the public&#x2019;s imagination in 2023. Transformational consumer products like ChatGPT are powered by Large Language Models ",
+    "imageUrl": "https://thegradient.pub/content/images/2024/04/shutterstock_2448136839.jpg"
+  },
+  {
+    "id": "the-gradient-a-brief-overview-of-gender-bias-in-ai",
+    "headline": "A Brief Overview of Gender Bias in AI",
+    "source": "The Gradient",
+    "url": "https://thegradient.pub/gender-bias-in-ai/",
+    "publishedAt": "2024-04-08T15:54:53.000Z",
+    "topic": "AI",
+    "summary": "A brief overview and discussion on gender bias in AI",
+    "imageUrl": "https://thegradient.pub/content/images/2024/04/gender_gradient_header.jpeg"
+  },
+  {
+    "id": "the-gradient-mamba-explained",
+    "headline": "Mamba Explained",
+    "source": "The Gradient",
+    "url": "https://thegradient.pub/mamba-explained/",
+    "publishedAt": "2024-03-28T01:24:43.000Z",
+    "topic": "AI",
+    "summary": "Is Attention all you need? Mamba, a novel AI model based on State Space Models (SSMs), emerges as a formidable alternative to the widely used Transformer models, addressing their inefficiency in processing long sequences",
+    "imageUrl": "https://images.unsplash.com/photo-1598348341635-33a3f4205d32?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDh8fHRyYW5zZm9ybWVyfGVufDB8fHx8MTcxMTM0NTEwM3ww&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000"
   }
 ]

@@ -51,11 +51,19 @@ const KEYWORDS = [
 ];
 
 // RSS/Atom feeds — every one of these is public and keyless.
+// Dead feeds removed after live probe (2026-07-07):
+//   Anthropic: no public RSS endpoint (all paths 404)
+//   LangChain: blog.langchain.dev/rss redirects to non-RSS HTML page
+//   LlamaIndex: all candidate URLs 404
+//   Pinecone: all candidate URLs 404
+//   Cohere: rss endpoint redirects to non-RSS HTML page
+// Qdrant URL corrected from /articles/rss.xml → /blog/index.xml
 const RSS_SOURCES = [
+  // arXiv — high volume; per-source cap in buildNewsPayload keeps it from flooding the feed
   { name: "arXiv (cs.CL)", url: "http://export.arxiv.org/rss/cs.CL", defaultTopic: "RAG" },
   { name: "arXiv (cs.IR)", url: "http://export.arxiv.org/rss/cs.IR", defaultTopic: "RAG" },
+  // Vendor / official blogs
   { name: "OpenAI", url: "https://openai.com/news/rss.xml", defaultTopic: "LLM" },
-  { name: "Anthropic", url: "https://www.anthropic.com/rss.xml", defaultTopic: "LLM" },
   {
     name: "AWS Machine Learning Blog",
     url: "https://aws.amazon.com/blogs/machine-learning/feed/",
@@ -63,18 +71,20 @@ const RSS_SOURCES = [
   },
   { name: "Hugging Face Blog", url: "https://huggingface.co/blog/feed.xml", defaultTopic: "RAG" },
   { name: "Google AI Blog", url: "https://blog.google/technology/ai/rss/", defaultTopic: "AI" },
-  // Tier 1 additions — RAG/vector-search tooling blogs
-  { name: "LangChain Blog", url: "https://blog.langchain.dev/rss/", defaultTopic: "RAG" },
-  { name: "LlamaIndex Blog", url: "https://www.llamaindex.ai/blog/rss.xml", defaultTopic: "RAG" },
-  { name: "Pinecone Blog", url: "https://www.pinecone.io/learn/blog.rss", defaultTopic: "RAG" },
-  { name: "Weaviate Blog", url: "https://weaviate.io/blog/rss.xml", defaultTopic: "RAG" },
-  { name: "Qdrant Blog", url: "https://qdrant.tech/articles/rss.xml", defaultTopic: "RAG" },
-  // Tier 2 additions — AI industry news and cost/energy coverage
-  { name: "VentureBeat AI", url: "https://venturebeat.com/category/ai/feed/", defaultTopic: "AI" },
-  { name: "The Gradient", url: "https://thegradient.pub/rss/", defaultTopic: "AI" },
-  { name: "Simon Willison's Blog", url: "https://simonwillison.net/atom/everything/", defaultTopic: "LLM" },
   { name: "DeepMind Blog", url: "https://deepmind.google/blog/rss.xml", defaultTopic: "AI" },
-  { name: "Cohere Blog", url: "https://cohere.com/blog/rss", defaultTopic: "RAG" },
+  // RAG / vector-search tooling blogs (working feeds only)
+  { name: "Weaviate Blog", url: "https://weaviate.io/blog/rss.xml", defaultTopic: "RAG" },
+  { name: "Qdrant Blog", url: "https://qdrant.tech/blog/index.xml", defaultTopic: "RAG" },
+  // Independent & media — AI research/news coverage
+  // skipKeywordFilter: true for feeds that are already curated to AI content;
+  // keyword matching is redundant and would incorrectly drop relevant articles.
+  { name: "VentureBeat AI", url: "https://venturebeat.com/category/ai/feed/", defaultTopic: "AI", skipKeywordFilter: true },
+  { name: "The Gradient", url: "https://thegradient.pub/rss/", defaultTopic: "AI", skipKeywordFilter: true },
+  { name: "Simon Willison's Blog", url: "https://simonwillison.net/atom/everything/", defaultTopic: "LLM" },
+  // AI newsletters (Substack) — replace dead vendor blogs with high-signal independent coverage
+  { name: "Last Week in AI", url: "https://lastweekinai.substack.com/feed", defaultTopic: "AI", skipKeywordFilter: true },
+  { name: "Import AI", url: "https://importai.substack.com/feed", defaultTopic: "AI", skipKeywordFilter: true },
+  { name: "Ahead of AI", url: "https://magazine.sebastianraschka.com/feed", defaultTopic: "LLM", skipKeywordFilter: true },
 ];
 
 // Hacker News via the Algolia Search API — also keyless.
@@ -85,7 +95,12 @@ const HN_QUERIES = [
   "vector database embeddings",
 ];
 
-const MAX_ITEMS = 60;
+// Global ceiling — well above PER_SOURCE_MAX × source-count so the per-source
+// cap is always the binding limit, not this one.
+const MAX_ITEMS = 200;
+// Keep at most this many items per source before global truncation.
+// Prevents any single high-volume feed (arXiv, OpenAI) from pushing out others.
+const PER_SOURCE_MAX = 8;
 const OUTPUT_PATH = path.join(process.cwd(), "public", "news.json");
 const USER_AGENT = "ragornot-news-fetcher/1.0 (+https://github.com/Raxorr/ragornot)";
 const FETCH_TIMEOUT_MS = 10_000;
@@ -227,11 +242,16 @@ function parseFeed(xml, sourceName, defaultTopic) {
 
 async function fetchRssSource(source) {
   const xml = await fetchTextSafe(source.url);
-  if (!xml) return [];
+  if (!xml) {
+    console.warn(`[fetch-news] ${source.name}: fetch failed or returned empty`);
+    return [];
+  }
   try {
-    return parseFeed(xml, source.name, source.defaultTopic);
+    const items = parseFeed(xml, source.name, source.defaultTopic);
+    console.log(`[fetch-news] ${source.name}: ${items.length} raw items`);
+    return items.map((item) => ({ ...item, skipKeywordFilter: source.skipKeywordFilter ?? false }));
   } catch (err) {
-    console.warn(`[fetch-news] failed to parse ${source.name}: ${err instanceof Error ? err.message : err}`);
+    console.warn(`[fetch-news] ${source.name}: parse error — ${err instanceof Error ? err.message : err}`);
     return [];
   }
 }
@@ -242,7 +262,7 @@ async function fetchHackerNews(query) {
   if (!raw) return [];
   try {
     const data = JSON.parse(raw);
-    return (data.hits ?? [])
+    const items = (data.hits ?? [])
       .filter((hit) => hit.title && (hit.url || hit.objectID))
       .map((hit) => ({
         headline: hit.title,
@@ -252,8 +272,10 @@ async function fetchHackerNews(query) {
         summary: undefined,
         defaultTopic: undefined,
       }));
+    console.log(`[fetch-news] Hacker News ("${query}"): ${items.length} raw items`);
+    return items;
   } catch (err) {
-    console.warn(`[fetch-news] failed to parse Hacker News response: ${err instanceof Error ? err.message : err}`);
+    console.warn(`[fetch-news] Hacker News: parse error — ${err instanceof Error ? err.message : err}`);
     return [];
   }
 }
@@ -337,7 +359,9 @@ export async function buildNewsPayload() {
     (item) => item.headline && item.url,
   );
 
-  const keywordFiltered = raw.filter(matchesKeywords);
+  // Items from curated-AI sources skip the keyword check (flag set in RSS_SOURCES).
+  // All other items must match at least one keyword to be included.
+  const keywordFiltered = raw.filter((item) => item.skipKeywordFilter || matchesKeywords(item));
 
   const seen = new Set();
   const deduped = [];
@@ -359,9 +383,30 @@ export async function buildNewsPayload() {
     ...(item.imageUrl ? { imageUrl: item.imageUrl } : {}),
   }));
 
+  // Sort newest-first so the per-source cap keeps the most recent items.
   tagged.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 
-  return tagged.slice(0, MAX_ITEMS);
+  // Per-source cap: walk the sorted list and admit at most PER_SOURCE_MAX items
+  // per source. This ensures every working feed is represented regardless of
+  // how many raw items high-volume sources (arXiv, OpenAI) contribute.
+  const sourceCounts = new Map();
+  const capped = [];
+  for (const item of tagged) {
+    const n = sourceCounts.get(item.source) ?? 0;
+    if (n < PER_SOURCE_MAX) {
+      capped.push(item);
+      sourceCounts.set(item.source, n + 1);
+    }
+  }
+
+  // Log per-source counts so CI / manual runs make feed health visible.
+  const finalCounts = [...sourceCounts.entries()].sort((a, b) => b[1] - a[1]);
+  console.log(`[fetch-news] ${capped.length} items across ${finalCounts.length} sources (cap: ${PER_SOURCE_MAX}/source):`);
+  for (const [src, n] of finalCounts) {
+    console.log(`  ${String(n).padStart(2)}  ${src}`);
+  }
+
+  return capped.slice(0, MAX_ITEMS);
 }
 
 async function writeLocalNewsJson(items) {
