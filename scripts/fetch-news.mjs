@@ -51,30 +51,32 @@ const KEYWORDS = [
 ];
 
 // RSS/Atom feeds — every one of these is public and keyless.
+// source_url is the publisher's homepage/archive shown in "More from [Source]" links.
 const RSS_SOURCES = [
-  { name: "arXiv (cs.CL)", url: "http://export.arxiv.org/rss/cs.CL", defaultTopic: "RAG" },
-  { name: "arXiv (cs.IR)", url: "http://export.arxiv.org/rss/cs.IR", defaultTopic: "RAG" },
-  { name: "OpenAI", url: "https://openai.com/news/rss.xml", defaultTopic: "LLM" },
-  { name: "Anthropic", url: "https://www.anthropic.com/rss.xml", defaultTopic: "LLM" },
+  { name: "arXiv (cs.CL)", url: "http://export.arxiv.org/rss/cs.CL", defaultTopic: "RAG", source_url: "https://arxiv.org/list/cs.CL/recent" },
+  { name: "arXiv (cs.IR)", url: "http://export.arxiv.org/rss/cs.IR", defaultTopic: "RAG", source_url: "https://arxiv.org/list/cs.IR/recent" },
+  { name: "OpenAI", url: "https://openai.com/news/rss.xml", defaultTopic: "LLM", source_url: "https://openai.com/news" },
+  { name: "Anthropic", url: "https://www.anthropic.com/rss.xml", defaultTopic: "LLM", source_url: "https://www.anthropic.com/news" },
   {
     name: "AWS Machine Learning Blog",
     url: "https://aws.amazon.com/blogs/machine-learning/feed/",
     defaultTopic: "Cost",
+    source_url: "https://aws.amazon.com/blogs/machine-learning/",
   },
-  { name: "Hugging Face Blog", url: "https://huggingface.co/blog/feed.xml", defaultTopic: "RAG" },
-  { name: "Google AI Blog", url: "https://blog.google/technology/ai/rss/", defaultTopic: "AI" },
+  { name: "Hugging Face Blog", url: "https://huggingface.co/blog/feed.xml", defaultTopic: "RAG", source_url: "https://huggingface.co/blog" },
+  { name: "Google AI Blog", url: "https://blog.google/technology/ai/rss/", defaultTopic: "AI", source_url: "https://blog.google/technology/ai/" },
   // Tier 1 additions — RAG/vector-search tooling blogs
-  { name: "LangChain Blog", url: "https://blog.langchain.dev/rss/", defaultTopic: "RAG" },
-  { name: "LlamaIndex Blog", url: "https://www.llamaindex.ai/blog/rss.xml", defaultTopic: "RAG" },
-  { name: "Pinecone Blog", url: "https://www.pinecone.io/learn/blog.rss", defaultTopic: "RAG" },
-  { name: "Weaviate Blog", url: "https://weaviate.io/blog/rss.xml", defaultTopic: "RAG" },
-  { name: "Qdrant Blog", url: "https://qdrant.tech/articles/rss.xml", defaultTopic: "RAG" },
+  { name: "LangChain Blog", url: "https://blog.langchain.dev/rss/", defaultTopic: "RAG", source_url: "https://blog.langchain.dev" },
+  { name: "LlamaIndex Blog", url: "https://www.llamaindex.ai/blog/rss.xml", defaultTopic: "RAG", source_url: "https://www.llamaindex.ai/blog" },
+  { name: "Pinecone Blog", url: "https://www.pinecone.io/learn/blog.rss", defaultTopic: "RAG", source_url: "https://www.pinecone.io/learn/" },
+  { name: "Weaviate Blog", url: "https://weaviate.io/blog/rss.xml", defaultTopic: "RAG", source_url: "https://weaviate.io/blog" },
+  { name: "Qdrant Blog", url: "https://qdrant.tech/articles/rss.xml", defaultTopic: "RAG", source_url: "https://qdrant.tech/articles/" },
   // Tier 2 additions — AI industry news and cost/energy coverage
-  { name: "VentureBeat AI", url: "https://venturebeat.com/category/ai/feed/", defaultTopic: "AI" },
-  { name: "The Gradient", url: "https://thegradient.pub/rss/", defaultTopic: "AI" },
-  { name: "Simon Willison's Blog", url: "https://simonwillison.net/atom/everything/", defaultTopic: "LLM" },
-  { name: "DeepMind Blog", url: "https://deepmind.google/blog/rss.xml", defaultTopic: "AI" },
-  { name: "Cohere Blog", url: "https://cohere.com/blog/rss", defaultTopic: "RAG" },
+  { name: "VentureBeat AI", url: "https://venturebeat.com/category/ai/feed/", defaultTopic: "AI", source_url: "https://venturebeat.com/category/ai/" },
+  { name: "The Gradient", url: "https://thegradient.pub/rss/", defaultTopic: "AI", source_url: "https://thegradient.pub" },
+  { name: "Simon Willison's Blog", url: "https://simonwillison.net/atom/everything/", defaultTopic: "LLM", source_url: "https://simonwillison.net" },
+  { name: "DeepMind Blog", url: "https://deepmind.google/blog/rss.xml", defaultTopic: "AI", source_url: "https://deepmind.google/blog/" },
+  { name: "Cohere Blog", url: "https://cohere.com/blog/rss", defaultTopic: "RAG", source_url: "https://cohere.com/blog" },
 ];
 
 // Hacker News via the Algolia Search API — also keyless.
@@ -221,6 +223,7 @@ function parseFeed(xml, sourceName, defaultTopic) {
       summary: summary ? summary.slice(0, 220) : undefined,
       imageUrl,
       defaultTopic,
+      source_url: undefined, // filled by fetchRssSource from the RSS_SOURCES entry
     };
   });
 }
@@ -229,7 +232,8 @@ async function fetchRssSource(source) {
   const xml = await fetchTextSafe(source.url);
   if (!xml) return [];
   try {
-    return parseFeed(xml, source.name, source.defaultTopic);
+    const items = parseFeed(xml, source.name, source.defaultTopic);
+    return items.map((item) => ({ ...item, source_url: source.source_url }));
   } catch (err) {
     console.warn(`[fetch-news] failed to parse ${source.name}: ${err instanceof Error ? err.message : err}`);
     return [];
@@ -251,6 +255,7 @@ async function fetchHackerNews(query) {
         publishedAt: hit.created_at ? new Date(hit.created_at).toISOString() : new Date().toISOString(),
         summary: undefined,
         defaultTopic: undefined,
+        source_url: "https://news.ycombinator.com",
       }));
   } catch (err) {
     console.warn(`[fetch-news] failed to parse Hacker News response: ${err instanceof Error ? err.message : err}`);
@@ -357,6 +362,7 @@ export async function buildNewsPayload() {
     topic: classifyTopic(item),
     summary: item.summary,
     ...(item.imageUrl ? { imageUrl: item.imageUrl } : {}),
+    ...(item.source_url ? { source_url: item.source_url } : {}),
   }));
 
   tagged.sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
