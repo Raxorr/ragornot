@@ -6,7 +6,7 @@ export interface WallEntry {
   id: string;
   text: string;
   role?: string;
-  approvedAt: string;
+  approvedAt?: string;
 }
 
 const API_BASE = (process.env.NEXT_PUBLIC_API_BASE_URL ?? "").replace(/\/$/, "");
@@ -131,20 +131,13 @@ export default function WallView({ entries }: WallViewProps) {
                 className="flex flex-col gap-3 rounded-lg border border-border bg-surface p-5"
               >
                 <p className="text-sm text-text">&ldquo;{entry.text}&rdquo;</p>
-                <div className="flex flex-wrap items-center gap-3 text-xs text-text-muted">
-                  {entry.role && (
+                {entry.role && (
+                  <div className="flex flex-wrap items-center gap-3 text-xs text-text-muted">
                     <span className="rounded-full border border-border bg-surface-2 px-2.5 py-0.5 font-medium text-text-muted">
                       {entry.role}
                     </span>
-                  )}
-                  <time dateTime={entry.approvedAt}>
-                    {new Date(entry.approvedAt).toLocaleDateString("en-US", {
-                      year: "numeric",
-                      month: "short",
-                      day: "numeric",
-                    })}
-                  </time>
-                </div>
+                  </div>
+                )}
               </article>
             ))}
           </div>
