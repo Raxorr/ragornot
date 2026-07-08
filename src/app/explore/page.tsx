@@ -1,11 +1,14 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 import StatStrip from "@/components/assistant/StatStrip";
 import ExploreView from "@/components/explore/ExploreView";
+import { absoluteUrl } from "@/lib/site-url";
 
 export const metadata: Metadata = {
-  title: "Explore — ragornot",
+  title: "Explore",
   description:
     "Ask questions about AWS documentation and compare flat, hierarchical, LLM-only, and RAG retrieval modes — live, with real latency and cost.",
+  alternates: { canonical: absoluteUrl("/explore") },
 };
 
 export default function ExplorePage() {
@@ -20,9 +23,9 @@ export default function ExplorePage() {
         </h1>
         <p className="max-w-prose text-lg text-text-muted">
           Run any question through the same four retrieval modes the{" "}
-          <a href="/benchmark" className="underline hover:text-accent-text">
+          <Link href="/benchmark" className="underline hover:text-accent-text">
             Benchmark
-          </a>{" "}
+          </Link>{" "}
           uses — Flat, Hierarchical, LLM-only, and RAG — and see the latency, cost, and answer
           quality tradeoff for yourself, one query at a time.
         </p>

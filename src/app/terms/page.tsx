@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
+import { absoluteUrl } from "@/lib/site-url";
 
 export const metadata: Metadata = {
-  title: "Terms of Use — ragornot",
+  title: "Terms",
+  description:
+    "Terms of use for ragornot: an independent research and demonstration project, provided as-is, not affiliated with AWS or Amazon.",
+  alternates: { canonical: absoluteUrl("/terms") },
 };
 
 export default function TermsPage() {

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState, useRef, useEffect, useCallback } from "react";
 import {
   callApi,
@@ -41,7 +42,6 @@ const MODE_LABELS: Record<ApiMode, string> = {
 const WINNER_QUALITY_EPSILON = 0.05; // modes within this quality range use latency as tiebreaker
 const WINNER_LATENCY_TIE_MS = 40;    // within this latency AND quality epsilon → "Tie"
 const REQUEST_DELAY_MS = 300;
-const DAILY_LIMIT = 3;
 
 interface ModeSummary {
   confidence: number | null;
@@ -318,6 +318,11 @@ export default function BenchmarkRunner() {
     }
   }, []);
 
+  // On mount, load the benchmark quota. The setState calls happen inside
+  // refreshQuota after an awaited fetch — not synchronously — so this is a
+  // legitimate external-data sync, not the cascading-render pattern the rule
+  // guards against.
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => { void refreshQuota(); }, [refreshQuota]);
 
   async function handleUpload() {
@@ -672,9 +677,9 @@ export default function BenchmarkRunner() {
           Leave your email and we&apos;ll send you an access key to run benchmarks on your own documents.
           Your email is used only to send the key — we don&apos;t share it or use it for anything else.
           See our{" "}
-          <a href="/privacy" className="underline hover:text-accent-text">
+          <Link href="/privacy" className="underline hover:text-accent-text">
             Privacy Policy
-          </a>.
+          </Link>.
         </p>
         {interestStatus === "success" ? (
           <p className="rounded-lg bg-surface-2 px-4 py-3 text-sm text-text">{interestMsg}</p>
@@ -861,7 +866,7 @@ export default function BenchmarkRunner() {
             </h2>
             <p className="max-w-prose text-sm text-text-muted">
               Aggregated across your {results.length} {results.length === 1 ? "query" : "queries"}.
-              "Accuracy %" = avg_confidence × 100 from the retrieval model; LLM-only has no retrieval quality metric.
+              &ldquo;Accuracy %&rdquo; = avg_confidence × 100 from the retrieval model; LLM-only has no retrieval quality metric.
               Use this to decide whether the accuracy lift from RAG justifies its cost for your use case.
             </p>
             <ComparisonTable rows={liveRows ?? undefined} />

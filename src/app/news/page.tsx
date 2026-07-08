@@ -1,11 +1,16 @@
 import fs from "node:fs";
 import path from "node:path";
+import Link from "next/link";
 import type { Metadata } from "next";
 import type { NewsItem } from "@/lib/news-types";
 import NewsView from "@/components/news/NewsView";
+import { absoluteUrl } from "@/lib/site-url";
 
 export const metadata: Metadata = {
-  title: "News — ragornot",
+  title: "News",
+  description:
+    "A curated, hourly-refreshed feed of retrieval, RAG, LLM, cost, and efficiency news — the context around ragornot's live benchmark of whether RAG is worth it.",
+  alternates: { canonical: absoluteUrl("/news") },
 };
 
 // Read public/news.json at build time for the initial paint (fast first
@@ -28,7 +33,7 @@ export default function NewsPage() {
         <h1 className="text-3xl font-extrabold tracking-tight text-text sm:text-4xl">News</h1>
         <p className="max-w-prose text-text-muted">
           The retrieval and AI landscape — RAG, LLMs, cost, efficiency, and the models behind them.
-          Refreshed hourly. See the <a href="/benchmark" className="underline hover:text-accent-text">Benchmark</a> tab
+          Refreshed hourly. See the <Link href="/benchmark" className="underline hover:text-accent-text">Benchmark</Link> tab
           for the empirical cost and quality numbers behind these technologies.
         </p>
       </div>

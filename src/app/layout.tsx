@@ -4,6 +4,7 @@ import Script from "next/script";
 import SkipLink from "@/components/layout/SkipLink";
 import NavBar from "@/components/layout/NavBar";
 import Footer from "@/components/layout/Footer";
+import { SITE_URL, absoluteUrl } from "@/lib/site-url";
 import "./globals.css";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"], display: "swap" });
@@ -14,10 +15,10 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://raxorr.github.io/ragornot";
+const OG_IMAGE = absoluteUrl("/og-image.png");
 
 export const metadata: Metadata = {
-  metadataBase: new URL(SITE_URL),
+  metadataBase: new URL(`${SITE_URL}/`),
   title: {
     default: "ragornot — compare, learn, decide",
     template: "%s | ragornot",
@@ -28,27 +29,26 @@ export const metadata: Metadata = {
   keywords: ["RAG", "retrieval augmented generation", "LLM", "AWS docs", "benchmark", "AI", "vector search"],
   openGraph: {
     type: "website",
-    url: SITE_URL,
+    url: absoluteUrl("/"),
     title: "ragornot — compare, learn, decide",
     description:
       "Compare retrieval architectures — flat, hierarchical, LLM-only, and RAG — with live cost, latency, and quality tracking.",
     siteName: "ragornot",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "ragornot" }],
+    images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: "ragornot — live retrieval-mode benchmark over AWS docs" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "ragornot — compare, learn, decide",
     description:
       "Compare retrieval architectures — flat, hierarchical, LLM-only, and RAG — with live cost, latency, and quality tracking.",
-    images: ["/og-image.png"],
+    images: [OG_IMAGE],
   },
   robots: {
     index: true,
     follow: true,
   },
-  alternates: {
-    canonical: SITE_URL,
-  },
+  // No global canonical here — each route sets its own self-referential
+  // canonical (see per-page metadata) so subpages index separately.
 };
 
 const THEME_INIT_SCRIPT = `

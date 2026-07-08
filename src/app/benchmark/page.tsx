@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import BenchmarkRunner from "@/components/benchmark/BenchmarkRunner";
+import { absoluteUrl } from "@/lib/site-url";
 
 export const metadata: Metadata = {
-  title: "Benchmark — ragornot",
+  title: "Benchmark",
   description:
     "Run a live benchmark across all four retrieval modes — flat, hierarchical, LLM-only, and RAG — and compare latency, cost, and quality against the AWS docs corpus.",
+  alternates: { canonical: absoluteUrl("/benchmark") },
 };
 
 export default function BenchmarkPage() {

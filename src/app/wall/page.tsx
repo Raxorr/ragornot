@@ -2,11 +2,13 @@ import fs from "node:fs";
 import path from "node:path";
 import type { Metadata } from "next";
 import WallView, { type WallEntry } from "@/components/community/WallView";
+import { absoluteUrl } from "@/lib/site-url";
 
 export const metadata: Metadata = {
-  title: "In the Wild — ragornot",
+  title: "In the Wild",
   description:
     "Anonymous community stories: the most bizarre and clever professional uses of AI people have seen or done. Moderated before publishing.",
+  alternates: { canonical: absoluteUrl("/wall") },
 };
 
 function loadWall(): WallEntry[] {

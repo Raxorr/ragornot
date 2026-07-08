@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
+import { absoluteUrl } from "@/lib/site-url";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — ragornot",
+  title: "Privacy",
+  description:
+    "How ragornot handles data: search queries are processed transiently, not stored or tied to identity; email is used only to send benchmark access keys.",
+  alternates: { canonical: absoluteUrl("/privacy") },
 };
 
 export default function PrivacyPage() {

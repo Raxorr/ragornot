@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { site } from "@/lib/config";
 import { GithubIcon, LinkedinIcon } from "./icons";
 
@@ -47,9 +48,9 @@ export default function Footer() {
             License
           </a>
           {" · "}
-          <a href="/terms" className="underline hover:text-accent-text">Terms</a>
+          <Link href="/terms" className="underline hover:text-accent-text">Terms</Link>
           {" · "}
-          <a href="/privacy" className="underline hover:text-accent-text">Privacy</a>
+          <Link href="/privacy" className="underline hover:text-accent-text">Privacy</Link>
         </p>
       </div>
     </footer>
