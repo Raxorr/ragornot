@@ -40,6 +40,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# personal audit notes — never publish (repo is public)
+ragornot-golive-audit.md
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
