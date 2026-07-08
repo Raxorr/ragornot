@@ -27,6 +27,11 @@ export const metadata: Metadata = {
     "Compare retrieval architectures, track real cost and latency, and follow the AI, LLM, and RAG conversation — in one place.",
   authors: [{ name: "Rohit Sarna", url: "https://github.com/Raxorr" }],
   keywords: ["RAG", "retrieval augmented generation", "LLM", "AWS docs", "benchmark", "AI", "vector search"],
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
   openGraph: {
     type: "website",
     url: absoluteUrl("/"),
