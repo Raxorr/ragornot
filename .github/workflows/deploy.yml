@@ -34,8 +34,7 @@ jobs:
       - name: Build
         env:
           NEXT_PUBLIC_API_BASE_URL: https://d8mkun1yo4v0c.cloudfront.net
-          NEXT_PUBLIC_SITE_URL: https://raxorr.github.io/ragornot
-          NEXT_BASE_PATH: /ragornot
+          NEXT_PUBLIC_SITE_URL: https://ragornot.com
         run: npm run build
 
       - uses: actions/upload-pages-artifact@v3

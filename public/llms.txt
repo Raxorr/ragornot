@@ -19,6 +19,7 @@ The live benchmark runs all four modes against the same query and reports latenc
 
 ## Source
 
+- Website: https://ragornot.com
 - Repository: https://github.com/Raxorr/ragornot
 - Author: Rohit Sarna (https://github.com/Raxorr)
 - License: MIT

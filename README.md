@@ -4,12 +4,12 @@
 
 [![Deploy](https://github.com/Raxorr/ragornot/actions/workflows/deploy.yml/badge.svg)](https://github.com/Raxorr/ragornot/actions/workflows/deploy.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-e8481f.svg)](LICENSE)
-[![Live on GitHub Pages](https://img.shields.io/badge/live-GitHub%20Pages-2ea44f.svg)](https://raxorr.github.io/ragornot)
+[![Live site](https://img.shields.io/badge/live-ragornot.com-2ea44f.svg)](https://ragornot.com)
 [![Next.js 16](https://img.shields.io/badge/Next.js-16-000000.svg?logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![AWS Lambda + Bedrock](https://img.shields.io/badge/AWS-Lambda%20%2B%20Bedrock-ff9900.svg?logo=amazonaws&logoColor=white)](https://aws.amazon.com)
 
-**Live demo → https://raxorr.github.io/ragornot**
+**Live demo → https://ragornot.com**
 
 ---
 
@@ -128,8 +128,7 @@ node scripts/generate-og-image.mjs   # writes public/og-image.png (1200×630)
 | Variable | Required | Description |
 |----------|----------|-------------|
 | `NEXT_PUBLIC_API_BASE_URL` | Yes | CloudFront domain that proxies to the Lambda backend |
-| `NEXT_PUBLIC_SITE_URL` | No | Absolute site URL for canonicals + OG tags (default: GitHub Pages URL). Includes the base path on Pages; set to the bare domain after the custom-domain switch |
-| `NEXT_BASE_PATH` | Build-time | Set to `/ragornot` for the GitHub Pages project repo; leave empty for a custom domain |
+| `NEXT_PUBLIC_SITE_URL` | No | Absolute site URL for canonicals + OG tags (default: `https://ragornot.com`). Everything derives from it, so a domain change is a one-line edit |
 
 **Security note:** the `x-origin-verify` header that protects the Lambda is injected
 **server-side by CloudFront** — it never appears in client code or env files.
@@ -183,9 +182,11 @@ Local: `npm run fetch-news`. To add a source: edit `RSS_SOURCES` in `scripts/fet
 Build env vars set in the workflow:
 ```
 NEXT_PUBLIC_API_BASE_URL=https://d8mkun1yo4v0c.cloudfront.net
-NEXT_PUBLIC_SITE_URL=https://raxorr.github.io/ragornot
-NEXT_BASE_PATH=/ragornot
+NEXT_PUBLIC_SITE_URL=https://ragornot.com
 ```
+
+The custom domain is pinned by `public/CNAME` (`ragornot.com`), which the static
+export copies into `out/` on every deploy so GitHub Pages keeps the domain.
 
 ---
 
@@ -203,15 +204,17 @@ Lambda with S3-backed counters. The frontend shows a friendly message on 429.
 
 ---
 
-## Custom domain (deferred — do after GitHub Pages is live)
+## Custom domain
 
-1. GitHub repo Settings → Pages → Custom domain: enter your domain
-2. Cloudflare/Route 53 DNS: `CNAME` pointing to `raxorr.github.io`
-3. In `.github/workflows/deploy.yml`: remove `NEXT_BASE_PATH=/ragornot` and set
-   `NEXT_PUBLIC_SITE_URL` to the new domain — canonicals + OG URLs derive from it, so no
-   code change is needed
-4. Update `public/robots.txt` and `public/sitemap.xml` URLs
-5. No CORS changes needed — Lambda already allows any origin
+The site is served from **https://ragornot.com** (previously the
+`raxorr.github.io/ragornot` project page). The migration:
+
+1. `public/CNAME` contains `ragornot.com` — copied into `out/` by the static export so
+   GitHub Pages keeps the custom domain on every deploy
+2. DNS: `CNAME` (or `ALIAS`/apex `A` records) pointing to GitHub Pages / `raxorr.github.io`
+3. `deploy.yml` sets `NEXT_PUBLIC_SITE_URL=https://ragornot.com` and no base path — canonicals,
+   OG image, sitemap, and `robots.txt` all resolve at the root
+4. No CORS changes — the Lambda already allows any origin, so the new domain worked immediately
 
 ---
 
