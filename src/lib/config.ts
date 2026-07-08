@@ -19,13 +19,12 @@ export const navTabs = [
   { href: "/wall", label: "In the Wild" },
 ] as const;
 
-// Stat strip on the Assistant tab. Kept as plain data so the numbers can be
-// swapped (or wired to a real index/benchmark run) without touching markup.
+// Genuinely-static facts for the Explore hero stat strip. The other two stats
+// (avg latency, LLM calls) are session-scoped and computed live from real runs
+// — see ExploreStatsContext / StatStrip — so they can't drift into false claims.
 export const assistantStats = [
   { label: "docs indexed", value: "116" },
   { label: "retrieval modes", value: "4" },
-  { label: "avg latency", value: "<200ms" },
-  { label: "LLM calls", value: "0" },
 ] as const;
 
 export const exampleQueries = [

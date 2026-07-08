@@ -5,6 +5,7 @@ import type { RetrievalMode } from "@/lib/config";
 import { callApi, type ApiResponse, type ApiError } from "@/lib/api";
 import ModeSelector from "@/components/assistant/ModeSelector";
 import ExampleChips from "@/components/assistant/ExampleChips";
+import { useExploreStats } from "./ExploreStatsContext";
 import ApiResultsPanel from "./ApiResultsPanel";
 
 const MODE_MAP: Record<RetrievalMode, "flat" | "hierarchical" | "llm" | "rag"> = {
@@ -21,6 +22,7 @@ export default function ExploreView() {
   const [latencyMs, setLatencyMs] = useState(0);
   const [pending, setPending] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const stats = useExploreStats();
 
   async function runSearch(nextQuery: string, nextMode: RetrievalMode) {
     if (!nextQuery.trim()) {
@@ -37,6 +39,8 @@ export default function ExploreView() {
       const { data, latencyMs: ms } = await callApi(nextQuery, apiMode);
       setResult(data);
       setLatencyMs(ms);
+      // Feed the hero strip: all runs update avg latency; llm/rag bump LLM calls.
+      stats?.recordRun(apiMode, ms);
     } catch (err) {
       const apiErr = err as ApiError;
       // Use the backend's message directly — it explains the quota and suggests alternatives.
