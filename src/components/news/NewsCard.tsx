@@ -32,6 +32,10 @@ export default function NewsCard({ item, featured }: NewsCardProps) {
       ].join(" ")}
     >
       {item.imageUrl ? (
+        // Plain <img>: thumbnails are arbitrary remote RSS URLs and the site is a
+        // static export (output: "export"), where next/image optimization is
+        // unavailable — so <img> with lazy loading + graceful onError is correct here.
+        // eslint-disable-next-line @next/next/no-img-element
         <img
           src={item.imageUrl}
           alt=""

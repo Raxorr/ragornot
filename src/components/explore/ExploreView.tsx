@@ -2,7 +2,6 @@
 
 import { useState, type FormEvent } from "react";
 import type { RetrievalMode } from "@/lib/config";
-import { exampleQueries } from "@/lib/config";
 import { callApi, type ApiResponse, type ApiError } from "@/lib/api";
 import ModeSelector from "@/components/assistant/ModeSelector";
 import ExampleChips from "@/components/assistant/ExampleChips";
