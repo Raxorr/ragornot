@@ -1,5 +1,140 @@
 [
   {
+    "id": "arxiv-cs-cl-healthier-llms-retrieval-augmented-generation-for-public-hea",
+    "headline": "Healthier LLMs: Retrieval-Augmented Generation for Public Health Question Answering",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.06641",
+    "publishedAt": "2026-07-09T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large language models (LLMs) achieve promising results on medical question answering benchmarks, yet their use in public health is constrained by hallucinations and the rapid evolution of official guidance. Retrieval-Aug"
+  },
+  {
+    "id": "arxiv-cs-cl-gradient-based-speech-to-text-alignment-for-any-asr-model-fr",
+    "headline": "Gradient-Based Speech-to-Text Alignment for Any ASR Model: From CTC to Speech LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.06831",
+    "publishedAt": "2026-07-09T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Speech-to-text alignment means finding the temporal boundaries of each word in the audio. Some models provide such an alignment directly and others do not. Connectionist temporal classification (CTC) and transducer model"
+  },
+  {
+    "id": "arxiv-cs-cl-llms-silently-correct-african-american-english-auditing-and-",
+    "headline": "LLMs Silently Correct African American English: Auditing and Mitigating Dialect Bias via Activation Steering",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.06845",
+    "publishedAt": "2026-07-09T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "African American English (AAE), a rule-governed dialect spoken by over 30 million people, is routinely misinterpreted and \"corrected\" by large language models (LLMs). Across six instruction-tuned LLMs (14B to 70B), we sh"
+  },
+  {
+    "id": "arxiv-cs-cl-comprehensive-evaluation-of-large-language-model-responses-a",
+    "headline": "Comprehensive Evaluation of Large Language Model Responses: A Multi-Factor Scoring System",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.06940",
+    "publishedAt": "2026-07-09T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "The remarkable performance of large language models (LLMs) in linguistic tasks underscores an urgent need for comprehensive evaluation of their response quality. Prevailing methods, often confined to singular dimensions,"
+  },
+  {
+    "id": "arxiv-cs-cl-miles-modular-instruction-memory-with-learnable-selection-fo",
+    "headline": "MILES: Modular Instruction Memory with Learnable Selection for Self-Improving LLM Reasoning",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.06974",
+    "publishedAt": "2026-07-09T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) increasingly improve their reasoning at test time via additional computation, yet most existing works treat each problem in isolation. When problems arrive sequentially, accumulating reusable"
+  },
+  {
+    "id": "arxiv-cs-cl-riemannian-geometry-for-pre-trained-language-model-embedding",
+    "headline": "Riemannian Geometry for Pre-trained Language Model Embeddings",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.07047",
+    "publishedAt": "2026-07-09T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Understanding the geometric structure of pre-trained language model embeddings matters for interpretability and safety. We ask whether sentence-level classification signal lives in the Riemannian geometry of contextual t"
+  },
+  {
+    "id": "arxiv-cs-cl-behavior-leverage-imbalance-in-multi-teacher-on-policy-disti",
+    "headline": "Behavior Leverage Imbalance in Multi-Teacher On-Policy Distillation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.07050",
+    "publishedAt": "2026-07-09T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Agentic language models must learn when to call tools, when to consume tool responses, and when to answer directly. This makes multi-teacher on-policy distillation a natural training strategy: one teacher can specialize "
+  },
+  {
+    "id": "arxiv-cs-cl-from-text-to-parameters-predicting-item-parameters-from-embe",
+    "headline": "From Text to Parameters: Predicting Item Parameters from Embedding Regularization with Reliability and Design Ceilings",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.07141",
+    "publishedAt": "2026-07-09T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Newly developed items must ordinarily be field tested before their psychometric properties are known, creating a cold start problem for item calibration. Predicting item parameters from features is a long standing measur"
+  },
+  {
+    "id": "arxiv-cs-ir-seeing-and-reflecting-multimodal-memory-enhanced-agent-colla",
+    "headline": "Seeing and Reflecting: Multimodal Memory-Enhanced Agent Collaboration for Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.07108",
+    "publishedAt": "2026-07-09T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language model (LLM)-based agentic recommender systems show promise in modeling user preferences through natural-language reasoning, yet they remain limited by text-centric inputs and coarse-grained memory updates,"
+  },
+  {
+    "id": "arxiv-cs-ir-interpretable-uncertainty-for-adaptive-retrieval-and-reasoni",
+    "headline": "Interpretable Uncertainty for Adaptive Retrieval and Reasoning in Question Answering",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.07380",
+    "publishedAt": "2026-07-09T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large language models (LLMs) achieve a strong performance in question answering (QA), but remain prone to hallucinations and suffer from limited transparency. Retrieval-augmented generation (RAG) can improve factuality, "
+  },
+  {
+    "id": "arxiv-cs-ir-health-system-scale-semantic-search-across-unstructured-clin",
+    "headline": "Health System Scale Semantic Search Across Unstructured Clinical Notes",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2604.25605",
+    "publishedAt": "2026-07-09T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Introduction: Semantic search, which retrieves documents based on conceptual similarity rather than keywords, offers advantages for retrieval of clinical information. However, deploying semantic search across health syst"
+  },
+  {
+    "id": "arxiv-cs-ir-structured-belief-state-and-the-first-precision-aware-benchm",
+    "headline": "Structured Belief State and the First Precision-Aware Benchmark for LLM Memory Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2605.11325",
+    "publishedAt": "2026-07-09T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Current LLM memory benchmarks evaluate answer quality rather than retrieval accuracy. Consequently, a system that dumps its entire belief store can achieve perfect recall and mask severe precision failures. We show this "
+  },
+  {
+    "id": "arxiv-cs-ir-skill-is-not-document-a-query-conditional-benchmark-and-two-",
+    "headline": "Skill Is Not Document: A Query-Conditional Benchmark and Two-Stage Retriever for LLM Agent Skill Routing",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2606.03565",
+    "publishedAt": "2026-07-09T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "LLM agents often solve complex tasks by composing skills, making skill retrieval a front-end component of agent systems. Unlike document retrieval, top-K correctness in skill retrieval depends not only on the relevance o"
+  },
+  {
+    "id": "arxiv-cs-ir-human-in-the-loop-nugget-annotation-for-accountable-llm-as-a",
+    "headline": "Human-in-the-Loop Nugget Annotation for Accountable LLM-as-a-Judge Evaluations",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2606.29033",
+    "publishedAt": "2026-07-09T04:00:00.000Z",
+    "topic": "Cost",
+    "summary": "Evaluating AI/Agentic system outputs reliably requires human judgment, but how one incorporates the human determines whether one gets a real quality signal or expensive theater. The common approaches either accidentally "
+  },
+  {
+    "id": "arxiv-cs-ir-event-centric-world-modeling-with-memory-augmented-retrieval",
+    "headline": "Event-Centric World Modeling with Memory-Augmented Retrieval for Embodied Decision-Making",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2604.07392",
+    "publishedAt": "2026-07-09T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Autonomous agents operating in dynamic environments increasingly demand decision-making systems that are both efficient and interpretable. Hence we propose the Event-Retrieve-Action (ERA) framework, an alternative formul"
+  },
+  {
     "id": "aws-machine-learning-blog-powering-scientific-discovery-byokg-and-graphrag-for-intelli",
     "headline": "Powering scientific discovery: BYOKG and GraphRAG for intelligent pharmaceutical research",
     "source": "AWS Machine Learning Blog",
@@ -15,150 +150,6 @@
     "url": "https://arxiv.org/abs/2310.03003",
     "publishedAt": "2026-07-08T04:33:20.000Z",
     "topic": "Cost"
-  },
-  {
-    "id": "arxiv-cs-cl-how-personas-can-influence-agents-to-play-split-or-steal",
-    "headline": "How Personas Can Influence Agents to Play Split or Steal",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.05398",
-    "publishedAt": "2026-07-08T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Personas are often employed to guide large language model agents, yet their effectiveness in shaping strategic behavior in social dilemma settings remains uncertain. To address this, we examined the impact of persona pro"
-  },
-  {
-    "id": "arxiv-cs-cl-benchmarking-kv-cache-optimizations-across-task-quality-and-",
-    "headline": "Benchmarking KV-Cache Optimizations across Task Quality and System Performance for Long-Context Serving",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.05399",
-    "publishedAt": "2026-07-08T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language model serving is increasingly limited by KV-cache growth under long-context workloads, yet existing KV-cache compression techniques are difficult to compare because they were evaluated on different models,"
-  },
-  {
-    "id": "arxiv-cs-cl-most-llm-conformity-needs-no-speaker-measuring-the-speaker-f",
-    "headline": "Most LLM Conformity Needs No Speaker: Measuring the Speaker-Free Floor in Peer-Pressure Benchmarks",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.05545",
-    "publishedAt": "2026-07-08T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "LLM conformity is often used to describe cases where a model changes a correct answer toward a peer or group response. We show that most of this apparent conformity survives even after the peer is removed. The reason is "
-  },
-  {
-    "id": "arxiv-cs-cl-the-yes-no-bias-of-large-language-models-reflects-answer-ord",
-    "headline": "The yes-no bias of large language models reflects answer order and wording, not shifts in moral judgment",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.05552",
-    "publishedAt": "2026-07-08T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) increasingly issue judgments read as binary verdicts, and a growing literature reports such judgments shifting under logically irrelevant changes of wording - among them an amplified yes-no b"
-  },
-  {
-    "id": "arxiv-cs-cl-prompt-robustness-is-task-dependent-comparing-objective-and-",
-    "headline": "Prompt Robustness Is Task-Dependent: Comparing Objective and Belief-Style Questions in LLM Evaluation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.05554",
-    "publishedAt": "2026-07-08T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Survey-style evaluations of large language models often treat a prompted response as a measure of a model's values or beliefs. This assumption is particularly fragile when responses are read as evidence of political valu"
-  },
-  {
-    "id": "arxiv-cs-cl-resonatorlm-causal-resonant-field-mixing-for-efficient-long-",
-    "headline": "ResonatorLM: Causal Resonant Field Mixing for Efficient Long-Context Language Modelin",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.05583",
-    "publishedAt": "2026-07-08T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Contemporary language models are dominated by the transformer architecture, which leverages self-attention mechanisms to enable more efficient, parallelized training across a wide set of documents and corpora. This has a"
-  },
-  {
-    "id": "arxiv-cs-cl-bafco-a-document-understanding-benchmark-for-complex-bangla-",
-    "headline": "BaFCo: A Document Understanding Benchmark for Complex Bangla Form Comprehension",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.05614",
-    "publishedAt": "2026-07-08T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Document comprehension is a challenging yet impactful task for Multimodal Large Language Models, especially as these systems see growing adoption in real-world, human-centric applications. However, this adoption is limit"
-  },
-  {
-    "id": "arxiv-cs-cl-spanuq-span-level-uncertainty-quantification-for-large-langu",
-    "headline": "SpanUQ: Span-Level Uncertainty Quantification for Large Language Model Generation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.05721",
-    "publishedAt": "2026-07-08T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Uncertainty estimation is essential not only for the trustworthy deployment of large language models (LLMs) but also as a foundation for self-refinement in LLM generation. However, existing approaches operate at suboptim"
-  },
-  {
-    "id": "arxiv-cs-ir-modality-relevance-is-not-modality-utility-post-hoc-selectiv",
-    "headline": "Modality Relevance is not Modality Utility: Post-hoc Selective Modality Escalation for Cost-Aware Multimodal RAG",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.05438",
-    "publishedAt": "2026-07-08T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Multimodal retrieval-augmented generation (RAG) grounds a generator in evidence drawn from heterogeneous modalities -- text, tables, and images. The dominant deployment choice is binary and made before the model has trie"
-  },
-  {
-    "id": "arxiv-cs-ir-ports-preference-optimized-retrievers-for-tool-selection-wit",
-    "headline": "PORTS: Preference-Optimized Retrievers for Tool Selection with Large Language Models",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.05441",
-    "publishedAt": "2026-07-08T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Integrating external tools with Large Language Models (LLMs) has emerged as a promising paradigm for accomplishing complex tasks. Since LLMs still struggle to effectively manage large tool collections, researchers have b"
-  },
-  {
-    "id": "arxiv-cs-ir-prompting-beats-fine-tuning-generative-expected-value-scorin",
-    "headline": "Prompting Beats Fine-Tuning: Generative Expected Value Scoring for Statutory Term Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.05582",
-    "publishedAt": "2026-07-08T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Legal concepts in statutes are often expressed using vague terms, and practitioners frequently turn to case law to interpret them. We study the task of ranking case-law sentences by their usefulness for explaining a conc"
-  },
-  {
-    "id": "arxiv-cs-ir-retrieving-a-set-not-independent-passages-set-level-compatib",
-    "headline": "Retrieving a Set, Not Independent Passages: Set-Level Compatibility Learning for Efficient Set Exploration",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.05712",
-    "publishedAt": "2026-07-08T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Multi-hop question answering and retrieval-augmented reasoning require selecting evidence passages that are jointly useful for answering a query. However, most retrievers still score passages independently or make locall"
-  },
-  {
-    "id": "arxiv-cs-ir-quantifying-and-expanding-the-theoretical-capacity-of-late-i",
-    "headline": "Quantifying and Expanding the Theoretical Capacity of Late-Interaction Retrieval Models",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.05803",
-    "publishedAt": "2026-07-08T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Late-interaction retrieval models that use the MaxSim similarity function have shown strong empirical performance, often outperforming single-vector dense and sparse retrieval models. Despite these empirical findings, li"
-  },
-  {
-    "id": "arxiv-cs-ir-faithful-or-findable-evaluating-llm-generated-metadata-for-r",
-    "headline": "Faithful or Findable? Evaluating LLM-Generated Metadata for RDF Dataset Search",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.05970",
-    "publishedAt": "2026-07-08T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Dataset search depends heavily on metadata, making LLM-generated metadata a consequential form of synthetic content in retrieval systems. We study six metadata-generation settings for RDF datasets, ranging from simple re"
-  },
-  {
-    "id": "arxiv-cs-ir-uncertainty-aware-cross-modal-remote-sensing-image-text-retr",
-    "headline": "Uncertainty-Aware Cross-Modal Remote Sensing Image-Text Retrieval via Evidential Learning",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.06032",
-    "publishedAt": "2026-07-08T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "In cross-modal remote sensing image-text retrieval (CMRSITR), test-time remote sensing (RS) images and textual descriptions may deviate from well-curated benchmark conditions due to sensor- and atmosphere-related image d"
-  },
-  {
-    "id": "arxiv-cs-ir-learn-to-pool-lightweight-fine-tuning-for-flexible-multi-vec",
-    "headline": "Learn to Pool: Lightweight Fine-Tuning for Flexible Multi-Vector Compression",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.06036",
-    "publishedAt": "2026-07-08T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Late interaction models have shown strong generalization capabilities, often outperforming much larger dense embedding models. One challenge to their widespread deployment is the large number of token vectors they produc"
   },
   {
     "id": "hugging-face-blog-native-speed-vllm-transformers-modeling-backend",
