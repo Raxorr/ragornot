@@ -1,5 +1,23 @@
 [
   {
+    "id": "simon-willison-s-blog-llm-meta-ai-0-1",
+    "headline": "llm-meta-ai 0.1",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything",
+    "publishedAt": "2026-07-09T16:12:20.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm-meta-ai 0.1 Let's LLM run prompts against the new muse-spark-1.1 model. Tags: llm , meta"
+  },
+  {
+    "id": "simon-willison-s-blog-llm-0-31-1",
+    "headline": "llm 0.31.1",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
+    "publishedAt": "2026-07-09T16:06:15.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm 0.31.1 Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. #1521 This bug came up when I was testing llm-meta-ai . Tag"
+  },
+  {
     "id": "arxiv-cs-cl-healthier-llms-retrieval-augmented-generation-for-public-hea",
     "headline": "Healthier LLMs: Retrieval-Augmented Generation for Public Health Question Answering",
     "source": "arXiv (cs.CL)",
@@ -209,15 +227,6 @@
     "url": "https://github.com/typedef-ai/fenic",
     "publishedAt": "2026-06-30T16:39:40.000Z",
     "topic": "LLM"
-  },
-  {
-    "id": "simon-willison-s-blog-ornith-1-0-self-scaffolding-llms-for-agentic-coding",
-    "headline": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything",
-    "publishedAt": "2026-06-29T16:17:59.000Z",
-    "topic": "LLM",
-    "summary": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding This is an interesting new open weights (MIT licensed) model, the first model release from DeepReinforce. [...] with variants including 9B Dense, 31B Dense, 35B MoE, a"
   },
   {
     "id": "ahead-of-ai-using-local-coding-agents",
