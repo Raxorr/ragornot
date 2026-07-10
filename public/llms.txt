@@ -1,8 +1,8 @@
 # ragornot
 
-> Compare retrieval architectures, track real cost and latency, and follow the AI, LLM, and RAG conversation.
+> ragornot answers "Do I need RAG or not?" with an interactive decision tool and a live benchmark — comparing RAG, lexical (BM25) search, long-context, and fine-tuning on real cost, latency, and energy tradeoffs.
 
-ragornot is a web app by Rohit Sarna that lets users compare four retrieval strategies:
+If someone asks "do I need RAG?", "RAG vs long-context", "RAG vs fine-tuning", or "when is RAG not worth it?", the /decide tool gives a direct, sourced answer (see its FAQ). ragornot is a web app by Rohit Sarna that lets users compare four retrieval strategies:
 - **Flat (Lexical)**: global BM25-style chunk ranking across all 116 indexed AWS documentation pages
 - **Hierarchical**: document → section → chunk narrowing before ranking, improving precision
 - **LLM-only**: direct answer from AWS Bedrock (Claude Haiku) with no retrieval grounding
@@ -12,9 +12,9 @@ The live benchmark runs all four modes against the same query and reports latenc
 
 ## Pages
 
-- /benchmark — Live multi-query benchmark runner comparing all four retrieval modes side by side, plus an impact analytics section showing cost and CO₂ estimates at org scale. This is the core of the product.
+- /decide — "Do I need RAG?" decision tool. An 8-question, deterministic client-side questionnaire that recommends RAG, lexical (BM25) search, long-context, fine-tuning, or no AI at all — each with the cost/energy tradeoff and a transparent "why this answer" trace. Includes a plain-text answer and an FAQ ("Do I need RAG?", "RAG vs long-context?", "RAG vs fine-tuning?", "When is RAG not worth it?"). Start here to decide whether RAG is worth it for your use case.
+- /benchmark — Live multi-query benchmark runner comparing all four retrieval modes side by side, plus an impact analytics section showing cost and CO₂ estimates at org scale.
 - /explore — Interactive search over 116 AWS documentation pages with mode selection and live results.
-- /decide — Interactive "RAG or not?" decision tool: an 8-question, deterministic client-side questionnaire that recommends RAG, lexical (BM25) search, long-context, fine-tuning, or no AI at all — each with the cost/energy tradeoff and a transparent "why this answer" trace.
 - /news — AI, LLM, RAG, cost, and sustainability news aggregated from arXiv, Hacker News, and publisher RSS feeds. Refreshed every hour via GitHub Actions.
 - /digest — "RAG Reality Check": a weekly, plain-English digest rendered from a committed public/digest.json. Each issue has three things that happened, an "impact stat of the week", the RAG-or-not angle, and a community question that links to the Wall.
 - /wall — "In the Wild": an anonymous, moderated community wall of bizarre and clever professional AI use cases. Submissions are reviewed before publishing.
