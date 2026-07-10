@@ -4,6 +4,8 @@ import Script from "next/script";
 import SkipLink from "@/components/layout/SkipLink";
 import NavBar from "@/components/layout/NavBar";
 import Footer from "@/components/layout/Footer";
+import SessionMeter from "@/components/impact/SessionMeter";
+import { SessionImpactProvider } from "@/lib/session-impact";
 import { SITE_URL, absoluteUrl } from "@/lib/site-url";
 import "./globals.css";
 
@@ -95,12 +97,16 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Script id="theme-init" strategy="beforeInteractive">
           {THEME_INIT_SCRIPT}
         </Script>
-        <SkipLink />
-        <NavBar />
-        <main id="main-content" className="flex-1">
-          {children}
-        </main>
-        <Footer />
+        <SessionImpactProvider>
+          <SkipLink />
+          <NavBar />
+          <main id="main-content" className="flex-1">
+            {children}
+          </main>
+          <Footer />
+          {/* Self-consumption meter — renders only when flags.sessionMeter is on and a run has happened. */}
+          <SessionMeter />
+        </SessionImpactProvider>
       </body>
     </html>
   );

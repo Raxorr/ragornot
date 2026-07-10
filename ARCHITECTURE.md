@@ -75,6 +75,19 @@ auto-published. Submissions are validated, profanity-filtered, rate-limited, sto
 and emailed to the owner; approval is a deliberate manual step.
 *Tradeoff:* approval latency in exchange for safety — the right call for user-generated content.
 
+**Self-consumption meter (Tier 2 — design only, not built).**
+*Why:* the site shows a Tier-1 meter that accumulates estimated energy/water/CO₂ from the real
+per-run token data of the current browser session (React state, resets on refresh — see
+`src/lib/session-impact.tsx`). A *cumulative, cross-user* meter is a natural next step but must not
+put the live Lambda at risk.
+*Design (additive, non-breaking):* the Lambda already persists a daily Bedrock cost counter in S3.
+Extend that record with cumulative `total_tokens` / `total_energy_wh`, and add a **read-only**
+`GET /api/impact` returning `{ total_tokens, total_energy_wh, since }`. The frontend widget would
+prefer that global number when the endpoint exists and gracefully fall back to the Tier-1 session
+estimate when it doesn't — gated behind a feature flag. No existing endpoint changes shape; the new
+route is read-only and cache-friendly (short TTL). Until then, the Lambda is treated as read-only and
+untouched.
+
 ## Repository layout
 
 - `src/app/` — routes (`benchmark`, `explore`, `news`, `wall`, `privacy`, `terms`) + root layout/metadata

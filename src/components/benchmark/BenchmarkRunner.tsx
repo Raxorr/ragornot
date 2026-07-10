@@ -19,6 +19,7 @@ import ComparisonTable from "./ComparisonTable";
 import ImpactAnalytics from "@/components/news/ImpactAnalytics";
 import ImpactPanel from "@/components/impact/ImpactPanel";
 import { flags } from "@/lib/flags";
+import { useSessionImpact } from "@/lib/session-impact";
 import ModeIntro from "./ModeIntro";
 import InfoTooltip from "@/components/ui/InfoTooltip";
 
@@ -290,6 +291,7 @@ export default function BenchmarkRunner() {
   const [quota, setQuota] = useState<BenchmarkQuota | null>(null);
   const [cooldownSec, setCooldownSec] = useState(0);
   const abortRef = useRef(false);
+  const sessionImpact = useSessionImpact();
 
   const [advancedKey, setAdvancedKey] = useState("");
   const [sessionId, setSessionId] = useState<string | null>(null);
@@ -388,6 +390,11 @@ export default function BenchmarkRunner() {
           try {
             const { data, latencyMs } = await callApi(q, mode, options);
             summaries[mode] = buildSummary(data, latencyMs);
+            // Feed the session self-consumption meter with this run's real tokens.
+            if (flags.sessionMeter) {
+              const tokens = (data.llm_stats?.input_tokens ?? 0) + (data.llm_stats?.output_tokens ?? 0);
+              sessionImpact?.record(mode, tokens, data.llm_stats?.cost_usd ?? 0, latencyMs);
+            }
             if (data.quota) lastQuotaInfo = data.quota;
           } catch (err) {
             const apiErr = err as ApiError;

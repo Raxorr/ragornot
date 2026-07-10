@@ -7,6 +7,8 @@ import ModeSelector from "@/components/assistant/ModeSelector";
 import ExampleChips from "@/components/assistant/ExampleChips";
 import { useExploreStats } from "./ExploreStatsContext";
 import ApiResultsPanel from "./ApiResultsPanel";
+import { useSessionImpact } from "@/lib/session-impact";
+import { flags } from "@/lib/flags";
 
 const MODE_MAP: Record<RetrievalMode, "flat" | "hierarchical" | "llm" | "rag"> = {
   flat: "flat",
@@ -23,6 +25,7 @@ export default function ExploreView() {
   const [pending, setPending] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const stats = useExploreStats();
+  const sessionImpact = useSessionImpact();
 
   async function runSearch(nextQuery: string, nextMode: RetrievalMode) {
     if (!nextQuery.trim()) {
@@ -41,6 +44,11 @@ export default function ExploreView() {
       setLatencyMs(ms);
       // Feed the hero strip: all runs update avg latency; llm/rag bump LLM calls.
       stats?.recordRun(apiMode, ms);
+      // Feed the session self-consumption meter with this run's real tokens.
+      if (flags.sessionMeter) {
+        const tokens = (data.llm_stats?.input_tokens ?? 0) + (data.llm_stats?.output_tokens ?? 0);
+        sessionImpact?.record(apiMode, tokens, data.llm_stats?.cost_usd ?? 0, ms);
+      }
     } catch (err) {
       const apiErr = err as ApiError;
       // Use the backend's message directly — it explains the quota and suggests alternatives.
