@@ -12,6 +12,9 @@ import {
   type Outcome,
 } from "@/lib/decide-logic";
 import { flags } from "@/lib/flags";
+import { absoluteUrl } from "@/lib/site-url";
+import ShareCard from "@/components/share/ShareCard";
+import type { ShareStat } from "@/lib/share-card";
 
 const OUTCOME_TAG: Record<Outcome, string> = {
   rag: "Recommended: RAG",
@@ -19,6 +22,30 @@ const OUTCOME_TAG: Record<Outcome, string> = {
   "long-context": "Recommended: Long-context",
   "fine-tuning": "Recommended: Fine-tuning",
   none: "Recommended: No AI needed",
+};
+
+// Two short, honest stat tiles per outcome for the shareable card.
+const OUTCOME_STATS: Record<Outcome, ShareStat[]> = {
+  rag: [
+    { label: "vs long-context", value: "~22× cheaper" },
+    { label: "energy/query", value: "~0.3 Wh" },
+  ],
+  lexical: [
+    { label: "LLM calls", value: "0" },
+    { label: "energy/query", value: "~0 Wh" },
+  ],
+  "long-context": [
+    { label: "vs RAG", value: "~22× cost" },
+    { label: "energy/query", value: "~40 Wh" },
+  ],
+  "fine-tuning": [
+    { label: "citations", value: "none" },
+    { label: "on data change", value: "retrain" },
+  ],
+  none: [
+    { label: "AI needed", value: "no" },
+    { label: "energy saved", value: "~0.3 Wh/q" },
+  ],
 };
 
 export default function DecideTool() {
@@ -219,6 +246,22 @@ export default function DecideTool() {
                 )}
                 . These are order-of-magnitude estimates, not measurements.
               </p>
+
+              {/* Shareable branded card */}
+              <div className="flex flex-col gap-3 border-t border-border pt-4">
+                <h3 className="text-sm font-semibold text-text">Share this result</h3>
+                <ShareCard
+                  data={{
+                    eyebrow: "RAG or not?",
+                    headline: recommendation.title,
+                    stats: OUTCOME_STATS[recommendation.outcome],
+                    note: "Order-of-magnitude estimates",
+                  }}
+                  fileName="ragornot-decision"
+                  shareText={`"RAG or not?" for my use case: ${recommendation.title}. Decide yours:`}
+                  shareUrl={`${absoluteUrl("/decide")}${encodeAnswers(answers) ? `#${encodeAnswers(answers)}` : ""}`}
+                />
+              </div>
             </section>
           )
         )}

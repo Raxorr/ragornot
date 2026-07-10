@@ -20,6 +20,10 @@ import ImpactAnalytics from "@/components/news/ImpactAnalytics";
 import ImpactPanel from "@/components/impact/ImpactPanel";
 import { flags } from "@/lib/flags";
 import { useSessionImpact } from "@/lib/session-impact";
+import { co2GramsFromEnergy, DEFAULT_GRID, formatCo2Grams } from "@/lib/impact-data";
+import { absoluteUrl } from "@/lib/site-url";
+import ShareCard from "@/components/share/ShareCard";
+import type { ShareCardData } from "@/lib/share-card";
 import ModeIntro from "./ModeIntro";
 import InfoTooltip from "@/components/ui/InfoTooltip";
 
@@ -479,6 +483,30 @@ export default function BenchmarkRunner() {
   const hasResults = results.length > 0;
   const liveRows = hasResults ? computeLiveRows(results) : null;
 
+  // Shareable result card (Feature D) — built from the winning mode's live numbers.
+  const shareCardData: ShareCardData | null = (() => {
+    if (!flags.shareCards || !liveRows) return null;
+    const modeWins = MODES.map((m) => ({ m, n: winCounts[m] ?? 0 }));
+    const top = modeWins.reduce((a, b) => (b.n > a.n ? b : a));
+    if (top.n === 0) return null;
+    const isTie = (winCounts.tie ?? 0) >= top.n;
+    const winnerRowMode: RetrievalMode = top.m === "llm" ? "llm-only" : top.m;
+    const row = liveRows.find((r) => r.mode === winnerRowMode);
+    if (!row) return null;
+    const co2 = co2GramsFromEnergy(row.energyPerQueryWh, DEFAULT_GRID.gPerKwh);
+    return {
+      eyebrow: "ragornot benchmark",
+      headline: isTie ? "It's a tie" : `${MODE_LABELS[top.m]} wins`,
+      stats: [
+        { label: "Accuracy", value: `${row.accuracyPct}%` },
+        { label: "Latency", value: formatLatency(row.latencyMs) },
+        { label: "Cost/query", value: formatCost(row.costPerQueryUsd) },
+        { label: "CO₂/query", value: formatCo2Grams(co2) },
+      ],
+      note: `${results.length} queries · ${DEFAULT_GRID.gPerKwh} gCO₂/kWh`,
+    };
+  })();
+
   return (
     <div className="flex flex-col gap-8">
       {/* Mode explainer — collapsible */}
@@ -886,6 +914,22 @@ export default function BenchmarkRunner() {
             <ImpactPanel rows={liveRows ?? undefined} queryCount={results.length} />
           ) : (
             <ImpactAnalytics rows={liveRows ?? undefined} queryCount={results.length} />
+          )}
+
+          {/* Shareable result card — gated by flags.shareCards */}
+          {shareCardData && (
+            <section
+              aria-labelledby="share-heading"
+              className="flex flex-col gap-4 rounded-lg border border-border bg-surface p-5 sm:p-6"
+            >
+              <h3 id="share-heading" className="text-lg font-bold text-text">Share this result</h3>
+              <ShareCard
+                data={shareCardData}
+                fileName="ragornot-benchmark"
+                shareText={`I benchmarked four retrieval modes on ragornot — ${shareCardData.headline}. Try it:`}
+                shareUrl={absoluteUrl("/benchmark")}
+              />
+            </section>
           )}
         </>
       )}
