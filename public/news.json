@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-disaggregated-prefill-and-decode-for-llm-inference-on-sagema",
+    "headline": "Disaggregated prefill and decode for LLM inference on SageMaker HyperPod",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/disaggregated-prefill-and-decode-for-llm-inference-on-sagemaker-hyperpod/",
+    "publishedAt": "2026-07-10T15:20:16.000Z",
+    "topic": "LLM",
+    "summary": "In this post, we show how to implement DPD with vLLM on Amazon SageMaker HyperPod using the HyperPod Inference Operator."
+  },
+  {
     "id": "arxiv-cs-cl-from-solvers-to-research-large-language-model-driven-formal-",
     "headline": "From Solvers to Research: Large Language Model-Driven Formal Mathematics at the Research Frontier",
     "source": "arXiv (cs.CL)",
