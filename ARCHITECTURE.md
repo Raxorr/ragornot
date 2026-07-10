@@ -75,11 +75,47 @@ auto-published. Submissions are validated, profanity-filtered, rate-limited, sto
 and emailed to the owner; approval is a deliberate manual step.
 *Tradeoff:* approval latency in exchange for safety — the right call for user-generated content.
 
+**Self-consumption meter (Tier 2 — design only, not built).**
+*Why:* the site shows a Tier-1 meter that accumulates estimated energy/water/CO₂ from the real
+per-run token data of the current browser session (React state, resets on refresh — see
+`src/lib/session-impact.tsx`). A *cumulative, cross-user* meter is a natural next step but must not
+put the live Lambda at risk.
+*Design (additive, non-breaking):* the Lambda already persists a daily Bedrock cost counter in S3.
+Extend that record with cumulative `total_tokens` / `total_energy_wh`, and add a **read-only**
+`GET /api/impact` returning `{ total_tokens, total_energy_wh, since }`. The frontend widget would
+prefer that global number when the endpoint exists and gracefully fall back to the Tier-1 session
+estimate when it doesn't — gated behind a feature flag. No existing endpoint changes shape; the new
+route is read-only and cache-friendly (short TTL). Until then, the Lambda is treated as read-only and
+untouched.
+
+**Digest ("RAG Reality Check") — static, manual weekly draft.**
+*Why:* the digest is a curated, human-authored read, not an automated feed. Rendering it from a
+committed `public/digest.json` keeps it static, reviewable, and safe — the same pattern as `news.json`
+and `wall.json`. Cadence is deliberately **not** fixed ("new issues as the story moves"), so the page
+never reads as abandoned when a week passes without one. A "notify me" form (`DigestNotify`) captures
+interest by reusing the existing benchmark-interest/SES endpoint tagged `source: "digest"` — no new
+backend — so the owner can gauge demand before committing to a schedule.
+*How to add an issue:* prepend a new object to the `public/digest.json` array (newest first) with a
+`slug`, `date`, `title`, three `things` (title + take + link), an `impact stat` (ideally derived from
+`src/lib/impact-data.ts` so it stays cited), a `ragOrNotAngle`, and a `communityQuestion`. Commit it;
+the page rebuilds statically. A light workflow *could* draft an entry from the existing news feed for
+the owner to edit, but that is deliberately **not** built here — it would add moving parts, and it must
+never modify the existing hourly `news-cron`. For now drafting is a documented manual step.
+
 ## Repository layout
 
-- `src/app/` — routes (`benchmark`, `explore`, `news`, `wall`, `privacy`, `terms`) + root layout/metadata
-- `src/components/` — UI by feature area (`benchmark`, `explore`, `news`, `community`, `layout`, `ui`)
-- `src/lib/` — shared helpers (API client, formatting, site-URL builder, config, search)
+- `src/app/` — routes (`benchmark`, `explore`, `decide`, `news`, `digest`, `wall`, `methodology`, `privacy`, `terms`) + root layout/metadata
+- `src/components/` — UI by feature area (`benchmark`, `explore`, `decide`, `digest`, `impact`, `share`, `news`, `community`, `layout`, `ui`)
+- `src/lib/` — shared helpers (API client, formatting, site-URL builder, config, search, `flags`, `impact-data`, `decide-logic`, `session-impact`, `share-card`, `digest-types`)
 - `scripts/` — `fetch-news.mjs` (news cron), `generate-og-image.mjs` (social card)
 - `.github/workflows/` — `deploy.yml` (Pages) and `news-cron.yml` (hourly feed)
-- `public/` — static assets, `news.json`, `wall.json`, `sitemap.xml`, `llms.txt`
+- `public/` — static assets, `news.json`, `wall.json`, `digest.json`, `sitemap.xml`, `llms.txt`
+
+## Feature flags
+
+`src/lib/flags.ts` gates the impact/community feature set. New standalone routes
+(`/methodology`, `/decide`, `/digest`) default on — they can't affect existing tabs. In-place
+modifications to existing surfaces default **off** so a merge can never regress the live site:
+`impactV2` (the sourced Benchmark impact panel), `sessionMeter` (the floating self-consumption
+meter), and `shareCards` (the share card on the Benchmark results). Flip a flag to `true` and rebuild
+to ship it.

@@ -48,6 +48,8 @@ export default function Footer() {
             License
           </a>
           {" · "}
+          <Link href="/methodology" className="underline hover:text-accent-text">Methodology</Link>
+          {" · "}
           <Link href="/terms" className="underline hover:text-accent-text">Terms</Link>
           {" · "}
           <Link href="/privacy" className="underline hover:text-accent-text">Privacy</Link>

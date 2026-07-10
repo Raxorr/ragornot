@@ -15,7 +15,9 @@ export const site = {
 export const navTabs = [
   { href: "/benchmark", label: "Benchmark" },
   { href: "/explore", label: "Explore" },
+  { href: "/decide", label: "Decide" },
   { href: "/news", label: "News" },
+  { href: "/digest", label: "Digest" },
   { href: "/wall", label: "In the Wild" },
 ] as const;
 
