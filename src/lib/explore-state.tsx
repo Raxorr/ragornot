@@ -4,6 +4,7 @@ import {
   createContext,
   useCallback,
   useContext,
+  useEffect,
   useMemo,
   useRef,
   useState,
@@ -13,7 +14,15 @@ import type { RetrievalMode } from "./config";
 import { callApi, type ApiResponse, type ApiError, type ApiMode } from "./api";
 import { flags } from "./flags";
 import { useSessionImpact } from "./session-impact";
+import { SESSION_KEYS, loadSession, saveSession } from "./session-persist";
 import { useExploreStats } from "@/components/explore/ExploreStatsContext";
+
+interface PersistedExplore {
+  query: string;
+  mode: RetrievalMode;
+  result: ApiResponse;
+  latencyMs: number;
+}
 
 export const MODE_MAP: Record<RetrievalMode, ApiMode> = {
   flat: "flat",
@@ -52,6 +61,20 @@ export function ExploreStateProvider({ children }: { children: ReactNode }) {
   const stats = useExploreStats();
   const sessionImpact = useSessionImpact();
 
+  // Rehydrate the last Explore result from sessionStorage on mount (client only,
+  // after hydration) so an accidental refresh restores query/mode/results.
+  useEffect(() => {
+    const saved = loadSession<PersistedExplore>(SESSION_KEYS.explore);
+    if (saved && saved.result) {
+      /* eslint-disable react-hooks/set-state-in-effect */
+      setQuery(saved.query ?? "");
+      setMode(saved.mode ?? "flat");
+      setResult(saved.result);
+      setLatencyMs(saved.latencyMs ?? 0);
+      /* eslint-enable react-hooks/set-state-in-effect */
+    }
+  }, []);
+
   const runSearch = useCallback(
     (nextQuery: string, nextMode: RetrievalMode) => {
       if (!nextQuery.trim()) {
@@ -72,6 +95,9 @@ export function ExploreStateProvider({ children }: { children: ReactNode }) {
           const { data, latencyMs: ms } = await callApi(nextQuery, apiMode);
           setResult(data);
           setLatencyMs(ms);
+          // Persist the last successful search so a refresh restores it. A new
+          // search overwrites; errors don't persist.
+          saveSession(SESSION_KEYS.explore, { query: nextQuery, mode: nextMode, result: data, latencyMs: ms });
           stats?.recordRun(apiMode, ms);
           if (flags.sessionMeter) {
             const tokens = (data.llm_stats?.input_tokens ?? 0) + (data.llm_stats?.output_tokens ?? 0);
