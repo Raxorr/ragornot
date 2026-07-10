@@ -21,6 +21,7 @@ const allNavTabs: Array<{ href: string; label: string; flag?: FeatureFlag }> = [
   { href: "/explore", label: "Explore" },
   { href: "/decide", label: "Decide", flag: "decideTool" },
   { href: "/news", label: "News" },
+  { href: "/digest", label: "Digest", flag: "digestPage" },
   { href: "/wall", label: "In the Wild" },
 ];
 

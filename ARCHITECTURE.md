@@ -88,11 +88,32 @@ estimate when it doesn't — gated behind a feature flag. No existing endpoint c
 route is read-only and cache-friendly (short TTL). Until then, the Lambda is treated as read-only and
 untouched.
 
+**Digest ("RAG Reality Check") — static, manual weekly draft.**
+*Why:* the digest is a curated weekly read, not an automated feed. Rendering it from a committed
+`public/digest.json` keeps it static, reviewable, and safe — the same pattern as `news.json` and
+`wall.json`, but human-authored.
+*How to add an issue:* prepend a new object to the `public/digest.json` array (newest first) with a
+`slug`, `date`, `title`, three `things` (title + take + link), an `impact stat` (ideally derived from
+`src/lib/impact-data.ts` so it stays cited), a `ragOrNotAngle`, and a `communityQuestion`. Commit it;
+the page rebuilds statically. A light weekly workflow *could* draft an entry from the existing news
+feed for the owner to edit, but that is deliberately **not** built here — it would add moving parts,
+and it must never modify the existing hourly `news-cron`. For now the weekly draft is a documented
+manual step.
+
 ## Repository layout
 
-- `src/app/` — routes (`benchmark`, `explore`, `news`, `wall`, `privacy`, `terms`) + root layout/metadata
-- `src/components/` — UI by feature area (`benchmark`, `explore`, `news`, `community`, `layout`, `ui`)
-- `src/lib/` — shared helpers (API client, formatting, site-URL builder, config, search)
+- `src/app/` — routes (`benchmark`, `explore`, `decide`, `news`, `digest`, `wall`, `methodology`, `privacy`, `terms`) + root layout/metadata
+- `src/components/` — UI by feature area (`benchmark`, `explore`, `decide`, `digest`, `impact`, `share`, `news`, `community`, `layout`, `ui`)
+- `src/lib/` — shared helpers (API client, formatting, site-URL builder, config, search, `flags`, `impact-data`, `decide-logic`, `session-impact`, `share-card`, `digest-types`)
 - `scripts/` — `fetch-news.mjs` (news cron), `generate-og-image.mjs` (social card)
 - `.github/workflows/` — `deploy.yml` (Pages) and `news-cron.yml` (hourly feed)
-- `public/` — static assets, `news.json`, `wall.json`, `sitemap.xml`, `llms.txt`
+- `public/` — static assets, `news.json`, `wall.json`, `digest.json`, `sitemap.xml`, `llms.txt`
+
+## Feature flags
+
+`src/lib/flags.ts` gates the impact/community feature set. New standalone routes
+(`/methodology`, `/decide`, `/digest`) default on — they can't affect existing tabs. In-place
+modifications to existing surfaces default **off** so a merge can never regress the live site:
+`impactV2` (the sourced Benchmark impact panel), `sessionMeter` (the floating self-consumption
+meter), and `shareCards` (the share card on the Benchmark results). Flip a flag to `true` and rebuild
+to ship it.

@@ -1,0 +1,33 @@
+[
+  {
+    "slug": "2026-07-06",
+    "date": "2026-07-06",
+    "title": "RAG Reality Check — Week of Jul 6, 2026",
+    "intro": "The week's signal on retrieval, cost, and the environmental footprint of asking a model a question — in plain English.",
+    "things": [
+      {
+        "title": "Epoch AI put real numbers on per-query energy",
+        "take": "A typical short chat query lands around 0.3 Wh, while attaching a ~100k-token document to the prompt runs closer to 40 Wh. Same answer, ~100× the energy — the clearest argument yet for retrieving only what you need.",
+        "link": "https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use"
+      },
+      {
+        "title": "\"How Hungry is AI?\" separated on-site water from full-scope water",
+        "take": "Vendors disclose ~0.3 mL of on-site cooling water per query; count the water used to generate the electricity too and a short GPT-4o query is closer to ~1.2 mL. Scope matters — don't quote one number as if it were the other.",
+        "link": "https://arxiv.org/html/2505.09598v1"
+      },
+      {
+        "title": "\"The Token Tax\" quantified the long-context premium",
+        "take": "Stuffing documents into every prompt costs roughly 20–24× more than retrieving the relevant slice, because you pay for those tokens on every single call. Retrieval keeps the prompt — and the bill — small.",
+        "link": "https://arxiv.org/pdf/2606.20898"
+      }
+    ],
+    "stat": {
+      "value": "~100×",
+      "label": "more energy to stuff a ~100k-token doc into context (~40 Wh) than to answer with retrieval (~0.3 Wh)",
+      "source": "Epoch AI, \"How much energy does ChatGPT use?\" (Feb 2025)",
+      "sourceUrl": "https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use"
+    },
+    "ragOrNotAngle": "The through-line this week is the same one ragornot keeps landing on: reaching for a giant context window is the expensive default, on both cost (~20–24×) and energy (~100×). Retrieval isn't just about accuracy — it's the cheaper, lighter way to ground an answer. If your knowledge is large or changing, RAG wins on all three axes. If it genuinely fits in a prompt and rarely changes, long-context is fine — until it isn't.",
+    "communityQuestion": "What's the most over-engineered use of RAG — or the most reckless use of a giant context window — you've seen in the wild?"
+  }
+]
