@@ -58,6 +58,8 @@ interface BenchmarkStateValue {
   cooldownSec: number;
   /** True once a quota has been fetched at least once this session. */
   quotaLoaded: boolean;
+  /** True when the last run attempt returned zero successful queries (server-rejected). */
+  lastRunRateLimited: boolean;
   runBenchmark: (params: RunBenchmarkParams) => void;
   stop: () => void;
   /** Re-sync remaining runs / cooldown from the server WITHOUT touching results. */
@@ -76,9 +78,26 @@ export function BenchmarkStateProvider({ children }: { children: ReactNode }) {
   const [quotaLoaded, setQuotaLoaded] = useState(false);
   const [nextEligibleAt, setNextEligibleAt] = useState<number | null>(null);
   const [nowMs, setNowMs] = useState(0);
+  // True when the most recent run attempt returned zero successful queries
+  // (server rejected them — interval cooldown / cap). Used to show a friendly
+  // cooldown state instead of an empty "0 wins" benchmark.
+  const [lastRunRateLimited, setLastRunRateLimited] = useState(false);
 
   const abortRef = useRef(false);
   const runningRef = useRef(false);
+  // Mirrors `results` so a run can snapshot the prior results synchronously and
+  // restore them if the new attempt yields nothing (never clobber good data).
+  const resultsRef = useRef<QueryResult[]>([]);
+  useEffect(() => {
+    resultsRef.current = results;
+  }, [results]);
+  // Server-authoritative eligibility, read synchronously inside runBenchmark so a
+  // doomed click is a true no-op. Starts BLOCKED (Infinity deadline, 0 runs) until
+  // the first quota load, so no run fires before state is known.
+  const eligibilityRef = useRef<{ nextEligibleAt: number; remainingRuns: number }>({
+    nextEligibleAt: Number.POSITIVE_INFINITY,
+    remainingRuns: 0,
+  });
   const sessionImpact = useSessionImpact();
 
   // Tick the clock once per second while a cooldown is active. Date.now() is read
@@ -104,7 +123,10 @@ export function BenchmarkStateProvider({ children }: { children: ReactNode }) {
     setQuotaLoaded(true);
     const now = Date.now();
     setNowMs(now);
-    setNextEligibleAt(now + Math.max(0, q.seconds_until_next) * 1000);
+    const deadline = now + Math.max(0, q.seconds_until_next) * 1000;
+    setNextEligibleAt(deadline);
+    // Keep the synchronous eligibility gate in sync with the server's numbers.
+    eligibilityRef.current = { nextEligibleAt: deadline, remainingRuns: q.remaining_runs };
   }, []);
 
   const refreshQuota = useCallback(async () => {
@@ -122,10 +144,19 @@ export function BenchmarkStateProvider({ children }: { children: ReactNode }) {
       // Guard against double-submit: a remounting page or a second click can't
       // start a concurrent run.
       if (runningRef.current) return;
+      // Belt-and-suspenders eligibility gate: never fire a request the server
+      // will reject for the interval cooldown or daily cap. The Run button is
+      // already disabled on this, but a stale/optimistic click must be a no-op
+      // (and this is the race that let doomed clicks through before quota loaded).
+      const el = eligibilityRef.current;
+      if (Date.now() < el.nextEligibleAt || el.remainingRuns <= 0) return;
+
+      const prevResults = resultsRef.current;
       runningRef.current = true;
       abortRef.current = false;
       setRunning(true);
       setError(null);
+      setLastRunRateLimited(false);
       setResults([]);
 
       // Fire-and-forget: the loop is owned by the provider, so navigating away
@@ -133,6 +164,7 @@ export function BenchmarkStateProvider({ children }: { children: ReactNode }) {
       void (async () => {
         const runId = newRunId();
         let lastQuotaInfo: BenchmarkQuota | null = null;
+        let finalRunResults: QueryResult[] = [];
 
         for (let iter = 1; iter <= iterCount; iter++) {
           const runResults: QueryResult[] = [];
@@ -199,13 +231,27 @@ export function BenchmarkStateProvider({ children }: { children: ReactNode }) {
             ...prev,
             { startedAt: new Date().toISOString(), label, queryResults: runResults },
           ]);
+          finalRunResults = runResults;
         }
 
+        // Trust the server for quota/cooldown after any attempt — never guess.
         if (lastQuotaInfo) {
           applyQuota(lastQuotaInfo);
         } else {
           await refreshQuota();
         }
+
+        // If nothing succeeded (all rate-limited / rejected), don't present this
+        // as a completed benchmark: restore the prior (good or empty) results and
+        // flag the cooldown state so the UI shows a friendly message instead.
+        const successCount = finalRunResults.filter(
+          (r) => MODES.some((m) => !r[m].error && r[m].latencyMs > 0),
+        ).length;
+        if (successCount === 0) {
+          setResults(prevResults);
+          if (!abortRef.current) setLastRunRateLimited(true);
+        }
+
         setRunning(false);
         setProgress("");
         runningRef.current = false;
@@ -224,11 +270,12 @@ export function BenchmarkStateProvider({ children }: { children: ReactNode }) {
       quota,
       cooldownSec,
       quotaLoaded,
+      lastRunRateLimited,
       runBenchmark,
       stop,
       refreshQuota,
     }),
-    [running, progress, results, history, error, quota, cooldownSec, quotaLoaded, runBenchmark, stop, refreshQuota],
+    [running, progress, results, history, error, quota, cooldownSec, quotaLoaded, lastRunRateLimited, runBenchmark, stop, refreshQuota],
   );
 
   return <BenchmarkStateContext.Provider value={value}>{children}</BenchmarkStateContext.Provider>;

@@ -206,6 +206,7 @@ export default function BenchmarkRunner() {
     quota,
     cooldownSec,
     quotaLoaded,
+    lastRunRateLimited,
     runBenchmark,
     stop,
     refreshQuota,
@@ -266,14 +267,38 @@ export default function BenchmarkRunner() {
     }
   }
 
-  const canRun = !running && (quota === null || (quota.remaining_runs > 0 && cooldownSec === 0));
+  // Gate on BOTH the daily quota AND the per-run interval cooldown, and stay
+  // disabled until the quota has actually loaded (no optimistic "quota === null"
+  // window that let a doomed click fire before state was known).
+  const canRun =
+    !running && quotaLoaded && quota !== null && quota.remaining_runs > 0 && cooldownSec === 0;
   const canRunAdvanced = canRun && !!advancedKey.trim() && (!usePersonalDocs || !!sessionId);
 
-  // ── live aggregates ────────────────────────────────────────────────────────
+  // Make the disabled reason obvious on the button itself.
+  const runButtonLabel = !quotaLoaded
+    ? "Checking limits…"
+    : quota && quota.remaining_runs === 0
+      ? "Daily limit reached"
+      : cooldownSec > 0
+        ? `Next run in ${fmtCooldown(cooldownSec)}`
+        : "Run Benchmark";
+
+  // A query "succeeded" if at least one mode returned a real (non-error) result.
+  // Rate-limited/failed queries are excluded so a rejected run is never treated
+  // as a completed benchmark.
+  const successfulResults = results.filter((r) =>
+    MODES.some((m) => !r[m].error && r[m].latencyMs > 0),
+  );
+  const successCount = successfulResults.length;
+  const hasLiveResults = successCount > 0;
+  const totalAttempted = results.length;
+  const isPartial = hasLiveResults && successCount < totalAttempted;
+
+  // ── live aggregates (successful queries only) ───────────────────────────────
   const allLatencies: Record<ApiMode, number[]> = { flat: [], hierarchical: [], llm: [], rag: [] };
   const allConfidences: Record<ApiMode, number[]> = { flat: [], hierarchical: [], llm: [], rag: [] };
   const winCounts: Record<string, number> = { flat: 0, hierarchical: 0, llm: 0, rag: 0, tie: 0 };
-  for (const r of results) {
+  for (const r of successfulResults) {
     for (const mode of MODES) {
       if (!r[mode].error && r[mode].latencyMs > 0) allLatencies[mode].push(r[mode].latencyMs);
       if (r[mode].confidence !== null) allConfidences[mode].push(r[mode].confidence!);
@@ -282,8 +307,7 @@ export default function BenchmarkRunner() {
       winCounts[r.winner]++;
   }
 
-  const hasResults = results.length > 0;
-  const liveRows = hasResults ? computeLiveRows(results) : null;
+  const liveRows = hasLiveResults ? computeLiveRows(successfulResults) : null;
 
   // Shareable result card — built from the winning mode's live numbers.
   const shareCardData: ShareCardData | null = (() => {
@@ -305,7 +329,7 @@ export default function BenchmarkRunner() {
         { label: "Cost/query", value: formatCost(row.costPerQueryUsd) },
         { label: "CO₂/query", value: formatCo2Grams(co2) },
       ],
-      note: `${results.length} queries · ${DEFAULT_GRID.gPerKwh} gCO₂/kWh`,
+      note: `${successCount} ${successCount === 1 ? "query" : "queries"} · ${DEFAULT_GRID.gPerKwh} gCO₂/kWh`,
     };
   })();
 
@@ -336,9 +360,20 @@ export default function BenchmarkRunner() {
         </div>
       )}
 
+      {/* A run attempt that the server rejected (interval cooldown / cap) is NOT a
+          benchmark. Show a friendly cooldown state instead of an empty result. */}
+      {lastRunRateLimited && (
+        <div role="status" className="rounded-lg border border-accent/50 bg-surface-2 px-4 py-3 text-sm text-text">
+          You&apos;re on cooldown
+          {quota ? ` — ${quota.remaining_runs} of ${quota.daily_limit} runs left today` : ""}
+          {cooldownSec > 0 ? `, next run in ${fmtCooldown(cooldownSec)}` : ""}. That attempt was
+          rate-limited by the server, so it doesn&apos;t count as a benchmark. Try again then.
+        </div>
+      )}
+
       {/* After a hard refresh, results are cleared but server-side limits persist.
           Make that combination less confusing. */}
-      {quotaLoaded && !hasResults && cooldownSec > 0 && (
+      {quotaLoaded && !hasLiveResults && !lastRunRateLimited && cooldownSec > 0 && (
         <p className="text-xs text-text-muted">
           Previous results were cleared on refresh — your run limits are still counted server-side.
         </p>
@@ -353,7 +388,7 @@ export default function BenchmarkRunner() {
             disabled={!canRun}
             className="inline-flex min-h-11 items-center rounded-lg bg-accent px-5 font-medium text-white transition-colors hover:bg-accent-hover disabled:cursor-not-allowed disabled:opacity-40"
           >
-            Run Benchmark
+            {runButtonLabel}
           </button>
         ) : (
           <button
@@ -364,7 +399,7 @@ export default function BenchmarkRunner() {
             Stop
           </button>
         )}
-        {hasResults && (
+        {hasLiveResults && (
           <>
             <button
               type="button"
@@ -571,13 +606,19 @@ export default function BenchmarkRunner() {
       </section>
 
       {/* Per-query results */}
-      {hasResults && (
+      {hasLiveResults && (
         <>
           {/* Narrative connector */}
           <div className="rounded-lg border border-border bg-surface-2 px-4 py-3 text-sm text-text-muted">
             <span className="font-semibold text-text">Step 1 of 3 — Raw results.</span>
             {" "}Each card shows how that query performed across all four modes.
-            Scroll down for the aggregate comparison and org-scale impact.
+            {isPartial && (
+              <> {" "}<span className="font-medium text-accent-text">
+                {successCount} of {totalAttempted} queries succeeded; the rest were rate-limited and are
+                excluded from the aggregates below.
+              </span></>
+            )}
+            {" "}Scroll down for the aggregate comparison and org-scale impact.
           </div>
 
           {/* Aggregate stats */}
@@ -586,7 +627,8 @@ export default function BenchmarkRunner() {
             className="rounded-lg border border-border bg-surface p-5 sm:p-6"
           >
             <h3 id="agg-heading" className="mb-1 text-lg font-bold text-text">
-              Step 2 — Aggregate ({results.length} queries)
+              Step 2 — Aggregate ({successCount} {successCount === 1 ? "query" : "queries"}
+              {isPartial ? ` of ${totalAttempted}` : ""})
             </h3>
             <p className="mb-4 text-xs text-text-muted">
               Winner = highest BM25 quality proxy score; within {(WINNER_QUALITY_EPSILON * 100).toFixed(0)}% quality →
@@ -716,7 +758,8 @@ export default function BenchmarkRunner() {
               Step 3 — Mode Comparison
             </h2>
             <p className="max-w-prose text-sm text-text-muted">
-              Aggregated across your {results.length} {results.length === 1 ? "query" : "queries"}.
+              Aggregated across your {successCount} successful {successCount === 1 ? "query" : "queries"}
+              {isPartial ? ` (of ${totalAttempted} attempted)` : ""}.
               &ldquo;Accuracy %&rdquo; = avg_confidence × 100 from the retrieval model; LLM-only has no retrieval quality metric.
               Use this to decide whether the accuracy lift from RAG justifies its cost for your use case.
             </p>
@@ -724,7 +767,7 @@ export default function BenchmarkRunner() {
           </section>
 
           {/* Impact Analytics — sourced, coefficient-linked panel */}
-          <ImpactPanel rows={liveRows ?? undefined} queryCount={results.length} />
+          <ImpactPanel rows={liveRows ?? undefined} queryCount={successCount} />
 
           {/* Shareable result card — the winning mode's live numbers */}
           {shareCardData && (
@@ -744,8 +787,8 @@ export default function BenchmarkRunner() {
         </>
       )}
 
-      {/* Mode Comparison + Impact Analytics — sample (no run yet) */}
-      {!hasResults && (
+      {/* Mode Comparison + Impact Analytics — representative view (no successful run) */}
+      {!hasLiveResults && (
         <>
           <section aria-labelledby="comparison-heading-sample" className="flex flex-col gap-4">
             <h2 id="comparison-heading-sample" className="text-2xl font-bold tracking-tight text-text">
