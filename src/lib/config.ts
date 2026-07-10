@@ -1,6 +1,8 @@
 // Central place for copy and numbers that show up verbatim in the UI.
 // Change a stat here and it updates everywhere it's rendered.
 
+import { flags, type FeatureFlag } from "./flags";
+
 export const site = {
   name: "ragornot",
   eyebrow: "RAG OR NOT — COMPARE. LEARN. DECIDE.",
@@ -12,12 +14,17 @@ export const site = {
   linkedinUrl: "https://www.linkedin.com/in/rohitsarna",
 } as const;
 
-export const navTabs = [
+// Nav tabs. Additive new-route tabs carry a feature flag and only appear when
+// it's on, so a merge with a flag off leaves the nav exactly as it was.
+const allNavTabs: Array<{ href: string; label: string; flag?: FeatureFlag }> = [
   { href: "/benchmark", label: "Benchmark" },
   { href: "/explore", label: "Explore" },
+  { href: "/decide", label: "Decide", flag: "decideTool" },
   { href: "/news", label: "News" },
   { href: "/wall", label: "In the Wild" },
-] as const;
+];
+
+export const navTabs = allNavTabs.filter((t) => !t.flag || flags[t.flag]);
 
 // Genuinely-static facts for the Explore hero stat strip. The other two stats
 // (avg latency, LLM calls) are session-scoped and computed live from real runs
