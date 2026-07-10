@@ -16,6 +16,7 @@ The live benchmark runs all four modes against the same query and reports latenc
 - /explore — Interactive search over 116 AWS documentation pages with mode selection and live results.
 - /news — AI, LLM, RAG, cost, and sustainability news aggregated from arXiv, Hacker News, and publisher RSS feeds. Refreshed every hour via GitHub Actions.
 - /wall — "In the Wild": an anonymous, moderated community wall of bizarre and clever professional AI use cases. Submissions are reviewed before publishing.
+- /methodology — Plain-English methodology behind the impact numbers: every energy, water, and CO₂ coefficient with its cited source, the exact formulas, scope-1 vs full-scope water, and the honest caveat that ragornot's own figures are literature-derived proxies (it runs Claude Haiku over a small demo corpus).
 
 ## Source
 

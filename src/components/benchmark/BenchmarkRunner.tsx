@@ -17,6 +17,8 @@ import { benchmarkRows, type BenchmarkRow } from "@/lib/benchmark-data";
 import type { RetrievalMode } from "@/lib/config";
 import ComparisonTable from "./ComparisonTable";
 import ImpactAnalytics from "@/components/news/ImpactAnalytics";
+import ImpactPanel from "@/components/impact/ImpactPanel";
+import { flags } from "@/lib/flags";
 import ModeIntro from "./ModeIntro";
 import InfoTooltip from "@/components/ui/InfoTooltip";
 
@@ -872,8 +874,12 @@ export default function BenchmarkRunner() {
             <ComparisonTable rows={liveRows ?? undefined} />
           </section>
 
-          {/* Impact Analytics — live */}
-          <ImpactAnalytics rows={liveRows ?? undefined} queryCount={results.length} />
+          {/* Impact Analytics — live (v2 sourced panel behind flag; OFF = unchanged) */}
+          {flags.impactV2 ? (
+            <ImpactPanel rows={liveRows ?? undefined} queryCount={results.length} />
+          ) : (
+            <ImpactAnalytics rows={liveRows ?? undefined} queryCount={results.length} />
+          )}
         </>
       )}
 
@@ -889,7 +895,7 @@ export default function BenchmarkRunner() {
             </p>
             <ComparisonTable />
           </section>
-          <ImpactAnalytics />
+          {flags.impactV2 ? <ImpactPanel /> : <ImpactAnalytics />}
         </>
       )}
     </div>
