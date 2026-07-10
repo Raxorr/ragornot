@@ -1,118 +1,29 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useRef, useEffect, useCallback } from "react";
-import {
-  callApi,
-  checkBenchmarkQuota,
-  uploadDocs,
-  submitBenchmarkInterest,
-  type ApiMode,
-  type ApiMatch,
-  type ApiError,
-  type BenchmarkQuota,
-} from "@/lib/api";
+import { useState, useRef, useEffect } from "react";
+import { uploadDocs, submitBenchmarkInterest, type ApiMode } from "@/lib/api";
 import { formatCost, formatLatency } from "@/lib/format";
 import { benchmarkRows, type BenchmarkRow } from "@/lib/benchmark-data";
 import type { RetrievalMode } from "@/lib/config";
 import ComparisonTable from "./ComparisonTable";
 import ImpactPanel from "@/components/impact/ImpactPanel";
-import { flags } from "@/lib/flags";
-import { useSessionImpact } from "@/lib/session-impact";
 import { co2GramsFromEnergy, DEFAULT_GRID, formatCo2Grams } from "@/lib/impact-data";
 import { absoluteUrl } from "@/lib/site-url";
 import ShareCard from "@/components/share/ShareCard";
 import type { ShareCardData } from "@/lib/share-card";
 import ModeIntro from "./ModeIntro";
 import InfoTooltip from "@/components/ui/InfoTooltip";
-
-const BENCHMARK_QUERIES = [
-  "How do I give a Lambda function access to S3?",
-  "What is the difference between Lambda URLs and API Gateway?",
-  "How do I enable static website hosting on S3?",
-  "How do I secure serverless endpoints on AWS?",
-  "What is CloudFormation drift detection?",
-  "How do I reduce IAM permissions safely?",
-  "How do I set up a custom domain with CloudFront?",
-];
-
-const MODES: ApiMode[] = ["flat", "hierarchical", "llm", "rag"];
-const MODE_LABELS: Record<ApiMode, string> = {
-  flat: "Flat",
-  hierarchical: "Hierarchical",
-  llm: "LLM Only",
-  rag: "RAG",
-};
-
-// Winner logic constants (documented here so the UI explanation stays in sync)
-const WINNER_QUALITY_EPSILON = 0.05; // modes within this quality range use latency as tiebreaker
-const WINNER_LATENCY_TIE_MS = 40;    // within this latency AND quality epsilon → "Tie"
-const REQUEST_DELAY_MS = 300;
-
-interface ModeSummary {
-  confidence: number | null;
-  qualityProxy: number | null;
-  latencyMs: number;
-  topTitles: string[];
-  costUsd: number;
-  tokens: number;
-  answerText: string;
-  matches: ApiMatch[];
-  error: string | null;
-}
-
-interface QueryResult {
-  query: string;
-  flat: ModeSummary;
-  hierarchical: ModeSummary;
-  llm: ModeSummary;
-  rag: ModeSummary;
-  winner: ApiMode | "tie" | "failed" | "skipped";
-}
-
-interface RunRecord {
-  startedAt: string;
-  label: string;
-  queryResults: QueryResult[];
-}
-
-function buildSummary(
-  data: Awaited<ReturnType<typeof callApi>>["data"],
-  latencyMs: number,
-): ModeSummary {
-  return {
-    confidence: data.confidence,
-    qualityProxy: data.debug?.quality_proxy ?? null,
-    latencyMs,
-    topTitles: data.matches.slice(0, 3).map((m) => m.title || "Untitled"),
-    costUsd: data.llm_stats?.cost_usd ?? 0,
-    tokens: (data.llm_stats?.input_tokens ?? 0) + (data.llm_stats?.output_tokens ?? 0),
-    answerText: data.answer_text ?? "",
-    matches: data.matches.slice(0, 5),
-    error: data.error,
-  };
-}
-
-function decideWinner(results: Record<ApiMode, ModeSummary>): ApiMode | "tie" | "failed" {
-  const valid = MODES.filter((m) => !results[m].error);
-  if (valid.length === 0) return "failed";
-  valid.sort((a, b) => {
-    const qA = results[a].qualityProxy ?? -1;
-    const qB = results[b].qualityProxy ?? -1;
-    if (Math.abs(qA - qB) > WINNER_QUALITY_EPSILON) return qB - qA;
-    return results[a].latencyMs - results[b].latencyMs;
-  });
-  if (valid.length >= 2) {
-    const qDiff = Math.abs((results[valid[0]].qualityProxy ?? 0) - (results[valid[1]].qualityProxy ?? 0));
-    const latDiff = Math.abs(results[valid[0]].latencyMs - results[valid[1]].latencyMs);
-    if (qDiff <= WINNER_QUALITY_EPSILON && latDiff <= WINNER_LATENCY_TIE_MS) return "tie";
-  }
-  return valid[0];
-}
-
-function sleep(ms: number) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
+import { useBenchmarkState } from "@/lib/benchmark-state";
+import {
+  BENCHMARK_QUERIES,
+  MODES,
+  MODE_LABELS,
+  WINNER_QUALITY_EPSILON,
+  WINNER_LATENCY_TIE_MS,
+  type QueryResult,
+  type RunRecord,
+} from "@/lib/benchmark-engine";
 
 function pct(v: number | null) {
   return v === null ? "—" : `${(v * 100).toFixed(0)}%`;
@@ -126,10 +37,6 @@ function fmtCooldown(seconds: number) {
   const m = Math.floor(seconds / 60);
   const s = seconds % 60;
   return m > 0 ? `${m}m ${s}s` : `${s}s`;
-}
-
-function newRunId() {
-  return Math.random().toString(36).slice(2) + Date.now().toString(36);
 }
 
 /**
@@ -286,15 +193,23 @@ function downloadJson(results: QueryResult[], history: RunRecord[]) {
 }
 
 export default function BenchmarkRunner() {
-  const [running, setRunning] = useState(false);
-  const [progress, setProgress] = useState("");
-  const [results, setResults] = useState<QueryResult[]>([]);
-  const [history, setHistory] = useState<RunRecord[]>([]);
-  const [error, setError] = useState<string | null>(null);
-  const [quota, setQuota] = useState<BenchmarkQuota | null>(null);
-  const [cooldownSec, setCooldownSec] = useState(0);
-  const abortRef = useRef(false);
-  const sessionImpact = useSessionImpact();
+  // All run state (results, history, quota, cooldown) and the in-flight run loop
+  // live in the root-layout BenchmarkStateProvider, so they survive tab switches
+  // and a mid-run navigation still lands its result. This component is a thin
+  // consumer plus its own local form/upload state.
+  const {
+    running,
+    progress,
+    results,
+    history,
+    error,
+    quota,
+    cooldownSec,
+    quotaLoaded,
+    runBenchmark,
+    stop,
+    refreshQuota,
+  } = useBenchmarkState();
 
   const [advancedKey, setAdvancedKey] = useState("");
   const [sessionId, setSessionId] = useState<string | null>(null);
@@ -311,25 +226,9 @@ export default function BenchmarkRunner() {
   const [interestStatus, setInterestStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
   const [interestMsg, setInterestMsg] = useState("");
 
-  useEffect(() => {
-    if (cooldownSec <= 0) return;
-    const t = setTimeout(() => setCooldownSec((s) => Math.max(0, s - 1)), 1000);
-    return () => clearTimeout(t);
-  }, [cooldownSec]);
-
-  const refreshQuota = useCallback(async () => {
-    const result = await checkBenchmarkQuota();
-    if (result.ok && result.quota) {
-      setQuota(result.quota);
-      setCooldownSec(result.quota.seconds_until_next);
-    }
-  }, []);
-
-  // On mount, load the benchmark quota. The setState calls happen inside
-  // refreshQuota after an awaited fetch — not synchronously — so this is a
-  // legitimate external-data sync, not the cascading-render pattern the rule
-  // guards against.
-  // eslint-disable-next-line react-hooks/set-state-in-effect
+  // Re-sync remaining runs / cooldown from the server on each visit to this page,
+  // WITHOUT wiping displayed results (refreshQuota only touches quota state, and
+  // the cooldown derives from an absolute timestamp so it doesn't reset to full).
   useEffect(() => { void refreshQuota(); }, [refreshQuota]);
 
   async function handleUpload() {
@@ -347,102 +246,6 @@ export default function BenchmarkRunner() {
     } finally {
       setUploading(false);
     }
-  }
-
-  async function runBenchmark(iterCount = 1, sid: string | null = null) {
-    setRunning(true);
-    setError(null);
-    setResults([]);
-    abortRef.current = false;
-
-    const runId = newRunId();
-    let lastQuotaInfo: BenchmarkQuota | null = null;
-    const emptyModeSummary = (): ModeSummary => ({
-      confidence: null, qualityProxy: null, latencyMs: 0,
-      topTitles: [], costUsd: 0, tokens: 0, answerText: "", matches: [], error: null,
-    });
-
-    for (let iter = 1; iter <= iterCount; iter++) {
-      const runResults: QueryResult[] = [];
-      let reqIdx = 0;
-
-      for (let qi = 0; qi < BENCHMARK_QUERIES.length; qi++) {
-        if (abortRef.current) break;
-        const q = BENCHMARK_QUERIES[qi];
-        const summaries: Partial<Record<ApiMode, ModeSummary>> = {};
-        let skipped = false;
-
-        for (const mode of MODES) {
-          if (abortRef.current) break;
-          const iterLabel = iterCount > 1 ? ` (run ${iter}/${iterCount})` : "";
-          setProgress(`Query ${qi + 1}/${BENCHMARK_QUERIES.length} — ${MODE_LABELS[mode]}${iterLabel}`);
-
-          if (reqIdx > 0) await sleep(REQUEST_DELAY_MS);
-          reqIdx++;
-
-          const options = sid
-            ? {
-                benchmark: true,
-                benchmarkKey: advancedKey.trim(),
-                benchmarkMode: iterCount > 1 ? "x10" as const : "normal" as const,
-                runId,
-                sessionId: sid,
-              }
-            : { benchmark: true, benchmarkMode: "normal" as const, runId };
-
-          try {
-            const { data, latencyMs } = await callApi(q, mode, options);
-            summaries[mode] = buildSummary(data, latencyMs);
-            // Feed the session self-consumption meter with this run's real tokens.
-            if (flags.sessionMeter) {
-              const tokens = (data.llm_stats?.input_tokens ?? 0) + (data.llm_stats?.output_tokens ?? 0);
-              sessionImpact?.record(mode, tokens, data.llm_stats?.cost_usd ?? 0, latencyMs);
-            }
-            if (data.quota) lastQuotaInfo = data.quota;
-          } catch (err) {
-            const apiErr = err as ApiError;
-            if (apiErr.rateLimited) {
-              const wait = apiErr.retryAfterSeconds ?? 2;
-              setProgress(`Rate-limited — waiting ${wait}s`);
-              await sleep(wait * 1000);
-              summaries[mode] = { ...emptyModeSummary(), error: "rate_limited" };
-              skipped = true;
-            } else {
-              summaries[mode] = { ...emptyModeSummary(), error: apiErr.message };
-            }
-          }
-        }
-
-        const complete = summaries as Record<ApiMode, ModeSummary>;
-        const winner = skipped ? "skipped" : decideWinner(complete);
-        runResults.push({ query: q, ...complete, winner });
-        setResults([...runResults]);
-      }
-
-      const label = sid
-        ? `Personal docs — run ${iter}/${iterCount}`
-        : iterCount > 1
-          ? `Run ${iter}/${iterCount}`
-          : "Standard run";
-      setHistory((prev) => [
-        ...prev,
-        { startedAt: new Date().toISOString(), label, queryResults: runResults },
-      ]);
-    }
-
-    if (lastQuotaInfo) {
-      setQuota(lastQuotaInfo);
-      setCooldownSec(lastQuotaInfo.seconds_until_next);
-    } else {
-      await refreshQuota();
-    }
-    setRunning(false);
-    setProgress("");
-  }
-
-  function stop() {
-    abortRef.current = true;
-    setProgress("Stopping after current request…");
   }
 
   async function handleInterestSubmit(e: React.FormEvent) {
@@ -533,12 +336,20 @@ export default function BenchmarkRunner() {
         </div>
       )}
 
+      {/* After a hard refresh, results are cleared but server-side limits persist.
+          Make that combination less confusing. */}
+      {quotaLoaded && !hasResults && cooldownSec > 0 && (
+        <p className="text-xs text-text-muted">
+          Previous results were cleared on refresh — your run limits are still counted server-side.
+        </p>
+      )}
+
       {/* Standard run controls */}
       <div className="flex flex-wrap items-center gap-3">
         {!running ? (
           <button
             type="button"
-            onClick={() => void runBenchmark(1, null)}
+            onClick={() => runBenchmark({ iterCount: 1, sessionId: null, benchmarkKey: "" })}
             disabled={!canRun}
             className="inline-flex min-h-11 items-center rounded-lg bg-accent px-5 font-medium text-white transition-colors hover:bg-accent-hover disabled:cursor-not-allowed disabled:opacity-40"
           >
@@ -694,7 +505,11 @@ export default function BenchmarkRunner() {
               <button
                 type="button"
                 onClick={() =>
-                  void runBenchmark(usePersonalDocs ? iterations : 1, usePersonalDocs ? sessionId : null)
+                  runBenchmark({
+                    iterCount: usePersonalDocs ? iterations : 1,
+                    sessionId: usePersonalDocs ? sessionId : null,
+                    benchmarkKey: advancedKey.trim(),
+                  })
                 }
                 disabled={!canRunAdvanced}
                 className="inline-flex min-h-11 items-center rounded-lg bg-accent px-5 font-medium text-white transition-colors hover:bg-accent-hover disabled:cursor-not-allowed disabled:opacity-40"

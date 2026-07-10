@@ -7,10 +7,9 @@ import {
   decide,
   isComplete,
   encodeAnswers,
-  decodeAnswers,
-  type Answers,
   type Outcome,
 } from "@/lib/decide-logic";
+import { useDecideState } from "@/lib/decide-state";
 import { absoluteUrl } from "@/lib/site-url";
 import ShareCard from "@/components/share/ShareCard";
 import type { ShareStat } from "@/lib/share-card";
@@ -60,40 +59,35 @@ const OUTCOME_STATS: Record<Outcome, ShareStat[]> = {
 };
 
 export default function DecideTool() {
-  const [answers, setAnswers] = useState<Answers>({});
-  const [hydrated, setHydrated] = useState(false);
+  // Answers live in the root-layout DecideStateProvider (survive tab switches;
+  // hydrated once from the URL hash on app load). This component is a thin
+  // consumer; `copied` is transient feedback and can stay local.
+  const { answers, setAnswer, reset: resetAnswers } = useDecideState();
   const [copied, setCopied] = useState<null | "link" | "text">(null);
 
-  // Restore answers from the URL hash on mount (so a shared link reproduces the
-  // result). This is browser-only state that can't be read during SSR, so the
-  // one-time setState here is the intended pattern — empty deps, no cascading loop.
+  // Keep the address-bar hash in sync so the URL is always shareable. Skip
+  // writing when there are no answers — that avoids clobbering an incoming
+  // /decide#… link before the provider has hydrated from it.
   useEffect(() => {
-    const fromUrl = decodeAnswers(window.location.hash);
-    /* eslint-disable react-hooks/set-state-in-effect */
-    if (Object.keys(fromUrl).length > 0) setAnswers(fromUrl);
-    setHydrated(true);
-    /* eslint-enable react-hooks/set-state-in-effect */
-  }, []);
-
-  // Keep the address-bar hash in sync so the URL is always shareable.
-  useEffect(() => {
-    if (!hydrated) return;
+    if (Object.keys(answers).length === 0) return;
     const encoded = encodeAnswers(answers);
     const url = `${window.location.pathname}${encoded ? `#${encoded}` : ""}`;
     window.history.replaceState(null, "", url);
-  }, [answers, hydrated]);
+  }, [answers]);
 
   const recommendation = useMemo(() => decide(answers), [answers]);
   const answeredCount = QUESTIONS.filter((q) => answers[q.id]).length;
   const complete = isComplete(answers);
 
   function pick(id: string, value: string) {
-    setAnswers((prev) => ({ ...prev, [id]: value }));
+    setAnswer(id, value);
     setCopied(null);
   }
   function reset() {
-    setAnswers({});
+    resetAnswers();
     setCopied(null);
+    // Clear the shareable hash so a refresh after reset starts fresh too.
+    window.history.replaceState(null, "", window.location.pathname);
   }
 
   async function copyLink() {

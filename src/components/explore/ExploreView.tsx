@@ -1,63 +1,18 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { type FormEvent } from "react";
 import type { RetrievalMode } from "@/lib/config";
-import { callApi, type ApiResponse, type ApiError } from "@/lib/api";
 import ModeSelector from "@/components/assistant/ModeSelector";
 import ExampleChips from "@/components/assistant/ExampleChips";
-import { useExploreStats } from "./ExploreStatsContext";
 import ApiResultsPanel from "./ApiResultsPanel";
-import { useSessionImpact } from "@/lib/session-impact";
-import { flags } from "@/lib/flags";
-
-const MODE_MAP: Record<RetrievalMode, "flat" | "hierarchical" | "llm" | "rag"> = {
-  flat: "flat",
-  hierarchical: "hierarchical",
-  "llm-only": "llm",
-  rag: "rag",
-};
+import { useExploreState, MODE_MAP } from "@/lib/explore-state";
 
 export default function ExploreView() {
-  const [query, setQuery] = useState("");
-  const [mode, setMode] = useState<RetrievalMode>("flat");
-  const [result, setResult] = useState<ApiResponse | null>(null);
-  const [latencyMs, setLatencyMs] = useState(0);
-  const [pending, setPending] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-  const stats = useExploreStats();
-  const sessionImpact = useSessionImpact();
-
-  async function runSearch(nextQuery: string, nextMode: RetrievalMode) {
-    if (!nextQuery.trim()) {
-      setResult(null);
-      setError(null);
-      return;
-    }
-
-    setPending(true);
-    setError(null);
-
-    try {
-      const apiMode = MODE_MAP[nextMode];
-      const { data, latencyMs: ms } = await callApi(nextQuery, apiMode);
-      setResult(data);
-      setLatencyMs(ms);
-      // Feed the hero strip: all runs update avg latency; llm/rag bump LLM calls.
-      stats?.recordRun(apiMode, ms);
-      // Feed the session self-consumption meter with this run's real tokens.
-      if (flags.sessionMeter) {
-        const tokens = (data.llm_stats?.input_tokens ?? 0) + (data.llm_stats?.output_tokens ?? 0);
-        sessionImpact?.record(apiMode, tokens, data.llm_stats?.cost_usd ?? 0, ms);
-      }
-    } catch (err) {
-      const apiErr = err as ApiError;
-      // Use the backend's message directly — it explains the quota and suggests alternatives.
-      setError(apiErr.message || "Network error. Check your connection and try again.");
-      setResult(null);
-    } finally {
-      setPending(false);
-    }
-  }
+  // Query, mode, results, and the in-flight request all live in the root-layout
+  // provider — this component is a thin consumer, so switching tabs and coming
+  // back shows exactly what was here (and a mid-flight search still lands).
+  const { query, mode, result, latencyMs, pending, error, setQuery, setMode, runSearch } =
+    useExploreState();
 
   function handleSubmit(event: FormEvent) {
     event.preventDefault();
