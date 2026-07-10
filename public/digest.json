@@ -2,8 +2,8 @@
   {
     "slug": "2026-07-06",
     "date": "2026-07-06",
-    "title": "RAG Reality Check — Week of Jul 6, 2026",
-    "intro": "The week's signal on retrieval, cost, and the environmental footprint of asking a model a question — in plain English.",
+    "title": "Issue 01",
+    "intro": "The signal right now on retrieval, cost, and the environmental footprint of asking a model a question — in plain English.",
     "things": [
       {
         "title": "Epoch AI put real numbers on per-query energy",

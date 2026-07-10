@@ -89,16 +89,18 @@ route is read-only and cache-friendly (short TTL). Until then, the Lambda is tre
 untouched.
 
 **Digest ("RAG Reality Check") — static, manual weekly draft.**
-*Why:* the digest is a curated weekly read, not an automated feed. Rendering it from a committed
-`public/digest.json` keeps it static, reviewable, and safe — the same pattern as `news.json` and
-`wall.json`, but human-authored.
+*Why:* the digest is a curated, human-authored read, not an automated feed. Rendering it from a
+committed `public/digest.json` keeps it static, reviewable, and safe — the same pattern as `news.json`
+and `wall.json`. Cadence is deliberately **not** fixed ("new issues as the story moves"), so the page
+never reads as abandoned when a week passes without one. A "notify me" form (`DigestNotify`) captures
+interest by reusing the existing benchmark-interest/SES endpoint tagged `source: "digest"` — no new
+backend — so the owner can gauge demand before committing to a schedule.
 *How to add an issue:* prepend a new object to the `public/digest.json` array (newest first) with a
 `slug`, `date`, `title`, three `things` (title + take + link), an `impact stat` (ideally derived from
 `src/lib/impact-data.ts` so it stays cited), a `ragOrNotAngle`, and a `communityQuestion`. Commit it;
-the page rebuilds statically. A light weekly workflow *could* draft an entry from the existing news
-feed for the owner to edit, but that is deliberately **not** built here — it would add moving parts,
-and it must never modify the existing hourly `news-cron`. For now the weekly draft is a documented
-manual step.
+the page rebuilds statically. A light workflow *could* draft an entry from the existing news feed for
+the owner to edit, but that is deliberately **not** built here — it would add moving parts, and it must
+never modify the existing hourly `news-cron`. For now drafting is a documented manual step.
 
 ## Repository layout
 

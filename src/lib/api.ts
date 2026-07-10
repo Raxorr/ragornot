@@ -155,6 +155,33 @@ export async function submitBenchmarkInterest(
   }
 }
 
+// Digest "notify me" capture. Reuses the EXISTING benchmark-interest endpoint
+// (no backend added or modified). The source is tagged both as an explicit
+// `source` field and in `note`, so the owner sees it however the endpoint
+// surfaces submissions — the point is to gauge whether people want the digest
+// before committing to writing it regularly.
+export async function submitDigestInterest(
+  email: string,
+): Promise<{ ok: boolean; message?: string; error?: string }> {
+  try {
+    const res = await fetch(`${API_BASE}/api/benchmark-interest`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email,
+        name: "",
+        note: "Source: digest — notify me when a new RAG Reality Check issue drops",
+        source: "digest",
+      }),
+    });
+    const data = await res.json() as { success?: boolean; message?: string; error?: string };
+    if (!res.ok) return { ok: false, error: data.error ?? `Request failed (${res.status})` };
+    return { ok: true, message: data.message };
+  } catch (e) {
+    return { ok: false, error: (e as Error).message ?? "Submission failed." };
+  }
+}
+
 const UPLOAD_URL = `${API_BASE}/api/upload`;
 
 export interface UploadResult {
