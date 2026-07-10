@@ -71,7 +71,7 @@ export default function EnergyContrast({ compact = false }: { compact?: boolean 
       </p>
 
       <p className="max-w-prose text-sm text-text-muted">
-        Retrieval sends the model only what's relevant, so each answer stays near a short-query
+        Retrieval sends the model only what&apos;s relevant, so each answer stays near a short-query
         energy budget
         <SourceCite figure={ENERGY.chatShort} />. Attaching a large document to every prompt pays
         the full long-context tax on every call

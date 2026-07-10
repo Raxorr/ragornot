@@ -53,11 +53,15 @@ export default function DecideTool() {
   const [hydrated, setHydrated] = useState(false);
   const [copied, setCopied] = useState<null | "link" | "text">(null);
 
-  // Restore answers from the URL hash on mount (so a shared link reproduces the result).
+  // Restore answers from the URL hash on mount (so a shared link reproduces the
+  // result). This is browser-only state that can't be read during SSR, so the
+  // one-time setState here is the intended pattern — empty deps, no cascading loop.
   useEffect(() => {
     const fromUrl = decodeAnswers(window.location.hash);
+    /* eslint-disable react-hooks/set-state-in-effect */
     if (Object.keys(fromUrl).length > 0) setAnswers(fromUrl);
     setHydrated(true);
+    /* eslint-enable react-hooks/set-state-in-effect */
   }, []);
 
   // Keep the address-bar hash in sync so the URL is always shareable.
