@@ -23,27 +23,39 @@ const OUTCOME_TAG: Record<Outcome, string> = {
   none: "Recommended: No AI needed",
 };
 
-// Two short, honest stat tiles per outcome for the shareable card.
+// The live comparison each recommendation should push the user toward. The
+// Benchmark always runs all four modes, so this only tunes the CTA wording —
+// the link goes to /benchmark either way.
+const OUTCOME_CTA: Record<Outcome, string> = {
+  rag: "See RAG vs Flat (lexical) live",
+  lexical: "See Flat (lexical) vs RAG live",
+  "long-context": "See RAG vs LLM-only live",
+  "fine-tuning": "See RAG vs LLM-only live",
+  none: "See Flat (lexical) vs RAG live",
+};
+
+// Two meaningful stat tiles per outcome for the shareable card — the recommended
+// approach plus its key tradeoff/delta. Never a bare "0"/"~0" as a headline stat.
 const OUTCOME_STATS: Record<Outcome, ShareStat[]> = {
   rag: [
     { label: "vs long-context", value: "~22× cheaper" },
-    { label: "energy/query", value: "~0.3 Wh" },
+    { label: "Energy/query", value: "~0.3 Wh" },
   ],
   lexical: [
-    { label: "LLM calls", value: "0" },
-    { label: "energy/query", value: "~0 Wh" },
+    { label: "Retrieval latency", value: "<10 ms" },
+    { label: "Energy saved/query", value: "~0.3 Wh" },
   ],
   "long-context": [
-    { label: "vs RAG", value: "~22× cost" },
-    { label: "energy/query", value: "~40 Wh" },
+    { label: "vs RAG", value: "~22× the cost" },
+    { label: "Energy/query", value: "~40 Wh" },
   ],
   "fine-tuning": [
-    { label: "citations", value: "none" },
-    { label: "on data change", value: "retrain" },
+    { label: "Prompt tokens", value: "↓ per query" },
+    { label: "Tradeoff", value: "no citations" },
   ],
   none: [
-    { label: "AI needed", value: "no" },
-    { label: "energy saved", value: "~0.3 Wh/q" },
+    { label: "Better fit", value: "DB / index" },
+    { label: "Energy saved/query", value: "~0.3 Wh" },
   ],
 };
 
@@ -187,6 +199,20 @@ export default function DecideTool() {
                   <span className="font-semibold text-text">The cost / energy tradeoff</span>
                   {recommendation.tradeoff}
                 </p>
+              </div>
+
+              {/* Front-door CTA: push the user into the live comparison, don't dead-end. */}
+              <div className="flex flex-col gap-2 rounded-lg border border-accent/50 bg-surface-2 p-4">
+                <p className="text-sm text-text-muted">
+                  Don&apos;t take our word for it — run the numbers on the demo corpus and watch the
+                  latency, cost, and accuracy tradeoff play out.
+                </p>
+                <Link
+                  href="/benchmark"
+                  className="inline-flex min-h-11 w-fit items-center gap-2 rounded-lg bg-accent px-5 font-medium text-white transition-colors hover:bg-accent-hover"
+                >
+                  {OUTCOME_CTA[recommendation.outcome]} →
+                </Link>
               </div>
 
               {/* Transparent reasoning */}
