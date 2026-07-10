@@ -75,13 +75,9 @@ export default function SessionMeter() {
       <p className="mt-2 text-[10px] leading-snug text-text-muted">
         Order-of-magnitude estimate from real run tokens · water full-scope · {DEFAULT_GRID.gPerKwh} gCO₂/kWh ·
         resets on refresh.{" "}
-        {flags.methodologyPage ? (
-          <Link href="/methodology" className="underline hover:text-accent-text">
-            Method
-          </Link>
-        ) : (
-          "See methodology"
-        )}
+        <Link href="/methodology" className="underline hover:text-accent-text">
+          Method
+        </Link>
       </p>
     </section>
   );

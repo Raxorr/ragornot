@@ -16,7 +16,6 @@ import { formatCost, formatLatency } from "@/lib/format";
 import { benchmarkRows, type BenchmarkRow } from "@/lib/benchmark-data";
 import type { RetrievalMode } from "@/lib/config";
 import ComparisonTable from "./ComparisonTable";
-import ImpactAnalytics from "@/components/news/ImpactAnalytics";
 import ImpactPanel from "@/components/impact/ImpactPanel";
 import { flags } from "@/lib/flags";
 import { useSessionImpact } from "@/lib/session-impact";
@@ -483,9 +482,9 @@ export default function BenchmarkRunner() {
   const hasResults = results.length > 0;
   const liveRows = hasResults ? computeLiveRows(results) : null;
 
-  // Shareable result card (Feature D) — built from the winning mode's live numbers.
+  // Shareable result card — built from the winning mode's live numbers.
   const shareCardData: ShareCardData | null = (() => {
-    if (!flags.shareCards || !liveRows) return null;
+    if (!liveRows) return null;
     const modeWins = MODES.map((m) => ({ m, n: winCounts[m] ?? 0 }));
     const top = modeWins.reduce((a, b) => (b.n > a.n ? b : a));
     if (top.n === 0) return null;
@@ -909,14 +908,10 @@ export default function BenchmarkRunner() {
             <ComparisonTable rows={liveRows ?? undefined} />
           </section>
 
-          {/* Impact Analytics — live (v2 sourced panel behind flag; OFF = unchanged) */}
-          {flags.impactV2 ? (
-            <ImpactPanel rows={liveRows ?? undefined} queryCount={results.length} />
-          ) : (
-            <ImpactAnalytics rows={liveRows ?? undefined} queryCount={results.length} />
-          )}
+          {/* Impact Analytics — sourced, coefficient-linked panel */}
+          <ImpactPanel rows={liveRows ?? undefined} queryCount={results.length} />
 
-          {/* Shareable result card — gated by flags.shareCards */}
+          {/* Shareable result card — the winning mode's live numbers */}
           {shareCardData && (
             <section
               aria-labelledby="share-heading"
@@ -946,7 +941,7 @@ export default function BenchmarkRunner() {
             </p>
             <ComparisonTable />
           </section>
-          {flags.impactV2 ? <ImpactPanel /> : <ImpactAnalytics />}
+          <ImpactPanel />
         </>
       )}
     </div>

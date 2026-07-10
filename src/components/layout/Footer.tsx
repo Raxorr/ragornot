@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { site } from "@/lib/config";
-import { flags } from "@/lib/flags";
 import { GithubIcon, LinkedinIcon } from "./icons";
 
 export default function Footer() {
@@ -48,12 +47,8 @@ export default function Footer() {
           >
             License
           </a>
-          {flags.methodologyPage && (
-            <>
-              {" · "}
-              <Link href="/methodology" className="underline hover:text-accent-text">Methodology</Link>
-            </>
-          )}
+          {" · "}
+          <Link href="/methodology" className="underline hover:text-accent-text">Methodology</Link>
           {" · "}
           <Link href="/terms" className="underline hover:text-accent-text">Terms</Link>
           {" · "}

@@ -18,7 +18,6 @@ import {
   formatWaterMl,
   EQUIVALENTS,
 } from "@/lib/impact-data";
-import { flags } from "@/lib/flags";
 import BarChart from "@/components/news/BarChart";
 import InfoTooltip from "@/components/ui/InfoTooltip";
 import SourceCite from "./SourceCite";
@@ -118,28 +117,21 @@ export default function ImpactPanel({ rows, queryCount }: ImpactPanelProps) {
           <h3 id="impact-heading" className="text-lg font-bold text-text">
             {isLive ? "Step 4 — Impact Analytics" : "Impact Analytics"}
           </h3>
-          {flags.methodologyPage && (
-            <Link
-              href="/methodology"
-              className="text-sm font-medium text-accent-text underline underline-offset-2 hover:text-accent"
-            >
-              How we calculate this →
-            </Link>
-          )}
+          <Link
+            href="/methodology"
+            className="text-sm font-medium text-accent-text underline underline-offset-2 hover:text-accent"
+          >
+            How we calculate this →
+          </Link>
         </div>
         <p className="max-w-prose text-sm text-text-muted">
           {isLive
             ? `Derived from your run of ${queryCount ?? 0} ${queryCount === 1 ? "query" : "queries"}. `
-            : "Illustrative — run the benchmark above to replace with live data. "}
+            : "Sourced per-query estimates — each figure links to its coefficient. Run the benchmark above for your own live numbers. "}
           Every figure is an <strong className="font-semibold text-text">order-of-magnitude estimate</strong>,
           not a measurement. ragornot runs Claude Haiku over a small demo corpus, so these frontier-model
           coefficients are literature-derived proxies applied to the modes — see the{" "}
-          {flags.methodologyPage ? (
-            <Link href="/methodology" className="underline hover:text-accent-text">methodology</Link>
-          ) : (
-            "methodology"
-          )}
-          .
+          <Link href="/methodology" className="underline hover:text-accent-text">methodology</Link>.
         </p>
       </div>
 
@@ -202,7 +194,7 @@ export default function ImpactPanel({ rows, queryCount }: ImpactPanelProps) {
           (Gemini)<SourceCite figure={WATER.scope1Gemini} /> per query.{" "}
           <strong className="text-text">Full-scope:</strong> a short GPT-4o query is ~{WATER.fullScopeGpt4o.value} mL
           once you count electricity generation<SourceCite figure={WATER.fullScopeGpt4o} />. The charts above show
-          full-scope. RAG this session ≈ {formatWaterMl(ragWaterFullPerQuery)} full-scope /
+          full-scope. {isLive ? "RAG this run" : "RAG"} ≈ {formatWaterMl(ragWaterFullPerQuery)} full-scope /
           {" "}{formatWaterMl(rag?.waterScope1Ml ?? 0)} scope-1 per query.
         </p>
       </div>

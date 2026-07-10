@@ -11,7 +11,6 @@ import {
   type Answers,
   type Outcome,
 } from "@/lib/decide-logic";
-import { flags } from "@/lib/flags";
 import { absoluteUrl } from "@/lib/site-url";
 import ShareCard from "@/components/share/ShareCard";
 import type { ShareStat } from "@/lib/share-card";
@@ -241,13 +240,9 @@ export default function DecideTool() {
 
               <p className="text-xs text-text-muted">
                 Every cost/energy figure above comes from the same cited coefficients as the rest of the site.{" "}
-                {flags.methodologyPage ? (
-                  <Link href="/methodology" className="underline hover:text-accent-text">
-                    See how they&apos;re derived
-                  </Link>
-                ) : (
-                  "See the methodology"
-                )}
+                <Link href="/methodology" className="underline hover:text-accent-text">
+                  See how they&apos;re derived
+                </Link>
                 . These are order-of-magnitude estimates, not measurements.
               </p>
 
