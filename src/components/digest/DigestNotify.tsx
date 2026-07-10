@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import Link from "next/link";
 import { submitDigestInterest } from "@/lib/api";
 
 // Lightweight "notify me" capture for the digest. Reuses the existing
@@ -36,7 +37,7 @@ export default function DigestNotify() {
       <p className="text-sm text-text-muted">
         No fixed schedule — new issues land as the story moves. Leave your email and we&apos;ll ping you
         when one does. Used only for that; see the{" "}
-        <a href="/privacy" className="underline hover:text-accent-text">Privacy Policy</a>.
+        <Link href="/privacy" className="underline hover:text-accent-text">Privacy Policy</Link>.
       </p>
       {status === "success" ? (
         <p className="rounded-lg bg-surface-2 px-4 py-3 text-sm text-text">{message}</p>

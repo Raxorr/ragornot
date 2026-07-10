@@ -6,6 +6,10 @@ import NavBar from "@/components/layout/NavBar";
 import Footer from "@/components/layout/Footer";
 import SessionMeter from "@/components/impact/SessionMeter";
 import { SessionImpactProvider } from "@/lib/session-impact";
+import { ExploreStatsProvider } from "@/components/explore/ExploreStatsContext";
+import { ExploreStateProvider } from "@/lib/explore-state";
+import { BenchmarkStateProvider } from "@/lib/benchmark-state";
+import { DecideStateProvider } from "@/lib/decide-state";
 import { SITE_URL, absoluteUrl } from "@/lib/site-url";
 import "./globals.css";
 
@@ -97,15 +101,31 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Script id="theme-init" strategy="beforeInteractive">
           {THEME_INIT_SCRIPT}
         </Script>
+        {/*
+          Ephemeral UI state lives in providers mounted HERE, in the root layout.
+          The layout does not unmount during client-side (soft) navigation, so
+          Benchmark/Explore/Decide state survives tab switches and resets only on
+          a hard refresh. Nesting order matters: the Explore/Benchmark run loops
+          consume the session-stats and self-consumption contexts, so those wrap
+          them. No localStorage — hard refresh intentionally clears everything.
+        */}
         <SessionImpactProvider>
-          <SkipLink />
-          <NavBar />
-          <main id="main-content" className="flex-1">
-            {children}
-          </main>
-          <Footer />
-          {/* Self-consumption meter — renders only when flags.sessionMeter is on and a run has happened. */}
-          <SessionMeter />
+          <ExploreStatsProvider>
+            <ExploreStateProvider>
+              <BenchmarkStateProvider>
+                <DecideStateProvider>
+                  <SkipLink />
+                  <NavBar />
+                  <main id="main-content" className="flex-1">
+                    {children}
+                  </main>
+                  <Footer />
+                  {/* Self-consumption meter — renders only when flags.sessionMeter is on and a run has happened. */}
+                  <SessionMeter />
+                </DecideStateProvider>
+              </BenchmarkStateProvider>
+            </ExploreStateProvider>
+          </ExploreStatsProvider>
         </SessionImpactProvider>
       </body>
     </html>
