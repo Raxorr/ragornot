@@ -17,7 +17,11 @@ const COST_TIP =
 
 export default function ComparisonTable({ rows }: ComparisonTableProps) {
   const data = rows ?? benchmarkRows;
-  const maxAccuracy = Math.max(...data.map((r) => r.accuracyPct));
+  // LLM-only has no retrieval step, so it has no retrieval-confidence ("accuracy")
+  // metric — it must read N/A, not a placeholder number. Scale the bars off the
+  // modes that actually have an accuracy figure.
+  const accuracyRows = data.filter((r) => r.mode !== "llm-only");
+  const maxAccuracy = accuracyRows.length ? Math.max(...accuracyRows.map((r) => r.accuracyPct)) : 1;
 
   const flatRow = data.find((r) => r.mode === "flat");
   const ragRow = data.find((r) => r.mode === "rag");
@@ -69,15 +73,24 @@ export default function ComparisonTable({ rows }: ComparisonTableProps) {
                   {row.label}
                 </th>
                 <td className="px-4 py-4 align-top">
-                  <div className="flex items-center gap-2 font-mono">
-                    <span className="w-10 shrink-0 text-text">{row.accuracyPct}%</span>
-                    <span className="h-2 w-20 shrink-0 overflow-hidden rounded-full bg-surface-2" aria-hidden="true">
-                      <span
-                        className="block h-full rounded-full bg-accent"
-                        style={{ width: `${(row.accuracyPct / maxAccuracy) * 100}%` }}
-                      />
+                  {row.mode === "llm-only" ? (
+                    <span
+                      className="font-mono text-text-muted"
+                      title="LLM-only has no retrieval step, so there is no retrieval-confidence metric."
+                    >
+                      N/A
                     </span>
-                  </div>
+                  ) : (
+                    <div className="flex items-center gap-2 font-mono">
+                      <span className="w-10 shrink-0 text-text">{row.accuracyPct}%</span>
+                      <span className="h-2 w-20 shrink-0 overflow-hidden rounded-full bg-surface-2" aria-hidden="true">
+                        <span
+                          className="block h-full rounded-full bg-accent"
+                          style={{ width: `${(row.accuracyPct / maxAccuracy) * 100}%` }}
+                        />
+                      </span>
+                    </div>
+                  )}
                 </td>
                 <td className="px-4 py-4 align-top font-mono text-text">
                   {formatLatency(row.latencyMs)}

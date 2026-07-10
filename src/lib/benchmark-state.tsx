@@ -19,6 +19,7 @@ import {
 } from "./api";
 import { flags } from "./flags";
 import { useSessionImpact } from "./session-impact";
+import { SESSION_KEYS, loadSession, saveSession } from "./session-persist";
 import {
   BENCHMARK_QUERIES,
   MODES,
@@ -91,6 +92,16 @@ export function BenchmarkStateProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     resultsRef.current = results;
   }, [results]);
+
+  // Rehydrate the last successful run from sessionStorage on mount (client only,
+  // after hydration) so an accidental refresh restores results. Rate limits are
+  // NOT persisted — they're re-fetched from the server on mount (see the
+  // BenchmarkRunner refreshQuota() effect).
+  useEffect(() => {
+    const saved = loadSession<QueryResult[]>(SESSION_KEYS.benchmark);
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    if (saved && Array.isArray(saved) && saved.length > 0) setResults(saved);
+  }, []);
   // Server-authoritative eligibility, read synchronously inside runBenchmark so a
   // doomed click is a true no-op. Starts BLOCKED (Infinity deadline, 0 runs) until
   // the first quota load, so no run fires before state is known.
@@ -250,6 +261,10 @@ export function BenchmarkStateProvider({ children }: { children: ReactNode }) {
         if (successCount === 0) {
           setResults(prevResults);
           if (!abortRef.current) setLastRunRateLimited(true);
+        } else {
+          // Persist this successful run so a refresh restores it (a new successful
+          // run overwrites; a rejected run never clobbers the last good one).
+          saveSession(SESSION_KEYS.benchmark, finalRunResults);
         }
 
         setRunning(false);

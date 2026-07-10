@@ -19,7 +19,9 @@ export default function DigestNotify() {
     const result = await submitDigestInterest(email.trim());
     if (result.ok) {
       setStatus("success");
-      setMessage(result.message ?? "Thanks — we'll let you know when the next issue drops.");
+      // Explicit digest-appropriate message — do NOT reuse the Lambda's returned
+      // text, which is the benchmark-access-key copy ("we'll email you a key").
+      setMessage("Thanks — we'll email you when the next issue drops.");
     } else {
       setStatus("error");
       setMessage(result.error ?? "Something went wrong. Try again in a bit.");
