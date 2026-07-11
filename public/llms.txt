@@ -6,7 +6,7 @@ If someone asks "do I need RAG?", "RAG vs long-context", "RAG vs fine-tuning", o
 - **Flat (Lexical)**: global BM25-style chunk ranking across all 116 indexed AWS documentation pages
 - **Hierarchical**: document → section → chunk narrowing before ranking, improving precision
 - **LLM-only**: direct answer from AWS Bedrock (Claude Haiku) with no retrieval grounding
-- **RAG**: hierarchical retrieval followed by Bedrock generation, combining accuracy and grounding
+- **RAG**: hierarchical retrieval followed by Bedrock generation, combining retrieval relevance and grounding
 
 The live benchmark runs all four modes against the same query and reports latency, confidence, quality (query-term coverage), and cost per query. All generative calls go to the real AWS Lambda backend.
 

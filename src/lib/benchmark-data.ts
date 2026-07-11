@@ -3,7 +3,7 @@ import type { RetrievalMode } from "./config";
 export interface BenchmarkRow {
   mode: RetrievalMode;
   label: string;
-  accuracyPct: number;
+  relevancePct: number;
   latencyMs: number;
   costPerQueryUsd: number;
   energyPerQueryWh: number;
@@ -14,12 +14,13 @@ export interface BenchmarkRow {
 // each mode (Flat/Hierarchical measured; LLM-only/RAG simulated — see
 // src/lib/search.ts). The point isn't precision, it's the shape of the
 // tradeoff: retrieval is nearly free, generation is where cost shows up, and
-// grounding is where accuracy shows up.
+// grounding is where retrieval relevance shows up. Note: relevancePct is the
+// retrieval-confidence (lexical match) proxy, NOT answer correctness.
 export const benchmarkRows: BenchmarkRow[] = [
   {
     mode: "flat",
     label: "Flat (Lexical)",
-    accuracyPct: 71,
+    relevancePct: 71,
     latencyMs: 6,
     costPerQueryUsd: 0,
     energyPerQueryWh: 0.0006,
@@ -28,7 +29,7 @@ export const benchmarkRows: BenchmarkRow[] = [
   {
     mode: "hierarchical",
     label: "Hierarchical",
-    accuracyPct: 79,
+    relevancePct: 79,
     latencyMs: 11,
     costPerQueryUsd: 0,
     energyPerQueryWh: 0.0009,
@@ -37,7 +38,7 @@ export const benchmarkRows: BenchmarkRow[] = [
   {
     mode: "llm-only",
     label: "LLM-only",
-    accuracyPct: 53,
+    relevancePct: 53,
     latencyMs: 690,
     costPerQueryUsd: 0.00013,
     energyPerQueryWh: 0.34,
@@ -46,10 +47,10 @@ export const benchmarkRows: BenchmarkRow[] = [
   {
     mode: "rag",
     label: "RAG",
-    accuracyPct: 91,
+    relevancePct: 91,
     latencyMs: 860,
     costPerQueryUsd: 0.00041,
     energyPerQueryWh: 0.41,
-    notes: "Retrieval grounds the answer before generation — highest accuracy, but the slowest and priciest mode.",
+    notes: "Retrieval grounds the answer before generation — highest retrieval relevance, but the slowest and priciest mode.",
   },
 ];

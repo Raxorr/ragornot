@@ -8,7 +8,7 @@ import { benchmarkRows, type BenchmarkRow } from "@/lib/benchmark-data";
 import type { RetrievalMode } from "@/lib/config";
 import ComparisonTable from "./ComparisonTable";
 import ImpactPanel from "@/components/impact/ImpactPanel";
-import { co2GramsFromEnergy, DEFAULT_GRID, formatCo2Grams } from "@/lib/impact-data";
+import { co2GramsFromEnergy, DEFAULT_GRID, formatCo2Grams, energyWhFromTokens, RETRIEVAL_ONLY_ENERGY_WH } from "@/lib/impact-data";
 import { absoluteUrl } from "@/lib/site-url";
 import ShareCard from "@/components/share/ShareCard";
 import type { ShareCardData } from "@/lib/share-card";
@@ -33,6 +33,29 @@ function avg(vals: number[]): number | null {
   return vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : null;
 }
 
+function median(vals: number[]): number | null {
+  if (!vals.length) return null;
+  const s = [...vals].sort((a, b) => a - b);
+  const mid = Math.floor(s.length / 2);
+  return s.length % 2 ? s[mid] : (s[mid - 1] + s[mid]) / 2;
+}
+
+function stdev(vals: number[]): number | null {
+  if (vals.length < 2) return null; // sample stdev needs n ≥ 2
+  const m = vals.reduce((a, b) => a + b, 0) / vals.length;
+  const variance = vals.reduce((a, b) => a + (b - m) ** 2, 0) / (vals.length - 1);
+  return Math.sqrt(variance);
+}
+
+/** "min · median · max · σ±" for a distribution, or "—" when empty. */
+function statLine(arr: number[], fmt: (n: number) => string): string {
+  if (!arr.length) return "—";
+  const sd = stdev(arr);
+  return `${fmt(Math.min(...arr))} · ${fmt(median(arr) as number)} · ${fmt(Math.max(...arr))}${sd !== null ? ` · σ${fmt(sd)}` : ""}`;
+}
+
+const pctFmt = (v: number) => `${(v * 100).toFixed(0)}%`;
+
 function fmtCooldown(seconds: number) {
   const m = Math.floor(seconds / 60);
   const s = seconds % 60;
@@ -42,7 +65,8 @@ function fmtCooldown(seconds: number) {
 /**
  * Compute per-mode aggregate rows from live benchmark results.
  * LLM-only rarely wins because it has no qualityProxy (BM25 score) — see winner logic.
- * Energy for LLM/RAG is derived from cost using ~2615 Wh/$ (calibrated to static demo data).
+ * Energy for LLM/RAG is derived from the run's TOKEN count via energyWhFromTokens()
+ * (anchored to Epoch AI's short-query figure) — not from dollar cost.
  * Flat/Hierarchical use the static near-zero energy figures (in-Lambda BM25, negligible GPU).
  */
 function computeLiveRows(results: QueryResult[]): BenchmarkRow[] {
@@ -50,22 +74,23 @@ function computeLiveRows(results: QueryResult[]): BenchmarkRow[] {
     const valid = results.filter((r) => !r[mode].error && r[mode].latencyMs > 0);
     const avgLatency = avg(valid.map((r) => r[mode].latencyMs)) ?? 0;
     const avgCost = avg(valid.map((r) => r[mode].costUsd)) ?? 0;
+    const avgTokens = avg(valid.map((r) => r[mode].tokens)) ?? 0;
     const confs = valid.map((r) => r[mode].confidence).filter((c): c is number => c !== null);
     const avgConf = confs.length ? avg(confs) : null;
     const energyPerQueryWh =
       mode === "llm" || mode === "rag"
-        ? avgCost * 2615
+        ? energyWhFromTokens(avgTokens)
         : mode === "hierarchical"
-          ? 0.0009
-          : 0.0006;
+          ? RETRIEVAL_ONLY_ENERGY_WH.hierarchical
+          : RETRIEVAL_ONLY_ENERGY_WH.flat;
     const staticRow = benchmarkRows.find(
       (r) => r.mode === (mode === "llm" ? "llm-only" : mode),
     );
     return {
       mode: (mode === "llm" ? "llm-only" : mode) as RetrievalMode,
       label: MODE_LABELS[mode],
-      accuracyPct:
-        avgConf !== null ? Math.round(avgConf * 100) : (staticRow?.accuracyPct ?? 0),
+      relevancePct:
+        avgConf !== null ? Math.round(avgConf * 100) : (staticRow?.relevancePct ?? 0),
       latencyMs: Math.round(avgLatency),
       costPerQueryUsd: avgCost,
       energyPerQueryWh,
@@ -297,10 +322,14 @@ export default function BenchmarkRunner() {
   // ── live aggregates (successful queries only) ───────────────────────────────
   const allLatencies: Record<ApiMode, number[]> = { flat: [], hierarchical: [], llm: [], rag: [] };
   const allConfidences: Record<ApiMode, number[]> = { flat: [], hierarchical: [], llm: [], rag: [] };
+  const allCosts: Record<ApiMode, number[]> = { flat: [], hierarchical: [], llm: [], rag: [] };
   const winCounts: Record<string, number> = { flat: 0, hierarchical: 0, llm: 0, rag: 0, tie: 0 };
   for (const r of successfulResults) {
     for (const mode of MODES) {
-      if (!r[mode].error && r[mode].latencyMs > 0) allLatencies[mode].push(r[mode].latencyMs);
+      if (!r[mode].error && r[mode].latencyMs > 0) {
+        allLatencies[mode].push(r[mode].latencyMs);
+        allCosts[mode].push(r[mode].costUsd);
+      }
       if (r[mode].confidence !== null) allConfidences[mode].push(r[mode].confidence!);
     }
     if (r.winner !== "failed" && r.winner !== "skipped")
@@ -324,7 +353,7 @@ export default function BenchmarkRunner() {
       eyebrow: "ragornot benchmark",
       headline: isTie ? "It's a tie" : `${MODE_LABELS[top.m]} wins`,
       stats: [
-        { label: "Accuracy", value: `${row.accuracyPct}%` },
+        { label: "Relevance", value: `${row.relevancePct}%` },
         { label: "Latency", value: formatLatency(row.latencyMs) },
         { label: "Cost/query", value: formatCost(row.costPerQueryUsd) },
         { label: "CO₂/query", value: formatCo2Grams(co2) },
@@ -653,6 +682,39 @@ export default function BenchmarkRunner() {
               ))}
             </div>
             <p className="mt-3 text-xs text-text-muted">Ties: {winCounts.tie}</p>
+
+            {/* Distributions — min / median / max / stdev per mode (not just averages) */}
+            <div className="mt-5 overflow-x-auto">
+              <table className="w-full min-w-[600px] border-collapse text-left text-xs">
+                <caption className="sr-only">
+                  Per-mode distribution of latency, cost, and retrieval relevance across the run
+                </caption>
+                <thead>
+                  <tr className="border-b border-border text-text-muted">
+                    <th scope="col" className="py-2 pr-3 font-semibold">Mode</th>
+                    <th scope="col" className="py-2 pr-3 font-semibold">n</th>
+                    <th scope="col" className="py-2 pr-3 font-semibold">Latency (min · med · max · σ)</th>
+                    <th scope="col" className="py-2 pr-3 font-semibold">Cost (min · med · max · σ)</th>
+                    <th scope="col" className="py-2 font-semibold">Relevance (min · med · max · σ)</th>
+                  </tr>
+                </thead>
+                <tbody className="font-mono text-text">
+                  {MODES.map((mode) => (
+                    <tr key={mode} className="border-b border-border last:border-b-0">
+                      <th scope="row" className="py-2 pr-3 text-left font-medium text-text-muted">{MODE_LABELS[mode]}</th>
+                      <td className="py-2 pr-3">{allLatencies[mode].length}</td>
+                      <td className="py-2 pr-3">{statLine(allLatencies[mode], formatLatency)}</td>
+                      <td className="py-2 pr-3">{allCosts[mode].some((c) => c > 0) ? statLine(allCosts[mode], formatCost) : "—"}</td>
+                      <td className="py-2">{allConfidences[mode].length ? statLine(allConfidences[mode], pctFmt) : "N/A"}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="mt-3 text-xs text-text-muted">
+              n = {successCount} — descriptive statistics only, not statistically powered. A 50–100 question
+              golden set with expected sources is needed for significance testing (planned).
+            </p>
           </section>
 
           {/* Per-query cards */}
@@ -760,14 +822,67 @@ export default function BenchmarkRunner() {
             <p className="max-w-prose text-sm text-text-muted">
               Aggregated across your {successCount} successful {successCount === 1 ? "query" : "queries"}
               {isPartial ? ` (of ${totalAttempted} attempted)` : ""}.
-              &ldquo;Accuracy %&rdquo; = avg_confidence × 100 from the retrieval model; LLM-only has no retrieval quality metric.
-              Use this to decide whether the accuracy lift from RAG justifies its cost for your use case.
+              &ldquo;Relevance %&rdquo; = avg_confidence × 100 from the retrieval model&apos;s lexical match score — not answer correctness.
+              LLM-only has no retrieval quality metric. Use this to decide whether the relevance lift from RAG justifies its cost for your use case.
+            </p>
+            <p className="max-w-prose text-xs text-text-muted">
+              <span className="font-medium text-text">Retrieval relevance</span> is the lexical match confidence of
+              retrieved chunks — not answer correctness. End-answer evaluation (correctness, faithfulness, citation
+              quality) is a planned future metric.
             </p>
             <ComparisonTable rows={liveRows ?? undefined} />
           </section>
 
           {/* Impact Analytics — sourced, coefficient-linked panel */}
           <ImpactPanel rows={liveRows ?? undefined} queryCount={successCount} />
+
+          {/* Run metadata / reproducibility stamp */}
+          <details className="rounded-lg border border-border bg-surface-2 px-5 py-4 text-sm">
+            <summary className="cursor-pointer font-semibold text-text">Run metadata (reproducibility)</summary>
+            <dl className="mt-3 grid grid-cols-1 gap-x-6 gap-y-2 sm:grid-cols-2">
+              <div className="flex flex-wrap justify-between gap-x-3">
+                <dt className="text-text-muted">Model ID</dt>
+                <dd className="font-mono text-text">us.anthropic.claude-haiku-4-5</dd>
+              </div>
+              <div className="flex flex-wrap justify-between gap-x-3">
+                <dt className="text-text-muted">Pricing version</dt>
+                <dd className="text-text">Bedrock on-demand, as of Jul 2026</dd>
+              </div>
+              <div className="flex flex-wrap justify-between gap-x-3">
+                <dt className="text-text-muted">Benchmark run (UTC)</dt>
+                <dd className="font-mono text-text">
+                  {history.length ? history[history.length - 1].startedAt : "—"}
+                </dd>
+              </div>
+              <div className="flex flex-wrap justify-between gap-x-3">
+                <dt className="text-text-muted">Corpus size</dt>
+                <dd className="text-text">116 documents</dd>
+              </div>
+              <div className="flex flex-wrap justify-between gap-x-3">
+                <dt className="text-text-muted">Query count (n)</dt>
+                <dd className="font-mono text-text">{successCount}</dd>
+              </div>
+              {/* TODO: Lambda should return corpus_version and index_timestamp in the API response */}
+              <div className="flex flex-wrap justify-between gap-x-3">
+                <dt className="text-text-muted">Index / corpus version</dt>
+                <dd className="text-text-muted">not reported</dd>
+              </div>
+              {/* TODO: Lambda should return prompt_version in the API response */}
+              <div className="flex flex-wrap justify-between gap-x-3">
+                <dt className="text-text-muted">Prompt version</dt>
+                <dd className="text-text-muted">not reported</dd>
+              </div>
+              {/* TODO: Lambda should return cold_start boolean in the API response */}
+              <div className="flex flex-wrap justify-between gap-x-3">
+                <dt className="text-text-muted">Cold / warm start</dt>
+                <dd className="text-text-muted">not reported</dd>
+              </div>
+            </dl>
+            <p className="mt-3 text-xs text-text-muted">
+              Fields marked &ldquo;not reported&rdquo; require the Lambda API to return them — see the
+              methodology / project notes.
+            </p>
+          </details>
 
           {/* Shareable result card — the winning mode's live numbers */}
           {shareCardData && (

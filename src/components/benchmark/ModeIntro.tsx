@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { ENERGY_WH_PER_1K_TOKENS } from "@/lib/impact-data";
 
 interface ModeDef {
   label: string;
@@ -33,7 +34,7 @@ const MODES: ModeDef[] = [
   },
   {
     label: "RAG (Retrieval-Augmented Generation)",
-    when: "Best accuracy for domain questions. Justified when correctness matters more than cost.",
+    when: "Best retrieval relevance for domain questions. Justified when grounded answers matter more than cost.",
     cost: "Costs ~$0.00041 / query. At 10k queries/day → ~$150/month.",
     detail:
       "Runs Hierarchical retrieval first, then feeds the top chunks as context to the LLM before generating an answer. Grounding the model in actual source text dramatically reduces hallucination and improves correctness.",
@@ -47,7 +48,7 @@ const METRIC_DEFS = [
   },
   {
     term: "Confidence",
-    def: "Per-query retrieval score returned by the Lambda (0–1). 'Accuracy %' in the Mode Comparison table is avg_confidence × 100 from your live run. For LLM-only, confidence is null (no retrieval step).",
+    def: "Per-query retrieval score returned by the Lambda (0–1). 'Relevance %' in the Mode Comparison table is avg_confidence × 100. For LLM-only, confidence is null (no retrieval step).",
   },
   {
     term: "Winner logic",
@@ -63,7 +64,7 @@ const METRIC_DEFS = [
   },
   {
     term: "Energy estimate",
-    def: "Derived from cost using ~2,615 Wh/$ (a calibration constant in the code). Lexical modes use fixed near-zero figures (0.6 mWh Flat, 0.9 mWh Hierarchical). CO₂ = energy × 400 gCO₂/kWh. All are order-of-magnitude estimates, not measurements.",
+    def: `Derived from token count using ${ENERGY_WH_PER_1K_TOKENS} Wh per 1,000 tokens, anchored to Epoch AI's short-query figure. Lexical modes use fixed near-zero figures. CO₂ = energy × grid intensity. All are order-of-magnitude estimates, not measurements.`,
   },
 ];
 
