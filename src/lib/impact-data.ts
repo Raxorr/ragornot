@@ -92,10 +92,11 @@ export const WATER: Record<"scope1OpenAI" | "scope1Gemini" | "fullScopeGpt4o", S
     label: "GPT-4o short query — full scope",
     value: 1.2,
     unit: "mL",
+    range: [1.0, 1.3], // scope-1 vendor range [0.26, 0.32] mL scaled to full-scope (~4×)
     scope: "full-scope (incl. electricity generation)",
     source: 'Jegham et al., "How Hungry is AI?" (arXiv, May 2025)',
     sourceUrl: "https://arxiv.org/html/2505.09598v1",
-    note: "Adds the water consumed generating the electricity to the on-site cooling water — roughly ~4× the scope-1 figure.",
+    note: "Adds the water consumed generating the electricity to the on-site cooling water — roughly ~4× the scope-1 figure. Range from the scope-1 vendor spread (0.26–0.32 mL) scaled to full-scope.",
   },
 };
 
@@ -226,6 +227,89 @@ export function co2GramsFromEnergy(energyWh: number, gridGPerKwh: number = DEFAU
   return (energyWh / 1000) * gridGPerKwh;
 }
 
+// ── Uncertainty bands & sensitivity (Epoch low/mid/high, PUE) ─────────────────
+
+export interface Band {
+  low: number;
+  mid: number;
+  high: number;
+}
+
+/**
+ * Low/high multipliers on a chatShort-anchored energy value, from Epoch AI's
+ * short-query range [0.1, 0.6] Wh around the 0.3 Wh mid. Both endpoints trace to
+ * the same Epoch source as the mid.
+ */
+export const ENERGY_UNCERTAINTY = {
+  lowRatio: (ENERGY.chatShort.range?.[0] ?? ENERGY.chatShort.value) / ENERGY.chatShort.value, // 0.1/0.3
+  highRatio: (ENERGY.chatShort.range?.[1] ?? ENERGY.chatShort.value) / ENERGY.chatShort.value, // 0.6/0.3
+  lowWh: ENERGY.chatShort.range?.[0] ?? ENERGY.chatShort.value, // 0.1
+  midWh: ENERGY.chatShort.value, // 0.3
+  highWh: ENERGY.chatShort.range?.[1] ?? ENERGY.chatShort.value, // 0.6
+};
+
+/** Uncertainty band around a token-derived (chatShort-anchored) energy value. */
+export function energyBand(midWh: number): Band {
+  return {
+    low: midWh * ENERGY_UNCERTAINTY.lowRatio,
+    mid: midWh,
+    high: midWh * ENERGY_UNCERTAINTY.highRatio,
+  };
+}
+
+/** Token-derived energy with a low/mid/high band from Epoch's short-query range. */
+export function energyWhFromTokensRange(totalTokens: number): Band {
+  return energyBand(energyWhFromTokens(totalTokens));
+}
+
+/** Per-token energy assumption (efficient / typical / conservative) → low/mid/high. */
+export interface EnergyAssumption {
+  id: "efficient" | "typical" | "conservative";
+  label: string;
+  /** Multiplier on the chatShort-anchored mid. */
+  ratio: number;
+  /** The implied Wh per short query. */
+  wh: number;
+}
+
+export const ENERGY_ASSUMPTIONS: EnergyAssumption[] = [
+  { id: "efficient", label: "Efficient", ratio: ENERGY_UNCERTAINTY.lowRatio, wh: ENERGY_UNCERTAINTY.lowWh },
+  { id: "typical", label: "Typical", ratio: 1, wh: ENERGY_UNCERTAINTY.midWh },
+  { id: "conservative", label: "Conservative", ratio: ENERGY_UNCERTAINTY.highRatio, wh: ENERGY_UNCERTAINTY.highWh },
+];
+
+export const DEFAULT_ENERGY_ASSUMPTION: EnergyAssumption["id"] = "typical";
+
+/** PUE (Power Usage Effectiveness) — data-center overhead multiplier on IT energy. */
+export interface PueOption {
+  id: string;
+  label: string;
+  value: number;
+  note: string;
+}
+
+/** The PUE assumed baked into the Epoch short-query figure (typical hyperscaler). */
+export const BASELINE_PUE = 1.2;
+
+export const PUE_OPTIONS: PueOption[] = [
+  { id: "best", label: "Hyperscaler best", value: 1.1, note: "Best-in-class hyperscaler data center." },
+  { id: "typical", label: "Typical hyperscaler", value: 1.2, note: "Typical hyperscaler — assumed in the base figure." },
+  { id: "average", label: "Average data center", value: 1.4, note: "Average enterprise / colocation data center." },
+  { id: "global", label: "Global average", value: 1.58, note: "Global data-center average." },
+];
+
+export const DEFAULT_PUE_ID = "typical";
+
+export const PUE_SOURCE: SourcedFigure = {
+  label: "Data-center PUE (Power Usage Effectiveness)",
+  value: 1.2,
+  unit: "×",
+  range: [1.1, 1.58],
+  source: "Uptime Institute Global Data Center Survey / IEA",
+  sourceUrl: "https://uptimeinstitute.com/uptime_assets/6f7e2b3f4b1e6c1e-2024GlobalDataCenterSurvey.pdf",
+  note: "Overhead multiplier on IT energy for cooling and power delivery. Effective energy = base × (PUE / baseline 1.2).",
+};
+
 /**
  * Water (mL) for a query, derived by scaling the chosen per-query water figure
  * with the energy ratio relative to the Epoch short-query baseline. Both scopes
@@ -267,6 +351,7 @@ export const ALL_SOURCED_FIGURES: SourcedFigure[] = [
   WATER.fullScopeGpt4o,
   WATER_GLOBAL_2025,
   GRID_INTENSITY_SOURCE,
+  PUE_SOURCE,
   RAG_VS_LONGCONTEXT.costMultiplier,
   RAG_VS_LONGCONTEXT.tokenSavings,
   EQUIVALENTS.carGPerKm,

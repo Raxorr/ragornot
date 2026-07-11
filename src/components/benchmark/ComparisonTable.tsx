@@ -6,6 +6,18 @@ interface ComparisonTableProps {
   rows?: BenchmarkRow[];
 }
 
+/** Green "measured" tag — these columns come straight from the Bedrock API, not a model. */
+function Measured() {
+  return (
+    <span
+      className="inline-flex items-center rounded-full px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wide"
+      style={{ color: "#16a34a", backgroundColor: "rgba(22,163,74,0.15)" }}
+    >
+      measured
+    </span>
+  );
+}
+
 const RELEVANCE_TIP =
   "Retrieval relevance — a lexical (BM25 / query-term) match confidence for how relevant the retrieved chunks are, NOT whether the final answer is correct. For live runs: avg_confidence × 100 (0–1 → %). LLM-only has no retrieval step so it shows N/A. Static numbers are illustrative from demo corpus runs. End-answer evaluation (correctness, faithfulness) is a planned future metric.";
 
@@ -53,13 +65,13 @@ export default function ComparisonTable({ rows }: ComparisonTableProps) {
               </th>
               <th scope="col" className="px-4 py-3 font-semibold text-text">
                 <span className="flex items-center gap-1.5">
-                  Latency
+                  Latency <Measured />
                   <InfoTooltip tip={LATENCY_TIP} />
                 </span>
               </th>
               <th scope="col" className="px-4 py-3 font-semibold text-text">
                 <span className="flex items-center gap-1.5">
-                  Cost / query
+                  Cost / query <Measured />
                   <InfoTooltip tip={COST_TIP} />
                 </span>
               </th>

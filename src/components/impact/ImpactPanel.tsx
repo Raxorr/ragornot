@@ -11,12 +11,21 @@ import {
   GRID_INTENSITY_SOURCE,
   DEFAULT_GRID,
   RETRIEVAL_ONLY_ENERGY_WH,
+  ENERGY_WH_PER_1K_TOKENS,
+  ENERGY_UNCERTAINTY,
+  ENERGY_ASSUMPTIONS,
+  DEFAULT_ENERGY_ASSUMPTION,
+  PUE_OPTIONS,
+  DEFAULT_PUE_ID,
+  BASELINE_PUE,
+  PUE_SOURCE,
   co2GramsFromEnergy,
   waterMlFromEnergy,
   formatEnergyWh,
   formatCo2Grams,
   formatWaterMl,
   EQUIVALENTS,
+  type Band,
 } from "@/lib/impact-data";
 import BarChart from "@/components/news/BarChart";
 import InfoTooltip from "@/components/ui/InfoTooltip";
@@ -30,13 +39,33 @@ interface ImpactPanelProps {
   queryCount?: number;
 }
 
-/** Marginal per-query energy (Wh) for a mode — sourced, not ad-hoc. */
-function modeEnergyWh(row: BenchmarkRow, isLive: boolean): number {
+/** Small measured-vs-modeled tag so a reader never mistakes an estimate for a measurement. */
+function MetricBadge({ kind }: { kind: "measured" | "modeled" }) {
+  const measured = kind === "measured";
+  return (
+    <span
+      className="inline-flex items-center rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide"
+      style={
+        measured
+          ? { color: "#16a34a", backgroundColor: "rgba(22,163,74,0.15)" }
+          : { color: "#d97706", backgroundColor: "rgba(217,119,6,0.15)" }
+      }
+    >
+      {measured ? "measured" : "modeled — estimate"}
+    </span>
+  );
+}
+
+/** Base marginal per-query energy (Wh) for a mode, before PUE / assumption scaling. */
+function modeBaseEnergyWh(row: BenchmarkRow, isLive: boolean): number {
   if (row.mode === "flat") return RETRIEVAL_ONLY_ENERGY_WH.flat;
   if (row.mode === "hierarchical") return RETRIEVAL_ONLY_ENERGY_WH.hierarchical;
-  // llm-only / rag: a live run derives energy from its token cost (anchored to
-  // the Epoch short-query figure); illustrative mode uses the literature figure.
+  // llm-only / rag: live runs carry token-derived energy; illustrative uses the literature figure.
   return isLive && row.energyPerQueryWh > 0 ? row.energyPerQueryWh : ENERGY.chatShort.value;
+}
+
+function fmtBand(fmt: (n: number) => string, band: Band): string {
+  return `${fmt(band.mid)} (${fmt(band.low)}–${fmt(band.high)})`;
 }
 
 export default function ImpactPanel({ rows, queryCount }: ImpactPanelProps) {
@@ -46,55 +75,92 @@ export default function ImpactPanel({ rows, queryCount }: ImpactPanelProps) {
   const [gridId, setGridId] = useState(DEFAULT_GRID.id);
   const grid = GRID_OPTIONS.find((g) => g.id === gridId) ?? DEFAULT_GRID;
 
+  const [pueId, setPueId] = useState(DEFAULT_PUE_ID);
+  const pue = PUE_OPTIONS.find((p) => p.id === pueId) ?? PUE_OPTIONS[1];
+  const pueFactor = pue.value / BASELINE_PUE;
+
+  const [energyAssumptionId, setEnergyAssumptionId] = useState(DEFAULT_ENERGY_ASSUMPTION);
+  const assumption = ENERGY_ASSUMPTIONS.find((a) => a.id === energyAssumptionId) ?? ENERGY_ASSUMPTIONS[1];
+
   const [queriesPerDay, setQueriesPerDay] = useState(10_000);
   const [inputVal, setInputVal] = useState("10000");
 
+  // Per-mode point + uncertainty band. Only LLM/RAG carry the Epoch band; lexical
+  // modes make no LLM call, so their tiny figure has no such uncertainty.
   const derived = data.map((row) => {
-    const energyWh = modeEnergyWh(row, isLive);
-    return {
-      row,
-      energyWh,
-      co2g: co2GramsFromEnergy(energyWh, grid.gPerKwh),
-      waterFullMl: waterMlFromEnergy(energyWh, "fullScope"),
-      waterScope1Ml: waterMlFromEnergy(energyWh, "scope1"),
+    const baseMid = modeBaseEnergyWh(row, isLive);
+    const isLlm = row.mode === "llm-only" || row.mode === "rag";
+    const point = baseMid * (isLlm ? assumption.ratio : 1) * pueFactor;
+    const low = isLlm ? baseMid * ENERGY_UNCERTAINTY.lowRatio * pueFactor : point;
+    const high = isLlm ? baseMid * ENERGY_UNCERTAINTY.highRatio * pueFactor : point;
+    const energy: Band = { low, mid: point, high };
+    const co2: Band = {
+      low: co2GramsFromEnergy(low, grid.gPerKwh),
+      mid: co2GramsFromEnergy(point, grid.gPerKwh),
+      high: co2GramsFromEnergy(high, grid.gPerKwh),
     };
+    const waterFull: Band = {
+      low: waterMlFromEnergy(low, "fullScope"),
+      mid: waterMlFromEnergy(point, "fullScope"),
+      high: waterMlFromEnergy(high, "fullScope"),
+    };
+    const waterScope1: Band = {
+      low: waterMlFromEnergy(low, "scope1"),
+      mid: waterMlFromEnergy(point, "scope1"),
+      high: waterMlFromEnergy(high, "scope1"),
+    };
+    return { row, energy, co2, waterFull, waterScope1, isLlm };
   });
 
   const energyData = derived.map((d) => ({
     label: d.row.label,
-    value: d.energyWh,
-    displayValue: formatEnergyWh(d.energyWh),
+    value: d.energy.mid,
+    displayValue: formatEnergyWh(d.energy.mid),
   }));
   const co2Data = derived.map((d) => ({
     label: d.row.label,
-    value: d.co2g,
-    displayValue: formatCo2Grams(d.co2g),
+    value: d.co2.mid,
+    displayValue: formatCo2Grams(d.co2.mid),
   }));
   const waterData = derived.map((d) => ({
     label: d.row.label,
-    value: d.waterFullMl,
-    displayValue: formatWaterMl(d.waterFullMl),
+    value: d.waterFull.mid,
+    displayValue: formatWaterMl(d.waterFull.mid),
   }));
 
   const flat = derived.find((d) => d.row.mode === "flat");
   const rag = derived.find((d) => d.row.mode === "rag");
 
   const ragCostPerQuery = rag?.row.costPerQueryUsd ?? 0;
-  const ragCo2PerQuery = rag?.co2g ?? 0;
-  const ragWaterFullPerQuery = rag?.waterFullMl ?? 0;
+  const ragEnergy = rag?.energy ?? { low: 0, mid: 0, high: 0 };
+  const ragCo2 = rag?.co2 ?? { low: 0, mid: 0, high: 0 };
+  const ragWaterFull = rag?.waterFull ?? { low: 0, mid: 0, high: 0 };
 
   const costDeltaPerQuery = flat && rag ? rag.row.costPerQueryUsd - flat.row.costPerQueryUsd : null;
-  const co2DeltaPerQuery = flat && rag ? rag.co2g - flat.co2g : null;
+  const co2DeltaPerQuery = flat && rag ? rag.co2.mid - flat.co2.mid : null;
 
+  // Org-scale: cost is measured (point); CO₂ and water are modeled (banded).
   const ragMonthlyCost = ragCostPerQuery * queriesPerDay * 30;
   const ragAnnualCost = ragCostPerQuery * queriesPerDay * 365;
-  const ragMonthlyCo2Kg = (ragCo2PerQuery * queriesPerDay * 30) / 1000;
-  const ragAnnualCo2Kg = (ragCo2PerQuery * queriesPerDay * 365) / 1000;
-  const ragMonthlyWaterL = (ragWaterFullPerQuery * queriesPerDay * 30) / 1000;
+  const projMonthly = (perQuery: number) => (perQuery * queriesPerDay * 30) / 1000; // → kg or L
+  const ragMonthlyCo2Kg: Band = {
+    low: projMonthly(ragCo2.low),
+    mid: projMonthly(ragCo2.mid),
+    high: projMonthly(ragCo2.high),
+  };
+  const ragAnnualCo2Kg = (ragCo2.mid * queriesPerDay * 365) / 1000;
+  const ragMonthlyWaterL: Band = {
+    low: projMonthly(ragWaterFull.low),
+    mid: projMonthly(ragWaterFull.mid),
+    high: projMonthly(ragWaterFull.high),
+  };
 
-  const annualCo2g = ragCo2PerQuery * queriesPerDay * 365;
+  const annualCo2g = ragCo2.mid * queriesPerDay * 365;
   const kmDriven = annualCo2g / EQUIVALENTS.carGPerKm.value;
   const phoneCharges = annualCo2g / EQUIVALENTS.phoneChargeG.value;
+
+  const fmtKg = (kg: number) => (kg < 0.01 ? `${(kg * 1000).toFixed(1)}g` : `${kg.toFixed(2)}kg`);
+  const fmtL = (l: number) => (l < 0.01 ? "~0 L" : `${l.toFixed(1)} L`);
 
   function handlePreset(v: number) {
     setQueriesPerDay(v);
@@ -128,9 +194,11 @@ export default function ImpactPanel({ rows, queryCount }: ImpactPanelProps) {
           {isLive
             ? `Derived from your run of ${queryCount ?? 0} ${queryCount === 1 ? "query" : "queries"}. `
             : "Sourced per-query estimates — each figure links to its coefficient. Run the benchmark above for your own live numbers. "}
-          Every figure is an <strong className="font-semibold text-text">order-of-magnitude estimate</strong>,
-          not a measurement. ragornot runs Claude Haiku over a small demo corpus, so these frontier-model
-          coefficients are literature-derived proxies applied to the modes — see the{" "}
+          <strong className="font-semibold text-text">Latency, tokens, and cost are measured</strong> (from
+          the Bedrock API); <strong className="font-semibold text-text">energy, water, and CO₂ are modeled</strong>{" "}
+          from token count (~{ENERGY_WH_PER_1K_TOKENS} Wh per 1,000 tokens, anchored to Epoch AI&apos;s
+          short-query figure), then × grid intensity and × PUE. All modeled figures are order-of-magnitude
+          estimates, not measurements — see the{" "}
           <Link href="/methodology" className="underline hover:text-accent-text">methodology</Link>.
         </p>
       </div>
@@ -138,48 +206,99 @@ export default function ImpactPanel({ rows, queryCount }: ImpactPanelProps) {
       {/* Flagship contrast */}
       <EnergyContrast />
 
-      {/* Grid intensity — the assumption, exposed not buried */}
-      <div className="flex flex-wrap items-center gap-3 rounded-lg border border-border bg-surface-2 px-4 py-3">
-        <label htmlFor="grid-intensity" className="flex items-center gap-1.5 text-sm font-semibold text-text">
-          Grid carbon intensity
-          <InfoTooltip tip="CO₂ = energy(kWh) × grid intensity. Pick the grid that matches where your inference runs — the default is US-ish (400 gCO₂/kWh); the global average is higher." />
-        </label>
-        <select
-          id="grid-intensity"
-          value={gridId}
-          onChange={(e) => setGridId(e.target.value)}
-          className="rounded-lg border border-border bg-surface px-3 py-1.5 text-sm text-text focus:outline focus:outline-2 focus:outline-focus"
-        >
-          {GRID_OPTIONS.map((g) => (
-            <option key={g.id} value={g.id}>
-              {g.label} — {g.gPerKwh} gCO₂/kWh
-            </option>
-          ))}
-        </select>
-        <span className="text-xs text-text-muted">{grid.note}</span>
+      {/* Assumptions — grid intensity, PUE, per-token energy — all exposed, not buried */}
+      <div className="flex flex-col gap-3 rounded-lg border border-border bg-surface-2 px-4 py-3">
+        <p className="flex items-center gap-1.5 text-sm font-semibold text-text">
+          Assumptions
+          <InfoTooltip tip="Modeled energy/water/CO₂ recompute live as you change these. energy = tokens→Wh × (PUE / 1.2); CO₂ = energy(kWh) × grid intensity." />
+        </p>
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+          <label className="flex flex-col gap-1 text-xs text-text-muted">
+            <span className="font-semibold text-text">
+              Grid carbon intensity<SourceCite figure={GRID_INTENSITY_SOURCE} label="src" />
+            </span>
+            <select
+              value={gridId}
+              onChange={(e) => setGridId(e.target.value)}
+              className="rounded-lg border border-border bg-surface px-2 py-1.5 text-sm text-text focus:outline focus:outline-2 focus:outline-focus"
+            >
+              {GRID_OPTIONS.map((g) => (
+                <option key={g.id} value={g.id}>{g.label} — {g.gPerKwh} gCO₂/kWh</option>
+              ))}
+            </select>
+          </label>
+          <label className="flex flex-col gap-1 text-xs text-text-muted">
+            <span className="font-semibold text-text">
+              PUE (data-center overhead)<SourceCite figure={PUE_SOURCE} label="src" />
+            </span>
+            <select
+              value={pueId}
+              onChange={(e) => setPueId(e.target.value)}
+              className="rounded-lg border border-border bg-surface px-2 py-1.5 text-sm text-text focus:outline focus:outline-2 focus:outline-focus"
+            >
+              {PUE_OPTIONS.map((p) => (
+                <option key={p.id} value={p.id}>{p.label} — {p.value}×</option>
+              ))}
+            </select>
+          </label>
+          <label className="flex flex-col gap-1 text-xs text-text-muted">
+            <span className="font-semibold text-text">
+              Per-token energy<SourceCite figure={ENERGY.chatShort} label="src" />
+            </span>
+            <select
+              value={energyAssumptionId}
+              onChange={(e) => setEnergyAssumptionId(e.target.value as typeof energyAssumptionId)}
+              className="rounded-lg border border-border bg-surface px-2 py-1.5 text-sm text-text focus:outline focus:outline-2 focus:outline-focus"
+            >
+              {ENERGY_ASSUMPTIONS.map((a) => (
+                <option key={a.id} value={a.id}>{a.label} — {a.wh} Wh/short query</option>
+              ))}
+            </select>
+          </label>
+        </div>
+        <p className="text-xs text-text-muted">
+          Grid: {grid.note} · PUE: {pue.note} · Uncertainty band spans Epoch&apos;s {ENERGY_UNCERTAINTY.lowWh}–{ENERGY_UNCERTAINTY.highWh} Wh
+          short-query range.
+        </p>
       </div>
 
-      {/* Per-mode charts */}
-      <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
-        <div className="flex flex-col gap-1">
-          <BarChart title="Energy per query" unitLabel="Wh" data={energyData} />
-          <p className="text-xs text-text-muted">
-            LLM/RAG anchored to a short-query figure<SourceCite figure={ENERGY.chatShort} />; Flat/Hierarchical
-            are retrieval-only (no LLM call).
-          </p>
+      {/* Per-mode charts — modeled */}
+      <div className="flex flex-col gap-2">
+        <p className="flex items-center gap-2 text-sm font-semibold text-text">
+          Modeled per-query impact <MetricBadge kind="modeled" />
+        </p>
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
+          <div className="flex flex-col gap-1">
+            <BarChart title="Energy per query" unitLabel="Wh" data={energyData} />
+            <p className="text-xs text-text-muted">
+              RAG ≈ {fmtBand(formatEnergyWh, ragEnergy)}<SourceCite figure={ENERGY.chatShort} />.
+              Lexical modes are retrieval-only (no LLM call).
+            </p>
+          </div>
+          <div className="flex flex-col gap-1">
+            <BarChart title="CO₂ per query" unitLabel="grams CO₂" data={co2Data} />
+            <p className="text-xs text-text-muted">
+              RAG ≈ {fmtBand(formatCo2Grams, ragCo2)}. energy(kWh) × {grid.gPerKwh} gCO₂/kWh
+              <SourceCite figure={GRID_INTENSITY_SOURCE} label="grid" />.
+            </p>
+          </div>
+          <div className="flex flex-col gap-1">
+            <BarChart title="Water per query (full-scope)" unitLabel="mL water" data={waterData} />
+            <p className="text-xs text-text-muted">
+              RAG ≈ {fmtBand(formatWaterMl, ragWaterFull)}<SourceCite figure={WATER.fullScopeGpt4o} />.
+            </p>
+          </div>
         </div>
-        <div className="flex flex-col gap-1">
-          <BarChart title="CO₂ per query" unitLabel="grams CO₂" data={co2Data} />
-          <p className="text-xs text-text-muted">
-            energy(kWh) × {grid.gPerKwh} gCO₂/kWh<SourceCite figure={GRID_INTENSITY_SOURCE} label="grid" />.
-          </p>
-        </div>
-        <div className="flex flex-col gap-1">
-          <BarChart title="Water per query (full-scope)" unitLabel="mL water" data={waterData} />
-          <p className="text-xs text-text-muted">
-            Full-scope, incl. electricity generation<SourceCite figure={WATER.fullScopeGpt4o} />.
-          </p>
-        </div>
+        <p className="text-xs text-text-muted">
+          Ranges are low–high uncertainty bands from Epoch AI&apos;s {ENERGY_UNCERTAINTY.lowWh}–{ENERGY_UNCERTAINTY.highWh} Wh
+          short-query spread, scaled by your PUE selection.
+        </p>
+      </div>
+
+      {/* Measured vs modeled legend */}
+      <div className="flex flex-wrap items-center gap-x-6 gap-y-2 rounded-lg border border-border bg-surface-2 px-4 py-3 text-xs text-text-muted">
+        <span className="flex items-center gap-2"><MetricBadge kind="measured" /> latency · tokens · cost (Bedrock API)</span>
+        <span className="flex items-center gap-2"><MetricBadge kind="modeled" /> energy · water · CO₂ (literature coefficients)</span>
       </div>
 
       {/* Scope-1 vs full-scope — never conflated */}
@@ -194,8 +313,8 @@ export default function ImpactPanel({ rows, queryCount }: ImpactPanelProps) {
           (Gemini)<SourceCite figure={WATER.scope1Gemini} /> per query.{" "}
           <strong className="text-text">Full-scope:</strong> a short GPT-4o query is ~{WATER.fullScopeGpt4o.value} mL
           once you count electricity generation<SourceCite figure={WATER.fullScopeGpt4o} />. The charts above show
-          full-scope. {isLive ? "RAG this run" : "RAG"} ≈ {formatWaterMl(ragWaterFullPerQuery)} full-scope /
-          {" "}{formatWaterMl(rag?.waterScope1Ml ?? 0)} scope-1 per query.
+          full-scope. {isLive ? "RAG this run" : "RAG"} ≈ {formatWaterMl(ragWaterFull.mid)} full-scope /
+          {" "}{formatWaterMl(rag?.waterScope1.mid ?? 0)} scope-1 per query.
         </p>
       </div>
 
@@ -207,11 +326,13 @@ export default function ImpactPanel({ rows, queryCount }: ImpactPanelProps) {
             <InfoTooltip tip="How much more each RAG query costs and emits versus pure lexical (Flat) retrieval — the near-zero baseline." />
           </span>
           <div className="mt-1 flex flex-wrap gap-x-6 gap-y-1 font-mono text-xs text-text-muted">
-            <span>
+            <span className="flex items-center gap-1.5">
               Cost: <span className="text-text">+{formatCost(costDeltaPerQuery)}/query</span>
+              <MetricBadge kind="measured" />
             </span>
-            <span>
+            <span className="flex items-center gap-1.5">
               CO₂: <span className="text-text">+{formatCo2Grams(co2DeltaPerQuery)}/query</span>
+              <MetricBadge kind="modeled" />
             </span>
           </div>
           <p className="mt-1 text-xs text-text-muted">
@@ -225,7 +346,7 @@ export default function ImpactPanel({ rows, queryCount }: ImpactPanelProps) {
         <div className="flex flex-wrap items-center gap-3">
           <span className="flex items-center gap-1.5 text-sm font-semibold text-text">
             Org-scale projection
-            <InfoTooltip tip="RAG cost, CO₂, and water scale linearly with query volume. Lexical modes cost ~$0 and ~0 marginal energy regardless of scale." />
+            <InfoTooltip tip="RAG cost, CO₂, and water scale linearly with query volume. Cost is measured per query; CO₂ and water are modeled and shown with low–high ranges." />
           </span>
           <div className="flex flex-wrap gap-2">
             {PRESETS.map((p) => (
@@ -260,7 +381,7 @@ export default function ImpactPanel({ rows, queryCount }: ImpactPanelProps) {
 
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
           <div className="rounded-md border border-border bg-surface p-3">
-            <p className="text-xs text-text-muted">RAG cost</p>
+            <p className="flex items-center gap-1.5 text-xs text-text-muted">RAG cost <MetricBadge kind="measured" /></p>
             <p className="mt-0.5 font-mono text-sm font-semibold text-text">
               ${ragMonthlyCost.toFixed(2)}
               <span className="text-xs font-normal text-text-muted">/mo</span>
@@ -268,22 +389,22 @@ export default function ImpactPanel({ rows, queryCount }: ImpactPanelProps) {
             <p className="font-mono text-xs text-text-muted">${ragAnnualCost.toFixed(0)}/yr</p>
           </div>
           <div className="rounded-md border border-border bg-surface p-3">
-            <p className="text-xs text-text-muted">RAG CO₂ (est.)</p>
+            <p className="flex items-center gap-1.5 text-xs text-text-muted">RAG CO₂ <MetricBadge kind="modeled" /></p>
             <p className="mt-0.5 font-mono text-sm font-semibold text-text">
-              {ragMonthlyCo2Kg < 0.01
-                ? `${(ragMonthlyCo2Kg * 1000).toFixed(1)}g`
-                : `${ragMonthlyCo2Kg.toFixed(2)}kg`}
+              {fmtKg(ragMonthlyCo2Kg.mid)}
               <span className="text-xs font-normal text-text-muted">/mo</span>
             </p>
-            <p className="font-mono text-xs text-text-muted">{ragAnnualCo2Kg.toFixed(1)}kg/yr · {grid.gPerKwh} gCO₂/kWh</p>
+            <p className="font-mono text-xs text-text-muted">
+              ({fmtKg(ragMonthlyCo2Kg.low)}–{fmtKg(ragMonthlyCo2Kg.high)}) · {ragAnnualCo2Kg.toFixed(1)}kg/yr · {grid.gPerKwh} gCO₂/kWh
+            </p>
           </div>
           <div className="rounded-md border border-border bg-surface p-3">
-            <p className="text-xs text-text-muted">RAG water (full-scope)</p>
+            <p className="flex items-center gap-1.5 text-xs text-text-muted">RAG water (full-scope) <MetricBadge kind="modeled" /></p>
             <p className="mt-0.5 font-mono text-sm font-semibold text-text">
-              {ragMonthlyWaterL < 0.01 ? "~0 L" : `${ragMonthlyWaterL.toFixed(1)} L`}
+              {fmtL(ragMonthlyWaterL.mid)}
               <span className="text-xs font-normal text-text-muted">/mo</span>
             </p>
-            <p className="text-xs text-text-muted">Lexical modes ≈ 0</p>
+            <p className="font-mono text-xs text-text-muted">({fmtL(ragMonthlyWaterL.low)}–{fmtL(ragMonthlyWaterL.high)}) · Lexical modes ≈ 0</p>
           </div>
         </div>
 
