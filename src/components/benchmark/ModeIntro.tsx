@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { ENERGY_WH_PER_1K_TOKENS } from "@/lib/impact-data";
 
 interface ModeDef {
   label: string;
@@ -63,7 +64,7 @@ const METRIC_DEFS = [
   },
   {
     term: "Energy estimate",
-    def: "Derived from cost using ~2,615 Wh/$ (a calibration constant in the code). Lexical modes use fixed near-zero figures (0.6 mWh Flat, 0.9 mWh Hierarchical). CO₂ = energy × 400 gCO₂/kWh. All are order-of-magnitude estimates, not measurements.",
+    def: `Derived from token count using ${ENERGY_WH_PER_1K_TOKENS} Wh per 1,000 tokens, anchored to Epoch AI's short-query figure. Lexical modes use fixed near-zero figures. CO₂ = energy × grid intensity. All are order-of-magnitude estimates, not measurements.`,
   },
 ];
 

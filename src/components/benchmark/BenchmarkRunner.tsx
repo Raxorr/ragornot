@@ -8,7 +8,7 @@ import { benchmarkRows, type BenchmarkRow } from "@/lib/benchmark-data";
 import type { RetrievalMode } from "@/lib/config";
 import ComparisonTable from "./ComparisonTable";
 import ImpactPanel from "@/components/impact/ImpactPanel";
-import { co2GramsFromEnergy, DEFAULT_GRID, formatCo2Grams } from "@/lib/impact-data";
+import { co2GramsFromEnergy, DEFAULT_GRID, formatCo2Grams, energyWhFromTokens, RETRIEVAL_ONLY_ENERGY_WH } from "@/lib/impact-data";
 import { absoluteUrl } from "@/lib/site-url";
 import ShareCard from "@/components/share/ShareCard";
 import type { ShareCardData } from "@/lib/share-card";
@@ -42,7 +42,8 @@ function fmtCooldown(seconds: number) {
 /**
  * Compute per-mode aggregate rows from live benchmark results.
  * LLM-only rarely wins because it has no qualityProxy (BM25 score) — see winner logic.
- * Energy for LLM/RAG is derived from cost using ~2615 Wh/$ (calibrated to static demo data).
+ * Energy for LLM/RAG is derived from the run's TOKEN count via energyWhFromTokens()
+ * (anchored to Epoch AI's short-query figure) — not from dollar cost.
  * Flat/Hierarchical use the static near-zero energy figures (in-Lambda BM25, negligible GPU).
  */
 function computeLiveRows(results: QueryResult[]): BenchmarkRow[] {
@@ -50,14 +51,15 @@ function computeLiveRows(results: QueryResult[]): BenchmarkRow[] {
     const valid = results.filter((r) => !r[mode].error && r[mode].latencyMs > 0);
     const avgLatency = avg(valid.map((r) => r[mode].latencyMs)) ?? 0;
     const avgCost = avg(valid.map((r) => r[mode].costUsd)) ?? 0;
+    const avgTokens = avg(valid.map((r) => r[mode].tokens)) ?? 0;
     const confs = valid.map((r) => r[mode].confidence).filter((c): c is number => c !== null);
     const avgConf = confs.length ? avg(confs) : null;
     const energyPerQueryWh =
       mode === "llm" || mode === "rag"
-        ? avgCost * 2615
+        ? energyWhFromTokens(avgTokens)
         : mode === "hierarchical"
-          ? 0.0009
-          : 0.0006;
+          ? RETRIEVAL_ONLY_ENERGY_WH.hierarchical
+          : RETRIEVAL_ONLY_ENERGY_WH.flat;
     const staticRow = benchmarkRows.find(
       (r) => r.mode === (mode === "llm" ? "llm-only" : mode),
     );
