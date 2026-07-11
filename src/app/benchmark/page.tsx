@@ -30,7 +30,7 @@ export default function BenchmarkPage() {
             <span className="font-semibold text-text">Flat &amp; Hierarchical:</span> near-zero cost, millisecond latency
           </span>
           <span>
-            <span className="font-semibold text-text">RAG:</span> highest accuracy, ~$0.00041/query
+            <span className="font-semibold text-text">RAG:</span> highest retrieval relevance, ~$0.00041/query
           </span>
           <span>
             <span className="font-semibold text-text">LLM-only:</span> no grounding — the control baseline

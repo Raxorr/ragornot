@@ -64,8 +64,8 @@ function computeLiveRows(results: QueryResult[]): BenchmarkRow[] {
     return {
       mode: (mode === "llm" ? "llm-only" : mode) as RetrievalMode,
       label: MODE_LABELS[mode],
-      accuracyPct:
-        avgConf !== null ? Math.round(avgConf * 100) : (staticRow?.accuracyPct ?? 0),
+      relevancePct:
+        avgConf !== null ? Math.round(avgConf * 100) : (staticRow?.relevancePct ?? 0),
       latencyMs: Math.round(avgLatency),
       costPerQueryUsd: avgCost,
       energyPerQueryWh,
@@ -324,7 +324,7 @@ export default function BenchmarkRunner() {
       eyebrow: "ragornot benchmark",
       headline: isTie ? "It's a tie" : `${MODE_LABELS[top.m]} wins`,
       stats: [
-        { label: "Accuracy", value: `${row.accuracyPct}%` },
+        { label: "Relevance", value: `${row.relevancePct}%` },
         { label: "Latency", value: formatLatency(row.latencyMs) },
         { label: "Cost/query", value: formatCost(row.costPerQueryUsd) },
         { label: "CO₂/query", value: formatCo2Grams(co2) },
@@ -760,8 +760,13 @@ export default function BenchmarkRunner() {
             <p className="max-w-prose text-sm text-text-muted">
               Aggregated across your {successCount} successful {successCount === 1 ? "query" : "queries"}
               {isPartial ? ` (of ${totalAttempted} attempted)` : ""}.
-              &ldquo;Accuracy %&rdquo; = avg_confidence × 100 from the retrieval model; LLM-only has no retrieval quality metric.
-              Use this to decide whether the accuracy lift from RAG justifies its cost for your use case.
+              &ldquo;Relevance %&rdquo; = avg_confidence × 100 from the retrieval model&apos;s lexical match score — not answer correctness.
+              LLM-only has no retrieval quality metric. Use this to decide whether the relevance lift from RAG justifies its cost for your use case.
+            </p>
+            <p className="max-w-prose text-xs text-text-muted">
+              <span className="font-medium text-text">Retrieval relevance</span> is the lexical match confidence of
+              retrieved chunks — not answer correctness. End-answer evaluation (correctness, faithfulness, citation
+              quality) is a planned future metric.
             </p>
             <ComparisonTable rows={liveRows ?? undefined} />
           </section>

@@ -199,7 +199,7 @@ export default function DecideTool() {
               <div className="flex flex-col gap-2 rounded-lg border border-accent/50 bg-surface-2 p-4">
                 <p className="text-sm text-text-muted">
                   Don&apos;t take our word for it — run the numbers on the demo corpus and watch the
-                  latency, cost, and accuracy tradeoff play out.
+                  latency, cost, and relevance tradeoff play out.
                 </p>
                 <Link
                   href="/benchmark"
