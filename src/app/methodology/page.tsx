@@ -12,6 +12,10 @@ import {
   ALL_SOURCED_FIGURES,
   TYPICAL_SHORT_QUERY_TOKENS,
   ENERGY_WH_PER_1K_TOKENS,
+  ENERGY_UNCERTAINTY,
+  PUE_OPTIONS,
+  PUE_SOURCE,
+  BASELINE_PUE,
   type SourcedFigure,
 } from "@/lib/impact-data";
 import EnergyContrast from "@/components/impact/EnergyContrast";
@@ -124,6 +128,33 @@ export default function MethodologyPage() {
         </ul>
       </section>
 
+      {/* Measured vs modeled */}
+      <section aria-labelledby="mvm-heading" className="flex flex-col gap-4">
+        <h2 id="mvm-heading" className="text-2xl font-bold tracking-tight text-text">Measured vs modeled</h2>
+        <p className="max-w-prose text-sm text-text-muted">
+          Two very different kinds of number appear on the benchmark, and we badge each one so you never
+          confuse them:
+        </p>
+        <ul className="flex list-disc flex-col gap-2 pl-5 text-sm text-text-muted">
+          <li>
+            <strong className="text-text">Measured</strong> — latency, token counts, and cost per query come
+            straight from the Amazon Bedrock API response (token billing). These are real numbers from your run.
+          </li>
+          <li>
+            <strong className="text-text">Modeled</strong> — energy, water, and CO₂ are computed from the
+            literature coefficients below. They are order-of-magnitude estimates, not measurements, and are
+            tagged &ldquo;modeled — estimate&rdquo; wherever they appear.
+          </li>
+        </ul>
+        <p className="max-w-prose text-sm text-text-muted">
+          <strong className="text-text">Retrieval relevance is a proxy, not answer correctness.</strong> The
+          &ldquo;Relevance %&rdquo; column is a BM25 / query-term retrieval-confidence score — how lexically
+          relevant the retrieved chunks are — <em>not</em> whether the final answer is correct. End-answer
+          evaluation (correctness, faithfulness, citation quality) against a golden set is a planned future
+          metric. LLM-only has no retrieval step, so it shows N/A.
+        </p>
+      </section>
+
       {/* Flagship contrast */}
       <EnergyContrast />
 
@@ -205,13 +236,83 @@ export default function MethodologyPage() {
         <div className="flex flex-col gap-2 rounded-lg border border-border bg-surface-2 px-4 py-4 font-mono text-xs text-text sm:text-sm">
           <p># anchor: a typical short query ≈ {TYPICAL_SHORT_QUERY_TOKENS} tokens ≈ {ENERGY.chatShort.value} Wh</p>
           <p>energy_Wh_per_1k_tokens = {ENERGY.chatShort.value} / ({TYPICAL_SHORT_QUERY_TOKENS} / 1000) = {ENERGY_WH_PER_1K_TOKENS} Wh</p>
-          <p>energy_Wh   = (total_tokens / 1000) × {ENERGY_WH_PER_1K_TOKENS}</p>
-          <p>co2_g       = (energy_Wh / 1000) × grid_gCO2_per_kWh</p>
-          <p>water_full  = (energy_Wh / {ENERGY.chatShort.value}) × {WATER.fullScopeGpt4o.value} mL   # full-scope</p>
-          <p>water_scope1= (energy_Wh / {ENERGY.chatShort.value}) × {WATER.scope1OpenAI.value} mL  # on-site cooling</p>
+          <p>energy_Wh    = (total_tokens / 1000) × {ENERGY_WH_PER_1K_TOKENS}</p>
+          <p>effective_Wh = energy_Wh × (PUE / {BASELINE_PUE})       # PUE overhead, default {BASELINE_PUE}</p>
+          <p>co2_g        = (effective_Wh / 1000) × grid_gCO2_per_kWh</p>
+          <p>water_full   = (effective_Wh / {ENERGY.chatShort.value}) × {WATER.fullScopeGpt4o.value} mL   # full-scope</p>
+          <p>water_scope1 = (effective_Wh / {ENERGY.chatShort.value}) × {WATER.scope1OpenAI.value} mL  # on-site cooling</p>
+          <p># uncertainty band: scale effective_Wh by {ENERGY_UNCERTAINTY.lowRatio.toFixed(2)}× (low) to {ENERGY_UNCERTAINTY.highRatio.toFixed(2)}× (high)</p>
+          <p className="text-text-muted"># from Epoch&apos;s {ENERGY_UNCERTAINTY.lowWh}–{ENERGY_UNCERTAINTY.highWh} Wh short-query range around the {ENERGY_UNCERTAINTY.midWh} Wh mid</p>
           <p className="text-text-muted"># Flat / Hierarchical make no LLM call → ~0 marginal energy, water, CO₂</p>
-          <p className="text-text-muted"># Live LLM/RAG runs derive energy from the run&apos;s own token cost, same anchor</p>
+          <p className="text-text-muted"># Live LLM/RAG runs derive energy from the run&apos;s own token count, same anchor</p>
         </div>
+      </section>
+
+      {/* Uncertainty & sensitivity */}
+      <section aria-labelledby="uncertainty-heading" className="flex flex-col gap-4">
+        <h2 id="uncertainty-heading" className="text-2xl font-bold tracking-tight text-text">
+          Uncertainty &amp; sensitivity
+        </h2>
+        <p className="max-w-prose text-sm text-text-muted">
+          Modeled figures are shown as <span className="font-mono text-text">mid (low–high)</span>, never a
+          single false-precision point. The energy band comes from Epoch AI&apos;s short-query range
+          ({ENERGY_UNCERTAINTY.lowWh}–{ENERGY_UNCERTAINTY.highWh} Wh around the {ENERGY_UNCERTAINTY.midWh} Wh mid);
+          CO₂ and water inherit that band. Other ranged coefficients: full-scope water
+          {" "}{WATER.fullScopeGpt4o.range ? `${WATER.fullScopeGpt4o.range[0]}–${WATER.fullScopeGpt4o.range[1]} mL` : ""},
+          grid intensity {GRID_INTENSITY_SOURCE.range ? `${GRID_INTENSITY_SOURCE.range[0]}–${GRID_INTENSITY_SOURCE.range[1]} gCO₂/kWh` : ""},
+          long-context cost {RAG_VS_LONGCONTEXT.costMultiplier.range ? `${RAG_VS_LONGCONTEXT.costMultiplier.range[0]}–${RAG_VS_LONGCONTEXT.costMultiplier.range[1]}×` : ""},
+          and RAG token savings {RAG_VS_LONGCONTEXT.tokenSavings.range ? `${RAG_VS_LONGCONTEXT.tokenSavings.range[0]}–${RAG_VS_LONGCONTEXT.tokenSavings.range[1]}×` : ""} —
+          each traced to its source in the tables above.
+        </p>
+        <p className="max-w-prose text-sm text-text-muted">
+          The Benchmark impact panel exposes three <strong className="text-text">sensitivity controls</strong> —
+          grid intensity, PUE (data-center overhead), and per-token energy (efficient / typical / conservative,
+          mapping to the low / mid / high energy) — and every modeled figure recomputes live as you change them.
+        </p>
+        <div className="rounded-lg border border-border bg-surface-2 px-4 py-3 font-mono text-sm text-text">
+          effective_energy = token→Wh × (PUE / {BASELINE_PUE})
+        </div>
+        <FigureTable figures={[PUE_SOURCE]} />
+        <div className="overflow-x-auto rounded-lg border border-border">
+          <table className="w-full min-w-[480px] border-collapse text-left text-sm">
+            <thead>
+              <tr className="border-b border-border bg-surface-2">
+                <th scope="col" className="px-3 py-2 font-semibold text-text">PUE preset</th>
+                <th scope="col" className="px-3 py-2 font-semibold text-text">Value</th>
+                <th scope="col" className="px-3 py-2 font-semibold text-text">Note</th>
+              </tr>
+            </thead>
+            <tbody>
+              {PUE_OPTIONS.map((p) => (
+                <tr key={p.id} className="border-b border-border last:border-b-0">
+                  <th scope="row" className="px-3 py-3 text-left font-medium text-text">{p.label}</th>
+                  <td className="px-3 py-3 font-mono text-text">{p.value}×</td>
+                  <td className="px-3 py-3 text-text-muted">{p.note}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      {/* Statistical limitations */}
+      <section aria-labelledby="stats-heading" className="flex flex-col gap-4">
+        <h2 id="stats-heading" className="text-2xl font-bold tracking-tight text-text">Statistical limitations</h2>
+        <ul className="flex list-disc flex-col gap-2 pl-5 text-sm text-text-muted">
+          <li>
+            A standard run is <strong className="text-text">n = 7 queries</strong>. The Step 2 aggregate reports
+            min / median / max / standard deviation per mode — <strong className="text-text">descriptive
+            statistics only</strong>, not a statistically powered comparison.
+          </li>
+          <li>
+            There is no significance testing and no golden set. A 50–100 question benchmark with{" "}
+            <strong className="text-text">expected sources</strong> (to score answer correctness and citation
+            quality, not just retrieval relevance) is the planned next step.
+          </li>
+          <li>
+            Relevance is a lexical retrieval proxy, not answer correctness (see &ldquo;Measured vs modeled&rdquo;).
+          </li>
+        </ul>
       </section>
 
       {/* Everyday equivalents */}
