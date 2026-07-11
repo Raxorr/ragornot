@@ -17,15 +17,18 @@
 
 "Should we use RAG or just call the model?" is one of the most common architecture
 questions in applied AI — and it's almost always answered by assertion, not measurement.
-People quote blog-post accuracy numbers and hand-wave the cost.
+People hand-wave the cost and treat retrieval quality as binary.
 
 **ragornot answers it empirically.** It runs the *same* query through four retrieval
 strategies against a live serverless backend and reports, side by side:
 
 - **latency** (measured end-to-end in the browser),
-- a **retrieval quality proxy** (BM25 score) and **confidence**,
+- a **retrieval relevance proxy** (BM25 lexical-match confidence — explicitly not answer correctness),
 - **cost per query** (real AWS Bedrock token billing), and
-- an **energy / CO₂ estimate**, projected to organisation scale (1k–100k queries/day).
+- **energy / water / CO₂ estimates** with uncertainty bands and sensitivity controls, projected to org scale (1k–100k queries/day).
+
+Every metric is badged **measured** (from the Bedrock API) or **modeled — estimate**
+(literature-derived coefficients) so a reader never mistakes a proxy for a measurement.
 
 The result is a concrete, reproducible view of when RAG's extra cost and latency are
 justified — and when lexical retrieval is already good enough.
@@ -65,6 +68,28 @@ tradeoffs.
   section → chunk narrowing), LLM-only (ungrounded Bedrock baseline), and RAG (retrieval +
   generation) — scored on the same metrics so the comparison is apples-to-apples. Winner
   logic is quality-proxy first, latency as tiebreaker, with an explicit "tie" band.
+- **Honest metric framing.** The retrieval score is labelled "relevance (proxy)" — a BM25
+  lexical-match confidence, not answer correctness. Every metric is badged **measured**
+  (latency, tokens, cost from Bedrock) or **modeled — estimate** (energy, water, CO₂ from
+  literature coefficients). End-answer evaluation (correctness, faithfulness, citation
+  quality) against a golden set is a documented future metric.
+- **Token-based environmental derivation.** Energy is derived from token count via a cited
+  per-token coefficient (Epoch AI, 0.6 Wh/1k tokens), not from dollar cost. CO₂ = energy ×
+  grid intensity; water = energy-scaled full-scope figure (Jegham et al.). Every modeled
+  figure shows low/mid/high uncertainty bands from the source's range endpoints.
+- **Three-axis sensitivity controls.** Grid carbon intensity (50–480 gCO₂/kWh, Ember/IEA),
+  PUE (1.1–1.58×, Uptime Institute), and per-token energy (0.1–0.6 Wh, Epoch AI) are
+  user-adjustable — all modeled figures recompute live.
+- **Per-mode distributions.** The aggregate reports min / median / max / σ per mode for
+  latency, cost, and relevance — not just means. Includes an honest n=7 caveat and a note
+  that significance testing requires the planned 50–100 question golden set.
+- **Run metadata for reproducibility.** Every benchmark result stamps model ID, pricing
+  version, run timestamp, corpus size, and query count. Fields the Lambda doesn't yet
+  return (corpus version, prompt version, cold/warm) are shown as "not reported" with TODOs.
+- **Deterministic decision tool.** `/decide` is an 8-question client-side decision tree
+  that recommends RAG, lexical search, long-context, fine-tuning, or no AI — each with a
+  "why this answer" trace and cost/energy tradeoff. Crawlable prose answer + FAQ + FAQPage
+  and WebApplication JSON-LD for answer-engine optimisation (AEO).
 - **Origin-locked backend.** CloudFront injects an `x-origin-verify` secret server-side;
   the secret never ships in the client bundle. The Lambda Function URL is public but
   useless without it. This is the real access-control boundary, independent of CORS.
@@ -72,6 +97,9 @@ tradeoffs.
   **global daily Bedrock USD cap** that acts as a circuit breaker — once the day's spend
   ceiling is hit, generative modes stop until UTC midnight. Backed by AWS-side WAF rate
   rules, AWS Budgets alerts, and reserved concurrency so a traffic spike can't run up a bill.
+- **State persistence across navigation.** Benchmark and Explore results live in root-layout
+  React context providers (survive tab switches); last successful run is persisted to
+  `sessionStorage` (survives accidental refresh). Rate limits stay server-authoritative.
 - **Freshness without a rebuild.** An hourly GitHub Actions cron fetches and commits
   `news.json`; the News tab fetches that committed file from GitHub raw at runtime with
   cache-busting, so a hard refresh shows the latest feed without waiting for a Pages deploy.
@@ -84,21 +112,26 @@ tradeoffs.
 
 ---
 
-## What it does
+## Routes
 
-ragornot runs your question through four retrieval strategies against 116 indexed AWS
-documentation pages, all backed by a live AWS Lambda + Bedrock backend:
+| Route | Description |
+|-------|-------------|
+| [`/benchmark`](https://ragornot.com/benchmark) | Live multi-query benchmark — runs 7 queries through all 4 modes, reports per-query cards, aggregate with distributions, Mode Comparison table, Impact Analytics v2 (energy/water/CO₂ with uncertainty bands + sensitivity), and a shareable result card |
+| [`/explore`](https://ragornot.com/explore) | Interactive search over 116 AWS docs with mode selector and live results. LLM/RAG free tier: 10/day per IP |
+| [`/decide`](https://ragornot.com/decide) | 8-question "Do I need RAG?" decision tool → RAG / lexical / long-context / fine-tuning / no-AI, each with tradeoff + "why this answer" trace. Crawlable prose answer + FAQ + JSON-LD (AEO) |
+| [`/news`](https://ragornot.com/news) | Hourly-aggregated AI/RAG/LLM/cost/sustainability feed (arXiv, HN, publisher RSS) with source, topic, and time filters |
+| [`/digest`](https://ragornot.com/digest) | "RAG Reality Check" weekly digest — 3 things that happened, impact stat of the week, community question → /wall. Email notify-me via SES |
+| [`/wall`](https://ragornot.com/wall) | "In the Wild" — anonymous, moderated community wall of real-world AI use cases |
+| [`/methodology`](https://ragornot.com/methodology) | Every energy/water/CO₂ coefficient with its cited source, the exact formulas, measured-vs-modeled distinction, uncertainty & sensitivity documentation, scope-1 vs full-scope water, statistical limitations, and honest caveats |
+
+### Retrieval modes
 
 | Mode | Description |
 |------|-------------|
-| **Flat (Lexical)** | Global BM25-style ranking across every chunk |
-| **Hierarchical** | Document → section → chunk narrowing before ranking |
-| **LLM-only** | Direct AWS Bedrock (Haiku) answer, no retrieval grounding |
-| **RAG** | Hierarchical retrieval + Bedrock generation |
-
-The **News** tab aggregates AI/LLM/RAG/cost/efficiency headlines from arXiv, Hacker News,
-and publisher RSS feeds — refreshed hourly by a free GitHub Actions cron. The **In the
-Wild** tab is a moderated, anonymous community wall of real-world AI use cases.
+| **Flat (Lexical)** | Global BM25-style ranking across every chunk. Free — no LLM call. |
+| **Hierarchical** | Document → section → chunk narrowing before ranking. Free — no LLM call. |
+| **LLM-only** | Direct AWS Bedrock (Haiku) answer, no retrieval grounding. ~$0.00013/query. |
+| **RAG** | Hierarchical retrieval + Bedrock generation. Highest retrieval relevance, ~$0.00041/query. |
 
 ---
 
@@ -112,8 +145,8 @@ npm run dev
 # Open http://localhost:3000
 ```
 
-The app redirects `/` to `/benchmark` (the core). Explore is at `/explore`, News at
-`/news`, the community wall at `/wall`.
+The app redirects `/` to `/benchmark` (the core). Other routes: `/explore`, `/decide`,
+`/news`, `/digest`, `/wall`, `/methodology`.
 
 Regenerate the social-preview card after changing the wordmark/tagline:
 
