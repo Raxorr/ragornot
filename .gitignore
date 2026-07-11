@@ -42,6 +42,7 @@ yarn-error.log*
 
 # personal audit notes — never publish (repo is public)
 ragornot-golive-audit.md
+PROJECT_STATE.md
 
 # typescript
 *.tsbuildinfo
