@@ -1,19 +1,10 @@
 [
   {
-    "id": "aws-machine-learning-blog-disaggregated-prefill-and-decode-for-llm-inference-on-sagema",
-    "headline": "Disaggregated prefill and decode for LLM inference on SageMaker HyperPod",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/disaggregated-prefill-and-decode-for-llm-inference-on-sagemaker-hyperpod/",
-    "publishedAt": "2026-07-10T15:20:16.000Z",
-    "topic": "LLM",
-    "summary": "In this post, we show how to implement DPD with vLLM on Amazon SageMaker HyperPod using the HyperPod Inference Operator."
-  },
-  {
     "id": "arxiv-cs-cl-from-solvers-to-research-large-language-model-driven-formal-",
     "headline": "From Solvers to Research: Large Language Model-Driven Formal Mathematics at the Research Frontier",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2607.07779",
-    "publishedAt": "2026-07-10T04:00:00.000Z",
+    "publishedAt": "2026-07-11T04:00:00.000Z",
     "topic": "LLM",
     "summary": "Recent developments in AI for Mathematics (AI4Math), especially Large Language Model (LLM)-driven theorem provers, has achieved remarkable success in formal proof generation for well-defined mathematical problems through"
   },
@@ -22,7 +13,7 @@
     "headline": "Scalable and Culturally Specific Stereotype Dataset Construction via Human-LLM Collaboration",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2607.07895",
-    "publishedAt": "2026-07-10T04:00:00.000Z",
+    "publishedAt": "2026-07-11T04:00:00.000Z",
     "topic": "Cost",
     "summary": "Research on stereotypes in large language models (LLMs) has largely focused on English-speaking contexts, due to the lack of datasets in other languages and the high cost of manual annotation in underrepresented cultures"
   },
@@ -31,7 +22,7 @@
     "headline": "A Multi-cluster Boundary Learning Method for Out-of-Scope Intent Detection via MiniLM Embedding",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2607.07974",
-    "publishedAt": "2026-07-10T04:00:00.000Z",
+    "publishedAt": "2026-07-11T04:00:00.000Z",
     "topic": "RAG",
     "summary": "Intent detection is a critical task that bridges human intents and system actions in human-machine interaction systems. However, there still exist challenges for detecting out-of-scope (OOS) intents. (i) The traditional "
   },
@@ -40,7 +31,7 @@
     "headline": "When Implausible Tokens Get Reinforced: Tail-Aware Credit Calibration for LLM Reinforcement Learning",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2607.07976",
-    "publishedAt": "2026-07-10T04:00:00.000Z",
+    "publishedAt": "2026-07-11T04:00:00.000Z",
     "topic": "LLM",
     "summary": "Reinforcement learning (RL) has achieved remarkable success in enhancing the reasoning capabilities of large language models (LLMs). However, widely used critic-free RL methods rely on uniform credit assignment, broadcas"
   },
@@ -49,7 +40,7 @@
     "headline": "Hallucination Self-Play: Bootstrapping Reinforced Detector via Evolved Generator",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2607.07993",
-    "publishedAt": "2026-07-10T04:00:00.000Z",
+    "publishedAt": "2026-07-11T04:00:00.000Z",
     "topic": "LLM",
     "summary": "Identifying faithfulness hallucinations in LLM-generated outputs remains challenging due to the scarcity of high-quality annotated data. Recent work relies on advanced LLMs to synthesize training data, including rational"
   },
@@ -58,7 +49,7 @@
     "headline": "From Execution to Education: A Bloom-Aligned Framework for Measuring Educational Control in LLMs",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2607.08009",
-    "publishedAt": "2026-07-10T04:00:00.000Z",
+    "publishedAt": "2026-07-11T04:00:00.000Z",
     "topic": "LLM",
     "summary": "We introduce a Bloom-aligned framework for measuring educational control in Large Language Models (LLMs): the ability to preserve a task's instructional intent while shifting its cognitive demand toward specified learnin"
   },
@@ -67,7 +58,7 @@
     "headline": "Tool-Making and Self-Evolving LLM Agents in Low-Latency Systems",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2607.08010",
-    "publishedAt": "2026-07-10T04:00:00.000Z",
+    "publishedAt": "2026-07-11T04:00:00.000Z",
     "topic": "LLM",
     "summary": "Production LLM agents often waste latency and reliability by regenerating code for the same procedural steps on every request. We replace this inference-time coding loop with an agentic tool-making pipeline that compiles"
   },
@@ -76,81 +67,18 @@
     "headline": "Can We Trust LLM's Logic? Quantifying Uncertainty, Coherence, and Robustness via a Graph-Based Framework",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2607.08017",
-    "publishedAt": "2026-07-10T04:00:00.000Z",
+    "publishedAt": "2026-07-11T04:00:00.000Z",
     "topic": "LLM",
     "summary": "Large-Language Models (LLMs) can be prone to flawed and unfaithful reasoning that decoding strategies like Self-Consistency (SC) fail to detect as they evaluate only final-answer agreement while ignoring the logical vali"
   },
   {
-    "id": "arxiv-cs-ir-bach-a-bayesian-admixture-of-contrastive-heads-for-multi-int",
-    "headline": "BACH: A Bayesian Admixture of Contrastive Heads for Multi-Interest Two-Tower Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.08107",
-    "publishedAt": "2026-07-10T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Two-tower retrievers compress each user into a single embedding, limiting their ability to serve diverse interests. Multi-interest models give each user several heads scored by a maximum inner product, but their hard-rou"
-  },
-  {
-    "id": "arxiv-cs-ir-dav-gen-end-to-end-generative-retrieval-via-draft-and-verify",
-    "headline": "DaV-Gen: End-to-End Generative Retrieval via Draft-and-Verify",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.08365",
-    "publishedAt": "2026-07-10T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Mainstream industrial information retrieval systems (e.g., search and recommendation) are usually built upon Multi-Stage Cascade Architectures (MCAs), which balance effectiveness and efficiency through a coarse-to-fine `"
-  },
-  {
-    "id": "arxiv-cs-ir-conversational-retrieval-and-on-the-fly-knowledge-modeling-o",
-    "headline": "Conversational Retrieval and On-the-Fly Knowledge Modeling of Historical Penitentiary Repression Records",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.08459",
-    "publishedAt": "2026-07-10T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Recent developments in digital libraries increasingly favor conversational and natural language access to information through Retrieval-Augmented Generation (RAG). Although these approaches are effective for extractive t"
-  },
-  {
-    "id": "arxiv-cs-ir-who-broke-the-system-failure-localization-in-llm-based-multi",
-    "headline": "Who Broke the System? Failure Localization in LLM-Based Multi-Agent Systems",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.07989",
-    "publishedAt": "2026-07-10T04:00:00.000Z",
+    "id": "aws-machine-learning-blog-disaggregated-prefill-and-decode-for-llm-inference-on-sagema",
+    "headline": "Disaggregated prefill and decode for LLM inference on SageMaker HyperPod",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/disaggregated-prefill-and-decode-for-llm-inference-on-sagemaker-hyperpod/",
+    "publishedAt": "2026-07-10T15:20:16.000Z",
     "topic": "LLM",
-    "summary": "Large language model (LLM) based multi-agent systems enable complex problem solving through coordinated reasoning and action, but their distributed structure also introduces new challenges in diagnosing system-level fail"
-  },
-  {
-    "id": "arxiv-cs-ir-beware-what-you-autocomplete-forensic-attribution-of-backdoo",
-    "headline": "Beware What You Autocomplete: Forensic Attribution of Backdoored Code Completions",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.08011",
-    "publishedAt": "2026-07-10T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models have enabled powerful code completion systems that assist developers by predicting subsequent lines of code. However, these models remain vulnerable to backdoor attacks, where malicious fine-tuning "
-  },
-  {
-    "id": "arxiv-cs-ir-projagent-procedural-similarity-retrieval-for-repository-lev",
-    "headline": "ProjAgent: Procedural Similarity Retrieval for Repository-Level Code Generation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.08691",
-    "publishedAt": "2026-07-10T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Repository-level code generation requires implementing target functions while accounting for complex cross-file dependencies and project-specific conventions. Existing retrieval methods predominantly rely on lexical, str"
-  },
-  {
-    "id": "arxiv-cs-ir-retrieval-of-scientific-and-technological-resources-for-expe",
-    "headline": "Retrieval of Scientific and Technological Resources for Experts and Scholars",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2204.06142",
-    "publishedAt": "2026-07-10T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Institutions of higher learning, research institutes and other scientific research units have abundant scientific and technological resources of experts and scholars, and these talents with great scientific and technolog"
-  },
-  {
-    "id": "arxiv-cs-ir-self-evolverec-self-evolving-recommender-systems-with-llm-ba",
-    "headline": "Self-EvolveRec: Self-Evolving Recommender Systems with LLM-based Directional Feedback",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2602.12612",
-    "publishedAt": "2026-07-10T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Traditional methods for automating recommender system design, such as Neural Architecture Search (NAS), are often constrained by a fixed search space defined by human priors, limiting innovation to pre-defined operators."
+    "summary": "In this post, we show how to implement DPD with vLLM on Amazon SageMaker HyperPod using the HyperPod Inference Operator."
   },
   {
     "id": "simon-willison-s-blog-llm-meta-ai-0-1",
