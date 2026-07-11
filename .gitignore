@@ -47,3 +47,4 @@ PROJECT_STATE.md
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+prompts/
