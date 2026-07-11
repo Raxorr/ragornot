@@ -270,6 +270,14 @@
     "topic": "LLM"
   },
   {
+    "id": "hacker-news-hybrid-local-and-cloud-llm-stack-for-regulated-financial-doc",
+    "headline": "Hybrid local and cloud LLM stack for regulated financial document processing?",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=48327218",
+    "publishedAt": "2026-05-29T18:22:54.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "openai-how-virgin-atlantic-ships-faster-with-codex",
     "headline": "How Virgin Atlantic ships faster with Codex",
     "source": "OpenAI",
@@ -376,14 +384,6 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
     "publishedAt": "2026-04-29T15:01:48.000Z",
-    "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-show-hn-i-built-a-search-engine-for-llms-txt-sites",
-    "headline": "Show HN: I built a search engine for llms.txt sites",
-    "source": "Hacker News",
-    "url": "https://statespace.com/",
-    "publishedAt": "2026-04-28T16:02:05.000Z",
     "topic": "LLM"
   },
   {
