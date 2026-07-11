@@ -38,6 +38,7 @@ export interface ModeSummary {
   answerText: string;
   matches: ApiMatch[];
   error: string | null;
+  modelId: string | null;
 }
 
 export interface QueryResult {
@@ -66,6 +67,7 @@ export function buildSummary(data: ApiResponse, latencyMs: number): ModeSummary 
     answerText: data.answer_text ?? "",
     matches: data.matches.slice(0, 5),
     error: data.error,
+    modelId: data.llm_stats?.model ?? null,
   };
 }
 
@@ -99,5 +101,6 @@ export function emptyModeSummary(): ModeSummary {
   return {
     confidence: null, qualityProxy: null, latencyMs: 0,
     topTitles: [], costUsd: 0, tokens: 0, answerText: "", matches: [], error: null,
+    modelId: null,
   };
 }

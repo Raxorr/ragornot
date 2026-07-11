@@ -166,12 +166,17 @@ function downloadJson(results: QueryResult[], history: RunRecord[]) {
     if (r.winner !== "failed" && r.winner !== "skipped")
       winCounts[r.winner]++;
   }
-  // Pick model id from first available llm_stats
+  // Pick model id from the first available LLM/RAG result that reported one.
   let modelId = "";
-  outer: for (const r of results) {
+  for (const r of results) {
     for (const m of ["llm", "rag"] as ApiMode[]) {
-      if (!r[m].error && r[m].tokens > 0) { modelId = ""; break outer; }
+      const s = r[m];
+      if (!s.error && s.tokens > 0 && s.modelId) {
+        modelId = s.modelId;
+        break;
+      }
     }
+    if (modelId) break;
   }
   const ts = new Date().toISOString();
   const payload = {
@@ -205,6 +210,7 @@ function downloadJson(results: QueryResult[], history: RunRecord[]) {
             answer_text: r[m].answerText,
             matches: r[m].matches,
             error: r[m].error,
+            model_id: r[m].modelId,
           },
         ]),
       ),
