@@ -162,6 +162,14 @@
     "topic": "Cost"
   },
   {
+    "id": "hacker-news-show-hn-blitzgraph-supabase-for-graphs-built-for-llm-agents",
+    "headline": "Show HN: BlitzGraph – Supabase for graphs, built for LLM agents",
+    "source": "Hacker News",
+    "url": "https://blitzgraph.com",
+    "publishedAt": "2026-06-16T15:41:02.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "google-ai-blog-our-new-community-investments-in-virginia-support-local-jobs",
     "headline": "Our new community investments in Virginia support local jobs and expand energy affordability.",
     "source": "Google AI Blog",
@@ -195,14 +203,6 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
     "publishedAt": "2026-06-01T13:51:18.000Z",
-    "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-hybrid-local-and-cloud-llm-stack-for-regulated-financial-doc",
-    "headline": "Hybrid local and cloud LLM stack for regulated financial document processing?",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=48327218",
-    "publishedAt": "2026-05-29T18:22:54.000Z",
     "topic": "LLM"
   },
   {
