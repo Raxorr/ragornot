@@ -1,5 +1,104 @@
 [
   {
+    "id": "arxiv-cs-cl-an-emergent-mirage-is-emergent-misalignment-and-realignment-",
+    "headline": "An Emergent Mirage: Is Emergent Misalignment and Realignment Indeed a Robust Phenomenon?",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.09053",
+    "publishedAt": "2026-07-13T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Recent work has reported Emergent Misalignment (EM), where language models fine-tuned on narrow, domain-specific misaligned datasets abruptly acquire broadly misaligned behavior, alongside evidence that this behavior can"
+  },
+  {
+    "id": "arxiv-cs-cl-agentkgv-agentic-llm-rag-framework-with-two-stage-training-f",
+    "headline": "AgentKGV: Agentic LLM-RAG Framework with Two-Stage Training for the Fact Verification of Knowledge Graphs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.09092",
+    "publishedAt": "2026-07-13T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Knowledge graphs (KGs) are often automatically constructed from large-scale corpora, but they inevitably contain factual errors due to noisy sources and extraction failures, and verifying them reliably at industrial scal"
+  },
+  {
+    "id": "arxiv-cs-cl-precg-legal-precedent-retrieval-with-graph-neural-networks-a",
+    "headline": "PRecG: Legal Precedent Retrieval with Graph Neural Networks and Rhetorical Role Segmentation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.09094",
+    "publishedAt": "2026-07-13T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Legal precedent retrieval is a fundamental task in legal case preparation, planning, litigation strategy, and legal research. Current approaches for automatic precedent retrieval map legal documents to a low-dimensional "
+  },
+  {
+    "id": "arxiv-cs-cl-augmenting-fundamental-analysis-with-large-language-models-a",
+    "headline": "Augmenting Fundamental Analysis with Large Language Models: A RAG-Based System for Generating Investor Briefs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.09121",
+    "publishedAt": "2026-07-13T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "In this study, we examine the opportunities brought by Large Language Models (LLMs) to various aspects of fundamental analysis of companies based on their reports as well as data and documents describing macroeconomic si"
+  },
+  {
+    "id": "arxiv-cs-cl-towards-detecting-inconsistencies-in-end-to-end-generated-to",
+    "headline": "Towards Detecting Inconsistencies in End-to-end Generated TODs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.09338",
+    "publishedAt": "2026-07-13T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Generative AI is profoundly transforming the core technologies behind conversational systems, shifting from component-based to end-to-end approaches. However, Large Language Models (LLMs) may still generate inconsistenci"
+  },
+  {
+    "id": "arxiv-cs-cl-dkcd-domain-knowledge-enhanced-causal-discovery-from-unstruc",
+    "headline": "DKCD: Domain Knowledge-Enhanced Causal Discovery from Unstructured Data",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.09348",
+    "publishedAt": "2026-07-13T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Causal discovery from unstructured data is a challenging yet underexplored task in high-expertise domains such as healthcare, finance, and education. Existing methods typically leverage the general knowledge of large lan"
+  },
+  {
+    "id": "arxiv-cs-cl-deceptive-grounding-entity-attribution-failure-in-clinical-r",
+    "headline": "Deceptive Grounding: Entity Attribution Failure in Clinical Retrieval-Augmented Generation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.09349",
+    "publishedAt": "2026-07-13T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-augmented generation evaluation checks whether model claims are factually grounded in retrieved documents. It does not check whether retrieved evidence is attributed to the correct entity. A clinical RAG respon"
+  },
+  {
+    "id": "arxiv-cs-cl-self-guided-test-time-training-for-long-context-llms",
+    "headline": "Self-Guided Test-Time Training for Long-Context LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.09415",
+    "publishedAt": "2026-07-13T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Long-context processing has become increasingly important for large language models (LLMs), but simply extending the context window does not guarantee effective utilization of long inputs. As input length grows, accuracy"
+  },
+  {
+    "id": "arxiv-cs-ir-all-explanations-are-wrong-but-many-are-useful-exploring-the",
+    "headline": "All Explanations are Wrong, But Many Are Useful: Exploring the Rashomon Explanation Set with Large Language Models",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.09502",
+    "publishedAt": "2026-07-13T04:00:00.000Z",
+    "topic": "Cost",
+    "summary": "Explaining machine-learning models is increasingly important for decision-making and consumer trust, yet it is widely believed to come at a cost: existing Explainable AI (XAI) methods suffer from a persistent accuracy-ex"
+  },
+  {
+    "id": "arxiv-cs-ir-do-recommendation-algorithms-work-when-users-are-llm-agents-",
+    "headline": "Do Recommendation Algorithms Work When Users Are LLM Agents? A Case Study on Moltbook",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2606.29762",
+    "publishedAt": "2026-07-13T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language model (LLM) agents are increasingly populating web platforms, raising a fundamental question for recommender systems: do algorithms designed for human users still work when users are LLM agents that may no"
+  },
+  {
+    "id": "arxiv-cs-ir-the-powerless-noise-how-experimental-settings-shape-the-repo",
+    "headline": "The Powerless Noise: How Experimental Settings Shape the Reported Power of Noise",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.03615",
+    "publishedAt": "2026-07-13T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Recent work has suggested that adding irrelevant documents to the input of retrieval-augmented generation (RAG) systems can improve question-answering performance, a phenomenon referred to as the Power of Noise. This mot"
+  },
+  {
     "id": "aws-machine-learning-blog-disaggregated-prefill-and-decode-for-llm-inference-on-sagema",
     "headline": "Disaggregated prefill and decode for LLM inference on SageMaker HyperPod",
     "source": "AWS Machine Learning Blog",
