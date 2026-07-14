@@ -171,15 +171,6 @@
     "summary": "Release: llm 0.31.1 Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. #1521 This bug came up when I was testing llm-meta-ai . Tag"
   },
   {
-    "id": "aws-machine-learning-blog-powering-scientific-discovery-byokg-and-graphrag-for-intelli",
-    "headline": "Powering scientific discovery: BYOKG and GraphRAG for intelligent pharmaceutical research",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/powering-scientific-discovery-byokg-and-graphrag-for-intelligent-pharmaceutical-research/",
-    "publishedAt": "2026-07-08T16:57:12.000Z",
-    "topic": "RAG",
-    "summary": "In this post, we explore how Graph-based Retrieval Augmented Generation (GraphRAG) is transforming scientific research by combining graph databases with generative AI. With this approach, you can accelerate discovery pro"
-  },
-  {
     "id": "hacker-news-from-words-to-watts-benchmarking-the-energy-costs-of-llm-inf",
     "headline": "From Words to Watts: Benchmarking the Energy Costs of LLM Inference (2023)",
     "source": "Hacker News",
