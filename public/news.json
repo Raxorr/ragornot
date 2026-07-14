@@ -1,102 +1,147 @@
 [
   {
-    "id": "arxiv-cs-cl-an-emergent-mirage-is-emergent-misalignment-and-realignment-",
-    "headline": "An Emergent Mirage: Is Emergent Misalignment and Realignment Indeed a Robust Phenomenon?",
+    "id": "arxiv-cs-cl-index-slm-technical-report",
+    "headline": "Index SLM Technical Report",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.09053",
-    "publishedAt": "2026-07-13T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Recent work has reported Emergent Misalignment (EM), where language models fine-tuned on narrow, domain-specific misaligned datasets abruptly acquire broadly misaligned behavior, alongside evidence that this behavior can"
-  },
-  {
-    "id": "arxiv-cs-cl-agentkgv-agentic-llm-rag-framework-with-two-stage-training-f",
-    "headline": "AgentKGV: Agentic LLM-RAG Framework with Two-Stage Training for the Fact Verification of Knowledge Graphs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.09092",
-    "publishedAt": "2026-07-13T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Knowledge graphs (KGs) are often automatically constructed from large-scale corpora, but they inevitably contain factual errors due to noisy sources and extraction failures, and verifying them reliably at industrial scal"
-  },
-  {
-    "id": "arxiv-cs-cl-precg-legal-precedent-retrieval-with-graph-neural-networks-a",
-    "headline": "PRecG: Legal Precedent Retrieval with Graph Neural Networks and Rhetorical Role Segmentation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.09094",
-    "publishedAt": "2026-07-13T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Legal precedent retrieval is a fundamental task in legal case preparation, planning, litigation strategy, and legal research. Current approaches for automatic precedent retrieval map legal documents to a low-dimensional "
-  },
-  {
-    "id": "arxiv-cs-cl-augmenting-fundamental-analysis-with-large-language-models-a",
-    "headline": "Augmenting Fundamental Analysis with Large Language Models: A RAG-Based System for Generating Investor Briefs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.09121",
-    "publishedAt": "2026-07-13T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "In this study, we examine the opportunities brought by Large Language Models (LLMs) to various aspects of fundamental analysis of companies based on their reports as well as data and documents describing macroeconomic si"
-  },
-  {
-    "id": "arxiv-cs-cl-towards-detecting-inconsistencies-in-end-to-end-generated-to",
-    "headline": "Towards Detecting Inconsistencies in End-to-end Generated TODs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.09338",
-    "publishedAt": "2026-07-13T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2607.09885",
+    "publishedAt": "2026-07-14T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Generative AI is profoundly transforming the core technologies behind conversational systems, shifting from component-based to end-to-end approaches. However, Large Language Models (LLMs) may still generate inconsistenci"
+    "summary": "We present Index-1.9B, a series of open small language models developed at Bilibili. The series comprises four models: Index-1.9B-Base, a foundation model with 1.9 billion non-embedding parameters pre-trained on 2.8 tril"
   },
   {
-    "id": "arxiv-cs-cl-dkcd-domain-knowledge-enhanced-causal-discovery-from-unstruc",
-    "headline": "DKCD: Domain Knowledge-Enhanced Causal Discovery from Unstructured Data",
+    "id": "arxiv-cs-cl-routerec-strict-evaluation-of-recommender-agent-selection-an",
+    "headline": "RouteRec: Strict Evaluation of Recommender-Agent Selection and Aggregation",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.09348",
-    "publishedAt": "2026-07-13T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Causal discovery from unstructured data is a challenging yet underexplored task in high-expertise domains such as healthcare, finance, and education. Existing methods typically leverage the general knowledge of large lan"
-  },
-  {
-    "id": "arxiv-cs-cl-deceptive-grounding-entity-attribution-failure-in-clinical-r",
-    "headline": "Deceptive Grounding: Entity Attribution Failure in Clinical Retrieval-Augmented Generation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.09349",
-    "publishedAt": "2026-07-13T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-augmented generation evaluation checks whether model claims are factually grounded in retrieved documents. It does not check whether retrieved evidence is attributed to the correct entity. A clinical RAG respon"
-  },
-  {
-    "id": "arxiv-cs-cl-self-guided-test-time-training-for-long-context-llms",
-    "headline": "Self-Guided Test-Time Training for Long-Context LLMs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.09415",
-    "publishedAt": "2026-07-13T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2607.09908",
+    "publishedAt": "2026-07-14T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Long-context processing has become increasingly important for large language models (LLMs), but simply extending the context window does not guarantee effective utilization of long inputs. As input length grows, accuracy"
+    "summary": "Recommender systems increasingly face a choice among heterogeneous agents -- collaborative filters, sequential models, content-based retrievers, and LLM-based rerankers -- yet no single agent is uniformly best. We study "
   },
   {
-    "id": "arxiv-cs-ir-all-explanations-are-wrong-but-many-are-useful-exploring-the",
-    "headline": "All Explanations are Wrong, But Many Are Useful: Exploring the Rashomon Explanation Set with Large Language Models",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.09502",
-    "publishedAt": "2026-07-13T04:00:00.000Z",
-    "topic": "Cost",
-    "summary": "Explaining machine-learning models is increasingly important for decision-making and consumer trust, yet it is widely believed to come at a cost: existing Explainable AI (XAI) methods suffer from a persistent accuracy-ex"
-  },
-  {
-    "id": "arxiv-cs-ir-do-recommendation-algorithms-work-when-users-are-llm-agents-",
-    "headline": "Do Recommendation Algorithms Work When Users Are LLM Agents? A Case Study on Moltbook",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2606.29762",
-    "publishedAt": "2026-07-13T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language model (LLM) agents are increasingly populating web platforms, raising a fundamental question for recommender systems: do algorithms designed for human users still work when users are LLM agents that may no"
-  },
-  {
-    "id": "arxiv-cs-ir-the-powerless-noise-how-experimental-settings-shape-the-repo",
-    "headline": "The Powerless Noise: How Experimental Settings Shape the Reported Power of Noise",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.03615",
-    "publishedAt": "2026-07-13T04:00:00.000Z",
+    "id": "arxiv-cs-cl-global-merger-arbitrage-forecasting-with-language-models",
+    "headline": "Global Merger-Arbitrage Forecasting with Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.09921",
+    "publishedAt": "2026-07-14T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "Recent work has suggested that adding irrelevant documents to the input of retrieval-augmented generation (RAG) systems can improve question-answering performance, a phenomenon referred to as the Power of Noise. This mot"
+    "summary": "We present a language-model forecasting system for merger arbitrage, a specialized high-stakes financial setting in which the task is to predict the outcome of announced M\\&A deals. Unlike prior work on judgmental foreca"
+  },
+  {
+    "id": "arxiv-cs-cl-faithful-by-design-evaluating-and-improving-llm-generated-cl",
+    "headline": "Faithful by Design: Evaluating and Improving LLM-Generated Clinical Trial Summaries for Multi-Stakeholder Audiences",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.09932",
+    "publishedAt": "2026-07-14T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models are increasingly used to summarize clinical trial results for healthcare providers, patients, and payers, but their tendency to hallucinate poses significant risks in this high-stakes context. This "
+  },
+  {
+    "id": "arxiv-cs-cl-silent-failures-in-quantized-llm-reasoning-a-taxonomy-based-",
+    "headline": "Silent Failures in Quantized LLM Reasoning: A Taxonomy-Based Analysis of Hollow Convergence and Failure Mode Shifts",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.09999",
+    "publishedAt": "2026-07-14T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "We show that post-training quantization can silently alter how large language models reason even when task accuracy is preserved. Using a six-category failure taxonomy validated by two independent human annotators (Cohen"
+  },
+  {
+    "id": "arxiv-cs-cl-equal-accuracy-unequal-evidence-search-apis-as-decision-surf",
+    "headline": "Equal Accuracy, Unequal Evidence: Search APIs as Decision Surfaces for Tool-Using Agents",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.10198",
+    "publishedAt": "2026-07-14T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Search APIs are the fundamental retrieval layer for many agents and are often their most frequently used tool. Traditional search APIs provide URLs, titles, and snippets that preview website contents. Because full-page r"
+  },
+  {
+    "id": "arxiv-cs-cl-consensus-vs-dissent-dynamic-llm-modeling-of-subjective-pref",
+    "headline": "Consensus vs. Dissent: Dynamic LLM Modeling of Subjective Preferences in Group Recommenders",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.10235",
+    "publishedAt": "2026-07-14T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Previous work in group recommender systems has demonstrated a sensitivity to the distribution of preferences within a group. Specifically, the selection of the preference aggregation strategy benefits from considering su"
+  },
+  {
+    "id": "arxiv-cs-cl-ptei-integrating-personality-traits-to-enhance-emotional-int",
+    "headline": "PTEI: Integrating Personality Traits to Enhance Emotional Intelligence in Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.10245",
+    "publishedAt": "2026-07-14T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Despite advances in Emotional Intelligence (EI), Large Language Models (LLMs) still significantly underperform humans in complex emotional reasoning. This gap originates partly from the limited incorporation of individua"
+  },
+  {
+    "id": "arxiv-cs-ir-an-llm-powered-agentic-recommendation-system-for-connected-t",
+    "headline": "An LLM-powered Agentic Recommendation System for Connected TV Content Discovery",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.09988",
+    "publishedAt": "2026-07-14T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Recommendation systems, from traditional multi-stage to recent unified generative architectures, face challenges in incorporating diverse contextual signals, such as trending topics, breaking news, cultural events, and c"
+  },
+  {
+    "id": "arxiv-cs-ir-tokenizing-numerical-and-embedding-features-for-llm-recsys",
+    "headline": "Tokenizing Numerical and Embedding Features for LLM RecSys",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.10016",
+    "publishedAt": "2026-07-14T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are increasingly used as backbone architectures for recommender systems because of their strong sequence modeling and representation learning capabilities. However, most LLM-based recommender"
+  },
+  {
+    "id": "arxiv-cs-ir-the-effect-of-multi-lingual-and-keyword-adversarial-injectio",
+    "headline": "The Effect of Multi-Lingual and Keyword Adversarial Injection on LLM Relevance Judgment",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.10080",
+    "publishedAt": "2026-07-14T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large language models (LLMs) are increasingly being used as automated judges for relevance evaluation in information retrieval, yet their robustness to adversarial manipulation remains insufficiently understood, particul"
+  },
+  {
+    "id": "arxiv-cs-ir-scaling-and-stabilizing-large-scale-embedding-based-retrieva",
+    "headline": "Scaling and Stabilizing Large-Scale Embedding-Based Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.10096",
+    "publishedAt": "2026-07-14T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Embedding-based retrieval (EBR) is foundational to large-scale e-commerce search, yet its effectiveness is often constrained by the quality of training signals and the representational capacity of the encoder. Standard d"
+  },
+  {
+    "id": "arxiv-cs-ir-adaptive-model-compression-amc-saliency-driven-resource-allo",
+    "headline": "Adaptive Model Compression (AMC): Saliency-Driven Resource Allocation for Ultra-Low-Power Transformer Inference",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.10109",
+    "publishedAt": "2026-07-14T04:00:00.000Z",
+    "topic": "Environment",
+    "summary": "Deploying large-scale transformer models on resource-constrained edge devices remains a challenge due to the high energy and memory overhead inherent in static inference, which processes simple and complex tokens with un"
+  },
+  {
+    "id": "arxiv-cs-ir-mc-rag-system-a-structure-driven-rag-system-for-multi-constr",
+    "headline": "MC-RAG System: A Structure-Driven RAG System for Multi-Constraint Queries",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.10151",
+    "publishedAt": "2026-07-14T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-Augmented Generation (RAG) systems are widely adopted in question answering, yet they often fail to satisfy complex multi-constraint queries, leading to constraint violations, factual inconsistencies, or halluc"
+  },
+  {
+    "id": "arxiv-cs-ir-multilingual-semantic-retrieval-for-apple-music-search",
+    "headline": "Multilingual Semantic Retrieval for Apple Music Search",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.10239",
+    "publishedAt": "2026-07-14T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Apple Music serves listeners across 150+ storefronts in dozens of languages, with a catalog that grows by hundreds of thousands of new tracks daily. At this scale, search recall on misspelled, transliterated, and cross-l"
+  },
+  {
+    "id": "arxiv-cs-ir-svd-rag-efficient-tree-organized-retrieval-augmented-generat",
+    "headline": "SVD-RAG: Efficient Tree-Organized Retrieval-Augmented Generation via Singular Value Decomposition",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.10316",
+    "publishedAt": "2026-07-14T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-Augmented Generation (RAG) systems enhance large language models by retrieving relevant documents from external knowledge bases. Recent work by Sarthi et al. (2024) introduced RAPTOR, which organizes documents "
   },
   {
     "id": "aws-machine-learning-blog-disaggregated-prefill-and-decode-for-llm-inference-on-sagema",
