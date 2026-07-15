@@ -1,5 +1,15 @@
 [
   {
+    "id": "venturebeat-ai-agentic-orchestration-enterprise-ai-organizations-have-a-dep",
+    "headline": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+    "publishedAt": "2026-07-15T22:24:17.000Z",
+    "topic": "LLM",
+    "summary": "Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-step ex",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/3YcL8Sbx04RQsgnRvbYfs5/6620b35dd75cc138cb57cf72a9773f07/VentureBeat-Research-1.png?w=300&amp;q=30"
+  },
+  {
     "id": "arxiv-cs-cl-scaling-point-in-time-language-models",
     "headline": "Scaling Point-in-Time Language Models",
     "source": "arXiv (cs.CL)",
@@ -298,6 +308,14 @@
     "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp"
   },
   {
+    "id": "hacker-news-mitigating-the-llm-rerun-crisis-for-minimized-inference-cost",
+    "headline": "Mitigating the LLM Rerun Crisis for Minimized-Inference-Cost Web Automation",
+    "source": "Hacker News",
+    "url": "https://arxiv.org/abs/2604.09718",
+    "publishedAt": "2026-06-07T14:29:29.000Z",
+    "topic": "Cost"
+  },
+  {
     "id": "ahead-of-ai-llm-research-papers-the-2026-list-january-to-may",
     "headline": "LLM Research Papers: The 2026 List (January to May)",
     "source": "Ahead of AI",
@@ -313,6 +331,14 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
     "publishedAt": "2026-06-01T13:51:18.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "hacker-news-hybrid-local-and-cloud-llm-stack-for-regulated-financial-doc",
+    "headline": "Hybrid local and cloud LLM stack for regulated financial document processing?",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=48327218",
+    "publishedAt": "2026-05-29T18:22:54.000Z",
     "topic": "LLM"
   },
   {
@@ -423,22 +449,6 @@
     "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
     "publishedAt": "2026-04-29T15:01:48.000Z",
     "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-show-hn-i-built-a-search-engine-for-llms-txt-sites",
-    "headline": "Show HN: I built a search engine for llms.txt sites",
-    "source": "Hacker News",
-    "url": "https://statespace.com/",
-    "publishedAt": "2026-04-28T16:02:05.000Z",
-    "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-rag-pipelines-leaking-pii-into-vector-databases-and-nobody-s",
-    "headline": "RAG pipelines, leaking PII into vector databases and nobody's talking about it",
-    "source": "Hacker News",
-    "url": "https://comply-tech.co.uk/blog/rag-pipeline-pii-vector-embeddings.html",
-    "publishedAt": "2026-04-24T09:21:55.000Z",
-    "topic": "RAG"
   },
   {
     "id": "qdrant-blog-how-data-graphs-built-a-true-hybrid-graph-rag-platform",
@@ -666,16 +676,6 @@
     "topic": "LLM",
     "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire featur",
     "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/wHv1Wez7Ps9wYVYAo9fwT/14b41f606dbf1f5b17994be510407449/nuneybits_Hyper-realistic_image_of_a_retro_computer_with_a_glos_61ffb6e2-7c33-4d45-85f7-69c28693b3ec.webp?w=300&amp;q=30"
-  },
-  {
-    "id": "venturebeat-ai-nous-research-s-nouscoder-14b-is-an-open-source-coding-model",
-    "headline": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
-    "source": "VentureBeat AI",
-    "url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
-    "publishedAt": "2026-01-07T20:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Nous Research , the open-source artificial intelligence startup backed by crypto venture firm Paradigm , released a new competitive programming model on Monday that it says matches or exceeds several larger proprietary s",
-    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/66Tw6dMGGoSZZOK6XB6gm6/0fafc7520898e26c88edf1de9e74e863/nuneybits_Vector_art_of_radiant_skull_emitting_code_beams_deep__17d19acc-0af7-41ad-ac28-16f09ef5234b.webp?w=300&amp;q=30"
   },
   {
     "id": "qdrant-blog-new-deeplearning-ai-course-on-multi-vector-image-retrieval-w",
