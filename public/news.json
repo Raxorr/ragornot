@@ -298,14 +298,6 @@
     "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp"
   },
   {
-    "id": "hacker-news-mitigating-the-llm-rerun-crisis-for-minimized-inference-cost",
-    "headline": "Mitigating the LLM Rerun Crisis for Minimized-Inference-Cost Web Automation",
-    "source": "Hacker News",
-    "url": "https://arxiv.org/abs/2604.09718",
-    "publishedAt": "2026-06-07T14:29:29.000Z",
-    "topic": "Cost"
-  },
-  {
     "id": "ahead-of-ai-llm-research-papers-the-2026-list-january-to-may",
     "headline": "LLM Research Papers: The 2026 List (January to May)",
     "source": "Ahead of AI",
@@ -439,6 +431,14 @@
     "url": "https://statespace.com/",
     "publishedAt": "2026-04-28T16:02:05.000Z",
     "topic": "LLM"
+  },
+  {
+    "id": "hacker-news-rag-pipelines-leaking-pii-into-vector-databases-and-nobody-s",
+    "headline": "RAG pipelines, leaking PII into vector databases and nobody's talking about it",
+    "source": "Hacker News",
+    "url": "https://comply-tech.co.uk/blog/rag-pipeline-pii-vector-embeddings.html",
+    "publishedAt": "2026-04-24T09:21:55.000Z",
+    "topic": "RAG"
   },
   {
     "id": "qdrant-blog-how-data-graphs-built-a-true-hybrid-graph-rag-platform",
