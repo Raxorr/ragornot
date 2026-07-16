@@ -4,10 +4,20 @@
     "headline": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
     "source": "VentureBeat AI",
     "url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
-    "publishedAt": "2026-07-16T17:35:19.000Z",
+    "publishedAt": "2026-07-16T19:16:48.000Z",
     "topic": "Cost",
     "summary": "Across 107 enterprises, AI infrastructure spending is accelerating well ahead of the ability to see or steer its economics. Most organizations run their AI on a familiar base of hyperscalers and model-provider APIs, yet ",
     "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/65A33lcUi9p0nBSloUI1Wo/5e5d26295bc879f0ea8845cecac65504/VentureBeat-Research.png?w=300&amp;q=30"
+  },
+  {
+    "id": "venturebeat-ai-the-agent-security-gap-54-of-enterprises-have-already-had-an",
+    "headline": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+    "publishedAt": "2026-07-16T19:02:38.000Z",
+    "topic": "AI",
+    "summary": "Across 107 enterprises, AI agents are being given real access to systems and data while the controls meant to contain them lag behind. More than half have already had a confirmed agent security incident or a near-miss; o",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/3YcL8Sbx04RQsgnRvbYfs5/0567154029abc3d37ccfad9b6cc5f370/VentureBeat-Research-1.png?w=300&amp;q=30"
   },
   {
     "id": "venturebeat-ai-the-ai-context-gap-enterprise-ai-organizations-have-a-trust-",
@@ -310,14 +320,6 @@
     "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp"
   },
   {
-    "id": "hacker-news-mitigating-the-llm-rerun-crisis-for-minimized-inference-cost",
-    "headline": "Mitigating the LLM Rerun Crisis for Minimized-Inference-Cost Web Automation",
-    "source": "Hacker News",
-    "url": "https://arxiv.org/abs/2604.09718",
-    "publishedAt": "2026-06-07T14:29:29.000Z",
-    "topic": "Cost"
-  },
-  {
     "id": "ahead-of-ai-llm-research-papers-the-2026-list-january-to-may",
     "headline": "LLM Research Papers: The 2026 List (January to May)",
     "source": "Ahead of AI",
@@ -433,6 +435,14 @@
     "url": "https://statespace.com/",
     "publishedAt": "2026-04-28T16:02:05.000Z",
     "topic": "LLM"
+  },
+  {
+    "id": "hacker-news-rag-pipelines-leaking-pii-into-vector-databases-and-nobody-s",
+    "headline": "RAG pipelines, leaking PII into vector databases and nobody's talking about it",
+    "source": "Hacker News",
+    "url": "https://comply-tech.co.uk/blog/rag-pipeline-pii-vector-embeddings.html",
+    "publishedAt": "2026-04-24T09:21:55.000Z",
+    "topic": "RAG"
   },
   {
     "id": "qdrant-blog-how-data-graphs-built-a-true-hybrid-graph-rag-platform",
@@ -620,16 +630,6 @@
     "publishedAt": "2026-01-20T19:00:00.000Z",
     "topic": "Environment",
     "summary": "Stargate Community plans detail a community-first approach to AI infrastructure, using locally tailored plans shaped by community input, energy needs, and workforce priorities."
-  },
-  {
-    "id": "venturebeat-ai-claude-code-costs-up-to-200-a-month-goose-does-the-same-thin",
-    "headline": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
-    "source": "VentureBeat AI",
-    "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
-    "publishedAt": "2026-01-19T14:00:00.000Z",
-    "topic": "Cost",
-    "summary": "The artificial intelligence coding revolution comes with a catch: it&#x27;s expensive. Claude Code , Anthropic&#x27;s terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imaginat",
-    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/1U9H8GLIqoGqKpitVfgw3T/ba56292f99409eca709dac0b176ec245/nuneybits_Vector_art_of_white_goose_silhouette_flying_through_c_8100d5a7-9e36-4ed6-a188-016470e1d0e1.webp?w=300&amp;q=30"
   },
   {
     "id": "qdrant-blog-new-deeplearning-ai-course-on-multi-vector-image-retrieval-w",
