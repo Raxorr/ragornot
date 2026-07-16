@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-build-enterprise-search-for-agents-with-amazon-bedrock-manag",
+    "headline": "Build enterprise search for agents with Amazon Bedrock Managed Knowledge Base",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-enterprise-search-for-agents-with-amazon-bedrock-managed-knowledge-base/",
+    "publishedAt": "2026-07-16T21:29:14.000Z",
+    "topic": "RAG",
+    "summary": "In this post, we walk through the three pillars that make this possible: simplified setup, smarter retrieval, and production readiness. We also show you code examples for setting up a knowledge base and retrieving from i"
+  },
+  {
     "id": "venturebeat-ai-the-ai-compute-gap-enterprises-are-buying-infrastructure-fas",
     "headline": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
     "source": "VentureBeat AI",
