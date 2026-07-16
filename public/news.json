@@ -1,20 +1,10 @@
 [
   {
-    "id": "venturebeat-ai-agentic-orchestration-enterprise-ai-organizations-have-a-dep",
-    "headline": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
-    "source": "VentureBeat AI",
-    "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
-    "publishedAt": "2026-07-15T22:24:17.000Z",
-    "topic": "LLM",
-    "summary": "Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-step ex",
-    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/3YcL8Sbx04RQsgnRvbYfs5/6620b35dd75cc138cb57cf72a9773f07/VentureBeat-Research-1.png?w=300&amp;q=30"
-  },
-  {
     "id": "arxiv-cs-cl-scaling-point-in-time-language-models",
     "headline": "Scaling Point-in-Time Language Models",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2607.11889",
-    "publishedAt": "2026-07-15T04:00:00.000Z",
+    "publishedAt": "2026-07-16T04:00:00.000Z",
     "topic": "LLM",
     "summary": "Large language models trained on unrestricted internet corpora inevitably embed information from the future, introducing lookahead bias that compromises the validity of backtests and causal inference in finance and the s"
   },
@@ -23,7 +13,7 @@
     "headline": "CANDI: Contextual Alignment for Niche Domains Question Answering",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2607.11891",
-    "publishedAt": "2026-07-15T04:00:00.000Z",
+    "publishedAt": "2026-07-16T04:00:00.000Z",
     "topic": "LLM",
     "summary": "The deployment of large language models (LLMs) in specialized domains like medical diagnostics and financial advisory necessitates evaluating capabilities beyond general knowledge. Traditional question-answering benchmar"
   },
@@ -32,7 +22,7 @@
     "headline": "I'm Sorry, but I Can't Help with Braille: Revealing Accessibility Failures in State-of-the-Art LLMs",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2607.11893",
-    "publishedAt": "2026-07-15T04:00:00.000Z",
+    "publishedAt": "2026-07-16T04:00:00.000Z",
     "topic": "LLM",
     "summary": "Large Language Models (LLMs) perform strongly on many language tasks, but their capability in structurally constrained, accessibility-critical modalities such as Braille remains unclear. We evaluate state-of-the-art LLMs"
   },
@@ -41,7 +31,7 @@
     "headline": "TAKE: Trajectory-Aware Knowledge Estimation for Text Dataset Distillation",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2607.11898",
-    "publishedAt": "2026-07-15T04:00:00.000Z",
+    "publishedAt": "2026-07-16T04:00:00.000Z",
     "topic": "RAG",
     "summary": "Large-scale text corpora have become a quiet bottleneck in modern NLP, not just in storage, but in the accumulated cost of training, fine-tuning, and continual learning. We propose a text dataset distillation framework t"
   },
@@ -50,7 +40,7 @@
     "headline": "Transforming LLMs into Efficient Cross-Encoders via Knowledge Distillation for RAG Reranking",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2607.11933",
-    "publishedAt": "2026-07-15T04:00:00.000Z",
+    "publishedAt": "2026-07-16T04:00:00.000Z",
     "topic": "RAG",
     "summary": "Cross-encoders achieve high reranking accuracy in Retrieval-Augmented Generation (RAG) pipelines but impose quadratic inference costs that limit real-time deployment. We address this by fine-tuning LLaMA 3 (8B) as a drop"
   },
@@ -59,7 +49,7 @@
     "headline": "Agentic systems for breast cancer treatment recommendations",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2607.12051",
-    "publishedAt": "2026-07-15T04:00:00.000Z",
+    "publishedAt": "2026-07-16T04:00:00.000Z",
     "topic": "LLM",
     "summary": "Large language models (LLMs) are increasingly being explored for clinical decision support, but their reliability in complex oncology treatment planning remains unclear. We evaluated agentic LLM systems for breast cancer"
   },
@@ -68,7 +58,7 @@
     "headline": "CityBehavEx: A Scalable and Empirically Validated LLM-Assisted Urban Simulation Platform",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2607.12086",
-    "publishedAt": "2026-07-15T04:00:00.000Z",
+    "publishedAt": "2026-07-16T04:00:00.000Z",
     "topic": "Cost",
     "summary": "Recent LLM-based multi-agent urban simulators can generate semantically rich city routines, but they remain costly to scale and are often weakly validated against empirical mobility patterns. We present CityBehavEx, an i"
   },
@@ -77,81 +67,73 @@
     "headline": "Token Reduction Is Not Cost Reduction",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2607.12161",
-    "publishedAt": "2026-07-15T04:00:00.000Z",
+    "publishedAt": "2026-07-16T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "Context-reduction layers for API-based coding agents, including command-output compressors, retrieval rankers, and payload-optimizing proxies, are usually evaluated by how much text they remove. We ask instead: when does"
+    "summary": "Context-reduction layers for API-based coding agents, including command-output compressors, retrieval rankers, and API-boundary proxies, are commonly evaluated by how much context or tool output they remove. We ask a dif"
   },
   {
-    "id": "arxiv-cs-ir-explaining-when-prf-fails-participatory-auditing-for-selecti",
-    "headline": "Explaining When PRF Fails: Participatory Auditing for Selective Query Expansion",
+    "id": "arxiv-cs-ir-where-does-the-noise-come-from-a-variance-components-decompo",
+    "headline": "Where Does the Noise Come From? A Variance-Components Decomposition of Non-Determinism in LLM Brand Answers",
     "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.12098",
-    "publishedAt": "2026-07-15T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Pseudo-Relevance Feedback (PRF) improves retrieval effectiveness on average, but harms a substantial fraction of queries through query drift, an asymmetry hidden by aggregate offline metrics. Existing Selective PRF (sPRF"
-  },
-  {
-    "id": "arxiv-cs-ir-not-only-ntp-extending-training-signal-coverage-for-generati",
-    "headline": "Not Only NTP: Extending Training Signal Coverage for Generative Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.12277",
-    "publishedAt": "2026-07-15T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Next-Token Prediction (NTP) carries two structural training signal limitations. First, NTP optimizes for single-step prediction only, placing no supervised pressure on learning longer-range behavioral structure -- we ter"
-  },
-  {
-    "id": "arxiv-cs-ir-mesh-scaling-up-retrieval-with-heterogeneous-content-unifica",
-    "headline": "MESH: Scaling Up Retrieval with Heterogeneous Content Unification",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.12392",
-    "publishedAt": "2026-07-15T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Optimizing large-scale retrieval hinges on the ability to efficiently surface candidates across diverse content tiers. However, to capture segments such as fresh and long-tail content, modern systems typically resort to "
-  },
-  {
-    "id": "arxiv-cs-ir-cost-governed-rag-unified-per-tenant-cost-attribution-across",
-    "headline": "Cost-Governed RAG: Unified Per-Tenant Cost Attribution Across Retrieval and Generation in Multi-Tenant LLM Systems",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.12188",
-    "publishedAt": "2026-07-15T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Enterprise Retrieval-Augmented Generation (RAG) deployments face a critical governance gap: while LLM generation cost is metered per token, the retrieval layer - vector memory, similarity compute, and embedding API calls"
-  },
-  {
-    "id": "arxiv-cs-ir-towards-vision-free-cir-attribute-augmented-scoring-and-llm-",
-    "headline": "Towards Vision-Free CIR: Attribute-Augmented Scoring and LLM-Based Reranking for Zero-Shot Composed Image Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.12621",
-    "publishedAt": "2026-07-15T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Recent work has shown that \"Vision-Free'' approaches (representing images as text) can be effective for standard image retrieval tasks. However, it remains unclear whether this paradigm can effectively handle a more comp"
-  },
-  {
-    "id": "arxiv-cs-ir-what-would-you-click-personalized-video-thumbnail-generation",
-    "headline": "What Would You Click? Personalized Video Thumbnail Generation with Preference-aware Highlight Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.12882",
-    "publishedAt": "2026-07-15T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Video thumbnails are a key factor for attracting user clicks on video platforms, and are increasingly supported by automation. However, existing thumbnail generation methods typically produce generic results shared acros"
-  },
-  {
-    "id": "arxiv-cs-ir-e-geo-a-testbed-for-generative-engine-optimization-in-e-comm",
-    "headline": "E-GEO: A Testbed for Generative Engine Optimization in E-Commerce",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2511.20867",
-    "publishedAt": "2026-07-15T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "With the rise of large language models (LLMs), generative engines have become powerful alternatives to traditional search, reshaping retrieval tasks. In e-commerce, for instance, conversational shopping agents now guide "
-  },
-  {
-    "id": "arxiv-cs-ir-itimo-an-llm-empowered-synthesis-dataset-for-travel-itinerar",
-    "headline": "iTIMO: An LLM-empowered Synthesis Dataset for Travel Itinerary Modification",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2601.10609",
-    "publishedAt": "2026-07-15T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2607.13304",
+    "publishedAt": "2026-07-16T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Addressing itinerary modification is crucial for enhancing the travel experience as it is a frequent requirement during traveling. However, existing research mainly focuses on fixed itinerary planning, leaving modificati"
+    "summary": "Teams measuring whether large language models (LLMs) recommend a brand face a reproducibility problem: ask the same question twice and the answer moves. Practice resamples each prompt a few times (commonly five) and aver"
+  },
+  {
+    "id": "arxiv-cs-ir-personalizing-incremental-video-search-with-hybrid-text-and-",
+    "headline": "Personalizing Incremental Video Search with Hybrid Text and ID Embeddings",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.13493",
+    "publishedAt": "2026-07-16T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Incremental video search requires high-quality ranking after each keystroke, where intent is often underspecified (e.g., 1-3 character prefixes). We present a personalization system for Apple TV search that combines comp"
+  },
+  {
+    "id": "arxiv-cs-ir-with-argus-eyes-assessing-retrieval-gaps-via-uncertainty-sco",
+    "headline": "With Argus Eyes: Assessing Retrieval Gaps via Uncertainty Scoring to Detect and Remedy Retrieval Blind Spots",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2602.09616",
+    "publishedAt": "2026-07-16T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Reliable retrieval-augmented generation (RAG) systems depend fundamentally on the retriever's ability to find relevant information. We show that neural retrievers used in RAG systems have blind spots, which we define as "
+  },
+  {
+    "id": "arxiv-cs-ir-llm-based-user-personas-for-recommendations-at-scale",
+    "headline": "LLM-Based User Personas for Recommendations at Scale",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2606.12198",
+    "publishedAt": "2026-07-16T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large Language Models (LLMs) offer unprecedented potential for enhancing recommendation systems through their world knowledge and reasoning capabilities. However, existing approaches often rely on structured IDs or offli"
+  },
+  {
+    "id": "arxiv-cs-ir-research-novelty-in-information-systems-journals-after-chatg",
+    "headline": "Research Novelty in Information Systems Journals After ChatGPT: Differences Across Institutional Language Contexts",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2603.22510",
+    "publishedAt": "2026-07-16T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models are increasingly used in scholarly work, yet it remains unclear whether their productivity gains are accompanied by changes in research novelty. We examine how relative abstract-level semantic novel"
+  },
+  {
+    "id": "arxiv-cs-ir-dive-embedding-compression-via-self-limiting-gradient-update",
+    "headline": "DIVE: Embedding Compression via Self-Limiting Gradient Updates",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2605.20689",
+    "publishedAt": "2026-07-16T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "High-dimensional language-model embeddings increase storage and search costs, while supervised compressors can overfit when relevance labels are scarce. We present DIVE (Dimensionality reduction with Implicit View Ensemb"
+  },
+  {
+    "id": "venturebeat-ai-agentic-orchestration-enterprise-ai-organizations-have-a-dep",
+    "headline": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+    "publishedAt": "2026-07-15T22:24:17.000Z",
+    "topic": "LLM",
+    "summary": "Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-step ex",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/3YcL8Sbx04RQsgnRvbYfs5/6620b35dd75cc138cb57cf72a9773f07/VentureBeat-Research-1.png?w=300&amp;q=30"
   },
   {
     "id": "aws-machine-learning-blog-disaggregated-prefill-and-decode-for-llm-inference-on-sagema",
@@ -334,14 +316,6 @@
     "topic": "LLM"
   },
   {
-    "id": "hacker-news-hybrid-local-and-cloud-llm-stack-for-regulated-financial-doc",
-    "headline": "Hybrid local and cloud LLM stack for regulated financial document processing?",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=48327218",
-    "publishedAt": "2026-05-29T18:22:54.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "openai-how-virgin-atlantic-ships-faster-with-codex",
     "headline": "How Virgin Atlantic ships faster with Codex",
     "source": "OpenAI",
@@ -448,6 +422,14 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
     "publishedAt": "2026-04-29T15:01:48.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "hacker-news-show-hn-i-built-a-search-engine-for-llms-txt-sites",
+    "headline": "Show HN: I built a search engine for llms.txt sites",
+    "source": "Hacker News",
+    "url": "https://statespace.com/",
+    "publishedAt": "2026-04-28T16:02:05.000Z",
     "topic": "LLM"
   },
   {
