@@ -1,5 +1,25 @@
 [
   {
+    "id": "venturebeat-ai-the-ai-compute-gap-enterprises-are-buying-infrastructure-fas",
+    "headline": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
+    "publishedAt": "2026-07-16T17:35:19.000Z",
+    "topic": "Cost",
+    "summary": "Across 107 enterprises, AI infrastructure spending is accelerating well ahead of the ability to see or steer its economics. Most organizations run their AI on a familiar base of hyperscalers and model-provider APIs, yet ",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/65A33lcUi9p0nBSloUI1Wo/5e5d26295bc879f0ea8845cecac65504/VentureBeat-Research.png?w=300&amp;q=30"
+  },
+  {
+    "id": "venturebeat-ai-the-ai-context-gap-enterprise-ai-organizations-have-a-trust-",
+    "headline": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
+    "publishedAt": "2026-07-16T17:06:08.000Z",
+    "topic": "RAG",
+    "summary": "Across 101 enterprises, the infrastructure that feeds AI agents their business context is being built faster than it can be trusted. Retrieval-augmented generation is already the default context source, and provider-nati",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/65A33lcUi9p0nBSloUI1Wo/5e5d26295bc879f0ea8845cecac65504/VentureBeat-Research.png?w=300&amp;q=30"
+  },
+  {
     "id": "venturebeat-ai-the-agent-evaluation-gap-enterprise-ai-organizations-have-a-",
     "headline": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway",
     "source": "VentureBeat AI",
@@ -7,7 +27,7 @@
     "publishedAt": "2026-07-16T16:40:48.000Z",
     "topic": "RAG",
     "summary": "Across 157 enterprises, organizations are granting AI agents more autonomy while trusting the evaluations meant to gate that autonomy less. Half have already shipped an agent that passed their internal evaluations and th",
-    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/3YcL8Sbx04RQsgnRvbYfs5/6620b35dd75cc138cb57cf72a9773f07/VentureBeat-Research-1.png?w=300&amp;q=30"
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/3YcL8Sbx04RQsgnRvbYfs5/0567154029abc3d37ccfad9b6cc5f370/VentureBeat-Research-1.png?w=300&amp;q=30"
   },
   {
     "id": "hugging-face-blog-nvidia-nemotron-3-embed-ranks-1-overall-on-rteb-advancing-ag",
@@ -151,7 +171,7 @@
     "publishedAt": "2026-07-15T22:24:17.000Z",
     "topic": "LLM",
     "summary": "Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-step ex",
-    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/3YcL8Sbx04RQsgnRvbYfs5/6620b35dd75cc138cb57cf72a9773f07/VentureBeat-Research-1.png?w=300&amp;q=30"
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/3YcL8Sbx04RQsgnRvbYfs5/0567154029abc3d37ccfad9b6cc5f370/VentureBeat-Research-1.png?w=300&amp;q=30"
   },
   {
     "id": "simon-willison-s-blog-llm-meta-ai-0-1",
@@ -195,15 +215,6 @@
     "publishedAt": "2026-07-08T00:00:00.000Z",
     "topic": "RAG",
     "summary": "TL;DR Elastic recently published a benchmark claiming that their proprietary, disk-based index (dubbed “DiskBBQ”) delivers up to 7x higher throughput than Qdrant when deployed on nodes with network-attached storage. Elas"
-  },
-  {
-    "id": "simon-willison-s-blog-github-code-web-component",
-    "headline": "github-code Web Component",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything",
-    "publishedAt": "2026-07-07T16:18:16.000Z",
-    "topic": "LLM",
-    "summary": "Tool: github-code Web Component An experimental Web Component built using GPT-5.5 and the following prompt : let's build a Web Component for embedding code from GitHub &lt;github-code href=\"https://github.com/simonw/sqli"
   },
   {
     "id": "hacker-news-rag",
@@ -619,26 +630,6 @@
     "topic": "Cost",
     "summary": "The artificial intelligence coding revolution comes with a catch: it&#x27;s expensive. Claude Code , Anthropic&#x27;s terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imaginat",
     "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/1U9H8GLIqoGqKpitVfgw3T/ba56292f99409eca709dac0b176ec245/nuneybits_Vector_art_of_white_goose_silhouette_flying_through_c_8100d5a7-9e36-4ed6-a188-016470e1d0e1.webp?w=300&amp;q=30"
-  },
-  {
-    "id": "venturebeat-ai-listen-labs-raises-69m-after-viral-billboard-hiring-stunt-to",
-    "headline": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
-    "source": "VentureBeat AI",
-    "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
-    "publishedAt": "2026-01-16T14:01:00.000Z",
-    "topic": "AI",
-    "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs , needed to hire over 100 engineers, but competing against Mark Zuckerberg&#x27;s $100 million offers seemed impossible. So he spent $5,000 — a fifth ",
-    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/4gD12ThOmNHZuosqC4xCTz/277b1e8968da602108a29fae2eaca440/nuneybits_Vector_art_of_billboard_with_cryptic_code_dbe5b0ff-7644-45e6-a1ca-4a5dceeff986.webp?w=300&amp;q=30"
-  },
-  {
-    "id": "venturebeat-ai-salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-mic",
-    "headline": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
-    "source": "VentureBeat AI",
-    "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-    "publishedAt": "2026-01-13T13:00:00.000Z",
-    "topic": "AI",
-    "summary": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot , the company&#x27;s workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent c",
-    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/4Xrcg14GLKFlwSEnuEzxyS/21c85d29d03c4c974076475c009e3b38/nuneybits_Vector_art_of_chat_bubbles_on_a_computer_screen_in_th_5018a7ea-3496-4103-8453-7ba1b129189a.webp?w=300&amp;q=30"
   },
   {
     "id": "qdrant-blog-new-deeplearning-ai-course-on-multi-vector-image-retrieval-w",
