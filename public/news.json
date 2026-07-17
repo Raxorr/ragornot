@@ -193,14 +193,6 @@
     "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/3YcL8Sbx04RQsgnRvbYfs5/0567154029abc3d37ccfad9b6cc5f370/VentureBeat-Research-1.png?w=300&amp;q=30"
   },
   {
-    "id": "hugging-face-blog-nvidia-nemotron-3-embed-ranks-1-overall-on-rteb-advancing-ag",
-    "headline": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
-    "publishedAt": "2026-07-16T16:01:21.000Z",
-    "topic": "RAG"
-  },
-  {
     "id": "venturebeat-ai-agentic-orchestration-enterprise-ai-organizations-have-a-dep",
     "headline": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
     "source": "VentureBeat AI",
@@ -454,6 +446,14 @@
     "publishedAt": "2026-05-06T00:00:00.000Z",
     "topic": "RAG",
     "summary": "A Researcher's Perspective on Retrieval Quality in RAG Systems"
+  },
+  {
+    "id": "hugging-face-blog-granite-4-1-llms-how-they-re-built",
+    "headline": "Granite 4.1 LLMs: How They’re Built",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+    "publishedAt": "2026-04-29T15:01:48.000Z",
+    "topic": "LLM"
   },
   {
     "id": "hacker-news-show-hn-i-built-a-search-engine-for-llms-txt-sites",
