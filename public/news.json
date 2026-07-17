@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-quoting-kimi-k3",
+    "headline": "Quoting Kimi K3",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything",
+    "publishedAt": "2026-07-17T13:43:53.000Z",
+    "topic": "LLM",
+    "summary": "Is there something I can actually help you with today? &mdash; Kimi K3 , after refusing to leak its system prompt Tags: kimi , ai-personality , generative-ai , ai , llms"
+  },
+  {
     "id": "arxiv-cs-cl-latent-communication-between-language-model-agents-channels-",
     "headline": "Latent Communication Between Language Model Agents: Channels, Alignment, and the Limits of Text",
     "source": "arXiv (cs.CL)",
