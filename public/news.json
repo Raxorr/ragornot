@@ -1,5 +1,140 @@
 [
   {
+    "id": "arxiv-cs-cl-latent-communication-between-language-model-agents-channels-",
+    "headline": "Latent Communication Between Language Model Agents: Channels, Alignment, and the Limits of Text",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.14103",
+    "publishedAt": "2026-07-17T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Multi-agent systems (MAS) are utilized in many contexts and many professions. Those MAS rely on inter-agent communication, usually implemented by clear-text message passing. We hypothesize that Large Language Models may "
+  },
+  {
+    "id": "arxiv-cs-cl-automatically-evolving-prompt-guidelines-for-task-specific-o",
+    "headline": "Automatically Evolving Prompt Guidelines for Task-Specific Optimization",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.14105",
+    "publishedAt": "2026-07-17T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "For Large Language Models to reliably answer user queries, users must clearly specify requirements, context, and constraints. In practice, however, user queries are often underspecified, forcing models to infer unstated "
+  },
+  {
+    "id": "arxiv-cs-cl-polestar-drift-aware-cache-calibration-and-token-commitment-",
+    "headline": "Polestar: Drift-Aware Cache Calibration and Token Commitment for Efficient Inference of Diffusion LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.14107",
+    "publishedAt": "2026-07-17T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "The inference efficiency of diffusion large language models (dLLMs) is constrained by two challenges: bidirectional attention precludes efficient KV-cache reuse, while increasing decoding parallelism with static confiden"
+  },
+  {
+    "id": "arxiv-cs-cl-eta-given-delta-defining-llm-tool-efficiency-with-marginal-t",
+    "headline": "Eta Given Delta: Defining LLM Tool Efficiency With Marginal Tool Utility",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.14108",
+    "publishedAt": "2026-07-17T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "This paper introduces tool efficiency, a new quantitative metric to evaluate the rate of useful tool calls in an LLM agent trajectory. To ensure that tool efficiency is well-defined, we also introduce marginal tool utili"
+  },
+  {
+    "id": "arxiv-cs-cl-simplicity-paradox-debunking-myths-about-prompting-and-datas",
+    "headline": "Simplicity Paradox: Debunking myths about prompting and datasets for LLM evaluation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.14109",
+    "publishedAt": "2026-07-17T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Probing the capabilities of Large Language Models (LLMs) and building robust solutions for Multiple-Choice Question Answering (MCQA) remain central challenges in natural language understanding. Furthermore, the rapid pro"
+  },
+  {
+    "id": "arxiv-cs-cl-introspection-fine-tuning-ift-training-small-llms-to-introsp",
+    "headline": "Introspection Fine-Tuning (IFT): Training Small LLMs to Introspect",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.14111",
+    "publishedAt": "2026-07-17T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Can small language models detect and report on perturbations their own internal activations? We investigate this question through the lens of activation steering: injecting concept vectors into a model's residual stream "
+  },
+  {
+    "id": "arxiv-cs-cl-information-theoretic-limits-of-reliability-and-scaling-in-l",
+    "headline": "Information-Theoretic Limits of Reliability and Scaling in Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.14112",
+    "publishedAt": "2026-07-17T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are evaluated as though perfect reliability is achievable for any task given sufficient scale. We show this assumption is information-theoretically unjustified. Every generative task has a re"
+  },
+  {
+    "id": "arxiv-cs-cl-t5-csboost-adversarial-perturbation-resistant-llm-fingerprin",
+    "headline": "T5-CSBoost: Adversarial Perturbation Resistant LLM Fingerprinting",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.14113",
+    "publishedAt": "2026-07-17T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "While many AI-generated text (AIGT) detectors achieve strong performance on clean inputs, their accuracy degrades significantly under light paraphrasing, word substitutions, character edits, and distribution shifts. We p"
+  },
+  {
+    "id": "arxiv-cs-ir-deep-learning-causal-retrieval-optimization-for-efficient-e-",
+    "headline": "Deep-learning Causal Retrieval Optimization for Efficient e-commerce Distribution in Pinterest",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.14161",
+    "publishedAt": "2026-07-17T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Pinterest is where people turn inspiration into action as users browse ideas, then take steps toward realization, often by discovering shoppable content. To support this journey, we must distribute commerce content when "
+  },
+  {
+    "id": "arxiv-cs-ir-llm-based-re-ranking-for-real-estate-search",
+    "headline": "LLM-Based Re-Ranking for Real Estate Search",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.14835",
+    "publishedAt": "2026-07-17T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "QuintoAndar Group operates the leading housing marketplace in Latin America for both rentals and sales. The platform replaces traditionally paper-heavy workflows with a fully digital experience, making housing transactio"
+  },
+  {
+    "id": "arxiv-cs-ir-certified-domain-consistency-for-multi-domain-retrieval-labe",
+    "headline": "Certified Domain Consistency for Multi-Domain Retrieval: Label-Free Per-Domain Contamination Control with Conformal Risk Guarantees",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.14157",
+    "publishedAt": "2026-07-17T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval over corpora that mix several domains often returns relevant but wrong-domain evidence that ranking metrics miss and that conformal risk control bounds only marginally, under-covering the worst domains. This wo"
+  },
+  {
+    "id": "arxiv-cs-ir-saga-schema-aware-grounding-for-agentic-text-to-sparql-gener",
+    "headline": "SAGA: Schema-Aware Grounding for Agentic Text-to-SPARQL Generation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.14494",
+    "publishedAt": "2026-07-17T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Complex knowledge base question answering (KBQA) is commonly approached through either information retrieval over a question-specific subgraph or semantic parsing into an executable logical form. We study the latter para"
+  },
+  {
+    "id": "arxiv-cs-ir-searchos-v1-towards-robust-open-domain-information-seeking-a",
+    "headline": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.15257",
+    "publishedAt": "2026-07-17T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Recent advances in Tool-Integrated Large Language Models have made web search a core capability of information-seeking agents. However, as interaction histories grow, agents increasingly struggle to track task progress. "
+  },
+  {
+    "id": "arxiv-cs-ir-think-when-needed-model-aware-reasoning-routing-for-llm-base",
+    "headline": "Think When Needed: Model-Aware Reasoning Routing for LLM-based Ranking",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2601.18146",
+    "publishedAt": "2026-07-17T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large language models (LLMs) are increasingly applied to ranking tasks in retrieval and recommendation. Although reasoning prompting can enhance ranking utility, our preliminary exploration reveals that its benefits are "
+  },
+  {
+    "id": "arxiv-cs-ir-qda-sql-questions-enhanced-dialogue-augmentation-for-multi-t",
+    "headline": "QDA-SQL: Questions Enhanced Dialogue Augmentation for Multi-Turn Text-to-SQL",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2406.10593",
+    "publishedAt": "2026-07-17T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Fine-tuning large language models (LLMs) for specific domain tasks has achieved great success in Text-to-SQL tasks. However, these fine-tuned models often face challenges with multi-turn Text-to-SQL tasks caused by ambig"
+  },
+  {
     "id": "aws-machine-learning-blog-build-enterprise-search-for-agents-with-amazon-bedrock-manag",
     "headline": "Build enterprise search for agents with Amazon Bedrock Managed Knowledge Base",
     "source": "AWS Machine Learning Blog",
@@ -55,132 +190,6 @@
     "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
     "publishedAt": "2026-07-16T16:01:21.000Z",
     "topic": "RAG"
-  },
-  {
-    "id": "arxiv-cs-cl-scaling-point-in-time-language-models",
-    "headline": "Scaling Point-in-Time Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.11889",
-    "publishedAt": "2026-07-16T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models trained on unrestricted internet corpora inevitably embed information from the future, introducing lookahead bias that compromises the validity of backtests and causal inference in finance and the s"
-  },
-  {
-    "id": "arxiv-cs-cl-candi-contextual-alignment-for-niche-domains-question-answer",
-    "headline": "CANDI: Contextual Alignment for Niche Domains Question Answering",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.11891",
-    "publishedAt": "2026-07-16T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "The deployment of large language models (LLMs) in specialized domains like medical diagnostics and financial advisory necessitates evaluating capabilities beyond general knowledge. Traditional question-answering benchmar"
-  },
-  {
-    "id": "arxiv-cs-cl-i-m-sorry-but-i-can-t-help-with-braille-revealing-accessibil",
-    "headline": "I'm Sorry, but I Can't Help with Braille: Revealing Accessibility Failures in State-of-the-Art LLMs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.11893",
-    "publishedAt": "2026-07-16T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large Language Models (LLMs) perform strongly on many language tasks, but their capability in structurally constrained, accessibility-critical modalities such as Braille remains unclear. We evaluate state-of-the-art LLMs"
-  },
-  {
-    "id": "arxiv-cs-cl-take-trajectory-aware-knowledge-estimation-for-text-dataset-",
-    "headline": "TAKE: Trajectory-Aware Knowledge Estimation for Text Dataset Distillation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.11898",
-    "publishedAt": "2026-07-16T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Large-scale text corpora have become a quiet bottleneck in modern NLP, not just in storage, but in the accumulated cost of training, fine-tuning, and continual learning. We propose a text dataset distillation framework t"
-  },
-  {
-    "id": "arxiv-cs-cl-transforming-llms-into-efficient-cross-encoders-via-knowledg",
-    "headline": "Transforming LLMs into Efficient Cross-Encoders via Knowledge Distillation for RAG Reranking",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.11933",
-    "publishedAt": "2026-07-16T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Cross-encoders achieve high reranking accuracy in Retrieval-Augmented Generation (RAG) pipelines but impose quadratic inference costs that limit real-time deployment. We address this by fine-tuning LLaMA 3 (8B) as a drop"
-  },
-  {
-    "id": "arxiv-cs-cl-agentic-systems-for-breast-cancer-treatment-recommendations",
-    "headline": "Agentic systems for breast cancer treatment recommendations",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.12051",
-    "publishedAt": "2026-07-16T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are increasingly being explored for clinical decision support, but their reliability in complex oncology treatment planning remains unclear. We evaluated agentic LLM systems for breast cancer"
-  },
-  {
-    "id": "arxiv-cs-cl-citybehavex-a-scalable-and-empirically-validated-llm-assiste",
-    "headline": "CityBehavEx: A Scalable and Empirically Validated LLM-Assisted Urban Simulation Platform",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.12086",
-    "publishedAt": "2026-07-16T04:00:00.000Z",
-    "topic": "Cost",
-    "summary": "Recent LLM-based multi-agent urban simulators can generate semantically rich city routines, but they remain costly to scale and are often weakly validated against empirical mobility patterns. We present CityBehavEx, an i"
-  },
-  {
-    "id": "arxiv-cs-cl-token-reduction-is-not-cost-reduction",
-    "headline": "Token Reduction Is Not Cost Reduction",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.12161",
-    "publishedAt": "2026-07-16T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Context-reduction layers for API-based coding agents, including command-output compressors, retrieval rankers, and API-boundary proxies, are commonly evaluated by how much context or tool output they remove. We ask a dif"
-  },
-  {
-    "id": "arxiv-cs-ir-where-does-the-noise-come-from-a-variance-components-decompo",
-    "headline": "Where Does the Noise Come From? A Variance-Components Decomposition of Non-Determinism in LLM Brand Answers",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.13304",
-    "publishedAt": "2026-07-16T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Teams measuring whether large language models (LLMs) recommend a brand face a reproducibility problem: ask the same question twice and the answer moves. Practice resamples each prompt a few times (commonly five) and aver"
-  },
-  {
-    "id": "arxiv-cs-ir-personalizing-incremental-video-search-with-hybrid-text-and-",
-    "headline": "Personalizing Incremental Video Search with Hybrid Text and ID Embeddings",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.13493",
-    "publishedAt": "2026-07-16T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Incremental video search requires high-quality ranking after each keystroke, where intent is often underspecified (e.g., 1-3 character prefixes). We present a personalization system for Apple TV search that combines comp"
-  },
-  {
-    "id": "arxiv-cs-ir-with-argus-eyes-assessing-retrieval-gaps-via-uncertainty-sco",
-    "headline": "With Argus Eyes: Assessing Retrieval Gaps via Uncertainty Scoring to Detect and Remedy Retrieval Blind Spots",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2602.09616",
-    "publishedAt": "2026-07-16T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Reliable retrieval-augmented generation (RAG) systems depend fundamentally on the retriever's ability to find relevant information. We show that neural retrievers used in RAG systems have blind spots, which we define as "
-  },
-  {
-    "id": "arxiv-cs-ir-llm-based-user-personas-for-recommendations-at-scale",
-    "headline": "LLM-Based User Personas for Recommendations at Scale",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2606.12198",
-    "publishedAt": "2026-07-16T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large Language Models (LLMs) offer unprecedented potential for enhancing recommendation systems through their world knowledge and reasoning capabilities. However, existing approaches often rely on structured IDs or offli"
-  },
-  {
-    "id": "arxiv-cs-ir-research-novelty-in-information-systems-journals-after-chatg",
-    "headline": "Research Novelty in Information Systems Journals After ChatGPT: Differences Across Institutional Language Contexts",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2603.22510",
-    "publishedAt": "2026-07-16T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models are increasingly used in scholarly work, yet it remains unclear whether their productivity gains are accompanied by changes in research novelty. We examine how relative abstract-level semantic novel"
-  },
-  {
-    "id": "arxiv-cs-ir-dive-embedding-compression-via-self-limiting-gradient-update",
-    "headline": "DIVE: Embedding Compression via Self-Limiting Gradient Updates",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2605.20689",
-    "publishedAt": "2026-07-16T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "High-dimensional language-model embeddings increase storage and search costs, while supervised compressors can overfit when relevance labels are scarce. We present DIVE (Dimensionality reduction with Implicit View Ensemb"
   },
   {
     "id": "venturebeat-ai-agentic-orchestration-enterprise-ai-organizations-have-a-dep",
