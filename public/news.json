@@ -77,15 +77,6 @@
     "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/3YcL8Sbx04RQsgnRvbYfs5/0567154029abc3d37ccfad9b6cc5f370/VentureBeat-Research-1.png?w=300&amp;q=30"
   },
   {
-    "id": "simon-willison-s-blog-llm-meta-ai-0-1",
-    "headline": "llm-meta-ai 0.1",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything",
-    "publishedAt": "2026-07-09T16:12:20.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-meta-ai 0.1 Let's LLM run prompts against the new muse-spark-1.1 model. Tags: llm , meta"
-  },
-  {
     "id": "hacker-news-from-words-to-watts-benchmarking-the-energy-costs-of-llm-inf",
     "headline": "From Words to Watts: Benchmarking the Energy Costs of LLM Inference (2023)",
     "source": "Hacker News",
