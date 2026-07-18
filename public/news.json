@@ -1,5 +1,15 @@
 [
   {
+    "id": "ahead-of-ai-controlling-reasoning-effort-in-llms",
+    "headline": "Controlling Reasoning Effort in LLMs",
+    "source": "Ahead of AI",
+    "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+    "publishedAt": "2026-07-18T11:16:09.000Z",
+    "topic": "LLM",
+    "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
+    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/286a0beb-32b2-41fc-8bcf-6bae189b53f2_1488x840.png"
+  },
+  {
     "id": "simon-willison-s-blog-quoting-kimi-k3",
     "headline": "Quoting Kimi K3",
     "source": "Simon Willison's Blog",
@@ -484,16 +494,6 @@
     "publishedAt": "2026-02-11T09:00:00.000Z",
     "topic": "RAG",
     "summary": "By Ryan Lopopolo, Member of the Technical Staff"
-  },
-  {
-    "id": "ahead-of-ai-categories-of-inference-time-scaling-for-improved-llm-reason",
-    "headline": "Categories of Inference-Time Scaling for Improved LLM Reasoning",
-    "source": "Ahead of AI",
-    "url": "https://magazine.sebastianraschka.com/p/categories-of-inference-time-scaling",
-    "publishedAt": "2026-01-24T11:23:18.000Z",
-    "topic": "LLM",
-    "summary": "And an Overview of Recent Inference-Scaling Papers",
-    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/1f97789d-b769-45fe-b884-ba0f7941da9e_1846x1230.png"
   },
   {
     "id": "venturebeat-ai-railway-secures-100-million-to-challenge-aws-with-ai-native-",
