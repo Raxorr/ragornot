@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-large-language-models-as-unified-multimodal-learners-for-cli",
+    "headline": "Large Language Models as Unified Multimodal Learners for Clinical Prediction",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.15380",
+    "publishedAt": "2026-07-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Electronic health records combine free-text clinical narratives with structured measurements such as vital signs, laboratory values, and comorbidities. Yet most clinical prediction systems still rely on task-specific fus"
+  },
+  {
+    "id": "arxiv-cs-cl-varrate-training-free-variable-rate-kv-cache-compression-for",
+    "headline": "VarRate: Training-Free Variable-Rate KV Cache Compression for Long-Context LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.15498",
+    "publishedAt": "2026-07-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "The key-value (KV) cache is the main memory bottleneck in long-context large language model (LLM) inference. Two leading training-free families are both structurally limited: token-selection methods (SnapKV, Ada-KV) scor"
+  },
+  {
+    "id": "arxiv-cs-cl-skillcorpus-consolidating-and-evaluating-the-open-skill-ecos",
+    "headline": "SkillCorpus: Consolidating and Evaluating the Open Skill Ecosystem for Real-World LLM Agents",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.15557",
+    "publishedAt": "2026-07-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Agent skills, SKILL.md files that package reusable procedural knowledge for an LLM agent, are a popular mechanism for extending agent capabilities. Public repositories now host them in large and growing numbers, yet thes"
+  },
+  {
+    "id": "arxiv-cs-cl-process-reward-informed-tree-rollout-for-effective-multi-tur",
+    "headline": "Process Reward Informed Tree Rollout for Effective Multi-Turn RL",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.15610",
+    "publishedAt": "2026-07-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Reinforcement learning (RL) has become a key approach for training LLM agents, yet popular methods such as GRPO/RLOO rely on multiple independently sampled complete trajectories for advantage estimation. In long-horizon "
+  },
+  {
+    "id": "arxiv-cs-cl-before-the-action-benchmarking-llms-on-prospective-hypothesi",
+    "headline": "Before the Action: Benchmarking LLMs on Prospective Hypothesis Discovery",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.15766",
+    "publishedAt": "2026-07-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) excel at answering pre-specified questions, yet their ability to navigate the open-ended, pre-conclusion stage of discovery remains largely unmeasured. We introduce Prospective Hypothesis Dis"
+  },
+  {
+    "id": "arxiv-cs-cl-an-mlir-based-compilation-method-for-large-language-models",
+    "headline": "An MLIR-Based Compilation Method for Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.15865",
+    "publishedAt": "2026-07-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large Language Models (LLMs) have become the dominant workload on modern AI accelerators, yet deploying them on specialized hardware still faces two core challenges: how to import a trained model into a compiler-friendly"
+  },
+  {
+    "id": "arxiv-cs-cl-from-plausible-to-actionable-a-position-on-llm-self-explanat",
+    "headline": "From Plausible to Actionable: A Position on LLM Self-Explanations",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.15957",
+    "publishedAt": "2026-07-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large Language Models (LLMs) can generate natural language explanations that rationalize their own decisions, a phenomenon commonly referred to as self-explanations.Such explanations have emerged as a promising direction"
+  },
+  {
+    "id": "arxiv-cs-cl-bayespo-bayesian-prompt-optimization-via-parallel-tempered-g",
+    "headline": "BayesPO: Bayesian Prompt Optimization via Parallel-Tempered Gradient-Guided Discrete MCMC",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.16001",
+    "publishedAt": "2026-07-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Prompt optimization adapts large language models (LLMs) without updating model parameters, but many automatic prompt optimizers remain heuristic search procedures over candidate instructions. This paper studies prompt op"
+  },
+  {
+    "id": "arxiv-cs-ir-adaptive-retrieval-strategies-for-biomedical-question-answer",
+    "headline": "Adaptive Retrieval Strategies for Biomedical Question Answering",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.15283",
+    "publishedAt": "2026-07-20T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Biomedical question answering (QA) encompasses diverse question types, including yes/no, factoid, list, and summary questions, each requiring distinct forms of evidence and reasoning. However, most retrieval-augmented QA"
+  },
+  {
+    "id": "arxiv-cs-ir-llms-encode-relevance-as-a-layer-wise-cross-lingual-signal",
+    "headline": "LLMs Encode Relevance as a Layer-Wise Cross-Lingual Signal",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.15555",
+    "publishedAt": "2026-07-20T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large language models (LLMs) are increasingly used in information retrieval (IR) pipelines as relevance judges and re-rankers. Yet most analyses remain output-centric, evaluating generated labels or scores while offering"
+  },
+  {
+    "id": "arxiv-cs-ir-recgpt-v3-technical-report",
+    "headline": "RecGPT-V3 Technical Report",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.15591",
+    "publishedAt": "2026-07-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are transforming recommender systems from matching co-occurrence patterns in historical behavior toward reasoning about the intent that drives it. RecGPT-V1 pioneered this paradigm on Taobao "
+  },
+  {
+    "id": "arxiv-cs-ir-pctd-preference-guided-counterfactual-task-decomposition-for",
+    "headline": "PCTD: Preference-Guided Counterfactual Task Decomposition for Agent Tool Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.15696",
+    "publishedAt": "2026-07-20T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Task decomposition aims to transform ambiguous instructions into executable atomic subtasks, thereby guiding high-precision tool retrieval. However, our analysis reveals that directly adopting tool retrieval metrics, i.e"
+  },
+  {
+    "id": "arxiv-cs-ir-what-do-chinese-language-generative-search-engines-cite-and-",
+    "headline": "What Do Chinese-Language Generative Search Engines Cite and Surface? A Large-Scale Empirical Study",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.15771",
+    "publishedAt": "2026-07-20T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Generative AI question-answering systems increasingly mediate information access, shifting content visibility from ranked search results to retrieval, citation, and presentation in generated answers. We conduct a large-s"
+  },
+  {
+    "id": "arxiv-cs-ir-scientific-claim-source-retrieval-revisited-a-comparative-st",
+    "headline": "Scientific Claim-Source Retrieval Revisited: A Comparative Study of Style Transfer and Re-Ranking",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.15875",
+    "publishedAt": "2026-07-20T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Scientific claims shared on social media are often difficult to verify and may contribute to the spread of misinformation. To address this challenge, automated fact verification systems require scientific claim-source re"
+  },
+  {
+    "id": "arxiv-cs-ir-efficient-and-effective-in-place-graph-based-vector-index-up",
+    "headline": "Efficient and Effective In-place Graph-based Vector Index Updates",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.15576",
+    "publishedAt": "2026-07-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "In the era of Large Language Models (LLMs), efficient vector updates are critical for capturing real-time information from rapidly evolving data. However, it is not trivial to process frequent vector insert and delete up"
+  },
+  {
+    "id": "arxiv-cs-ir-llm-based-re-ranking-for-real-estate-search",
+    "headline": "LLM-Based Re-Ranking for Real Estate Search",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.14835",
+    "publishedAt": "2026-07-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "QuintoAndar Group operates the leading housing marketplace in Latin America for both rentals and sales. The platform replaces traditionally paper-heavy workflows with a fully digital experience, making housing transactio"
+  },
+  {
     "id": "ahead-of-ai-controlling-reasoning-effort-in-llms",
     "headline": "Controlling Reasoning Effort in LLMs",
     "source": "Ahead of AI",
