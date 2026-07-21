@@ -366,14 +366,6 @@
     "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp"
   },
   {
-    "id": "hacker-news-mitigating-the-llm-rerun-crisis-for-minimized-inference-cost",
-    "headline": "Mitigating the LLM Rerun Crisis for Minimized-Inference-Cost Web Automation",
-    "source": "Hacker News",
-    "url": "https://arxiv.org/abs/2604.09718",
-    "publishedAt": "2026-06-07T14:29:29.000Z",
-    "topic": "Cost"
-  },
-  {
     "id": "ahead-of-ai-llm-research-papers-the-2026-list-january-to-may",
     "headline": "LLM Research Papers: The 2026 List (January to May)",
     "source": "Ahead of AI",
@@ -488,6 +480,14 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
     "publishedAt": "2026-04-29T15:01:48.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "hacker-news-show-hn-i-built-a-search-engine-for-llms-txt-sites",
+    "headline": "Show HN: I built a search engine for llms.txt sites",
+    "source": "Hacker News",
+    "url": "https://statespace.com/",
+    "publishedAt": "2026-04-28T16:02:05.000Z",
     "topic": "LLM"
   },
   {
