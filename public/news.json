@@ -1,13 +1,5 @@
 [
   {
-    "id": "hacker-news-show-hn-worldbuild-bench-repo-testing-llm-world-coherence-wi",
-    "headline": "Show HN: WorldBuild Bench repo: testing LLM world coherence with 3D games",
-    "source": "Hacker News",
-    "url": "https://github.com/sebnado/worldbuild-bench",
-    "publishedAt": "2026-07-21T16:48:39.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "simon-willison-s-blog-nativ-run-ai-models-locally-on-your-mac",
     "headline": "Nativ: Run AI models locally on your Mac",
     "source": "Simon Willison's Blog",
@@ -15,14 +7,6 @@
     "publishedAt": "2026-07-21T14:22:27.000Z",
     "topic": "LLM",
     "summary": "Nativ: Run AI models locally on your Mac Prince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac. I'm really excited about his new project, which wraps MLX in"
-  },
-  {
-    "id": "hacker-news-show-hn-wifi-llm",
-    "headline": "Show HN: WiFi-LLM",
-    "source": "Hacker News",
-    "url": "https://github.com/bertaye/wifi-llm",
-    "publishedAt": "2026-07-21T13:32:07.000Z",
-    "topic": "LLM"
   },
   {
     "id": "arxiv-cs-cl-rims-preference-optimization-via-smoothed-multi-pair-aggrega",
@@ -374,6 +358,14 @@
     "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp"
   },
   {
+    "id": "hacker-news-mitigating-the-llm-rerun-crisis-for-minimized-inference-cost",
+    "headline": "Mitigating the LLM Rerun Crisis for Minimized-Inference-Cost Web Automation",
+    "source": "Hacker News",
+    "url": "https://arxiv.org/abs/2604.09718",
+    "publishedAt": "2026-06-07T14:29:29.000Z",
+    "topic": "Cost"
+  },
+  {
     "id": "ahead-of-ai-llm-research-papers-the-2026-list-january-to-may",
     "headline": "LLM Research Papers: The 2026 List (January to May)",
     "source": "Ahead of AI",
@@ -389,6 +381,14 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
     "publishedAt": "2026-06-01T13:51:18.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "hacker-news-hybrid-local-and-cloud-llm-stack-for-regulated-financial-doc",
+    "headline": "Hybrid local and cloud LLM stack for regulated financial document processing?",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=48327218",
+    "publishedAt": "2026-05-29T18:22:54.000Z",
     "topic": "LLM"
   },
   {
