@@ -1,5 +1,22 @@
 [
   {
+    "id": "simon-willison-s-blog-nativ-run-ai-models-locally-on-your-mac",
+    "headline": "Nativ: Run AI models locally on your Mac",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
+    "publishedAt": "2026-07-21T14:22:27.000Z",
+    "topic": "LLM",
+    "summary": "Nativ: Run AI models locally on your Mac Prince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac. I'm really excited about his new project, which wraps MLX in"
+  },
+  {
+    "id": "hacker-news-show-hn-wifi-llm",
+    "headline": "Show HN: WiFi-LLM",
+    "source": "Hacker News",
+    "url": "https://github.com/bertaye/wifi-llm",
+    "publishedAt": "2026-07-21T13:32:07.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "arxiv-cs-cl-rims-preference-optimization-via-smoothed-multi-pair-aggrega",
     "headline": "RIMS: Preference Optimization via Smoothed Multi-pair Aggregation for Small-Scale LLM Retrieval-Augmented Generation",
     "source": "arXiv (cs.CL)",
@@ -471,14 +488,6 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
     "publishedAt": "2026-04-29T15:01:48.000Z",
-    "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-show-hn-i-built-a-search-engine-for-llms-txt-sites",
-    "headline": "Show HN: I built a search engine for llms.txt sites",
-    "source": "Hacker News",
-    "url": "https://statespace.com/",
-    "publishedAt": "2026-04-28T16:02:05.000Z",
     "topic": "LLM"
   },
   {
