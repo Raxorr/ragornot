@@ -9,6 +9,15 @@
     "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex."
   },
   {
+    "id": "openai-advancing-the-next-era-of-national-science",
+    "headline": "Advancing the next era of national science",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
+    "publishedAt": "2026-07-22T12:00:00.000Z",
+    "topic": "Environment",
+    "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery."
+  },
+  {
     "id": "arxiv-cs-cl-convolution-for-large-language-models",
     "headline": "Convolution for Large Language Models",
     "source": "arXiv (cs.CL)",
@@ -647,15 +656,6 @@
     "topic": "AI",
     "summary": "Preface This essay argues that rational people don&#x2019;t have goals, and that rational AIs shouldn&#x2019;t have goals. Human actions are rational not because we direct them at some final &#x2018;goals,&#x2019; but be",
     "imageUrl": "https://thegradient.pub/content/images/2026/02/ramelli-featured.jpg"
-  },
-  {
-    "id": "openai-harness-engineering-leveraging-codex-in-an-agent-first-world",
-    "headline": "Harness engineering: leveraging Codex in an agent-first world",
-    "source": "OpenAI",
-    "url": "https://openai.com/index/harness-engineering",
-    "publishedAt": "2026-02-11T09:00:00.000Z",
-    "topic": "RAG",
-    "summary": "By Ryan Lopopolo, Member of the Technical Staff"
   },
   {
     "id": "venturebeat-ai-railway-secures-100-million-to-challenge-aws-with-ai-native-",
