@@ -1,5 +1,14 @@
 [
   {
+    "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
+    "headline": "Building AI infrastructure with the Effingham County community",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+    "publishedAt": "2026-07-22T13:00:00.000Z",
+    "topic": "Environment",
+    "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex."
+  },
+  {
     "id": "arxiv-cs-cl-convolution-for-large-language-models",
     "headline": "Convolution for Large Language Models",
     "source": "arXiv (cs.CL)",
@@ -358,14 +367,6 @@
     "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp"
   },
   {
-    "id": "hacker-news-mitigating-the-llm-rerun-crisis-for-minimized-inference-cost",
-    "headline": "Mitigating the LLM Rerun Crisis for Minimized-Inference-Cost Web Automation",
-    "source": "Hacker News",
-    "url": "https://arxiv.org/abs/2604.09718",
-    "publishedAt": "2026-06-07T14:29:29.000Z",
-    "topic": "Cost"
-  },
-  {
     "id": "ahead-of-ai-llm-research-papers-the-2026-list-january-to-may",
     "headline": "LLM Research Papers: The 2026 List (January to May)",
     "source": "Ahead of AI",
@@ -489,6 +490,14 @@
     "url": "https://statespace.com/",
     "publishedAt": "2026-04-28T16:02:05.000Z",
     "topic": "LLM"
+  },
+  {
+    "id": "hacker-news-rag-pipelines-leaking-pii-into-vector-databases-and-nobody-s",
+    "headline": "RAG pipelines, leaking PII into vector databases and nobody's talking about it",
+    "source": "Hacker News",
+    "url": "https://comply-tech.co.uk/blog/rag-pipeline-pii-vector-embeddings.html",
+    "publishedAt": "2026-04-24T09:21:55.000Z",
+    "topic": "RAG"
   },
   {
     "id": "qdrant-blog-how-data-graphs-built-a-true-hybrid-graph-rag-platform",
@@ -657,15 +666,6 @@
     "topic": "Cost",
     "summary": "Railway , a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surgin",
     "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/5RLyQIpBeVXxv0RpcXZxWQ/fd9680c6d82acd8208ac341fc575f5fb/nuneybits_Vector_art_of_a_sleek_bullet_train_bursting_from_a_cl_32a805aa-272c-4b34-ac16-cf20508b7ff4.webp?w=300&amp;q=30"
-  },
-  {
-    "id": "openai-stargate-community",
-    "headline": "Stargate Community",
-    "source": "OpenAI",
-    "url": "https://openai.com/index/stargate-community",
-    "publishedAt": "2026-01-20T19:00:00.000Z",
-    "topic": "Environment",
-    "summary": "Stargate Community plans detail a community-first approach to AI infrastructure, using locally tailored plans shaped by community input, energy needs, and workforce priorities."
   },
   {
     "id": "qdrant-blog-new-deeplearning-ai-course-on-multi-vector-image-retrieval-w",
