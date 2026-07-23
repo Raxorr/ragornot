@@ -333,14 +333,6 @@
     "topic": "LLM"
   },
   {
-    "id": "hacker-news-show-hn-sipp-run-small-local-llms-in-browser-3x-faster",
-    "headline": "Show HN: Sipp – Run small local LLMs in browser 3x faster",
-    "source": "Hacker News",
-    "url": "https://www.sipp.sh",
-    "publishedAt": "2026-06-24T14:52:44.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "openai-openai-and-broadcom-unveil-llm-optimized-inference-chip",
     "headline": "OpenAI and Broadcom unveil LLM-optimized inference chip",
     "source": "OpenAI",
@@ -544,6 +536,14 @@
     "publishedAt": "2026-04-09T00:00:00.000Z",
     "topic": "RAG",
     "summary": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming."
+  },
+  {
+    "id": "hacker-news-my-11-step-graphrag-pipeline-what-worked-and-what-s-still-br",
+    "headline": "My 11-step GraphRAG pipeline, what worked, and what's still broken",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=47639059",
+    "publishedAt": "2026-04-04T13:50:22.000Z",
+    "topic": "RAG"
   },
   {
     "id": "ahead-of-ai-components-of-a-coding-agent",
