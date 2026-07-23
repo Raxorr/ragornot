@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-agentic-retrieval-for-amazon-bedrock-managed-knowledge-base",
+    "headline": "Agentic retrieval for Amazon Bedrock Managed Knowledge Base",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-for-amazon-bedrock-managed-knowledge-base/",
+    "publishedAt": "2026-07-23T16:30:20.000Z",
+    "topic": "RAG",
+    "summary": "This post focuses on why classic retrieval falls short on multi-part questions, how the AgenticRetrieveStream API works (including request construction and trace parsing), and when to choose it over the standard Retrieve"
+  },
+  {
     "id": "hacker-news-show-hn-watchmachinego-a-visualizer-to-show-hardware-perform",
     "headline": "Show HN: WatchMachineGo – A visualizer to show hardware performing LLM inference",
     "source": "Hacker News",
@@ -222,64 +231,6 @@
     "publishedAt": "2026-07-16T21:29:14.000Z",
     "topic": "RAG",
     "summary": "In this post, we walk through the three pillars that make this possible: simplified setup, smarter retrieval, and production readiness. We also show you code examples for setting up a knowledge base and retrieving from i"
-  },
-  {
-    "id": "venturebeat-ai-the-ai-compute-gap-enterprises-are-buying-infrastructure-fas",
-    "headline": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
-    "source": "VentureBeat AI",
-    "url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
-    "publishedAt": "2026-07-16T19:16:48.000Z",
-    "topic": "Cost",
-    "summary": "Across 107 enterprises, AI infrastructure spending is accelerating well ahead of the ability to see or steer its economics. Most organizations run their AI on a familiar base of hyperscalers and model-provider APIs, yet ",
-    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/65A33lcUi9p0nBSloUI1Wo/5e5d26295bc879f0ea8845cecac65504/VentureBeat-Research.png?w=300&amp;q=30"
-  },
-  {
-    "id": "venturebeat-ai-the-agent-security-gap-54-of-enterprises-have-already-had-an",
-    "headline": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
-    "source": "VentureBeat AI",
-    "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
-    "publishedAt": "2026-07-16T19:02:38.000Z",
-    "topic": "AI",
-    "summary": "Across 107 enterprises, AI agents are being given real access to systems and data while the controls meant to contain them lag behind. More than half have already had a confirmed agent security incident or a near-miss; o",
-    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/3YcL8Sbx04RQsgnRvbYfs5/0567154029abc3d37ccfad9b6cc5f370/VentureBeat-Research-1.png?w=300&amp;q=30"
-  },
-  {
-    "id": "venturebeat-ai-the-ai-context-gap-enterprise-ai-organizations-have-a-trust-",
-    "headline": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
-    "source": "VentureBeat AI",
-    "url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
-    "publishedAt": "2026-07-16T17:06:08.000Z",
-    "topic": "RAG",
-    "summary": "Across 101 enterprises, the infrastructure that feeds AI agents their business context is being built faster than it can be trusted. Retrieval-augmented generation is already the default context source, and provider-nati",
-    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/65A33lcUi9p0nBSloUI1Wo/5e5d26295bc879f0ea8845cecac65504/VentureBeat-Research.png?w=300&amp;q=30"
-  },
-  {
-    "id": "venturebeat-ai-the-agent-evaluation-gap-enterprise-ai-organizations-have-a-",
-    "headline": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway",
-    "source": "VentureBeat AI",
-    "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
-    "publishedAt": "2026-07-16T16:40:48.000Z",
-    "topic": "RAG",
-    "summary": "Across 157 enterprises, organizations are granting AI agents more autonomy while trusting the evaluations meant to gate that autonomy less. Half have already shipped an agent that passed their internal evaluations and th",
-    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/3YcL8Sbx04RQsgnRvbYfs5/0567154029abc3d37ccfad9b6cc5f370/VentureBeat-Research-1.png?w=300&amp;q=30"
-  },
-  {
-    "id": "venturebeat-ai-agentic-orchestration-enterprise-ai-organizations-have-a-dep",
-    "headline": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
-    "source": "VentureBeat AI",
-    "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
-    "publishedAt": "2026-07-15T22:24:17.000Z",
-    "topic": "LLM",
-    "summary": "Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-step ex",
-    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/3YcL8Sbx04RQsgnRvbYfs5/0567154029abc3d37ccfad9b6cc5f370/VentureBeat-Research-1.png?w=300&amp;q=30"
-  },
-  {
-    "id": "hacker-news-from-words-to-watts-benchmarking-the-energy-costs-of-llm-inf",
-    "headline": "From Words to Watts: Benchmarking the Energy Costs of LLM Inference (2023)",
-    "source": "Hacker News",
-    "url": "https://arxiv.org/abs/2310.03003",
-    "publishedAt": "2026-07-08T04:33:20.000Z",
-    "topic": "Cost"
   },
   {
     "id": "hugging-face-blog-native-speed-vllm-transformers-modeling-backend",
@@ -546,6 +497,14 @@
     "summary": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming."
   },
   {
+    "id": "hacker-news-my-11-step-graphrag-pipeline-what-worked-and-what-s-still-br",
+    "headline": "My 11-step GraphRAG pipeline, what worked, and what's still broken",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=47639059",
+    "publishedAt": "2026-04-04T13:50:22.000Z",
+    "topic": "RAG"
+  },
+  {
     "id": "ahead-of-ai-components-of-a-coding-agent",
     "headline": "Components of A Coding Agent",
     "source": "Ahead of AI",
@@ -666,6 +625,56 @@
     "topic": "Cost",
     "summary": "Railway , a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surgin",
     "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/5RLyQIpBeVXxv0RpcXZxWQ/fd9680c6d82acd8208ac341fc575f5fb/nuneybits_Vector_art_of_a_sleek_bullet_train_bursting_from_a_cl_32a805aa-272c-4b34-ac16-cf20508b7ff4.webp?w=300&amp;q=30"
+  },
+  {
+    "id": "venturebeat-ai-claude-code-costs-up-to-200-a-month-goose-does-the-same-thin",
+    "headline": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+    "publishedAt": "2026-01-19T14:00:00.000Z",
+    "topic": "Cost",
+    "summary": "The artificial intelligence coding revolution comes with a catch: it&#x27;s expensive. Claude Code , Anthropic&#x27;s terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imaginat",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/1U9H8GLIqoGqKpitVfgw3T/ba56292f99409eca709dac0b176ec245/nuneybits_Vector_art_of_white_goose_silhouette_flying_through_c_8100d5a7-9e36-4ed6-a188-016470e1d0e1.webp?w=300&amp;q=30"
+  },
+  {
+    "id": "venturebeat-ai-listen-labs-raises-69m-after-viral-billboard-hiring-stunt-to",
+    "headline": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+    "publishedAt": "2026-01-16T14:01:00.000Z",
+    "topic": "AI",
+    "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs , needed to hire over 100 engineers, but competing against Mark Zuckerberg&#x27;s $100 million offers seemed impossible. So he spent $5,000 — a fifth ",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/4gD12ThOmNHZuosqC4xCTz/277b1e8968da602108a29fae2eaca440/nuneybits_Vector_art_of_billboard_with_cryptic_code_dbe5b0ff-7644-45e6-a1ca-4a5dceeff986.webp?w=300&amp;q=30"
+  },
+  {
+    "id": "venturebeat-ai-salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-mic",
+    "headline": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+    "publishedAt": "2026-01-13T13:00:00.000Z",
+    "topic": "AI",
+    "summary": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot , the company&#x27;s workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent c",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/4Xrcg14GLKFlwSEnuEzxyS/21c85d29d03c4c974076475c009e3b38/nuneybits_Vector_art_of_chat_bubbles_on_a_computer_screen_in_th_5018a7ea-3496-4103-8453-7ba1b129189a.webp?w=300&amp;q=30"
+  },
+  {
+    "id": "venturebeat-ai-anthropic-launches-cowork-a-claude-desktop-agent-that-works-",
+    "headline": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+    "publishedAt": "2026-01-12T11:30:00.000Z",
+    "topic": "LLM",
+    "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire featur",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/wHv1Wez7Ps9wYVYAo9fwT/14b41f606dbf1f5b17994be510407449/nuneybits_Hyper-realistic_image_of_a_retro_computer_with_a_glos_61ffb6e2-7c33-4d45-85f7-69c28693b3ec.webp?w=300&amp;q=30"
+  },
+  {
+    "id": "venturebeat-ai-nous-research-s-nouscoder-14b-is-an-open-source-coding-model",
+    "headline": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
+    "publishedAt": "2026-01-07T20:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Nous Research , the open-source artificial intelligence startup backed by crypto venture firm Paradigm , released a new competitive programming model on Monday that it says matches or exceeds several larger proprietary s",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/66Tw6dMGGoSZZOK6XB6gm6/0fafc7520898e26c88edf1de9e74e863/nuneybits_Vector_art_of_radiant_skull_emitting_code_beams_deep__17d19acc-0af7-41ad-ac28-16f09ef5234b.webp?w=300&amp;q=30"
   },
   {
     "id": "qdrant-blog-new-deeplearning-ai-course-on-multi-vector-image-retrieval-w",
