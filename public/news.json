@@ -9,14 +9,6 @@
     "summary": "This post focuses on why classic retrieval falls short on multi-part questions, how the AgenticRetrieveStream API works (including request construction and trace parsing), and when to choose it over the standard Retrieve"
   },
   {
-    "id": "hacker-news-show-hn-watchmachinego-a-visualizer-to-show-hardware-perform",
-    "headline": "Show HN: WatchMachineGo – A visualizer to show hardware performing LLM inference",
-    "source": "Hacker News",
-    "url": "https://watchmachinego.com/llm-inference",
-    "publishedAt": "2026-07-23T15:00:52.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "hacker-news-show-hn-avoiding-the-memory-wall-by-computing-llm-inference-",
     "headline": "Show HN: Avoiding the Memory Wall by computing LLM inference directly inside RAM",
     "source": "Hacker News",
@@ -233,6 +225,14 @@
     "summary": "In this post, we walk through the three pillars that make this possible: simplified setup, smarter retrieval, and production readiness. We also show you code examples for setting up a knowledge base and retrieving from i"
   },
   {
+    "id": "hacker-news-from-words-to-watts-benchmarking-the-energy-costs-of-llm-inf",
+    "headline": "From Words to Watts: Benchmarking the Energy Costs of LLM Inference (2023)",
+    "source": "Hacker News",
+    "url": "https://arxiv.org/abs/2310.03003",
+    "publishedAt": "2026-07-08T04:33:20.000Z",
+    "topic": "Cost"
+  },
+  {
     "id": "hugging-face-blog-native-speed-vllm-transformers-modeling-backend",
     "headline": "Native-speed vLLM transformers modeling backend",
     "source": "Hugging Face Blog",
@@ -266,6 +266,14 @@
     "topic": "RAG"
   },
   {
+    "id": "hacker-news-show-hn-fenic-llms-as-dataframe-operators-query-meaning-and-",
+    "headline": "Show HN: fenic – LLMs as dataframe operators, query meaning and structure",
+    "source": "Hacker News",
+    "url": "https://github.com/typedef-ai/fenic",
+    "publishedAt": "2026-06-30T16:39:40.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "ahead-of-ai-using-local-coding-agents",
     "headline": "Using Local Coding Agents",
     "source": "Ahead of AI",
@@ -292,6 +300,14 @@
     "topic": "LLM"
   },
   {
+    "id": "hacker-news-show-hn-sipp-run-small-local-llms-in-browser-3x-faster",
+    "headline": "Show HN: Sipp – Run small local LLMs in browser 3x faster",
+    "source": "Hacker News",
+    "url": "https://www.sipp.sh",
+    "publishedAt": "2026-06-24T14:52:44.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "openai-openai-and-broadcom-unveil-llm-optimized-inference-chip",
     "headline": "OpenAI and Broadcom unveil LLM-optimized inference chip",
     "source": "OpenAI",
@@ -307,6 +323,14 @@
     "url": "https://huggingface.co/blog/cross-origin-storage",
     "publishedAt": "2026-06-23T00:00:00.000Z",
     "topic": "RAG"
+  },
+  {
+    "id": "hacker-news-quantifying-llm-cost-savings-from-cache-aware-inference-rout",
+    "headline": "Quantifying LLM Cost Savings from Cache-Aware Inference Routing",
+    "source": "Hacker News",
+    "url": "https://www.auriko.ai/reports/llm-cost-arbitrage",
+    "publishedAt": "2026-06-18T17:21:23.000Z",
+    "topic": "Cost"
   },
   {
     "id": "google-ai-blog-our-new-community-investments-in-virginia-support-local-jobs",
@@ -444,22 +468,6 @@
     "topic": "LLM"
   },
   {
-    "id": "hacker-news-rag-pipelines-leaking-pii-into-vector-databases-and-nobody-s",
-    "headline": "RAG pipelines, leaking PII into vector databases and nobody's talking about it",
-    "source": "Hacker News",
-    "url": "https://comply-tech.co.uk/blog/rag-pipeline-pii-vector-embeddings.html",
-    "publishedAt": "2026-04-24T09:21:55.000Z",
-    "topic": "RAG"
-  },
-  {
-    "id": "hacker-news-show-hn-xtrace-encrypted-vector-db-search-embeddings-without",
-    "headline": "Show HN: XTrace – Encrypted vector DB (search embeddings without exposing them)",
-    "source": "Hacker News",
-    "url": "https://github.com/XTraceAI/xtrace-sdk",
-    "publishedAt": "2026-04-22T18:09:57.000Z",
-    "topic": "AI"
-  },
-  {
     "id": "qdrant-blog-how-data-graphs-built-a-true-hybrid-graph-rag-platform",
     "headline": "How Data Graphs Built a True Hybrid Graph RAG Platform",
     "source": "Qdrant Blog",
@@ -495,14 +503,6 @@
     "publishedAt": "2026-04-09T00:00:00.000Z",
     "topic": "RAG",
     "summary": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming."
-  },
-  {
-    "id": "hacker-news-my-11-step-graphrag-pipeline-what-worked-and-what-s-still-br",
-    "headline": "My 11-step GraphRAG pipeline, what worked, and what's still broken",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=47639059",
-    "publishedAt": "2026-04-04T13:50:22.000Z",
-    "topic": "RAG"
   },
   {
     "id": "ahead-of-ai-components-of-a-coding-agent",
