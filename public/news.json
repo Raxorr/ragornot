@@ -325,14 +325,6 @@
     "topic": "RAG"
   },
   {
-    "id": "hacker-news-quantifying-llm-cost-savings-from-cache-aware-inference-rout",
-    "headline": "Quantifying LLM Cost Savings from Cache-Aware Inference Routing",
-    "source": "Hacker News",
-    "url": "https://www.auriko.ai/reports/llm-cost-arbitrage",
-    "publishedAt": "2026-06-18T17:21:23.000Z",
-    "topic": "Cost"
-  },
-  {
     "id": "google-ai-blog-our-new-community-investments-in-virginia-support-local-jobs",
     "headline": "Our new community investments in Virginia support local jobs and expand energy affordability.",
     "source": "Google AI Blog",
@@ -466,6 +458,14 @@
     "url": "https://statespace.com/",
     "publishedAt": "2026-04-28T16:02:05.000Z",
     "topic": "LLM"
+  },
+  {
+    "id": "hacker-news-rag-pipelines-leaking-pii-into-vector-databases-and-nobody-s",
+    "headline": "RAG pipelines, leaking PII into vector databases and nobody's talking about it",
+    "source": "Hacker News",
+    "url": "https://comply-tech.co.uk/blog/rag-pipeline-pii-vector-embeddings.html",
+    "publishedAt": "2026-04-24T09:21:55.000Z",
+    "topic": "RAG"
   },
   {
     "id": "qdrant-blog-how-data-graphs-built-a-true-hybrid-graph-rag-platform",
