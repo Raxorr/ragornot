@@ -122,14 +122,6 @@
     "topic": "RAG"
   },
   {
-    "id": "hacker-news-show-hn-fenic-llms-as-dataframe-operators-query-meaning-and-",
-    "headline": "Show HN: fenic – LLMs as dataframe operators, query meaning and structure",
-    "source": "Hacker News",
-    "url": "https://github.com/typedef-ai/fenic",
-    "publishedAt": "2026-06-30T16:39:40.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "ahead-of-ai-using-local-coding-agents",
     "headline": "Using Local Coding Agents",
     "source": "Ahead of AI",
@@ -359,6 +351,14 @@
     "publishedAt": "2026-04-09T00:00:00.000Z",
     "topic": "RAG",
     "summary": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming."
+  },
+  {
+    "id": "hacker-news-my-11-step-graphrag-pipeline-what-worked-and-what-s-still-br",
+    "headline": "My 11-step GraphRAG pipeline, what worked, and what's still broken",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=47639059",
+    "publishedAt": "2026-04-04T13:50:22.000Z",
+    "topic": "RAG"
   },
   {
     "id": "ahead-of-ai-components-of-a-coding-agent",
