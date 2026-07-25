@@ -81,14 +81,6 @@
     "summary": "In this post, we walk through the three pillars that make this possible: simplified setup, smarter retrieval, and production readiness. We also show you code examples for setting up a knowledge base and retrieving from i"
   },
   {
-    "id": "hacker-news-from-words-to-watts-benchmarking-the-energy-costs-of-llm-inf",
-    "headline": "From Words to Watts: Benchmarking the Energy Costs of LLM Inference (2023)",
-    "source": "Hacker News",
-    "url": "https://arxiv.org/abs/2310.03003",
-    "publishedAt": "2026-07-08T04:33:20.000Z",
-    "topic": "Cost"
-  },
-  {
     "id": "hugging-face-blog-native-speed-vllm-transformers-modeling-backend",
     "headline": "Native-speed vLLM transformers modeling backend",
     "source": "Hugging Face Blog",
@@ -369,6 +361,14 @@
     "topic": "LLM",
     "summary": "How coding agents use tools, memory, and repo context to make LLMs work better in practice",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/49b97718-57f4-4977-99c8-8ad5c4d32af3_1548x862.png"
+  },
+  {
+    "id": "hacker-news-show-hn-gemma-4-based-local-rag-on-25-years-of-news-articles",
+    "headline": "Show HN: Gemma 4 based local RAG on 25 Years of news articles",
+    "source": "Hacker News",
+    "url": "https://github.com/r-follador/TeletextSignals/",
+    "publishedAt": "2026-04-03T07:51:21.000Z",
+    "topic": "RAG"
   },
   {
     "id": "weaviate-blog-multimodal-embeddings-and-rag-a-practical-guide",
