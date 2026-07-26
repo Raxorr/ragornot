@@ -138,14 +138,6 @@
     "topic": "RAG"
   },
   {
-    "id": "hacker-news-show-hn-fenic-llms-as-dataframe-operators-query-meaning-and-",
-    "headline": "Show HN: fenic – LLMs as dataframe operators, query meaning and structure",
-    "source": "Hacker News",
-    "url": "https://github.com/typedef-ai/fenic",
-    "publishedAt": "2026-06-30T16:39:40.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "ahead-of-ai-using-local-coding-agents",
     "headline": "Using Local Coding Agents",
     "source": "Ahead of AI",
@@ -322,6 +314,14 @@
     "url": "https://statespace.com/",
     "publishedAt": "2026-04-28T16:02:05.000Z",
     "topic": "LLM"
+  },
+  {
+    "id": "hacker-news-rag-pipelines-leaking-pii-into-vector-databases-and-nobody-s",
+    "headline": "RAG pipelines, leaking PII into vector databases and nobody's talking about it",
+    "source": "Hacker News",
+    "url": "https://comply-tech.co.uk/blog/rag-pipeline-pii-vector-embeddings.html",
+    "publishedAt": "2026-04-24T09:21:55.000Z",
+    "topic": "RAG"
   },
   {
     "id": "qdrant-blog-how-data-graphs-built-a-true-hybrid-graph-rag-platform",
