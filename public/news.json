@@ -1,5 +1,13 @@
 [
   {
+    "id": "hacker-news-what-if-llms-escape-through-inferences-itself-this-is-fictio",
+    "headline": "What if LLMs escape through inferences itself? This is fiction. For now",
+    "source": "Hacker News",
+    "url": "https://www.agrillo.it/EvasionEn.html",
+    "publishedAt": "2026-07-26T16:23:56.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "hacker-news-show-hn-cuts-long-horizon-inference-costs-by-50-via-external",
     "headline": "Show HN: Cuts Long Horizon Inference Costs by 50% via external KV Cache Offload",
     "source": "Hacker News",
@@ -314,14 +322,6 @@
     "url": "https://statespace.com/",
     "publishedAt": "2026-04-28T16:02:05.000Z",
     "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-rag-pipelines-leaking-pii-into-vector-databases-and-nobody-s",
-    "headline": "RAG pipelines, leaking PII into vector databases and nobody's talking about it",
-    "source": "Hacker News",
-    "url": "https://comply-tech.co.uk/blog/rag-pipeline-pii-vector-embeddings.html",
-    "publishedAt": "2026-04-24T09:21:55.000Z",
-    "topic": "RAG"
   },
   {
     "id": "qdrant-blog-how-data-graphs-built-a-true-hybrid-graph-rag-platform",
