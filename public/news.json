@@ -156,14 +156,6 @@
     "topic": "LLM"
   },
   {
-    "id": "hacker-news-show-hn-sipp-run-small-local-llms-in-browser-3x-faster",
-    "headline": "Show HN: Sipp – Run small local LLMs in browser 3x faster",
-    "source": "Hacker News",
-    "url": "https://www.sipp.sh",
-    "publishedAt": "2026-06-24T14:52:44.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "openai-openai-and-broadcom-unveil-llm-optimized-inference-chip",
     "headline": "OpenAI and Broadcom unveil LLM-optimized inference chip",
     "source": "OpenAI",
@@ -322,6 +314,14 @@
     "url": "https://comply-tech.co.uk/blog/rag-pipeline-pii-vector-embeddings.html",
     "publishedAt": "2026-04-24T09:21:55.000Z",
     "topic": "RAG"
+  },
+  {
+    "id": "hacker-news-show-hn-xtrace-encrypted-vector-db-search-embeddings-without",
+    "headline": "Show HN: XTrace – Encrypted vector DB (search embeddings without exposing them)",
+    "source": "Hacker News",
+    "url": "https://github.com/XTraceAI/xtrace-sdk",
+    "publishedAt": "2026-04-22T18:09:57.000Z",
+    "topic": "AI"
   },
   {
     "id": "qdrant-blog-how-data-graphs-built-a-true-hybrid-graph-rag-platform",
