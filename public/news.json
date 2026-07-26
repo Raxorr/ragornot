@@ -1,7 +1,7 @@
 [
   {
-    "id": "hacker-news-show-hn-external-kv-cache-offloading-cuts-long-horizon-infer",
-    "headline": "Show HN: External KV Cache Offloading Cuts Long Horizon Inference Costs by 50%",
+    "id": "hacker-news-show-hn-cuts-long-horizon-inference-costs-by-50-via-external",
+    "headline": "Show HN: Cuts Long Horizon Inference Costs by 50% via external KV Cache Offload",
     "source": "Hacker News",
     "url": "https://github.com/openlake-project/openlake",
     "publishedAt": "2026-07-26T13:02:21.000Z",
