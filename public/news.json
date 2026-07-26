@@ -1,5 +1,13 @@
 [
   {
+    "id": "hacker-news-show-hn-external-kv-cache-offloading-cuts-long-horizon-infer",
+    "headline": "Show HN: External KV Cache Offloading Cuts Long Horizon Inference Costs by 50%",
+    "source": "Hacker News",
+    "url": "https://github.com/openlake-project/openlake",
+    "publishedAt": "2026-07-26T13:02:21.000Z",
+    "topic": "Cost"
+  },
+  {
     "id": "aws-machine-learning-blog-agentic-retrieval-for-amazon-bedrock-managed-knowledge-base",
     "headline": "Agentic retrieval for Amazon Bedrock Managed Knowledge Base",
     "source": "AWS Machine Learning Blog",
@@ -314,14 +322,6 @@
     "url": "https://comply-tech.co.uk/blog/rag-pipeline-pii-vector-embeddings.html",
     "publishedAt": "2026-04-24T09:21:55.000Z",
     "topic": "RAG"
-  },
-  {
-    "id": "hacker-news-show-hn-xtrace-encrypted-vector-db-search-embeddings-without",
-    "headline": "Show HN: XTrace – Encrypted vector DB (search embeddings without exposing them)",
-    "source": "Hacker News",
-    "url": "https://github.com/XTraceAI/xtrace-sdk",
-    "publishedAt": "2026-04-22T18:09:57.000Z",
-    "topic": "AI"
   },
   {
     "id": "qdrant-blog-how-data-graphs-built-a-true-hybrid-graph-rag-platform",
