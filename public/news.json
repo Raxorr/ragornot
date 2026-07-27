@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-adversarial-style-optimization-enhancing-vlm-jailbreaks-by-g",
+    "headline": "Adversarial Style Optimization: Enhancing VLM Jailbreaks by GRPO-based Stylistic Triggers Optimization",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.21619",
+    "publishedAt": "2026-07-27T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Multimodal Large Language Models (MLLMs) have achieved impressive performance, but their safety alignment remains vulnerable to jailbreak attacks. Existing content-based jailbreaks are often inconsistent and show unsatis"
+  },
+  {
+    "id": "arxiv-cs-cl-a-consensus-based-framework-for-relative-preference-evaluati",
+    "headline": "A Consensus-Based Framework for Relative Preference Evaluation of Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.21632",
+    "publishedAt": "2026-07-27T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Traditional benchmarks for LLMs primarily rely on static datasets and objective scoring metrics, which often fail to capture differences in response quality when multiple answers are acceptable. In such settings, correct"
+  },
+  {
+    "id": "arxiv-cs-cl-probing-latent-colombian-identity-inferences-in-qwen2-5-7b-w",
+    "headline": "Probing Latent Colombian Identity Inferences in Qwen2.5-7B with Natural Language Autoencoders",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.21774",
+    "publishedAt": "2026-07-27T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models may infer demographic attributes from subtle linguistic cues even when those attributes are not explicitly stated. This pilot study examines whether Qwen2.5-7B-Instruct internally represents Colombi"
+  },
+  {
+    "id": "arxiv-cs-cl-agentic-evaluation-of-copyright-law-compliance",
+    "headline": "Agentic Evaluation of Copyright Law Compliance",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.21799",
+    "publishedAt": "2026-07-27T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language model (LLM) agents increasingly perform commercial tasks that involve retrieving external content such as images and, where appropriate, reproducing that content. LLM agents should comply with the law, inc"
+  },
+  {
+    "id": "arxiv-cs-cl-data-quality-over-capacity-internalizing-documents-into-lora",
+    "headline": "Data Quality over Capacity: Internalizing Documents into LoRA Adapters for Closed-Book QA",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.21861",
+    "publishedAt": "2026-07-27T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "We study baking documents directly into the weights of a 4-bit Gemma-4-e4b model via LoRA, so a system can answer questions about a corpus closed-book: no retrieval and no context-window budget. Across roughly 100 traini"
+  },
+  {
+    "id": "arxiv-cs-cl-leveraging-external-knowledge-for-historical-document-restor",
+    "headline": "Leveraging External Knowledge for Historical Document Restoration via Retrieval-Augmented Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.21936",
+    "publishedAt": "2026-07-27T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Historical documents act as invaluable knowledge archives but often suffer from illegibility due to physical deterioration and damage. While existing restoration methods based on masked language modeling effectively util"
+  },
+  {
+    "id": "arxiv-cs-cl-on-improving-faithfulness-of-podcasts-from-documents",
+    "headline": "On Improving Faithfulness of Podcasts from Documents",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.21961",
+    "publishedAt": "2026-07-27T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are increasingly used to generate long-form conversational content such as podcasts from textual sources. While these systems produce fluent and engaging narratives, they often introduce ungr"
+  },
+  {
+    "id": "arxiv-cs-cl-ground-truth-first-a-longitudinal-evaluation-instrument-for-",
+    "headline": "Ground Truth First: A Longitudinal Evaluation Instrument for Agent Memory, and the Tenure Crossover in Memory-Architecture Rankings",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.21962",
+    "publishedAt": "2026-07-27T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Benchmarks for LLM-agent memory typically generate conversations first and extract answer keys afterwards -- with documented label-error and contamination problems -- and they overwhelmingly measure short interaction his"
+  },
+  {
+    "id": "arxiv-cs-ir-siren-luring-llms-onto-the-rocks-pair-driven-preference-mani",
+    "headline": "SIREN (Luring LLMs onto the Rocks): PAIR-Driven Preference Manipulation in Web-RAG Recommenders",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.21951",
+    "publishedAt": "2026-07-27T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "This paper investigates the adversarial manipulation of the ranked recommendations produced by web-augmented large language models (LLMs). When an LLM answers a recommendation query by retrieving and reading live webpage"
+  },
+  {
+    "id": "arxiv-cs-ir-lamar-an-open-language-aware-multilingual-alignment-reranker",
+    "headline": "LAMAR: An Open Language-Aware Multilingual Alignment Reranker",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.22042",
+    "publishedAt": "2026-07-27T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "In multilingual retrieval augmented generation, a retriever can retrieve relevant documents written in multiple languages, which are subsequently reranked before answer generation. However, it remains unclear whether exi"
+  },
+  {
+    "id": "arxiv-cs-ir-bringing-grace-to-recommendation-fine-tuning-for-sustainable",
+    "headline": "Bringing GRACE to Recommendation: Fine-Tuning for Sustainable and Accurate Personalization",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.22341",
+    "publishedAt": "2026-07-27T04:00:00.000Z",
+    "topic": "Environment",
+    "summary": "Growing concern about environmental sustainability (e.g., reducing carbon emissions and resource use) and public health has motivated ``green'' recommender systems that steer users toward more eco-friendly and healthier "
+  },
+  {
+    "id": "arxiv-cs-ir-legal-nugget-extraction-for-granular-retrieval-over-long-jur",
+    "headline": "Legal Nugget Extraction for Granular Retrieval over Long Jurisprudential Texts",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.22479",
+    "publishedAt": "2026-07-27T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Legal retrieval over jurisprudential collections is challenging because court decisions are long, heterogeneous documents whose relevant legal thesis may occupy only a small portion of the text. This paper asks whether l"
+  },
+  {
+    "id": "arxiv-cs-ir-reflector-arrangement-aware-harmonic-retrieval-for-sample-ba",
+    "headline": "Reflector: Arrangement-Aware Harmonic Retrieval for Sample-Based Composition",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.22413",
+    "publishedAt": "2026-07-27T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Sample retrieval tools can help composers find harmonically compatible material, but querying from a fixed reference sample becomes less informative as arrangements evolve and the harmonic context shifts with each musica"
+  },
+  {
+    "id": "arxiv-cs-ir-entities-as-retrieval-signals-a-systematic-study-of-coverage",
+    "headline": "Entities as Retrieval Signals: A Systematic Study of Coverage, Supervision, and Evaluation in Entity-Oriented Ranking",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2604.05204",
+    "publishedAt": "2026-07-27T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Entity-oriented retrieval assumes that relevant documents exhibit query-relevant entities, yet evaluations report conflicting results. We show this inconsistency stems not from model failure, but from evaluation. On TREC"
+  },
+  {
+    "id": "arxiv-cs-ir-rankgraph-2-lifecycle-co-design-for-billion-node-graph-learn",
+    "headline": "RankGraph-2: Lifecycle Co-Design for Billion-Node Graph Learning in Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2606.18379",
+    "publishedAt": "2026-07-27T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Graph-based retrieval at billion-node scale requires jointly solving three tightly coupled problems -- graph construction, representation learning, and real-time serving -- yet existing work addresses each in isolation. "
+  },
+  {
+    "id": "arxiv-cs-ir-recgpt-v3-technical-report",
+    "headline": "RecGPT-V3 Technical Report",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.15591",
+    "publishedAt": "2026-07-27T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are transforming recommender systems from matching co-occurrence patterns in historical behavior toward reasoning about the intent that drives it. RecGPT-V1 pioneered this paradigm on Taobao "
+  },
+  {
     "id": "simon-willison-s-blog-an-inside-look-at-the-relay-market-powering-token-resellers-",
     "headline": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
     "source": "Simon Willison's Blog",
