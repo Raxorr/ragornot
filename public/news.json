@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-beyond-rag-task-aware-knowledge-compression-for-enterprise-a",
+    "headline": "Beyond RAG: Task-aware knowledge compression for enterprise AI on AWS",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/beyond-rag-task-aware-knowledge-compression-for-enterprise-ai-on-aws/",
+    "publishedAt": "2026-07-27T16:11:32.000Z",
+    "topic": "RAG",
+    "summary": "Traditional RAG hits a ceiling on analytical tasks that span hundreds of documents. This post shows how to use task-aware knowledge compression (TAKC) on AWS to pre-compress entire knowledge bases into task-specific repr"
+  },
+  {
     "id": "hacker-news-show-hn-otlet-local-llm-inference-inside-postgres",
     "headline": "Show HN: Otlet – Local LLM inference \"inside\" Postgres",
     "source": "Hacker News",
