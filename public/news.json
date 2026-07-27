@@ -616,16 +616,6 @@
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/380ad0cc-566e-4e54-8862-00e2de6f269b_2670x1398.png"
   },
   {
-    "id": "the-gradient-after-orthogonality-virtue-ethical-agency-and-ai-alignment",
-    "headline": "After Orthogonality: Virtue-Ethical Agency and AI Alignment",
-    "source": "The Gradient",
-    "url": "https://thegradient.pub/virtue-ethics-ai-alignment/",
-    "publishedAt": "2026-02-18T23:25:52.000Z",
-    "topic": "AI",
-    "summary": "Preface This essay argues that rational people don&#x2019;t have goals, and that rational AIs shouldn&#x2019;t have goals. Human actions are rational not because we direct them at some final &#x2018;goals,&#x2019; but be",
-    "imageUrl": "https://thegradient.pub/content/images/2026/02/ramelli-featured.jpg"
-  },
-  {
     "id": "venturebeat-ai-railway-secures-100-million-to-challenge-aws-with-ai-native-",
     "headline": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
     "source": "VentureBeat AI",
@@ -762,75 +752,5 @@
     "topic": "Environment",
     "summary": "We’re partnering with Commonwealth Fusion Systems (CFS) to bring clean, safe, limitless fusion energy closer to reality.",
     "imageUrl": "https://lh3.googleusercontent.com/I0hKlXnKlWRgtf0wd3UNbqHoLCzBo-AhaA-lRU99ohvb90leYc-IWZVsS2a9_kQNO4EphPerQjYNehMGmsBUu2S1HAfrIRJO6h_5hCrGYA80PPq7=w528-h297-n-nu-rw-lo"
-  },
-  {
-    "id": "the-gradient-agi-is-not-multimodal",
-    "headline": "AGI Is Not Multimodal",
-    "source": "The Gradient",
-    "url": "https://thegradient.pub/agi-is-not-multimodal/",
-    "publishedAt": "2025-06-04T14:00:29.000Z",
-    "topic": "AI",
-    "summary": "\"In projecting language back as the model for thought, we lose sight of the tacit embodied understanding that undergirds our intelligence.\" &#x2013;Terry Winograd The recent successes of generative AI models have convinc",
-    "imageUrl": "https://thegradient.pub/content/images/2025/06/Gradient_Article_Art3-downscaled.png"
-  },
-  {
-    "id": "the-gradient-shape-symmetries-and-structure-the-changing-role-of-mathemat",
-    "headline": "Shape, Symmetries, and Structure: The Changing Role of Mathematics in Machine Learning Research",
-    "source": "The Gradient",
-    "url": "https://thegradient.pub/shape-symmetry-structure/",
-    "publishedAt": "2024-11-16T16:46:15.000Z",
-    "topic": "AI",
-    "summary": "What is the Role of Mathematics in Modern Machine Learning? The past decade has witnessed a shift in how progress is made in machine learning. Research involving carefully designed and mathematically principled architect",
-    "imageUrl": "https://thegradient.pub/content/images/2024/11/DALL-E-2024-11-15-15.40.52---Create-an-abstract-image-that-illustrates-how-ReLU-based-neural-networks-shatter-input-space-into-numerous-polygonal-regions--each-behaving-like-a-lin.webp"
-  },
-  {
-    "id": "the-gradient-what-s-missing-from-llm-chatbots-a-sense-of-purpose",
-    "headline": "What's Missing From LLM Chatbots: A Sense of Purpose",
-    "source": "The Gradient",
-    "url": "https://thegradient.pub/dialog/",
-    "publishedAt": "2024-09-09T17:28:48.000Z",
-    "topic": "LLM",
-    "summary": "LLM-based chatbots&#x2019; capabilities have been advancing every month. These improvements are mostly measured by benchmarks like MMLU, HumanEval, and MATH (e.g. sonnet 3.5, gpt-4o). However, as these measures get more ",
-    "imageUrl": "https://thegradient.pub/content/images/2024/09/cropped.jpeg"
-  },
-  {
-    "id": "the-gradient-we-need-positive-visions-for-ai-grounded-in-wellbeing",
-    "headline": "We Need Positive Visions for AI Grounded in Wellbeing",
-    "source": "The Gradient",
-    "url": "https://thegradient.pub/we-need-positive-visions-for-ai-grounded-in-wellbeing/",
-    "publishedAt": "2024-08-03T17:00:43.000Z",
-    "topic": "AI",
-    "summary": "Introduction Imagine yourself a decade ago, jumping directly into the present shock of conversing naturally with an encyclopedic AI that crafts images, writes code, and debates philosophy. Won&#x2019;t this technology al",
-    "imageUrl": "https://thegradient.pub/content/images/2024/07/wellbeing_ai_cover_image.webp"
-  },
-  {
-    "id": "the-gradient-financial-market-applications-of-llms",
-    "headline": "Financial Market Applications of LLMs",
-    "source": "The Gradient",
-    "url": "https://thegradient.pub/financial-market-applications-of-llms/",
-    "publishedAt": "2024-04-20T17:57:39.000Z",
-    "topic": "LLM",
-    "summary": "The AI revolution drove frenzied investment in both private and public companies and captured the public&#x2019;s imagination in 2023. Transformational consumer products like ChatGPT are powered by Large Language Models ",
-    "imageUrl": "https://thegradient.pub/content/images/2024/04/shutterstock_2448136839.jpg"
-  },
-  {
-    "id": "the-gradient-a-brief-overview-of-gender-bias-in-ai",
-    "headline": "A Brief Overview of Gender Bias in AI",
-    "source": "The Gradient",
-    "url": "https://thegradient.pub/gender-bias-in-ai/",
-    "publishedAt": "2024-04-08T15:54:53.000Z",
-    "topic": "AI",
-    "summary": "A brief overview and discussion on gender bias in AI",
-    "imageUrl": "https://thegradient.pub/content/images/2024/04/gender_gradient_header.jpeg"
-  },
-  {
-    "id": "the-gradient-mamba-explained",
-    "headline": "Mamba Explained",
-    "source": "The Gradient",
-    "url": "https://thegradient.pub/mamba-explained/",
-    "publishedAt": "2024-03-28T01:24:43.000Z",
-    "topic": "AI",
-    "summary": "Is Attention all you need? Mamba, a novel AI model based on State Space Models (SSMs), emerges as a formidable alternative to the widely used Transformer models, addressing their inefficiency in processing long sequences",
-    "imageUrl": "https://images.unsplash.com/photo-1598348341635-33a3f4205d32?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDh8fHRyYW5zZm9ybWVyfGVufDB8fHx8MTcxMTM0NTEwM3ww&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000"
   }
 ]
