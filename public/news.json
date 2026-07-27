@@ -1,5 +1,13 @@
 [
   {
+    "id": "hacker-news-show-hn-otlet-local-llm-inference-inside-postgres",
+    "headline": "Show HN: Otlet – Local LLM inference \"inside\" Postgres",
+    "source": "Hacker News",
+    "url": "https://github.com/joshmeek/otlet",
+    "publishedAt": "2026-07-27T14:56:34.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "arxiv-cs-cl-adversarial-style-optimization-enhancing-vlm-jailbreaks-by-g",
     "headline": "Adversarial Style Optimization: Enhancing VLM Jailbreaks by GRPO-based Stylistic Triggers Optimization",
     "source": "arXiv (cs.CL)",
@@ -239,23 +247,6 @@
     "publishedAt": "2026-07-17T12:11:11.000Z",
     "topic": "LLM",
     "summary": "Tool: LLM cliché highlighter I got frustrated reading yet another article that was crammed with the clichés of LLM-generated writing - \"no fluff, no filler, no jargon\" type stuff - so I had Fable 5 vibe code up this app "
-  },
-  {
-    "id": "aws-machine-learning-blog-build-enterprise-search-for-agents-with-amazon-bedrock-manag",
-    "headline": "Build enterprise search for agents with Amazon Bedrock Managed Knowledge Base",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/build-enterprise-search-for-agents-with-amazon-bedrock-managed-knowledge-base/",
-    "publishedAt": "2026-07-16T21:29:14.000Z",
-    "topic": "RAG",
-    "summary": "In this post, we walk through the three pillars that make this possible: simplified setup, smarter retrieval, and production readiness. We also show you code examples for setting up a knowledge base and retrieving from i"
-  },
-  {
-    "id": "hacker-news-from-words-to-watts-benchmarking-the-energy-costs-of-llm-inf",
-    "headline": "From Words to Watts: Benchmarking the Energy Costs of LLM Inference (2023)",
-    "source": "Hacker News",
-    "url": "https://arxiv.org/abs/2310.03003",
-    "publishedAt": "2026-07-08T04:33:20.000Z",
-    "topic": "Cost"
   },
   {
     "id": "hugging-face-blog-native-speed-vllm-transformers-modeling-backend",
