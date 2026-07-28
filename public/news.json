@@ -162,6 +162,14 @@
     "summary": "An Inside Look at the Relay Market Powering Token Resellers and Fraud Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various"
   },
   {
+    "id": "hacker-news-what-if-llms-escape-through-inferences-itself-this-is-fictio",
+    "headline": "What if LLMs escape through inferences itself? This is fiction. For now",
+    "source": "Hacker News",
+    "url": "https://www.agrillo.it/EvasionEn.html",
+    "publishedAt": "2026-07-26T16:23:56.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "hacker-news-show-hn-cuts-long-horizon-inference-costs-by-50-via-external",
     "headline": "Show HN: Cuts Long Horizon Inference Costs by 50% via external KV Cache Offload",
     "source": "Hacker News",
@@ -340,14 +348,6 @@
     "url": "https://huggingface.co/blog/cross-origin-storage",
     "publishedAt": "2026-06-23T00:00:00.000Z",
     "topic": "RAG"
-  },
-  {
-    "id": "hacker-news-quantifying-llm-cost-savings-from-cache-aware-inference-rout",
-    "headline": "Quantifying LLM Cost Savings from Cache-Aware Inference Routing",
-    "source": "Hacker News",
-    "url": "https://www.auriko.ai/reports/llm-cost-arbitrage",
-    "publishedAt": "2026-06-18T17:21:23.000Z",
-    "topic": "Cost"
   },
   {
     "id": "google-ai-blog-our-new-community-investments-in-virginia-support-local-jobs",
