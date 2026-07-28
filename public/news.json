@@ -325,14 +325,6 @@
     "topic": "LLM"
   },
   {
-    "id": "hacker-news-show-hn-sipp-run-small-local-llms-in-browser-3x-faster",
-    "headline": "Show HN: Sipp – Run small local LLMs in browser 3x faster",
-    "source": "Hacker News",
-    "url": "https://www.sipp.sh",
-    "publishedAt": "2026-06-24T14:52:44.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "openai-openai-and-broadcom-unveil-llm-optimized-inference-chip",
     "headline": "OpenAI and Broadcom unveil LLM-optimized inference chip",
     "source": "OpenAI",
@@ -474,6 +466,14 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
     "publishedAt": "2026-04-29T15:01:48.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "hacker-news-show-hn-i-built-a-search-engine-for-llms-txt-sites",
+    "headline": "Show HN: I built a search engine for llms.txt sites",
+    "source": "Hacker News",
+    "url": "https://statespace.com/",
+    "publishedAt": "2026-04-28T16:02:05.000Z",
     "topic": "LLM"
   },
   {
