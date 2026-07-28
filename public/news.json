@@ -9,14 +9,6 @@
     "summary": "Traditional RAG hits a ceiling on analytical tasks that span hundreds of documents. This post shows how to use task-aware knowledge compression (TAKC) on AWS to pre-compress entire knowledge bases into task-specific repr"
   },
   {
-    "id": "hacker-news-show-hn-otlet-local-llm-inference-inside-postgres",
-    "headline": "Show HN: Otlet – Local LLM inference \"inside\" Postgres",
-    "source": "Hacker News",
-    "url": "https://github.com/joshmeek/otlet",
-    "publishedAt": "2026-07-27T14:56:34.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "arxiv-cs-cl-adversarial-style-optimization-enhancing-vlm-jailbreaks-by-g",
     "headline": "Adversarial Style Optimization: Enhancing VLM Jailbreaks by GRPO-based Stylistic Triggers Optimization",
     "source": "arXiv (cs.CL)",
@@ -170,14 +162,6 @@
     "summary": "An Inside Look at the Relay Market Powering Token Resellers and Fraud Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various"
   },
   {
-    "id": "hacker-news-what-if-llms-escape-through-inferences-itself-this-is-fictio",
-    "headline": "What if LLMs escape through inferences itself? This is fiction. For now",
-    "source": "Hacker News",
-    "url": "https://www.agrillo.it/EvasionEn.html",
-    "publishedAt": "2026-07-26T16:23:56.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "hacker-news-show-hn-cuts-long-horizon-inference-costs-by-50-via-external",
     "headline": "Show HN: Cuts Long Horizon Inference Costs by 50% via external KV Cache Offload",
     "source": "Hacker News",
@@ -258,6 +242,14 @@
     "summary": "Tool: LLM cliché highlighter I got frustrated reading yet another article that was crammed with the clichés of LLM-generated writing - \"no fluff, no filler, no jargon\" type stuff - so I had Fable 5 vibe code up this app "
   },
   {
+    "id": "hacker-news-from-words-to-watts-benchmarking-the-energy-costs-of-llm-inf",
+    "headline": "From Words to Watts: Benchmarking the Energy Costs of LLM Inference (2023)",
+    "source": "Hacker News",
+    "url": "https://arxiv.org/abs/2310.03003",
+    "publishedAt": "2026-07-08T04:33:20.000Z",
+    "topic": "Cost"
+  },
+  {
     "id": "hugging-face-blog-native-speed-vllm-transformers-modeling-backend",
     "headline": "Native-speed vLLM transformers modeling backend",
     "source": "Hugging Face Blog",
@@ -291,6 +283,14 @@
     "topic": "RAG"
   },
   {
+    "id": "hacker-news-show-hn-fenic-llms-as-dataframe-operators-query-meaning-and-",
+    "headline": "Show HN: fenic – LLMs as dataframe operators, query meaning and structure",
+    "source": "Hacker News",
+    "url": "https://github.com/typedef-ai/fenic",
+    "publishedAt": "2026-06-30T16:39:40.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "ahead-of-ai-using-local-coding-agents",
     "headline": "Using Local Coding Agents",
     "source": "Ahead of AI",
@@ -317,6 +317,14 @@
     "topic": "LLM"
   },
   {
+    "id": "hacker-news-show-hn-sipp-run-small-local-llms-in-browser-3x-faster",
+    "headline": "Show HN: Sipp – Run small local LLMs in browser 3x faster",
+    "source": "Hacker News",
+    "url": "https://www.sipp.sh",
+    "publishedAt": "2026-06-24T14:52:44.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "openai-openai-and-broadcom-unveil-llm-optimized-inference-chip",
     "headline": "OpenAI and Broadcom unveil LLM-optimized inference chip",
     "source": "OpenAI",
@@ -332,6 +340,14 @@
     "url": "https://huggingface.co/blog/cross-origin-storage",
     "publishedAt": "2026-06-23T00:00:00.000Z",
     "topic": "RAG"
+  },
+  {
+    "id": "hacker-news-quantifying-llm-cost-savings-from-cache-aware-inference-rout",
+    "headline": "Quantifying LLM Cost Savings from Cache-Aware Inference Routing",
+    "source": "Hacker News",
+    "url": "https://www.auriko.ai/reports/llm-cost-arbitrage",
+    "publishedAt": "2026-06-18T17:21:23.000Z",
+    "topic": "Cost"
   },
   {
     "id": "google-ai-blog-our-new-community-investments-in-virginia-support-local-jobs",
@@ -459,22 +475,6 @@
     "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
     "publishedAt": "2026-04-29T15:01:48.000Z",
     "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-show-hn-i-built-a-search-engine-for-llms-txt-sites",
-    "headline": "Show HN: I built a search engine for llms.txt sites",
-    "source": "Hacker News",
-    "url": "https://statespace.com/",
-    "publishedAt": "2026-04-28T16:02:05.000Z",
-    "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-rag-pipelines-leaking-pii-into-vector-databases-and-nobody-s",
-    "headline": "RAG pipelines, leaking PII into vector databases and nobody's talking about it",
-    "source": "Hacker News",
-    "url": "https://comply-tech.co.uk/blog/rag-pipeline-pii-vector-embeddings.html",
-    "publishedAt": "2026-04-24T09:21:55.000Z",
-    "topic": "RAG"
   },
   {
     "id": "qdrant-blog-how-data-graphs-built-a-true-hybrid-graph-rag-platform",
@@ -616,6 +616,16 @@
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/380ad0cc-566e-4e54-8862-00e2de6f269b_2670x1398.png"
   },
   {
+    "id": "the-gradient-after-orthogonality-virtue-ethical-agency-and-ai-alignment",
+    "headline": "After Orthogonality: Virtue-Ethical Agency and AI Alignment",
+    "source": "The Gradient",
+    "url": "https://thegradient.pub/virtue-ethics-ai-alignment/",
+    "publishedAt": "2026-02-18T23:25:52.000Z",
+    "topic": "AI",
+    "summary": "Preface This essay argues that rational people don&#x2019;t have goals, and that rational AIs shouldn&#x2019;t have goals. Human actions are rational not because we direct them at some final &#x2018;goals,&#x2019; but be",
+    "imageUrl": "https://thegradient.pub/content/images/2026/02/ramelli-featured.jpg"
+  },
+  {
     "id": "venturebeat-ai-railway-secures-100-million-to-challenge-aws-with-ai-native-",
     "headline": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
     "source": "VentureBeat AI",
@@ -752,5 +762,75 @@
     "topic": "Environment",
     "summary": "We’re partnering with Commonwealth Fusion Systems (CFS) to bring clean, safe, limitless fusion energy closer to reality.",
     "imageUrl": "https://lh3.googleusercontent.com/I0hKlXnKlWRgtf0wd3UNbqHoLCzBo-AhaA-lRU99ohvb90leYc-IWZVsS2a9_kQNO4EphPerQjYNehMGmsBUu2S1HAfrIRJO6h_5hCrGYA80PPq7=w528-h297-n-nu-rw-lo"
+  },
+  {
+    "id": "the-gradient-agi-is-not-multimodal",
+    "headline": "AGI Is Not Multimodal",
+    "source": "The Gradient",
+    "url": "https://thegradient.pub/agi-is-not-multimodal/",
+    "publishedAt": "2025-06-04T14:00:29.000Z",
+    "topic": "AI",
+    "summary": "\"In projecting language back as the model for thought, we lose sight of the tacit embodied understanding that undergirds our intelligence.\" &#x2013;Terry Winograd The recent successes of generative AI models have convinc",
+    "imageUrl": "https://thegradient.pub/content/images/2025/06/Gradient_Article_Art3-downscaled.png"
+  },
+  {
+    "id": "the-gradient-shape-symmetries-and-structure-the-changing-role-of-mathemat",
+    "headline": "Shape, Symmetries, and Structure: The Changing Role of Mathematics in Machine Learning Research",
+    "source": "The Gradient",
+    "url": "https://thegradient.pub/shape-symmetry-structure/",
+    "publishedAt": "2024-11-16T16:46:15.000Z",
+    "topic": "AI",
+    "summary": "What is the Role of Mathematics in Modern Machine Learning? The past decade has witnessed a shift in how progress is made in machine learning. Research involving carefully designed and mathematically principled architect",
+    "imageUrl": "https://thegradient.pub/content/images/2024/11/DALL-E-2024-11-15-15.40.52---Create-an-abstract-image-that-illustrates-how-ReLU-based-neural-networks-shatter-input-space-into-numerous-polygonal-regions--each-behaving-like-a-lin.webp"
+  },
+  {
+    "id": "the-gradient-what-s-missing-from-llm-chatbots-a-sense-of-purpose",
+    "headline": "What's Missing From LLM Chatbots: A Sense of Purpose",
+    "source": "The Gradient",
+    "url": "https://thegradient.pub/dialog/",
+    "publishedAt": "2024-09-09T17:28:48.000Z",
+    "topic": "LLM",
+    "summary": "LLM-based chatbots&#x2019; capabilities have been advancing every month. These improvements are mostly measured by benchmarks like MMLU, HumanEval, and MATH (e.g. sonnet 3.5, gpt-4o). However, as these measures get more ",
+    "imageUrl": "https://thegradient.pub/content/images/2024/09/cropped.jpeg"
+  },
+  {
+    "id": "the-gradient-we-need-positive-visions-for-ai-grounded-in-wellbeing",
+    "headline": "We Need Positive Visions for AI Grounded in Wellbeing",
+    "source": "The Gradient",
+    "url": "https://thegradient.pub/we-need-positive-visions-for-ai-grounded-in-wellbeing/",
+    "publishedAt": "2024-08-03T17:00:43.000Z",
+    "topic": "AI",
+    "summary": "Introduction Imagine yourself a decade ago, jumping directly into the present shock of conversing naturally with an encyclopedic AI that crafts images, writes code, and debates philosophy. Won&#x2019;t this technology al",
+    "imageUrl": "https://thegradient.pub/content/images/2024/07/wellbeing_ai_cover_image.webp"
+  },
+  {
+    "id": "the-gradient-financial-market-applications-of-llms",
+    "headline": "Financial Market Applications of LLMs",
+    "source": "The Gradient",
+    "url": "https://thegradient.pub/financial-market-applications-of-llms/",
+    "publishedAt": "2024-04-20T17:57:39.000Z",
+    "topic": "LLM",
+    "summary": "The AI revolution drove frenzied investment in both private and public companies and captured the public&#x2019;s imagination in 2023. Transformational consumer products like ChatGPT are powered by Large Language Models ",
+    "imageUrl": "https://thegradient.pub/content/images/2024/04/shutterstock_2448136839.jpg"
+  },
+  {
+    "id": "the-gradient-a-brief-overview-of-gender-bias-in-ai",
+    "headline": "A Brief Overview of Gender Bias in AI",
+    "source": "The Gradient",
+    "url": "https://thegradient.pub/gender-bias-in-ai/",
+    "publishedAt": "2024-04-08T15:54:53.000Z",
+    "topic": "AI",
+    "summary": "A brief overview and discussion on gender bias in AI",
+    "imageUrl": "https://thegradient.pub/content/images/2024/04/gender_gradient_header.jpeg"
+  },
+  {
+    "id": "the-gradient-mamba-explained",
+    "headline": "Mamba Explained",
+    "source": "The Gradient",
+    "url": "https://thegradient.pub/mamba-explained/",
+    "publishedAt": "2024-03-28T01:24:43.000Z",
+    "topic": "AI",
+    "summary": "Is Attention all you need? Mamba, a novel AI model based on State Space Models (SSMs), emerges as a formidable alternative to the widely used Transformer models, addressing their inefficiency in processing long sequences",
+    "imageUrl": "https://images.unsplash.com/photo-1598348341635-33a3f4205d32?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDh8fHRyYW5zZm9ybWVyfGVufDB8fHx8MTcxMTM0NTEwM3ww&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000"
   }
 ]
