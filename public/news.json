@@ -160,6 +160,15 @@
     "summary": "Secondary private equity transactions require rapid synthesis of fragmented, unstructured financial disclosures, where critical metrics and their entity anchors are distributed across disjoint documents with limited lexi"
   },
   {
+    "id": "simon-willison-s-blog-adding-a-custom-mcp-server-to-claude-and-chatgpt",
+    "headline": "Adding a custom MCP server to Claude and ChatGPT",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
+    "publishedAt": "2026-07-29T00:13:18.000Z",
+    "topic": "LLM",
+    "summary": "TIL: Adding a custom MCP server to Claude and ChatGPT Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps. Tags: ai , generative-ai , chatgpt , llms"
+  },
+  {
     "id": "aws-machine-learning-blog-beyond-rag-task-aware-knowledge-compression-for-enterprise-a",
     "headline": "Beyond RAG: Task-aware knowledge compression for enterprise AI on AWS",
     "source": "AWS Machine Learning Blog",
@@ -246,24 +255,6 @@
     "topic": "LLM",
     "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/286a0beb-32b2-41fc-8bcf-6bae189b53f2_1488x840.png"
-  },
-  {
-    "id": "simon-willison-s-blog-quoting-kimi-k3",
-    "headline": "Quoting Kimi K3",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything",
-    "publishedAt": "2026-07-17T13:43:53.000Z",
-    "topic": "LLM",
-    "summary": "Is there something I can actually help you with today? &mdash; Kimi K3 , after refusing to leak its system prompt Tags: kimi , ai-personality , generative-ai , ai , llms"
-  },
-  {
-    "id": "simon-willison-s-blog-llm-clich-highlighter",
-    "headline": "LLM cliché highlighter",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything",
-    "publishedAt": "2026-07-17T12:11:11.000Z",
-    "topic": "LLM",
-    "summary": "Tool: LLM cliché highlighter I got frustrated reading yet another article that was crammed with the clichés of LLM-generated writing - \"no fluff, no filler, no jargon\" type stuff - so I had Fable 5 vibe code up this app "
   },
   {
     "id": "hacker-news-from-words-to-watts-benchmarking-the-energy-costs-of-llm-inf",
