@@ -1,5 +1,13 @@
 [
   {
+    "id": "hacker-news-how-profitable-is-llm-inference-doing-the-math-on-kimi-k3",
+    "headline": "How Profitable Is LLM Inference? Doing the Math on Kimi K3",
+    "source": "Hacker News",
+    "url": "https://cefboud.com/posts/ai-inference-costs-profit/",
+    "publishedAt": "2026-07-29T08:59:58.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "arxiv-cs-cl-timecapsule-generative-hallucination-as-a-method-for-histori",
     "headline": "TimeCapsule: Generative Hallucination as a Method for Historical Sensemaking",
     "source": "arXiv (cs.CL)",
@@ -466,14 +474,6 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
     "publishedAt": "2026-04-29T15:01:48.000Z",
-    "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-show-hn-i-built-a-search-engine-for-llms-txt-sites",
-    "headline": "Show HN: I built a search engine for llms.txt sites",
-    "source": "Hacker News",
-    "url": "https://statespace.com/",
-    "publishedAt": "2026-04-28T16:02:05.000Z",
     "topic": "LLM"
   },
   {
