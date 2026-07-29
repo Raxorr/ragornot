@@ -1,5 +1,13 @@
 [
   {
+    "id": "hacker-news-show-hn-energy-carbon-and-water-estimates-for-ai-content-sho",
+    "headline": "Show HN: Energy, carbon and water estimates for AI content, shown as ranges",
+    "source": "Hacker News",
+    "url": "https://aicontentfootprint.com/",
+    "publishedAt": "2026-07-29T16:29:14.000Z",
+    "topic": "Environment"
+  },
+  {
     "id": "hacker-news-how-profitable-is-llm-inference-doing-the-math-on-kimi-k3",
     "headline": "How Profitable Is LLM Inference? Doing the Math on Kimi K3",
     "source": "Hacker News",
@@ -297,14 +305,6 @@
     "url": "https://huggingface.co/blog/skypilot-hf-storage",
     "publishedAt": "2026-07-07T00:00:00.000Z",
     "topic": "RAG"
-  },
-  {
-    "id": "hacker-news-show-hn-fenic-llms-as-dataframe-operators-query-meaning-and-",
-    "headline": "Show HN: fenic – LLMs as dataframe operators, query meaning and structure",
-    "source": "Hacker News",
-    "url": "https://github.com/typedef-ai/fenic",
-    "publishedAt": "2026-06-30T16:39:40.000Z",
-    "topic": "LLM"
   },
   {
     "id": "ahead-of-ai-using-local-coding-agents",
