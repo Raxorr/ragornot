@@ -1,5 +1,13 @@
 [
   {
+    "id": "hacker-news-how-to-get-more-coding-productivity-with-llms",
+    "headline": "How to get more coding productivity with LLMs",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49104392",
+    "publishedAt": "2026-07-29T23:28:10.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "hacker-news-show-hn-energy-carbon-and-water-estimates-for-ai-content-sho",
     "headline": "Show HN: Energy, carbon and water estimates for AI content, shown as ranges",
     "source": "Hacker News",
@@ -187,14 +195,6 @@
     "summary": "An Inside Look at the Relay Market Powering Token Resellers and Fraud Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various"
   },
   {
-    "id": "hacker-news-what-if-llms-escape-through-inferences-itself-this-is-fictio",
-    "headline": "What if LLMs escape through inferences itself? This is fiction. For now",
-    "source": "Hacker News",
-    "url": "https://www.agrillo.it/EvasionEn.html",
-    "publishedAt": "2026-07-26T16:23:56.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "hacker-news-show-hn-cuts-long-horizon-inference-costs-by-50-via-external",
     "headline": "Show HN: Cuts Long Horizon Inference Costs by 50% via external KV Cache Offload",
     "source": "Hacker News",
@@ -298,6 +298,14 @@
     "topic": "RAG"
   },
   {
+    "id": "hacker-news-show-hn-fenic-llms-as-dataframe-operators-query-meaning-and-",
+    "headline": "Show HN: fenic – LLMs as dataframe operators, query meaning and structure",
+    "source": "Hacker News",
+    "url": "https://github.com/typedef-ai/fenic",
+    "publishedAt": "2026-06-30T16:39:40.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "ahead-of-ai-using-local-coding-agents",
     "headline": "Using Local Coding Agents",
     "source": "Ahead of AI",
@@ -306,14 +314,6 @@
     "topic": "LLM",
     "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/4e729449-80ff-40c7-bcee-4d9349b46afe_2893x1589.png"
-  },
-  {
-    "id": "hacker-news-show-hn-rag-vector-db-cost-calculator",
-    "headline": "Show HN: RAG Vector DB Cost Calculator",
-    "source": "Hacker News",
-    "url": "https://tools.superml.org/calculators/rag-vector-db-cost-calculator",
-    "publishedAt": "2026-06-26T22:19:14.000Z",
-    "topic": "RAG"
   },
   {
     "id": "hugging-face-blog-run-a-vllm-server-on-hf-jobs-in-one-command",
