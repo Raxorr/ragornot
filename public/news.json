@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-large-scale-chatbot-validation-through-customer-digital-twin",
+    "headline": "Large-Scale ChatBot Validation Through Customer Digital Twin Simulations",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.26060",
+    "publishedAt": "2026-07-30T04:00:00.000Z",
+    "topic": "Cost",
+    "summary": "LLM-based chatbots are transforming customer service in regulated domains such as banking, but scalable and cost-effective validation remains a critical barrier to safe deployment. We present a two-part contribution for "
+  },
+  {
+    "id": "arxiv-cs-cl-do-methods-support-the-claims-intra-paper-verification-for-p",
+    "headline": "Do Methods Support the Claims? Intra-Paper Verification for Peer Review",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.26066",
+    "publishedAt": "2026-07-30T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "The growing volume of scientific submissions has motivated interest in using large language models (LLMs) to assist peer review. Existing automated novelty assessment approaches typically compare a paper's claimed contri"
+  },
+  {
+    "id": "arxiv-cs-cl-steering-instruction-hierarchies-at-inference-time",
+    "headline": "Steering Instruction Hierarchies at Inference Time",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.26228",
+    "publishedAt": "2026-07-30T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Instruction hierarchies are a core safety assumption of language model deployment: higher priority inputs, such as system prompts, should override conflicting lower priority inputs from users or tools. Yet frontier LLMs "
+  },
+  {
+    "id": "arxiv-cs-cl-robostreet-flow-a-lightweight-ultra-low-drag-electric-tracto",
+    "headline": "Robostreet Flow: A Lightweight, Ultra-Low-Drag Electric Tractor and Four-Truck Hybrid Convoy Architecture for Minimum-Cost Point-to-Point Freight",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.26250",
+    "publishedAt": "2026-07-30T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Line-haul trucking costs are dominated by three comparably sized components: energy, driver labor, and equipment. Most efficiency technologies address only one component at a time. This paper presents Robostreet Flow, a "
+  },
+  {
+    "id": "arxiv-cs-cl-evaluating-prompt-scope-and-demonstration-similarity-in-loca",
+    "headline": "Evaluating Prompt Scope and Demonstration Similarity in Local LLM Machine Translation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.26286",
+    "publishedAt": "2026-07-30T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are increasingly used as general-purpose translation systems, but their behavior is usually evaluated under a single prompt shape: translate one source sentence into one target language. In p"
+  },
+  {
+    "id": "arxiv-cs-cl-when-synthetic-users-fail-a-cross-domain-benchmark-of-llm-si",
+    "headline": "When Synthetic Users Fail: A Cross-Domain Benchmark of LLM-Simulated Human Survey Responses",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.26348",
+    "publishedAt": "2026-07-30T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are increasingly used as synthetic users, stand-ins for human respondents whose simulated answers feed product, policy, and market decisions. We ask when this substitution is valid and when i"
+  },
+  {
+    "id": "arxiv-cs-cl-symphony-of-bias-exploring-gender-associations-with-musical-",
+    "headline": "Symphony of Bias: Exploring Gender Associations with Musical Instruments in Multimodal LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.26355",
+    "publishedAt": "2026-07-30T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are increasingly embedded in everyday life and widely used for information seeking, raising concerns about their potential to perpetuate social biases and reinforce stereotypes. In this study"
+  },
+  {
+    "id": "arxiv-cs-cl-knowledge-before-reasoning-ec-reason-bench-a-training-free-d",
+    "headline": "Knowledge before Reasoning: EC-Reason-Bench, a Training-Free Diagnostic Benchmark for LLM Enzyme Classification",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.26397",
+    "publishedAt": "2026-07-30T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Enzyme function prediction is a hierarchical, knowledge-intensive form of protein function classification. Existing benchmarks expose an anomaly: general LLMs often get the coarse first level right, yet once asked for a "
+  },
+  {
+    "id": "arxiv-cs-ir-simplewikisearch-a-clean-offline-wikipedia-environment-for-a",
+    "headline": "SimpleWikiSearch: A Clean Offline Wikipedia Environment for Agentic Search",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.26070",
+    "publishedAt": "2026-07-30T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language model (LLM)-based agentic search systems are often evaluated as if the underlying LLM were the only component that matters, yet their measured performance also depends on the surrounding search environment"
+  },
+  {
+    "id": "arxiv-cs-ir-guidedrag-semantic-steering-of-retrieval-augmented-generatio",
+    "headline": "GuidedRAG: Semantic Steering of Retrieval-Augmented Generation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.26071",
+    "publishedAt": "2026-07-30T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "In this work, we propose GuidedRAG, a novel extension to traditional Retrieval-Augmented Generation (RAG) that introduces a dedicated selection stage and semantic steering during retrieval. In contrast to current state-o"
+  },
+  {
+    "id": "arxiv-cs-ir-ifcmemorybench-evaluating-long-term-memory-of-llm-based-agen",
+    "headline": "IFCMemoryBench: Evaluating Long-Term Memory of LLM-Based Agents in BIM Information Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.26072",
+    "publishedAt": "2026-07-30T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Long-term memory is becoming a core capability of LLM-based agents, but existing evaluations largely test conversational recall in open-domain or persona-grounded settings. We argue that a stronger test is whether an age"
+  },
+  {
+    "id": "arxiv-cs-ir-guess-where-you-go-generative-next-point-of-interest-recomme",
+    "headline": "Guess Where You Go: Generative Next Point-of-Interest Recommendation in Amap",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.26073",
+    "publishedAt": "2026-07-30T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Generative retrieval enables recommender systems to retrieve items by generating compact item identifiers, but scaling it to industrial scenarios remains challenging due to redundant or colliding token assignments and in"
+  },
+  {
+    "id": "arxiv-cs-ir-idp-autoopt-agent-driven-optimization-of-document-processing",
+    "headline": "IDP AutoOpt: Agent-Driven Optimization of Document Processing Pipeline Configurations",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.26075",
+    "publishedAt": "2026-07-30T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "We present IDP AutoOpt, an autonomous LLM agent that discovers high-performing configurations for intelligent document processing (IDP) pipelines. Tuning IDP prompts, models, OCR settings, and schemas jointly currently c"
+  },
+  {
+    "id": "arxiv-cs-ir-fincacheserve-dependency-consistent-answer-reuse-for-cost-ef",
+    "headline": "FinCacheServe: Dependency-Consistent Answer Reuse for Cost-Efficient RAG Serving over Mutable Enterprise Documents",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.26076",
+    "publishedAt": "2026-07-30T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-augmented generation services over mutable enterprise documents repeatedly execute semantically equivalent analysis requests. Answer reuse can remove GPU-bound generation work, yet response caches require depen"
+  },
+  {
+    "id": "arxiv-cs-ir-embedding-items-at-scale-comparing-gnn-based-and-id-based-it",
+    "headline": "Embedding Items at Scale: Comparing GNN-Based and ID-Based Item Embeddings in the Yandex Ecosystem",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.26365",
+    "publishedAt": "2026-07-30T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Transformer-based sequential recommendation models, which process sequences of user-item interactions, rely heavily on the item embedding strategy. Existing approaches either use pretrained item embeddings or learn them "
+  },
+  {
+    "id": "arxiv-cs-ir-director-dynamic-index-based-recommendation-with-transport-o",
+    "headline": "DIRECTOR: Dynamic Index-based Recommendation with Transport-Optimized Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.26418",
+    "publishedAt": "2026-07-30T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Reranking is a combinatorial decision problem that aims to select and order a high-utility slate from a request-specific candidate set. A major line of generative rerankers adopts autoregressive (AR) models, which constr"
+  },
+  {
     "id": "hacker-news-how-to-get-more-coding-productivity-with-llms",
     "headline": "How to get more coding productivity with LLMs",
     "source": "Hacker News",
@@ -22,150 +166,6 @@
     "url": "https://cefboud.com/posts/ai-inference-costs-profit/",
     "publishedAt": "2026-07-29T08:59:58.000Z",
     "topic": "LLM"
-  },
-  {
-    "id": "arxiv-cs-cl-timecapsule-generative-hallucination-as-a-method-for-histori",
-    "headline": "TimeCapsule: Generative Hallucination as a Method for Historical Sensemaking",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.24750",
-    "publishedAt": "2026-07-29T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large Language Models (LLMs) are temporally overexposed: trained on vast contemporary corpora, they encode present-day concepts that make them unreliable narrators of the past. We present TimeCapsule, a 1.2B-parameter LL"
-  },
-  {
-    "id": "arxiv-cs-cl-measuring-and-improving-behavioral-consistency-in-large-lang",
-    "headline": "Measuring and Improving Behavioral Consistency in Large Language Models through Fact-Heuristic-Emotion State Enforcement",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.24765",
-    "publishedAt": "2026-07-29T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) can give different answers to the same decision problem across runs, and reverse a decision when their own prior answer returns as context. We ask whether this instability can be measured and"
-  },
-  {
-    "id": "arxiv-cs-cl-neuromorphic-diffusion-language-models-addressing-compute-an",
-    "headline": "Neuromorphic Diffusion Language Models: Addressing Compute and Memory Bottlenecks via Sparsity and Block Denoising",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.24841",
-    "publishedAt": "2026-07-29T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Autoregressive (AR) large language models (LLMs) are inherently inefficient at inference time because each generated token requires accessing the full set of model parameters, leading to low operational intensity and hig"
-  },
-  {
-    "id": "arxiv-cs-cl-cogarena-a-multimethod-evaluation-of-cognitive-ability-struc",
-    "headline": "CogArena: A Multimethod Evaluation of Cognitive Ability Structure in Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.24999",
-    "publishedAt": "2026-07-29T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "LLM cognitive scores are increasingly summarized as per-ability profiles whose dimensions should converge across tasks, respond selectively to matched interventions, and generalize beyond the models used to define them. "
-  },
-  {
-    "id": "arxiv-cs-cl-ds-gt-arc-at-checkthat-2026-llm-based-trace-ranking-and-grou",
-    "headline": "DS@GT ARC at CheckThat! 2026: LLM-Based Trace Ranking and Grouped Reward Modeling for Multilingual Numerical Claim Verification",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.25069",
-    "publishedAt": "2026-07-29T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Automated verification of numerical claims is a challenging problem, as it requires both language understanding and quantitative reasoning. This paper describes our system for CLEF 2026 CheckThat! Task 2, which focuses o"
-  },
-  {
-    "id": "arxiv-cs-cl-evaluating-communicative-belief-updates-in-large-language-mo",
-    "headline": "Evaluating Communicative Belief Updates in Large Language Models via Implicature Recognition and Cancellation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.25094",
-    "publishedAt": "2026-07-29T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Human language is driven by unspoken beliefs and belief updates, making these critical to model for successful communication between large language models (LLMs) and their users. In this paper, we evaluate the ability of"
-  },
-  {
-    "id": "arxiv-cs-cl-tabrank-chain-of-thought-distillation-for-table-re-rankers",
-    "headline": "TabRank: Chain-of-Thought Distillation for Table Re-Rankers",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.25182",
-    "publishedAt": "2026-07-29T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "The ability to retrieve relevant tables for answering questions is a key task for structured information retrieval. Multi-stage retrieval systems rely heavily on rerankers to refine candidate lists produced by efficient "
-  },
-  {
-    "id": "arxiv-cs-cl-myocardbench-a-real-world-data-benchmark-for-evaluating-larg",
-    "headline": "MyoCardBench: A Real-World Data Benchmark for Evaluating Large Language Models in Clinically Authentic Cardiovascular Care Scenarios",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.25186",
-    "publishedAt": "2026-07-29T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Background: Most medical large language model (LLM) benchmarks focus on examination knowledge or isolated tasks and may not reflect the longitudinal, multimodal, and safety-critical workflow of cardiovascular care. Objec"
-  },
-  {
-    "id": "arxiv-cs-ir-chaystack-benchmarking-chinese-document-retrieval-and-vqa",
-    "headline": "CHaystack: Benchmarking Chinese Document Retrieval and VQA",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.24760",
-    "publishedAt": "2026-07-29T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-augmented generation (RAG) has made substantial progress in extending the memory of large language models (LLMs), and recent advances have further pushed RAG from pure text settings toward multimodal scenarios."
-  },
-  {
-    "id": "arxiv-cs-ir-jko-rag-distributional-retrieval-as-wasserstein-free-energy-",
-    "headline": "JKO-RAG: Distributional Retrieval as Wasserstein Free-Energy Gradient Flow",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.24776",
-    "publishedAt": "2026-07-29T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "RAG pipelines return a \\emph{ranked list} of passages. We argue this is a mismatch: the downstream language model conditions on a \\emph{set}, and the selection problem is fundamentally geometric. We propose \\jko, which f"
-  },
-  {
-    "id": "arxiv-cs-ir-three-sides-of-retrieval-factorial-evidence-for-document-sid",
-    "headline": "Three Sides of Retrieval: Factorial Evidence for Document-Side, Query-Side, and Answer-Side Complementarity in RAG",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.24781",
-    "publishedAt": "2026-07-29T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "RAG systems rely on chunking, which destroys structural information in documents. Existing heading-based retrieval (Jeong et al., 2025) requires multiple LLM calls per document and returns sub-chunks within matched secti"
-  },
-  {
-    "id": "arxiv-cs-ir-unlocking-spatial-grounding-in-large-audio-visual-retrieval-",
-    "headline": "Unlocking Spatial Grounding in Large Audio-Visual Retrieval models",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.24786",
-    "publishedAt": "2026-07-29T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Weak supervision sets a practical regime for audio-visual sound source localization as dense spatial annotations are costly to obtain at scale. The task, however, remains challenging, as models must locate sound sources "
-  },
-  {
-    "id": "arxiv-cs-ir-ai-assisted-knowledge-access-for-legacy-enterprise-asset-man",
-    "headline": "AI-Assisted Knowledge Access for Legacy Enterprise Asset Management in Energy Operations: A Practical Retrieval System",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.24792",
-    "publishedAt": "2026-07-29T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Energy utilities still run engineering work management, engineering procurement, and inventory processes on long-lived enterprise asset management platforms. Replacing these platforms is often cost prohibitive and operat"
-  },
-  {
-    "id": "arxiv-cs-ir-multimodal-hybrid-retrieval-augmented-generation-for-scienti",
-    "headline": "Multimodal Hybrid Retrieval-Augmented Generation for Scientific Document Understanding using Open-Source SLMs",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.24799",
-    "publishedAt": "2026-07-29T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Large Language Models tend to hallucinate when answering domain-specific ques tions from scientific documents without prior fine-tuning. Currently, methods such as Retrieval-Augmented Generation partially solve this prob"
-  },
-  {
-    "id": "arxiv-cs-ir-retrieval-based-and-fine-tuned-llm-approaches-for-industrial",
-    "headline": "Retrieval-based and Fine-tuned LLM Approaches for Industrial Asset Health Monitoring and Decision Support",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.24824",
-    "publishedAt": "2026-07-29T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Industrial plants run many important machines such as pumps, turbines, and compressors. Although engineers can use their experience to identify and diagnose machine problems, transferring this reasoning ability to comput"
-  },
-  {
-    "id": "arxiv-cs-ir-aethel-a-reproducible-graph-retrieval-framework-for-multi-ho",
-    "headline": "Aethel: A Reproducible Graph-Retrieval Framework for Multi-Hop Financial Diligence",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.24826",
-    "publishedAt": "2026-07-29T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Secondary private equity transactions require rapid synthesis of fragmented, unstructured financial disclosures, where critical metrics and their entity anchors are distributed across disjoint documents with limited lexi"
   },
   {
     "id": "simon-willison-s-blog-adding-a-custom-mcp-server-to-claude-and-chatgpt",
