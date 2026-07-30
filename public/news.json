@@ -203,15 +203,6 @@
     "topic": "Cost"
   },
   {
-    "id": "aws-machine-learning-blog-agentic-retrieval-for-amazon-bedrock-managed-knowledge-base",
-    "headline": "Agentic retrieval for Amazon Bedrock Managed Knowledge Base",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-for-amazon-bedrock-managed-knowledge-base/",
-    "publishedAt": "2026-07-23T16:30:20.000Z",
-    "topic": "RAG",
-    "summary": "This post focuses on why classic retrieval falls short on multi-part questions, how the AgenticRetrieveStream API works (including request construction and trace parsing), and when to choose it over the standard Retrieve"
-  },
-  {
     "id": "hacker-news-show-hn-avoiding-the-memory-wall-by-computing-llm-inference-",
     "headline": "Show HN: Avoiding the Memory Wall by computing LLM inference directly inside RAM",
     "source": "Hacker News",
