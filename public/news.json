@@ -1,5 +1,13 @@
 [
   {
+    "id": "hacker-news-predictive-speculative-kv-replication-for-bursty-llm-inferen",
+    "headline": "Predictive Speculative KV Replication for Bursty LLM Inference",
+    "source": "Hacker News",
+    "url": "https://jwlabs.vercel.app/post/biting-the-bullet",
+    "publishedAt": "2026-07-31T19:55:41.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "hacker-news-what-llm-inference-costs",
     "headline": "What LLM Inference Costs",
     "source": "Hacker News",
@@ -252,14 +260,6 @@
     "url": "https://github.com/openlake-project/openlake",
     "publishedAt": "2026-07-26T13:02:21.000Z",
     "topic": "Cost"
-  },
-  {
-    "id": "hacker-news-show-hn-avoiding-the-memory-wall-by-computing-llm-inference-",
-    "headline": "Show HN: Avoiding the Memory Wall by computing LLM inference directly inside RAM",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=49022097",
-    "publishedAt": "2026-07-23T14:21:32.000Z",
-    "topic": "LLM"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
