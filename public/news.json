@@ -280,15 +280,6 @@
     "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery."
   },
   {
-    "id": "simon-willison-s-blog-nativ-run-ai-models-locally-on-your-mac",
-    "headline": "Nativ: Run AI models locally on your Mac",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
-    "publishedAt": "2026-07-21T14:22:27.000Z",
-    "topic": "LLM",
-    "summary": "Nativ: Run AI models locally on your Mac Prince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac. I'm really excited about his new project, which wraps MLX in"
-  },
-  {
     "id": "ahead-of-ai-controlling-reasoning-effort-in-llms",
     "headline": "Controlling Reasoning Effort in LLMs",
     "source": "Ahead of AI",
