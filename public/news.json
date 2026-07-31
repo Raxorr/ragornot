@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-sympathetic-framing-evaluating-ai-alignment-across-sociodemo",
+    "headline": "Sympathetic Framing: Evaluating AI Alignment across Sociodemographic Groups",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.27232",
+    "publishedAt": "2026-07-31T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large Language Models (LLMs) are increasingly shaping how we consume information and form our worldview. This raises concerns beyond bias in AI: do LLMs grasp the emotional nuances conveyed via textual framing? In this w"
+  },
+  {
+    "id": "arxiv-cs-cl-layerrag-bench-a-cross-layer-reliability-benchmark-for-agent",
+    "headline": "LayerRAG-Bench: A Cross-Layer Reliability Benchmark for Agentic Retrieval-Augmented Generation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.27353",
+    "publishedAt": "2026-07-31T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Agentic retrieval-augmented generation systems can produce answers that appear grounded while failing at the evidence, tool-contract, authorization, or session-state layer. We introduce LayerRAG-Bench, a controlled cross"
+  },
+  {
+    "id": "arxiv-cs-cl-bridgealign-bridging-preference-alignment-for-humanities-and",
+    "headline": "BridgeAlign: Bridging Preference Alignment for Humanities and Social Sciences",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.27366",
+    "publishedAt": "2026-07-31T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "While data synthesis for large language models (LLMs) is prevalent, it primarily targets domains with verifiable answers, overlooking open-ended humanities and social sciences (HSS), where nuanced quality judgments matte"
+  },
+  {
+    "id": "arxiv-cs-cl-hss-synth-humanities-and-social-sciences-data-synthesis-for-",
+    "headline": "HSS-Synth: Humanities and Social Sciences Data Synthesis for LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.27379",
+    "publishedAt": "2026-07-31T04:00:00.000Z",
+    "topic": "Cost",
+    "summary": "High-quality, diverse data are vital for large language models (LLMs) but remain scarce and costly. Data synthesis is a viable alternative and succeeds on closed tasks, yet the humanities and social sciences (HSS) are ov"
+  },
+  {
+    "id": "arxiv-cs-cl-same-facts-different-diagnosis-measuring-and-mitigating-narr",
+    "headline": "Same Facts, Different Diagnosis: Measuring and Mitigating Narrative Anchoring in Clinical Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.27384",
+    "publishedAt": "2026-07-31T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models used for clinical diagnostic reasoning are sensitive to sociolinguistic register, not just clinical content. We term this failure mode Narrative Anchoring: identical clinical facts expressed in diff"
+  },
+  {
+    "id": "arxiv-cs-cl-benchmarking-llm-competence-on-logical-inference-over-probab",
+    "headline": "Benchmarking LLM Competence on Logical Inference over Probability Operators",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.27405",
+    "publishedAt": "2026-07-31T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Both expressions of uncertainty and inferences are ubiquitous in natural language, and valid inferences over natural-language expressions of uncertainty are necessary for not only everyday conversations but also for high"
+  },
+  {
+    "id": "arxiv-cs-cl-skillsmith-learning-to-compose-parametric-skills-and-textual",
+    "headline": "SkillSmith: Learning to Compose Parametric Skills and Textual Knowledge",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.27497",
+    "publishedAt": "2026-07-31T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Agentic systems driven by large language models (LLMs) regularly feature two key mechanisms to autonomously solve complex problems: synthesizing text-based knowledge and procedures from past experiences and building para"
+  },
+  {
+    "id": "arxiv-cs-cl-models-for-minimalist-rag-b1ade-335m-embedding-and-1b-parame",
+    "headline": "Models for minimalist RAG: B1ade 335M Embedding and 1B Parameter Small Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.27506",
+    "publishedAt": "2026-07-31T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Language and embedding models used in RAG systems are conventionally assumed to require large-scale pretraining and explicit grounding supervision. We present B1ade, an efficient RAG architecture comprising two purpose-b"
+  },
+  {
+    "id": "arxiv-cs-ir-oneshot-index-in-ranking-with-neural-scoring-for-large-scale",
+    "headline": "OneShot: Index-in-Ranking with Neural Scoring for Large-Scale Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.27475",
+    "publishedAt": "2026-07-31T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "In modern recommendation systems, retrieval serves as a primary stage responsible for filtering billions of candidate items down to thousands prior to refined ranking. To make this massive search effective and efficient,"
+  },
+  {
+    "id": "arxiv-cs-ir-hierarchical-reranking-for-scalable-financial-rag-system",
+    "headline": "Hierarchical Reranking for Scalable Financial RAG System",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.27523",
+    "publishedAt": "2026-07-31T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Analyzing financial documents such as 10-K filings, tabular disclosures, and macroeconomic reports demands expert reasoning and extensive time. However, existing Retrieval-Augmented Generation systems often struggle to p"
+  },
+  {
+    "id": "arxiv-cs-ir-an-exploration-graph-with-continuous-refinement-for-efficien",
+    "headline": "An Exploration Graph with Continuous Refinement for Efficient Multimedia Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.27623",
+    "publishedAt": "2026-07-31T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "As datasets and the dimensionality of feature vectors continue to grow, Approximate Nearest Neighbor Search (ANNS) in large multimedia databases becomes increasingly relevant. Graph-based approaches have demonstrated to "
+  },
+  {
+    "id": "arxiv-cs-ir-restoring-collaborative-signals-in-semantic-id-generative-re",
+    "headline": "Restoring Collaborative Signals in Semantic-ID Generative Recommendation via Personalized Natural Language",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.27682",
+    "publishedAt": "2026-07-31T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Making LLM-based generative recommendation models stronger and more personalized through natural language and explicit reasoning is a widely anticipated yet still unsolved goal. Such models cast recommendation as autoreg"
+  },
+  {
+    "id": "arxiv-cs-ir-a-structured-knowledge-infrastructure-for-domain-specific-da",
+    "headline": "A Structured Knowledge Infrastructure for Domain-Specific Data Asset Discovery",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.27748",
+    "publishedAt": "2026-07-31T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Enterprise data analytics agents face two structural failures: generic RAG retrieves the wrong asset (Hit@10=19.1%) and delivers no usage knowledge to prevent metric misinterpretation---stemming from four root causes (C1"
+  },
+  {
+    "id": "arxiv-cs-ir-hierarchical-latent-reasoning-for-llm-based-recommendation",
+    "headline": "Hierarchical Latent Reasoning for LLM-based Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.27760",
+    "publishedAt": "2026-07-31T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large Language Models (LLMs) have shown strong potential for recommendation by leveraging their semantic understanding and contextual modeling capabilities. Recent studies further introduce reasoning mechanisms to improv"
+  },
+  {
+    "id": "arxiv-cs-ir-from-understanding-to-action-feedback-grounded-policy-discov",
+    "headline": "From Understanding to Action: Feedback-Grounded Policy Discovery for Generative Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.27789",
+    "publishedAt": "2026-07-31T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Semantic-ID-based generative recommenders enable efficient next-item generation, but their item-level supervision mainly captures behavioral co-occurrence and local transitions. Large language models (LLMs) can complemen"
+  },
+  {
+    "id": "arxiv-cs-ir-interpretable-representation-via-llm-driven-generative-disen",
+    "headline": "Interpretable Representation via LLM-Driven Generative Disentanglement for Local-Life Service Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.27944",
+    "publishedAt": "2026-07-31T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "While large language models (LLMs) have advanced ID-based recommendation through Semantic ID (SID) modeling, existing SID generation frameworks largely follow a single-representation-then-quantization paradigm. This desi"
+  },
+  {
     "id": "simon-willison-s-blog-llm-0-32rc2",
     "headline": "llm 0.32rc2",
     "source": "Simon Willison's Blog",
@@ -25,150 +169,6 @@
     "publishedAt": "2026-07-30T15:30:20.000Z",
     "topic": "LLM",
     "summary": "Release: llm 0.32rc1 This RC for LLM 0.32 finishes the work that started in LLM 0.32a0 - it adds a new schema design that does a much better job of capturing the details of the prompts and responses returned by the lates"
-  },
-  {
-    "id": "arxiv-cs-cl-large-scale-chatbot-validation-through-customer-digital-twin",
-    "headline": "Large-Scale ChatBot Validation Through Customer Digital Twin Simulations",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.26060",
-    "publishedAt": "2026-07-30T04:00:00.000Z",
-    "topic": "Cost",
-    "summary": "LLM-based chatbots are transforming customer service in regulated domains such as banking, but scalable and cost-effective validation remains a critical barrier to safe deployment. We present a two-part contribution for "
-  },
-  {
-    "id": "arxiv-cs-cl-do-methods-support-the-claims-intra-paper-verification-for-p",
-    "headline": "Do Methods Support the Claims? Intra-Paper Verification for Peer Review",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.26066",
-    "publishedAt": "2026-07-30T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "The growing volume of scientific submissions has motivated interest in using large language models (LLMs) to assist peer review. Existing automated novelty assessment approaches typically compare a paper's claimed contri"
-  },
-  {
-    "id": "arxiv-cs-cl-steering-instruction-hierarchies-at-inference-time",
-    "headline": "Steering Instruction Hierarchies at Inference Time",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.26228",
-    "publishedAt": "2026-07-30T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Instruction hierarchies are a core safety assumption of language model deployment: higher priority inputs, such as system prompts, should override conflicting lower priority inputs from users or tools. Yet frontier LLMs "
-  },
-  {
-    "id": "arxiv-cs-cl-robostreet-flow-a-lightweight-ultra-low-drag-electric-tracto",
-    "headline": "Robostreet Flow: A Lightweight, Ultra-Low-Drag Electric Tractor and Four-Truck Hybrid Convoy Architecture for Minimum-Cost Point-to-Point Freight",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.26250",
-    "publishedAt": "2026-07-30T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Line-haul trucking costs are dominated by three comparably sized components: energy, driver labor, and equipment. Most efficiency technologies address only one component at a time. This paper presents Robostreet Flow, a "
-  },
-  {
-    "id": "arxiv-cs-cl-evaluating-prompt-scope-and-demonstration-similarity-in-loca",
-    "headline": "Evaluating Prompt Scope and Demonstration Similarity in Local LLM Machine Translation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.26286",
-    "publishedAt": "2026-07-30T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are increasingly used as general-purpose translation systems, but their behavior is usually evaluated under a single prompt shape: translate one source sentence into one target language. In p"
-  },
-  {
-    "id": "arxiv-cs-cl-when-synthetic-users-fail-a-cross-domain-benchmark-of-llm-si",
-    "headline": "When Synthetic Users Fail: A Cross-Domain Benchmark of LLM-Simulated Human Survey Responses",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.26348",
-    "publishedAt": "2026-07-30T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are increasingly used as synthetic users, stand-ins for human respondents whose simulated answers feed product, policy, and market decisions. We ask when this substitution is valid and when i"
-  },
-  {
-    "id": "arxiv-cs-cl-symphony-of-bias-exploring-gender-associations-with-musical-",
-    "headline": "Symphony of Bias: Exploring Gender Associations with Musical Instruments in Multimodal LLMs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.26355",
-    "publishedAt": "2026-07-30T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are increasingly embedded in everyday life and widely used for information seeking, raising concerns about their potential to perpetuate social biases and reinforce stereotypes. In this study"
-  },
-  {
-    "id": "arxiv-cs-cl-knowledge-before-reasoning-ec-reason-bench-a-training-free-d",
-    "headline": "Knowledge before Reasoning: EC-Reason-Bench, a Training-Free Diagnostic Benchmark for LLM Enzyme Classification",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2607.26397",
-    "publishedAt": "2026-07-30T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Enzyme function prediction is a hierarchical, knowledge-intensive form of protein function classification. Existing benchmarks expose an anomaly: general LLMs often get the coarse first level right, yet once asked for a "
-  },
-  {
-    "id": "arxiv-cs-ir-simplewikisearch-a-clean-offline-wikipedia-environment-for-a",
-    "headline": "SimpleWikiSearch: A Clean Offline Wikipedia Environment for Agentic Search",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.26070",
-    "publishedAt": "2026-07-30T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language model (LLM)-based agentic search systems are often evaluated as if the underlying LLM were the only component that matters, yet their measured performance also depends on the surrounding search environment"
-  },
-  {
-    "id": "arxiv-cs-ir-guidedrag-semantic-steering-of-retrieval-augmented-generatio",
-    "headline": "GuidedRAG: Semantic Steering of Retrieval-Augmented Generation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.26071",
-    "publishedAt": "2026-07-30T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "In this work, we propose GuidedRAG, a novel extension to traditional Retrieval-Augmented Generation (RAG) that introduces a dedicated selection stage and semantic steering during retrieval. In contrast to current state-o"
-  },
-  {
-    "id": "arxiv-cs-ir-ifcmemorybench-evaluating-long-term-memory-of-llm-based-agen",
-    "headline": "IFCMemoryBench: Evaluating Long-Term Memory of LLM-Based Agents in BIM Information Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.26072",
-    "publishedAt": "2026-07-30T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Long-term memory is becoming a core capability of LLM-based agents, but existing evaluations largely test conversational recall in open-domain or persona-grounded settings. We argue that a stronger test is whether an age"
-  },
-  {
-    "id": "arxiv-cs-ir-guess-where-you-go-generative-next-point-of-interest-recomme",
-    "headline": "Guess Where You Go: Generative Next Point-of-Interest Recommendation in Amap",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.26073",
-    "publishedAt": "2026-07-30T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Generative retrieval enables recommender systems to retrieve items by generating compact item identifiers, but scaling it to industrial scenarios remains challenging due to redundant or colliding token assignments and in"
-  },
-  {
-    "id": "arxiv-cs-ir-idp-autoopt-agent-driven-optimization-of-document-processing",
-    "headline": "IDP AutoOpt: Agent-Driven Optimization of Document Processing Pipeline Configurations",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.26075",
-    "publishedAt": "2026-07-30T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "We present IDP AutoOpt, an autonomous LLM agent that discovers high-performing configurations for intelligent document processing (IDP) pipelines. Tuning IDP prompts, models, OCR settings, and schemas jointly currently c"
-  },
-  {
-    "id": "arxiv-cs-ir-fincacheserve-dependency-consistent-answer-reuse-for-cost-ef",
-    "headline": "FinCacheServe: Dependency-Consistent Answer Reuse for Cost-Efficient RAG Serving over Mutable Enterprise Documents",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.26076",
-    "publishedAt": "2026-07-30T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-augmented generation services over mutable enterprise documents repeatedly execute semantically equivalent analysis requests. Answer reuse can remove GPU-bound generation work, yet response caches require depen"
-  },
-  {
-    "id": "arxiv-cs-ir-embedding-items-at-scale-comparing-gnn-based-and-id-based-it",
-    "headline": "Embedding Items at Scale: Comparing GNN-Based and ID-Based Item Embeddings in the Yandex Ecosystem",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.26365",
-    "publishedAt": "2026-07-30T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Transformer-based sequential recommendation models, which process sequences of user-item interactions, rely heavily on the item embedding strategy. Existing approaches either use pretrained item embeddings or learn them "
-  },
-  {
-    "id": "arxiv-cs-ir-director-dynamic-index-based-recommendation-with-transport-o",
-    "headline": "DIRECTOR: Dynamic Index-based Recommendation with Transport-Optimized Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.26418",
-    "publishedAt": "2026-07-30T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Reranking is a combinatorial decision problem that aims to select and order a high-utility slate from a request-specific candidate set. A major line of generative rerankers adopts autoregressive (AR) models, which constr"
   },
   {
     "id": "hacker-news-how-to-get-more-coding-productivity-with-llms",
@@ -316,14 +316,6 @@
     "topic": "RAG"
   },
   {
-    "id": "hacker-news-show-hn-fenic-llms-as-dataframe-operators-query-meaning-and-",
-    "headline": "Show HN: fenic – LLMs as dataframe operators, query meaning and structure",
-    "source": "Hacker News",
-    "url": "https://github.com/typedef-ai/fenic",
-    "publishedAt": "2026-06-30T16:39:40.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "ahead-of-ai-using-local-coding-agents",
     "headline": "Using Local Coding Agents",
     "source": "Ahead of AI",
@@ -332,6 +324,14 @@
     "topic": "LLM",
     "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/4e729449-80ff-40c7-bcee-4d9349b46afe_2893x1589.png"
+  },
+  {
+    "id": "hacker-news-show-hn-rag-vector-db-cost-calculator",
+    "headline": "Show HN: RAG Vector DB Cost Calculator",
+    "source": "Hacker News",
+    "url": "https://tools.superml.org/calculators/rag-vector-db-cost-calculator",
+    "publishedAt": "2026-06-26T22:19:14.000Z",
+    "topic": "RAG"
   },
   {
     "id": "hugging-face-blog-run-a-vllm-server-on-hf-jobs-in-one-command",
