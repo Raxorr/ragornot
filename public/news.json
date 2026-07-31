@@ -1,5 +1,32 @@
 [
   {
+    "id": "simon-willison-s-blog-llm-0-32rc2",
+    "headline": "llm 0.32rc2",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything",
+    "publishedAt": "2026-07-30T22:52:06.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm 0.32rc2 Hot on the heels of RC1 , this fixes a dependency issue and also adds two neat new features: The default model for users who have not set their own default is now GPT-5.6 Luna . It was previously GPT"
+  },
+  {
+    "id": "simon-willison-s-blog-llm-chat-completions-server-0-1a0",
+    "headline": "llm-chat-completions-server 0.1a0",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
+    "publishedAt": "2026-07-30T15:43:16.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous co"
+  },
+  {
+    "id": "simon-willison-s-blog-llm-0-32rc1",
+    "headline": "llm 0.32rc1",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Jul/30/llm-rc1/#atom-everything",
+    "publishedAt": "2026-07-30T15:30:20.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm 0.32rc1 This RC for LLM 0.32 finishes the work that started in LLM 0.32a0 - it adds a new schema design that does a much better job of capturing the details of the prompts and responses returned by the lates"
+  },
+  {
     "id": "arxiv-cs-cl-large-scale-chatbot-validation-through-customer-digital-twin",
     "headline": "Large-Scale ChatBot Validation Through Customer Digital Twin Simulations",
     "source": "arXiv (cs.CL)",
