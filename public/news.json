@@ -1,5 +1,13 @@
 [
   {
+    "id": "hacker-news-ask-hn-what-are-you-using-for-llm-inference-in-production",
+    "headline": "Ask HN: What are you using for LLM inference in production?",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49121047",
+    "publishedAt": "2026-07-31T09:46:24.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "arxiv-cs-cl-sympathetic-framing-evaluating-ai-alignment-across-sociodemo",
     "headline": "Sympathetic Framing: Evaluating AI Alignment across Sociodemographic Groups",
     "source": "arXiv (cs.CL)",
@@ -324,14 +332,6 @@
     "topic": "LLM",
     "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/4e729449-80ff-40c7-bcee-4d9349b46afe_2893x1589.png"
-  },
-  {
-    "id": "hacker-news-show-hn-rag-vector-db-cost-calculator",
-    "headline": "Show HN: RAG Vector DB Cost Calculator",
-    "source": "Hacker News",
-    "url": "https://tools.superml.org/calculators/rag-vector-db-cost-calculator",
-    "publishedAt": "2026-06-26T22:19:14.000Z",
-    "topic": "RAG"
   },
   {
     "id": "hugging-face-blog-run-a-vllm-server-on-hf-jobs-in-one-command",
