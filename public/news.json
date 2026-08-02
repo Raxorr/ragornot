@@ -9,14 +9,6 @@
     "summary": "Release: llm-mcp-client 0.1a0 See this blog entry . Tags: llm , model-context-protocol"
   },
   {
-    "id": "hacker-news-predictive-speculative-kv-replication-for-bursty-llm-inferen",
-    "headline": "Predictive Speculative KV Replication for Bursty LLM Inference",
-    "source": "Hacker News",
-    "url": "https://jwlabs.vercel.app/post/biting-the-bullet",
-    "publishedAt": "2026-07-31T19:55:41.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "hacker-news-what-llm-inference-costs",
     "headline": "What LLM Inference Costs",
     "source": "Hacker News",
@@ -58,14 +50,6 @@
     "publishedAt": "2026-07-30T15:30:20.000Z",
     "topic": "LLM",
     "summary": "Release: llm 0.32rc1 This RC for LLM 0.32 finishes the work that started in LLM 0.32a0 - it adds a new schema design that does a much better job of capturing the details of the prompts and responses returned by the lates"
-  },
-  {
-    "id": "hacker-news-how-to-get-more-coding-productivity-with-llms",
-    "headline": "How to get more coding productivity with LLMs",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=49104392",
-    "publishedAt": "2026-07-29T23:28:10.000Z",
-    "topic": "LLM"
   },
   {
     "id": "hacker-news-show-hn-energy-carbon-and-water-estimates-for-ai-content-sho",
@@ -111,20 +95,20 @@
     "summary": "An Inside Look at the Relay Market Powering Token Resellers and Fraud Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various"
   },
   {
-    "id": "hacker-news-what-if-llms-escape-through-inferences-itself-this-is-fictio",
-    "headline": "What if LLMs escape through inferences itself? This is fiction. For now",
-    "source": "Hacker News",
-    "url": "https://www.agrillo.it/EvasionEn.html",
-    "publishedAt": "2026-07-26T16:23:56.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "hacker-news-show-hn-cuts-long-horizon-inference-costs-by-50-via-external",
     "headline": "Show HN: Cuts Long Horizon Inference Costs by 50% via external KV Cache Offload",
     "source": "Hacker News",
     "url": "https://github.com/openlake-project/openlake",
     "publishedAt": "2026-07-26T13:02:21.000Z",
     "topic": "Cost"
+  },
+  {
+    "id": "hacker-news-show-hn-avoiding-the-memory-wall-by-computing-llm-inference-",
+    "headline": "Show HN: Avoiding the Memory Wall by computing LLM inference directly inside RAM",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49022097",
+    "publishedAt": "2026-07-23T14:21:32.000Z",
+    "topic": "LLM"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
@@ -155,6 +139,14 @@
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/286a0beb-32b2-41fc-8bcf-6bae189b53f2_1488x840.png"
   },
   {
+    "id": "hacker-news-from-words-to-watts-benchmarking-the-energy-costs-of-llm-inf",
+    "headline": "From Words to Watts: Benchmarking the Energy Costs of LLM Inference (2023)",
+    "source": "Hacker News",
+    "url": "https://arxiv.org/abs/2310.03003",
+    "publishedAt": "2026-07-08T04:33:20.000Z",
+    "topic": "Cost"
+  },
+  {
     "id": "hugging-face-blog-native-speed-vllm-transformers-modeling-backend",
     "headline": "Native-speed vLLM transformers modeling backend",
     "source": "Hugging Face Blog",
@@ -170,6 +162,14 @@
     "publishedAt": "2026-07-08T00:00:00.000Z",
     "topic": "RAG",
     "summary": "TL;DR Elastic recently published a benchmark claiming that their proprietary, disk-based index (dubbed “DiskBBQ”) delivers up to 7x higher throughput than Qdrant when deployed on nodes with network-attached storage. Elas"
+  },
+  {
+    "id": "hacker-news-rag",
+    "headline": "RAG",
+    "source": "Hacker News",
+    "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+    "publishedAt": "2026-07-07T05:34:43.000Z",
+    "topic": "RAG"
   },
   {
     "id": "hugging-face-blog-run-ai-workloads-on-any-cloud-store-on-hugging-face-zero-egr",
