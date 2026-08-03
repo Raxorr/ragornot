@@ -1,5 +1,140 @@
 [
   {
+    "id": "arxiv-cs-cl-can-llms-really-understand-item-difficulty-levels-implicatio",
+    "headline": "Can LLMs Really Understand Item Difficulty Levels? Implications for Automated Item Generation Using LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.28634",
+    "publishedAt": "2026-08-03T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "The estimation of item difficulty plays a key role in both formative assessment and large-scale high-stakes summative assessments. This study explores how large language models (LLMs) perform in predicting item difficult"
+  },
+  {
+    "id": "arxiv-cs-cl-imbalanced-data-clustering-via-targeted-data-augmentation-us",
+    "headline": "Imbalanced Data Clustering via Targeted Data Augmentation Using GMM and LLM",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.28635",
+    "publishedAt": "2026-08-03T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "In Natural Language Processing (NLP), dealing with underrepresented topics is challenging, especially in unsupervised tasks where clustering might not adequately capture minority topics. To tackle this challenge, our pap"
+  },
+  {
+    "id": "arxiv-cs-cl-chain-of-models-cross-model-auditing-for-bias-robust-llm-jud",
+    "headline": "Chain-of-Models: Cross-Model Auditing for Bias-Robust LLM Judges",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.28636",
+    "publishedAt": "2026-08-03T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "LLMs increasingly serve as automated judges, but their judgments remain vulnerable to cognitive biases. Existing mitigations mostly rely on prompt-driven debiasing, which is brittle across bias types, or human evaluation"
+  },
+  {
+    "id": "arxiv-cs-cl-learning-stateful-predictive-knowledge-from-experience",
+    "headline": "Learning Stateful Predictive Knowledge From Experience",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.28638",
+    "publishedAt": "2026-08-03T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "As large language model (LLM) agents increasingly learn from experience, they primarily rely on trajectory-level reflection to extract insights. Viewed through the lens of predictive knowledge, we argue that this approac"
+  },
+  {
+    "id": "arxiv-cs-cl-tokenswap-benchmarking-and-reducing-the-modality-gap-in-mult",
+    "headline": "TokenSwap: Benchmarking and Reducing the Modality Gap in Multimodal LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.28640",
+    "publishedAt": "2026-08-03T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Multimodal large language models (MLLMs) should generate consistent responses given semantically equivalent inputs across modalities. However, we observe a systematic discrepancy in model predictions under such cross-mod"
+  },
+  {
+    "id": "arxiv-cs-cl-the-formalism-trap-are-llm-as-a-judge-evaluators-blinded-by-",
+    "headline": "The Formalism Trap: Are LLM-as-a-Judge Evaluators Blinded by Consensus Mimicry under Social Load?",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.28641",
+    "publishedAt": "2026-08-03T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "We introduce the \\textit{Agentic Formalism Trap} and the Evaluative Dissonance Index ($D_E$), quantifying how LLM-as-a-Judge systems conflate structural proceduralism with semantic truth under adversarial load. Analyzing"
+  },
+  {
+    "id": "arxiv-cs-cl-are-the-financial-reasoning-from-llms-credible-a-real-world-",
+    "headline": "Are the Financial Reasoning from LLMs Credible? A Real World Test over Long-Horizon Statements",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.28661",
+    "publishedAt": "2026-08-03T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Do Large Language Models (LLMs) possess genuine structural reasoning, or merely rely on surface-level pattern matching? The financial domain, demanding numerical precision and multi-step logic over long contexts, is an i"
+  },
+  {
+    "id": "arxiv-cs-cl-self-supervised-skill-optimization",
+    "headline": "Self-Supervised Skill Optimization",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2607.28777",
+    "publishedAt": "2026-08-03T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Agent skills provide frozen large language model (LLM) agents with reusable procedural guidance, and recent work shows that such skills can be optimized with ground-truth (GT) feedback. Many applications, however, lack G"
+  },
+  {
+    "id": "arxiv-cs-ir-raresense-rarity-aware-similarity-search-for-anomaly-retriev",
+    "headline": "RareSense: Rarity-Aware Similarity Search for Anomaly Retrieval in Transactional Data",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.28879",
+    "publishedAt": "2026-08-03T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Similarity search over sparse set-valued data is often dominated by frequent background attributes because classical measures such as Jaccard, cosine, and Hamming compare objects through atomic overlap. IDF (Inverse docu"
+  },
+  {
+    "id": "arxiv-cs-ir-llm-based-generative-retrieval-for-snapchat-content-recommen",
+    "headline": "LLM-Based Generative Retrieval for Snapchat Content Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.28895",
+    "publishedAt": "2026-08-03T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Pretrained large language models (LLMs) are promising retrieval engines because they combine rich semantic priors, strong sequence modeling capabilities, and favorable scaling behavior. However, turning a pretrained LLM "
+  },
+  {
+    "id": "arxiv-cs-ir-think2go-generative-next-poi-recommendation-with-llm-reasoni",
+    "headline": "Think2Go: Generative Next POI Recommendation with LLM Reasoning",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.28997",
+    "publishedAt": "2026-08-03T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Next Point-of-Interest (POI) recommendation task focuses on mining user behavioral preference patterns from historical check-ins to provide personalized suggestions for the next destination. Existing methods primarily re"
+  },
+  {
+    "id": "arxiv-cs-ir-paletteid-prototype-composed-semantic-identifiers-for-multim",
+    "headline": "PaletteID: Prototype-Composed Semantic Identifiers for Multimodal CTR Prediction",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.29000",
+    "publishedAt": "2026-08-03T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Multimodal information can improve the accuracy of click-through rate (CTR) prediction and effectively alleviate item cold-start and long-tail problems. Recent studies commonly discretize pretrained multimodal embeddings"
+  },
+  {
+    "id": "arxiv-cs-ir-reproducing-lightmem-naive-rag-is-just-as-good-for-memory-ma",
+    "headline": "Reproducing LightMem: Naive RAG Is Just as Good for Memory Management",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.29104",
+    "publishedAt": "2026-08-03T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Long-term conversational agents require access to information from earlier interactions, such as a user's preferences, past requests, or previously mentioned facts. Repeatedly providing the full dialogue history can be e"
+  },
+  {
+    "id": "arxiv-cs-ir-gala-generative-aligned-learning-for-adaptive-multimodal-rep",
+    "headline": "GALA: Generative Aligned Learning for Adaptive Multimodal Representation in the Taobao Shangou Recommender System",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.29213",
+    "publishedAt": "2026-08-03T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Modern recommender systems in food delivery increasingly leverage multimodal signals, including images, text, and user interaction histories, to enhance user experience, yet effective fusion of these heterogeneous modali"
+  },
+  {
+    "id": "arxiv-cs-ir-oneshot-index-in-ranking-with-neural-scoring-for-large-scale",
+    "headline": "OneShot: Index-in-Ranking with Neural Scoring for Large-Scale Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.27475",
+    "publishedAt": "2026-08-03T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "In modern recommendation systems, retrieval serves as a primary stage responsible for filtering billions of candidate items down to thousands prior to refined ranking. To make this massive search effective and efficient,"
+  },
+  {
     "id": "simon-willison-s-blog-llm-mcp-client-0-1a0",
     "headline": "llm-mcp-client 0.1a0",
     "source": "Simon Willison's Blog",
