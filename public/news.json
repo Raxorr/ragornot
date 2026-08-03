@@ -221,15 +221,6 @@
     "summary": "Traditional RAG hits a ceiling on analytical tasks that span hundreds of documents. This post shows how to use task-aware knowledge compression (TAKC) on AWS to pre-compress entire knowledge bases into task-specific repr"
   },
   {
-    "id": "simon-willison-s-blog-an-inside-look-at-the-relay-market-powering-token-resellers-",
-    "headline": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
-    "publishedAt": "2026-07-26T19:30:54.000Z",
-    "topic": "LLM",
-    "summary": "An Inside Look at the Relay Market Powering Token Resellers and Fraud Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various"
-  },
-  {
     "id": "hacker-news-show-hn-cuts-long-horizon-inference-costs-by-50-via-external",
     "headline": "Show HN: Cuts Long Horizon Inference Costs by 50% via external KV Cache Offload",
     "source": "Hacker News",
