@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-bbowp-bench-evaluating-llms-on-black-box-optimization-word-p",
+    "headline": "BBOWP-Bench: Evaluating LLMs on Black-Box Optimization Word Problems",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.02612",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Formulating an optimization problem strongly affects the quality of the final solution, yet good formulations usually require substantial expertise. Recent studies have therefore examined how to automatically derive opti"
+  },
+  {
+    "id": "arxiv-cs-cl-oncotriad-qa-a-patient-level-radiology-pathology-genomics-be",
+    "headline": "OncoTriad-QA: A Patient-Level Radiology-Pathology-Genomics Benchmark for Pan-Cancer Reasoning",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.02615",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Cancer diagnosis and characterization require integrating complementary evidence from radiology, pathology, genomics, and clinical metadata. However, most medical large language model (LLM) and vision-language model (VLM"
+  },
+  {
+    "id": "arxiv-cs-cl-preferred-not-safer-pairwise-preference-is-a-poor-proxy-for-",
+    "headline": "Preferred, Not Safer: Pairwise Preference Is a Poor Proxy for Clinical Safety",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.02617",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "We evaluate whether clinician pairwise preferences provide a reliable signal of clinical safety in large language model (LLM) evaluation using expert feedback from MOOVE (Massive Open Online Validation and Evaluation), a"
+  },
+  {
+    "id": "arxiv-cs-cl-judgearena-a-unified-framework-for-reproducible-llm-judge-ev",
+    "headline": "JudgeArena: A Unified Framework for Reproducible LLM-Judge Evaluation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.02620",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "LLM-as-a-judge evaluation has become a dominant paradigm for ranking language models, yet the ecosystem remains fragmented: most benchmarks ship their own code base, hardcode a specific closed-model judge, and support a "
+  },
+  {
+    "id": "arxiv-cs-cl-archead-activation-metric-residual-correction-for-large-lang",
+    "headline": "ARCHead: Activation-Metric Residual Correction for Large Language Model Output Heads",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.02703",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Weight-only quantization substantially reduces the storage of large language model (LLM) transformer blocks, but practical backends often retain the final language-modeling head (LM-head) in BF16 or FP16. Quantizing this"
+  },
+  {
+    "id": "arxiv-cs-cl-bodhi-do-llms-branch-out-and-discover-heterogeneous-inferenc",
+    "headline": "BODHI: Do LLMs Branch Out and Discover Heterogeneous Inferences?",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.02867",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Although reinforcement learning with verifiable rewards (RLVR) has improved the performance of large language models (LLMs) across a variety of reasoning tasks, there is significant debate as to whether RLVR expands the "
+  },
+  {
+    "id": "arxiv-cs-cl-flare-few-shot-learning-based-adaptive-reflective-engine",
+    "headline": "FLARE: Few-shot Learning-based Adaptive Reflective Engine",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.02919",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are increasingly deployed in complex, compound AI systems where performance hinges on the quality of prompts. Recent state-of-the-art optimizers like GEPA (Genetic-Pareto) have argued that re"
+  },
+  {
+    "id": "arxiv-cs-cl-aligned-in-form-not-in-meaning-the-comprehension-containment",
+    "headline": "Aligned in Form, Not in Meaning: The Comprehension - Containment Decoupling of LLM Safety in Low-Resource Bangla Derogatory Speech",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.02941",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "We audit five frontier large language models on native Bangla derogatory speech (gali) across six protocols to test a single hypothesis: Comprehension-Containment Decoupling. We propose that contemporary safety alignment"
+  },
+  {
+    "id": "arxiv-cs-ir-field-aware-agent-skill-retrieval",
+    "headline": "Field Aware Agent Skill Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.02880",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "As lifelong learning agents accumulate lifelong growing skill banks, retrieving the correct skill becomes an increasingly important bottleneck. Most current skill retrieval methods treat each skill as one flat document b"
+  },
+  {
+    "id": "arxiv-cs-ir-coverage-matters-marginmerge-for-compressing-multi-vector-vi",
+    "headline": "Coverage Matters: MarginMerge for Compressing Multi-Vector Visual Document Retrievers",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.02969",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Multi-vector visual document retrievers such as ColPali and ColQwen achieve strong retrieval by storing fine-grained patch embeddings, but this produces large indexes and costly late-interaction scoring. We argue that ef"
+  },
+  {
+    "id": "arxiv-cs-ir-position-bias-undermines-preference-consistency-in-listwise-",
+    "headline": "Position Bias Undermines Preference Consistency in Listwise LLM-Based Reranking",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.03091",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) have emerged as promising listwise rerankers for recommender systems, but their reliability under equivalent candidate permutations remains unclear. Since recommendation candidates form an un"
+  },
+  {
+    "id": "arxiv-cs-ir-attacking-and-defending-multi-agent-collaborative-filtering-",
+    "headline": "Attacking and Defending Multi-Agent Collaborative Filtering Systems Through Connectivity",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.03272",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Multi-agent collaborative filtering (CF) systems coordinate autonomous LLM-powered user and item agents through natural-language interaction to refine preferences and generate recommendations. These systems inherit vulne"
+  },
+  {
+    "id": "arxiv-cs-ir-llm-derived-priors-for-thompson-sampling-in-cold-start-comme",
+    "headline": "LLM-Derived Priors for Thompson Sampling in Cold-Start Comment Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.03382",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Multi-armed bandit algorithms, especially Thompson sampling, are widely used in online recommendation. Despite their ability to adapt from online feedback, these methods often suffer from cold-start limitations when newl"
+  },
+  {
+    "id": "arxiv-cs-ir-legalpincite-multi-level-legal-information-retrieval-dataset",
+    "headline": "LegalPincite: Multi-level Legal Information Retrieval Dataset",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.03756",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "A common task in legal Information Retrieval (IR) is to find relevant legal sources from case-law collections. While legal practice often requires pinpoint citations (pincites) to specific case paragraphs, most existing "
+  },
+  {
+    "id": "arxiv-cs-ir-isee-interactive-semantic-enrichment-for-database-fields",
+    "headline": "ISEE: Interactive Semantic Enrichment for Database Fields",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.02604",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "LLM-based agents are increasingly being deployed for data-related tasks, including data sense-making, exploration, and retrieval. However, their performance heavily depends on the clarity and completeness of data semanti"
+  },
+  {
+    "id": "arxiv-cs-ir-rag-stack-co-optimizing-rag-serving-performance-and-quality",
+    "headline": "RAG-Stack: Co-Optimizing RAG Serving Performance and Quality",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.03487",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-augmented generation (RAG), which augments large language model (LLM) generation with information retrieved from databases, has become a widely used approach for knowledge-intensive applications. Modern RAG sys"
+  },
+  {
     "id": "simon-willison-s-blog-new-release-of-llm-adds-support-for-reasoning-traces-openai-",
     "headline": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
     "source": "Simon Willison's Blog",
@@ -25,150 +169,6 @@
     "publishedAt": "2026-08-04T17:15:33.000Z",
     "topic": "LLM",
     "summary": "Release: llm 0.32 See my detailed blog post about this release . Tags: llm"
-  },
-  {
-    "id": "arxiv-cs-cl-cost-effective-automated-judging-of-natural-language-mathema",
-    "headline": "Cost-Effective Automated Judging of Natural-Language Mathematical Proofs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.00004",
-    "publishedAt": "2026-08-04T04:00:00.000Z",
-    "topic": "Cost",
-    "summary": "Grading natural-language mathematical proofs is a recurring cost in evaluating math-reasoning systems, and frontier LLM judges are expensive. We ask whether cheap open-weight models can serve as reliable judges given a c"
-  },
-  {
-    "id": "arxiv-cs-cl-rubricreviewer-from-direct-critique-to-objective-and-compreh",
-    "headline": "RubricReviewer: From Direct Critique to Objective and Comprehensive Rubric-Driven Peer Review",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.00005",
-    "publishedAt": "2026-08-04T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Peer review at major venues is under unprecedented submission pressure, motivating the use of large language models (LLMs) as review assistants. Existing LLM-based reviewers, however, face two structural limitations. Fir"
-  },
-  {
-    "id": "arxiv-cs-cl-memoryforge-synthesize-lifelong-memory-for-human-like-llm-ag",
-    "headline": "MemoryForge: Synthesize Lifelong Memory for Human-Like LLM Agents",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.00007",
-    "publishedAt": "2026-08-04T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Equipping Large Language Models (LLMs) with human-like personas is crucial for agentic applications, such as role-play and user simulation. Traditional prompt-based methods rely on descriptive conditioning by injecting s"
-  },
-  {
-    "id": "arxiv-cs-cl-dllm-tts-block-discrete-diffusion-language-model-for-text-to",
-    "headline": "DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.00011",
-    "publishedAt": "2026-08-04T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Current text-to-speech systems face a trade-off: autoregres- sive codec language models produce highly intelligible speech but require large-scale models and training data and decode tokens sequentially, while non-autore"
-  },
-  {
-    "id": "arxiv-cs-cl-obshazard-bench-benchmarking-multimodal-foundation-models-fo",
-    "headline": "Obshazard-bench: Benchmarking Multimodal Foundation Models for Real-Time Disaster Intelligence from Raw Earth Observation Streams",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.00012",
-    "publishedAt": "2026-08-04T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Multimodal Large Language Models (MLLMs) are increasingly used to interpret Earth observation data, yet their capability to support real-world disaster emergency response remains insufficiently evaluated. Existing remote"
-  },
-  {
-    "id": "arxiv-cs-cl-what-transfers-from-text-to-vision-capability-scaling-laws-a",
-    "headline": "What Transfers from Text to Vision? Capability Scaling Laws and Transfer Dynamics for VLMs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.00013",
-    "publishedAt": "2026-08-04T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Choosing the right large language model (LLM) backbone is the most consequential decision when building a vision-language model (VLM), yet it remains fundamentally unprincipled: compute-based scaling laws fail to general"
-  },
-  {
-    "id": "arxiv-cs-cl-slms-as-multi-agent-routers-a-progressive-sft-and-reinforcem",
-    "headline": "SLMs as Multi-Agent Routers: A Progressive SFT and Reinforcement Learning Approach",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.00030",
-    "publishedAt": "2026-08-04T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Specialised retrieval agents typically surface higher quality results than general-purpose search, but selecting the optimal agent for a given query remains an open problem. Current approaches route queries based on infe"
-  },
-  {
-    "id": "arxiv-cs-cl-neural-circuit-function-inference-with-llms",
-    "headline": "Neural Circuit Function Inference with LLMs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.00059",
-    "publishedAt": "2026-08-04T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "The success of connectome mapping now shifts the challenge of understanding the nervous system to the interpretation of neural circuits. Here, we devise a new automated method, LLantia (LLM automated neural circuit infer"
-  },
-  {
-    "id": "arxiv-cs-ir-hierarchical-bm25-lexical-search-at-billion-document-scale",
-    "headline": "Hierarchical BM25: Lexical Search at Billion-Document Scale",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.00229",
-    "publishedAt": "2026-08-04T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "A flat BM25 index over one billion documents occupies about 400 GB. Holding it in memory requires DRAM proportional to corpus size. Serving it from disk takes 4-12 seconds per query. Exact top-k lexical retrieval at this"
-  },
-  {
-    "id": "arxiv-cs-ir-ceqe-grounding-lexical-retrieval-in-semantic-evidence",
-    "headline": "CeQe: Grounding Lexical Retrieval in Semantic Evidence",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.00452",
-    "publishedAt": "2026-08-04T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Lexical retrieval (BM25) captures exact keyword matches and weights terms by corpus-wide significance, but it is blind to the semantic vocabulary gap: when a relevant document phrases an answer differently from the query"
-  },
-  {
-    "id": "arxiv-cs-ir-a-context-aware-cultural-heritage-guide-powered-by-llms",
-    "headline": "A Context-Aware Cultural Heritage Guide Powered by LLMs",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.00549",
-    "publishedAt": "2026-08-04T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "We present an extension of Triangolazioni (a Cultural Heritage webapp) to enrich curated content with context-dependent, external information provided by Large Language Models (LLMs) within a loosely-coupled architecture"
-  },
-  {
-    "id": "arxiv-cs-ir-pha-net-prototype-based-hierarchical-alignment-network-for-t",
-    "headline": "PHA-Net: Prototype-based Hierarchical Alignment Network for Text-Video Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.00551",
-    "publishedAt": "2026-08-04T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "With the emergence of large-scale image-text pre-training models, e.g., CLIP, text-video retrieval has experienced substantial advances in recent years. Existing best-performing methods involve aligning cross-modal seman"
-  },
-  {
-    "id": "arxiv-cs-ir-gardrec-decision-level-graph-grounding-for-large-language-mo",
-    "headline": "GARDRec: Decision-Level Graph Grounding for Large Language Model Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.00669",
-    "publishedAt": "2026-08-04T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) offer new opportunities for recommendation by interpreting item descriptions, user instructions, and external knowledge through natural-language prompts. However, existing graph-augmented LLM"
-  },
-  {
-    "id": "arxiv-cs-ir-tevatron-meets-megatron-expert-parallel-llm-reranker-trainin",
-    "headline": "Tevatron Meets Megatron: Expert-Parallel LLM Reranker Training on an Academic Budget",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.00916",
-    "publishedAt": "2026-08-04T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Modern reranking recipes---billion-scale cross-encoders, mixture-of-experts (MoE) backbones, and distillation against strong teachers---have outpaced the training infrastructure available to most academic groups. Existin"
-  },
-  {
-    "id": "arxiv-cs-ir-grace-generative-recommender-acceleration-engine-for-real-ti",
-    "headline": "GRACE: Generative Recommender Acceleration Engine for Real-Time Ads Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.00938",
-    "publishedAt": "2026-08-04T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Productionizing generative recommenders for high-volume, real-time ads retrieval creates two serving challenges: eligibility, ensuring that each generated ad is eligible for the request under the advertiser's audience ta"
-  },
-  {
-    "id": "arxiv-cs-ir-auditing-semantic-gains-in-sequential-recommendation-a-light",
-    "headline": "Auditing Semantic Gains in Sequential Recommendation: A Lightweight Recovery Test",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.01260",
-    "publishedAt": "2026-08-04T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Recent semantic and generative-retrieval recommenders report substantial improvements over ID-only sequential baselines, but it remains unclear whether these gains arise from language-model reasoning, semantic-ID generat"
   },
   {
     "id": "simon-willison-s-blog-condense-json-1-1",
