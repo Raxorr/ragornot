@@ -1,5 +1,32 @@
 [
   {
+    "id": "simon-willison-s-blog-new-release-of-llm-adds-support-for-reasoning-traces-openai-",
+    "headline": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
+    "publishedAt": "2026-08-04T23:58:24.000Z",
+    "topic": "LLM",
+    "summary": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned con"
+  },
+  {
+    "id": "simon-willison-s-blog-llm-anthropic-0-26",
+    "headline": "llm-anthropic 0.26",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything",
+    "publishedAt": "2026-08-04T22:00:58.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server-side tools for WebSearch , WebFetch , CodeExecution , and "
+  },
+  {
+    "id": "simon-willison-s-blog-llm-0-32",
+    "headline": "llm 0.32",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Aug/4/llm/#atom-everything",
+    "publishedAt": "2026-08-04T17:15:33.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm 0.32 See my detailed blog post about this release . Tags: llm"
+  },
+  {
     "id": "arxiv-cs-cl-cost-effective-automated-judging-of-natural-language-mathema",
     "headline": "Cost-Effective Automated Judging of Natural-Language Mathematical Proofs",
     "source": "arXiv (cs.CL)",
@@ -144,6 +171,15 @@
     "summary": "Recent semantic and generative-retrieval recommenders report substantial improvements over ID-only sequential baselines, but it remains unclear whether these gains arise from language-model reasoning, semantic-ID generat"
   },
   {
+    "id": "simon-willison-s-blog-condense-json-1-1",
+    "headline": "condense-json 1.1",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Aug/3/condense-json/#atom-everything",
+    "publishedAt": "2026-08-03T04:56:26.000Z",
+    "topic": "LLM",
+    "summary": "Release: condense-json 1.1 After shipping condense-json 1.0 I started integrating it into LLM, and found there were some desirable new features already: Replacements object can now include values other than strings. Thes"
+  },
+  {
     "id": "simon-willison-s-blog-llm-mcp-client-0-1a0",
     "headline": "llm-mcp-client 0.1a0",
     "source": "Simon Willison's Blog",
@@ -210,15 +246,6 @@
     "url": "https://cefboud.com/posts/ai-inference-costs-profit/",
     "publishedAt": "2026-07-29T08:59:58.000Z",
     "topic": "LLM"
-  },
-  {
-    "id": "simon-willison-s-blog-adding-a-custom-mcp-server-to-claude-and-chatgpt",
-    "headline": "Adding a custom MCP server to Claude and ChatGPT",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
-    "publishedAt": "2026-07-29T00:13:18.000Z",
-    "topic": "LLM",
-    "summary": "TIL: Adding a custom MCP server to Claude and ChatGPT Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps. Tags: ai , generative-ai , chatgpt , llms"
   },
   {
     "id": "aws-machine-learning-blog-beyond-rag-task-aware-knowledge-compression-for-enterprise-a",
