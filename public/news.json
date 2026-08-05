@@ -144,6 +144,15 @@
     "summary": "Retrieval-augmented generation (RAG), which augments large language model (LLM) generation with information retrieved from databases, has become a widely used approach for knowledge-intensive applications. Modern RAG sys"
   },
   {
+    "id": "qdrant-blog-qdrant-1-19-turboquant-datatype-memory-tiers",
+    "headline": "Qdrant 1.19 - TurboQuant Datatype & Memory Tiers",
+    "source": "Qdrant Blog",
+    "url": "https://qdrant.tech/blog/qdrant-1.19.x/",
+    "publishedAt": "2026-08-05T01:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Qdrant 1.19.0 is out! Let&rsquo;s look at the main features for this version: TurboQuant Datatype: A new storage format that compresses vectors to four bits without keeping their original full-precision representation, r"
+  },
+  {
     "id": "simon-willison-s-blog-new-release-of-llm-adds-support-for-reasoning-traces-openai-",
     "headline": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
     "source": "Simon Willison's Blog",
@@ -711,15 +720,6 @@
     "topic": "LLM",
     "summary": "Nous Research , the open-source artificial intelligence startup backed by crypto venture firm Paradigm , released a new competitive programming model on Monday that it says matches or exceeds several larger proprietary s",
     "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/66Tw6dMGGoSZZOK6XB6gm6/0fafc7520898e26c88edf1de9e74e863/nuneybits_Vector_art_of_radiant_skull_emitting_code_beams_deep__17d19acc-0af7-41ad-ac28-16f09ef5234b.webp?w=300&amp;q=30"
-  },
-  {
-    "id": "qdrant-blog-new-deeplearning-ai-course-on-multi-vector-image-retrieval-w",
-    "headline": "New DeepLearning.AI Course on Multi-Vector Image Retrieval with ColPali and MUVERA",
-    "source": "Qdrant Blog",
-    "url": "https://qdrant.tech/blog/qdrant-deeplearning-ai-multi-vector-image-retrieval/",
-    "publishedAt": "2025-12-11T17:00:00.000Z",
-    "topic": "RAG",
-    "summary": "We&rsquo;re thrilled to announce our latest collaboration with DeepLearning.AI: Multi-Vector Image Retrieval . Building on the success of our previous course on retrieval optimization, this intermediate-level course take"
   },
   {
     "id": "deepmind-blog-facts-benchmark-suite-systematically-evaluating-the-factuali",
