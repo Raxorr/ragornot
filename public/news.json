@@ -1,147 +1,120 @@
 [
   {
-    "id": "arxiv-cs-cl-bbowp-bench-evaluating-llms-on-black-box-optimization-word-p",
-    "headline": "BBOWP-Bench: Evaluating LLMs on Black-Box Optimization Word Problems",
+    "id": "arxiv-cs-cl-transfer-learning-for-named-entity-recognition-of-classical-",
+    "headline": "Transfer Learning for Named Entity Recognition of Classical Latin through LLM Prompting",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.02612",
-    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.04015",
+    "publishedAt": "2026-08-06T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Formulating an optimization problem strongly affects the quality of the final solution, yet good formulations usually require substantial expertise. Recent studies have therefore examined how to automatically derive opti"
+    "summary": "With the increase in digitized resources of Classical Latin texts and modern breakthroughs of Large Language Models (LLMs), I contribute to ancient language research by participating in EvaLatin 2026. This paper describe"
   },
   {
-    "id": "arxiv-cs-cl-oncotriad-qa-a-patient-level-radiology-pathology-genomics-be",
-    "headline": "OncoTriad-QA: A Patient-Level Radiology-Pathology-Genomics Benchmark for Pan-Cancer Reasoning",
+    "id": "arxiv-cs-cl-large-language-models-for-low-resource-languages-a-conceptua",
+    "headline": "Large Language Models for Low-Resource Languages: A Conceptual Framework for an Electronic Explanatory Dictionary of the Tajik Language",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.02615",
-    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.04186",
+    "publishedAt": "2026-08-06T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Cancer diagnosis and characterization require integrating complementary evidence from radiology, pathology, genomics, and clinical metadata. However, most medical large language model (LLM) and vision-language model (VLM"
+    "summary": "This paper presents a conceptual framework for developing an electronic explanatory dictionary of the Tajik language using large language models (LLMs). The relevance of the work stems from the absence of a comprehensive"
   },
   {
-    "id": "arxiv-cs-cl-preferred-not-safer-pairwise-preference-is-a-poor-proxy-for-",
-    "headline": "Preferred, Not Safer: Pairwise Preference Is a Poor Proxy for Clinical Safety",
+    "id": "arxiv-cs-cl-hallucinations-on-the-board-tool-augmented-evaluation-of-llm",
+    "headline": "Hallucinations on the Board: Tool-Augmented Evaluation of LLM Chess Commentary",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.02617",
-    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.04240",
+    "publishedAt": "2026-08-06T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "We evaluate whether clinician pairwise preferences provide a reliable signal of clinical safety in large language model (LLM) evaluation using expert feedback from MOOVE (Massive Open Online Validation and Evaluation), a"
+    "summary": "Superhuman game engines in domains like chess have made expert-level evaluations easily accessible, yet they communicate what is true without the natural-language explanations that make such expertise educationally usefu"
   },
   {
-    "id": "arxiv-cs-cl-judgearena-a-unified-framework-for-reproducible-llm-judge-ev",
-    "headline": "JudgeArena: A Unified Framework for Reproducible LLM-Judge Evaluation",
+    "id": "arxiv-cs-cl-eliciting-intrinsic-hallucinations-in-llms-via-semantically-",
+    "headline": "Eliciting Intrinsic Hallucinations in LLMs via Semantically Equivalent Adversarial Attacks",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.02620",
-    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.04286",
+    "publishedAt": "2026-08-06T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "LLM-as-a-judge evaluation has become a dominant paradigm for ranking language models, yet the ecosystem remains fragmented: most benchmarks ship their own code base, hardcode a specific closed-model judge, and support a "
+    "summary": "Large language models (LLMs) are often used in conjunction with external knowledge sources to improve their factual accuracy and decrease hallucinations, through methods such as Retrieval-Augmented Generation (RAG). Howe"
   },
   {
-    "id": "arxiv-cs-cl-archead-activation-metric-residual-correction-for-large-lang",
-    "headline": "ARCHead: Activation-Metric Residual Correction for Large Language Model Output Heads",
+    "id": "arxiv-cs-cl-searching-for-sound-meaning-collisions-graph-based-affordanc",
+    "headline": "Searching for Sound-Meaning Collisions: Graph-Based Affordance Retrieval and Multi-Evaluator Ranking for Pun Translation at CLEF 2026 JOKER Task 2",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.02703",
-    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.04299",
+    "publishedAt": "2026-08-06T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "Weight-only quantization substantially reduces the storage of large language model (LLM) transformer blocks, but practical backends often retain the final language-modeling head (LM-head) in BF16 or FP16. Quantizing this"
+    "summary": "Fifteen years ago, Low proposed that pun translators should stop searching for equivalent words and instead search for new points of contact between sound and meaning. In this paper, we investigate that idea computationa"
   },
   {
-    "id": "arxiv-cs-cl-bodhi-do-llms-branch-out-and-discover-heterogeneous-inferenc",
-    "headline": "BODHI: Do LLMs Branch Out and Discover Heterogeneous Inferences?",
+    "id": "arxiv-cs-cl-midas-multi-llm-iterative-data-adaptive-summarization",
+    "headline": "MIDAS: Multi-LLM Iterative Data-Adaptive Summarization",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.02867",
-    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.04307",
+    "publishedAt": "2026-08-06T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Although reinforcement learning with verifiable rewards (RLVR) has improved the performance of large language models (LLMs) across a variety of reasoning tasks, there is significant debate as to whether RLVR expands the "
+    "summary": "Text summarization is deceptively difficult. While condensing information seems straightforward, real-world enterprise summarization of support tickets, legal documents, incident reports, and more, demands strict adheren"
   },
   {
-    "id": "arxiv-cs-cl-flare-few-shot-learning-based-adaptive-reflective-engine",
-    "headline": "FLARE: Few-shot Learning-based Adaptive Reflective Engine",
+    "id": "arxiv-cs-cl-pun-intended-multi-agent-translation-of-wordplay-with-contra",
+    "headline": "Pun Intended: Multi-Agent Translation of Wordplay with Contrastive Learning and Phonetic-Semantic Embeddings",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.02919",
-    "publishedAt": "2026-08-05T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are increasingly deployed in complex, compound AI systems where performance hinges on the quality of prompts. Recent state-of-the-art optimizers like GEPA (Genetic-Pareto) have argued that re"
+    "url": "https://arxiv.org/abs/2608.04311",
+    "publishedAt": "2026-08-06T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Translating wordplay across languages has long challenged both professional translators and machine translation systems. We investigate three approaches to translating puns from English to French by combining large langu"
   },
   {
-    "id": "arxiv-cs-cl-aligned-in-form-not-in-meaning-the-comprehension-containment",
-    "headline": "Aligned in Form, Not in Meaning: The Comprehension - Containment Decoupling of LLM Safety in Low-Resource Bangla Derogatory Speech",
+    "id": "arxiv-cs-cl-datarx-missingness-aware-sampling-for-safer-large-language-m",
+    "headline": "DataRx: Missingness-Aware Sampling for Safer Large Language Model Task-Specific Fine-Tuning",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.02941",
-    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.04322",
+    "publishedAt": "2026-08-06T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "We audit five frontier large language models on native Bangla derogatory speech (gali) across six protocols to test a single hypothesis: Comprehension-Containment Decoupling. We propose that contemporary safety alignment"
+    "summary": "Task-specific fine-tuning can improve the performance of large language models (LLMs) on downstream tasks. However, our study reveals that task-specific fine-tuning can also weaken the safety guardrails of aligned LLMs. "
   },
   {
-    "id": "arxiv-cs-ir-field-aware-agent-skill-retrieval",
-    "headline": "Field Aware Agent Skill Retrieval",
+    "id": "arxiv-cs-ir-skills-know-their-neighbors-cluster-contrastive-capability-p",
+    "headline": "Skills Know Their Neighbors: Cluster-Contrastive Capability Pages for Skill Retrieval",
     "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.02880",
-    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.04482",
+    "publishedAt": "2026-08-06T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "As lifelong learning agents accumulate lifelong growing skill banks, retrieving the correct skill becomes an increasingly important bottleneck. Most current skill retrieval methods treat each skill as one flat document b"
+    "summary": "As skill libraries grow, large language model agents must retrieve reusable skills from candidates that often share the same topic and vocabulary but implement different capabilities. Retrieval is limited not only by the"
   },
   {
-    "id": "arxiv-cs-ir-coverage-matters-marginmerge-for-compressing-multi-vector-vi",
-    "headline": "Coverage Matters: MarginMerge for Compressing Multi-Vector Visual Document Retrievers",
+    "id": "arxiv-cs-ir-memorycpt-an-end-to-end-agent-memory-framework-for-cost-perf",
+    "headline": "MemoryCPT: An End-to-End Agent Memory Framework for Cost-Performance Trade-off",
     "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.02969",
-    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.04843",
+    "publishedAt": "2026-08-06T04:00:00.000Z",
+    "topic": "Cost",
+    "summary": "Long-horizon LLM agents require memory systems that recover useful evidence from large interaction histories without passing excessive context to downstream models. Existing memory pipelines often rely on hand-crafted he"
+  },
+  {
+    "id": "arxiv-cs-ir-clip-cc-bench-evaluating-paragraph-level-video-descriptions-",
+    "headline": "CLIP-CC-Bench: Evaluating Paragraph-Level Video Descriptions in Video-Language Models",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.04302",
+    "publishedAt": "2026-08-06T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "Multi-vector visual document retrievers such as ColPali and ColQwen achieve strong retrieval by storing fine-grained patch embeddings, but this produces large indexes and costly late-interaction scoring. We argue that ef"
+    "summary": "Benchmarking video-language models has largely focused on short clips and single-sentence metrics, leaving open whether current systems can generate accurate long-form, paragraph-level descriptions. We introduce CLIP-CC-"
   },
   {
-    "id": "arxiv-cs-ir-position-bias-undermines-preference-consistency-in-listwise-",
-    "headline": "Position Bias Undermines Preference Consistency in Listwise LLM-Based Reranking",
+    "id": "arxiv-cs-ir-closing-the-indexing-decoding-gap-in-multimodal-generative-r",
+    "headline": "Closing the Indexing-Decoding Gap in Multimodal Generative Retrieval via Prefix Retention Optimization",
     "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.03091",
-    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2606.09241",
+    "publishedAt": "2026-08-06T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Multimodal generative retrieval formulates multimodal retrieval as discrete identifier generation, eliminating the need for explicit similarity search over external embeddings. Existing approaches construct identifiers v"
+  },
+  {
+    "id": "arxiv-cs-ir-moon3-0-reasoning-aware-multimodal-representation-learning-f",
+    "headline": "MOON3.0: Reasoning-aware Multimodal Representation Learning for E-commerce Product Understanding",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2604.00513",
+    "publishedAt": "2026-08-06T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Large language models (LLMs) have emerged as promising listwise rerankers for recommender systems, but their reliability under equivalent candidate permutations remains unclear. Since recommendation candidates form an un"
-  },
-  {
-    "id": "arxiv-cs-ir-attacking-and-defending-multi-agent-collaborative-filtering-",
-    "headline": "Attacking and Defending Multi-Agent Collaborative Filtering Systems Through Connectivity",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.03272",
-    "publishedAt": "2026-08-05T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Multi-agent collaborative filtering (CF) systems coordinate autonomous LLM-powered user and item agents through natural-language interaction to refine preferences and generate recommendations. These systems inherit vulne"
-  },
-  {
-    "id": "arxiv-cs-ir-llm-derived-priors-for-thompson-sampling-in-cold-start-comme",
-    "headline": "LLM-Derived Priors for Thompson Sampling in Cold-Start Comment Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.03382",
-    "publishedAt": "2026-08-05T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Multi-armed bandit algorithms, especially Thompson sampling, are widely used in online recommendation. Despite their ability to adapt from online feedback, these methods often suffer from cold-start limitations when newl"
-  },
-  {
-    "id": "arxiv-cs-ir-legalpincite-multi-level-legal-information-retrieval-dataset",
-    "headline": "LegalPincite: Multi-level Legal Information Retrieval Dataset",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.03756",
-    "publishedAt": "2026-08-05T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "A common task in legal Information Retrieval (IR) is to find relevant legal sources from case-law collections. While legal practice often requires pinpoint citations (pincites) to specific case paragraphs, most existing "
-  },
-  {
-    "id": "arxiv-cs-ir-isee-interactive-semantic-enrichment-for-database-fields",
-    "headline": "ISEE: Interactive Semantic Enrichment for Database Fields",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.02604",
-    "publishedAt": "2026-08-05T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "LLM-based agents are increasingly being deployed for data-related tasks, including data sense-making, exploration, and retrieval. However, their performance heavily depends on the clarity and completeness of data semanti"
-  },
-  {
-    "id": "arxiv-cs-ir-rag-stack-co-optimizing-rag-serving-performance-and-quality",
-    "headline": "RAG-Stack: Co-Optimizing RAG Serving Performance and Quality",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.03487",
-    "publishedAt": "2026-08-05T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-augmented generation (RAG), which augments large language model (LLM) generation with information retrieved from databases, has become a widely used approach for knowledge-intensive applications. Modern RAG sys"
+    "summary": "With the rapid growth of e-commerce, exploring general representations rather than task-specific ones has attracted increasing attention. Although recent multimodal large language models (MLLMs) have driven significant p"
   },
   {
     "id": "qdrant-blog-qdrant-1-19-turboquant-datatype-memory-tiers",
