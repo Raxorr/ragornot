@@ -223,15 +223,6 @@
     "summary": "Release: llm 0.32rc2 Hot on the heels of RC1 , this fixes a dependency issue and also adds two neat new features: The default model for users who have not set their own default is now GPT-5.6 Luna . It was previously GPT"
   },
   {
-    "id": "simon-willison-s-blog-llm-chat-completions-server-0-1a0",
-    "headline": "llm-chat-completions-server 0.1a0",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
-    "publishedAt": "2026-07-30T15:43:16.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous co"
-  },
-  {
     "id": "hacker-news-show-hn-energy-carbon-and-water-estimates-for-ai-content-sho",
     "headline": "Show HN: Energy, carbon and water estimates for AI content, shown as ranges",
     "source": "Hacker News",
