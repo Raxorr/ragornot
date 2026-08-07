@@ -1,5 +1,140 @@
 [
   {
+    "id": "arxiv-cs-cl-simulator-grounded-large-language-models-for-industrial-caus",
+    "headline": "Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.05151",
+    "publishedAt": "2026-08-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Wastewater operators need answers grounded in how their plant's variables interact and how fast effects propagate, not in generic pretraining text, when asking causal questions such as \"why is N2O rising?\" or \"what happe"
+  },
+  {
+    "id": "arxiv-cs-cl-mean-field-dynamics-of-chain-of-thought-reasoning-in-large-l",
+    "headline": "Mean-Field Dynamics of Chain-of-Thought Reasoning in Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.05152",
+    "publishedAt": "2026-08-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) with chain-of-thought reasoning have been widely applied in recent years, and theoretical explanations of their behavior may help deepen our understanding and guide model optimization. In thi"
+  },
+  {
+    "id": "arxiv-cs-cl-universal-pathologies-conditional-consequences-a-triple-robu",
+    "headline": "Universal Pathologies, Conditional Consequences: A Triple-Robustness Analysis of RAG for Multi-Hop Traceability",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.05153",
+    "publishedAt": "2026-08-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "GraphRAG underperforms vector RAG on citation precision in many reports, but where and why have remained corpus-bound. We present a triple-robustness analysis that holds the retrieval architecture fixed and varies three "
+  },
+  {
+    "id": "arxiv-cs-cl-rig-rope-relation-and-instance-gated-rotary-positional-encod",
+    "headline": "RIG-RoPE: Relation- and Instance-Gated Rotary Positional Encoding with Duration-Aware Temporal Coordinates",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.05154",
+    "publishedAt": "2026-08-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Rotary positional encoding (RoPE) is a core component of modern language models and has been extended to multimodal LLMs through multidimensional variants such as multimodal RoPE (M-RoPE), which split positional channels"
+  },
+  {
+    "id": "arxiv-cs-cl-beyond-sentiment-comparing-traditional-nlp-and-llm-based-mul",
+    "headline": "Beyond Sentiment: Comparing Traditional NLP and LLM-Based Multi-Dimensional Analysis for Political News Evaluation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.05155",
+    "publishedAt": "2026-08-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Traditional sentiment analysis (SA) models, while effective for polarity classification, provide limited insight into the rhetorical, ideological, and framing dimensions of political discourse -- dimensions that are cent"
+  },
+  {
+    "id": "arxiv-cs-cl-scaffold-mediated-post-training-co-evolving-model-parameters",
+    "headline": "Scaffold-Mediated Post-Training: Co-Evolving Model Parameters and Procedural Scaffold Graphs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.05156",
+    "publishedAt": "2026-08-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Post-training of large language models optimizes only parameters, while inference-time procedural scaffolds are typically designed independently of parameter training. This disconnect makes it difficult to automatically "
+  },
+  {
+    "id": "arxiv-cs-cl-large-language-models-threaten-double-blind-review",
+    "headline": "Large Language Models Threaten Double-blind Review",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.05157",
+    "publishedAt": "2026-08-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Double blind peer review serves as the scientific community primary defense against status and affiliation bias. Its effectiveness rests on the assumption that anonymized manuscripts convey scientific merit without revea"
+  },
+  {
+    "id": "arxiv-cs-cl-semiadapt-instruct-extensible-instruction-tuning-via-latent-",
+    "headline": "SemiAdapt-Instruct: Extensible Instruction Tuning via Latent Domain-Specialised Adapters",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.05161",
+    "publishedAt": "2026-08-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Instruction-tuned LLMs are deployed into environments where domains evolve, yet extending a fine-tuned model's capabilities without full retraining remains an unsolved practical challenge. We present SemiAdapt-Instruct, "
+  },
+  {
+    "id": "arxiv-cs-ir-biomedjimpact-a-comprehensive-dataset-and-llm-pipeline-for-a",
+    "headline": "BioMedJImpact: A Comprehensive Dataset and LLM Pipeline for AI Engagement and Scientific Impact Analysis of Biomedical Journals",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.05227",
+    "publishedAt": "2026-08-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Assessing journal impact is central to scholarly communication, yet existing resources rarely capture how collaboration and artificial intelligence (AI) research jointly shape venue prestige in biomedicine. We present Bi"
+  },
+  {
+    "id": "arxiv-cs-ir-cross-platform-epistemic-verification-for-improving-factual-",
+    "headline": "Cross-platform epistemic verification for improving factual reliability in AI-generated news summarization",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.05302",
+    "publishedAt": "2026-08-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "This study proposes Multi-source Evidence Consen- sus Verification (MECV), a post-hoc hallucination cor- rection framework for AI-generated news summariza- tion. Instead of depending on a single retrieval channel, MECV a"
+  },
+  {
+    "id": "arxiv-cs-ir-a-mechanistic-analysis-of-gender-sensitivity-in-dense-retrie",
+    "headline": "A Mechanistic Analysis of Gender Sensitivity in Dense Retrieval Models",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.05467",
+    "publishedAt": "2026-08-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "While gender bias in dense retrieval models is well documented, with prior work showing that models often score male-gendered documents higher than female or neutral variants, the internal mechanisms producing these disp"
+  },
+  {
+    "id": "arxiv-cs-ir-excise-query-side-exclusion-for-late-interaction-retrieval",
+    "headline": "EXCISE: Query-Side Exclusion for Late-Interaction Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.05497",
+    "publishedAt": "2026-08-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Late-interaction retrievers handle exclusion queries poorly. When a user asks for X but not Z, the additive MaxSim score promotes documents covering Z, a problem we call exclusion inversion. We show that no readout of th"
+  },
+  {
+    "id": "arxiv-cs-ir-align-rag-alignment-is-all-you-need-for-tsfm-in-context-lear",
+    "headline": "Align-RAG: Alignment Is All You Need for TSFM In-Context Learning",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.05571",
+    "publishedAt": "2026-08-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-augmented forecasting promises to adapt frozen Time Series Foundation Models (TSFMs) to new domains without fine-tuning, but recent methods typically rely on learned fusion modules, i.e., trained adapters that "
+  },
+  {
+    "id": "arxiv-cs-ir-cleo-a-transparent-and-controllable-chatbot-for-conversation",
+    "headline": "Cleo: A Transparent and Controllable Chatbot for Conversational Commerce",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.06068",
+    "publishedAt": "2026-08-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "We demonstrate Cleo, a transparent and controllable conversational product advisor that addresses the challenges of opacity, unpredictability of LLMs, and the complexity of comparisons in conversational commerce. With ou"
+  },
+  {
+    "id": "arxiv-cs-ir-field-aware-agent-skill-retrieval",
+    "headline": "Field Aware Agent Skill Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.02880",
+    "publishedAt": "2026-08-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "As lifelong learning agents accumulate lifelong growing skill banks, retrieving the correct skill becomes an increasingly important bottleneck. Most current skill retrieval methods treat each skill as one flat document b"
+  },
+  {
     "id": "aws-machine-learning-blog-llm-optimization-integration-for-amazon-sagemaker-python-sdk",
     "headline": "LLM optimization integration for Amazon SageMaker Python SDK",
     "source": "AWS Machine Learning Blog",
@@ -7,123 +142,6 @@
     "publishedAt": "2026-08-06T16:08:12.000Z",
     "topic": "LLM",
     "summary": "The Amazon SageMaker Python SDK v3 now exposes generative AI inference recommendations in Amazon SageMaker AI directly in your notebook. Benchmark an endpoint, generate data-driven deployment recommendations, and deploy "
-  },
-  {
-    "id": "arxiv-cs-cl-transfer-learning-for-named-entity-recognition-of-classical-",
-    "headline": "Transfer Learning for Named Entity Recognition of Classical Latin through LLM Prompting",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.04015",
-    "publishedAt": "2026-08-06T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "With the increase in digitized resources of Classical Latin texts and modern breakthroughs of Large Language Models (LLMs), I contribute to ancient language research by participating in EvaLatin 2026. This paper describe"
-  },
-  {
-    "id": "arxiv-cs-cl-large-language-models-for-low-resource-languages-a-conceptua",
-    "headline": "Large Language Models for Low-Resource Languages: A Conceptual Framework for an Electronic Explanatory Dictionary of the Tajik Language",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.04186",
-    "publishedAt": "2026-08-06T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "This paper presents a conceptual framework for developing an electronic explanatory dictionary of the Tajik language using large language models (LLMs). The relevance of the work stems from the absence of a comprehensive"
-  },
-  {
-    "id": "arxiv-cs-cl-hallucinations-on-the-board-tool-augmented-evaluation-of-llm",
-    "headline": "Hallucinations on the Board: Tool-Augmented Evaluation of LLM Chess Commentary",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.04240",
-    "publishedAt": "2026-08-06T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Superhuman game engines in domains like chess have made expert-level evaluations easily accessible, yet they communicate what is true without the natural-language explanations that make such expertise educationally usefu"
-  },
-  {
-    "id": "arxiv-cs-cl-eliciting-intrinsic-hallucinations-in-llms-via-semantically-",
-    "headline": "Eliciting Intrinsic Hallucinations in LLMs via Semantically Equivalent Adversarial Attacks",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.04286",
-    "publishedAt": "2026-08-06T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Large language models (LLMs) are often used in conjunction with external knowledge sources to improve their factual accuracy and decrease hallucinations, through methods such as Retrieval-Augmented Generation (RAG). Howe"
-  },
-  {
-    "id": "arxiv-cs-cl-searching-for-sound-meaning-collisions-graph-based-affordanc",
-    "headline": "Searching for Sound-Meaning Collisions: Graph-Based Affordance Retrieval and Multi-Evaluator Ranking for Pun Translation at CLEF 2026 JOKER Task 2",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.04299",
-    "publishedAt": "2026-08-06T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Fifteen years ago, Low proposed that pun translators should stop searching for equivalent words and instead search for new points of contact between sound and meaning. In this paper, we investigate that idea computationa"
-  },
-  {
-    "id": "arxiv-cs-cl-midas-multi-llm-iterative-data-adaptive-summarization",
-    "headline": "MIDAS: Multi-LLM Iterative Data-Adaptive Summarization",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.04307",
-    "publishedAt": "2026-08-06T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Text summarization is deceptively difficult. While condensing information seems straightforward, real-world enterprise summarization of support tickets, legal documents, incident reports, and more, demands strict adheren"
-  },
-  {
-    "id": "arxiv-cs-cl-pun-intended-multi-agent-translation-of-wordplay-with-contra",
-    "headline": "Pun Intended: Multi-Agent Translation of Wordplay with Contrastive Learning and Phonetic-Semantic Embeddings",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.04311",
-    "publishedAt": "2026-08-06T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Translating wordplay across languages has long challenged both professional translators and machine translation systems. We investigate three approaches to translating puns from English to French by combining large langu"
-  },
-  {
-    "id": "arxiv-cs-cl-datarx-missingness-aware-sampling-for-safer-large-language-m",
-    "headline": "DataRx: Missingness-Aware Sampling for Safer Large Language Model Task-Specific Fine-Tuning",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.04322",
-    "publishedAt": "2026-08-06T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Task-specific fine-tuning can improve the performance of large language models (LLMs) on downstream tasks. However, our study reveals that task-specific fine-tuning can also weaken the safety guardrails of aligned LLMs. "
-  },
-  {
-    "id": "arxiv-cs-ir-skills-know-their-neighbors-cluster-contrastive-capability-p",
-    "headline": "Skills Know Their Neighbors: Cluster-Contrastive Capability Pages for Skill Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.04482",
-    "publishedAt": "2026-08-06T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "As skill libraries grow, large language model agents must retrieve reusable skills from candidates that often share the same topic and vocabulary but implement different capabilities. Retrieval is limited not only by the"
-  },
-  {
-    "id": "arxiv-cs-ir-memorycpt-an-end-to-end-agent-memory-framework-for-cost-perf",
-    "headline": "MemoryCPT: An End-to-End Agent Memory Framework for Cost-Performance Trade-off",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.04843",
-    "publishedAt": "2026-08-06T04:00:00.000Z",
-    "topic": "Cost",
-    "summary": "Long-horizon LLM agents require memory systems that recover useful evidence from large interaction histories without passing excessive context to downstream models. Existing memory pipelines often rely on hand-crafted he"
-  },
-  {
-    "id": "arxiv-cs-ir-clip-cc-bench-evaluating-paragraph-level-video-descriptions-",
-    "headline": "CLIP-CC-Bench: Evaluating Paragraph-Level Video Descriptions in Video-Language Models",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.04302",
-    "publishedAt": "2026-08-06T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Benchmarking video-language models has largely focused on short clips and single-sentence metrics, leaving open whether current systems can generate accurate long-form, paragraph-level descriptions. We introduce CLIP-CC-"
-  },
-  {
-    "id": "arxiv-cs-ir-closing-the-indexing-decoding-gap-in-multimodal-generative-r",
-    "headline": "Closing the Indexing-Decoding Gap in Multimodal Generative Retrieval via Prefix Retention Optimization",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2606.09241",
-    "publishedAt": "2026-08-06T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Multimodal generative retrieval formulates multimodal retrieval as discrete identifier generation, eliminating the need for explicit similarity search over external embeddings. Existing approaches construct identifiers v"
-  },
-  {
-    "id": "arxiv-cs-ir-moon3-0-reasoning-aware-multimodal-representation-learning-f",
-    "headline": "MOON3.0: Reasoning-aware Multimodal Representation Learning for E-commerce Product Understanding",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2604.00513",
-    "publishedAt": "2026-08-06T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "With the rapid growth of e-commerce, exploring general representations rather than task-specific ones has attracted increasing attention. Although recent multimodal large language models (MLLMs) have driven significant p"
   },
   {
     "id": "qdrant-blog-qdrant-1-19-turboquant-datatype-memory-tiers",
