@@ -126,15 +126,6 @@
     "summary": "Release: condense-json 1.1 After shipping condense-json 1.0 I started integrating it into LLM, and found there were some desirable new features already: Replacements object can now include values other than strings. Thes"
   },
   {
-    "id": "simon-willison-s-blog-llm-mcp-client-0-1a0",
-    "headline": "llm-mcp-client 0.1a0",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything",
-    "publishedAt": "2026-07-31T23:03:47.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-mcp-client 0.1a0 See this blog entry . Tags: llm , model-context-protocol"
-  },
-  {
     "id": "hacker-news-what-llm-inference-costs",
     "headline": "What LLM Inference Costs",
     "source": "Hacker News",
