@@ -1,120 +1,147 @@
 [
   {
-    "id": "arxiv-cs-cl-texas-task-expert-aware-supervision-for-downstream-mixture-o",
-    "headline": "TEXAS: Task-Expert-Aware Supervision for Downstream Mixture-of-Experts LLM Adaptation",
+    "id": "arxiv-cs-cl-unified-hallucination-fuzzing-for-multimodal-large-language-",
+    "headline": "Unified Hallucination Fuzzing for Multimodal Large Language Models",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.06396",
-    "publishedAt": "2026-08-10T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.07525",
+    "publishedAt": "2026-08-11T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Mixture-of-Experts (MoE) language models route each token through a small subset of experts, making routing patterns useful for identifying task-relevant experts during downstream adaptation. Yet current approaches have "
+    "summary": "Hallucination remains a persistent challenge for Multimodal Large Language Models (MLLMs), severely limiting their reliability in high-stakes applications. Existing evaluations, predominantly based on static benchmarks, "
   },
   {
-    "id": "arxiv-cs-cl-separating-decision-rule-misalignment-from-readout-coverage-",
-    "headline": "Separating Decision-Rule Misalignment from Readout-Coverage Limitations in Speech Language Models",
+    "id": "arxiv-cs-cl-docatlas-long-document-understanding-as-mutable-state-intera",
+    "headline": "DocAtlas: Long-Document Understanding as Mutable-State Interaction",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.06409",
-    "publishedAt": "2026-08-10T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.07527",
+    "publishedAt": "2026-08-11T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "Speech language models are increasingly evaluated on paralinguistic tasks by the accuracy of prompted answers, but answer accuracy combines failures at different stages of the audio-to-answer computation. We introduce a "
+    "summary": "Long-document understanding requires models to find and combine evidence across many pages, layouts, tables, figures, and charts. Existing retrieval-augmented systems usually select evidence from a static index before ge"
   },
   {
-    "id": "arxiv-cs-cl-recovering-lesion-parameters-from-aphasic-picture-naming-err",
-    "headline": "Recovering Lesion Parameters from Aphasic Picture Naming Error Profiles in Large Language Models",
+    "id": "arxiv-cs-cl-wuyueval-a-multi-level-benchmark-for-large-language-models-i",
+    "headline": "WuYuEval: A Multi-Level Benchmark for Large Language Models in Solid Waste Management",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.06429",
-    "publishedAt": "2026-08-10T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.07529",
+    "publishedAt": "2026-08-11T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Interpretability methods for large language models (LLMs) describe internal state but do not directly test whether that state is causally sufficient to produce the observed behavior. In earlier work, we lesioned LLMs to "
+    "summary": "Large language models (LLMs) are increasingly used as technical assistants, but their competence in solid waste management (SWM) remains difficult to assess because existing benchmarks emphasize general knowledge rather "
   },
   {
-    "id": "arxiv-cs-cl-do-ai-personas-grow-analyzing-and-benchmarking-personality-e",
-    "headline": "Do AI Personas Grow? Analyzing and Benchmarking Personality Evolution in LLM Agents After Life Events",
+    "id": "arxiv-cs-cl-embedding-initialization-for-unseen-low-resource-languages-i",
+    "headline": "Embedding Initialization for Unseen Low-resource Languages in Multilingual NMT: A Case Study on Limbum-English Translation",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.06485",
-    "publishedAt": "2026-08-10T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Personality-conditioned LLM agents (PC-Agents) are increasingly used in emotional support, social simulation, and role-playing, motivating the development of lifelong agents that remain coherent over extended interaction"
+    "url": "https://arxiv.org/abs/2608.07629",
+    "publishedAt": "2026-08-11T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Multilingual neural machine translation models such as NLLB-200 cover 200 languages but leave thousands unsupported, including most Grassfields Bantu languages of Cameroon. When fine-tuning these models for an unseen lan"
   },
   {
-    "id": "arxiv-cs-cl-grasp-reinforcing-language-model-anonymizers-with-group-rela",
-    "headline": "GRASP: Reinforcing Language Model Anonymizers with Group Relative Policy Optimization",
+    "id": "arxiv-cs-cl-surveyreview-a-reviewer-aligned-benchmark-for-survey-evaluat",
+    "headline": "SurveyReview: A Reviewer-Aligned Benchmark for Survey Evaluators",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.06526",
-    "publishedAt": "2026-08-10T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.07641",
+    "publishedAt": "2026-08-11T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Large language models can infer sensitive personal attributes, such as age, location, and occupation, from ordinary text, turning everyday writing into a privacy risk. Adversarial anonymization defends against this by re"
+    "summary": "The rapid advancement of large language models has transformed survey writing from a months-long manual effort into an automated process. As generation scales, reliable evaluation becomes the bottleneck, and LLMs are inc"
   },
   {
-    "id": "arxiv-cs-cl-lost-in-interpolation-why-predictive-feedback-fails-in-diffu",
-    "headline": "Lost in Interpolation: Why Predictive Feedback Fails in Diffusion Language Models",
+    "id": "arxiv-cs-cl-surakshaeval-an-indic-safety-benchmark-for-multilingual-llms",
+    "headline": "SurakshaEval: An Indic Safety Benchmark for Multilingual LLMs",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.06529",
-    "publishedAt": "2026-08-10T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.07862",
+    "publishedAt": "2026-08-11T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Soft-masking accelerates the convergence of Masked Diffusion Language Models (MDLMs). Existing formulations build this blend with linear interpolation (LERP) in the raw embedding space, which implicitly treats that space"
+    "summary": "Existing safety evaluation datasets for large language models (LLMs) predominantly focus on English and Western contexts, often overlooking the linguistic diversity and culturally grounded safety risks present in other l"
   },
   {
-    "id": "arxiv-cs-cl-don-t-well-actually-me-unless-you-know-what-you-re-talking-a",
-    "headline": "Don't `Well, Actually' Me Unless You Know What You're Talking About: Weak Presupposition Verification Degrades General QA Performance",
+    "id": "arxiv-cs-cl-prompt-embedding-probes-pep-hallucination-detection-in-llms-",
+    "headline": "Prompt Embedding Probes (PEP): Hallucination Detection in LLMs from Hidden States",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.06539",
-    "publishedAt": "2026-08-10T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.08024",
+    "publishedAt": "2026-08-11T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "False-presupposition QA (FPQA) tests LLMs on their ability to identify false presuppositions in questions and abstain or correct them rather than reinforcing false assumptions. The common approach reduces the task to pro"
+    "summary": "Large language models (LLMs) can generate fluent and useful responses but remain prone to hallucinations. We introduce Prompt Embedding Probes (PEP), a white-box method for answer-level hallucination detection from the h"
   },
   {
-    "id": "arxiv-cs-cl-tradeverse-a-longitudinal-benchmark-of-political-negotiation",
-    "headline": "TradeVerse: A Longitudinal Benchmark of Political Negotiation in International Trade",
+    "id": "arxiv-cs-cl-neupat-neuron-aware-plasticity-allocation-tuning-for-languag",
+    "headline": "NeuPAT: Neuron-aware Plasticity Allocation Tuning for Language-Preserving MLLMs",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.06549",
-    "publishedAt": "2026-08-10T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.08107",
+    "publishedAt": "2026-08-11T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "LLMs are increasingly being applied to tasks involving institutional and political texts, but existing benchmarks evaluate them on isolated documents or single tasks. In realpolitik, negotiations are longitudinal data, w"
+    "summary": "Multimodal expansion of large language models (LLMs) enables new perceptual capabilities but often compromises the language intelligence acquired during pretraining. In this work, we investigate this phenomenon from the "
   },
   {
-    "id": "arxiv-cs-ir-rhetorical-role-aware-retrieval-augmented-generation-for-leg",
-    "headline": "Rhetorical-Role-Aware Retrieval-Augmented Generation for Legal Question Answering over Indian Supreme Court Judgments",
+    "id": "arxiv-cs-ir-preserving-item-semantics-for-free-rethinking-token-initiali",
+    "headline": "Preserving Item Semantics for Free: Rethinking Token Initialization in LLM-Based Generative Recommendation",
     "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.06828",
-    "publishedAt": "2026-08-10T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.07816",
+    "publishedAt": "2026-08-11T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "This research paper proposes a Retrieval Augmented Generation (RAG) framework that is specific to the legal field in order to assist interactive retrieval and reason about judgments from the Supreme Court of India. The s"
+    "summary": "Recent advances in generative recommendation (GR) leverage large language models (LLMs) as recommender backbones, enabling LLMs to directly generate recommendations conditioned on item-interaction histories. In these sys"
   },
   {
-    "id": "arxiv-cs-ir-from-classification-to-recommendation-empirical-analysis-of-",
-    "headline": "From Classification to Recommendation: Empirical Analysis of Audio Embedding Models Application for Content-Based Music Recommendation",
+    "id": "arxiv-cs-ir-pushdualgen-enabling-llms-to-generate-semantic-ids-with-inte",
+    "headline": "PushDualGen: Enabling LLMs to Generate Semantic IDs with Interpretable Copy for Industrial Push Recommendation",
     "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.06928",
-    "publishedAt": "2026-08-10T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Pretrained audio representation models learned from large-scale corpora have achieved strong performance in audio classification and understanding. However, most existing models are optimized for objectives such as maske"
+    "url": "https://arxiv.org/abs/2608.07989",
+    "publishedAt": "2026-08-11T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Push recommendation in KuaiShou proactively delivers personalized content to nearly one billion users to facilitate their engagement. Recently, generative recommendation has achieved end-to-end user personalization throu"
   },
   {
-    "id": "arxiv-cs-ir-exact-adaptive-hybrid-retrieval-without-fixed-top-l-cutoffs",
-    "headline": "Exact Adaptive Hybrid Retrieval Without Fixed Top-L Cutoffs",
+    "id": "arxiv-cs-ir-search-over-the-visual-world-persistent-visual-memory-layere",
+    "headline": "Search over the Visual World: Persistent Visual Memory, Layered Indexes, and Source-Grounded Evidence",
     "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.07152",
-    "publishedAt": "2026-08-10T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.08075",
+    "publishedAt": "2026-08-11T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "Modern retrieval-augmented generation (RAG) systems often fuse fixed Top-$L$ results from dense and sparse retrievers, treating later contributions as zero. The cutoff therefore determines both the ranking and its execut"
+    "summary": "Most video-retrieval systems assume a bounded corpus and return ranked files or timestamps. Agents operating over cameras, screens, streams, and archives face a different systems problem: observations arrive continuously"
   },
   {
-    "id": "arxiv-cs-ir-conformal-coverage-guarantees-for-any-video-temporal-grounde",
-    "headline": "Conformal Coverage Guarantees for Any Video Temporal Grounder",
+    "id": "arxiv-cs-ir-personalized-communication-skills-for-agentic-recommender-sy",
+    "headline": "Personalized Communication Skills for Agentic Recommender Systems",
     "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.07434",
-    "publishedAt": "2026-08-10T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.08417",
+    "publishedAt": "2026-08-11T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "Event boundaries in continuous video are ambiguous: re-annotate the same query-video pair and independent annotators mark moments that overlap by less than half on a large fraction of samples. The ground truth for video "
+    "summary": "Agentic recommender systems increasingly employ large language model-based UserAgents to evaluate candidate items through simulated feedback before recommendations are delivered. However, existing UserAgents typically re"
   },
   {
-    "id": "arxiv-cs-ir-sageo-arena-a-realistic-environment-for-evaluating-search-au",
-    "headline": "SAGEO Arena: A Realistic Environment for Evaluating Search-Augmented Generative Engine Optimization",
+    "id": "arxiv-cs-ir-structure-preserving-projection-for-mitigating-modality-bias",
+    "headline": "Structure-Preserving Projection for Mitigating Modality Bias in LLM-Based Sequential Recommendation",
     "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2602.12187",
-    "publishedAt": "2026-08-10T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.08583",
+    "publishedAt": "2026-08-11T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Recent LLM-based recommenders integrate textual and collaborative signals by projecting collaborative embeddings into the embedding space of the LLM. However, this projection can introduce modality bias that distorts the"
+  },
+  {
+    "id": "arxiv-cs-ir-bound-brief-guided-corrective-preference-distillation-at-sea",
+    "headline": "BOUND: Brief-Guided Corrective Preference Distillation at Search-Control Boundaries",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.08768",
+    "publishedAt": "2026-08-11T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "Search-Augmented Generative Engines (SAGE) have emerged as a new paradigm for information access, bridging web-scale retrieval with generative capabilities to deliver synthesized answers. This shift has fundamentally res"
+    "summary": "Large language model (LLM)-based deep search agents solve tasks through iterative retrieval and reasoning, but locally relevant evidence can cause persistent wrong-anchor drift, constraint drift, or local-topic drift. Ex"
+  },
+  {
+    "id": "arxiv-cs-ir-difficulty-gated-fusion-of-reasoning-views-for-temporal-retr",
+    "headline": "Difficulty-Gated Fusion of Reasoning Views for Temporal Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.08940",
+    "publishedAt": "2026-08-11T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Reasoning-intensive temporal retrieval requires matching a query to documents whose relevance depends on shared temporal reasoning rather than lexical overlap. Expanding a query into several reformulations that make its "
+  },
+  {
+    "id": "arxiv-cs-ir-what-would-fix-this-rag-failure-auditing-counterfactual-resp",
+    "headline": "What Would Fix This RAG Failure? Auditing Counterfactual Response with Paired Evidence Interventions",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.08944",
+    "publishedAt": "2026-08-11T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "A failed retrieval-augmented generation (RAG) answer can be consistent with several unseen responses to evidence repair. We introduce Pair-ID, an offline audit that holds one query, retrieval state, and reader constant, "
   },
   {
     "id": "qdrant-blog-how-to-clean-up-a-qdrant-collection",
