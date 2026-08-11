@@ -117,6 +117,15 @@
     "summary": "Search-Augmented Generative Engines (SAGE) have emerged as a new paradigm for information access, bridging web-scale retrieval with generative capabilities to deliver synthesized answers. This shift has fundamentally res"
   },
   {
+    "id": "qdrant-blog-how-to-clean-up-a-qdrant-collection",
+    "headline": "How to Clean Up a Qdrant Collection",
+    "source": "Qdrant Blog",
+    "url": "https://qdrant.tech/blog/clean-vector-database-collection/",
+    "publishedAt": "2026-08-10T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Every crawl, retried job, and embedding pipeline change writes points into a vector collection. The stored data keeps moving even when the query code never changes, and the top results move with it. At first, little look"
+  },
+  {
     "id": "aws-machine-learning-blog-llm-optimization-integration-for-amazon-sagemaker-python-sdk",
     "headline": "LLM optimization integration for Amazon SageMaker Python SDK",
     "source": "AWS Machine Learning Blog",
@@ -559,15 +568,6 @@
     "publishedAt": "2026-03-10T11:00:00.000Z",
     "topic": "LLM",
     "summary": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks."
-  },
-  {
-    "id": "qdrant-blog-qdrant-meets-google-gemini-embedding-2",
-    "headline": "Qdrant Meets Google Gemini Embedding 2",
-    "source": "Qdrant Blog",
-    "url": "https://qdrant.tech/blog/qdrant-gemini-embedding-2/",
-    "publishedAt": "2026-03-10T00:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Until now, building a search system that understands both what a document says and what its images, videos, or audio convey could be complex and limited. It meant stitching together multiple embedding models and writing "
   },
   {
     "id": "weaviate-blog-building-a-legal-rag-app-in-36-hours",
