@@ -1,5 +1,13 @@
 [
   {
+    "id": "hugging-face-blog-introducing-olmoearth-embeddings-custom-embedding-exports-fr",
+    "headline": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+    "publishedAt": "2026-08-12T16:14:36.000Z",
+    "topic": "RAG"
+  },
+  {
     "id": "aws-machine-learning-blog-how-oneadvanced-deployed-over-50-ai-agents-on-uk-sovereign-a",
     "headline": "How OneAdvanced deployed over 50 AI agents on UK-sovereign AWS",
     "source": "AWS Machine Learning Blog",
@@ -494,14 +502,6 @@
     "publishedAt": "2026-05-06T00:00:00.000Z",
     "topic": "RAG",
     "summary": "A Researcher's Perspective on Retrieval Quality in RAG Systems"
-  },
-  {
-    "id": "hugging-face-blog-granite-4-1-llms-how-they-re-built",
-    "headline": "Granite 4.1 LLMs: How They’re Built",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
-    "publishedAt": "2026-04-29T15:01:48.000Z",
-    "topic": "LLM"
   },
   {
     "id": "qdrant-blog-how-data-graphs-built-a-true-hybrid-graph-rag-platform",
