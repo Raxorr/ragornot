@@ -196,15 +196,6 @@
     "summary": "Every crawl, retried job, and embedding pipeline change writes points into a vector collection. The stored data keeps moving even when the query code never changes, and the top results move with it. At first, little look"
   },
   {
-    "id": "aws-machine-learning-blog-llm-optimization-integration-for-amazon-sagemaker-python-sdk",
-    "headline": "LLM optimization integration for Amazon SageMaker Python SDK",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/llm-optimization-integration-for-amazon-sagemaker-python-sdk/",
-    "publishedAt": "2026-08-06T16:08:12.000Z",
-    "topic": "LLM",
-    "summary": "The Amazon SageMaker Python SDK v3 now exposes generative AI inference recommendations in Amazon SageMaker AI directly in your notebook. Benchmark an endpoint, generate data-driven deployment recommendations, and deploy "
-  },
-  {
     "id": "qdrant-blog-qdrant-1-19-turboquant-datatype-memory-tiers",
     "headline": "Qdrant 1.19 - TurboQuant Datatype & Memory Tiers",
     "source": "Qdrant Blog",
