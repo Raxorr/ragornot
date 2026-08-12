@@ -173,7 +173,7 @@
     "id": "simon-willison-s-blog-stealing-reasoning-traces-from-proprietary-llm-apis",
     "headline": "Stealing Reasoning Traces from Proprietary LLM APIs",
     "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything",
+    "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
     "publishedAt": "2026-08-11T22:40:45.000Z",
     "topic": "LLM",
     "summary": "Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed a"
@@ -208,7 +208,7 @@
     "id": "simon-willison-s-blog-new-release-of-llm-adds-support-for-reasoning-traces-openai-",
     "headline": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
     "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
+    "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/",
     "publishedAt": "2026-08-04T23:58:24.000Z",
     "topic": "LLM",
     "summary": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned con"
@@ -217,7 +217,7 @@
     "id": "simon-willison-s-blog-llm-anthropic-0-26",
     "headline": "llm-anthropic 0.26",
     "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything",
+    "url": "https://simonwillison.net/2026/Aug/4/llm-anthropic/",
     "publishedAt": "2026-08-04T22:00:58.000Z",
     "topic": "LLM",
     "summary": "Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server-side tools for WebSearch , WebFetch , CodeExecution , and "
@@ -226,7 +226,7 @@
     "id": "simon-willison-s-blog-llm-0-32",
     "headline": "llm 0.32",
     "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Aug/4/llm/#atom-everything",
+    "url": "https://simonwillison.net/2026/Aug/4/llm/",
     "publishedAt": "2026-08-04T17:15:33.000Z",
     "topic": "LLM",
     "summary": "Release: llm 0.32 See my detailed blog post about this release . Tags: llm"
