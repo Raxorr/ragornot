@@ -215,15 +215,6 @@
     "summary": "Release: llm 0.32 See my detailed blog post about this release . Tags: llm"
   },
   {
-    "id": "simon-willison-s-blog-condense-json-1-1",
-    "headline": "condense-json 1.1",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Aug/3/condense-json/#atom-everything",
-    "publishedAt": "2026-08-03T04:56:26.000Z",
-    "topic": "LLM",
-    "summary": "Release: condense-json 1.1 After shipping condense-json 1.0 I started integrating it into LLM, and found there were some desirable new features already: Replacements object can now include values other than strings. Thes"
-  },
-  {
     "id": "hacker-news-what-llm-inference-costs",
     "headline": "What LLM Inference Costs",
     "source": "Hacker News",
