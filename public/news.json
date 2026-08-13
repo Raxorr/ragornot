@@ -1,5 +1,140 @@
 [
   {
+    "id": "arxiv-cs-cl-backtrader-bench-benchmarking-llm-agents-on-algorithmic-trad",
+    "headline": "Backtrader-Bench: Benchmarking LLM Agents on Algorithmic Trading with Self-Generated MCQs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.11232",
+    "publishedAt": "2026-08-13T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Evaluating LLM coding agents in algorithmic trading is difficult because static benchmarks risk data contamination and numerical backtest outputs require ground truth from actual code execution. We present Backtrader-Ben"
+  },
+  {
+    "id": "arxiv-cs-cl-lost-in-compaction-evaluating-side-constraint-loss-under-con",
+    "headline": "Lost in Compaction: Evaluating Side-Constraint Loss under Context Compaction",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.11242",
+    "publishedAt": "2026-08-13T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "When the context window is under pressure, LLM systems compact prior context to continue ongoing tasks. We identify a class of user-issued instructions, Session Constraints (SCs), such as \"do not delete any emails until "
+  },
+  {
+    "id": "arxiv-cs-cl-diffuse-to-compress-leveraging-diffusion-lms-for-lossless-co",
+    "headline": "Diffuse to Compress: Leveraging Diffusion LMs for Lossless Compression",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.11249",
+    "publishedAt": "2026-08-13T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "We study the problem of lossless text compression, motivated by the rapid growth in the collection and storage of digital textual data - including plain text, source code, and structured formats such as XML - and by rece"
+  },
+  {
+    "id": "arxiv-cs-cl-better-faster-stronger-programmatic-skill-learning-best-redu",
+    "headline": "Better, Faster, Stronger: Programmatic Skill Learning Best Reduces Agent Cost",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.11338",
+    "publishedAt": "2026-08-13T04:00:00.000Z",
+    "topic": "Cost",
+    "summary": "Recently, the practice of augmenting LLM agent capability with skills has gained prevalence. We explore the cost effective adaptation of agents to novel domains by means of learning skills. Existing works focus on perfor"
+  },
+  {
+    "id": "arxiv-cs-cl-measure-don-t-optimize-forecasting-recovery-in-llm-unlearnin",
+    "headline": "Measure, Don't Optimize: Forecasting Recovery in LLM Unlearning",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.11408",
+    "publishedAt": "2026-08-13T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Prior white-box studies show that large language models can retain latent traces of target knowledge after unlearning, even when the knowledge is no longer expressed in their outputs. However, existing audits remain limi"
+  },
+  {
+    "id": "arxiv-cs-cl-principal-trait-analysis-towards-deriving-skills-in-human-ai",
+    "headline": "Principal Trait Analysis: Towards Deriving \"Skills\" in Human-AI Collaboration",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.11460",
+    "publishedAt": "2026-08-13T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large Language Model-powered agents are increasingly used in the workplace via human-artificial intelligence (AI) collaboration. In this new era of work, it is important to understand the kinds of prompting traits that c"
+  },
+  {
+    "id": "arxiv-cs-cl-beyond-single-turn-confidence-trajectory-adapted-uncertainty",
+    "headline": "Beyond Single-Turn Confidence: Trajectory-Adapted Uncertainty Quantification for LLM Agents",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.11552",
+    "publishedAt": "2026-08-13T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Uncertainty quantification (UQ) methods for language models are typically evaluated on single-turn outputs, where uncertainty is attached to one generated answer. For LLM agents, however, the unit of observation is an in"
+  },
+  {
+    "id": "arxiv-cs-cl-reinforcing-step-level-reasoning-for-effective-self-correcti",
+    "headline": "Reinforcing Step-level Reasoning for Effective Self-Correction in LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.11573",
+    "publishedAt": "2026-08-13T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Achieving effective self-correction, where models verify and correct their own mistakes, remains a fundamental challenge for large language models (LLMs). In this work, we propose Self-Fix Step-DPO (SFS-DPO), a reinforce"
+  },
+  {
+    "id": "arxiv-cs-ir-traces-a-benchmark-for-epistemic-reliability-in-scientific-r",
+    "headline": "TRACES: A Benchmark for Epistemic Reliability in Scientific Reasoning by LLMs",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.11415",
+    "publishedAt": "2026-08-13T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models are being proposed as agents in scientific workflows, in domains where no downstream verifier exists. Such deployment assumes the model can distinguish reliable scientific literature from unreliable"
+  },
+  {
+    "id": "arxiv-cs-ir-token-level-credit-assignment-optimization-for-generative-do",
+    "headline": "Token-Level Credit Assignment Optimization for Generative Document Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.12049",
+    "publishedAt": "2026-08-13T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Generative retrieval models perform document retrieval by autoregressively generating document identifiers (DocIDs). This process naturally forms a sequential decision problem, where each decoding step selects a DocID to"
+  },
+  {
+    "id": "arxiv-cs-ir-making-collaborative-signals-count-graph-aware-large-languag",
+    "headline": "Making Collaborative Signals Count: Graph-Aware Large Language Models for Sequential Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.12184",
+    "publishedAt": "2026-08-13T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) have been widely adopted as backbones for recommender systems. However, their language-centric pretraining makes it difficult to capture collaborative signals implicit in user-item interactio"
+  },
+  {
+    "id": "arxiv-cs-ir-recsys-factory-bounding-llm-agent-autonomy-to-decision-point",
+    "headline": "RecSys Factory: Bounding LLM Agent Autonomy to Decision Points in the Industrial Recommender Lifecycle",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.11241",
+    "publishedAt": "2026-08-13T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Deploying LLM agents into industrial recommender operations exposes a three-way tension we frame as the autonomy-determinism-efficiency trilemma: general autonomy (interpreting operator intent, generating glue code zero-"
+  },
+  {
+    "id": "arxiv-cs-ir-can-frontier-llms-match-natively-multimodal-embeddings-a-com",
+    "headline": "Can Frontier LLMs Match Natively Multimodal Embeddings? A Comparison on Hard-Negative Text-to-Image Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.11343",
+    "publishedAt": "2026-08-13T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Multimodal retrieval and classification across different types of media, spanning text, images,video and audio, has traditionally relied on dual-encoder models that align visual and textual representations through contra"
+  },
+  {
+    "id": "arxiv-cs-ir-agentictwin-an-agentic-llm-framework-integrated-with-digital",
+    "headline": "AgenticTwin: An Agentic LLM Framework Integrated with Digital Twin for Anomaly Detection",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.11679",
+    "publishedAt": "2026-08-13T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Digital twins are increasingly used to monitor and simulate the behavior of cyber-physical systems. Even with skilled operators, interpreting anomalies detected within digital twin pipelines is challenging, as the sheer "
+  },
+  {
+    "id": "arxiv-cs-ir-when-do-anchor-based-pointwise-llm-rerankers-help-retriever-",
+    "headline": "When Do Anchor-Based Pointwise LLM Rerankers Help? Retriever Quality, Statistical Scope, and Anchor Design",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.10528",
+    "publishedAt": "2026-08-13T04:00:00.000Z",
+    "topic": "Cost",
+    "summary": "Anchor-based pointwise LLM reranking scores each candidate against a shared reference passage to recover cross-document context at pointwise cost. We study when this actually helps, using GCCP/PAGC as a representative me"
+  },
+  {
     "id": "hugging-face-blog-introducing-olmoearth-embeddings-custom-embedding-exports-fr",
     "headline": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
     "source": "Hugging Face Blog",
@@ -24,150 +159,6 @@
     "publishedAt": "2026-08-12T13:42:48.000Z",
     "topic": "LLM",
     "summary": "Running large language model inference at scale forces a KV cache trade-off: oversized GPU instances or slow time-to-first-token. This post builds a tiered KV cache on Amazon SageMaker HyperPod that extends the cache int"
-  },
-  {
-    "id": "arxiv-cs-cl-llm-agents-factory-retrieval-of-domain-specific-llm-agents",
-    "headline": "LLM Agents Factory: Retrieval of Domain-Specific LLM Agents",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.09934",
-    "publishedAt": "2026-08-12T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Large language model (LLM) agents improve task performance by decomposing problems into role-specialized behaviors. However, their practical deployment is often limited by the computational cost and instability associate"
-  },
-  {
-    "id": "arxiv-cs-cl-carefully-considering-culture-analyzing-llm-alignment-in-sin",
-    "headline": "Carefully Considering Culture: Analyzing LLM Alignment in Single- and Multi-Cultural Settings using Cultural Consensus Theory",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.09937",
-    "publishedAt": "2026-08-12T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Recent work in NLP has probed large language models for their understanding of cultural norms across countries. However, this work typically considers distributional patterns, ignoring group consensus or possible multicu"
-  },
-  {
-    "id": "arxiv-cs-cl-the-multilingual-quantization-tax-structural-collapse-and-ty",
-    "headline": "The Multilingual Quantization Tax: Structural Collapse and Typological Fragility in Edge SLMs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.09941",
-    "publishedAt": "2026-08-12T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "While 4-bit weight quantization is critical for deploying Small Language Models (SLMs) on edge devices, evaluations of the resulting performance degradation-the quantization tax-remain overwhelmingly English-centric. We "
-  },
-  {
-    "id": "arxiv-cs-cl-when-chain-of-thought-helps-and-when-it-hurts-an-empirical-i",
-    "headline": "When Chain-of-Thought Helps and When It Hurts: An Empirical Investigation of the Serial-Depth Bottleneck in LLM Reasoning",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.09942",
-    "publishedAt": "2026-08-12T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "It is widely assumed that chain-of-thought (CoT) prompting universally improves LLM reasoning. We investigate this through the conceptual framework of the H_dp bandwidth bound (Chen et al., 2024): although the formal bou"
-  },
-  {
-    "id": "arxiv-cs-cl-position-encoding-in-transformers-from-absolute-and-relative",
-    "headline": "Position Encoding in Transformers: From Absolute and Relative Methods to Rotary Position Embeddings and Long-Context Scaling",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.10021",
-    "publishedAt": "2026-08-12T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Self-attention models content-dependent interactions between tokens but does not by itself encode token order. Position encoding addresses this limitation by introducing absolute coordinates, relative distances, or posit"
-  },
-  {
-    "id": "arxiv-cs-cl-multimodal-item-parameter-estimation-using-simulated-respons",
-    "headline": "Multimodal Item Parameter Estimation using Simulated Response Probabilitie",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.10154",
-    "publishedAt": "2026-08-12T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "We present results from reconstructing multiple-choice model (MCM) and three-parameter logistic (3PL) model curves using a fine-tuned multimodal large language model (LLM) based on Qwen3.5. The model is prompted and fine"
-  },
-  {
-    "id": "arxiv-cs-cl-similarity-gates-approve-reversals-a-validity-audit-of-embed",
-    "headline": "Similarity Gates Approve Reversals: A Validity Audit of Embedding-Cosine Thresholds in Agent Systems",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.10216",
-    "publishedAt": "2026-08-12T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Agent frameworks ship quality gates that compare text blocks by embedding-cosine similarity and decide at a fixed cutoff. Deduplication filters, semantic caches, drift guards, and answer grader gates deploy to answer the"
-  },
-  {
-    "id": "arxiv-cs-cl-off-axis-on-purpose-where-a-transformer-computes-concepts-an",
-    "headline": "Off-Axis, On Purpose: Where a Transformer Computes Concepts and Why it Does So",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.10251",
-    "publishedAt": "2026-08-12T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "A transformer's answer lives on one axis: the direction its unembedding reads. Its intermediate states largely do not, and that off-axis position is usually treated as an obstacle to interpretation. We show it is functio"
-  },
-  {
-    "id": "arxiv-cs-ir-connectionmind-leveraging-social-networks-and-large-language",
-    "headline": "ConnectionMind: Leveraging Social Networks and Large Language Models for Personalized Recommendation at Meta",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.10187",
-    "publishedAt": "2026-08-12T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Modern recommendation systems on social media platforms such as Meta must model complex social relationships, including friendships, group memberships, and creator interactions, alongside massive and heterogeneous conten"
-  },
-  {
-    "id": "arxiv-cs-ir-genrec-an-llm-backed-recommendation-ranker-at-netflix",
-    "headline": "GenRec: An LLM-Backed Recommendation Ranker at Netflix",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.10257",
-    "publishedAt": "2026-08-12T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are reshaping recommender systems by enabling richer modeling of users, content, and context directly in natural language. At Netflix, we are exploring this direction through GenRec, an LLM-b"
-  },
-  {
-    "id": "arxiv-cs-ir-neural-tree-collaborative-filtering-rethinking-graph-collabo",
-    "headline": "Neural Tree Collaborative Filtering: Rethinking Graph Collaborative Filtering as Tree Collaborative Filtering with Curvature-Aware Propagation Depth",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.10297",
-    "publishedAt": "2026-08-12T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Graph Collaborative Filtering (GCF) has become the dominant paradigm in modern recommender systems by modeling user-item interactions as a bipartite graph and propagating embeddings through a fixed number of message-pass"
-  },
-  {
-    "id": "arxiv-cs-ir-persona-conditioning-as-an-assessor-sensitivity-probe-for-ll",
-    "headline": "Persona Conditioning as an Assessor-Sensitivity Probe for LLM-Based IR Evaluation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.10385",
-    "publishedAt": "2026-08-12T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Large language models (LLMs) are increasingly used as relevance assessors in information retrieval (IR) evaluation, raising questions about how assessor framing affects judgment reliability and downstream system comparis"
-  },
-  {
-    "id": "arxiv-cs-ir-post-calibration-reliability-reranking-of-relevance-decision",
-    "headline": "Post-Calibration Reliability Reranking of Relevance Decisions via Label-wise Monotone Projection",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.10406",
-    "publishedAt": "2026-08-12T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Web search, product search, and question-answering retrieval systems often assign a relevance label and confidence score to each query-candidate pair. The relevance label describes how well a page, product, or passage ma"
-  },
-  {
-    "id": "arxiv-cs-ir-towards-efficient-reasoning-in-llm-based-recommender-systems",
-    "headline": "Towards Efficient Reasoning in LLM-Based Recommender Systems via Model Merging",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.10447",
-    "publishedAt": "2026-08-12T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language model-based recommender systems are increasingly adopting slow-thinking models that generate step-by-step reasoning before making predictions, often achieving higher accuracy than fast-thinking models that"
-  },
-  {
-    "id": "arxiv-cs-ir-when-do-anchor-based-pointwise-llm-rerankers-help-retriever-",
-    "headline": "When Do Anchor-Based Pointwise LLM Rerankers Help? Retriever Quality, Statistical Scope, and Anchor Design",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.10528",
-    "publishedAt": "2026-08-12T04:00:00.000Z",
-    "topic": "Cost",
-    "summary": "Anchor-based pointwise LLM reranking scores each candidate against a shared reference passage to recover cross-document context at pointwise cost. We study when this actually helps, using GCCP/PAGC as a representative me"
-  },
-  {
-    "id": "arxiv-cs-ir-role-of-personality-in-conversational-information-seeking",
-    "headline": "Role of Personality in Conversational Information Seeking",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.11164",
-    "publishedAt": "2026-08-12T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are increasingly used for information seeking, where users find, compare, and evaluate information through dialogue. In this role, the assistant does more than retrieve or generate content: i"
   },
   {
     "id": "simon-willison-s-blog-stealing-reasoning-traces-from-proprietary-llm-apis",
