@@ -1,5 +1,13 @@
 [
   {
+    "id": "hugging-face-blog-record-train-and-deploy-from-one-place-with-strands-agents-l",
+    "headline": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+    "publishedAt": "2026-08-13T17:16:04.000Z",
+    "topic": "RAG"
+  },
+  {
     "id": "aws-machine-learning-blog-accelerating-m-a-due-diligence-with-amazon-bedrock-agentcore",
     "headline": "Accelerating M&A due diligence with Amazon Bedrock AgentCore",
     "source": "AWS Machine Learning Blog",
@@ -385,16 +393,6 @@
     "topic": "RAG"
   },
   {
-    "id": "google-ai-blog-our-new-community-investments-in-virginia-support-local-jobs",
-    "headline": "Our new community investments in Virginia support local jobs and expand energy affordability.",
-    "source": "Google AI Blog",
-    "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
-    "publishedAt": "2026-06-11T20:00:00.000Z",
-    "topic": "Environment",
-    "summary": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp"
-  },
-  {
     "id": "ahead-of-ai-llm-research-papers-the-2026-list-january-to-may",
     "headline": "LLM Research Papers: The 2026 List (January to May)",
     "source": "Ahead of AI",
@@ -485,14 +483,6 @@
     "publishedAt": "2026-05-07T11:00:00.000Z",
     "topic": "RAG",
     "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions."
-  },
-  {
-    "id": "hugging-face-blog-vllm-v0-to-v1-correctness-before-corrections-in-rl",
-    "headline": "vLLM V0 to V1: Correctness Before Corrections in RL",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
-    "publishedAt": "2026-05-06T19:06:55.000Z",
-    "topic": "LLM"
   },
   {
     "id": "weaviate-blog-your-llm-is-only-as-good-as-what-it-retrieves",
