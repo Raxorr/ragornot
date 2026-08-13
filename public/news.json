@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-accelerating-m-a-due-diligence-with-amazon-bedrock-agentcore",
+    "headline": "Accelerating M&A due diligence with Amazon Bedrock AgentCore",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-ma-due-diligence-with-amazon-bedrock-agentcore/",
+    "publishedAt": "2026-08-13T15:52:44.000Z",
+    "topic": "RAG",
+    "summary": "Learn how to build a multi-agent M&amp;A due diligence system on Amazon Bedrock AgentCore. This post walks through a reference architecture that combines agent orchestration, knowledge retrieval, and governance controls,"
+  },
+  {
     "id": "arxiv-cs-cl-backtrader-bench-benchmarking-llm-agents-on-algorithmic-trad",
     "headline": "Backtrader-Bench: Benchmarking LLM Agents on Algorithmic Trading with Self-Generated MCQs",
     "source": "arXiv (cs.CL)",
