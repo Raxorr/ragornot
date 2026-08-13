@@ -135,6 +135,15 @@
     "summary": "Anchor-based pointwise LLM reranking scores each candidate against a shared reference passage to recover cross-document context at pointwise cost. We study when this actually helps, using GCCP/PAGC as a representative me"
   },
   {
+    "id": "weaviate-blog-building-foundry-part-2-where-creative-workflows-break",
+    "headline": "Building Foundry Part 2: Where creative workflows break",
+    "source": "Weaviate Blog",
+    "url": "https://weaviate.io/blog/building-foundry-where-workflows-break",
+    "publishedAt": "2026-08-13T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Part 2: Why folders, tags, and keyword search break down in real creative workflows and what retrieval needs to do instead."
+  },
+  {
     "id": "hugging-face-blog-introducing-olmoearth-embeddings-custom-embedding-exports-fr",
     "headline": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
     "source": "Hugging Face Blog",
@@ -595,15 +604,6 @@
     "publishedAt": "2026-03-10T11:00:00.000Z",
     "topic": "LLM",
     "summary": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks."
-  },
-  {
-    "id": "weaviate-blog-building-a-legal-rag-app-in-36-hours",
-    "headline": "Building A Legal RAG App in 36 Hours",
-    "source": "Weaviate Blog",
-    "url": "https://weaviate.io/blog/legal-rag-app",
-    "publishedAt": "2026-02-26T00:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Learn how we built a production-ready, end-to-end RAG application in just 36 hours using the Query Agent and the new Weaviate Agent Skills library."
   },
   {
     "id": "ahead-of-ai-a-dream-of-spring-for-open-weight-llms-10-architectures-from",
