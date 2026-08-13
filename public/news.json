@@ -240,15 +240,6 @@
     "summary": "Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server-side tools for WebSearch , WebFetch , CodeExecution , and "
   },
   {
-    "id": "simon-willison-s-blog-llm-0-32",
-    "headline": "llm 0.32",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Aug/4/llm/",
-    "publishedAt": "2026-08-04T17:15:33.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm 0.32 See my detailed blog post about this release . Tags: llm"
-  },
-  {
     "id": "hacker-news-what-llm-inference-costs",
     "headline": "What LLM Inference Costs",
     "source": "Hacker News",
