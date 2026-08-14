@@ -231,15 +231,6 @@
     "summary": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned con"
   },
   {
-    "id": "simon-willison-s-blog-llm-anthropic-0-26",
-    "headline": "llm-anthropic 0.26",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Aug/4/llm-anthropic/",
-    "publishedAt": "2026-08-04T22:00:58.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server-side tools for WebSearch , WebFetch , CodeExecution , and "
-  },
-  {
     "id": "hacker-news-what-llm-inference-costs",
     "headline": "What LLM Inference Costs",
     "source": "Hacker News",
