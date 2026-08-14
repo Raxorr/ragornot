@@ -179,6 +179,15 @@
     "summary": "Part 2: Why folders, tags, and keyword search break down in real creative workflows and what retrieval needs to do instead."
   },
   {
+    "id": "qdrant-blog-qdrant-and-minima-deliver-2-92x-more-agentic-rag-tasks-per-g",
+    "headline": "Qdrant and Minima Deliver 2.92x More Agentic RAG Tasks per GPU-Hour",
+    "source": "Qdrant Blog",
+    "url": "https://qdrant.tech/blog/case-study-minima/",
+    "publishedAt": "2026-08-13T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Reducing Retrieval and Calls When a retrieval-augmented generation (RAG) agent runs, it often has to plan a search, check the evidence it gets back, and try again when that evidence falls short. Those inefficiencies comp"
+  },
+  {
     "id": "hugging-face-blog-introducing-olmoearth-embeddings-custom-embedding-exports-fr",
     "headline": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
     "source": "Hugging Face Blog",
@@ -576,15 +585,6 @@
     "topic": "LLM",
     "summary": "From MHA and GQA to MLA, sparse attention, and hybrid architectures",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/51d52b9a-e820-45d6-8135-f94496ec1745_1600x900.png"
-  },
-  {
-    "id": "qdrant-blog-we-raised-50m-to-build-composable-vector-search-as-core-infr",
-    "headline": "We Raised $50M to Build Composable Vector Search as Core Infrastructure",
-    "source": "Qdrant Blog",
-    "url": "https://qdrant.tech/blog/series-b-announcement/",
-    "publishedAt": "2026-03-12T00:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Today we&rsquo;re announcing $50 million in Series B funding, led by AVP, with participation from Bosch Ventures, Unusual Ventures, Spark Capital, and 42CAP. Retrieval Is on the Critical Path of Every AI System Every ser"
   },
   {
     "id": "openai-improving-instruction-hierarchy-in-frontier-llms",
