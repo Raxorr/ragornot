@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-llm-gemini-0-33",
+    "headline": "llm-gemini 0.33",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+    "publishedAt": "2026-08-13T19:37:34.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash , gemini-3.5-flash-lite and two embedding "
+  },
+  {
     "id": "hugging-face-blog-record-train-and-deploy-from-one-place-with-strands-agents-l",
     "headline": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
     "source": "Hugging Face Blog",
@@ -220,15 +229,6 @@
     "publishedAt": "2026-08-05T01:00:00.000Z",
     "topic": "RAG",
     "summary": "Qdrant 1.19.0 is out! Let&rsquo;s look at the main features for this version: TurboQuant Datatype: A new storage format that compresses vectors to four bits without keeping their original full-precision representation, r"
-  },
-  {
-    "id": "simon-willison-s-blog-new-release-of-llm-adds-support-for-reasoning-traces-openai-",
-    "headline": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/",
-    "publishedAt": "2026-08-04T23:58:24.000Z",
-    "topic": "LLM",
-    "summary": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned con"
   },
   {
     "id": "hacker-news-what-llm-inference-costs",
