@@ -1,5 +1,22 @@
 [
   {
+    "id": "hacker-news-show-hn-i-built-a-claude-code-plugin-to-query-10-6m-earnings",
+    "headline": "Show HN: I built a Claude Code plugin to query 10.6M earnings-call embeddings",
+    "source": "Hacker News",
+    "url": "https://fn2.ai/claude",
+    "publishedAt": "2026-08-14T22:09:36.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "simon-willison-s-blog-don-t-classify-hallucinate",
+    "headline": "Don't classify. Hallucinate!",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+    "publishedAt": "2026-08-14T21:54:35.000Z",
+    "topic": "LLM",
+    "summary": "Don&#x27;t classify. Hallucinate! I still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed to an LLM in one go and say \"which of these tags "
+  },
+  {
     "id": "arxiv-cs-cl-llms-know-the-constraint-but-do-not-use-it-activation-bottle",
     "headline": "LLMs Know the Constraint But Do Not Use It: Activation Bottlenecks in Pragmatic Constraint Reasoning",
     "source": "arXiv (cs.CL)",
@@ -323,14 +340,6 @@
     "topic": "LLM",
     "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/286a0beb-32b2-41fc-8bcf-6bae189b53f2_1488x840.png"
-  },
-  {
-    "id": "hacker-news-from-words-to-watts-benchmarking-the-energy-costs-of-llm-inf",
-    "headline": "From Words to Watts: Benchmarking the Energy Costs of LLM Inference (2023)",
-    "source": "Hacker News",
-    "url": "https://arxiv.org/abs/2310.03003",
-    "publishedAt": "2026-07-08T04:33:20.000Z",
-    "topic": "Cost"
   },
   {
     "id": "hugging-face-blog-native-speed-vllm-transformers-modeling-backend",
