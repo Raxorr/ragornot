@@ -1,5 +1,15 @@
 [
   {
+    "id": "ahead-of-ai-building-an-ai-text-detector-from-scratch",
+    "headline": "Building an AI Text Detector From Scratch",
+    "source": "Ahead of AI",
+    "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+    "publishedAt": "2026-08-15T11:54:24.000Z",
+    "topic": "LLM",
+    "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
+    "imageUrl": "https://substackcdn.com/image/fetch/$s_!Om23!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875b5076-19a9-4ffe-91d4-cafa156f650a_5343x5696.png"
+  },
+  {
     "id": "hacker-news-show-hn-i-built-a-claude-code-plugin-to-query-10-6m-earnings",
     "headline": "Show HN: I built a Claude Code plugin to query 10.6M earnings-call embeddings",
     "source": "Hacker News",
@@ -459,16 +469,6 @@
     "publishedAt": "2026-03-10T11:00:00.000Z",
     "topic": "LLM",
     "summary": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks."
-  },
-  {
-    "id": "ahead-of-ai-a-dream-of-spring-for-open-weight-llms-10-architectures-from",
-    "headline": "A Dream of Spring for Open-Weight LLMs: 10 Architectures from Jan-Feb 2026",
-    "source": "Ahead of AI",
-    "url": "https://magazine.sebastianraschka.com/p/a-dream-of-spring-for-open-weight",
-    "publishedAt": "2026-02-25T13:26:56.000Z",
-    "topic": "LLM",
-    "summary": "A Round Up And Comparison of 10 Open-Weight LLM Releases in Spring 2026",
-    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/380ad0cc-566e-4e54-8862-00e2de6f269b_2670x1398.png"
   },
   {
     "id": "the-gradient-after-orthogonality-virtue-ethical-agency-and-ai-alignment",
