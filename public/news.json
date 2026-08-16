@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-qwen-3-8-27b-is-excellent-but-it-defaults-to-wildly-overthin",
+    "headline": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+    "publishedAt": "2026-08-16T22:00:39.000Z",
+    "topic": "LLM",
+    "summary": "Friday's big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a rea"
+  },
+  {
     "id": "ahead-of-ai-building-an-ai-text-detector-from-scratch",
     "headline": "Building an AI Text Detector From Scratch",
     "source": "Ahead of AI",
