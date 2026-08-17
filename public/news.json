@@ -1,5 +1,140 @@
 [
   {
+    "id": "arxiv-cs-cl-does-a-language-server-save-tokens-for-coding-agents-a-measu",
+    "headline": "Does a Language Server Save Tokens for Coding Agents? A Measurement Methodology and Preliminary Study",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.13568",
+    "publishedAt": "2026-08-17T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Coding agents spend most of their context budget on retrieval. Lexical retrieval (grep) is universal, instant, and zero-setup, but noisy: it cannot tell a definition from a call from a comment. Semantic retrieval via the"
+  },
+  {
+    "id": "arxiv-cs-cl-think-in-latent-explain-in-language-self-explainable-latent-",
+    "headline": "Think in Latent, Explain in Language: Self-Explainable Latent Reasoning",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.13570",
+    "publishedAt": "2026-08-17T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Latent reasoning has emerged as a powerful alternative to text-based Chain-of-Thought (CoT), offering significant gains in computational efficiency by compressing verbose reasoning into compact embeddings. However, compr"
+  },
+  {
+    "id": "arxiv-cs-cl-not-all-tokens-are-equal-inflation-aware-routing-for-agentic",
+    "headline": "Not All Tokens Are Equal: Inflation-Aware Routing for Agentic LLM Systems",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.13571",
+    "publishedAt": "2026-08-17T04:00:00.000Z",
+    "topic": "Cost",
+    "summary": "When a language model fails to answer a query on the first attempt, an agentic system retries, consuming additional tokens each time. This retry overhead creates a gap between what a model's per-token price implies and w"
+  },
+  {
+    "id": "arxiv-cs-cl-jais-2-a-family-of-arabic-centric-open-large-language-models",
+    "headline": "Jais 2: A Family of Arabic-Centric Open Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.13580",
+    "publishedAt": "2026-08-17T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Jais 2 is a family of Arabic-centric large language models developed jointly by MBZUAI, Cerebras, and Inception, designed to advance Arabic-centric language modeling, with strong performance across the Arabic and cultura"
+  },
+  {
+    "id": "arxiv-cs-cl-itercomp-reasoning-aware-adaptive-prompt-compression-for-mul",
+    "headline": "IterCOMP: Reasoning-aware Adaptive Prompt Compression for Multi-hop Question Answering",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.13588",
+    "publishedAt": "2026-08-17T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Multi-hop question answering requires complex reasoning across multiple evidence segments, which often overwhelms retrieval-augmented generation systems with lengthy and noisy contexts, thereby undermining both efficienc"
+  },
+  {
+    "id": "arxiv-cs-cl-clair-fin-an-adversarial-multi-agent-framework-for-claim-lev",
+    "headline": "CLAIR-Fin: An Adversarial Multi-Agent Framework for Claim-Level Verification and Adaptive Debate in Cross-Modal Financial QA",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.13706",
+    "publishedAt": "2026-08-17T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Existing defenses against hallucination in retrieval-augmented and multi-agent pipelines remain partial: evidence is trusted despite modality disagreement, debate verifies an aggregate report rather than individual claim"
+  },
+  {
+    "id": "arxiv-cs-cl-teachmategpt-a-multi-agent-knowledge-grounded-framework-for-",
+    "headline": "TeachMateGPT: A Multi-Agent Knowledge-Grounded Framework for Pedagogical Assessment Generation from Science Curriculum Materials",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.13708",
+    "publishedAt": "2026-08-17T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Automatically generating textbook-grounded assessment items can reduce science teachers' workload, but existing retrieval-augmented generation (RAG) systems rely on flat retrieval, support only single-question generation"
+  },
+  {
+    "id": "arxiv-cs-cl-bm25-augmented-many-shot-translation-for-low-resource-north-",
+    "headline": "BM25-Augmented Many-Shot Translation for Low-Resource North-Eastern Indian Languages",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.13722",
+    "publishedAt": "2026-08-17T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "This paper describes the University of Florida Gators submission to the WMT26 Low-Resource Indic Language Translation shared task. We adapt the retrieval-augmented many-shot translation pipeline from our AmericasNLP 2026"
+  },
+  {
+    "id": "arxiv-cs-ir-how-retriever-redundancy-and-diversity-impact-rag-effectiven",
+    "headline": "How retriever redundancy and diversity impact RAG effectiveness",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.13956",
+    "publishedAt": "2026-08-17T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "In RAG, while the retriever typically ranks documents by their individual relevance to the query, the generator instead produces an answer based on the retrieved documents as a whole. This paper investigates how redundan"
+  },
+  {
+    "id": "arxiv-cs-ir-echorec-multi-item-prediction-empowered-generative-recommend",
+    "headline": "EchoRec: Multi-Item Prediction-Empowered Generative Recommendation via Cycle-Consistent Preference Alignment",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.14011",
+    "publishedAt": "2026-08-17T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Generative recommendation autoregressively generates the semantic IDs of the target item, unifying preference modeling and index retrieval within the shared token space. Recent attempts have introduced Multi-Token Predic"
+  },
+  {
+    "id": "arxiv-cs-ir-ham-rag-hierarchy-aware-multimodal-rag-for-structure-faithfu",
+    "headline": "HAM-RAG: Hierarchy-Aware Multimodal RAG for Structure-Faithful Interleaved Generation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.14032",
+    "publishedAt": "2026-08-17T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Existing multimodal RAG methods often flatten structured documents into isolated text and image units, weakening the source organization and local text-image logic needed for faithful evidence selection and placement. We"
+  },
+  {
+    "id": "arxiv-cs-ir-macs-a-hybrid-multi-agent-framework-for-reliable-conversatio",
+    "headline": "MACS: A Hybrid Multi-Agent Framework for Reliable Conversational E-Commerce Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.14068",
+    "publishedAt": "2026-08-17T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Conversational recommendation for e-commerce is increasingly mediated by large language models (LLMs), yet many real-world deployments operate under a stricter requirement: recommendations must be drawn only from a merch"
+  },
+  {
+    "id": "arxiv-cs-ir-retrieve-then-adapt-retrieval-augmented-test-time-adaptation",
+    "headline": "Retrieve-then-Adapt: Retrieval-Augmented Test-Time Adaptation for Sequential Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2604.05379",
+    "publishedAt": "2026-08-17T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "The sequential recommendation (SR) task aims to predict the next item based on users' historical interaction sequences. Typically trained on historical data, SR models often struggle to adapt to real-time preference shif"
+  },
+  {
+    "id": "arxiv-cs-ir-rl-index-reinforcement-learning-for-retrieval-index-reasonin",
+    "headline": "RL-Index: Reinforcement Learning for Retrieval Index Reasoning",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2606.16316",
+    "publishedAt": "2026-08-17T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieving external knowledge is crucial for real-world tasks but remains difficult when queries and relevant knowledge are linked by implicit reasoning (e.g., shared theorems or coding logic). Existing methods rely main"
+  },
+  {
+    "id": "arxiv-cs-ir-llm-based-generative-retrieval-for-snapchat-content-recommen",
+    "headline": "LLM-Based Generative Retrieval for Snapchat Content Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.28895",
+    "publishedAt": "2026-08-17T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Pretrained large language models (LLMs) are promising retrieval engines because they combine rich semantic priors, strong sequence modeling capabilities, and favorable scaling behavior. However, turning a pretrained LLM "
+  },
+  {
     "id": "simon-willison-s-blog-qwen-3-8-27b-is-excellent-but-it-defaults-to-wildly-overthin",
     "headline": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
     "source": "Simon Willison's Blog",
