@@ -144,6 +144,14 @@
     "summary": "Point-of-interest (POI) recommendation models based on graph neural networks achieve strong performance by propagating collaborative signals over user-item interactions, yet they struggle with the cold-start problem, whe"
   },
   {
+    "id": "hugging-face-blog-multi-vector-late-interaction-embedding-models-with-sentence",
+    "headline": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/multi-vector-encoder",
+    "publishedAt": "2026-08-18T00:00:00.000Z",
+    "topic": "RAG"
+  },
+  {
     "id": "simon-willison-s-blog-qwen-3-8-27b-is-excellent-but-it-defaults-to-wildly-overthin",
     "headline": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
     "source": "Simon Willison's Blog",
@@ -494,14 +502,6 @@
     "topic": "Environment",
     "summary": "Google DeepMind and Singapore partner to apply frontier AI to address complex challenges across health, education, and sustainability and more.",
     "imageUrl": "https://lh3.googleusercontent.com/Woiv_MqlJsgv6bSWD505JCSu936VdLLtR0y7Ev1wPWDmuhFK1SYxkpyU4N2vhSpSMl22NAtbxuZ1yFMHIcDFwABNZIgRtX0ccRXxWiBaHETRXUQEZQ=w528-h297-n-nu-rw-lo"
-  },
-  {
-    "id": "hugging-face-blog-granite-embedding-multilingual-r2-open-apache-2-0-multilingu",
-    "headline": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
-    "publishedAt": "2026-05-14T18:55:01.000Z",
-    "topic": "RAG"
   },
   {
     "id": "openai-parloa-builds-service-agents-customers-want-to-talk-to",
