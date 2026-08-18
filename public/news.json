@@ -1,138 +1,147 @@
 [
   {
-    "id": "arxiv-cs-cl-does-a-language-server-save-tokens-for-coding-agents-a-measu",
-    "headline": "Does a Language Server Save Tokens for Coding Agents? A Measurement Methodology and Preliminary Study",
+    "id": "arxiv-cs-cl-auxiliary-uncertainty-signals-for-llm-assisted-systematic-re",
+    "headline": "Auxiliary uncertainty signals for LLM-assisted systematic review screening: a benchmark across eight Cohen drug-class reviews",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.13568",
-    "publishedAt": "2026-08-17T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Coding agents spend most of their context budget on retrieval. Lexical retrieval (grep) is universal, instant, and zero-setup, but noisy: it cannot tell a definition from a call from a comment. Semantic retrieval via the"
-  },
-  {
-    "id": "arxiv-cs-cl-think-in-latent-explain-in-language-self-explainable-latent-",
-    "headline": "Think in Latent, Explain in Language: Self-Explainable Latent Reasoning",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.13570",
-    "publishedAt": "2026-08-17T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Latent reasoning has emerged as a powerful alternative to text-based Chain-of-Thought (CoT), offering significant gains in computational efficiency by compressing verbose reasoning into compact embeddings. However, compr"
-  },
-  {
-    "id": "arxiv-cs-cl-not-all-tokens-are-equal-inflation-aware-routing-for-agentic",
-    "headline": "Not All Tokens Are Equal: Inflation-Aware Routing for Agentic LLM Systems",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.13571",
-    "publishedAt": "2026-08-17T04:00:00.000Z",
-    "topic": "Cost",
-    "summary": "When a language model fails to answer a query on the first attempt, an agentic system retries, consuming additional tokens each time. This retry overhead creates a gap between what a model's per-token price implies and w"
-  },
-  {
-    "id": "arxiv-cs-cl-jais-2-a-family-of-arabic-centric-open-large-language-models",
-    "headline": "Jais 2: A Family of Arabic-Centric Open Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.13580",
-    "publishedAt": "2026-08-17T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.14551",
+    "publishedAt": "2026-08-18T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Jais 2 is a family of Arabic-centric large language models developed jointly by MBZUAI, Cerebras, and Inception, designed to advance Arabic-centric language modeling, with strong performance across the Arabic and cultura"
+    "summary": "Large language models (LLMs) are increasingly used for title-abstract screening in systematic reviews, but their decisions lack calibrated uncertainty. We show that an auxiliary BERT+GCN classifier supplies a structured "
   },
   {
-    "id": "arxiv-cs-cl-itercomp-reasoning-aware-adaptive-prompt-compression-for-mul",
-    "headline": "IterCOMP: Reasoning-aware Adaptive Prompt Compression for Multi-hop Question Answering",
+    "id": "arxiv-cs-cl-harmprofile-characterizing-harmful-distributions-in-frontier",
+    "headline": "HarmProfile: Characterizing Harmful Distributions in Frontier LLMs",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.13588",
-    "publishedAt": "2026-08-17T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Multi-hop question answering requires complex reasoning across multiple evidence segments, which often overwhelms retrieval-augmented generation systems with lengthy and noisy contexts, thereby undermining both efficienc"
-  },
-  {
-    "id": "arxiv-cs-cl-clair-fin-an-adversarial-multi-agent-framework-for-claim-lev",
-    "headline": "CLAIR-Fin: An Adversarial Multi-Agent Framework for Claim-Level Verification and Adaptive Debate in Cross-Modal Financial QA",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.13706",
-    "publishedAt": "2026-08-17T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Existing defenses against hallucination in retrieval-augmented and multi-agent pipelines remain partial: evidence is trusted despite modality disagreement, debate verifies an aggregate report rather than individual claim"
-  },
-  {
-    "id": "arxiv-cs-cl-teachmategpt-a-multi-agent-knowledge-grounded-framework-for-",
-    "headline": "TeachMateGPT: A Multi-Agent Knowledge-Grounded Framework for Pedagogical Assessment Generation from Science Curriculum Materials",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.13708",
-    "publishedAt": "2026-08-17T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Automatically generating textbook-grounded assessment items can reduce science teachers' workload, but existing retrieval-augmented generation (RAG) systems rely on flat retrieval, support only single-question generation"
-  },
-  {
-    "id": "arxiv-cs-cl-bm25-augmented-many-shot-translation-for-low-resource-north-",
-    "headline": "BM25-Augmented Many-Shot Translation for Low-Resource North-Eastern Indian Languages",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.13722",
-    "publishedAt": "2026-08-17T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "This paper describes the University of Florida Gators submission to the WMT26 Low-Resource Indic Language Translation shared task. We adapt the retrieval-augmented many-shot translation pipeline from our AmericasNLP 2026"
-  },
-  {
-    "id": "arxiv-cs-ir-how-retriever-redundancy-and-diversity-impact-rag-effectiven",
-    "headline": "How retriever redundancy and diversity impact RAG effectiveness",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.13956",
-    "publishedAt": "2026-08-17T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "In RAG, while the retriever typically ranks documents by their individual relevance to the query, the generator instead produces an answer based on the retrieved documents as a whole. This paper investigates how redundan"
-  },
-  {
-    "id": "arxiv-cs-ir-echorec-multi-item-prediction-empowered-generative-recommend",
-    "headline": "EchoRec: Multi-Item Prediction-Empowered Generative Recommendation via Cycle-Consistent Preference Alignment",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.14011",
-    "publishedAt": "2026-08-17T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Generative recommendation autoregressively generates the semantic IDs of the target item, unifying preference modeling and index retrieval within the shared token space. Recent attempts have introduced Multi-Token Predic"
-  },
-  {
-    "id": "arxiv-cs-ir-ham-rag-hierarchy-aware-multimodal-rag-for-structure-faithfu",
-    "headline": "HAM-RAG: Hierarchy-Aware Multimodal RAG for Structure-Faithful Interleaved Generation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.14032",
-    "publishedAt": "2026-08-17T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Existing multimodal RAG methods often flatten structured documents into isolated text and image units, weakening the source organization and local text-image logic needed for faithful evidence selection and placement. We"
-  },
-  {
-    "id": "arxiv-cs-ir-macs-a-hybrid-multi-agent-framework-for-reliable-conversatio",
-    "headline": "MACS: A Hybrid Multi-Agent Framework for Reliable Conversational E-Commerce Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.14068",
-    "publishedAt": "2026-08-17T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2608.14577",
+    "publishedAt": "2026-08-18T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Conversational recommendation for e-commerce is increasingly mediated by large language models (LLMs), yet many real-world deployments operate under a stricter requirement: recommendations must be drawn only from a merch"
+    "summary": "Frontier large language models (LLMs) safety evaluation has largely treated harmful generation as an attack outcome rather than as an object of analysis. Consequently, little is known about the harmful outputs produced d"
   },
   {
-    "id": "arxiv-cs-ir-retrieve-then-adapt-retrieval-augmented-test-time-adaptation",
-    "headline": "Retrieve-then-Adapt: Retrieval-Augmented Test-Time Adaptation for Sequential Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2604.05379",
-    "publishedAt": "2026-08-17T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "The sequential recommendation (SR) task aims to predict the next item based on users' historical interaction sequences. Typically trained on historical data, SR models often struggle to adapt to real-time preference shif"
+    "id": "arxiv-cs-cl-automem-a-text-gradient-recursive-self-improvement-framework",
+    "headline": "AutoMem: A Text-Gradient Recursive Self-Improvement Framework for Automated Memory Architectures Search",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.14621",
+    "publishedAt": "2026-08-18T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Long-term memory is increasingly central to LLM agents, yet memory design remains a highly coupled architecture problem: what to encode, how to store it, how to retrieve it, and how to manage it can vary substantially ac"
   },
   {
-    "id": "arxiv-cs-ir-rl-index-reinforcement-learning-for-retrieval-index-reasonin",
-    "headline": "RL-Index: Reinforcement Learning for Retrieval Index Reasoning",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2606.16316",
-    "publishedAt": "2026-08-17T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieving external knowledge is crucial for real-world tasks but remains difficult when queries and relevant knowledge are linked by implicit reasoning (e.g., shared theorems or coding logic). Existing methods rely main"
+    "id": "arxiv-cs-cl-llm-safety-alignment-in-low-resource-languages-a-systematic-",
+    "headline": "LLM Safety Alignment in Low-Resource Languages: A Systematic Literature Review",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.14626",
+    "publishedAt": "2026-08-18T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large Language Models (LLMs) have achieved substantial progress in safety alignment, yet their safety guarantees remain significantly weaker in low-resource and multilingual settings than in high-resource languages. In t"
   },
   {
-    "id": "arxiv-cs-ir-llm-based-generative-retrieval-for-snapchat-content-recommen",
-    "headline": "LLM-Based Generative Retrieval for Snapchat Content Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.28895",
-    "publishedAt": "2026-08-17T04:00:00.000Z",
+    "id": "arxiv-cs-cl-inference-time-mitigation-of-adversarial-political-bias-in-l",
+    "headline": "Inference-Time Mitigation of Adversarial Political Bias in Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.14629",
+    "publishedAt": "2026-08-18T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "Pretrained large language models (LLMs) are promising retrieval engines because they combine rich semantic priors, strong sequence modeling capabilities, and favorable scaling behavior. However, turning a pretrained LLM "
+    "summary": "As Large Language Models (LLMs) become the mainstay for information retrieval and summarization tasks, ensuring that they are always non-partisan and invulnerable to political bias is a critical step towards safer and mo"
+  },
+  {
+    "id": "arxiv-cs-cl-characterizing-rhetorical-misalignment-in-decision-making-wi",
+    "headline": "Characterizing Rhetorical Misalignment in Decision-Making with Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.14630",
+    "publishedAt": "2026-08-18T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Human decision-making is often shaped by a range of well-documented cognitive biases. As large language models (LLMs) become increasingly integrated into high-stakes human-AI decision-making, it is important to understan"
+  },
+  {
+    "id": "arxiv-cs-cl-demts-denoising-trajectories-as-multivariate-time-series-for",
+    "headline": "DeMTS: Denoising Trajectories as Multivariate Time Series for Hallucination Detection in Diffusion Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.14632",
+    "publishedAt": "2026-08-18T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Diffusion large language models (D-LLMs) have emerged as a promising paradigm for text generation. However, similar to autoregressive LLMs, D-LLMs remain vulnerable to hallucinations, where fluent outputs may contain fac"
+  },
+  {
+    "id": "arxiv-cs-cl-automatic-or-controlled-repetition-priming-reveals-divergent",
+    "headline": "Automatic or Controlled? Repetition Priming Reveals Divergent Processing in Base LLMs, Instruct LLMs, and Humans",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.14681",
+    "publishedAt": "2026-08-18T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Words recur constantly in natural language use, yet it remains unclear whether language models reactivate prior representations or re-evaluate repeated words afresh, and whether post-training changes this default behavio"
+  },
+  {
+    "id": "arxiv-cs-ir-when-deep-research-agents-stagnate-enhancing-reasoning-with-",
+    "headline": "When Deep Research Agents Stagnate: Enhancing Reasoning with Retrieval-Aware Agent Control",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.15191",
+    "publishedAt": "2026-08-18T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "In this paper, we analyze the reasoning trajectories of a variety of DRAs and show that existing agents often suffer from reasoning stagnation: the majority of iterations contribute little or no improvement to final perf"
+  },
+  {
+    "id": "arxiv-cs-ir-can-retrievers-find-the-same-paper-from-different-aspects-a-",
+    "headline": "Can Retrievers Find the Same Paper from Different Aspects? A Multi-Aspect Full-Paper Scientific Retrieval Benchmark",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.15624",
+    "publishedAt": "2026-08-18T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Scientific papers contain multiple searchable facets such as background, methods. However, many paper retrieval benchmarks merely evaluate individual query-paper relevance, while overlooking other facets of the same pape"
+  },
+  {
+    "id": "arxiv-cs-ir-noesis-bidirectional-graph-rag-with-adaptive-parallelism-and",
+    "headline": "Noesis: Bidirectional Graph-RAG with Adaptive Parallelism and Cross-Knowledge-Base Semantic Discovery",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.15919",
+    "publishedAt": "2026-08-18T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-Augmented Generation over knowledge graphs (Graph-RAG) has emerged as a powerful paradigm for grounding large language models in domain-specific corpora. However, existing systems face persistent limitations: ("
+  },
+  {
+    "id": "arxiv-cs-ir-lineagerag-harnessing-graphrag-by-constructing-evidence-line",
+    "headline": "LineageRAG: Harnessing GraphRAG by Constructing Evidence Lineages with Source Grounding",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.16004",
+    "publishedAt": "2026-08-18T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Graph-based Retrieval-Augmented Generation (GraphRAG) retrieves evidence for multi-hop questions over structured cor- pus graphs. Existing GraphRAG methods leave the connection between evidence discovery and source groun"
+  },
+  {
+    "id": "arxiv-cs-ir-tracer-balancing-stability-plasticity-cognitivity-trilemma-f",
+    "headline": "TRACER: Balancing Stability-Plasticity-Cognitivity Trilemma for LLM Enhanced Continual Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.16075",
+    "publishedAt": "2026-08-18T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Continual recommendation aims to capture evolving user interests from streaming data but struggles with sparsity. LLM enhancers mitigate this with semantic knowledge, but naive integration creates a new conflict. We iden"
+  },
+  {
+    "id": "arxiv-cs-ir-domain-specific-text-embedding-models-for-entity-resolution",
+    "headline": "Domain-Specific Text Embedding Models for Entity Resolution",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.16161",
+    "publishedAt": "2026-08-18T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "General-purpose text embedding models are designed to capture semantic similarity but are not optimised for distinguishing entity records that represent the same real-world business or person. This limitation affects app"
+  },
+  {
+    "id": "arxiv-cs-ir-static-pruning-across-sparse-retrieval-regimes-what-transfer",
+    "headline": "Static Pruning Across Sparse Retrieval Regimes: What Transfers, What Breaks, and What Still Helps",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.16309",
+    "publishedAt": "2026-08-18T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Static pruning is widely used to accelerate sparse neural retrieval, yet existing studies each validate their conclusions within a single custom pipeline, leaving it unclear which findings transfer to modern engines with"
+  },
+  {
+    "id": "arxiv-cs-ir-poi-recommendation-with-llm-augmented-multi-graph-learning-a",
+    "headline": "POI Recommendation with LLM-Augmented Multi-Graph Learning and Contrastive Alignment",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.16407",
+    "publishedAt": "2026-08-18T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Point-of-interest (POI) recommendation models based on graph neural networks achieve strong performance by propagating collaborative signals over user-item interactions, yet they struggle with the cold-start problem, whe"
   },
   {
     "id": "simon-willison-s-blog-qwen-3-8-27b-is-excellent-but-it-defaults-to-wildly-overthin",
