@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-quoting-jeremy-morrell",
+    "headline": "Quoting Jeremy Morrell",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
+    "publishedAt": "2026-08-19T22:56:31.000Z",
+    "topic": "Cost",
+    "summary": "My hypothesis is that there is a new opportunity for Extensible Software on the web . LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good securi"
+  },
+  {
     "id": "venturebeat-ai-venturebeat-names-rob-strechay-as-its-first-lead-analyst-exp",
     "headline": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
     "source": "VentureBeat AI",
