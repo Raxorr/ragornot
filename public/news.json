@@ -1,5 +1,15 @@
 [
   {
+    "id": "venturebeat-ai-venturebeat-names-rob-strechay-as-its-first-lead-analyst-exp",
+    "headline": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
+    "publishedAt": "2026-08-19T14:18:12.000Z",
+    "topic": "AI",
+    "summary": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival is the next step in a",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/14iDGoOPdfaOw0DODBNL9w/7f4d8c6b70797d9bf23a623cbfa3fea3/6ca16f96-3171-4f7e-8c89-f466a3901415.png?w=300&amp;q=30"
+  },
+  {
     "id": "arxiv-cs-cl-margin-regularized-structured-semantic-alignment-for-brain-l",
     "headline": "Margin-Regularized Structured Semantic Alignment for Brain-Language Correspondence",
     "source": "arXiv (cs.CL)",
@@ -682,16 +692,6 @@
     "topic": "LLM",
     "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire featur",
     "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/wHv1Wez7Ps9wYVYAo9fwT/14b41f606dbf1f5b17994be510407449/nuneybits_Hyper-realistic_image_of_a_retro_computer_with_a_glos_61ffb6e2-7c33-4d45-85f7-69c28693b3ec.webp?w=300&amp;q=30"
-  },
-  {
-    "id": "venturebeat-ai-nous-research-s-nouscoder-14b-is-an-open-source-coding-model",
-    "headline": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
-    "source": "VentureBeat AI",
-    "url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
-    "publishedAt": "2026-01-07T20:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Nous Research , the open-source artificial intelligence startup backed by crypto venture firm Paradigm , released a new competitive programming model on Monday that it says matches or exceeds several larger proprietary s",
-    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/66Tw6dMGGoSZZOK6XB6gm6/0fafc7520898e26c88edf1de9e74e863/nuneybits_Vector_art_of_radiant_skull_emitting_code_beams_deep__17d19acc-0af7-41ad-ac28-16f09ef5234b.webp?w=300&amp;q=30"
   },
   {
     "id": "deepmind-blog-facts-benchmark-suite-systematically-evaluating-the-factuali",
