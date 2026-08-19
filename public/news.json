@@ -250,24 +250,6 @@
     "topic": "RAG"
   },
   {
-    "id": "aws-machine-learning-blog-how-oneadvanced-deployed-over-50-ai-agents-on-uk-sovereign-a",
-    "headline": "How OneAdvanced deployed over 50 AI agents on UK-sovereign AWS",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/how-oneadvanced-deployed-over-50-ai-agents-on-uk-sovereign-aws/",
-    "publishedAt": "2026-08-12T13:46:28.000Z",
-    "topic": "RAG",
-    "summary": "Learn how OneAdvanced, a UK enterprise software provider, built a UK-sovereign AI platform by self-hosting Llama 4 Maverick and Llama Guard 4 on Amazon SageMaker AI, with a RAG pipeline on pgvector and over 50 agents bui"
-  },
-  {
-    "id": "aws-machine-learning-blog-tiered-kv-cache-for-large-llms-on-amazon-sagemaker-hyperpod-",
-    "headline": "Tiered KV cache for large LLMs on Amazon SageMaker HyperPod with Curvine",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/tiered-kv-cache-for-large-llms-on-amazon-sagemaker-hyperpod-with-curvine/",
-    "publishedAt": "2026-08-12T13:42:48.000Z",
-    "topic": "LLM",
-    "summary": "Running large language model inference at scale forces a KV cache trade-off: oversized GPU instances or slow time-to-first-token. This post builds a tiered KV cache on Amazon SageMaker HyperPod that extends the cache int"
-  },
-  {
     "id": "simon-willison-s-blog-stealing-reasoning-traces-from-proprietary-llm-apis",
     "headline": "Stealing Reasoning Traces from Proprietary LLM APIs",
     "source": "Simon Willison's Blog",
