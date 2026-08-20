@@ -1,5 +1,13 @@
 [
   {
+    "id": "hacker-news-offline-rag-on-ios-with-spatial-integration",
+    "headline": "Offline RAG on iOS with Spatial Integration",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49371913",
+    "publishedAt": "2026-08-20T08:28:22.000Z",
+    "topic": "RAG"
+  },
+  {
     "id": "arxiv-cs-cl-persona-guided-llm-agents-for-task-oriented-dialogue",
     "headline": "Persona-Guided LLM Agents for Task-Oriented Dialogue",
     "source": "arXiv (cs.CL)",
@@ -332,14 +340,6 @@
     "url": "https://github.com/openlake-project/openlake",
     "publishedAt": "2026-07-26T13:02:21.000Z",
     "topic": "Cost"
-  },
-  {
-    "id": "hacker-news-show-hn-avoiding-the-memory-wall-by-computing-llm-inference-",
-    "headline": "Show HN: Avoiding the Memory Wall by computing LLM inference directly inside RAM",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=49022097",
-    "publishedAt": "2026-07-23T14:21:32.000Z",
-    "topic": "LLM"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
