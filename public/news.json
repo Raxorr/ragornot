@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-persona-guided-llm-agents-for-task-oriented-dialogue",
+    "headline": "Persona-Guided LLM Agents for Task-Oriented Dialogue",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.18085",
+    "publishedAt": "2026-08-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Prior work has shown that large language models (LLMs) can express diverse personality traits in open-ended text generation. However, it remains unclear whether they can do so in a goal-directed dialogue without compromi"
+  },
+  {
+    "id": "arxiv-cs-cl-self-and-other-labels-induce-bidirectional-bias-in-llm-judge",
+    "headline": "Self- and Other-Labels Induce Bidirectional Bias in LLM Judges",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.18091",
+    "publishedAt": "2026-08-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "As LLM-as-a-judge systems become increasingly widespread, self-preference in LLMs -- the tendency to favor one's own outputs -- raises growing concerns about evaluation reliability. However, it has been studied predomina"
+  },
+  {
+    "id": "arxiv-cs-cl-abliteration-mitigation-via-refusal-aliases",
+    "headline": "Abliteration Mitigation via Refusal Aliases",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.18093",
+    "publishedAt": "2026-08-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Abliteration, the removal of refusal capabilities from large language models by projecting weight matrices orthogonal to an extracted refusal direction, has emerged as a prominent safety concern through its ability to by"
+  },
+  {
+    "id": "arxiv-cs-cl-computational-orientalism-measuring-structural-discourse-bia",
+    "headline": "Computational Orientalism: Measuring Structural Discourse Bias in Large Language Models Using the Middle East Cultural Sensitivity Score (MECSS)",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.18100",
+    "publishedAt": "2026-08-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "AI systems now shape how hundreds of millions of people learn about cultures other than their own. When someone asks one of these systems about the Middle East, they do not receive neutral facts. They receive a represent"
+  },
+  {
+    "id": "arxiv-cs-cl-stability-aware-feature-design-for-robust-watermark-detectio",
+    "headline": "Stability-Aware Feature Design for Robust Watermark Detection in Machine-Generated Text",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.18102",
+    "publishedAt": "2026-08-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "The widespread adoption of large language models (LLMs) has intensified the demand for principled methods to distinguish human from machine-generated text. Watermarking provides a promising avenue, yet existing detectors"
+  },
+  {
+    "id": "arxiv-cs-cl-deeptcm1-0-a-multi-expert-ai-agent-for-deciphering-mechanism",
+    "headline": "DeepTCM1.0: A Multi-Expert AI Agent for Deciphering Mechanisms of Chinese Herbal Formulae Based on General Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.18103",
+    "publishedAt": "2026-08-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Background: Mechanistic elucidation of traditional Chinese medicine (TCM) compound formulas remains a central challenge in the modernization of TCM. Conventional approaches, including data mining and network pharmacology"
+  },
+  {
+    "id": "arxiv-cs-cl-different-facets-of-verbalised-overconfidence-an-interpretab",
+    "headline": "Different Facets of Verbalised Overconfidence: an Interpretability Study",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.18106",
+    "publishedAt": "2026-08-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models tend to overconfidence, giving assertive answers when the evidence suggests hedging or abstention. Using controlled reasoning scenarios that manipulate logical necessity and possibility, we study th"
+  },
+  {
+    "id": "arxiv-cs-cl-institutional-prestige-as-geographic-bias-in-large-language-",
+    "headline": "Institutional Prestige as Geographic Bias in Large Language Models: Evidence from Three Factorial Experiments with Bootstrap Confidence Intervals",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.18107",
+    "publishedAt": "2026-08-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "We investigate whether large language models (LLMs) systematically discriminate in candidate evaluations based on applicant name ethnicity and/or institutional prestige and geographic location. Three factorial experiment"
+  },
+  {
+    "id": "arxiv-cs-ir-multimedia-asset-personalization-via-multimodal-embeddings-a",
+    "headline": "Multimedia Asset Personalization via Multimodal Embeddings at Netflix",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.18322",
+    "publishedAt": "2026-08-20T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Personalized promotional assets, namely artwork images and video preview clips, are critical to content discovery on Netflix. Traditional models for asset selection rely on ID-based interaction history, leaving them blin"
+  },
+  {
+    "id": "arxiv-cs-ir-gatediffint-gate-mediated-controllable-diffusion-and-multi-i",
+    "headline": "GateDiffInt: Gate-Mediated Controllable Diffusion and Multi-Intent LLM Distillation for User Behavior Modeling",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.18764",
+    "publishedAt": "2026-08-20T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Existing ranking models encode intent only implicitly, making it hard to disentangle structured intents of varying strength and temporal scale. Noise and intent in behavior sequences are mutually reinforcing---we call th"
+  },
+  {
+    "id": "arxiv-cs-ir-think-to-personalize-unifying-reasoning-and-retrieval-for-us",
+    "headline": "Think-to-Personalize: Unifying Reasoning and Retrieval for User-Centric Personalized Dense Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.18855",
+    "publishedAt": "2026-08-20T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Dense retrieval has become a cornerstone of modern local-lifestyle e-commerce search by encoding queries and items into semantic embedding spaces. While recent advancements have transitioned from BERT-based embedding mod"
+  },
+  {
+    "id": "arxiv-cs-ir-can-david-beat-goliath-on-multi-hop-reasoning-with-resource-",
+    "headline": "Can David Beat Goliath? On Multi-Hop Reasoning with Resource-Constrained Agents",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2601.21699",
+    "publishedAt": "2026-08-20T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Multi-turn reasoning agents solve complex questions by decomposing them into intermediate retrieval or tool-use steps, for accumulating supporting evidence across turns. Meanwhile, with reinforcement learning (RL), train"
+  },
+  {
+    "id": "arxiv-cs-ir-reducing-technician-search-burden-a-multimodal-rag-for-cessn",
+    "headline": "Reducing Technician Search Burden: A Multimodal RAG for Cessna 172 Maintenance Manual",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.18465",
+    "publishedAt": "2026-08-20T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Proper use of the aircraft maintenance manual is essential for correct maintenance, providing procedures, diagrams, cautions, and specifications. However, technicians often avoid consulting it because it is difficult to "
+  },
+  {
+    "id": "arxiv-cs-ir-finrca-bench-benchmarking-evidence-retrieval-and-reasoning-f",
+    "headline": "FinRCA-Bench: Benchmarking Evidence Retrieval and Reasoning for Financial AI Systems",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.18534",
+    "publishedAt": "2026-08-20T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large language models are increasingly used to support financial operations, but their apparent reasoning performance can depend on whether they receive the right evidence. In financial reconciliation, the evidence neede"
+  },
+  {
+    "id": "arxiv-cs-ir-composed-historical-image-retrieval-by-modeling-temporal-rep",
+    "headline": "Composed Historical Image Retrieval by Modeling Temporal Representations",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.18694",
+    "publishedAt": "2026-08-20T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "While time evolves linearly, the geometry of neural embedding spaces is inherently multi-dimensional, often chaotic, and difficult to interpret. In principle, one could constrain an embedding space to a single temporal d"
+  },
+  {
+    "id": "arxiv-cs-ir-icicle-expanding-retrieval-with-in-context-documents",
+    "headline": "ICICLE: Expanding Retrieval with In-Context Documents",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2605.26902",
+    "publishedAt": "2026-08-20T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Generative retrieval (GR) maps queries directly to document identifiers (docids) using parametric knowledge, However, this design makes corpus expansion costly: adding new documents requires updating model parameters to "
+  },
+  {
     "id": "simon-willison-s-blog-quoting-jeremy-morrell",
     "headline": "Quoting Jeremy Morrell",
     "source": "Simon Willison's Blog",
@@ -17,150 +161,6 @@
     "topic": "AI",
     "summary": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival is the next step in a",
     "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/14iDGoOPdfaOw0DODBNL9w/7f4d8c6b70797d9bf23a623cbfa3fea3/6ca16f96-3171-4f7e-8c89-f466a3901415.png?w=300&amp;q=30"
-  },
-  {
-    "id": "arxiv-cs-cl-margin-regularized-structured-semantic-alignment-for-brain-l",
-    "headline": "Margin-Regularized Structured Semantic Alignment for Brain-Language Correspondence",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.16975",
-    "publishedAt": "2026-08-19T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "With the rapid advancement of large language models, brain-language decoding has achieved remarkable progress. However, it remains unclear whether decoded content genuinely reflects neural representations or is largely r"
-  },
-  {
-    "id": "arxiv-cs-cl-cross-model-memory-transfer-via-target-side-reader-adaptatio",
-    "headline": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.17050",
-    "publishedAt": "2026-08-19T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Methods for improving knowledge use in large language models typically fall into two regimes. Non-parametric retrieval offers flexible access to external knowledge, but adds retrieval latency, context overhead, and only "
-  },
-  {
-    "id": "arxiv-cs-cl-institution-specific-llm-prompting-recovers-phi-that-de-iden",
-    "headline": "Institution-Specific LLM Prompting Recovers PHI That De-identification Systems and Their Gold Standards Both Miss",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.17051",
-    "publishedAt": "2026-08-19T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Secondary use of electronic health records requires de-identification, yet existing systems miss \\emph{institutionally situated} protected health information (PHI) such as hospital abbreviations, building names, and inte"
-  },
-  {
-    "id": "arxiv-cs-cl-uncertainty-aware-decision-making-in-multimodal-large-langua",
-    "headline": "Uncertainty-Aware Decision Making in Multimodal Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.17084",
-    "publishedAt": "2026-08-19T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Multimodal large language models (MLLMs) increasingly answer questions whose correctness depends on visual, textual, temporal, acoustic, document, chart, or embodied evidence. Their failures are therefore not only lingui"
-  },
-  {
-    "id": "arxiv-cs-cl-there-is-no-theoretical-curse-of-multilinguality-for-embeddi",
-    "headline": "There is No Theoretical Curse of Multilinguality For Embedding Space Structure",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.17088",
-    "publishedAt": "2026-08-19T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "A central goal of multilingual NLP is to achieve high monolingual performance per language and cross-lingual alignment for large-scale language coverage with a multilingual model. The curse of multilinguality describes t"
-  },
-  {
-    "id": "arxiv-cs-cl-towards-safer-rag-only-agents-capable-of-system-2-thinking-m",
-    "headline": "Towards Safer RAG: Only Agents Capable of System 2 Thinking may Access Untrusted Documents",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.17153",
-    "publishedAt": "2026-08-19T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-Augmented Generation (RAG) has significantly enhanced the performance of large language models (LLMs), yet these systems remain vulnerable to knowledge-poisoning attacks, in which misinformation in retrieved do"
-  },
-  {
-    "id": "arxiv-cs-cl-can-llms-reason-in-a-legally-meaningful-manner-a-small-scale",
-    "headline": "Can LLMs Reason in a Legally Meaningful Manner? A Small-scale Study on European Court of Human Rights Cases",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.17168",
-    "publishedAt": "2026-08-19T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Reasoning has become a standard technique and feature for contemporary LLMs; however, its application and quality in the context of demanding legal-oriented tasks, such as legal case forecasting, remain under explored. W"
-  },
-  {
-    "id": "arxiv-cs-cl-polaris-learning-to-generate-table-descriptions-from-retriev",
-    "headline": "Polaris: Learning to Generate Table Descriptions from Retrieval Feedback",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.17171",
-    "publishedAt": "2026-08-19T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Many table-centric NLP tasks such as NL2SQL first retrieve relevant tables from large collections using keyword search. Recent work uses LLMs to generate natural-language table descriptions to improve retrieval, but they"
-  },
-  {
-    "id": "arxiv-cs-ir-sparse-coverage-semantic-center-representations-for-patent-p",
-    "headline": "Sparse Coverage: Semantic Center Representations for Patent Prior-Art Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.16918",
-    "publishedAt": "2026-08-19T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Patent prior-art retrieval is a recall-oriented search task over long and highly structured technical documents. Dense retrieval improves semantic matching, but single-vector representations may compress multiple technic"
-  },
-  {
-    "id": "arxiv-cs-ir-cara-cognitive-adaptive-recommendation-agent",
-    "headline": "CARA: Cognitive Adaptive Recommendation Agent",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.16919",
-    "publishedAt": "2026-08-19T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Recent advances in large language models and agent-based recommendation frameworks have introduced new opportunities for more flexible and context-aware recommendation. However, existing methods still largely rely on sem"
-  },
-  {
-    "id": "arxiv-cs-ir-empowering-compact-llms-with-fusion-of-layer-wise-exits-for-",
-    "headline": "Empowering Compact LLMs with Fusion of Layer-wise Exits for Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.17316",
-    "publishedAt": "2026-08-19T04:00:00.000Z",
-    "topic": "Environment",
-    "summary": "Large language model-based recommender systems (LLM-RSs) have demonstrated remarkable capabilities, but are computationally unsustainable for many real-world applications. Compact LLMs offer a practical alternative, yet "
-  },
-  {
-    "id": "arxiv-cs-ir-dept-document-embedding-preservation-tuning-for-unified-quer",
-    "headline": "DEPT: Document Embedding Preservation Tuning for Unified Query Expansion and Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.17632",
-    "publishedAt": "2026-08-19T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Large language models (LLMs) can both expand underspecified queries and encode text as dense representations, suggesting a unified model for query expansion and retrieval. Existing systems usually rely on prompted expans"
-  },
-  {
-    "id": "arxiv-cs-ir-visdocagentbench-benchmarking-agents-for-visually-rich-docum",
-    "headline": "VisDocAgentBench: Benchmarking Agents for Visually Rich Document Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.17889",
-    "publishedAt": "2026-08-19T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Visually rich documents encode relevance through language, layout, structured visual elements, and corpus context, yet retrieval is typically evaluated by one-shot query--page matching. Agentic-search benchmarks usually "
-  },
-  {
-    "id": "arxiv-cs-ir-llm-based-generative-retrieval-for-snapchat-content-recommen",
-    "headline": "LLM-Based Generative Retrieval for Snapchat Content Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.28895",
-    "publishedAt": "2026-08-19T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Pretrained large language models (LLMs) are promising retrieval engines because they combine rich semantic priors, strong sequence modeling capabilities, and favorable scaling behavior. However, turning a pretrained LLM "
-  },
-  {
-    "id": "arxiv-cs-ir-from-adoption-to-deployment-a-qualitative-study-on-ai-integr",
-    "headline": "From Adoption to Deployment: A Qualitative Study on AI Integration in Software Development Practice",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2607.16660",
-    "publishedAt": "2026-08-19T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "The increasing adoption of Large Language Models (LLMs) as AI components in modern software systems introduces distinct security risks to the software supply chain. While many considerations and safety mechanisms are in "
-  },
-  {
-    "id": "arxiv-cs-ir-vdgr-rag-vectors-directories-graphs-and-reflection-are-all-y",
-    "headline": "VDGR-RAG: Vectors, Directories, Graphs, and Reflection Are All You Need for Unified Reasoning over Hierarchical Enterprise Knowledge",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.07994",
-    "publishedAt": "2026-08-19T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-Augmented Generation (RAG) is essential for enterprise knowledge question answering (QA), particularly in domains with complex product documentation like telecommunications. However, existing RAG approaches lar"
   },
   {
     "id": "hugging-face-blog-multi-vector-late-interaction-embedding-models-with-sentence",
