@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-reduce-rag-costs-on-amazon-bedrock-with-query-aware-compress",
+    "headline": "Reduce RAG costs on Amazon Bedrock with query-aware compression",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression/",
+    "publishedAt": "2026-08-21T16:59:15.000Z",
+    "topic": "RAG",
+    "summary": "Input tokens are often a meaningful part of the cost of running Retrieval Augmented Generation (RAG) at scale. This post describes a query-aware context compression pattern on Amazon Bedrock: after retrieval, a smaller m"
+  },
+  {
     "id": "arxiv-cs-cl-a-virtual-member-of-a-community-of-practice-for-the-society-",
     "headline": "A Virtual Member of a Community of Practice for the Society of Petroleum Engineers: From Prototype to Deployment",
     "source": "arXiv (cs.CL)",
