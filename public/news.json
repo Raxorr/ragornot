@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-llm-0-32-1",
+    "headline": "llm 0.32.1",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Aug/21/llm/",
+    "publishedAt": "2026-08-21T17:16:13.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx , and it turned out LLM depended on that library but only installed it via a transitive"
+  },
+  {
     "id": "aws-machine-learning-blog-reduce-rag-costs-on-amazon-bedrock-with-query-aware-compress",
     "headline": "Reduce RAG costs on Amazon Bedrock with query-aware compression",
     "source": "AWS Machine Learning Blog",
@@ -7,6 +16,15 @@
     "publishedAt": "2026-08-21T16:59:15.000Z",
     "topic": "RAG",
     "summary": "Input tokens are often a meaningful part of the cost of running Retrieval Augmented Generation (RAG) at scale. This post describes a query-aware context compression pattern on Amazon Bedrock: after retrieval, a smaller m"
+  },
+  {
+    "id": "simon-willison-s-blog-llm-openrouter-0-7",
+    "headline": "llm-openrouter 0.7",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+    "publishedAt": "2026-08-21T16:58:19.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm-openrouter 0.7 Now that this plugin is compatible with LLM 0.32 it works much better with reasoning LLMs available through OpenRouter. Updated for compatibility with LLM 0.32 . Models now use OpenRouter's im"
   },
   {
     "id": "arxiv-cs-cl-a-virtual-member-of-a-community-of-practice-for-the-society-",
