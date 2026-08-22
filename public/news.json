@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-llm-0-33",
+    "headline": "llm 0.33",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Aug/22/llm/",
+    "publishedAt": "2026-08-22T17:01:16.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2 . #1608 , #1631 I shipped a quick 0.32.1 fix for this yesterday, b"
+  },
+  {
     "id": "ahead-of-ai-how-claude-watermarks-ai-generated-text",
     "headline": "How Claude Watermarks AI-Generated Text",
     "source": "Ahead of AI",
