@@ -177,15 +177,6 @@
     "topic": "RAG"
   },
   {
-    "id": "simon-willison-s-blog-stealing-reasoning-traces-from-proprietary-llm-apis",
-    "headline": "Stealing Reasoning Traces from Proprietary LLM APIs",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
-    "publishedAt": "2026-08-11T22:40:45.000Z",
-    "topic": "LLM",
-    "summary": "Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed a"
-  },
-  {
     "id": "hacker-news-should-you-self-host-llm-inference-cost-and-risk-guide",
     "headline": "Should You Self-Host LLM Inference? Cost and Risk Guide",
     "source": "Hacker News",
