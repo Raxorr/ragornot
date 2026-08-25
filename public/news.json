@@ -1,5 +1,13 @@
 [
   {
+    "id": "hacker-news-vllm-ios-88-faster-multi-agent-inference-on-ios",
+    "headline": "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS",
+    "source": "Hacker News",
+    "url": "https://jonready.com/blog/posts/continuous-batching-on-an-iphone.html",
+    "publishedAt": "2026-08-25T20:47:00.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "hugging-face-blog-granite-4-2-llms-how-they-re-built",
     "headline": "Granite 4.2 LLMs: How They're Built",
     "source": "Hugging Face Blog",
@@ -386,14 +394,6 @@
     "url": "https://news.ycombinator.com/item?id=49121047",
     "publishedAt": "2026-07-31T09:46:24.000Z",
     "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-show-hn-energy-carbon-and-water-estimates-for-ai-content-sho",
-    "headline": "Show HN: Energy, carbon and water estimates for AI content, shown as ranges",
-    "source": "Hacker News",
-    "url": "https://aicontentfootprint.com/",
-    "publishedAt": "2026-07-29T16:29:14.000Z",
-    "topic": "Environment"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
