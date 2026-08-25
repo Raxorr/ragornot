@@ -541,6 +541,16 @@
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/2b841d26-5b2d-4be9-9710-d89d4f023f0c_1600x900.png"
   },
   {
+    "id": "deepmind-blog-strengthening-singapore-s-ai-future-a-new-national-partnersh",
+    "headline": "Strengthening Singapore’s AI Future: A New National Partnership",
+    "source": "DeepMind Blog",
+    "url": "https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/",
+    "publishedAt": "2026-05-16T09:13:34.000Z",
+    "topic": "Environment",
+    "summary": "Google DeepMind and Singapore partner to apply frontier AI to address complex challenges across health, education, and sustainability and more.",
+    "imageUrl": "https://lh3.googleusercontent.com/Woiv_MqlJsgv6bSWD505JCSu936VdLLtR0y7Ev1wPWDmuhFK1SYxkpyU4N2vhSpSMl22NAtbxuZ1yFMHIcDFwABNZIgRtX0ccRXxWiBaHETRXUQEZQ=w528-h297-n-nu-rw-lo"
+  },
+  {
     "id": "openai-parloa-builds-service-agents-customers-want-to-talk-to",
     "headline": "Parloa builds service agents customers want to talk to",
     "source": "OpenAI",
@@ -709,6 +719,55 @@
     "topic": "LLM",
     "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire featur",
     "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/wHv1Wez7Ps9wYVYAo9fwT/14b41f606dbf1f5b17994be510407449/nuneybits_Hyper-realistic_image_of_a_retro_computer_with_a_glos_61ffb6e2-7c33-4d45-85f7-69c28693b3ec.webp?w=300&amp;q=30"
+  },
+  {
+    "id": "deepmind-blog-facts-benchmark-suite-systematically-evaluating-the-factuali",
+    "headline": "FACTS Benchmark Suite: Systematically evaluating the factuality of large language models",
+    "source": "DeepMind Blog",
+    "url": "https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/",
+    "publishedAt": "2025-12-09T11:29:03.000Z",
+    "topic": "LLM",
+    "summary": "Systematically evaluating the factuality of large language models with the FACTS Benchmark Suite.",
+    "imageUrl": "https://lh3.googleusercontent.com/eEfDhwb-u99oZnuvwc3STyyWrtN-4LnaqKBXCTP6Zy7yZGEJ-ryNjOOYaWJ3Lc8JmRXVH9DA-EqSb7k61rXtDeG0wB6Tj0ho0mAax8QWUHDkpyUjig=w528-h297-n-nu-rw-lo"
+  },
+  {
+    "id": "deepmind-blog-google-deepmind-supports-u-s-department-of-energy-on-genesis",
+    "headline": "Google DeepMind supports U.S. Department of Energy on Genesis: a national mission to accelerate innovation and scientific discovery",
+    "source": "DeepMind Blog",
+    "url": "https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis/",
+    "publishedAt": "2025-11-24T14:12:03.000Z",
+    "topic": "Environment",
+    "summary": "Google DeepMind and the DOE partner on Genesis, a new effort to accelerate science with AI.",
+    "imageUrl": "https://lh3.googleusercontent.com/Aij3S61tCOKUv_-lxFEBAvGZBWAlGh2E0gGRyol8p0L53KFkhgEEDcuw2rg9JzpdH40kwy_e_PkjaHdvbInPj55lDIKx6cd9xzzmRAy9eUapVkKJrw=w528-h297-n-nu-rw-lo"
+  },
+  {
+    "id": "deepmind-blog-how-ai-is-giving-northern-ireland-teachers-time-back",
+    "headline": "How AI is giving Northern Ireland teachers time back",
+    "source": "DeepMind Blog",
+    "url": "https://deepmind.google/blog/how-ai-is-giving-northern-ireland-teachers-time-back/",
+    "publishedAt": "2025-11-10T16:50:39.000Z",
+    "topic": "RAG",
+    "summary": "A six-month long pilot program with the Northern Ireland Education Authority’s C2k initiative found that integrating Gemini and other generative AI tools saved participating teachers an average of 10 hours per week."
+  },
+  {
+    "id": "deepmind-blog-t5gemma-a-new-collection-of-encoder-decoder-gemma-models",
+    "headline": "T5Gemma: A new collection of encoder-decoder Gemma models",
+    "source": "DeepMind Blog",
+    "url": "https://deepmind.google/blog/t5gemma-a-new-collection-of-encoder-decoder-gemma-models/",
+    "publishedAt": "2025-10-25T18:14:00.000Z",
+    "topic": "LLM",
+    "summary": "Introducing T5Gemma, a new collection of encoder-decoder LLMs.",
+    "imageUrl": "https://lh3.googleusercontent.com/G6ZuFr6d2i13JlGsO-_Sw5JxpyrqKqeQWkfCQRfgFZfabMfHW4kHIBxnFnvQz8Y5-VrTrX_4gY4PdmSm59R3rVKMoS7R6rH4ymrt-SSzvMedTINZBQ=w528-h297-n-nu-rw-lo"
+  },
+  {
+    "id": "deepmind-blog-aeneas-transforms-how-historians-connect-the-past",
+    "headline": "Aeneas transforms how historians connect the past",
+    "source": "DeepMind Blog",
+    "url": "https://deepmind.google/blog/aeneas-transforms-how-historians-connect-the-past/",
+    "publishedAt": "2025-10-24T02:58:37.000Z",
+    "topic": "RAG",
+    "summary": "Introducing the first model for contextualizing ancient inscriptions, designed to help historians better interpret, attribute and restore fragmentary texts.",
+    "imageUrl": "https://lh3.googleusercontent.com/RtYRby64YEBq-DMmlqZsVIMpiuVymqQD27nSvo1UJoxtcPOH4bmu0Of7Vm4vUC1xxOA91DhGh5-dHVHsy3f-7Vz6f-y7RjXDfOyz0z4e7aK8_65_LQ=w528-h297-n-nu-rw-lo"
   },
   {
     "id": "the-gradient-agi-is-not-multimodal",
