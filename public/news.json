@@ -1,5 +1,13 @@
 [
   {
+    "id": "hugging-face-blog-granite-4-2-llms-how-they-re-built",
+    "headline": "Granite 4.2 LLMs: How They're Built",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+    "publishedAt": "2026-08-25T15:14:14.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "arxiv-cs-cl-kse-web-an-analysis-of-hybrid-retrieval-and-llm-assisted-que",
     "headline": "KSE-Web: An Analysis of Hybrid Retrieval and LLM-Assisted Query Expansion for Low-Resource Khmer Semantic Search",
     "source": "arXiv (cs.CL)",
@@ -484,14 +492,6 @@
     "topic": "LLM",
     "summary": "A curated roundup of notable LLM research papers that came out this year",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/8630eb02-eeac-4411-bef3-1865c1920b03_2912x1632.png"
-  },
-  {
-    "id": "hugging-face-blog-beyond-llms-why-scalable-enterprise-ai-adoption-depends-on-a",
-    "headline": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-    "publishedAt": "2026-06-01T13:51:18.000Z",
-    "topic": "LLM"
   },
   {
     "id": "openai-how-virgin-atlantic-ships-faster-with-codex",
