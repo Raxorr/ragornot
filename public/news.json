@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-kse-web-an-analysis-of-hybrid-retrieval-and-llm-assisted-que",
+    "headline": "KSE-Web: An Analysis of Hybrid Retrieval and LLM-Assisted Query Expansion for Low-Resource Khmer Semantic Search",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.21365",
+    "publishedAt": "2026-08-26T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "As a low-resource language, Khmer presents several retrieval challenges, including limited annotated data, ambiguous word boundaries, weak support in multilingual embedding models, and frequent mixed Khmer-English usage."
+  },
+  {
+    "id": "arxiv-cs-cl-agentic-scaffolding-amplifies-sycophantic-behavior-in-large-",
+    "headline": "Agentic Scaffolding Amplifies Sycophantic Behavior in Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.21377",
+    "publishedAt": "2026-08-26T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Sycophancy in large language models, the tendency to prioritize user agreement over truthful responses, has been documented extensively but studied primarily in single-turn settings. This paper investigates a critical qu"
+  },
+  {
+    "id": "arxiv-cs-cl-beyond-two-bytes-per-letter-tokenization-overhead-in-cyrilli",
+    "headline": "Beyond Two Bytes per Letter: Tokenization Overhead in Cyrillic AI Systems",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.21384",
+    "publishedAt": "2026-08-26T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Modern multilingual tokenizers often fragment Ukrainian and other underrepresented Cyrillic-script languages more heavily than English, creating disparities in cost and context capacity. We quantify this overhead across "
+  },
+  {
+    "id": "arxiv-cs-cl-agentic-security-a-systematization-of-tools-failure-modes-an",
+    "headline": "Agentic Security: A Systematization of Tools, Failure Modes, and Design Laws for LLM-Driven Penetration Testing",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.21423",
+    "publishedAt": "2026-08-26T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Agentic security uses large-language-model (LLM) agents to plan, dispatch, and interpret security tools. As these systems move from demonstrations to deployed products, practitioners repeatedly encounter the same operati"
+  },
+  {
+    "id": "arxiv-cs-cl-cyrillicqa-the-influence-of-phonetically-encoded-secret-lang",
+    "headline": "CyrillicQA: The Influence of Phonetically Encoded Secret Language on LLM Performance",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.21462",
+    "publishedAt": "2026-08-26T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Due to the selection of their training data, large language models (LLMs) perform best on standard-language inputs from languages using the Latin alphabet with large speaker populations, while disadvantaging other langua"
+  },
+  {
+    "id": "arxiv-cs-cl-forgotten-in-weights-recovered-by-tools-agentic-tool-unlearn",
+    "headline": "Forgotten in Weights, Recovered by Tools: Agentic Tool Unlearning for LLM Agents",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.21544",
+    "publishedAt": "2026-08-26T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are increasingly deployed as tool-augmented agents, where responses can depend on tool calls and external observations rather than model parameters alone. This creates an evaluation mismatch "
+  },
+  {
+    "id": "arxiv-cs-cl-automating-multi-hop-rag-evaluation-via-triad-from-context-e",
+    "headline": "Automating Multi-Hop RAG Evaluation via TRIAD: From Context Extraction to Validated Dataset Generation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.21558",
+    "publishedAt": "2026-08-26T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Recent advances in LLMs and the adoption of RAG systems in industry have created a need for domain-specific question-answer datasets that can assess RAG performance on proprietary data. Existing datasets, such as HotpotQ"
+  },
+  {
+    "id": "arxiv-cs-cl-evidence-state-reliability-under-controlled-degradation-pars",
+    "headline": "Evidence-State Reliability Under Controlled Degradation: Parser-Validity Divergence in a Multi-Stage LLM Pipeline",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.21559",
+    "publishedAt": "2026-08-26T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Multi-stage LLM pipelines can remain structurally valid even when evidence available to downstream stages becomes incomplete, compressed, or conflicting. This paper introduces and operationalizes Evidence-State Reliabili"
+  },
+  {
+    "id": "arxiv-cs-ir-adawidth-query-adaptive-embedding-width-for-dense-retrieval",
+    "headline": "AdaWidth: Query-Adaptive Embedding Width for Dense Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.23862",
+    "publishedAt": "2026-08-26T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "High-dimensional embeddings are central to dense retrieval, but not all of these dimensions need to be evaluated at retrieval time. Existing methods reduce dimensions in two ways: truncating the same leading dimensions f"
+  },
+  {
+    "id": "arxiv-cs-ir-wontopos-tablet-2-measuring-multilingual-and-multimodal-memo",
+    "headline": "Wontopos Tablet 2: Measuring Multilingual and Multimodal Memory Retrieval Without Lexical Matching",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.23920",
+    "publishedAt": "2026-08-26T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "We measure tablet-2, a production long-term memory engine for language models, on the text benchmarks the field already uses and on cross-lingual retrieval of photographs stored with no text at all. Its retrieval path co"
+  },
+  {
+    "id": "arxiv-cs-ir-hybrid-semantic-tool-discovery-for-enterprise-mcp-gateway-ar",
+    "headline": "Hybrid Semantic Tool Discovery for Enterprise MCP Gateway: Architecture and Implementation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.23992",
+    "publishedAt": "2026-08-26T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language model (LLM) agents invoke external tools to retrieve and reason over information beyond pretrained knowledge. The Model Context Protocol (MCP) standardizes how such tools are surfaced, and a proxy MCP serv"
+  },
+  {
+    "id": "arxiv-cs-ir-sqlite-is-enough-lexical-semantic-and-hybrid-search-with-scr",
+    "headline": "SQLite is Enough. Lexical, Semantic, and Hybrid Search with scrydb",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.24060",
+    "publishedAt": "2026-08-26T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "This work introduces scrydb, a Python library that enables lexical, semantic, and hybrid search within SQLite. For lexical search, scrydb leverages SQLite's full-text search extension FTS5. Semantic search builds on sqli"
+  },
+  {
+    "id": "arxiv-cs-ir-retrievalformer-a-dual-encoder-transformer-for-efficient-app",
+    "headline": "RetrievalFormer: A Dual-Encoder Transformer for Efficient Approximate Nearest Neighbor Retrieval and Cold-Item Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.24079",
+    "publishedAt": "2026-08-26T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "A shared search-and-recommendation index must score new items from features alone because search has no exploration slot. In a public log covering both surfaces over one catalog, $38.6\\%$ of held-out query-search impress"
+  },
+  {
+    "id": "arxiv-cs-ir-codehid-learning-an-addressable-hierarchical-code-index-for-",
+    "headline": "CodeHID: Learning an Addressable Hierarchical Code Index for Generative Code Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.24089",
+    "publishedAt": "2026-08-26T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Code retrieval models have predominantly relied on a flat matching paradigm that treats code snippets as independent candidates, making them less capable of distinguishing similar code candidates. Generative retrieval of"
+  },
+  {
+    "id": "arxiv-cs-ir-tlow-flow-based-item-tokenizer-for-recommendation",
+    "headline": "Tlow: Flow-based Item Tokenizer for Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.24176",
+    "publishedAt": "2026-08-26T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Item tokenizer encodes semantic embeddings into token IDs to replace the randomly assigned item IDs used in traditional recommendation models, fundamentally addressing the problems of excessive parameters and cold starts"
+  },
+  {
+    "id": "arxiv-cs-ir-recgpt-mobile-v2-technical-report",
+    "headline": "RecGPT-Mobile-V2 Technical Report",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.24295",
+    "publishedAt": "2026-08-26T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Personalized Query prediction maps implicit behavioral signals---clicks, favorites, purchases, and post-purchase exploration---to explicit retrieval intent. On-device deployment makes this task particularly challenging: "
+  },
+  {
     "id": "hacker-news-vllm-ios-88-faster-multi-agent-inference-on-ios",
     "headline": "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS",
     "source": "Hacker News",
@@ -14,150 +158,6 @@
     "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
     "publishedAt": "2026-08-25T15:14:14.000Z",
     "topic": "LLM"
-  },
-  {
-    "id": "arxiv-cs-cl-kse-web-an-analysis-of-hybrid-retrieval-and-llm-assisted-que",
-    "headline": "KSE-Web: An Analysis of Hybrid Retrieval and LLM-Assisted Query Expansion for Low-Resource Khmer Semantic Search",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.21365",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "As a low-resource language, Khmer presents several retrieval challenges, including limited annotated data, ambiguous word boundaries, weak support in multilingual embedding models, and frequent mixed Khmer-English usage."
-  },
-  {
-    "id": "arxiv-cs-cl-agentic-scaffolding-amplifies-sycophantic-behavior-in-large-",
-    "headline": "Agentic Scaffolding Amplifies Sycophantic Behavior in Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.21377",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Sycophancy in large language models, the tendency to prioritize user agreement over truthful responses, has been documented extensively but studied primarily in single-turn settings. This paper investigates a critical qu"
-  },
-  {
-    "id": "arxiv-cs-cl-beyond-two-bytes-per-letter-tokenization-overhead-in-cyrilli",
-    "headline": "Beyond Two Bytes per Letter: Tokenization Overhead in Cyrillic AI Systems",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.21384",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Modern multilingual tokenizers often fragment Ukrainian and other underrepresented Cyrillic-script languages more heavily than English, creating disparities in cost and context capacity. We quantify this overhead across "
-  },
-  {
-    "id": "arxiv-cs-cl-agentic-security-a-systematization-of-tools-failure-modes-an",
-    "headline": "Agentic Security: A Systematization of Tools, Failure Modes, and Design Laws for LLM-Driven Penetration Testing",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.21423",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Agentic security uses large-language-model (LLM) agents to plan, dispatch, and interpret security tools. As these systems move from demonstrations to deployed products, practitioners repeatedly encounter the same operati"
-  },
-  {
-    "id": "arxiv-cs-cl-cyrillicqa-the-influence-of-phonetically-encoded-secret-lang",
-    "headline": "CyrillicQA: The Influence of Phonetically Encoded Secret Language on LLM Performance",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.21462",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Due to the selection of their training data, large language models (LLMs) perform best on standard-language inputs from languages using the Latin alphabet with large speaker populations, while disadvantaging other langua"
-  },
-  {
-    "id": "arxiv-cs-cl-forgotten-in-weights-recovered-by-tools-agentic-tool-unlearn",
-    "headline": "Forgotten in Weights, Recovered by Tools: Agentic Tool Unlearning for LLM Agents",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.21544",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are increasingly deployed as tool-augmented agents, where responses can depend on tool calls and external observations rather than model parameters alone. This creates an evaluation mismatch "
-  },
-  {
-    "id": "arxiv-cs-cl-automating-multi-hop-rag-evaluation-via-triad-from-context-e",
-    "headline": "Automating Multi-Hop RAG Evaluation via TRIAD: From Context Extraction to Validated Dataset Generation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.21558",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Recent advances in LLMs and the adoption of RAG systems in industry have created a need for domain-specific question-answer datasets that can assess RAG performance on proprietary data. Existing datasets, such as HotpotQ"
-  },
-  {
-    "id": "arxiv-cs-cl-evidence-state-reliability-under-controlled-degradation-pars",
-    "headline": "Evidence-State Reliability Under Controlled Degradation: Parser-Validity Divergence in a Multi-Stage LLM Pipeline",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.21559",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Multi-stage LLM pipelines can remain structurally valid even when evidence available to downstream stages becomes incomplete, compressed, or conflicting. This paper introduces and operationalizes Evidence-State Reliabili"
-  },
-  {
-    "id": "arxiv-cs-ir-retrieval-needs-multivectors-an-exponential-separation",
-    "headline": "Retrieval Needs Multivectors: An Exponential Separation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.21494",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Recent works have highlighted the expressive limitations of embedding based retrieval models through both theoretical analyses and challenging benchmarks such as LIMIT. While multi-vector embeddings consistently outperfo"
-  },
-  {
-    "id": "arxiv-cs-ir-enhancing-group-recommendation-with-memory-augmented-reasoni",
-    "headline": "Enhancing Group Recommendation with Memory-Augmented Reasoning in LLM Agent",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.21939",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "The core challenge in group recommendation lies in modeling the dynamic evolution of user preferences and explain?ing the consensus formation process. Existing Large Language Model (LLM)-based methods, despite improved i"
-  },
-  {
-    "id": "arxiv-cs-ir-sarclip-a-scalable-clip-based-retrieval-system-for-seventeen",
-    "headline": "SARCLIP: A Scalable CLIP-Based Retrieval System for Seventeenth-Century Spanish American Notary Records",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.22036",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Historical manuscript archives resist standard text search due to inconsistent handwriting, archaic orthography, and the absence of reliable transcriptions at scale. We present SARCLIP (Spanish American Notary Records Me"
-  },
-  {
-    "id": "arxiv-cs-ir-groil-graph-grounded-domain-ontology-induction-with-constrai",
-    "headline": "GrOIL: Graph-Grounded Domain Ontology Induction with Constrained LLM Mediation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.22135",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Constructing formal ontologies from domain documents requires simultaneously enforcing corpus grounding, vocabulary consistency, axiom-level expressivity, and end-to-end provenance, a combination no existing automatic sy"
-  },
-  {
-    "id": "arxiv-cs-ir-prompt-based-abstention-fails-under-misleading-context-a-con",
-    "headline": "Prompt-Based Abstention Fails Under Misleading Context: A Controlled Study of Small Frozen RAG Models",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.22228",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Missing and misleading evidence are not the same problem in retrieval-augmented generation (RAG), but prompt-based abstention treats them alike. Models abstain when context is absent, not when it is misleading. We introd"
-  },
-  {
-    "id": "arxiv-cs-ir-fashionkg-rag-knowledge-graph-enhanced-retrieval-augmented-g",
-    "headline": "FashionKG-RAG: Knowledge Graph-Enhanced Retrieval-Augmented Generation for Fashion Question Answering",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.22688",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Fashion is a knowledge-intensive domain in which effective decision-making depends on integrating multiple types of knowledge. Although Large Language Models (LLMs) have transformed many areas, their application in fashi"
-  },
-  {
-    "id": "arxiv-cs-ir-risk-aware-reranking-for-agentic-tool-retrieval",
-    "headline": "Risk-Aware Reranking for Agentic Tool Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.22751",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Tool retrieval determines which external tools are exposed to an LLM agent for a user query or task, making retrieval a critical pre-execution safety boundary. Unlike document retrieval, tool retrieval exposes executable"
-  },
-  {
-    "id": "arxiv-cs-ir-hypergraph-embedding-indexing-for-efficient-dense-vector-ret",
-    "headline": "Hypergraph Embedding Indexing for Efficient Dense Vector Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.22980",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Dense vector retrieval has become the foundation of modern semantic search, yet existing approximate nearest neighbor (ANN) indexes treat an embedding as an indivisible point in a high-dimensional space. In this work, we"
   },
   {
     "id": "hacker-news-llms-could-control-their-host-machines-by-exploiting-inferen",
