@@ -1,5 +1,15 @@
 [
   {
+    "id": "venturebeat-ai-orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-a",
+    "headline": "Orchestration is the new challenge for CX in the age of AI agents",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents",
+    "publishedAt": "2026-08-26T14:30:00.000Z",
+    "topic": "AI",
+    "summary": "Presented by Tata Communications Enterprises are deploying AI agents, voice AI, and automation across messaging, voice, and digital channels faster than the architecture meant to support it. Most of that deployment has i",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/1RK5pjHAxWRLsDy5iAC3Iy/4f9c39b5925645c365440e487ffe2157/Tata_hero.jpg?w=300&amp;q=30"
+  },
+  {
     "id": "arxiv-cs-cl-kse-web-an-analysis-of-hybrid-retrieval-and-llm-assisted-que",
     "headline": "KSE-Web: An Analysis of Hybrid Retrieval and LLM-Assisted Query Expansion for Low-Resource Khmer Semantic Search",
     "source": "arXiv (cs.CL)",
@@ -142,6 +152,14 @@
     "publishedAt": "2026-08-26T04:00:00.000Z",
     "topic": "RAG",
     "summary": "Personalized Query prediction maps implicit behavioral signals---clicks, favorites, purchases, and post-purchase exploration---to explicit retrieval intent. On-device deployment makes this task particularly challenging: "
+  },
+  {
+    "id": "hugging-face-blog-training-and-finetuning-multi-vector-embedding-models-with-s",
+    "headline": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/train-multi-vector-encoder",
+    "publishedAt": "2026-08-26T00:00:00.000Z",
+    "topic": "RAG"
   },
   {
     "id": "hacker-news-vllm-ios-88-faster-multi-agent-inference-on-ios",
@@ -476,14 +494,6 @@
     "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems."
   },
   {
-    "id": "hugging-face-blog-experimenting-with-the-proposed-cross-origin-storage-api-in-",
-    "headline": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/cross-origin-storage",
-    "publishedAt": "2026-06-23T00:00:00.000Z",
-    "topic": "RAG"
-  },
-  {
     "id": "ahead-of-ai-llm-research-papers-the-2026-list-january-to-may",
     "headline": "LLM Research Papers: The 2026 List (January to May)",
     "source": "Ahead of AI",
@@ -709,16 +719,6 @@
     "topic": "AI",
     "summary": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot , the company&#x27;s workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent c",
     "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/4Xrcg14GLKFlwSEnuEzxyS/21c85d29d03c4c974076475c009e3b38/nuneybits_Vector_art_of_chat_bubbles_on_a_computer_screen_in_th_5018a7ea-3496-4103-8453-7ba1b129189a.webp?w=300&amp;q=30"
-  },
-  {
-    "id": "venturebeat-ai-anthropic-launches-cowork-a-claude-desktop-agent-that-works-",
-    "headline": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
-    "source": "VentureBeat AI",
-    "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
-    "publishedAt": "2026-01-12T11:30:00.000Z",
-    "topic": "LLM",
-    "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire featur",
-    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/wHv1Wez7Ps9wYVYAo9fwT/14b41f606dbf1f5b17994be510407449/nuneybits_Hyper-realistic_image_of_a_retro_computer_with_a_glos_61ffb6e2-7c33-4d45-85f7-69c28693b3ec.webp?w=300&amp;q=30"
   },
   {
     "id": "deepmind-blog-facts-benchmark-suite-systematically-evaluating-the-factuali",
