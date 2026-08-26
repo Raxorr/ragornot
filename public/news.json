@@ -249,15 +249,6 @@
     "topic": "LLM"
   },
   {
-    "id": "aws-machine-learning-blog-aws-vector-solutions-build-agentic-ai-where-your-data-lives",
-    "headline": "AWS vector solutions: Build agentic AI where your data lives",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/aws-vector-solutions-build-agentic-ai-where-your-data-lives/",
-    "publishedAt": "2026-08-20T16:06:06.000Z",
-    "topic": "RAG",
-    "summary": "AWS offers a broad portfolio of vector search built directly into the databases and storage services you already use, with no standalone vector database or data migration required. This post covers six purpose-built serv"
-  },
-  {
     "id": "hacker-news-offline-rag-on-ios-with-spatial-integration",
     "headline": "Offline RAG on iOS with Spatial Integration",
     "source": "Hacker News",
