@@ -162,27 +162,11 @@
     "topic": "RAG"
   },
   {
-    "id": "hacker-news-vllm-ios-88-faster-multi-agent-inference-on-ios",
-    "headline": "vLLM-iOS: 88% Faster Multi-Agent Inference on iOS",
-    "source": "Hacker News",
-    "url": "https://jonready.com/blog/posts/continuous-batching-on-an-iphone.html",
-    "publishedAt": "2026-08-25T20:47:00.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "hugging-face-blog-granite-4-2-llms-how-they-re-built",
     "headline": "Granite 4.2 LLMs: How They're Built",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
     "publishedAt": "2026-08-25T15:14:14.000Z",
-    "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-llms-could-control-their-host-machines-by-exploiting-inferen",
-    "headline": "LLMs could control their host machines by exploiting inference engines",
-    "source": "Hacker News",
-    "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
-    "publishedAt": "2026-08-24T19:03:06.000Z",
     "topic": "LLM"
   },
   {
@@ -320,15 +304,6 @@
     "summary": "Don&#x27;t classify. Hallucinate! I still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed to an LLM in one go and say \"which of these tags "
   },
   {
-    "id": "simon-willison-s-blog-llm-gemini-0-33",
-    "headline": "llm-gemini 0.33",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
-    "publishedAt": "2026-08-13T19:37:34.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash , gemini-3.5-flash-lite and two embedding "
-  },
-  {
     "id": "hugging-face-blog-record-train-and-deploy-from-one-place-with-strands-agents-l",
     "headline": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
     "source": "Hugging Face Blog",
@@ -402,6 +377,22 @@
     "source": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49121047",
     "publishedAt": "2026-07-31T09:46:24.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "hacker-news-show-hn-energy-carbon-and-water-estimates-for-ai-content-sho",
+    "headline": "Show HN: Energy, carbon and water estimates for AI content, shown as ranges",
+    "source": "Hacker News",
+    "url": "https://aicontentfootprint.com/",
+    "publishedAt": "2026-07-29T16:29:14.000Z",
+    "topic": "Environment"
+  },
+  {
+    "id": "hacker-news-how-profitable-is-llm-inference-doing-the-math-on-kimi-k3",
+    "headline": "How Profitable Is LLM Inference? Doing the Math on Kimi K3",
+    "source": "Hacker News",
+    "url": "https://cefboud.com/posts/ai-inference-costs-profit/",
+    "publishedAt": "2026-07-29T08:59:58.000Z",
     "topic": "LLM"
   },
   {
