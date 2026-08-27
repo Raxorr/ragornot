@@ -1,5 +1,159 @@
 [
   {
+    "id": "venturebeat-ai-when-agents-act-on-their-own-governance-has-to-live-in-the-d",
+    "headline": "When agents act on their own, governance has to live in the data layer",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
+    "publishedAt": "2026-08-27T12:01:00.000Z",
+    "topic": "AI",
+    "summary": "Presented by EDB As enterprises give AI agents more autonomy — the ability to plan, decide, and act across systems without a human approving each step — a hard question moves to the center of every architecture review: W",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/9VRh8KJhBqcFviSV8ClXc/feea8ec8fe76ffa0bc5cdb3dd95e1492/EDB_hero.jpeg?w=300&amp;q=30"
+  },
+  {
+    "id": "arxiv-cs-cl-semantic-variability-of-replies-across-llms-implications-for",
+    "headline": "Semantic Variability of Replies Across LLMs: Implications for Designing Conversation-Based Assessment",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.24920",
+    "publishedAt": "2026-08-27T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "This study examines whether LLM-generated replies remain semantically consistent when the underlying LLM changes. Using messages from real collaborative conversations, we compared the semantic similarity of generated rep"
+  },
+  {
+    "id": "arxiv-cs-cl-the-imperfective-paradox-is-not-necessarily-in-large-languag",
+    "headline": "The Imperfective Paradox Is Not Necessarily in Large Language Models: A Benchmark Failure Before a Model Failure",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.25005",
+    "publishedAt": "2026-08-27T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "The imperfective paradox provides a useful test of compositional semantic analysis. Recent work constructs an NLI benchmark and reports that models frequently infer completed telic events from progressive descriptions, a"
+  },
+  {
+    "id": "arxiv-cs-cl-datakernelbench-can-llms-optimize-database-queries-on-gpus",
+    "headline": "DataKernelBench: Can LLMs Optimize Database Queries on GPUs?",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.25061",
+    "publishedAt": "2026-08-27T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "GPUs increasingly accelerate database systems, but query-specific peak performance still often relies on hand-written kernels. Existing LLM kernel benchmarks focus on machine learning operators, leaving irregular, hetero"
+  },
+  {
+    "id": "arxiv-cs-cl-healthbench-psych-a-mental-health-subset-of-openai-s-healthb",
+    "headline": "HealthBench-Psych: A Mental Health Subset of OpenAI's HealthBench",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.25071",
+    "publishedAt": "2026-08-27T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "General-purpose health benchmarks increasingly anchor claims about LLM medical performance, but they are not always resolved by clinical specialty, making domain-specific performance hard to isolate. Mental health is of "
+  },
+  {
+    "id": "arxiv-cs-cl-mtdiag-a-multi-turn-diagnostic-dataset-towards-clinically-me",
+    "headline": "MTDiag: A Multi-Turn Diagnostic Dataset Towards Clinically Meaningful LLM Evaluation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.25085",
+    "publishedAt": "2026-08-27T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Clinical diagnosis is fundamentally interactive and incremental, yet the dominant paradigm for evaluating Large Language Models (LLMs) in medicine remains static QA benchmarks or template-based dialogues. These benchmark"
+  },
+  {
+    "id": "arxiv-cs-cl-less-can-be-more-relieving-rag-bottlenecks-via-evidence-fron",
+    "headline": "Less can be More: Relieving RAG Bottlenecks via Evidence Frontloading and Pressure-Adaptive Budgeting",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.25115",
+    "publishedAt": "2026-08-27T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Existing methods for improving Retrieval-Augmented Generation (RAG) efficiency mainly optimize downstream LLM generation, such as context compression or serving optimization. However, RAG is an end-to-end system, and its"
+  },
+  {
+    "id": "arxiv-cs-cl-selfgraphrag-bridging-the-supervision-gap-in-graph-based-rag",
+    "headline": "SelfGraphRAG: Bridging the Supervision Gap in Graph-Based RAG with Synthetic QA Generation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.25123",
+    "publishedAt": "2026-08-27T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-augmented generation (RAG) improves large language models by incorporating external knowledge without retraining, but existing methods often underuse the relational structure encoded in knowledge graphs. Graph-"
+  },
+  {
+    "id": "arxiv-cs-cl-belief-cascades-drive-persuasion-in-llm-agent-networks",
+    "headline": "Belief Cascades Drive Persuasion in LLM Agent Networks",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.25152",
+    "publishedAt": "2026-08-27T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Multi-agent LLM systems increasingly debate answers, coordinate research, simulate users, and mediate information flows, making agent-to-agent persuasion a basic but undermeasured capability. We introduce a controlled te"
+  },
+  {
+    "id": "arxiv-cs-ir-rank-deviation-quality-a-distance-aware-metric-for-multi-ans",
+    "headline": "Rank-Deviation Quality: A Distance-Aware Metric for Multi-Answer Retrieval and Ranking Evaluation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.25318",
+    "publishedAt": "2026-08-27T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "We introduce Rank-Deviation Quality (RDQ), an evaluation metric for retrieval and ranking systems that adapts to queries with varying numbers of reference items, from a single correct answer to many valid results. RDQ sc"
+  },
+  {
+    "id": "arxiv-cs-ir-docpc-document-level-visual-retrieval-via-representative-pag",
+    "headline": "DocPC: Document-Level Visual Retrieval via Representative Page Composition",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.25434",
+    "publishedAt": "2026-08-27T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Visual document retrieval has advanced by encoding page screenshots with vision-language models, bypassing OCR pipelines. However, existing methods remain page-centric, misaligned with real-world scenarios requiring comp"
+  },
+  {
+    "id": "arxiv-cs-ir-query-expansion-is-more-than-generation-improving-dense-retr",
+    "headline": "Query Expansion Is More Than Generation: Improving Dense Retrieval through Better Integration",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.25521",
+    "publishedAt": "2026-08-27T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large language models (LLMs) can generate query expansions without task-specific training, yet the same expansions often make a frozen dense retriever worse. We identify an underexplored factor: prior work has often focu"
+  },
+  {
+    "id": "arxiv-cs-ir-transretrieval-scaling-up-transformer-based-retrieval-for-in",
+    "headline": "TransRetrieval: Scaling Up Transformer-Based Retrieval for Industrial Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.25528",
+    "publishedAt": "2026-08-27T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Applying scaling laws to recommendation retrieval is hindered by feature heterogeneity: naively stacking Transformer layers yields diminishing returns because heterogeneous fields produce severe token-norm divergence. We"
+  },
+  {
+    "id": "arxiv-cs-ir-an-event-is-worth-one-token-event-tokenization-for-industria",
+    "headline": "An Event is Worth One Token: Event Tokenization for Industrial-scale LLM Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.25546",
+    "publishedAt": "2026-08-27T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "LLM-based recommendation has scaled along model capacity and sequence length, yet each position encodes only text, semantic IDs, or a few categorical features, discarding rich user, item, context, and outcome signals ava"
+  },
+  {
+    "id": "arxiv-cs-ir-retrievalrouter-joint-modality-and-architecture-selection-fo",
+    "headline": "RetrievalRouter: Joint Modality and Architecture Selection for Document Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.25625",
+    "publishedAt": "2026-08-27T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Document retrieval increasingly supports high-stakes information access in finance, healthcare, and law. Modern retrieval pipelines vary both in modality (text or multimodal) and in retrieval architecture (dense or late-"
+  },
+  {
+    "id": "arxiv-cs-ir-data-citation-for-large-language-models-a-challenge",
+    "headline": "Data Citation for Large Language Models: A Challenge",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.25663",
+    "publishedAt": "2026-08-27T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models increasingly mediate access to information, and a growing body of work asks whether they cite the sources behind their outputs. That work treats citation as a verification device and applies it to t"
+  },
+  {
+    "id": "arxiv-cs-ir-puma-post-hoc-sparsification-of-universal-multimodal-embeddi",
+    "headline": "PUMA: Post-Hoc Sparsification of Universal Multimodal Embeddings for Efficient Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.25780",
+    "publishedAt": "2026-08-27T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Universal multimodal embedders enable retrieval across text, image, and combined queries, but their dense representations incur high memory and inference costs. Post-hoc sparsification could reduce these costs but remain"
+  },
+  {
     "id": "venturebeat-ai-orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-a",
     "headline": "Orchestration is the new challenge for CX in the age of AI agents",
     "source": "VentureBeat AI",
@@ -8,150 +162,6 @@
     "topic": "AI",
     "summary": "Presented by Tata Communications Enterprises are deploying AI agents, voice AI, and automation across messaging, voice, and digital channels faster than the architecture meant to support it. Most of that deployment has i",
     "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/1RK5pjHAxWRLsDy5iAC3Iy/4f9c39b5925645c365440e487ffe2157/Tata_hero.jpg?w=300&amp;q=30"
-  },
-  {
-    "id": "arxiv-cs-cl-kse-web-an-analysis-of-hybrid-retrieval-and-llm-assisted-que",
-    "headline": "KSE-Web: An Analysis of Hybrid Retrieval and LLM-Assisted Query Expansion for Low-Resource Khmer Semantic Search",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.21365",
-    "publishedAt": "2026-08-26T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "As a low-resource language, Khmer presents several retrieval challenges, including limited annotated data, ambiguous word boundaries, weak support in multilingual embedding models, and frequent mixed Khmer-English usage."
-  },
-  {
-    "id": "arxiv-cs-cl-agentic-scaffolding-amplifies-sycophantic-behavior-in-large-",
-    "headline": "Agentic Scaffolding Amplifies Sycophantic Behavior in Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.21377",
-    "publishedAt": "2026-08-26T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Sycophancy in large language models, the tendency to prioritize user agreement over truthful responses, has been documented extensively but studied primarily in single-turn settings. This paper investigates a critical qu"
-  },
-  {
-    "id": "arxiv-cs-cl-beyond-two-bytes-per-letter-tokenization-overhead-in-cyrilli",
-    "headline": "Beyond Two Bytes per Letter: Tokenization Overhead in Cyrillic AI Systems",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.21384",
-    "publishedAt": "2026-08-26T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Modern multilingual tokenizers often fragment Ukrainian and other underrepresented Cyrillic-script languages more heavily than English, creating disparities in cost and context capacity. We quantify this overhead across "
-  },
-  {
-    "id": "arxiv-cs-cl-agentic-security-a-systematization-of-tools-failure-modes-an",
-    "headline": "Agentic Security: A Systematization of Tools, Failure Modes, and Design Laws for LLM-Driven Penetration Testing",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.21423",
-    "publishedAt": "2026-08-26T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Agentic security uses large-language-model (LLM) agents to plan, dispatch, and interpret security tools. As these systems move from demonstrations to deployed products, practitioners repeatedly encounter the same operati"
-  },
-  {
-    "id": "arxiv-cs-cl-cyrillicqa-the-influence-of-phonetically-encoded-secret-lang",
-    "headline": "CyrillicQA: The Influence of Phonetically Encoded Secret Language on LLM Performance",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.21462",
-    "publishedAt": "2026-08-26T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Due to the selection of their training data, large language models (LLMs) perform best on standard-language inputs from languages using the Latin alphabet with large speaker populations, while disadvantaging other langua"
-  },
-  {
-    "id": "arxiv-cs-cl-forgotten-in-weights-recovered-by-tools-agentic-tool-unlearn",
-    "headline": "Forgotten in Weights, Recovered by Tools: Agentic Tool Unlearning for LLM Agents",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.21544",
-    "publishedAt": "2026-08-26T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are increasingly deployed as tool-augmented agents, where responses can depend on tool calls and external observations rather than model parameters alone. This creates an evaluation mismatch "
-  },
-  {
-    "id": "arxiv-cs-cl-automating-multi-hop-rag-evaluation-via-triad-from-context-e",
-    "headline": "Automating Multi-Hop RAG Evaluation via TRIAD: From Context Extraction to Validated Dataset Generation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.21558",
-    "publishedAt": "2026-08-26T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Recent advances in LLMs and the adoption of RAG systems in industry have created a need for domain-specific question-answer datasets that can assess RAG performance on proprietary data. Existing datasets, such as HotpotQ"
-  },
-  {
-    "id": "arxiv-cs-cl-evidence-state-reliability-under-controlled-degradation-pars",
-    "headline": "Evidence-State Reliability Under Controlled Degradation: Parser-Validity Divergence in a Multi-Stage LLM Pipeline",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.21559",
-    "publishedAt": "2026-08-26T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Multi-stage LLM pipelines can remain structurally valid even when evidence available to downstream stages becomes incomplete, compressed, or conflicting. This paper introduces and operationalizes Evidence-State Reliabili"
-  },
-  {
-    "id": "arxiv-cs-ir-adawidth-query-adaptive-embedding-width-for-dense-retrieval",
-    "headline": "AdaWidth: Query-Adaptive Embedding Width for Dense Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.23862",
-    "publishedAt": "2026-08-26T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "High-dimensional embeddings are central to dense retrieval, but not all of these dimensions need to be evaluated at retrieval time. Existing methods reduce dimensions in two ways: truncating the same leading dimensions f"
-  },
-  {
-    "id": "arxiv-cs-ir-wontopos-tablet-2-measuring-multilingual-and-multimodal-memo",
-    "headline": "Wontopos Tablet 2: Measuring Multilingual and Multimodal Memory Retrieval Without Lexical Matching",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.23920",
-    "publishedAt": "2026-08-26T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "We measure tablet-2, a production long-term memory engine for language models, on the text benchmarks the field already uses and on cross-lingual retrieval of photographs stored with no text at all. Its retrieval path co"
-  },
-  {
-    "id": "arxiv-cs-ir-hybrid-semantic-tool-discovery-for-enterprise-mcp-gateway-ar",
-    "headline": "Hybrid Semantic Tool Discovery for Enterprise MCP Gateway: Architecture and Implementation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.23992",
-    "publishedAt": "2026-08-26T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language model (LLM) agents invoke external tools to retrieve and reason over information beyond pretrained knowledge. The Model Context Protocol (MCP) standardizes how such tools are surfaced, and a proxy MCP serv"
-  },
-  {
-    "id": "arxiv-cs-ir-sqlite-is-enough-lexical-semantic-and-hybrid-search-with-scr",
-    "headline": "SQLite is Enough. Lexical, Semantic, and Hybrid Search with scrydb",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.24060",
-    "publishedAt": "2026-08-26T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "This work introduces scrydb, a Python library that enables lexical, semantic, and hybrid search within SQLite. For lexical search, scrydb leverages SQLite's full-text search extension FTS5. Semantic search builds on sqli"
-  },
-  {
-    "id": "arxiv-cs-ir-retrievalformer-a-dual-encoder-transformer-for-efficient-app",
-    "headline": "RetrievalFormer: A Dual-Encoder Transformer for Efficient Approximate Nearest Neighbor Retrieval and Cold-Item Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.24079",
-    "publishedAt": "2026-08-26T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "A shared search-and-recommendation index must score new items from features alone because search has no exploration slot. In a public log covering both surfaces over one catalog, $38.6\\%$ of held-out query-search impress"
-  },
-  {
-    "id": "arxiv-cs-ir-codehid-learning-an-addressable-hierarchical-code-index-for-",
-    "headline": "CodeHID: Learning an Addressable Hierarchical Code Index for Generative Code Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.24089",
-    "publishedAt": "2026-08-26T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Code retrieval models have predominantly relied on a flat matching paradigm that treats code snippets as independent candidates, making them less capable of distinguishing similar code candidates. Generative retrieval of"
-  },
-  {
-    "id": "arxiv-cs-ir-tlow-flow-based-item-tokenizer-for-recommendation",
-    "headline": "Tlow: Flow-based Item Tokenizer for Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.24176",
-    "publishedAt": "2026-08-26T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Item tokenizer encodes semantic embeddings into token IDs to replace the randomly assigned item IDs used in traditional recommendation models, fundamentally addressing the problems of excessive parameters and cold starts"
-  },
-  {
-    "id": "arxiv-cs-ir-recgpt-mobile-v2-technical-report",
-    "headline": "RecGPT-Mobile-V2 Technical Report",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.24295",
-    "publishedAt": "2026-08-26T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Personalized Query prediction maps implicit behavioral signals---clicks, favorites, purchases, and post-purchase exploration---to explicit retrieval intent. On-device deployment makes this task particularly challenging: "
   },
   {
     "id": "hugging-face-blog-training-and-finetuning-multi-vector-embedding-models-with-s",
@@ -167,6 +177,14 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
     "publishedAt": "2026-08-25T15:14:14.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "hacker-news-llms-could-control-their-host-machines-by-exploiting-inferen",
+    "headline": "LLMs could control their host machines by exploiting inference engines",
+    "source": "Hacker News",
+    "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+    "publishedAt": "2026-08-24T19:03:06.000Z",
     "topic": "LLM"
   },
   {
@@ -386,14 +404,6 @@
     "url": "https://aicontentfootprint.com/",
     "publishedAt": "2026-07-29T16:29:14.000Z",
     "topic": "Environment"
-  },
-  {
-    "id": "hacker-news-how-profitable-is-llm-inference-doing-the-math-on-kimi-k3",
-    "headline": "How Profitable Is LLM Inference? Doing the Math on Kimi K3",
-    "source": "Hacker News",
-    "url": "https://cefboud.com/posts/ai-inference-costs-profit/",
-    "publishedAt": "2026-07-29T08:59:58.000Z",
-    "topic": "LLM"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
@@ -691,16 +701,6 @@
     "topic": "AI",
     "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs , needed to hire over 100 engineers, but competing against Mark Zuckerberg&#x27;s $100 million offers seemed impossible. So he spent $5,000 — a fifth ",
     "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/4gD12ThOmNHZuosqC4xCTz/277b1e8968da602108a29fae2eaca440/nuneybits_Vector_art_of_billboard_with_cryptic_code_dbe5b0ff-7644-45e6-a1ca-4a5dceeff986.webp?w=300&amp;q=30"
-  },
-  {
-    "id": "venturebeat-ai-salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-mic",
-    "headline": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
-    "source": "VentureBeat AI",
-    "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-    "publishedAt": "2026-01-13T13:00:00.000Z",
-    "topic": "AI",
-    "summary": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot , the company&#x27;s workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent c",
-    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/4Xrcg14GLKFlwSEnuEzxyS/21c85d29d03c4c974076475c009e3b38/nuneybits_Vector_art_of_chat_bubbles_on_a_computer_screen_in_th_5018a7ea-3496-4103-8453-7ba1b129189a.webp?w=300&amp;q=30"
   },
   {
     "id": "deepmind-blog-facts-benchmark-suite-systematically-evaluating-the-factuali",
