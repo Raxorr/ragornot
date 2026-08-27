@@ -1,5 +1,33 @@
 [
   {
+    "id": "aws-machine-learning-blog-build-agentic-creative-workflows-with-amazon-quick-and-fal",
+    "headline": "Build agentic creative workflows with Amazon Quick and fal",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-creative-workflows-with-amazon-quick-and-fal/",
+    "publishedAt": "2026-08-27T23:04:22.000Z",
+    "topic": "RAG",
+    "summary": "Creative teams produce more assets than ever, but fragmented tools and manual context transfer slow production. This post shows how to build a reusable agent harness with Amazon Quick and fal, connected through the Model"
+  },
+  {
+    "id": "aws-machine-learning-blog-reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-e",
+    "headline": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2/",
+    "publishedAt": "2026-08-27T16:05:10.000Z",
+    "topic": "Cost",
+    "summary": "Serving automatic speech recognition (ASR) models at scale is costly when each request uses only a fraction of a GPU. Learn how NVIDIA CUDA Multi-Process Service (MPS) with NVIDIA Triton Inference Server on Amazon EC2 GP"
+  },
+  {
+    "id": "venturebeat-ai-enterprise-ai-s-real-risk-isn-t-autonomous-agents-it-s-the-c",
+    "headline": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+    "source": "VentureBeat AI",
+    "url": "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them",
+    "publishedAt": "2026-08-27T14:01:00.000Z",
+    "topic": "AI",
+    "summary": "Presented by Gravitee Agent complexity is the insidious shadow lurking inside enterprises right now that needs a light shone on it. That’s because enterprises don&#x27;t deploy a single agent and watch it run, they deplo",
+    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/5ScHW6mZ2rQr3EvsxrwooK/43df8725b6e12cd4bcf550bb7b3b1cb4/Gravitee_hero.jpg?w=300&amp;q=30"
+  },
+  {
     "id": "venturebeat-ai-when-agents-act-on-their-own-governance-has-to-live-in-the-d",
     "headline": "When agents act on their own, governance has to live in the data layer",
     "source": "VentureBeat AI",
@@ -223,15 +251,6 @@
     "publishedAt": "2026-08-21T17:16:13.000Z",
     "topic": "LLM",
     "summary": "Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx , and it turned out LLM depended on that library but only installed it via a transitive"
-  },
-  {
-    "id": "aws-machine-learning-blog-reduce-rag-costs-on-amazon-bedrock-with-query-aware-compress",
-    "headline": "Reduce RAG costs on Amazon Bedrock with query-aware compression",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression/",
-    "publishedAt": "2026-08-21T16:59:15.000Z",
-    "topic": "RAG",
-    "summary": "Input tokens are often a meaningful part of the cost of running Retrieval Augmented Generation (RAG) at scale. This post describes a query-aware context compression pattern on Amazon Bedrock: after retrieval, a smaller m"
   },
   {
     "id": "simon-willison-s-blog-llm-openrouter-0-7",
@@ -691,16 +710,6 @@
     "topic": "Cost",
     "summary": "The artificial intelligence coding revolution comes with a catch: it&#x27;s expensive. Claude Code , Anthropic&#x27;s terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imaginat",
     "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/1U9H8GLIqoGqKpitVfgw3T/ba56292f99409eca709dac0b176ec245/nuneybits_Vector_art_of_white_goose_silhouette_flying_through_c_8100d5a7-9e36-4ed6-a188-016470e1d0e1.webp?w=300&amp;q=30"
-  },
-  {
-    "id": "venturebeat-ai-listen-labs-raises-69m-after-viral-billboard-hiring-stunt-to",
-    "headline": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
-    "source": "VentureBeat AI",
-    "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
-    "publishedAt": "2026-01-16T14:01:00.000Z",
-    "topic": "AI",
-    "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs , needed to hire over 100 engineers, but competing against Mark Zuckerberg&#x27;s $100 million offers seemed impossible. So he spent $5,000 — a fifth ",
-    "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/4gD12ThOmNHZuosqC4xCTz/277b1e8968da602108a29fae2eaca440/nuneybits_Vector_art_of_billboard_with_cryptic_code_dbe5b0ff-7644-45e6-a1ca-4a5dceeff986.webp?w=300&amp;q=30"
   },
   {
     "id": "deepmind-blog-facts-benchmark-suite-systematically-evaluating-the-factuali",
