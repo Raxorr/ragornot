@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-treegraft-adaptive-multi-drafter-grafting-for-tree-based-spe",
+    "headline": "TreeGraft: Adaptive Multi-Drafter Grafting for Tree-Based Speculative Decoding",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.26112",
+    "publishedAt": "2026-08-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Speculative decoding accelerates large language model inference through a draft-then-verify paradigm. Building on this, tree-structured methods improve inference by organizing proposals into multiple candidate paths, inc"
+  },
+  {
+    "id": "arxiv-cs-cl-deflectbench-a-benchmark-for-evaluating-rhetorical-fallacy-g",
+    "headline": "DeflectBench: A Benchmark for Evaluating Rhetorical Fallacy Generation in LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.26119",
+    "publishedAt": "2026-08-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Whether large language models can be prompted to generate rhetorical fallacies on demand, and whether current safety post-training constrains this behavior, has received less attention than the related question of detect"
+  },
+  {
+    "id": "arxiv-cs-cl-recipes-for-steering-and-scaling-llms-via-sampling",
+    "headline": "Recipes for Steering and Scaling LLMs via Sampling",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.26120",
+    "publishedAt": "2026-08-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large Language Models (LLMs) are probabilistic models, typically defined by an autoregressive factorization. While recent work has begun to study richer target distributions beyond the base model, the sampling strategies"
+  },
+  {
+    "id": "arxiv-cs-cl-can-a-model-catch-its-own-hallucinations-for-free-label-free",
+    "headline": "Can a Model Catch Its Own Hallucinations for Free?: Label-Free Doubt Signals Hold Their Own Against a Labelled Dataset for Abstention",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.26121",
+    "publishedAt": "2026-08-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models state false facts as fluently as true ones, yet a model often \"knows\" internally when it is on shaky ground: the probability it assigns to its own answer tends to dip on the facts it gets wrong. The"
+  },
+  {
+    "id": "arxiv-cs-cl-which-india-survives-translation-narrative-homogenisation-ac",
+    "headline": "Which India Survives Translation? Narrative Homogenisation Across Indian Oral Traditions in LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.26123",
+    "publishedAt": "2026-08-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are trained predominantly on English-language internet text that over-represents certain cultural narratives, raising concerns that models flatten the diversity of non-Western storytelling tr"
+  },
+  {
+    "id": "arxiv-cs-cl-natural-language-policies-to-executable-decisions-an-interpr",
+    "headline": "Natural-Language Policies to Executable Decisions: An Interpretable Large Language Model Framework",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.26124",
+    "publishedAt": "2026-08-28T04:00:00.000Z",
+    "topic": "Cost",
+    "summary": "Pricing automation in large-scale tourism is challenging because travel orders are highly unstructured, while pricing policies are complex, rapidly evolving, and inherently open-ended. Traditional rule engines are brittl"
+  },
+  {
+    "id": "arxiv-cs-cl-telecomgpt-r1-a-unified-open-source-reasoner-for-the-telecom",
+    "headline": "TelecomGPT-R1: A Unified Open-Source Reasoner for the Telecom Stack",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.26126",
+    "publishedAt": "2026-08-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Telecommunications is a high-leverage domain for large language model (LLM)-based reasoning because routine engineering workflows require joint grounding in normative specifications, operational telemetry, vendor-specifi"
+  },
+  {
+    "id": "arxiv-cs-cl-agents-don-t-paginate-first-chunk-selection-for-llm-tool-res",
+    "headline": "Agents Don't Paginate: First-Chunk Selection for LLM Tool Responses",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.26130",
+    "publishedAt": "2026-08-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Coding agents built on large language models (LLMs), such as Claude Code, Cursor, OpenAI Codex, GitHub Copilot, and Aider, receive tool responses that routinely exceed the agent's per-turn token budget. The standard reme"
+  },
+  {
+    "id": "arxiv-cs-ir-hobit-a-profile-aware-retrieval-augmented-chatbot-for-univer",
+    "headline": "hoBIT: A Profile-Aware Retrieval-Augmented Chatbot for University Academic Advising",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.26604",
+    "publishedAt": "2026-08-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "In university academic advising, identical questions can require different answers depending on a student's department, admission cohort, and degree program, causing profile-blind retrievers to surface plausible but inap"
+  },
+  {
+    "id": "arxiv-cs-ir-when-does-supervised-fine-tuning-reduce-instruction-sensitiv",
+    "headline": "When Does Supervised Fine-Tuning Reduce Instruction Sensitivity?",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.26661",
+    "publishedAt": "2026-08-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models can exhibit substantial performance variation across alternative formulations of the same task instruction, yet it remains unclear how conventional task-specific supervised fine-tuning (SFT) changes"
+  },
+  {
+    "id": "arxiv-cs-ir-stream-an-objective-driven-and-uncertainty-aware-framework-f",
+    "headline": "STREAM: An Objective-Driven and Uncertainty-Aware Framework for Industrial Energy Data Acquisition",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.26754",
+    "publishedAt": "2026-08-28T04:00:00.000Z",
+    "topic": "Environment",
+    "summary": "Industrial energy management requires datasets that connect energy use with equipment states, production batches, material flows, and process conditions. However, conventional acquisition workflows commonly emphasize con"
+  },
+  {
+    "id": "arxiv-cs-ir-when-memory-takes-gradients-collaborative-vector-memory-for-",
+    "headline": "When Memory Takes Gradients: Collaborative Vector Memory for Agentic Recommender Systems",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.26895",
+    "publishedAt": "2026-08-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Agentic recommender systems ground each decision of a large language model (LLM) in a persistent memory of the user, and in existing agents that memory is text: a narrative written and maintained by further LLM calls. Te"
+  },
+  {
+    "id": "arxiv-cs-ir-conversational-recommendation-over-live-e-commerce-catalogue",
+    "headline": "Conversational Recommendation over Live E-Commerce Catalogues with Self-Refreshing Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.27006",
+    "publishedAt": "2026-08-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Conversational recommender systems based on large language models (LLMs) are usually evaluated on static, pre-indexed item collections, yet e-commerce catalogues change continuously as products are added or removed, repr"
+  },
+  {
+    "id": "arxiv-cs-ir-proretrieval-learning-to-orchestrate-hybrid-search-via-execu",
+    "headline": "ProRetrieval: Learning to Orchestrate Hybrid Search via Executable Program Synthesis",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.27017",
+    "publishedAt": "2026-08-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Real-world retrieval often composes structured constraints with semantic intents over text and images through arbitrary Boolean logic. Existing hybrid pipelines such as reciprocal rank fusion or self-querying retrievers "
+  },
+  {
+    "id": "arxiv-cs-ir-scaling-graph-neural-networks-for-friend-recommendation-mult",
+    "headline": "Scaling Graph Neural Networks for Friend Recommendation: Multi-Hash User Embeddings and Temporal Neighbor Sampling",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.27413",
+    "publishedAt": "2026-08-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Friend recommendation is inherently graph-structured: the relevance of a potential connection depends on multi-hop social context rather than user attributes alone. However, deploying message-passing GNNs on a production"
+  },
+  {
+    "id": "arxiv-cs-ir-llms-for-academic-workflows-an-evaluation-of-literature-revi",
+    "headline": "LLMs for Academic Workflows: An Evaluation of Literature Reviews Generated with Short and Long Context Windows of LLMs",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.26145",
+    "publishedAt": "2026-08-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Our research focuses on evaluating literature reviews generated in short and long context settings of large language models (LLMs) to investigate the impact of context window on the quality of AI-generated literature rev"
+  },
+  {
     "id": "aws-machine-learning-blog-build-agentic-creative-workflows-with-amazon-quick-and-fal",
     "headline": "Build agentic creative workflows with Amazon Quick and fal",
     "source": "AWS Machine Learning Blog",
@@ -36,150 +180,6 @@
     "topic": "AI",
     "summary": "Presented by EDB As enterprises give AI agents more autonomy — the ability to plan, decide, and act across systems without a human approving each step — a hard question moves to the center of every architecture review: W",
     "imageUrl": "https://images.ctfassets.net/jdtwqhzvc2n1/9VRh8KJhBqcFviSV8ClXc/feea8ec8fe76ffa0bc5cdb3dd95e1492/EDB_hero.jpeg?w=300&amp;q=30"
-  },
-  {
-    "id": "arxiv-cs-cl-semantic-variability-of-replies-across-llms-implications-for",
-    "headline": "Semantic Variability of Replies Across LLMs: Implications for Designing Conversation-Based Assessment",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.24920",
-    "publishedAt": "2026-08-27T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "This study examines whether LLM-generated replies remain semantically consistent when the underlying LLM changes. Using messages from real collaborative conversations, we compared the semantic similarity of generated rep"
-  },
-  {
-    "id": "arxiv-cs-cl-the-imperfective-paradox-is-not-necessarily-in-large-languag",
-    "headline": "The Imperfective Paradox Is Not Necessarily in Large Language Models: A Benchmark Failure Before a Model Failure",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.25005",
-    "publishedAt": "2026-08-27T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "The imperfective paradox provides a useful test of compositional semantic analysis. Recent work constructs an NLI benchmark and reports that models frequently infer completed telic events from progressive descriptions, a"
-  },
-  {
-    "id": "arxiv-cs-cl-datakernelbench-can-llms-optimize-database-queries-on-gpus",
-    "headline": "DataKernelBench: Can LLMs Optimize Database Queries on GPUs?",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.25061",
-    "publishedAt": "2026-08-27T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "GPUs increasingly accelerate database systems, but query-specific peak performance still often relies on hand-written kernels. Existing LLM kernel benchmarks focus on machine learning operators, leaving irregular, hetero"
-  },
-  {
-    "id": "arxiv-cs-cl-healthbench-psych-a-mental-health-subset-of-openai-s-healthb",
-    "headline": "HealthBench-Psych: A Mental Health Subset of OpenAI's HealthBench",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.25071",
-    "publishedAt": "2026-08-27T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "General-purpose health benchmarks increasingly anchor claims about LLM medical performance, but they are not always resolved by clinical specialty, making domain-specific performance hard to isolate. Mental health is of "
-  },
-  {
-    "id": "arxiv-cs-cl-mtdiag-a-multi-turn-diagnostic-dataset-towards-clinically-me",
-    "headline": "MTDiag: A Multi-Turn Diagnostic Dataset Towards Clinically Meaningful LLM Evaluation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.25085",
-    "publishedAt": "2026-08-27T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Clinical diagnosis is fundamentally interactive and incremental, yet the dominant paradigm for evaluating Large Language Models (LLMs) in medicine remains static QA benchmarks or template-based dialogues. These benchmark"
-  },
-  {
-    "id": "arxiv-cs-cl-less-can-be-more-relieving-rag-bottlenecks-via-evidence-fron",
-    "headline": "Less can be More: Relieving RAG Bottlenecks via Evidence Frontloading and Pressure-Adaptive Budgeting",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.25115",
-    "publishedAt": "2026-08-27T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Existing methods for improving Retrieval-Augmented Generation (RAG) efficiency mainly optimize downstream LLM generation, such as context compression or serving optimization. However, RAG is an end-to-end system, and its"
-  },
-  {
-    "id": "arxiv-cs-cl-selfgraphrag-bridging-the-supervision-gap-in-graph-based-rag",
-    "headline": "SelfGraphRAG: Bridging the Supervision Gap in Graph-Based RAG with Synthetic QA Generation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.25123",
-    "publishedAt": "2026-08-27T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-augmented generation (RAG) improves large language models by incorporating external knowledge without retraining, but existing methods often underuse the relational structure encoded in knowledge graphs. Graph-"
-  },
-  {
-    "id": "arxiv-cs-cl-belief-cascades-drive-persuasion-in-llm-agent-networks",
-    "headline": "Belief Cascades Drive Persuasion in LLM Agent Networks",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.25152",
-    "publishedAt": "2026-08-27T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Multi-agent LLM systems increasingly debate answers, coordinate research, simulate users, and mediate information flows, making agent-to-agent persuasion a basic but undermeasured capability. We introduce a controlled te"
-  },
-  {
-    "id": "arxiv-cs-ir-rank-deviation-quality-a-distance-aware-metric-for-multi-ans",
-    "headline": "Rank-Deviation Quality: A Distance-Aware Metric for Multi-Answer Retrieval and Ranking Evaluation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.25318",
-    "publishedAt": "2026-08-27T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "We introduce Rank-Deviation Quality (RDQ), an evaluation metric for retrieval and ranking systems that adapts to queries with varying numbers of reference items, from a single correct answer to many valid results. RDQ sc"
-  },
-  {
-    "id": "arxiv-cs-ir-docpc-document-level-visual-retrieval-via-representative-pag",
-    "headline": "DocPC: Document-Level Visual Retrieval via Representative Page Composition",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.25434",
-    "publishedAt": "2026-08-27T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Visual document retrieval has advanced by encoding page screenshots with vision-language models, bypassing OCR pipelines. However, existing methods remain page-centric, misaligned with real-world scenarios requiring comp"
-  },
-  {
-    "id": "arxiv-cs-ir-query-expansion-is-more-than-generation-improving-dense-retr",
-    "headline": "Query Expansion Is More Than Generation: Improving Dense Retrieval through Better Integration",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.25521",
-    "publishedAt": "2026-08-27T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Large language models (LLMs) can generate query expansions without task-specific training, yet the same expansions often make a frozen dense retriever worse. We identify an underexplored factor: prior work has often focu"
-  },
-  {
-    "id": "arxiv-cs-ir-transretrieval-scaling-up-transformer-based-retrieval-for-in",
-    "headline": "TransRetrieval: Scaling Up Transformer-Based Retrieval for Industrial Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.25528",
-    "publishedAt": "2026-08-27T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Applying scaling laws to recommendation retrieval is hindered by feature heterogeneity: naively stacking Transformer layers yields diminishing returns because heterogeneous fields produce severe token-norm divergence. We"
-  },
-  {
-    "id": "arxiv-cs-ir-an-event-is-worth-one-token-event-tokenization-for-industria",
-    "headline": "An Event is Worth One Token: Event Tokenization for Industrial-scale LLM Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.25546",
-    "publishedAt": "2026-08-27T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "LLM-based recommendation has scaled along model capacity and sequence length, yet each position encodes only text, semantic IDs, or a few categorical features, discarding rich user, item, context, and outcome signals ava"
-  },
-  {
-    "id": "arxiv-cs-ir-retrievalrouter-joint-modality-and-architecture-selection-fo",
-    "headline": "RetrievalRouter: Joint Modality and Architecture Selection for Document Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.25625",
-    "publishedAt": "2026-08-27T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Document retrieval increasingly supports high-stakes information access in finance, healthcare, and law. Modern retrieval pipelines vary both in modality (text or multimodal) and in retrieval architecture (dense or late-"
-  },
-  {
-    "id": "arxiv-cs-ir-data-citation-for-large-language-models-a-challenge",
-    "headline": "Data Citation for Large Language Models: A Challenge",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.25663",
-    "publishedAt": "2026-08-27T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models increasingly mediate access to information, and a growing body of work asks whether they cite the sources behind their outputs. That work treats citation as a verification device and applies it to t"
-  },
-  {
-    "id": "arxiv-cs-ir-puma-post-hoc-sparsification-of-universal-multimodal-embeddi",
-    "headline": "PUMA: Post-Hoc Sparsification of Universal Multimodal Embeddings for Efficient Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.25780",
-    "publishedAt": "2026-08-27T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Universal multimodal embedders enable retrieval across text, image, and combined queries, but their dense representations incur high memory and inference costs. Post-hoc sparsification could reduce these costs but remain"
   },
   {
     "id": "venturebeat-ai-orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-a",
