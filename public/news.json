@@ -64,6 +64,14 @@
     "topic": "LLM"
   },
   {
+    "id": "hacker-news-llms-could-control-their-host-machines-by-exploiting-inferen",
+    "headline": "LLMs could control their host machines by exploiting inference engines",
+    "source": "Hacker News",
+    "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+    "publishedAt": "2026-08-24T19:03:06.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "simon-willison-s-blog-llm-anthropic-0-27",
     "headline": "llm-anthropic 0.27",
     "source": "Simon Willison's Blog",
@@ -271,14 +279,6 @@
     "url": "https://aicontentfootprint.com/",
     "publishedAt": "2026-07-29T16:29:14.000Z",
     "topic": "Environment"
-  },
-  {
-    "id": "hacker-news-how-profitable-is-llm-inference-doing-the-math-on-kimi-k3",
-    "headline": "How Profitable Is LLM Inference? Doing the Math on Kimi K3",
-    "source": "Hacker News",
-    "url": "https://cefboud.com/posts/ai-inference-costs-profit/",
-    "publishedAt": "2026-07-29T08:59:58.000Z",
-    "topic": "LLM"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
