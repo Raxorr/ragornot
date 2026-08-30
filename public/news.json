@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-introducing-hy4-preview",
+    "headline": "Introducing Hy4 Preview",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Aug/29/hy4/",
+    "publishedAt": "2026-08-29T23:53:13.000Z",
+    "topic": "LLM",
+    "summary": "Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face . This is a big size in"
+  },
+  {
     "id": "aws-machine-learning-blog-build-agentic-creative-workflows-with-amazon-quick-and-fal",
     "headline": "Build agentic creative workflows with Amazon Quick and fal",
     "source": "AWS Machine Learning Blog",
@@ -186,15 +195,6 @@
     "url": "https://fn2.ai/claude",
     "publishedAt": "2026-08-14T22:09:36.000Z",
     "topic": "LLM"
-  },
-  {
-    "id": "simon-willison-s-blog-don-t-classify-hallucinate",
-    "headline": "Don't classify. Hallucinate!",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
-    "publishedAt": "2026-08-14T21:54:35.000Z",
-    "topic": "LLM",
-    "summary": "Don&#x27;t classify. Hallucinate! I still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed to an LLM in one go and say \"which of these tags "
   },
   {
     "id": "hugging-face-blog-record-train-and-deploy-from-one-place-with-strands-agents-l",
