@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-build-observable-enterprise-agentic-retrieval-using-managed-",
+    "headline": "Build observable enterprise agentic retrieval using Managed Amazon Bedrock Knowledge Base with AWS CloudFormation",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-observable-enterprise-agentic-retrieval-using-managed-amazon-bedrock-knowledge-base-with-aws-cloudformation/",
+    "publishedAt": "2026-08-31T19:08:45.000Z",
+    "topic": "RAG",
+    "summary": "This post builds an enterprise agentic retrieval solution on the Amazon Bedrock Managed Knowledge Base and Amazon Bedrock AgentCore. An agent reasons, routes across multiple knowledge bases, and returns cited answers, wi"
+  },
+  {
     "id": "arxiv-cs-cl-accelerating-llm-inference-via-vector-index-based-output-emb",
     "headline": "Accelerating LLM Inference via Vector Index Based Output Embeddings",
     "source": "arXiv (cs.CL)",
@@ -217,6 +226,14 @@
     "topic": "LLM"
   },
   {
+    "id": "hacker-news-llms-could-control-their-host-machines-by-exploiting-inferen",
+    "headline": "LLMs could control their host machines by exploiting inference engines",
+    "source": "Hacker News",
+    "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+    "publishedAt": "2026-08-24T19:03:06.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "simon-willison-s-blog-llm-anthropic-0-27",
     "headline": "llm-anthropic 0.27",
     "source": "Simon Willison's Blog",
@@ -415,14 +432,6 @@
     "url": "https://aicontentfootprint.com/",
     "publishedAt": "2026-07-29T16:29:14.000Z",
     "topic": "Environment"
-  },
-  {
-    "id": "hacker-news-how-profitable-is-llm-inference-doing-the-math-on-kimi-k3",
-    "headline": "How Profitable Is LLM Inference? Doing the Math on Kimi K3",
-    "source": "Hacker News",
-    "url": "https://cefboud.com/posts/ai-inference-costs-profit/",
-    "publishedAt": "2026-07-29T08:59:58.000Z",
-    "topic": "LLM"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
