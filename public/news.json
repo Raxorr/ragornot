@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-accelerating-llm-inference-via-vector-index-based-output-emb",
+    "headline": "Accelerating LLM Inference via Vector Index Based Output Embeddings",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.27460",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large output embedding matrices create a significant memory bandwidth bottleneck during autoregressive decoding, especially for compact LLMs with large multilingual vocabularies. We reformulate the output projection foll"
+  },
+  {
+    "id": "arxiv-cs-cl-the-effect-of-emotional-context-on-large-language-models-end",
+    "headline": "The Effect of Emotional Context on Large Language Models' Endorsement of Premature Decisions: Comparing Emotional Vulnerability Across Six Commercial Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.27465",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "As large language models (LLMs) are increasingly used for everyday decision-making advice, whether a model shifts the direction of its advice according to the user's emotional state has become an important safety problem"
+  },
+  {
+    "id": "arxiv-cs-cl-pace-publisher-adaptive-content-extraction-via-agentic-autom",
+    "headline": "PACE: Publisher-Adaptive Content Extraction via Agentic Automation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.27466",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Web content extraction is essential for reliable LLM data pipelines, yet existing methods often struggle to jointly satisfy accuracy, scalability, and adaptability. General-purpose extractors can be applied broadly, but "
+  },
+  {
+    "id": "arxiv-cs-cl-select-don-t-train-the-benefits-of-modular-entity-disambigua",
+    "headline": "Select, Don't Train: The Benefits of Modular Entity Disambiguation with LLM-Based Selection",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.27470",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Entity Disambiguation (ED) is a key task for constructing and using knowledge graphs. State-of-the-art neural approaches commonly model ED as a single task, although it consists of two distinct subproblems: retrieving ca"
+  },
+  {
+    "id": "arxiv-cs-cl-inspire-an-internalize-then-improve-approach-for-example-dri",
+    "headline": "INSPIRE: An Internalize-Then-Improve Approach for Example-Driven Mathematical Reasoning",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.27501",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Mathematical reasoning has seen rapid progress in large language models (LLMs), yet existing methods optimize predominantly for final-answer correctness, raising the question whether models truly internalize mathematical"
+  },
+  {
+    "id": "arxiv-cs-cl-a-survey-on-rubric-guided-reinforcement-learning-for-languag",
+    "headline": "A Survey on Rubric-Guided Reinforcement Learning for Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.27505",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Reinforcement learning from human feedback (RLHF) has become the dominant paradigm for aligning large language models (LLMs) with human preferences. However, traditional RLHF relies on scalar reward signals that lack int"
+  },
+  {
+    "id": "arxiv-cs-cl-trajectory-level-speculative-decoding-for-diffusion-language",
+    "headline": "Trajectory-Level Speculative Decoding for Diffusion Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.27514",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Diffusion-based language models (dLLMs) enable parallel token generation through iterative denoising, but existing decoding strategies collapse to single-token generation under low confidence, severely limiting throughpu"
+  },
+  {
+    "id": "arxiv-cs-cl-knowing-before-answering-decoding-language-models-for-reliab",
+    "headline": "Knowing Before Answering: Decoding Language Models for Reliable RAG",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.27661",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "In Retrieval-Augmented Generation (RAG), retrieval may provide insufficient or conflicting information needed to answer a question. The system should not only know when to answer but also be able to identify cases in whi"
+  },
+  {
+    "id": "arxiv-cs-ir-beyond-the-vacuum-combinatorial-strategy-selection-for-compe",
+    "headline": "Beyond the Vacuum: Combinatorial Strategy Selection for Competitor-Aware Generative Engine Optimization",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.27631",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Generative Engine Optimization (GEO) has emerged as a novel paradigm for transforming content to increase visibility in Large Language Model (LLM) responses. Traditional GEO methods, however, select rewriting strategies "
+  },
+  {
+    "id": "arxiv-cs-ir-a-versioned-unified-graph-index-for-dynamic-timestamp-aware-",
+    "headline": "A Versioned Unified Graph Index for Dynamic Timestamp-Aware Nearest Neighbor Search",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.27663",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "We present TiGER (Time-Integrated Graph for Efficient Retrieval), a novel approach for performing fast time-aware approximate nearest neighbor searches on dynamic vector datasets with flexibility over any possible time r"
+  },
+  {
+    "id": "arxiv-cs-ir-normastcu-a-brazilian-portuguese-ir-dataset-and-an-evaluatio",
+    "headline": "NormasTCU --- A Brazilian Portuguese IR Dataset and an Evaluation of LLM-as-a-Judge for Relevance Assessment",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.27746",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Portuguese Information Retrieval (IR) lacks public datasets, and relevance assessment for specialized collections remains costly. While Large Language Models (LLMs) increasingly support relevance assessment, their reliab"
+  },
+  {
+    "id": "arxiv-cs-ir-line-conversation-history-retrieval-for-personal-memory-rag-",
+    "headline": "LINE Conversation History Retrieval for Personal Memory RAG: Evaluating Search Representations and Hybrid Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.27809",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "As an initial step toward personal memory retrieval-augmented generation (RAG) for large language models (LLMs), this study presents a retrieval-only case study over one user's LINE conversation history. We segmented 358"
+  },
+  {
+    "id": "arxiv-cs-ir-iter-interaction-aware-retrieval-for-agentic-search",
+    "headline": "ITER: Interaction-Aware Retrieval for Agentic Search",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.27912",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Deep-research agents answer complex user questions through an iterative sequence of search steps, where the agent autonomously formulates sub-queries to retrieve the evidence needed at each stage. However, existing retri"
+  },
+  {
+    "id": "arxiv-cs-ir-information-guided-selective-modality-interest-alignment-for",
+    "headline": "Information-Guided Selective Modality-Interest Alignment for Multimodal Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.27950",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Multimodal recommendation (MMRec) aims to enhance recommendation performance by leveraging rich item content from multiple modalities. However, directly incorporating all modality information does not necessarily lead to"
+  },
+  {
+    "id": "arxiv-cs-ir-pulsar-pooled-unified-late-interaction-search-and-retrieval-",
+    "headline": "PULSAR: Pooled Unified Late-Interaction Search and Retrieval for Enterprise Visual Document RAG",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.28572",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Institutional investors search visually dense pitch decks, board packs, and diligence materials that change hourly near deal closing. OCR followed by figure verbalisation is costly to refresh at this scale and can lose c"
+  },
+  {
+    "id": "arxiv-cs-ir-caregraph-an-auditable-hybrid-ai-framework-for-evidence-grou",
+    "headline": "CareGraph: An Auditable Hybrid AI Framework for Evidence-Grounded Personalized Longitudinal Health Intelligence",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.27484",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Artificial intelligence is transforming personalized healthcare, yet fragmented clinical, self reported, and wearable evidence remains difficult to interpret and trace. We present CareGraph, an auditable hybrid AI framew"
+  },
+  {
     "id": "simon-willison-s-blog-introducing-hy4-preview",
     "headline": "Introducing Hy4 Preview",
     "source": "Simon Willison's Blog",
@@ -70,14 +214,6 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
     "publishedAt": "2026-08-25T15:14:14.000Z",
-    "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-llms-could-control-their-host-machines-by-exploiting-inferen",
-    "headline": "LLMs could control their host machines by exploiting inference engines",
-    "source": "Hacker News",
-    "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
-    "publishedAt": "2026-08-24T19:03:06.000Z",
     "topic": "LLM"
   },
   {
@@ -279,6 +415,14 @@
     "url": "https://aicontentfootprint.com/",
     "publishedAt": "2026-07-29T16:29:14.000Z",
     "topic": "Environment"
+  },
+  {
+    "id": "hacker-news-how-profitable-is-llm-inference-doing-the-math-on-kimi-k3",
+    "headline": "How Profitable Is LLM Inference? Doing the Math on Kimi K3",
+    "source": "Hacker News",
+    "url": "https://cefboud.com/posts/ai-inference-costs-profit/",
+    "publishedAt": "2026-07-29T08:59:58.000Z",
+    "topic": "LLM"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
