@@ -1,5 +1,13 @@
 [
   {
+    "id": "hugging-face-blog-benchmirt-what-are-llm-benchmarks-actually-measuring",
+    "headline": "BenchMIRT: What are LLM benchmarks actually measuring?",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/allenai/benchmirt",
+    "publishedAt": "2026-09-01T21:39:07.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "arxiv-cs-cl-gurukul-ai-an-interactive-ai-driven-educational-platform-for",
     "headline": "Gurukul AI: An Interactive AI-Driven Educational Platform for Indian Education System",
     "source": "arXiv (cs.CL)",
@@ -495,14 +503,6 @@
     "topic": "LLM",
     "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/4e729449-80ff-40c7-bcee-4d9349b46afe_2893x1589.png"
-  },
-  {
-    "id": "hugging-face-blog-run-a-vllm-server-on-hf-jobs-in-one-command",
-    "headline": "Run a vLLM Server on HF Jobs in One Command",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/vllm-jobs",
-    "publishedAt": "2026-06-26T00:00:00.000Z",
-    "topic": "LLM"
   },
   {
     "id": "openai-openai-and-broadcom-unveil-llm-optimized-inference-chip",
