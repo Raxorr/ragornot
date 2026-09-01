@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-gurukul-ai-an-interactive-ai-driven-educational-platform-for",
+    "headline": "Gurukul AI: An Interactive AI-Driven Educational Platform for Indian Education System",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.28611",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Recent advances in large language models (LLMs) like ChatGPT and LLaMA have transformed AI-driven education, but these systems are predominantly trained on Western-centric data, making them ill-suited for regional curric"
+  },
+  {
+    "id": "arxiv-cs-cl-ma-rag-multi-agent-retrieval-augmented-generation-for-query-",
+    "headline": "MA-RAG: Multi-Agent Retrieval-Augmented Generation for Query-Driven Summarization of Longitudinal Parkinson's Disease Assessments",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.28624",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Accurate interpretation of single-visit and longitudinal clinical assessments for Parkinson's disease is time-consuming and often depends on specialist expertise. Although large language models (LLMs) can generate natura"
+  },
+  {
+    "id": "arxiv-cs-cl-do-large-language-models-scrutinise-what-they-review-a-multi",
+    "headline": "Do large language models scrutinise what they review? A multimodal audit of scoring calibration, error detection, and author-identity effects",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.28626",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are increasingly used to generate peer reviews, prompting examination of their capacity for critical evaluation. This study evaluates two multimodal LLMs, Qwen2.5-VL-72B and Pixtral-Large-124"
+  },
+  {
+    "id": "arxiv-cs-cl-intelligent-identification-and-repair-of-design-defects-in-b",
+    "headline": "Intelligent Identification and Repair of Design Defects in BIM via Domain-Specific Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.28629",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Existing methods lack a generalized approach to efficiently identify and resolve the diversity of design defects in BIM. Therefore, this study proposes an integrated framework to identify and repair various defects in BI"
+  },
+  {
+    "id": "arxiv-cs-cl-do-mllms-really-understand-low-resource-khmer-documents-a-pi",
+    "headline": "Do MLLMs Really Understand Low-Resource Khmer Documents? A Pilot Study on Khmer Document VQA",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.28635",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Recent multimodal large language models (MLLMs) have advanced document understanding, visual question answering, and text extraction. However, their reliability in low-resource, non-Latin settings remains uncertain. Khme"
+  },
+  {
+    "id": "arxiv-cs-cl-cross-lingual-transfer-in-tulu-legal-comprehension-script-de",
+    "headline": "Cross Lingual Transfer in Tulu Legal Comprehension: Script-Dependent Improvement and RAG-Induced Knowledge Conflict",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.28645",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Low-resource languages without an adequate training corpus often use a related, higher-resource language as a scaffold for comprehension. Still, there is a need to develop rigorous evaluation methods to identify when mod"
+  },
+  {
+    "id": "arxiv-cs-cl-can-large-language-models-identify-meaningful-touchpoints-in",
+    "headline": "Can Large Language Models Identify Meaningful Touchpoints in Conversion Attribution?",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.28649",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Touchpoint selection in conversion attribution, namely identifying meaningful touchpoints contributing to conversions, is essential for e-commerce recommendation and online advertising. Current selection methods rely hea"
+  },
+  {
+    "id": "arxiv-cs-cl-greenbench-benchmarking-energy-efficiency-and-carbon-footpri",
+    "headline": "GreenBench: Benchmarking Energy Efficiency and Carbon Footprint of Open-Source LLM Inference on Apple Silicon",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2608.28667",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "topic": "Environment",
+    "summary": "The rapid proliferation of Large Language Models (LLMs) has raised concerns about their environmental impact during inference. While Green AI research has focused on datacenter GPUs and embedded platforms, the energy pro"
+  },
+  {
+    "id": "arxiv-cs-ir-database-augmented-rag-for-automated-repair-of-rest-api-misu",
+    "headline": "Database-Augmented RAG for Automated Repair of REST API Misuses",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.29290",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Many Internet of Things (IoT) services provide Representational State Transfer (REST) APIs, which require client developers to implement applications that conform to the corresponding API specifications. When client prog"
+  },
+  {
+    "id": "arxiv-cs-ir-repair-turning-retrieval-failures-into-counterfactual-hard-p",
+    "headline": "RePair: Turning Retrieval Failures into Counterfactual Hard Pairs",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.29604",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Vision-language retrieval with CLIP-style dual encoders achieves strong cross-modal performance, yet practical accuracy often hinges on localized semantic distinctions where top-ranked near misses differ from the true ma"
+  },
+  {
+    "id": "arxiv-cs-ir-icegr-an-intent-coherent-end-to-end-generative-retrieval-fra",
+    "headline": "ICEGR: An Intent-Coherent End-to-End Generative Retrieval Framework for E-commerce Search",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.29652",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Generative Retrieval (GR) is promising for e-commerce search, yet existing methods struggle to maintain query-intent consistency throughout the training pipeline. First, semantic ID (SID) construction based on static pro"
+  },
+  {
+    "id": "arxiv-cs-ir-e-sens-exclusion-sensitive-penalization-for-negative-constra",
+    "headline": "E-SENS: Exclusion-Sensitive Penalization for Negative-Constraint Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.30130",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-augmented language models can fail to respect negative constraints when the retriever supplies evidence about concepts the user explicitly excluded. Beyond explicit negation, queries may ask for answers that in"
+  },
+  {
+    "id": "arxiv-cs-ir-understanding-before-verifying-claim-normalization-for-autom",
+    "headline": "Understanding before verifying: Claim normalization for automated citation verification",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.30145",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Citation accuracy has been studied for decades because of its importance to research reliability. Content-level citation verification assesses the reliability of scholarly claims. Recent work adopts a two-stage retrieval"
+  },
+  {
+    "id": "arxiv-cs-ir-doc-refrag-rethinking-multimodal-document-retrieval-augmente",
+    "headline": "Doc-REFRAG: Rethinking Multimodal Document Retrieval-Augmented Generation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.30163",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Real-world knowledge resides in multimodal documents, necessitating retrieval-augmented generation (RAG) for accurate question answering. However, existing multimodal RAG models are primarily designed for single-image or"
+  },
+  {
+    "id": "arxiv-cs-ir-setmir-multi-interest-retrieval-as-set-prediction",
+    "headline": "SetMIR: Multi-Interest Retrieval as Set Prediction",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.30251",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Embedding-based retrieval is at the core of industrial recommender systems, but a single user embedding is often too limited to capture a user's diverse interests. Multi-interest retrieval addresses this by using multipl"
+  },
+  {
+    "id": "arxiv-cs-ir-camie-co-engagement-aware-multimodal-item-embeddings-for-sna",
+    "headline": "CAMIE: Co-Engagement-Aware Multimodal Item Embeddings for Snap Dynamic Product Ads Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2608.30255",
+    "publishedAt": "2026-09-01T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Item-to-item (I2I) retrieval is a core primitive in large-scale recommendation and advertising systems. In production Snap Dynamic Product Ads (DPA), I2I retrieval faces two challenges: separate visual, textual, and mult"
+  },
+  {
     "id": "aws-machine-learning-blog-build-observable-enterprise-agentic-retrieval-using-managed-",
     "headline": "Build observable enterprise agentic retrieval using Managed Amazon Bedrock Knowledge Base with AWS CloudFormation",
     "source": "AWS Machine Learning Blog",
@@ -7,150 +151,6 @@
     "publishedAt": "2026-08-31T19:08:45.000Z",
     "topic": "RAG",
     "summary": "This post builds an enterprise agentic retrieval solution on the Amazon Bedrock Managed Knowledge Base and Amazon Bedrock AgentCore. An agent reasons, routes across multiple knowledge bases, and returns cited answers, wi"
-  },
-  {
-    "id": "arxiv-cs-cl-accelerating-llm-inference-via-vector-index-based-output-emb",
-    "headline": "Accelerating LLM Inference via Vector Index Based Output Embeddings",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.27460",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large output embedding matrices create a significant memory bandwidth bottleneck during autoregressive decoding, especially for compact LLMs with large multilingual vocabularies. We reformulate the output projection foll"
-  },
-  {
-    "id": "arxiv-cs-cl-the-effect-of-emotional-context-on-large-language-models-end",
-    "headline": "The Effect of Emotional Context on Large Language Models' Endorsement of Premature Decisions: Comparing Emotional Vulnerability Across Six Commercial Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.27465",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "As large language models (LLMs) are increasingly used for everyday decision-making advice, whether a model shifts the direction of its advice according to the user's emotional state has become an important safety problem"
-  },
-  {
-    "id": "arxiv-cs-cl-pace-publisher-adaptive-content-extraction-via-agentic-autom",
-    "headline": "PACE: Publisher-Adaptive Content Extraction via Agentic Automation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.27466",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Web content extraction is essential for reliable LLM data pipelines, yet existing methods often struggle to jointly satisfy accuracy, scalability, and adaptability. General-purpose extractors can be applied broadly, but "
-  },
-  {
-    "id": "arxiv-cs-cl-select-don-t-train-the-benefits-of-modular-entity-disambigua",
-    "headline": "Select, Don't Train: The Benefits of Modular Entity Disambiguation with LLM-Based Selection",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.27470",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Entity Disambiguation (ED) is a key task for constructing and using knowledge graphs. State-of-the-art neural approaches commonly model ED as a single task, although it consists of two distinct subproblems: retrieving ca"
-  },
-  {
-    "id": "arxiv-cs-cl-inspire-an-internalize-then-improve-approach-for-example-dri",
-    "headline": "INSPIRE: An Internalize-Then-Improve Approach for Example-Driven Mathematical Reasoning",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.27501",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Mathematical reasoning has seen rapid progress in large language models (LLMs), yet existing methods optimize predominantly for final-answer correctness, raising the question whether models truly internalize mathematical"
-  },
-  {
-    "id": "arxiv-cs-cl-a-survey-on-rubric-guided-reinforcement-learning-for-languag",
-    "headline": "A Survey on Rubric-Guided Reinforcement Learning for Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.27505",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Reinforcement learning from human feedback (RLHF) has become the dominant paradigm for aligning large language models (LLMs) with human preferences. However, traditional RLHF relies on scalar reward signals that lack int"
-  },
-  {
-    "id": "arxiv-cs-cl-trajectory-level-speculative-decoding-for-diffusion-language",
-    "headline": "Trajectory-Level Speculative Decoding for Diffusion Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.27514",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Diffusion-based language models (dLLMs) enable parallel token generation through iterative denoising, but existing decoding strategies collapse to single-token generation under low confidence, severely limiting throughpu"
-  },
-  {
-    "id": "arxiv-cs-cl-knowing-before-answering-decoding-language-models-for-reliab",
-    "headline": "Knowing Before Answering: Decoding Language Models for Reliable RAG",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2608.27661",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "In Retrieval-Augmented Generation (RAG), retrieval may provide insufficient or conflicting information needed to answer a question. The system should not only know when to answer but also be able to identify cases in whi"
-  },
-  {
-    "id": "arxiv-cs-ir-beyond-the-vacuum-combinatorial-strategy-selection-for-compe",
-    "headline": "Beyond the Vacuum: Combinatorial Strategy Selection for Competitor-Aware Generative Engine Optimization",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.27631",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Generative Engine Optimization (GEO) has emerged as a novel paradigm for transforming content to increase visibility in Large Language Model (LLM) responses. Traditional GEO methods, however, select rewriting strategies "
-  },
-  {
-    "id": "arxiv-cs-ir-a-versioned-unified-graph-index-for-dynamic-timestamp-aware-",
-    "headline": "A Versioned Unified Graph Index for Dynamic Timestamp-Aware Nearest Neighbor Search",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.27663",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "We present TiGER (Time-Integrated Graph for Efficient Retrieval), a novel approach for performing fast time-aware approximate nearest neighbor searches on dynamic vector datasets with flexibility over any possible time r"
-  },
-  {
-    "id": "arxiv-cs-ir-normastcu-a-brazilian-portuguese-ir-dataset-and-an-evaluatio",
-    "headline": "NormasTCU --- A Brazilian Portuguese IR Dataset and an Evaluation of LLM-as-a-Judge for Relevance Assessment",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.27746",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Portuguese Information Retrieval (IR) lacks public datasets, and relevance assessment for specialized collections remains costly. While Large Language Models (LLMs) increasingly support relevance assessment, their reliab"
-  },
-  {
-    "id": "arxiv-cs-ir-line-conversation-history-retrieval-for-personal-memory-rag-",
-    "headline": "LINE Conversation History Retrieval for Personal Memory RAG: Evaluating Search Representations and Hybrid Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.27809",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "As an initial step toward personal memory retrieval-augmented generation (RAG) for large language models (LLMs), this study presents a retrieval-only case study over one user's LINE conversation history. We segmented 358"
-  },
-  {
-    "id": "arxiv-cs-ir-iter-interaction-aware-retrieval-for-agentic-search",
-    "headline": "ITER: Interaction-Aware Retrieval for Agentic Search",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.27912",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Deep-research agents answer complex user questions through an iterative sequence of search steps, where the agent autonomously formulates sub-queries to retrieve the evidence needed at each stage. However, existing retri"
-  },
-  {
-    "id": "arxiv-cs-ir-information-guided-selective-modality-interest-alignment-for",
-    "headline": "Information-Guided Selective Modality-Interest Alignment for Multimodal Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.27950",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Multimodal recommendation (MMRec) aims to enhance recommendation performance by leveraging rich item content from multiple modalities. However, directly incorporating all modality information does not necessarily lead to"
-  },
-  {
-    "id": "arxiv-cs-ir-pulsar-pooled-unified-late-interaction-search-and-retrieval-",
-    "headline": "PULSAR: Pooled Unified Late-Interaction Search and Retrieval for Enterprise Visual Document RAG",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.28572",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Institutional investors search visually dense pitch decks, board packs, and diligence materials that change hourly near deal closing. OCR followed by figure verbalisation is costly to refresh at this scale and can lose c"
-  },
-  {
-    "id": "arxiv-cs-ir-caregraph-an-auditable-hybrid-ai-framework-for-evidence-grou",
-    "headline": "CareGraph: An Auditable Hybrid AI Framework for Evidence-Grounded Personalized Longitudinal Health Intelligence",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.27484",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Artificial intelligence is transforming personalized healthcare, yet fragmented clinical, self reported, and wearable evidence remains difficult to interpret and trace. We present CareGraph, an auditable hybrid AI framew"
   },
   {
     "id": "simon-willison-s-blog-introducing-hy4-preview",
