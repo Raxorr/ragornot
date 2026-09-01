@@ -144,6 +144,15 @@
     "summary": "Item-to-item (I2I) retrieval is a core primitive in large-scale recommendation and advertising systems. In production Snap Dynamic Product Ads (DPA), I2I retrieval faces two challenges: separate visual, textual, and mult"
   },
   {
+    "id": "weaviate-blog-how-to-extract-meaning-from-charts-and-tables-in-pdfs",
+    "headline": "How to extract meaning from charts and tables in PDFs",
+    "source": "Weaviate Blog",
+    "url": "https://weaviate.io/blog/charts-tables-pdfs",
+    "publishedAt": "2026-09-01T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "PDFs full of charts and tables are notoriously hard to put through a traditional RAG pipeline. In this post, we show how late-interaction multi-vector retrieval lets you search PDFs by what the page looks like: no OCR, n"
+  },
+  {
     "id": "aws-machine-learning-blog-build-observable-enterprise-agentic-retrieval-using-managed-",
     "headline": "Build observable enterprise agentic retrieval using Managed Amazon Bedrock Knowledge Base with AWS CloudFormation",
     "source": "AWS Machine Learning Blog",
@@ -323,15 +332,6 @@
     "topic": "RAG"
   },
   {
-    "id": "simon-willison-s-blog-qwen-3-8-27b-is-excellent-but-it-defaults-to-wildly-overthin",
-    "headline": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
-    "publishedAt": "2026-08-16T22:00:39.000Z",
-    "topic": "LLM",
-    "summary": "Friday's big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a rea"
-  },
-  {
     "id": "ahead-of-ai-building-an-ai-text-detector-from-scratch",
     "headline": "Building an AI Text Detector From Scratch",
     "source": "Ahead of AI",
@@ -340,14 +340,6 @@
     "topic": "LLM",
     "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
     "imageUrl": "https://substackcdn.com/image/fetch/$s_!Om23!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875b5076-19a9-4ffe-91d4-cafa156f650a_5343x5696.png"
-  },
-  {
-    "id": "hacker-news-show-hn-i-built-a-claude-code-plugin-to-query-10-6m-earnings",
-    "headline": "Show HN: I built a Claude Code plugin to query 10.6M earnings-call embeddings",
-    "source": "Hacker News",
-    "url": "https://fn2.ai/claude",
-    "publishedAt": "2026-08-14T22:09:36.000Z",
-    "topic": "LLM"
   },
   {
     "id": "hugging-face-blog-record-train-and-deploy-from-one-place-with-strands-agents-l",
@@ -432,6 +424,14 @@
     "url": "https://aicontentfootprint.com/",
     "publishedAt": "2026-07-29T16:29:14.000Z",
     "topic": "Environment"
+  },
+  {
+    "id": "hacker-news-how-profitable-is-llm-inference-doing-the-math-on-kimi-k3",
+    "headline": "How Profitable Is LLM Inference? Doing the Math on Kimi K3",
+    "source": "Hacker News",
+    "url": "https://cefboud.com/posts/ai-inference-costs-profit/",
+    "publishedAt": "2026-07-29T08:59:58.000Z",
+    "topic": "LLM"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
