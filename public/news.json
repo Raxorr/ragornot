@@ -342,6 +342,14 @@
     "imageUrl": "https://substackcdn.com/image/fetch/$s_!Om23!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875b5076-19a9-4ffe-91d4-cafa156f650a_5343x5696.png"
   },
   {
+    "id": "hacker-news-show-hn-i-built-a-claude-code-plugin-to-query-10-6m-earnings",
+    "headline": "Show HN: I built a Claude Code plugin to query 10.6M earnings-call embeddings",
+    "source": "Hacker News",
+    "url": "https://fn2.ai/claude",
+    "publishedAt": "2026-08-14T22:09:36.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "hugging-face-blog-record-train-and-deploy-from-one-place-with-strands-agents-l",
     "headline": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
     "source": "Hugging Face Blog",
@@ -424,14 +432,6 @@
     "url": "https://aicontentfootprint.com/",
     "publishedAt": "2026-07-29T16:29:14.000Z",
     "topic": "Environment"
-  },
-  {
-    "id": "hacker-news-how-profitable-is-llm-inference-doing-the-math-on-kimi-k3",
-    "headline": "How Profitable Is LLM Inference? Doing the Math on Kimi K3",
-    "source": "Hacker News",
-    "url": "https://cefboud.com/posts/ai-inference-costs-profit/",
-    "publishedAt": "2026-07-29T08:59:58.000Z",
-    "topic": "LLM"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
