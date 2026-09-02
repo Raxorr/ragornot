@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-modernizing-and-scaling-support-operations-with-generative-a",
+    "headline": "Modernizing and scaling support operations with generative AI on AWS",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/modernizing-and-scaling-support-operations-with-generative-ai-on-aws/",
+    "publishedAt": "2026-09-02T18:26:35.000Z",
+    "topic": "RAG",
+    "summary": "Learn how to build a generative AI-based support operations platform on AWS that converts training videos into structured SOPs, applies Retrieval-Augmented Generation to guide ticket resolution, and uses machine learning"
+  },
+  {
     "id": "hacker-news-show-hn-price-dashboard-for-llm-inference",
     "headline": "Show HN: Price Dashboard for LLM Inference",
     "source": "Hacker News",
@@ -202,24 +211,6 @@
     "publishedAt": "2026-08-29T23:53:13.000Z",
     "topic": "LLM",
     "summary": "Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face . This is a big size in"
-  },
-  {
-    "id": "aws-machine-learning-blog-build-agentic-creative-workflows-with-amazon-quick-and-fal",
-    "headline": "Build agentic creative workflows with Amazon Quick and fal",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-creative-workflows-with-amazon-quick-and-fal/",
-    "publishedAt": "2026-08-27T23:04:22.000Z",
-    "topic": "RAG",
-    "summary": "Creative teams produce more assets than ever, but fragmented tools and manual context transfer slow production. This post shows how to build a reusable agent harness with Amazon Quick and fal, connected through the Model"
-  },
-  {
-    "id": "aws-machine-learning-blog-reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-e",
-    "headline": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2/",
-    "publishedAt": "2026-08-27T16:05:10.000Z",
-    "topic": "Cost",
-    "summary": "Serving automatic speech recognition (ASR) models at scale is costly when each request uses only a fraction of a GPU. Learn how NVIDIA CUDA Multi-Process Service (MPS) with NVIDIA Triton Inference Server on Amazon EC2 GP"
   },
   {
     "id": "venturebeat-ai-enterprise-ai-s-real-risk-isn-t-autonomous-agents-it-s-the-c",
