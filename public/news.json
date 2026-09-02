@@ -1,5 +1,13 @@
 [
   {
+    "id": "hacker-news-cutting-llm-inference-costs-by-36-with-prompt-caching",
+    "headline": "Cutting LLM inference costs by 36% with prompt caching",
+    "source": "Hacker News",
+    "url": "https://www.neradot.com/post/cutting-inference-cost-36-percent-with-prompt-caching",
+    "publishedAt": "2026-09-02T06:46:47.000Z",
+    "topic": "Cost"
+  },
+  {
     "id": "arxiv-cs-cl-behaviorally-grounded-user-profiles-from-the-wild-for-person",
     "headline": "Behaviorally Grounded User Profiles from the Wild for Personalized Alignment and Multi-Perspective Reasoning",
     "source": "arXiv (cs.CL)",
@@ -243,6 +251,14 @@
     "topic": "LLM"
   },
   {
+    "id": "hacker-news-llms-could-control-their-host-machines-by-exploiting-inferen",
+    "headline": "LLMs could control their host machines by exploiting inference engines",
+    "source": "Hacker News",
+    "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+    "publishedAt": "2026-08-24T19:03:06.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "simon-willison-s-blog-llm-anthropic-0-27",
     "headline": "llm-anthropic 0.27",
     "source": "Simon Willison's Blog",
@@ -303,15 +319,6 @@
     "url": "https://news.ycombinator.com/item?id=49371913",
     "publishedAt": "2026-08-20T08:28:22.000Z",
     "topic": "RAG"
-  },
-  {
-    "id": "simon-willison-s-blog-quoting-jeremy-morrell",
-    "headline": "Quoting Jeremy Morrell",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
-    "publishedAt": "2026-08-19T22:56:31.000Z",
-    "topic": "Cost",
-    "summary": "My hypothesis is that there is a new opportunity for Extensible Software on the web . LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good securi"
   },
   {
     "id": "venturebeat-ai-venturebeat-names-rob-strechay-as-its-first-lead-analyst-exp",
@@ -423,22 +430,6 @@
     "source": "Hacker News",
     "url": "https://news.ycombinator.com/item?id=49121047",
     "publishedAt": "2026-07-31T09:46:24.000Z",
-    "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-show-hn-energy-carbon-and-water-estimates-for-ai-content-sho",
-    "headline": "Show HN: Energy, carbon and water estimates for AI content, shown as ranges",
-    "source": "Hacker News",
-    "url": "https://aicontentfootprint.com/",
-    "publishedAt": "2026-07-29T16:29:14.000Z",
-    "topic": "Environment"
-  },
-  {
-    "id": "hacker-news-how-profitable-is-llm-inference-doing-the-math-on-kimi-k3",
-    "headline": "How Profitable Is LLM Inference? Doing the Math on Kimi K3",
-    "source": "Hacker News",
-    "url": "https://cefboud.com/posts/ai-inference-costs-profit/",
-    "publishedAt": "2026-07-29T08:59:58.000Z",
     "topic": "LLM"
   },
   {
