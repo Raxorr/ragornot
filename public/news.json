@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-set-up-openai-chatgpt-codex-with-litellm-on-amazon-ecs-and-a",
+    "headline": "Set up OpenAI ChatGPT Codex with LiteLLM on Amazon ECS and Amazon Bedrock",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/set-up-openai-chatgpt-codex-with-litellm-on-amazon-ecs-and-amazon-bedrock/",
+    "publishedAt": "2026-09-03T16:10:39.000Z",
+    "topic": "LLM",
+    "summary": "Deploy a customer-operated LiteLLM gateway on Amazon ECS with AWS Fargate, connect it to an OpenAI model on Amazon Bedrock, and configure Codex to route requests through the gateway's Responses API with scoped identities"
+  },
+  {
     "id": "arxiv-cs-cl-pro-step-step-level-process-reward-optimization-for-retrieva",
     "headline": "PRO-Step: Step-level Process Reward Optimization for Retrieval-Augmented Generation",
     "source": "arXiv (cs.CL)",
@@ -193,15 +202,6 @@
     "publishedAt": "2026-09-01T00:00:00.000Z",
     "topic": "RAG",
     "summary": "PDFs full of charts and tables are notoriously hard to put through a traditional RAG pipeline. In this post, we show how late-interaction multi-vector retrieval lets you search PDFs by what the page looks like: no OCR, n"
-  },
-  {
-    "id": "aws-machine-learning-blog-build-observable-enterprise-agentic-retrieval-using-managed-",
-    "headline": "Build observable enterprise agentic retrieval using Managed Amazon Bedrock Knowledge Base with AWS CloudFormation",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/build-observable-enterprise-agentic-retrieval-using-managed-amazon-bedrock-knowledge-base-with-aws-cloudformation/",
-    "publishedAt": "2026-08-31T19:08:45.000Z",
-    "topic": "RAG",
-    "summary": "This post builds an enterprise agentic retrieval solution on the Amazon Bedrock Managed Knowledge Base and Amazon Bedrock AgentCore. An agent reasons, routes across multiple knowledge bases, and returns cited answers, wi"
   },
   {
     "id": "simon-willison-s-blog-introducing-hy4-preview",
