@@ -121,15 +121,6 @@
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/fb73bfb5-0291-4e5e-b425-6c3be054276e_1914x1076.png"
   },
   {
-    "id": "simon-willison-s-blog-llm-0-32-1",
-    "headline": "llm 0.32.1",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Aug/21/llm/",
-    "publishedAt": "2026-08-21T17:16:13.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx , and it turned out LLM depended on that library but only installed it via a transitive"
-  },
-  {
     "id": "hacker-news-show-hn-pigame-pi-llm-plays-black-box-browser-games-via-obse",
     "headline": "Show HN: Pigame – pi+LLM plays black-box browser games via observe/move tools",
     "source": "Hacker News",
