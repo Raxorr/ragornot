@@ -274,15 +274,6 @@
     "summary": "Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx , and it turned out LLM depended on that library but only installed it via a transitive"
   },
   {
-    "id": "simon-willison-s-blog-llm-openrouter-0-7",
-    "headline": "llm-openrouter 0.7",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
-    "publishedAt": "2026-08-21T16:58:19.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-openrouter 0.7 Now that this plugin is compatible with LLM 0.32 it can display the reasoning traces for LLMs available through OpenRouter. Updated for compatibility with LLM 0.32 . Models now use OpenRouter'"
-  },
-  {
     "id": "hacker-news-show-hn-pigame-pi-llm-plays-black-box-browser-games-via-obse",
     "headline": "Show HN: Pigame – pi+LLM plays black-box browser games via observe/move tools",
     "source": "Hacker News",
