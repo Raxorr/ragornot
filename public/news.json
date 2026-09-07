@@ -229,15 +229,6 @@
     "topic": "LLM"
   },
   {
-    "id": "simon-willison-s-blog-llm-anthropic-0-27",
-    "headline": "llm-anthropic 0.27",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
-    "publishedAt": "2026-08-24T16:27:04.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the sam"
-  },
-  {
     "id": "ahead-of-ai-how-claude-watermarks-ai-generated-text",
     "headline": "How Claude Watermarks AI-Generated Text",
     "source": "Ahead of AI",
