@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-llm-0-35",
+    "headline": "llm 0.35",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Sep/7/llm/",
+    "publishedAt": "2026-09-07T23:54:54.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra"
+  },
+  {
     "id": "arxiv-cs-cl-evidence-integration-in-large-language-models",
     "headline": "Evidence Integration in Large Language Models",
     "source": "arXiv (cs.CL)",
@@ -161,6 +170,24 @@
     "summary": "Deploy a customer-operated LiteLLM gateway on Amazon ECS with AWS Fargate, connect it to an OpenAI model on Amazon Bedrock, and configure Codex to route requests through the gateway's Responses API with scoped identities"
   },
   {
+    "id": "simon-willison-s-blog-llm-openrouter-0-7-1",
+    "headline": "llm-openrouter 0.7.1",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Sep/2/llm-openrouter/",
+    "publishedAt": "2026-09-02T20:23:26.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm-openrouter 0.7.1 Performance fix for loading OpenRouter models. Thanks, waveplate . #59 Tags: llm , openrouter"
+  },
+  {
+    "id": "simon-willison-s-blog-llm-0-34",
+    "headline": "llm 0.34",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Sep/2/llm/",
+    "publishedAt": "2026-09-02T19:23:52.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm 0.34 One new feature: llm logs --usage Markdown output now includes the response duration in milliseconds and as a human-readable duration. llm logs --short includes a new duration_ms field. #1653 Plus sever"
+  },
+  {
     "id": "aws-machine-learning-blog-modernizing-and-scaling-support-operations-with-generative-a",
     "headline": "Modernizing and scaling support operations with generative AI on AWS",
     "source": "AWS Machine Learning Blog",
@@ -168,6 +195,15 @@
     "publishedAt": "2026-09-02T18:26:35.000Z",
     "topic": "RAG",
     "summary": "Learn how to build a generative AI-based support operations platform on AWS that converts training videos into structured SOPs, applies Retrieval-Augmented Generation to guide ticket resolution, and uses machine learning"
+  },
+  {
+    "id": "simon-willison-s-blog-llm-anthropic-0-28",
+    "headline": "llm-anthropic 0.28",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Sep/2/llm-anthropic/",
+    "publishedAt": "2026-09-02T17:59:32.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm-anthropic 0.28 Claude Fable 5.1 , reasoning traces are now displayed by default for models that support them, plus a new llm_anthropic.ClaudeRefusal exception for when Claude throws a refusal. Tags: llm , an"
   },
   {
     "id": "simon-willison-s-blog-llm-gemini-0-34",
@@ -202,15 +238,6 @@
     "publishedAt": "2026-09-01T00:00:00.000Z",
     "topic": "RAG",
     "summary": "PDFs full of charts and tables are notoriously hard to put through a traditional RAG pipeline. In this post, we show how late-interaction multi-vector retrieval lets you search PDFs by what the page looks like: no OCR, n"
-  },
-  {
-    "id": "simon-willison-s-blog-introducing-hy4-preview",
-    "headline": "Introducing Hy4 Preview",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Aug/29/hy4/",
-    "publishedAt": "2026-08-29T23:53:13.000Z",
-    "topic": "LLM",
-    "summary": "Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face . This is a big size in"
   },
   {
     "id": "hugging-face-blog-training-and-finetuning-multi-vector-embedding-models-with-s",
