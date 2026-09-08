@@ -1,5 +1,13 @@
 [
   {
+    "id": "hacker-news-show-hn-zero-downtime-embedding-model-upgrades",
+    "headline": "Show HN: Zero downtime embedding model upgrades",
+    "source": "Hacker News",
+    "url": "https://github.com/arnsri33/embedflow",
+    "publishedAt": "2026-09-08T02:35:36.000Z",
+    "topic": "AI"
+  },
+  {
     "id": "simon-willison-s-blog-llm-0-35",
     "headline": "llm 0.35",
     "source": "Simon Willison's Blog",
@@ -7,158 +15,6 @@
     "publishedAt": "2026-09-07T23:54:54.000Z",
     "topic": "LLM",
     "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra"
-  },
-  {
-    "id": "arxiv-cs-cl-evidence-integration-in-large-language-models",
-    "headline": "Evidence Integration in Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.04290",
-    "publishedAt": "2026-09-07T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Despite increasing reliance on LLMs that reason with external evidence supplied by tools, retrieval-augmented generation, other agents, and users, how LLMs integrate such evidence into decisions they have already begun t"
-  },
-  {
-    "id": "arxiv-cs-cl-you-really-didn-t-get-that-benchmarking-social-pragmatic-inf",
-    "headline": "You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.04384",
-    "publishedAt": "2026-09-07T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Chinese online comments often convey social meaning through indirect and playful language that is hard to interpret without context. Existing evaluations largely organize items around predefined phenomena or controlled p"
-  },
-  {
-    "id": "arxiv-cs-cl-grace-graph-grounded-reflective-agent-copilot-engine-for-exp",
-    "headline": "GRACE: Graph-Grounded Reflective Agent Copilot Engine for Expert-in-the-Loop Knowledge Expansion",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.04442",
-    "publishedAt": "2026-09-07T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Large language models deployed in high-stakes settings frequently generate plausible but ungrounded claims. Standard retrieval-augmented generation (RAG) pipelines offer limited remedy, since they retrieve isolated passa"
-  },
-  {
-    "id": "arxiv-cs-cl-shared-circuits-predict-whether-llms-generalize-across-forma",
-    "headline": "Shared circuits predict whether LLMs generalize across formats in arithmetic reasoning",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.04463",
-    "publishedAt": "2026-09-07T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "In many forms of reasoning, including arithmetic reasoning, generalizing across superficial changes in input format is effortless for humans: anyone who can solve 2+5 can also solve 'two plus five'. In contrast, LLMs are"
-  },
-  {
-    "id": "arxiv-cs-cl-safety-for-whom-boundary-aware-self-distillation-for-control",
-    "headline": "Safety for Whom? Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.04482",
-    "publishedAt": "2026-09-07T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Safety alignment is usually posed as a topic-level question: is this subject harmful? Deployments ask a narrower one. A civics tutor and a public-sector assistant may share a base model yet need different boundaries insi"
-  },
-  {
-    "id": "arxiv-cs-cl-cultural-misalignment-in-large-language-models-detection-mea",
-    "headline": "Cultural Misalignment in Large Language Models: Detection, Measurement, and Mitigation Through Targeted Fine-Tuning",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.04485",
-    "publishedAt": "2026-09-07T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "We evaluate three open-weight LLMs (Gemma3-12B from the USA, Bielik-11B-v3 from Poland, and Qwen3-4B from China) against World Values Survey Wave 7 data for 63 demographic personas across three countries, using normalize"
-  },
-  {
-    "id": "arxiv-cs-cl-towards-understanding-pause-token-fine-tuning-dynamics-a-mod",
-    "headline": "Towards Understanding Pause Token Fine-Tuning Dynamics: A Mode Retention Perspective",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.04489",
-    "publishedAt": "2026-09-07T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Pause-token methods improve LLM reasoning by inserting special tokens into sequences. Prior work explains these gains through computational expressivity. However, there is relatively little investigation into the trainin"
-  },
-  {
-    "id": "arxiv-cs-cl-lentex-generalizable-latent-entity-extraction-via-synthetic-",
-    "headline": "LentEx: Generalizable Latent Entity Extraction via Synthetic Data and Instruction-Tuned LLMs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.04511",
-    "publishedAt": "2026-09-07T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Latent entity extraction (LEE) tackles the challenge of identifying implicit, contextually inferred entities within free text-an area where traditional entity extraction methods fall short. In this paper, we introduce Le"
-  },
-  {
-    "id": "arxiv-cs-ir-sage-semantic-attribute-graphs-for-multi-entity-visual-retri",
-    "headline": "SAGE: Semantic Attribute Graphs for Multi-Entity Visual Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.04255",
-    "publishedAt": "2026-09-07T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Dense document images often contain many fine-grained visual and textual entities whose relevance depends on a user query. Standard vision-language retrievers encode cropped regions with a single vector, which can mix di"
-  },
-  {
-    "id": "arxiv-cs-ir-vizit-a-multi-view-framework-for-exploring-single-cell-spati",
-    "headline": "VizIt: A multi-view framework for exploring single-cell, spatial, and genetic data online",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.04658",
-    "publishedAt": "2026-09-07T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Multi-omic studies increasingly require data to be examined from complementary biological perspectives, yet interactive exploration remains fragmented across modalities and tools. We present VizIt, an open-source framewo"
-  },
-  {
-    "id": "arxiv-cs-ir-atomrec-evolving-atomic-memory-for-agentic-recommendation",
-    "headline": "AtomRec: Evolving Atomic Memory for Agentic Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.04882",
-    "publishedAt": "2026-09-07T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Agentic recommender systems use large language models to maintain semantic memory and support evidence-aware recommendation. However, existing memory mechanisms often compress user and item information into coarse summar"
-  },
-  {
-    "id": "arxiv-cs-ir-embedding-surgery-localized-updates-for-adaptive-ranking-cor",
-    "headline": "Embedding Surgery: Localized Updates for Adaptive Ranking Correction in Dense Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.05110",
-    "publishedAt": "2026-09-07T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Dense retrieval systems are core components of modern search engines, recommendation platforms, and retrieval-augmented generation pipelines. They encode documents and queries into dense embeddings, enabling efficient se"
-  },
-  {
-    "id": "arxiv-cs-ir-a-tree-based-rag-framework-for-evidence-intensive-qa-via-ada",
-    "headline": "A Tree-based RAG Framework for Evidence-Intensive QA via Adaptive Planning and Topology-Aware Evidence Gathering",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.04981",
-    "publishedAt": "2026-09-07T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Recent structured RAG methods leverage tree- or graph-based reasoning structures to improve multi-hop QA. However, they face key limitations in evidence-intensive QA, where answering a question requires synthesizing info"
-  },
-  {
-    "id": "arxiv-cs-ir-beyond-maintenance-manual-multimodal-rag-suggesting-what-too",
-    "headline": "Beyond Maintenance Manual Multimodal RAG: Suggesting What Tool",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.05116",
-    "publishedAt": "2026-09-07T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Aircraft technicians are required to consult the maintenance manual (MM) for nearly every task, and locating the relevant procedure across hundreds of pages remains time-consuming. Multimodal retrieval augmented generati"
-  },
-  {
-    "id": "arxiv-cs-ir-nepali-passport-question-answering-a-low-resource-dataset-fo",
-    "headline": "Nepali Passport Question Answering: A Low-Resource Dataset for Public Service Applications",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2603.13320",
-    "publishedAt": "2026-09-07T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Nepali, a low-resource language, faces significant challenges in building an effective information retrieval system due to the unavailability of annotated data and computational linguistic resources. In this study, we at"
-  },
-  {
-    "id": "arxiv-cs-ir-an-event-is-worth-one-token-event-tokenization-for-industria",
-    "headline": "An Event is Worth One Token: Event Tokenization for Industrial-scale LLM Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2608.25546",
-    "publishedAt": "2026-09-07T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "LLM-based recommendation has scaled along model capacity and sequence length, yet each position encodes only text, semantic IDs, or a few categorical features, discarding rich user, item, context, and outcome signals ava"
-  },
-  {
-    "id": "hacker-news-ask-hn-why-don-t-llm-apis-have-a-first-class-test-mode",
-    "headline": "Ask HN: Why don't LLM APIs have a first-class test mode?",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=49556909",
-    "publishedAt": "2026-09-03T20:59:59.000Z",
-    "topic": "LLM"
   },
   {
     "id": "aws-machine-learning-blog-set-up-openai-chatgpt-codex-with-litellm-on-amazon-ecs-and-a",
