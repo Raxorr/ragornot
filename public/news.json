@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-pathway-s-brain-inspired-architecture-development-on-amazon-",
+    "headline": "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/pathways-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod/",
+    "publishedAt": "2026-09-08T19:12:51.000Z",
+    "topic": "RAG",
+    "summary": "Pathway's Baby Dragon Hatchling (BDH) is a brain-inspired, post-transformer architecture that reasons in latent space instead of emitting chain-of-thought tokens. See how Pathway develops and scales BDH on Amazon SageMak"
+  },
+  {
     "id": "aws-machine-learning-blog-benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-an",
     "headline": "Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6",
     "source": "AWS Machine Learning Blog",
@@ -59,15 +68,6 @@
     "publishedAt": "2026-09-02T19:23:52.000Z",
     "topic": "LLM",
     "summary": "Release: llm 0.34 One new feature: llm logs --usage Markdown output now includes the response duration in milliseconds and as a human-readable duration. llm logs --short includes a new duration_ms field. #1653 Plus sever"
-  },
-  {
-    "id": "aws-machine-learning-blog-modernizing-and-scaling-support-operations-with-generative-a",
-    "headline": "Modernizing and scaling support operations with generative AI on AWS",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/modernizing-and-scaling-support-operations-with-generative-ai-on-aws/",
-    "publishedAt": "2026-09-02T18:26:35.000Z",
-    "topic": "RAG",
-    "summary": "Learn how to build a generative AI-based support operations platform on AWS that converts training videos into structured SOPs, applies Retrieval-Augmented Generation to guide ticket resolution, and uses machine learning"
   },
   {
     "id": "simon-willison-s-blog-llm-anthropic-0-28",
