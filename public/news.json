@@ -53,15 +53,6 @@
     "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra"
   },
   {
-    "id": "aws-machine-learning-blog-set-up-openai-chatgpt-codex-with-litellm-on-amazon-ecs-and-a",
-    "headline": "Set up OpenAI ChatGPT Codex with LiteLLM on Amazon ECS and Amazon Bedrock",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/set-up-openai-chatgpt-codex-with-litellm-on-amazon-ecs-and-amazon-bedrock/",
-    "publishedAt": "2026-09-03T16:10:39.000Z",
-    "topic": "LLM",
-    "summary": "Deploy a customer-operated LiteLLM gateway on Amazon ECS with AWS Fargate, connect it to an OpenAI model on Amazon Bedrock, and configure Codex to route requests through the gateway's Responses API with scoped identities"
-  },
-  {
     "id": "simon-willison-s-blog-llm-openrouter-0-7-1",
     "headline": "llm-openrouter 0.7.1",
     "source": "Simon Willison's Blog",
