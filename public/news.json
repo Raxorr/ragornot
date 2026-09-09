@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-wit",
+    "headline": "Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/",
+    "publishedAt": "2026-09-09T22:26:29.000Z",
+    "topic": "LLM",
+    "summary": "Learn how to deploy Qwen3.8-2.4T-A95B, a 2.4-trillion-parameter open-weight model, on Amazon SageMaker HyperPod with vLLM. This walkthrough covers cluster provisioning, NVFP4 quantization, and an OpenAI-compatible endpoi"
+  },
+  {
     "id": "ahead-of-ai-gpt-6-astra-looped-transformers-and-hidden-reasoning",
     "headline": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
     "source": "Ahead of AI",
