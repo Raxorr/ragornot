@@ -1,5 +1,15 @@
 [
   {
+    "id": "ahead-of-ai-gpt-6-astra-looped-transformers-and-hidden-reasoning",
+    "headline": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
+    "source": "Ahead of AI",
+    "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+    "publishedAt": "2026-09-09T11:14:25.000Z",
+    "topic": "LLM",
+    "summary": "A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
+    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/3d2ac2ec-ab80-43a8-aa93-a33a846dda43_1564x874.png"
+  },
+  {
     "id": "aws-machine-learning-blog-pathway-s-brain-inspired-architecture-development-on-amazon-",
     "headline": "Pathway’s brain-inspired architecture development on Amazon SageMaker HyperPod",
     "source": "AWS Machine Learning Blog",
@@ -431,25 +441,6 @@
     "publishedAt": "2026-04-09T00:00:00.000Z",
     "topic": "RAG",
     "summary": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming."
-  },
-  {
-    "id": "ahead-of-ai-components-of-a-coding-agent",
-    "headline": "Components of A Coding Agent",
-    "source": "Ahead of AI",
-    "url": "https://magazine.sebastianraschka.com/p/components-of-a-coding-agent",
-    "publishedAt": "2026-04-04T11:45:37.000Z",
-    "topic": "LLM",
-    "summary": "How coding agents use tools, memory, and repo context to make LLMs work better in practice",
-    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/49b97718-57f4-4977-99c8-8ad5c4d32af3_1548x862.png"
-  },
-  {
-    "id": "weaviate-blog-multimodal-embeddings-and-rag-a-practical-guide",
-    "headline": "Multimodal Embeddings and RAG: A Practical Guide",
-    "source": "Weaviate Blog",
-    "url": "https://weaviate.io/blog/multimodal-guide",
-    "publishedAt": "2026-04-01T00:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Multimodal embeddings allow AI systems to search and reason across text, images, audio, and video in their native formats. This blog covers the key intuitions behind how this all works and walks through three practical i"
   },
   {
     "id": "qdrant-blog-qdrant-skills-for-ai-agents",
