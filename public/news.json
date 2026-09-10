@@ -1,5 +1,22 @@
 [
   {
+    "id": "hacker-news-show-hn-nola-a-typescript-superset-where-llm-inference-is-a-",
+    "headline": "Show HN: Nola – a TypeScript superset where LLM inference is a language feature",
+    "source": "Hacker News",
+    "url": "https://nola.sh/",
+    "publishedAt": "2026-09-10T16:33:27.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "aws-machine-learning-blog-model-agnostic-pii-detection-with-llms",
+    "headline": "Model-agnostic PII detection with LLMs",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms/",
+    "publishedAt": "2026-09-10T16:02:16.000Z",
+    "topic": "LLM",
+    "summary": "A configurable, model-agnostic detector that turns any large language model on Amazon Bedrock into a PII detector. Because the entities to detect live in a prompt rather than in code, one detector adapts to new entity ty"
+  },
+  {
     "id": "arxiv-cs-cl-x-cosd-communication-efficient-cross-vocabulary-collaborativ",
     "headline": "X-CoSD: Communication-Efficient Cross-Vocabulary Collaborative Speculative Decoding",
     "source": "arXiv (cs.CL)",
@@ -375,14 +392,6 @@
     "publishedAt": "2026-08-05T01:00:00.000Z",
     "topic": "RAG",
     "summary": "Qdrant 1.19.0 is out! Let&rsquo;s look at the main features for this version: TurboQuant Datatype: A new storage format that compresses vectors to four bits without keeping their original full-precision representation, r"
-  },
-  {
-    "id": "hacker-news-what-llm-inference-costs",
-    "headline": "What LLM Inference Costs",
-    "source": "Hacker News",
-    "url": "https://twitter.com/Akashi203/status/2083213197171884505",
-    "publishedAt": "2026-07-31T18:11:45.000Z",
-    "topic": "Cost"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
