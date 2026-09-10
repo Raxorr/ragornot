@@ -1,5 +1,32 @@
 [
   {
+    "id": "aws-machine-learning-blog-reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagem",
+    "headline": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/",
+    "publishedAt": "2026-09-10T21:58:09.000Z",
+    "topic": "LLM",
+    "summary": "Amazon SageMaker Inference now offers prefix-aware routing, a routing strategy that sends requests sharing the same prompt prefix to the same instance so the KV cache stays warm. In benchmarks on Llama 3.1 70B, it reduce"
+  },
+  {
+    "id": "aws-machine-learning-blog-reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-wi",
+    "headline": "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/",
+    "publishedAt": "2026-09-10T21:37:49.000Z",
+    "topic": "RAG",
+    "summary": "Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights and container images onto cluster nodes so pods read from local NVMe storage instead of downloading over the network. Lear"
+  },
+  {
+    "id": "aws-machine-learning-blog-video-and-image-search-in-amazon-bedrock-knowledge-base-usin",
+    "headline": "Video and image search in Amazon Bedrock Knowledge Base using Marengo 3.0",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0/",
+    "publishedAt": "2026-09-10T21:15:39.000Z",
+    "topic": "Cost",
+    "summary": "TwelveLabs Marengo Embed 3.0 is now generally available as an embedding model in Amazon Bedrock Knowledge Bases, bringing fully managed natural language search to video, image, and audio content. This walkthrough shows h"
+  },
+  {
     "id": "hacker-news-show-hn-nola-a-typescript-superset-where-llm-inference-is-a-",
     "headline": "Show HN: Nola – a TypeScript superset where LLM inference is a language feature",
     "source": "Hacker News",
