@@ -225,15 +225,6 @@
     "summary": "Pathway's Baby Dragon Hatchling (BDH) is a brain-inspired, post-transformer architecture that reasons in latent space instead of emitting chain-of-thought tokens. See how Pathway develops and scales BDH on Amazon SageMak"
   },
   {
-    "id": "aws-machine-learning-blog-benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-an",
-    "headline": "Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6/",
-    "publishedAt": "2026-09-08T16:21:57.000Z",
-    "topic": "Cost",
-    "summary": "Benchmark two 30B Mixture-of-Experts models, Qwen3-Coder-30B and NVIDIA Nemotron-3-Nano-30B, across G5, G6, G6e, and G7 GPU instances on Amazon SageMaker AI. Compare throughput, latency, and cost-per-token, and see how G"
-  },
-  {
     "id": "hacker-news-why-human-syntax-breaks-llms-and-how-to-fix-agentic-coding",
     "headline": "Why human syntax breaks LLMs (and how to fix agentic coding)",
     "source": "Hacker News",
