@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-think-before-you-link-rarity-reasoning-and-retrieval-in-mult",
+    "headline": "Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.10745",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Multimodal entity linking grounds entity mentions in text and images to knowledge-base entries. These systems degrade on rare entities, but prior work measures rarity primarily through popularity-based metrics such as pa"
+  },
+  {
+    "id": "arxiv-cs-cl-multilingual-in-name-only-cultural-and-linguistic-weaknesses",
+    "headline": "Multilingual in Name Only? Cultural and Linguistic Weaknesses of LLMs in Urdu",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.10758",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Multilingual large language models (LLMs) are increasingly used for open-ended text generation, yet their behaviour in low-resource languages remains poorly understood. In this work, we question how correct and reliable "
+  },
+  {
+    "id": "arxiv-cs-cl-larger-context-window-fewer-overcorrections-optimizing-promp",
+    "headline": "Larger Context Window, Fewer Overcorrections: Optimizing Prompts and Batching for Minimal-Edit Grammatical Error Correction",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.10810",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Minimal-edit Grammatical Error Correction (GEC) is a challenging task for zero- and few-shot prompted Large Language Models (LLMs), which systematically overcorrect and degrade $F_{0.5}$ by rewriting well-formed spans. W"
+  },
+  {
+    "id": "arxiv-cs-cl-does-linguistic-structure-enrichment-enhance-coherence-asses",
+    "headline": "Does Linguistic Structure Enrichment Enhance Coherence Assessment? Not With Current Architectures",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.10893",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Recent advances in large language models have transformed human-computer interaction. Despite their fluency, these models often produce texts that are grammatically correct but semantically incoherent, containing contrad"
+  },
+  {
+    "id": "arxiv-cs-cl-llm-anchored-paralinguistic-enrichment-for-alzheimer-s-disea",
+    "headline": "LLM-Anchored Paralinguistic Enrichment for Alzheimer's Disease Detection",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.10896",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Speech-based automatic detection of Alzheimer's disease (AD) provides a non-invasive and scalable approach to early cognitive screening. AD affects both lexical-semantic organization and speech production, including atyp"
+  },
+  {
+    "id": "arxiv-cs-cl-searchatlas-analyzing-agentic-search-strategies-via-evidenti",
+    "headline": "SearchAtlas: Analyzing Agentic Search Strategies via Evidential Query Graphs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.10901",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "LLM search agents are often evaluated on final-answer accuracy, overlooking the process. Analyzing a search strategy requires understanding how credible evidence is retrieved to address question constraints. This valuabl"
+  },
+  {
+    "id": "arxiv-cs-cl-distribution-aware-language-neuron-identification-in-multili",
+    "headline": "Distribution-aware Language Neuron Identification in Multilingual Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.10993",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Multilingual large language models (mLLMs) contain a small fraction of feed-forward neurons that are sensitive to particular languages, commonly termed language-specific neurons. Existing work measures language specifici"
+  },
+  {
+    "id": "arxiv-cs-cl-rethinking-verbalized-confidence-for-llm-as-a-judge-a-compat",
+    "headline": "Rethinking Verbalized Confidence for LLM-as-a-Judge: A Compatibility Shift on Post-2025 Proprietary Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.10996",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Verbalized confidence, long dismissed as overconfident, coarse, and prone to round-number clustering, is now the more robust soft-scoring mechanism for LLM-as-a-Judge on top-tier proprietary models. Across SummEval, Aggr"
+  },
+  {
+    "id": "arxiv-cs-ir-when-synthetic-data-hurts-on-catastrophic-forgetting-in-skil",
+    "headline": "When Synthetic Data Hurts: On Catastrophic Forgetting in Skill Retrieval for LLM Agents",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.10750",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "LLM agents increasingly rely on external skills retrieved at runtime, making skill selection from large repositories a critical challenge. We present a production skill router over 34,396 skills and a large-scale study o"
+  },
+  {
+    "id": "arxiv-cs-ir-timelyrag-semantic-temporal-hybrid-retrieval-for-time-critic",
+    "headline": "TimelyRAG: Semantic-Temporal Hybrid Retrieval for Time-Critical Question Answering in Overlapping-Evolving Documents",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.11572",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Although large language models (LLMs) and retrieval-augmented generation (RAG) have advanced open-domain question answering (QA), they remain unreliable when documents evolve through amendments. Existing time-sensitive r"
+  },
+  {
+    "id": "arxiv-cs-ir-your-retriever-already-knows-distribution-shape-qpp-for-rag-",
+    "headline": "Your Retriever Already Knows: Distribution-Shape QPP for RAG Retrieval Sufficiency",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.11646",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Standard Retrieval-Augmented Generation (RAG) pipelines often provide no reliable inference-time signal of whether retrieval succeeded; on ambiguous or out-of-scope queries, generation may then hallucinate. Motivated by "
+  },
+  {
+    "id": "arxiv-cs-ir-generative-late-interaction-embeddings-for-visual-document-r",
+    "headline": "Generative Late-Interaction Embeddings For Visual Document Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.11808",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Late-interaction retrieval is the state-of-the-art for visual document search, but it pays for its accuracy in storage. Existing compression methods retain a subset or local average of the N~1,000 vectors per page. Under"
+  },
+  {
+    "id": "arxiv-cs-ir-following-the-preference-missing-the-optimum-compliance-with",
+    "headline": "Following the Preference, Missing the Optimum: Compliance Without Optimization in AI Housing Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.10856",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models are becoming the first point of contact for consumer search in domains where the stakes are material and the law is explicit. Existing audits show that models steer housing seekers by perceived iden"
+  },
+  {
+    "id": "arxiv-cs-ir-benchmark-radar-a-living-database-and-search-engine-for-ai-b",
+    "headline": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.11115",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Benchmark researchers and developers of large language models (LLMs) and other AI systems need to find relevant evaluations, locate their benchmark datasets and code, and understand the settings behind reported scores. W"
+  },
+  {
+    "id": "arxiv-cs-ir-agentic-share-of-search-a-multi-agent-ai-system-for-competit",
+    "headline": "Agentic Share-of-Search: A Multi-Agent AI System for Competitive Decision-Making in LLM-Mediated E-Commerce",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.11190",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "AI shopping assistants increasingly redirect consumer discovery, creating an urgent need for tools that support seller-side competitive decision-making. We present a multi-agent AI system that automates competitive visib"
+  },
+  {
+    "id": "arxiv-cs-ir-mllmrec-a-preference-reasoning-paradigm-with-graph-refinemen",
+    "headline": "MLLMRec: A Preference Reasoning Paradigm with Graph Refinement for Multimodal Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2508.15304",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Multimodal recommendation combines the user historical behaviors with the modal features of items to capture the tangible user preferences, presenting superior performance compared to the conventional ID-based recommende"
+  },
+  {
     "id": "aws-machine-learning-blog-reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagem",
     "headline": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
     "source": "AWS Machine Learning Blog",
@@ -42,132 +186,6 @@
     "publishedAt": "2026-09-10T16:02:16.000Z",
     "topic": "LLM",
     "summary": "A configurable, model-agnostic detector that turns any large language model on Amazon Bedrock into a PII detector. Because the entities to detect live in a prompt rather than in code, one detector adapts to new entity ty"
-  },
-  {
-    "id": "arxiv-cs-cl-x-cosd-communication-efficient-cross-vocabulary-collaborativ",
-    "headline": "X-CoSD: Communication-Efficient Cross-Vocabulary Collaborative Speculative Decoding",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.09166",
-    "publishedAt": "2026-09-10T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "This paper investigates collaborative speculative decoding (CoSD), a distributed large language model (LLM) inference framework in which an on-device small language model (SLM) drafts candidate tokens and a server LLM ve"
-  },
-  {
-    "id": "arxiv-cs-cl-stochbench-a-domain-specific-benchmark-for-stochastic-proces",
-    "headline": "StochBench: A Domain-Specific Benchmark for Stochastic Processes in Lean",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.09264",
-    "publishedAt": "2026-09-10T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Leading benchmarks for formal theorem proving with large language models are small collections drawn from competition math, such as the IMO and Putnam, that poorly represent field-specific applications. We introduce Stoc"
-  },
-  {
-    "id": "arxiv-cs-cl-osprey-target-agnostic-pre-training-makes-stronger-drafters-",
-    "headline": "Osprey: Target-agnostic Pre-training Makes Stronger Drafters in Speculative Decoding",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.09338",
-    "publishedAt": "2026-09-10T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Speculative decoding is critical for accelerating LLM inference. However, the speedup is fragile: drafters are typically trained against a narrow distribution for a single target model, and their acceptance rate collapse"
-  },
-  {
-    "id": "arxiv-cs-cl-sword-wikidata-based-distortions-reveal-hidden-cross-lingual",
-    "headline": "SWORD: Wikidata-based Distortions Reveal Hidden Cross-Lingual Inconsistencies in LLM Factual Error Rejection",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.09349",
-    "publishedAt": "2026-09-10T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Modern LLMs demonstrate impressive multilingual performance, yet standard benchmarks primarily reward selecting correct answers rather than evaluating genuine factual understanding. We introduce Systematic Wikidata-based"
-  },
-  {
-    "id": "arxiv-cs-cl-do-llms-make-more-mistakes-if-they-do-not-believe-the-input-",
-    "headline": "Do LLMs Make More Mistakes If They Do Not Believe the Input Data?",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.09363",
-    "publishedAt": "2026-09-10T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Large language models (LLMs) are prone to hallucinating or misinterpreting facts, which impairs their usability in retrieval-augmented generation or data-to-text systems. We analyse how faithfulness of LLMs to provided c"
-  },
-  {
-    "id": "arxiv-cs-cl-tefm-token-efficient-faithful-modeling-for-structured-data",
-    "headline": "TEFM: Token-Efficient Faithful Modeling for Structured Data",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.09552",
-    "publishedAt": "2026-09-10T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "In this paper, we solve two fundamental obstacles in applying LLMs to critical domains: token efficiency and faithfulness. To address both constraints jointly, we present TEFM (Token-Efficient Faithful Modeling), a frame"
-  },
-  {
-    "id": "arxiv-cs-cl-reproducing-omitted-temporal-expressions-in-japanese-news-fo",
-    "headline": "Reproducing Omitted Temporal Expressions in Japanese News for Retrieval-Augmented Applications",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.09569",
-    "publishedAt": "2026-09-10T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "News articles often contain omitted temporal expressions, such as day-only or month-only mentions, which must be interpreted with reference to the publication date. When such articles are indexed or processed as standalo"
-  },
-  {
-    "id": "arxiv-cs-cl-sea-speechbench-a-large-scale-multitask-benchmark-for-speech",
-    "headline": "SEA-SpeechBench: A Large-Scale Multitask Benchmark for Speech Understanding Across Southeast Asia",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.09672",
-    "publishedAt": "2026-09-10T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "The rapid advancement of audio and multimodal large language models has unlocked transformative speech understanding capabilities, yet evaluation frameworks remain predominantly English-centric, leaving Southeast Asian ("
-  },
-  {
-    "id": "arxiv-cs-ir-extracting-semantics-from-cattle-reporting-categories-for-da",
-    "headline": "Extracting Semantics from Cattle Reporting Categories for Data Interoperability and Findability",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.09381",
-    "publishedAt": "2026-09-10T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Livestock population data disaggregated by age, sex, and production are important inputs to calculations and models that inform our understanding of global health, yet these data are fragmented across disparate sources. "
-  },
-  {
-    "id": "arxiv-cs-ir-should-i-be-polite-to-my-llm-relevance-judge-tone-as-a-sever",
-    "headline": "Should I Be Polite to My LLM Relevance Judge? Tone as a Severity Operating-Point Shift",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.09703",
-    "publishedAt": "2026-09-10T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models are increasingly used as relevance judges, yet their labels can shift with prompt surface form. We study one such feature -- tone -- on 3,498 TREC DL19/DL20 query-passage pairs, across eight judge m"
-  },
-  {
-    "id": "arxiv-cs-ir-guaranteeing-faithful-evidence-extraction-in-speculative-ret",
-    "headline": "Guaranteeing Faithful Evidence Extraction in Speculative Retrieval-Augmented Generation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.10046",
-    "publishedAt": "2026-09-10T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Large Language Models (LLMs) are increasingly used as interfaces for information retrieval, but they remain prone to hallucinations and faithfulness errors, in which the generated answers diverge from the retrieved evide"
-  },
-  {
-    "id": "arxiv-cs-ir-high-probability-guarantees-for-linear-accessibility-in-feat",
-    "headline": "High-probability guarantees for linear accessibility in feature superposition",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.09556",
-    "publishedAt": "2026-09-10T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Neural networks can leverage feature superposition to encode more concepts than dimensions, but cross-feature interference constrains the linear accessibility of simultaneously active features. By framing linear accessib"
-  },
-  {
-    "id": "arxiv-cs-ir-when-does-low-bit-quantization-preserve-the-decisions-of-vec",
-    "headline": "When Does Low-Bit Quantization Preserve the Decisions of Vector Search?",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.09854",
-    "publishedAt": "2026-09-10T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Low-bit quantization can achieve high recall on some vector representations and fail sharply on others, while average distortion and global rank correlation do not explain the difference. We study quantized vector search"
-  },
-  {
-    "id": "arxiv-cs-ir-query-brand-entity-linking-in-e-commerce-search",
-    "headline": "Query Brand Entity Linking in E-Commerce Search",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2502.01555",
-    "publishedAt": "2026-09-10T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Associating user search queries with the correct brand entity is critical for e-commerce product retrieval, yet remains challenging due to the brevity of queries (three to four words on average), their lack of grammatica"
   },
   {
     "id": "aws-machine-learning-blog-deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-wit",
