@@ -1,5 +1,14 @@
 [
   {
+    "id": "openai-rapidly-scaling-online-storage-to-serve-over-1-billion-chatg",
+    "headline": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+    "publishedAt": "2026-09-11T10:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second."
+  },
+  {
     "id": "arxiv-cs-cl-think-before-you-link-rarity-reasoning-and-retrieval-in-mult",
     "headline": "Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking",
     "source": "arXiv (cs.CL)",
@@ -275,15 +284,6 @@
     "publishedAt": "2026-09-02T17:59:32.000Z",
     "topic": "LLM",
     "summary": "Release: llm-anthropic 0.28 Claude Fable 5.1 , reasoning traces are now displayed by default for models that support them, plus a new llm_anthropic.ClaudeRefusal exception for when Claude throws a refusal. Tags: llm , an"
-  },
-  {
-    "id": "simon-willison-s-blog-llm-gemini-0-34",
-    "headline": "llm-gemini 0.34",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
-    "publishedAt": "2026-09-02T16:39:38.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan . #"
   },
   {
     "id": "hacker-news-cutting-llm-inference-costs-by-36-with-prompt-caching",
@@ -639,15 +639,6 @@
     "publishedAt": "2026-03-24T00:00:00.000Z",
     "topic": "RAG",
     "summary": "Most vector search tutorials stop at single-vector embeddings: one document, one vector, one similarity score. That works for demos. It falls apart when your retrieval pipeline needs to capture fine-grained token-level i"
-  },
-  {
-    "id": "openai-improving-instruction-hierarchy-in-frontier-llms",
-    "headline": "Improving instruction hierarchy in frontier LLMs",
-    "source": "OpenAI",
-    "url": "https://openai.com/index/instruction-hierarchy-challenge",
-    "publishedAt": "2026-03-10T11:00:00.000Z",
-    "topic": "LLM",
-    "summary": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks."
   },
   {
     "id": "the-gradient-after-orthogonality-virtue-ethical-agency-and-ai-alignment",
