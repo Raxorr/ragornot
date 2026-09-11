@@ -259,24 +259,6 @@
     "summary": "Release: llm-openrouter 0.7.1 Performance fix for loading OpenRouter models. Thanks, waveplate . #59 Tags: llm , openrouter"
   },
   {
-    "id": "simon-willison-s-blog-llm-0-34",
-    "headline": "llm 0.34",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Sep/2/llm/",
-    "publishedAt": "2026-09-02T19:23:52.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm 0.34 One new feature: llm logs --usage Markdown output now includes the response duration in milliseconds and as a human-readable duration. llm logs --short includes a new duration_ms field. #1653 Plus sever"
-  },
-  {
-    "id": "simon-willison-s-blog-llm-anthropic-0-28",
-    "headline": "llm-anthropic 0.28",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Sep/2/llm-anthropic/",
-    "publishedAt": "2026-09-02T17:59:32.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-anthropic 0.28 Claude Fable 5.1 , reasoning traces are now displayed by default for models that support them, plus a new llm_anthropic.ClaudeRefusal exception for when Claude throws a refusal. Tags: llm , an"
-  },
-  {
     "id": "hacker-news-cutting-llm-inference-costs-by-36-with-prompt-caching",
     "headline": "Cutting LLM inference costs by 36% with prompt caching",
     "source": "Hacker News",
