@@ -250,15 +250,6 @@
     "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra"
   },
   {
-    "id": "simon-willison-s-blog-llm-openrouter-0-7-1",
-    "headline": "llm-openrouter 0.7.1",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Sep/2/llm-openrouter/",
-    "publishedAt": "2026-09-02T20:23:26.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-openrouter 0.7.1 Performance fix for loading OpenRouter models. Thanks, waveplate . #59 Tags: llm , openrouter"
-  },
-  {
     "id": "hacker-news-cutting-llm-inference-costs-by-36-with-prompt-caching",
     "headline": "Cutting LLM inference costs by 36% with prompt caching",
     "source": "Hacker News",
