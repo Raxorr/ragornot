@@ -9,150 +9,6 @@
     "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second."
   },
   {
-    "id": "arxiv-cs-cl-think-before-you-link-rarity-reasoning-and-retrieval-in-mult",
-    "headline": "Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.10745",
-    "publishedAt": "2026-09-11T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Multimodal entity linking grounds entity mentions in text and images to knowledge-base entries. These systems degrade on rare entities, but prior work measures rarity primarily through popularity-based metrics such as pa"
-  },
-  {
-    "id": "arxiv-cs-cl-multilingual-in-name-only-cultural-and-linguistic-weaknesses",
-    "headline": "Multilingual in Name Only? Cultural and Linguistic Weaknesses of LLMs in Urdu",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.10758",
-    "publishedAt": "2026-09-11T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Multilingual large language models (LLMs) are increasingly used for open-ended text generation, yet their behaviour in low-resource languages remains poorly understood. In this work, we question how correct and reliable "
-  },
-  {
-    "id": "arxiv-cs-cl-larger-context-window-fewer-overcorrections-optimizing-promp",
-    "headline": "Larger Context Window, Fewer Overcorrections: Optimizing Prompts and Batching for Minimal-Edit Grammatical Error Correction",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.10810",
-    "publishedAt": "2026-09-11T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Minimal-edit Grammatical Error Correction (GEC) is a challenging task for zero- and few-shot prompted Large Language Models (LLMs), which systematically overcorrect and degrade $F_{0.5}$ by rewriting well-formed spans. W"
-  },
-  {
-    "id": "arxiv-cs-cl-does-linguistic-structure-enrichment-enhance-coherence-asses",
-    "headline": "Does Linguistic Structure Enrichment Enhance Coherence Assessment? Not With Current Architectures",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.10893",
-    "publishedAt": "2026-09-11T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Recent advances in large language models have transformed human-computer interaction. Despite their fluency, these models often produce texts that are grammatically correct but semantically incoherent, containing contrad"
-  },
-  {
-    "id": "arxiv-cs-cl-llm-anchored-paralinguistic-enrichment-for-alzheimer-s-disea",
-    "headline": "LLM-Anchored Paralinguistic Enrichment for Alzheimer's Disease Detection",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.10896",
-    "publishedAt": "2026-09-11T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Speech-based automatic detection of Alzheimer's disease (AD) provides a non-invasive and scalable approach to early cognitive screening. AD affects both lexical-semantic organization and speech production, including atyp"
-  },
-  {
-    "id": "arxiv-cs-cl-searchatlas-analyzing-agentic-search-strategies-via-evidenti",
-    "headline": "SearchAtlas: Analyzing Agentic Search Strategies via Evidential Query Graphs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.10901",
-    "publishedAt": "2026-09-11T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "LLM search agents are often evaluated on final-answer accuracy, overlooking the process. Analyzing a search strategy requires understanding how credible evidence is retrieved to address question constraints. This valuabl"
-  },
-  {
-    "id": "arxiv-cs-cl-distribution-aware-language-neuron-identification-in-multili",
-    "headline": "Distribution-aware Language Neuron Identification in Multilingual Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.10993",
-    "publishedAt": "2026-09-11T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Multilingual large language models (mLLMs) contain a small fraction of feed-forward neurons that are sensitive to particular languages, commonly termed language-specific neurons. Existing work measures language specifici"
-  },
-  {
-    "id": "arxiv-cs-cl-rethinking-verbalized-confidence-for-llm-as-a-judge-a-compat",
-    "headline": "Rethinking Verbalized Confidence for LLM-as-a-Judge: A Compatibility Shift on Post-2025 Proprietary Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.10996",
-    "publishedAt": "2026-09-11T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Verbalized confidence, long dismissed as overconfident, coarse, and prone to round-number clustering, is now the more robust soft-scoring mechanism for LLM-as-a-Judge on top-tier proprietary models. Across SummEval, Aggr"
-  },
-  {
-    "id": "arxiv-cs-ir-when-synthetic-data-hurts-on-catastrophic-forgetting-in-skil",
-    "headline": "When Synthetic Data Hurts: On Catastrophic Forgetting in Skill Retrieval for LLM Agents",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.10750",
-    "publishedAt": "2026-09-11T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "LLM agents increasingly rely on external skills retrieved at runtime, making skill selection from large repositories a critical challenge. We present a production skill router over 34,396 skills and a large-scale study o"
-  },
-  {
-    "id": "arxiv-cs-ir-timelyrag-semantic-temporal-hybrid-retrieval-for-time-critic",
-    "headline": "TimelyRAG: Semantic-Temporal Hybrid Retrieval for Time-Critical Question Answering in Overlapping-Evolving Documents",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.11572",
-    "publishedAt": "2026-09-11T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Although large language models (LLMs) and retrieval-augmented generation (RAG) have advanced open-domain question answering (QA), they remain unreliable when documents evolve through amendments. Existing time-sensitive r"
-  },
-  {
-    "id": "arxiv-cs-ir-your-retriever-already-knows-distribution-shape-qpp-for-rag-",
-    "headline": "Your Retriever Already Knows: Distribution-Shape QPP for RAG Retrieval Sufficiency",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.11646",
-    "publishedAt": "2026-09-11T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Standard Retrieval-Augmented Generation (RAG) pipelines often provide no reliable inference-time signal of whether retrieval succeeded; on ambiguous or out-of-scope queries, generation may then hallucinate. Motivated by "
-  },
-  {
-    "id": "arxiv-cs-ir-generative-late-interaction-embeddings-for-visual-document-r",
-    "headline": "Generative Late-Interaction Embeddings For Visual Document Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.11808",
-    "publishedAt": "2026-09-11T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Late-interaction retrieval is the state-of-the-art for visual document search, but it pays for its accuracy in storage. Existing compression methods retain a subset or local average of the N~1,000 vectors per page. Under"
-  },
-  {
-    "id": "arxiv-cs-ir-following-the-preference-missing-the-optimum-compliance-with",
-    "headline": "Following the Preference, Missing the Optimum: Compliance Without Optimization in AI Housing Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.10856",
-    "publishedAt": "2026-09-11T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models are becoming the first point of contact for consumer search in domains where the stakes are material and the law is explicit. Existing audits show that models steer housing seekers by perceived iden"
-  },
-  {
-    "id": "arxiv-cs-ir-benchmark-radar-a-living-database-and-search-engine-for-ai-b",
-    "headline": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.11115",
-    "publishedAt": "2026-09-11T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Benchmark researchers and developers of large language models (LLMs) and other AI systems need to find relevant evaluations, locate their benchmark datasets and code, and understand the settings behind reported scores. W"
-  },
-  {
-    "id": "arxiv-cs-ir-agentic-share-of-search-a-multi-agent-ai-system-for-competit",
-    "headline": "Agentic Share-of-Search: A Multi-Agent AI System for Competitive Decision-Making in LLM-Mediated E-Commerce",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.11190",
-    "publishedAt": "2026-09-11T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "AI shopping assistants increasingly redirect consumer discovery, creating an urgent need for tools that support seller-side competitive decision-making. We present a multi-agent AI system that automates competitive visib"
-  },
-  {
-    "id": "arxiv-cs-ir-mllmrec-a-preference-reasoning-paradigm-with-graph-refinemen",
-    "headline": "MLLMRec: A Preference Reasoning Paradigm with Graph Refinement for Multimodal Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2508.15304",
-    "publishedAt": "2026-09-11T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Multimodal recommendation combines the user historical behaviors with the modal features of items to capture the tangible user preferences, presenting superior performance compared to the conventional ID-based recommende"
-  },
-  {
     "id": "aws-machine-learning-blog-reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagem",
     "headline": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
     "source": "AWS Machine Learning Blog",
@@ -178,14 +34,6 @@
     "publishedAt": "2026-09-10T21:15:39.000Z",
     "topic": "Cost",
     "summary": "TwelveLabs Marengo Embed 3.0 is now generally available as an embedding model in Amazon Bedrock Knowledge Bases, bringing fully managed natural language search to video, image, and audio content. This walkthrough shows h"
-  },
-  {
-    "id": "hacker-news-show-hn-nola-a-typescript-superset-where-llm-inference-is-a-",
-    "headline": "Show HN: Nola – a TypeScript superset where LLM inference is a language feature",
-    "source": "Hacker News",
-    "url": "https://nola.sh/",
-    "publishedAt": "2026-09-10T16:33:27.000Z",
-    "topic": "LLM"
   },
   {
     "id": "aws-machine-learning-blog-model-agnostic-pii-detection-with-llms",
@@ -223,14 +71,6 @@
     "publishedAt": "2026-09-08T19:12:51.000Z",
     "topic": "RAG",
     "summary": "Pathway's Baby Dragon Hatchling (BDH) is a brain-inspired, post-transformer architecture that reasons in latent space instead of emitting chain-of-thought tokens. See how Pathway develops and scales BDH on Amazon SageMak"
-  },
-  {
-    "id": "hacker-news-why-human-syntax-breaks-llms-and-how-to-fix-agentic-coding",
-    "headline": "Why human syntax breaks LLMs (and how to fix agentic coding)",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=49609821",
-    "publishedAt": "2026-09-08T13:04:18.000Z",
-    "topic": "LLM"
   },
   {
     "id": "hacker-news-show-hn-zero-downtime-embedding-model-upgrades",
@@ -401,6 +241,22 @@
     "publishedAt": "2026-08-05T01:00:00.000Z",
     "topic": "RAG",
     "summary": "Qdrant 1.19.0 is out! Let&rsquo;s look at the main features for this version: TurboQuant Datatype: A new storage format that compresses vectors to four bits without keeping their original full-precision representation, r"
+  },
+  {
+    "id": "hacker-news-what-llm-inference-costs",
+    "headline": "What LLM Inference Costs",
+    "source": "Hacker News",
+    "url": "https://twitter.com/Akashi203/status/2083213197171884505",
+    "publishedAt": "2026-07-31T18:11:45.000Z",
+    "topic": "Cost"
+  },
+  {
+    "id": "hacker-news-ask-hn-what-are-you-using-for-llm-inference-in-production",
+    "headline": "Ask HN: What are you using for LLM inference in production?",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49121047",
+    "publishedAt": "2026-07-31T09:46:24.000Z",
+    "topic": "LLM"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
