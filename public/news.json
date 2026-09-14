@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-what-blog-posts-influenced-your-thinking-the-most",
+    "headline": "What blog posts influenced your thinking the most?",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Sep/14/influences/",
+    "publishedAt": "2026-09-14T20:21:48.000Z",
+    "topic": "RAG",
+    "summary": "My comment on What blog posts influenced your thinking the most? &mdash; Lobste.rs. An early Joel Spolsky one for me was The Law of Leaky Abstractions . I read that near the start of my career and it's encouraged me to a"
+  },
+  {
     "id": "aws-machine-learning-blog-the-generative-ai-customization-spectrum-from-prompt-enginee",
     "headline": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
     "source": "AWS Machine Learning Blog",
