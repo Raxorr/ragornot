@@ -1,5 +1,131 @@
 [
   {
+    "id": "arxiv-cs-cl-r2vc-modular-fact-checking-with-retrieval-verification-and-c",
+    "headline": "R2VC: Modular Fact-Checking with Retrieval, Verification, and Confidence Calibration",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.11955",
+    "publishedAt": "2026-09-14T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large language models are increasingly used for automated fact checking, but end-to-end prompting often entangles evidence retrieval, reasoning, and uncertainty estimation, making failures difficult to diagnose and confi"
+  },
+  {
+    "id": "arxiv-cs-cl-extracting-dataset-mentions-in-forced-displacement-and-fcv-d",
+    "headline": "Extracting Dataset Mentions in Forced Displacement and FCV Documents: A Weakly Supervised Framework with LLM-Based Label Refinement",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.12107",
+    "publishedAt": "2026-09-14T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Development and humanitarian organizations produce and support surveys, administrative registries, and other data resources to inform research, policy, and operations, yet systematically identifying where these datasets "
+  },
+  {
+    "id": "arxiv-cs-cl-the-cost-of-compression-a-rate-distortion-limit-on-factual-h",
+    "headline": "The Cost of Compression: A Rate-Distortion Limit on Factual Hallucination",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.12111",
+    "publishedAt": "2026-09-14T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Factual hallucination in closed-book question answering is often treated as a coverage problem: a model fails because the relevant fact is absent from its internal memory. This view misses a second source of error. Even "
+  },
+  {
+    "id": "arxiv-cs-cl-gauge-when-not-to-trust-llm-as-a-judge-in-user-simulated-eva",
+    "headline": "GAUGE: When Not to Trust LLM-as-a-Judge in User-Simulated Evaluation of Task-Oriented Agents",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.12191",
+    "publishedAt": "2026-09-14T04:00:00.000Z",
+    "topic": "Cost",
+    "summary": "Comparing and selecting task-oriented LLM agents increasingly relies on a low-cost offline evaluation gate: persona-driven LLM user-simulators converse with each candidate, an LLM-as-a-judge scores the transcripts, and t"
+  },
+  {
+    "id": "arxiv-cs-cl-chopthin-consensus-power-sampling-a-diversity-preserving-app",
+    "headline": "Chopthin-Consensus Power Sampling: A Diversity-Preserving Approach to LLM Decoding",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.12243",
+    "publishedAt": "2026-09-14T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Inference-time power sampling via Sequential Monte Carlo (SMC) can substantially improve large language model (LLM) reasoning without requiring post-training. However, many existing SMC approaches rely on equal-weight re"
+  },
+  {
+    "id": "arxiv-cs-cl-hypokg-evidence-disciplined-biomedical-hypothesis-generation",
+    "headline": "HypoKG: Evidence-Disciplined Biomedical Hypothesis Generation Beyond Endpoint Knowledge",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.12260",
+    "publishedAt": "2026-09-14T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) can generate biomedical hypotheses, but it remains unclear whether they truly reason from scientific evidence or simply produce convincing-sounding ideas. To study this, we combine three majo"
+  },
+  {
+    "id": "arxiv-cs-cl-ear-entity-aware-partitioning-approach-for-retrieval-augment",
+    "headline": "EAR: Entity-Aware Partitioning Approach for Retrieval-Augmented Generation Development",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.12268",
+    "publishedAt": "2026-09-14T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-augmented generation (RAG) can improve knowledge-intensive question answering, but the first design choice is easy to overlook: how should the source corpus be partitioned into retrievable units? Fixed-size chu"
+  },
+  {
+    "id": "arxiv-cs-cl-synthsentry-detecting-synthetic-data-contamination-in-langua",
+    "headline": "SynthSentry: Detecting Synthetic Data Contamination in Language Model Training Data",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.12353",
+    "publishedAt": "2026-09-14T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models trained recursively on their own or other models' outputs undergo model collapse, in which distributional tails and factual accuracy deteriorate while fluency survives. Prior work diagnoses collapse"
+  },
+  {
+    "id": "arxiv-cs-ir-memretriever-learning-to-search-reflect-and-retrieve-from-lo",
+    "headline": "MemRetriever: Learning to Search, Reflect, and Retrieve from Long-Term Memory",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.11951",
+    "publishedAt": "2026-09-14T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Long-term memory enables personalized agents, but its value depends on retrieving the right evidence at the right time. Most memory systems use static top-k retrieval: they issue one query, return a fixed number of memor"
+  },
+  {
+    "id": "arxiv-cs-ir-autonomous-research-for-open-ended-problems-a-case-study-on-",
+    "headline": "Autonomous Research for Open-Ended Problems: A Case Study on Telecom Ticket Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.13073",
+    "publishedAt": "2026-09-14T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Recent breakthroughs in LLM-based systems and their abilities in problem solving and coding have allowed progress in the AI for Science paradigm, potentially replacing human roles in machine learning (ML) research. Howev"
+  },
+  {
+    "id": "arxiv-cs-ir-total-recall-qa-a-verifiable-evaluation-suite-for-deep-resea",
+    "headline": "Total Recall QA: A Verifiable Evaluation Suite for Deep Research Agents",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2603.18516",
+    "publishedAt": "2026-09-14T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Deep research agents have emerged as LLM-based systems designed to perform multi-step information seeking and reasoning over large, open-domain sources to answer complex questions by synthesizing information from multipl"
+  },
+  {
+    "id": "arxiv-cs-ir-right-family-wrong-skill-evaluating-risk-exposure-in-agent-s",
+    "headline": "Right Family, Wrong Skill: Evaluating Risk Exposure in Agent Skill Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2606.10388",
+    "publishedAt": "2026-09-14T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Agent skill libraries are becoming routable software assets: a retrieved skill can contribute instructions, scripts, resource bindings, and execution assumptions to an agent. This makes retrieval failures more specific t"
+  },
+  {
+    "id": "arxiv-cs-ir-guaranteeing-faithful-evidence-extraction-in-speculative-ret",
+    "headline": "Guaranteeing Faithful Evidence Extraction in Speculative Retrieval-Augmented Generation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.10046",
+    "publishedAt": "2026-09-14T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large Language Models (LLMs) are increasingly used as interfaces for information retrieval, but they remain prone to hallucinations and faithfulness errors, in which the generated answers diverge from the retrieved evide"
+  },
+  {
+    "id": "arxiv-cs-ir-cohyde-iterative-co-training-of-llm-rewriter-dense-encoder-f",
+    "headline": "CoHyDE: Iterative Co-Training of LLM Rewriter & Dense Encoder for Tool Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2605.29271",
+    "publishedAt": "2026-09-14T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Tool retrieval over large API catalogs is a core bottleneck for LLM agents: user queries arrive in colloquial, often underspecified language, while the catalog uses technical API vocabulary that no fixed encoder can brid"
+  },
+  {
     "id": "openai-rapidly-scaling-online-storage-to-serve-over-1-billion-chatg",
     "headline": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
     "source": "OpenAI",
@@ -34,14 +160,6 @@
     "publishedAt": "2026-09-10T21:15:39.000Z",
     "topic": "Cost",
     "summary": "TwelveLabs Marengo Embed 3.0 is now generally available as an embedding model in Amazon Bedrock Knowledge Bases, bringing fully managed natural language search to video, image, and audio content. This walkthrough shows h"
-  },
-  {
-    "id": "hacker-news-show-hn-nola-a-typescript-superset-where-llm-inference-is-a-",
-    "headline": "Show HN: Nola – a TypeScript superset where LLM inference is a language feature",
-    "source": "Hacker News",
-    "url": "https://nola.sh/",
-    "publishedAt": "2026-09-10T16:33:27.000Z",
-    "topic": "LLM"
   },
   {
     "id": "aws-machine-learning-blog-model-agnostic-pii-detection-with-llms",
@@ -257,6 +375,14 @@
     "url": "https://twitter.com/Akashi203/status/2083213197171884505",
     "publishedAt": "2026-07-31T18:11:45.000Z",
     "topic": "Cost"
+  },
+  {
+    "id": "hacker-news-ask-hn-what-are-you-using-for-llm-inference-in-production",
+    "headline": "Ask HN: What are you using for LLM inference in production?",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49121047",
+    "publishedAt": "2026-07-31T09:46:24.000Z",
+    "topic": "LLM"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
