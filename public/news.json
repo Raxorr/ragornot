@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-physment-an-interactive-approach-for-llm-reasoning-in-physic",
+    "headline": "PhysMent: An Interactive Approach For LLM Reasoning In Physics Problems",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.13152",
+    "publishedAt": "2026-09-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) perform strongly on static science benchmarks, yet their ability to reason about the physical world through active experimentation remains poorly understood. We introduce PhysMent, a benchmar"
+  },
+  {
+    "id": "arxiv-cs-cl-lexical-prompt-compression-for-large-language-models-a-train",
+    "headline": "Lexical Prompt Compression for Large Language Models: A Training-Free, Deterministic Pipeline with Empirical Pareto Analysis Across Eleven Task Categories",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.13154",
+    "publishedAt": "2026-09-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Recent advances in large language models (LLMs) have made prompts increasingly large and complex. Techniques such as chain-of-thought reasoning (Wei et al., 2022) and in-context learning (Brown et al., 2020) frequently p"
+  },
+  {
+    "id": "arxiv-cs-cl-clinical-reasoning-under-a-partially-observed-objective-in-c",
+    "headline": "Clinical Reasoning Under a Partially Observed Objective in Cone Beam CT Report Generation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.13238",
+    "publishedAt": "2026-09-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Maxillofacial report generation from cone beam computed tomography is scored here by a composite objective placing 80% of its weight on a large language model judgement of factual entailment and 20% on lexical overlap, o"
+  },
+  {
+    "id": "arxiv-cs-cl-rfcllm-evaluating-llms-reasoning-ability-of-network-protocol",
+    "headline": "RFCLLM: Evaluating LLMs' Reasoning Ability of Network Protocol State Machines",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.13389",
+    "publishedAt": "2026-09-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Mapping textual specifications into formal representations is essential for ensuring the correctness of protocol designs and implementations. LLM-generated mappings, used for networking security or testing, are assumed t"
+  },
+  {
+    "id": "arxiv-cs-cl-causal-analysis-and-mitigation-of-spurious-onsets-in-full-du",
+    "headline": "Causal Analysis and Mitigation of Spurious Onsets in Full-Duplex Speech LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.13445",
+    "publishedAt": "2026-09-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Speech-to-speech LLMs like Moshi, and its derivative PersonaPlex, can listen and speak concurrently through full-duplex generation. However, they can begin speaking inappropriately during prolonged user silence: under di"
+  },
+  {
+    "id": "arxiv-cs-cl-hindsight-bias-in-clinical-temporal-reasoning-how-future-dat",
+    "headline": "Hindsight Bias in Clinical Temporal Reasoning: How Future Data Exposure Affects Large Language Model Judgment",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.13454",
+    "publishedAt": "2026-09-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Clinical decisions are prospective, but clinical language models are often evaluated on retrospective records that reveal the final diagnosis, treatment response, and outcome. Such evaluations may reward the use of futur"
+  },
+  {
+    "id": "arxiv-cs-cl-a-hybrid-hierarchical-1d-cnn-bilstm-framework-for-extractive",
+    "headline": "A Hybrid Hierarchical 1D-CNN-BiLSTM Framework for Extractive Summarization of Biomedical and Clinical Text",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.13481",
+    "publishedAt": "2026-09-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models have made abstractive summarization remarkably fluent, but generated summaries can hallucinate facts, posing serious risks in biomedical and clinical domains. We address this by removing generation "
+  },
+  {
+    "id": "arxiv-cs-cl-from-token-probabilities-to-semantic-constraints-towards-dec",
+    "headline": "From Token Probabilities to Semantic Constraints: Towards Declarative Probabilistic Evaluation of Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.13520",
+    "publishedAt": "2026-09-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "While Large Language Models have improved rapidly, many fundamental questions remain about how to evaluate the knowledge and reasoning abilities they acquire, and how such evaluations relate to the learning signals used "
+  },
+  {
+    "id": "arxiv-cs-ir-decoupling-error-attribution-in-cloud-native-graph-rag-a-dat",
+    "headline": "Decoupling Error Attribution in Cloud-Native Graph-RAG: A Data Integrity Diagnostic Framework",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.13324",
+    "publishedAt": "2026-09-15T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Graph-RAG systems often assume pristine data quality, overlooking the severe impact of perturbations in cloud-native databases. This paper proposes a three-layer decoupled diagnostic framework to orthogonally attribute s"
+  },
+  {
+    "id": "arxiv-cs-ir-pre-retrieval-query-clustering-for-adaptive-top-k-document-r",
+    "headline": "Pre-retrieval Query Clustering for Adaptive Top-k Document Retrieval in RAG Systems",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.13489",
+    "publishedAt": "2026-09-15T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "RAG systems commonly retrieve a fixed number of documents (top-k) to ground generation, but this static approach is brittle: simple queries suffer over-retrieval (adding noise and cost) while complex queries are under-re"
+  },
+  {
+    "id": "arxiv-cs-ir-p3rec-distilling-prior-posterior-preference-reasoning-for-ll",
+    "headline": "P3Rec: Distilling Prior--Posterior Preference Reasoning for LLM-based Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.13993",
+    "publishedAt": "2026-09-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) exhibit strong semantic understanding and preference reasoning capabilities, offering new opportunities for user modeling in recommender systems. Existing LLM-as-Enhancer methods typically di"
+  },
+  {
+    "id": "arxiv-cs-ir-varg-value-aware-and-ranking-aligned-generative-retrieval-fo",
+    "headline": "VARG: Value-Aware and Ranking-Aligned Generative Retrieval for Dynamic E-commerce Search",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.14493",
+    "publishedAt": "2026-09-15T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Integrating recall and pre-ranking in e-commerce search requires candidate generation to account for relevance, personalization, and business value before final ranking. To this end, we present VARG, a generative retriev"
+  },
+  {
+    "id": "arxiv-cs-ir-beyond-benchmark-scores-how-synthetic-and-authentic-query-di",
+    "headline": "Beyond Benchmark Scores: How Synthetic and Authentic Query Distributions Diverge in RAG Evaluation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.14579",
+    "publishedAt": "2026-09-15T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "RAG systems are routinely evaluated using synthetic question sets generated from the target document corpus. While this practice provides a useful check on overall retrieval capability, relying exclusively on synthetic b"
+  },
+  {
+    "id": "arxiv-cs-ir-eviqe-evidence-selection-for-llm-based-query-expansion",
+    "headline": "EviQE: Evidence Selection for LLM-Based Query Expansion",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.14875",
+    "publishedAt": "2026-09-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "LLM-based query expansion increasingly conditions reformulation on documents retrieved from the target corpus, yet most work focuses on how to generate expansions rather than which documents the model should read. We pro"
+  },
+  {
+    "id": "arxiv-cs-ir-route-me-if-you-can-a-benchmark-for-query-reformulation-sele",
+    "headline": "Route Me If You Can: A Benchmark for Query Reformulation Selection",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.14885",
+    "publishedAt": "2026-09-15T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "LLM-based query reformulation can improve retrieval, but no single reformulation strategy is consistently optimal across queries, domains, retrievers, or model backbones. This creates an inference-time decision problem: "
+  },
+  {
+    "id": "arxiv-cs-ir-lazformer-scaling-transformers-for-industrial-recommendation",
+    "headline": "LazFormer: Scaling Transformers for Industrial Recommendation via Transferable Generative Pre-training",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.14978",
+    "publishedAt": "2026-09-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Transformers have shown promising performance in LLMs due to their outstanding scalability, several studies have investigated the scalability of Transformers for industrial recommendation. They typically rely on a single"
+  },
+  {
     "id": "simon-willison-s-blog-what-blog-posts-influenced-your-thinking-the-most",
     "headline": "What blog posts influenced your thinking the most?",
     "source": "Simon Willison's Blog",
@@ -16,132 +160,6 @@
     "publishedAt": "2026-09-14T15:47:12.000Z",
     "topic": "RAG",
     "summary": "Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning, continued pre-training, and Amazon Nova Forge. Start simple and escalate only "
-  },
-  {
-    "id": "arxiv-cs-cl-r2vc-modular-fact-checking-with-retrieval-verification-and-c",
-    "headline": "R2VC: Modular Fact-Checking with Retrieval, Verification, and Confidence Calibration",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.11955",
-    "publishedAt": "2026-09-14T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Large language models are increasingly used for automated fact checking, but end-to-end prompting often entangles evidence retrieval, reasoning, and uncertainty estimation, making failures difficult to diagnose and confi"
-  },
-  {
-    "id": "arxiv-cs-cl-extracting-dataset-mentions-in-forced-displacement-and-fcv-d",
-    "headline": "Extracting Dataset Mentions in Forced Displacement and FCV Documents: A Weakly Supervised Framework with LLM-Based Label Refinement",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.12107",
-    "publishedAt": "2026-09-14T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Development and humanitarian organizations produce and support surveys, administrative registries, and other data resources to inform research, policy, and operations, yet systematically identifying where these datasets "
-  },
-  {
-    "id": "arxiv-cs-cl-the-cost-of-compression-a-rate-distortion-limit-on-factual-h",
-    "headline": "The Cost of Compression: A Rate-Distortion Limit on Factual Hallucination",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.12111",
-    "publishedAt": "2026-09-14T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Factual hallucination in closed-book question answering is often treated as a coverage problem: a model fails because the relevant fact is absent from its internal memory. This view misses a second source of error. Even "
-  },
-  {
-    "id": "arxiv-cs-cl-gauge-when-not-to-trust-llm-as-a-judge-in-user-simulated-eva",
-    "headline": "GAUGE: When Not to Trust LLM-as-a-Judge in User-Simulated Evaluation of Task-Oriented Agents",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.12191",
-    "publishedAt": "2026-09-14T04:00:00.000Z",
-    "topic": "Cost",
-    "summary": "Comparing and selecting task-oriented LLM agents increasingly relies on a low-cost offline evaluation gate: persona-driven LLM user-simulators converse with each candidate, an LLM-as-a-judge scores the transcripts, and t"
-  },
-  {
-    "id": "arxiv-cs-cl-chopthin-consensus-power-sampling-a-diversity-preserving-app",
-    "headline": "Chopthin-Consensus Power Sampling: A Diversity-Preserving Approach to LLM Decoding",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.12243",
-    "publishedAt": "2026-09-14T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Inference-time power sampling via Sequential Monte Carlo (SMC) can substantially improve large language model (LLM) reasoning without requiring post-training. However, many existing SMC approaches rely on equal-weight re"
-  },
-  {
-    "id": "arxiv-cs-cl-hypokg-evidence-disciplined-biomedical-hypothesis-generation",
-    "headline": "HypoKG: Evidence-Disciplined Biomedical Hypothesis Generation Beyond Endpoint Knowledge",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.12260",
-    "publishedAt": "2026-09-14T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) can generate biomedical hypotheses, but it remains unclear whether they truly reason from scientific evidence or simply produce convincing-sounding ideas. To study this, we combine three majo"
-  },
-  {
-    "id": "arxiv-cs-cl-ear-entity-aware-partitioning-approach-for-retrieval-augment",
-    "headline": "EAR: Entity-Aware Partitioning Approach for Retrieval-Augmented Generation Development",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.12268",
-    "publishedAt": "2026-09-14T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-augmented generation (RAG) can improve knowledge-intensive question answering, but the first design choice is easy to overlook: how should the source corpus be partitioned into retrievable units? Fixed-size chu"
-  },
-  {
-    "id": "arxiv-cs-cl-synthsentry-detecting-synthetic-data-contamination-in-langua",
-    "headline": "SynthSentry: Detecting Synthetic Data Contamination in Language Model Training Data",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.12353",
-    "publishedAt": "2026-09-14T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models trained recursively on their own or other models' outputs undergo model collapse, in which distributional tails and factual accuracy deteriorate while fluency survives. Prior work diagnoses collapse"
-  },
-  {
-    "id": "arxiv-cs-ir-memretriever-learning-to-search-reflect-and-retrieve-from-lo",
-    "headline": "MemRetriever: Learning to Search, Reflect, and Retrieve from Long-Term Memory",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.11951",
-    "publishedAt": "2026-09-14T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Long-term memory enables personalized agents, but its value depends on retrieving the right evidence at the right time. Most memory systems use static top-k retrieval: they issue one query, return a fixed number of memor"
-  },
-  {
-    "id": "arxiv-cs-ir-autonomous-research-for-open-ended-problems-a-case-study-on-",
-    "headline": "Autonomous Research for Open-Ended Problems: A Case Study on Telecom Ticket Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.13073",
-    "publishedAt": "2026-09-14T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Recent breakthroughs in LLM-based systems and their abilities in problem solving and coding have allowed progress in the AI for Science paradigm, potentially replacing human roles in machine learning (ML) research. Howev"
-  },
-  {
-    "id": "arxiv-cs-ir-total-recall-qa-a-verifiable-evaluation-suite-for-deep-resea",
-    "headline": "Total Recall QA: A Verifiable Evaluation Suite for Deep Research Agents",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2603.18516",
-    "publishedAt": "2026-09-14T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Deep research agents have emerged as LLM-based systems designed to perform multi-step information seeking and reasoning over large, open-domain sources to answer complex questions by synthesizing information from multipl"
-  },
-  {
-    "id": "arxiv-cs-ir-right-family-wrong-skill-evaluating-risk-exposure-in-agent-s",
-    "headline": "Right Family, Wrong Skill: Evaluating Risk Exposure in Agent Skill Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2606.10388",
-    "publishedAt": "2026-09-14T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Agent skill libraries are becoming routable software assets: a retrieved skill can contribute instructions, scripts, resource bindings, and execution assumptions to an agent. This makes retrieval failures more specific t"
-  },
-  {
-    "id": "arxiv-cs-ir-guaranteeing-faithful-evidence-extraction-in-speculative-ret",
-    "headline": "Guaranteeing Faithful Evidence Extraction in Speculative Retrieval-Augmented Generation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.10046",
-    "publishedAt": "2026-09-14T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Large Language Models (LLMs) are increasingly used as interfaces for information retrieval, but they remain prone to hallucinations and faithfulness errors, in which the generated answers diverge from the retrieved evide"
-  },
-  {
-    "id": "arxiv-cs-ir-cohyde-iterative-co-training-of-llm-rewriter-dense-encoder-f",
-    "headline": "CoHyDE: Iterative Co-Training of LLM Rewriter & Dense Encoder for Tool Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2605.29271",
-    "publishedAt": "2026-09-14T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Tool retrieval over large API catalogs is a core bottleneck for LLM agents: user queries arrive in colloquial, often underspecified language, while the catalog uses technical API vocabulary that no fixed encoder can brid"
   },
   {
     "id": "openai-rapidly-scaling-online-storage-to-serve-over-1-billion-chatg",
