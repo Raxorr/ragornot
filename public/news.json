@@ -198,15 +198,6 @@
     "summary": "TwelveLabs Marengo Embed 3.0 is now generally available as an embedding model in Amazon Bedrock Knowledge Bases, bringing fully managed natural language search to video, image, and audio content. This walkthrough shows h"
   },
   {
-    "id": "aws-machine-learning-blog-model-agnostic-pii-detection-with-llms",
-    "headline": "Model-agnostic PII detection with LLMs",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms/",
-    "publishedAt": "2026-09-10T16:02:16.000Z",
-    "topic": "LLM",
-    "summary": "A configurable, model-agnostic detector that turns any large language model on Amazon Bedrock into a PII detector. Because the entities to detect live in a prompt rather than in code, one detector adapts to new entity ty"
-  },
-  {
     "id": "ahead-of-ai-gpt-6-astra-looped-transformers-and-hidden-reasoning",
     "headline": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
     "source": "Ahead of AI",
@@ -223,15 +214,6 @@
     "url": "https://github.com/arnsri33/embedflow",
     "publishedAt": "2026-09-08T02:35:36.000Z",
     "topic": "AI"
-  },
-  {
-    "id": "simon-willison-s-blog-llm-0-35",
-    "headline": "llm 0.35",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Sep/7/llm/",
-    "publishedAt": "2026-09-07T23:54:54.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra"
   },
   {
     "id": "hacker-news-cutting-llm-inference-costs-by-36-with-prompt-caching",
