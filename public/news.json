@@ -1,5 +1,13 @@
 [
   {
+    "id": "hacker-news-llm-inference-vs-the-oom-killer",
+    "headline": "LLM Inference vs. the OOM Killer",
+    "source": "Hacker News",
+    "url": "https://www.nobodywho.ai/posts/inference-oom/",
+    "publishedAt": "2026-09-17T09:42:45.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "arxiv-cs-cl-enhancing-extubation-failure-prediction-with-llm-derived-fea",
     "headline": "Enhancing Extubation Failure Prediction with LLM-Derived Features from Respiratory Therapy Clinical Notes",
     "source": "arXiv (cs.CL)",
@@ -142,6 +150,15 @@
     "publishedAt": "2026-09-17T04:00:00.000Z",
     "topic": "LLM",
     "summary": "The remarkable success of large language models (LLMs) has provided important inspiration for the next generation of recommender systems. Structurally, recommendation and language generation share a similarity: both aim "
+  },
+  {
+    "id": "qdrant-blog-shifting-languages-in-multilingual-rag",
+    "headline": "SHIFTing Languages in Multilingual RAG",
+    "source": "Qdrant Blog",
+    "url": "https://qdrant.tech/blog/shift-multilingual-rag/",
+    "publishedAt": "2026-09-16T07:00:00.000Z",
+    "topic": "RAG",
+    "summary": "If you speak more than one language, you know the feeling when the mental switch in your head starts up with the rattling sound of a struggling engine, mixing every word you have to produce into some Denglish, Frenglish,"
   },
   {
     "id": "simon-willison-s-blog-what-blog-posts-influenced-your-thinking-the-most",
@@ -377,14 +394,6 @@
     "topic": "Cost"
   },
   {
-    "id": "hacker-news-ask-hn-what-are-you-using-for-llm-inference-in-production",
-    "headline": "Ask HN: What are you using for LLM inference in production?",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=49121047",
-    "publishedAt": "2026-07-31T09:46:24.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
     "headline": "Building AI infrastructure with the Effingham County community",
     "source": "OpenAI",
@@ -576,15 +585,6 @@
     "publishedAt": "2026-03-31T00:00:00.000Z",
     "topic": "RAG",
     "summary": "The standard RAG tutorial teaches a simple pattern: embed your documents, store them in a vector database, retrieve the top K, and feed them to the LLM. The vector engine is passive infrastructure. Put vectors in, get ne"
-  },
-  {
-    "id": "qdrant-blog-master-multi-vector-search-with-qdrant",
-    "headline": "Master Multi-Vector Search With Qdrant",
-    "source": "Qdrant Blog",
-    "url": "https://qdrant.tech/blog/multi-vector-search-course/",
-    "publishedAt": "2026-03-24T00:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Most vector search tutorials stop at single-vector embeddings: one document, one vector, one similarity score. That works for demos. It falls apart when your retrieval pipeline needs to capture fine-grained token-level i"
   },
   {
     "id": "the-gradient-after-orthogonality-virtue-ethical-agency-and-ai-alignment",
