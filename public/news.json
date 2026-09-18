@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-sampling-reveals-style-unsupervised-training-free-discovery-",
+    "headline": "Sampling Reveals Style: Unsupervised, Training-Free Discovery of Prompt-Conditional Stylistic Axes in LLM Activations",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.19150",
+    "publishedAt": "2026-09-18T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) encode rich stylistic structure in their hidden activations, but discovering which stylistic dimensions are salient for a given prompt typically requires supervised contrastive data. We prese"
+  },
+  {
+    "id": "arxiv-cs-cl-neo-classic-a-benchmark-for-evaluating-linguistic-aesthetic-",
+    "headline": "Neo-Classic: A Benchmark for Evaluating Linguistic-Aesthetic Reasoning in Classical Chinese Poetry",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.19154",
+    "publishedAt": "2026-09-18T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "While Large Language Models (LLMs) achieve high accuracy on established Classical Chinese Poetry benchmarks, it remains challenging to distinguish transferable Linguistic-Aesthetic Reasoning from reliance on familiar pre"
+  },
+  {
+    "id": "arxiv-cs-cl-towards-proactive-detection-of-user-side-implicit-conflicts-",
+    "headline": "Towards Proactive Detection of User-Side Implicit Conflicts in Human-LLM Dialogue",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.19155",
+    "publishedAt": "2026-09-18T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "In Human-LLM dialogue, follow-up user utterances may implicitly conflict with earlier intents, leading the LLM to misinterpret user needs and generate inappropriate responses. A reliable dialogue system should proactivel"
+  },
+  {
+    "id": "arxiv-cs-cl-reflective-recovery-a-self-supervised-method-for-reasoning-b",
+    "headline": "Reflective Recovery: A Self-Supervised Method for Reasoning by Learning from Mistakes",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.19156",
+    "publishedAt": "2026-09-18T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Data-driven fine-tuning is widely adopted to enhance reasoning in Large Language Models (LLMs) due to its simplicity and efficiency. However, mainstream imitation learning methods that rely exclusively on perfect reasoni"
+  },
+  {
+    "id": "arxiv-cs-cl-why-pretraining-fails-to-share-cross-lingual-knowledge",
+    "headline": "Why Pretraining Fails to Share Cross-Lingual Knowledge",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.19291",
+    "publishedAt": "2026-09-18T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large Language Models (LLMs) have made remarkable progress in the processing and modeling of many languages. Yet, unlike human multilinguals, they exhibit surprisingly limited cross-lingual knowledge transfer. While this"
+  },
+  {
+    "id": "arxiv-cs-cl-the-role-of-fine-grained-harm-signals-in-llm-safety",
+    "headline": "The Role of Fine-grained Harm Signals in LLM Safety",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.19366",
+    "publishedAt": "2026-09-18T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Prior work has shown that internal harmfulness representations in large language models vary across risk categories, while sharing a common general harm representation component. This raises a question about the role of "
+  },
+  {
+    "id": "arxiv-cs-cl-less-is-more-graph-free-multimodal-rag-via-multi-signal-late",
+    "headline": "Less Is More: Graph-free Multimodal RAG via Multi-signal Late Fusion",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.19417",
+    "publishedAt": "2026-09-18T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Graph-based retrieval-augmented generation (RAG) is widely used for multimodal, cross-document question answering. However, building corpus-level graphs is expensive, slow to query, and difficult to maintain. We present "
+  },
+  {
+    "id": "arxiv-cs-cl-from-parameters-to-behaviors-a-survey-of-model-fusion-for-la",
+    "headline": "From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.19553",
+    "publishedAt": "2026-09-18T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Model fusion integrates the capabilities from source models into a single target model. As of June 2026, Hugging Face hosts more than 2M models. This growing pool provides a rich base for model reuse and capability integ"
+  },
+  {
+    "id": "arxiv-cs-ir-algebraic-retrieval-composable-search-for-agents",
+    "headline": "Algebraic Retrieval: Composable Search for Agents",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.19482",
+    "publishedAt": "2026-09-18T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Algebraic Retrieval lets AI agents compose search strategies at query time. Relevance criteria, eligibility constraints, and ranking preferences can be expressed together in a mathematical query. The query surface expose"
+  },
+  {
+    "id": "arxiv-cs-ir-beyond-similarity-through-zero-token-geometric-graphs-for-mu",
+    "headline": "Beyond Similarity through Zero-Token Geometric Graphs for Multi-Hop RAG",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.19622",
+    "publishedAt": "2026-09-18T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Multi-hop retrieval-augmented generation (RAG) requires evidence that remains relevant to a query while introducing enough novelty to bridge semantic gaps. Dense retrieval tends to concentrate on semantically similar doc"
+  },
+  {
+    "id": "arxiv-cs-ir-self-evolving-search-index",
+    "headline": "Self-Evolving Search Index",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.19656",
+    "publishedAt": "2026-09-18T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Information retrieval is increasingly important as LLM agents tackle complex tasks involving diverse information needs. Because retrieval relies on an index that represents each document through index keys, retrieval qua"
+  },
+  {
+    "id": "arxiv-cs-ir-reasoning-quality-matters-combating-reasoning-collapse-in-ll",
+    "headline": "Reasoning Quality Matters: Combating Reasoning Collapse in LLM-based Embedding Learning",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.20563",
+    "publishedAt": "2026-09-18T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large Language Models (LLMs) have recently shown strong potential for producing context-rich text embeddings for retrieval. Most existing methods either treat embedding learning as passive feature extraction or exploit L"
+  },
+  {
+    "id": "arxiv-cs-ir-characterizing-web-search-by-conversational-llm-agents-from-",
+    "headline": "Characterizing Web Search by Conversational LLM Agents: From Search Decisions and Strategies to Results and Responses",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.19244",
+    "publishedAt": "2026-09-18T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Conversational LLM agents increasingly rely on Web search, yet the end-to-end lifecycle of agentic search remains poorly understood. We present the first study of Web search across four major conversational platforms (Ch"
+  },
+  {
+    "id": "arxiv-cs-ir-beyond-private-training-the-new-landscape-of-ai-privacy",
+    "headline": "Beyond Private Training: The New Landscape of AI Privacy",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.19456",
+    "publishedAt": "2026-09-18T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-augmented systems increasingly rely on vector indexes that may retain deleted items in their search graph. Existing deletion interfaces can prevent deleted identifiers from appearing in returned results while s"
+  },
+  {
+    "id": "arxiv-cs-ir-scout-sim-to-real-text-based-person-retrieval-by-embedding-s",
+    "headline": "SCOUT: Sim-to-Real Text-Based Person Retrieval by Embedding-Space Prediction over Frozen Video Features",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.19483",
+    "publishedAt": "2026-09-18T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Text-based person retrieval under a sim-to-real gap (synthetic training data, a real-image gallery) is usually tackled with costly fine-tuned cross-encoders. We ask whether a frozen-encoder system can compete. We present"
+  },
+  {
+    "id": "arxiv-cs-ir-footprintrag-visual-analytics-for-evidence-context-refinemen",
+    "headline": "FootprintRAG: Visual Analytics for Evidence Context Refinement in RAG-based Scientific Literature Exploration",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.19601",
+    "publishedAt": "2026-09-18T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-Augmented Generation (RAG) is increasingly used to ground large language model (LLM) outputs in scientific literature. However, in open-ended literature exploration, the evidence context used for generation is "
+  },
+  {
     "id": "simon-willison-s-blog-how-to-write-with-an-llm",
     "headline": "How To Write With An LLM",
     "source": "Simon Willison's Blog",
@@ -16,158 +160,6 @@
     "publishedAt": "2026-09-17T15:53:13.000Z",
     "topic": "RAG",
     "summary": "Choosing the right vector store for your Amazon Bedrock Knowledge Bases RAG application affects performance and cost. This post compares Amazon OpenSearch Service, Amazon Aurora PostgreSQL with pgvector, and Amazon S3 Ve"
-  },
-  {
-    "id": "hacker-news-llm-inference-vs-the-oom-killer",
-    "headline": "LLM Inference vs. the OOM Killer",
-    "source": "Hacker News",
-    "url": "https://www.nobodywho.ai/posts/inference-oom/",
-    "publishedAt": "2026-09-17T09:42:45.000Z",
-    "topic": "LLM"
-  },
-  {
-    "id": "arxiv-cs-cl-enhancing-extubation-failure-prediction-with-llm-derived-fea",
-    "headline": "Enhancing Extubation Failure Prediction with LLM-Derived Features from Respiratory Therapy Clinical Notes",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.17532",
-    "publishedAt": "2026-09-17T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Invasive mechanical ventilation is a lifesaving therapy, but timely, safe discontinuation is essential to preventing extubation failure (EF) and related risks to health. We present a novel approach to EF prediction that "
-  },
-  {
-    "id": "arxiv-cs-cl-faking-good-and-faking-bad-in-llms-response-distortion-acros",
-    "headline": "Faking Good and Faking Bad in LLMs: Response Distortion Across Dark Triad Personality Traits",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.17534",
-    "publishedAt": "2026-09-17T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Social desirability and impression management are pervasive sources of response distortion in human personality assessment, yet their effects on Large Language Models (LLMs) remain underexplored. This study investigates "
-  },
-  {
-    "id": "arxiv-cs-cl-from-pixels-to-pairs-a-comprehensive-benchmark-of-llm-based-",
-    "headline": "From Pixels to Pairs: A Comprehensive Benchmark of LLM-Based Key-Value Extraction in Noisy Document Settings",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.17538",
-    "publishedAt": "2026-09-17T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are increasingly used for structured information extraction from documents, yet their behavior under realistic OCR noise remains poorly understood. We present a systematic benchmark of open-s"
-  },
-  {
-    "id": "arxiv-cs-cl-register-bias-in-complexity-based-large-language-model-routi",
-    "headline": "Register Bias in Complexity-Based Large Language Model Routing",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.17542",
-    "publishedAt": "2026-09-17T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language model services increasingly route each query to one of several models of differing capability, using a cheap estimate of query complexity to send easy queries to small models and hard queries to large ones"
-  },
-  {
-    "id": "arxiv-cs-cl-large-language-models-versus-physicians-in-traditional-chine",
-    "headline": "Large Language Models Versus Physicians in Traditional Chinese Medicine: A Real-World Clinical Case Evaluation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.17544",
-    "publishedAt": "2026-09-17T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are increasingly being explored for clinical applications, yet their assessment for real-world traditional Chinese medicine (TCM) practice remains limited We constructed a clinical case libra"
-  },
-  {
-    "id": "arxiv-cs-cl-legal-llm-hallucination-should-be-evaluated-as-failure-of-le",
-    "headline": "Legal LLM Hallucination Should Be Evaluated as Failure of Legal Warrant",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.17546",
-    "publishedAt": "2026-09-17T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "In this position paper, we argue that legal LLMs' hallucinations should be evaluated as a failure of legal warrant rather than as factual inaccuracy or citation failure. We define claim-authority warrant as the context-s"
-  },
-  {
-    "id": "arxiv-cs-cl-do-social-patterns-hold-in-synthetic-data-analyzing-cyberbul",
-    "headline": "Do Social Patterns Hold in Synthetic Data? Analyzing Cyberbullying Dynamics in LLM-Generated and Authentic Dialogues",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.17549",
-    "publishedAt": "2026-09-17T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Cyberbullying (CB) is a complex social phenomenon characterized by repeated aggression, power imbalance, and multi-party interaction. Although large language models (LLMs) are increasingly used to generate synthetic CB c"
-  },
-  {
-    "id": "arxiv-cs-cl-no-usable-linear-capitulation-direction-in-two-small-llms-a-",
-    "headline": "No Usable Linear \"Capitulation Direction\" in Two Small LLMs: A Validation Protocol for Activation-Steering Claims, and a Cross-Family Behavioral Study of Sycophancy Under Pushback",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.17550",
-    "publishedAt": "2026-09-17T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Language models frequently abandon correct answers when users push back. We study this in two small instruction-tuned models from different families, Qwen2.5-1.5B and Llama-3.2-1B, over TriviaQA: the model answers, is ch"
-  },
-  {
-    "id": "arxiv-cs-ir-scaling-articulated-rationales-for-mllm-based-recommendation",
-    "headline": "Scaling Articulated Rationales for MLLM-based Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.17639",
-    "publishedAt": "2026-09-17T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Modern recommendation systems largely infer user preferences from implicit behaviors such as clicks, watch time, and negative feedback, but these signals reveal what users do rather than why they like or dislike content."
-  },
-  {
-    "id": "arxiv-cs-ir-one-size-does-not-fit-all-dynamic-retriever-and-generator-se",
-    "headline": "One Size Does Not Fit All! Dynamic Retriever and Generator Selection for RAG",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.17709",
-    "publishedAt": "2026-09-17T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-Augmented Generation (RAG) systems typically employ fixed retriever and generator configurations across queries, despite substantial differences in query complexity and information needs, leading to inefficient"
-  },
-  {
-    "id": "arxiv-cs-ir-dupar-dual-path-conversational-retrieval-via-speech-retrieve",
-    "headline": "DUPAR: Dual-Path Conversational Retrieval via Speech Retriever with Cross-Turn Evidence Caching",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.18042",
-    "publishedAt": "2026-09-17T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Voice assistants grounded in external knowledge typically use automatic speech recognition (ASR) to transcribe speech queries before retrieving evidence from textual knowledge bases. This cascade adds latency and propaga"
-  },
-  {
-    "id": "arxiv-cs-ir-quanta-a-self-contained-python-library-for-hybrid-retrieval-",
-    "headline": "Quanta: A Self-Contained Python Library for Hybrid Retrieval over Quantised Embeddings, Lexical Indexes, and Knowledge Graphs",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.18248",
-    "publishedAt": "2026-09-17T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "An advanced retrieval-augmented generation pipeline is typically assembled from three or four independently operated systems: an approximate nearest-neighbour index, a full-text search engine, a graph database, and a rel"
-  },
-  {
-    "id": "arxiv-cs-ir-one-step-retrieval-framework-for-real-time-sponsored-search-",
-    "headline": "One-Step Retrieval Framework for Real-Time Sponsored Search Ads Using Hierarchical Text Representations",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.18296",
-    "publishedAt": "2026-09-17T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Traditional retrieval systems typically use multi-stage cascading architectures (MCA), where each module is optimized independently, leading to inconsistent objectives and the premature elimination of high-potential cand"
-  },
-  {
-    "id": "arxiv-cs-ir-exploring-llms-and-rag-for-plausible-and-explainable-materia",
-    "headline": "Exploring LLMs and RAG for Plausible and Explainable Material Prediction of Vehicle Components",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.18437",
-    "publishedAt": "2026-09-17T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "In this work, we explore whether LLMs can accurately predict and explain plausible materials for vehicle components such as brake discs or fuel injectors without requiring extensive fine-tuning. We test and evaluate thre"
-  },
-  {
-    "id": "arxiv-cs-ir-beyond-static-rag-an-adaptive-tri-metric-routing-framework-f",
-    "headline": "Beyond Static RAG: An Adaptive, Tri-Metric Routing Framework for Efficient Long-Context Inference on Commodity GPUs",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.17564",
-    "publishedAt": "2026-09-17T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Deploying retrieval-augmented generation (RAG) on commodity GPUs such as the NVIDIA T4 (16 GB VRAM) exposes a practical failure mode we call the Compression Paradox: neural prompt compression can add key-value (KV) cache"
-  },
-  {
-    "id": "arxiv-cs-ir-lige-gr-a-smooth-leap-from-ranking-to-generative-recommendat",
-    "headline": "LIGE-GR: A Smooth Leap from Ranking to Generative Recommendation in the LLM Era",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.18148",
-    "publishedAt": "2026-09-17T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "The remarkable success of large language models (LLMs) has provided important inspiration for the next generation of recommender systems. Structurally, recommendation and language generation share a similarity: both aim "
   },
   {
     "id": "qdrant-blog-shifting-languages-in-multilingual-rag",
@@ -383,6 +375,14 @@
     "url": "https://twitter.com/Akashi203/status/2083213197171884505",
     "publishedAt": "2026-07-31T18:11:45.000Z",
     "topic": "Cost"
+  },
+  {
+    "id": "hacker-news-ask-hn-what-are-you-using-for-llm-inference-in-production",
+    "headline": "Ask HN: What are you using for LLM inference in production?",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49121047",
+    "publishedAt": "2026-07-31T09:46:24.000Z",
+    "topic": "LLM"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
