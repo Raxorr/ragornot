@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-how-to-write-with-an-llm",
+    "headline": "How To Write With An LLM",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
+    "publishedAt": "2026-09-17T23:37:27.000Z",
+    "topic": "LLM",
+    "summary": "How To Write With An LLM Thomas Ptacek on using LLMs as copyeditors, not as writing assistants: Rule Number One: You may not use a single word an LLM suggests to you. [...] I think that as a form of intellectual personal"
+  },
+  {
     "id": "aws-machine-learning-blog-selecting-a-vector-store-for-amazon-bedrock-knowledge-bases",
     "headline": "Selecting a vector store for Amazon Bedrock Knowledge Bases",
     "source": "AWS Machine Learning Blog",
