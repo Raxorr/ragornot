@@ -1,5 +1,13 @@
 [
   {
+    "id": "hacker-news-self-hosted-inference-orchestrators-compared-localai-exo-gpu",
+    "headline": "Self-hosted inference orchestrators compared: LocalAI, exo, GPUStack, vLLM",
+    "source": "Hacker News",
+    "url": "https://www.nexlab.net/articles/self-hosted-inference-orchestrators-compared-2026/",
+    "publishedAt": "2026-09-20T17:43:35.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "simon-willison-s-blog-note-on-18th-september-2026",
     "headline": "Note on 18th September 2026",
     "source": "Simon Willison's Blog",
@@ -222,14 +230,6 @@
     "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
     "publishedAt": "2026-08-12T16:14:36.000Z",
     "topic": "RAG"
-  },
-  {
-    "id": "hacker-news-should-you-self-host-llm-inference-cost-and-risk-guide",
-    "headline": "Should You Self-Host LLM Inference? Cost and Risk Guide",
-    "source": "Hacker News",
-    "url": "https://theaiengineer.substack.com/p/should-you-self-host-inference",
-    "publishedAt": "2026-08-11T13:34:25.000Z",
-    "topic": "Cost"
   },
   {
     "id": "qdrant-blog-how-to-clean-up-a-qdrant-collection",
