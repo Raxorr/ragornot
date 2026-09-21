@@ -1,5 +1,122 @@
 [
   {
+    "id": "arxiv-cs-cl-do-small-language-models-know-what-they-don-t-know",
+    "headline": "Do small language models know what they don't know?",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.20824",
+    "publishedAt": "2026-09-21T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "We explore whether entropy-based confidence signals can be leveraged to improve the accuracy of Small Language Models (SLMs) with fewer than 3 billion parameters, running entirely on consumer hardware. We evaluate seven "
+  },
+  {
+    "id": "arxiv-cs-cl-hermes-contrast-aware-knowledge-graph-reasoning-from-clinica",
+    "headline": "HERMES: Contrast-Aware Knowledge Graph Reasoning from Clinical Notes for Patient Outcome Prediction",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.20825",
+    "publishedAt": "2026-09-21T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Clinical predictive models often rely on structured Electronic Health Record data, such as time-series and procedure codes. While recent approaches have begun leveraging unstructured clinical notes, they typically encode"
+  },
+  {
+    "id": "arxiv-cs-cl-from-discharge-notes-to-patient-understanding-persona-ground",
+    "headline": "From Discharge Notes to Patient Understanding: Persona-Grounded, Open-Ended Simulation of LLMs as Discharge Educators",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.20827",
+    "publishedAt": "2026-09-21T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Hospital discharge education is an interactive teaching task: a clinician adapts a discharge plan to a patient's literacy, recall, and personality. Existing LLM evaluations target static or artifact-generation tasks and "
+  },
+  {
+    "id": "arxiv-cs-cl-sage-schema-guided-llms-for-grant-review",
+    "headline": "SAGE: Schema-Guided LLMs for Grant Review",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.20829",
+    "publishedAt": "2026-09-21T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Grant reviewers must apply detailed criteria to application forms, budgets, and supporting documents while producing assessments that colleagues can inspect. We present SAGE, Schema-Guided Aspect-Based Grant Evaluation, "
+  },
+  {
+    "id": "arxiv-cs-cl-towards-secure-cloud-native-computing-unveiling-kubernetes-m",
+    "headline": "Towards Secure Cloud-Native Computing: Unveiling Kubernetes Misconfigurations with Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.20834",
+    "publishedAt": "2026-09-21T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "In the rapidly evolving landscape of cloud-native computing, Organizations are increasingly adopting infrastructure models that emphasize scalability, flexibility, and efficiency. Kubernetes has become the de facto stand"
+  },
+  {
+    "id": "arxiv-cs-cl-a-generative-grammar-underlying-the-voynich-manuscript-the-p",
+    "headline": "A Generative Grammar Underlying the Voynich Manuscript, the Pastiche Hypothesis: Evidence from Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.20835",
+    "publishedAt": "2026-09-21T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Background: The Voynich Manuscript is a fifteenth-century codex written in an unknown script whose content remains undeciphered. Previous studies suggest that its statistical properties resemble those of natural language"
+  },
+  {
+    "id": "arxiv-cs-cl-from-generation-to-detection-exploration-of-discourse-driven",
+    "headline": "From Generation to Detection: Exploration of Discourse Driven Scenario based LLM Generated Fake News",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.20838",
+    "publishedAt": "2026-09-21T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "In this study, we examine how modern LLMs generate and detect fake news under controlled settings across four manipulation scenarios. These are open-ended generation, rewriting, manipulation prompts and attribute based p"
+  },
+  {
+    "id": "arxiv-cs-cl-coal-sql-coverage-guided-augmentation-and-failure-driven-lea",
+    "headline": "COAL-SQL: Coverage-Guided Augmentation and Failure-Driven Learning for Text-to-SQL Post-Training",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.20842",
+    "publishedAt": "2026-09-21T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Text-to-SQL translates natural-language questions into executable SQL queries, but open-source large language models still require task-specific post-training for complex, real-world SQL generation. Effective post-traini"
+  },
+  {
+    "id": "arxiv-cs-ir-verify-don-t-trust-agentic-model-development-for-video-disco",
+    "headline": "Verify, Don't Trust: Agentic Model Development for Video Discovery Retrieval at Scale",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.21257",
+    "publishedAt": "2026-09-21T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large language model (LLM) agents can propose, implement, and evaluate model changes. Autoresearch loops demonstrate this capability through minutes-scale iterations on a self-contained program. Online autoresearch inste"
+  },
+  {
+    "id": "arxiv-cs-ir-hybrid-gpu-cpu-retrieval-for-personalized-search-at-ultra-la",
+    "headline": "Hybrid GPU-CPU Retrieval for Personalized Search at Ultra-Large Scale",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.21281",
+    "publishedAt": "2026-09-21T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Embedding-based retrieval on user-generated content at the trillion-document scale exposes a sharp conflict between two production demands: deep, expressive personalization for queries with rich user intent, and broad co"
+  },
+  {
+    "id": "arxiv-cs-ir-magic-marginal-guided-compression-with-optimal-transport-for",
+    "headline": "MAGIC: Marginal-Guided Compression with Optimal Transport for Efficient Visual Document Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.21018",
+    "publishedAt": "2026-09-21T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Recent visual document retrieval (VDR) systems such as ColPali use multi-vector page embeddings, in which patch-level vectors enable fine-grained evidence matching but incur substantial index storage and MaxSim scoring o"
+  },
+  {
+    "id": "arxiv-cs-ir-ranksteer-can-pointwise-llm-rankers-be-calibrated-at-the-rep",
+    "headline": "RankSteer: Can Pointwise LLM Rankers Be Calibrated at the Representation Level?",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2602.03422",
+    "publishedAt": "2026-09-21T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are strong zero-shot pointwise rankers, but lag behind pairwise and listwise methods. Beyond missing comparative signals, we identify a \\textit{calibration gap}: ranking-relevant information "
+  },
+  {
+    "id": "arxiv-cs-ir-high-probability-guarantees-for-linear-accessibility-in-feat",
+    "headline": "High-probability guarantees for linear accessibility in feature superposition",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.09556",
+    "publishedAt": "2026-09-21T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Neural networks can leverage feature superposition to encode more concepts than dimensions, but cross-feature interference constrains the linear accessibility of simultaneously active features. By framing linear accessib"
+  },
+  {
     "id": "simon-willison-s-blog-llm-keys-ui-0-1",
     "headline": "llm-keys-ui 0.1",
     "source": "Simon Willison's Blog",
