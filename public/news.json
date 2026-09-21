@@ -1,5 +1,22 @@
 [
   {
+    "id": "aws-machine-learning-blog-reducing-medical-claims-review-time-with-ai-on-aws-the-exl-m",
+    "headline": "Reducing medical claims review time with AI on AWS: The EXL Medical IDP solution",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/reducing-medical-claims-review-time-with-ai-on-aws-the-exl-medical-idp-solution/",
+    "publishedAt": "2026-09-21T16:24:40.000Z",
+    "topic": "LLM",
+    "summary": "EXL built an AI-powered Medical intelligent document processing (IDP) solution on AWS, combining IDP with domain-specific large language models on Amazon SageMaker and Amazon Bedrock to extract, summarize, and query medi"
+  },
+  {
+    "id": "hugging-face-blog-pruning-llms-like-a-physicist-block-removal-as-an-ising-opti",
+    "headline": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+    "publishedAt": "2026-09-21T13:44:34.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "arxiv-cs-cl-do-small-language-models-know-what-they-don-t-know",
     "headline": "Do small language models know what they don't know?",
     "source": "arXiv (cs.CL)",
@@ -419,14 +436,6 @@
     "publishedAt": "2026-07-08T00:00:00.000Z",
     "topic": "RAG",
     "summary": "TL;DR Elastic recently published a benchmark claiming that their proprietary, disk-based index (dubbed “DiskBBQ”) delivers up to 7x higher throughput than Qdrant when deployed on nodes with network-attached storage. Elas"
-  },
-  {
-    "id": "hugging-face-blog-run-ai-workloads-on-any-cloud-store-on-hugging-face-zero-egr",
-    "headline": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/skypilot-hf-storage",
-    "publishedAt": "2026-07-07T00:00:00.000Z",
-    "topic": "RAG"
   },
   {
     "id": "ahead-of-ai-using-local-coding-agents",
