@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-llm-typesafe-0-1a0",
+    "headline": "llm-typesafe 0.1a0",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
+    "publishedAt": "2026-09-22T15:54:16.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model . Install it like this: llm install llm-typesafe Then set an API key ( get one here , the waitlist seems to move "
+  },
+  {
     "id": "arxiv-cs-cl-recognition-simulation-and-refusal-a-contamination-aware-stu",
     "headline": "Recognition, Simulation, and Refusal: A Contamination-Aware Study of Classic Psychological Effects in LLM Agents",
     "source": "arXiv (cs.CL)",
@@ -220,15 +229,6 @@
     "publishedAt": "2026-09-17T23:37:27.000Z",
     "topic": "LLM",
     "summary": "How To Write With An LLM Thomas Ptacek on using LLMs as copyeditors, not as writing assistants: Rule Number One: You may not use a single word an LLM suggests to you. [...] I think that as a form of intellectual personal"
-  },
-  {
-    "id": "aws-machine-learning-blog-selecting-a-vector-store-for-amazon-bedrock-knowledge-bases",
-    "headline": "Selecting a vector store for Amazon Bedrock Knowledge Bases",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/selecting-a-vector-store-for-amazon-bedrock-knowledge-bases/",
-    "publishedAt": "2026-09-17T15:53:13.000Z",
-    "topic": "RAG",
-    "summary": "Choosing the right vector store for your Amazon Bedrock Knowledge Bases RAG application affects performance and cost. This post compares Amazon OpenSearch Service, Amazon Aurora PostgreSQL with pgvector, and Amazon S3 Ve"
   },
   {
     "id": "qdrant-blog-shifting-languages-in-multilingual-rag",
