@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-jev-introduces-a-new-shape-of-llm-system-one-aka-decision-mo",
+    "headline": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Sep/21/jev/",
+    "publishedAt": "2026-09-21T23:09:20.000Z",
+    "topic": "LLM",
+    "summary": "Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an in"
+  },
+  {
     "id": "aws-machine-learning-blog-reducing-medical-claims-review-time-with-ai-on-aws-the-exl-m",
     "headline": "Reducing medical claims review time with AI on AWS: The EXL Medical IDP solution",
     "source": "AWS Machine Learning Blog",
