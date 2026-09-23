@@ -1,5 +1,23 @@
 [
   {
+    "id": "simon-willison-s-blog-llm-0-36",
+    "headline": "llm 0.36",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Sep/22/llm/",
+    "publishedAt": "2026-09-22T18:48:37.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises l"
+  },
+  {
+    "id": "simon-willison-s-blog-llm-anthropic-0-29",
+    "headline": "llm-anthropic 0.29",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+    "publishedAt": "2026-09-22T17:14:55.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic"
+  },
+  {
     "id": "simon-willison-s-blog-llm-typesafe-0-1a0",
     "headline": "llm-typesafe 0.1a0",
     "source": "Simon Willison's Blog",
