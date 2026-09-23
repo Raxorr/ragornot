@@ -162,6 +162,15 @@
     "summary": "Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model . Install it like this: llm install llm-typesafe Then set an API key ( get one here , the waitlist seems to move "
   },
   {
+    "id": "weaviate-blog-agent-memory-with-engram-a-practical-guide",
+    "headline": "Agent Memory with Engram: A Practical Guide",
+    "source": "Weaviate Blog",
+    "url": "https://weaviate.io/blog/engram-memory-practical-guide",
+    "publishedAt": "2026-09-22T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Learn how to use Engram effectively, from writing topic descriptions that control extraction to choosing bounded topics and scopes, selecting a retrieval mode, and placing memories in your prompt without hurting prompt-c"
+  },
+  {
     "id": "simon-willison-s-blog-jev-introduces-a-new-shape-of-llm-system-one-aka-decision-mo",
     "headline": "Jev introduces a new shape of LLM - System One, aka Decision Models",
     "source": "Simon Willison's Blog",
