@@ -189,6 +189,15 @@
     "summary": "Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an in"
   },
   {
+    "id": "aws-machine-learning-blog-reducing-medical-claims-review-time-with-ai-on-aws-the-exl-m",
+    "headline": "Reducing medical claims review time with AI on AWS: The EXL Medical IDP solution",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/reducing-medical-claims-review-time-with-ai-on-aws-the-exl-medical-idp-solution/",
+    "publishedAt": "2026-09-21T16:24:40.000Z",
+    "topic": "LLM",
+    "summary": "EXL built an AI-powered Medical intelligent document processing (IDP) solution on AWS, combining IDP with domain-specific large language models on Amazon SageMaker and Amazon Bedrock to extract, summarize, and query medi"
+  },
+  {
     "id": "hugging-face-blog-pruning-llms-like-a-physicist-block-removal-as-an-ising-opti",
     "headline": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
     "source": "Hugging Face Blog",
@@ -213,6 +222,14 @@
     "publishedAt": "2026-09-18T19:21:32.000Z",
     "topic": "LLM",
     "summary": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park. Skeptical geneti"
+  },
+  {
+    "id": "hacker-news-my-thoughts-on-ai-and-llms",
+    "headline": "My Thoughts on AI and LLMs",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49756902",
+    "publishedAt": "2026-09-18T16:43:12.000Z",
+    "topic": "LLM"
   },
   {
     "id": "simon-willison-s-blog-how-to-write-with-an-llm",
@@ -428,14 +445,6 @@
     "url": "https://twitter.com/Akashi203/status/2083213197171884505",
     "publishedAt": "2026-07-31T18:11:45.000Z",
     "topic": "Cost"
-  },
-  {
-    "id": "hacker-news-ask-hn-what-are-you-using-for-llm-inference-in-production",
-    "headline": "Ask HN: What are you using for LLM inference in production?",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=49121047",
-    "publishedAt": "2026-07-31T09:46:24.000Z",
-    "topic": "LLM"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
