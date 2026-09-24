@@ -250,15 +250,6 @@
     "summary": "If you speak more than one language, you know the feeling when the mental switch in your head starts up with the rattling sound of a struggling engine, mixing every word you have to produce into some Denglish, Frenglish,"
   },
   {
-    "id": "simon-willison-s-blog-what-blog-posts-influenced-your-thinking-the-most",
-    "headline": "What blog posts influenced your thinking the most?",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Sep/14/influences/",
-    "publishedAt": "2026-09-14T20:21:48.000Z",
-    "topic": "RAG",
-    "summary": "My comment on What blog posts influenced your thinking the most? &mdash; Lobste.rs. An early Joel Spolsky one for me was The Law of Leaky Abstractions . I read that near the start of my career and it's encouraged me to a"
-  },
-  {
     "id": "openai-rapidly-scaling-online-storage-to-serve-over-1-billion-chatg",
     "headline": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
     "source": "OpenAI",
