@@ -1,146 +1,147 @@
 [
   {
-    "id": "hacker-news-show-hn-picolm-v1-0-rc2-yura-kana-run-an-llm-on-digital-unix",
-    "headline": "Show HN: PicoLM v1.0-rc2 (\"Yura Kana\"). Run an LLM on Digital Unix",
-    "source": "Hacker News",
-    "url": "https://github.com/whoreson/picolm/",
-    "publishedAt": "2026-09-23T16:12:19.000Z",
-    "topic": "LLM"
+    "id": "arxiv-cs-cl-comed-the-missing-middle-between-routing-and-collaboration-i",
+    "headline": "COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.26913",
+    "publishedAt": "2026-09-24T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "No single Large Language Model (LLM) is uniformly reliable across queries, motivating multi-model inference systems that either route among models or combine their outputs. However, routing stops after selecting an initi"
   },
   {
-    "id": "arxiv-cs-cl-a-computational-approach-to-measuring-semantic-change-in-san",
-    "headline": "A Computational Approach to Measuring Semantic Change in Sanskrit Literature",
+    "id": "arxiv-cs-cl-experts-rise-where-llms-disagree-using-cross-model-disagreem",
+    "headline": "Experts Rise Where LLMs Disagree: Using Cross-Model Disagreement to Target Expert Effort in LLM Codebook Revision for Large-Scale Annotation",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.25012",
-    "publishedAt": "2026-09-23T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2609.26926",
+    "publishedAt": "2026-09-24T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large-scale text annotation brings expert insight to millions of documents, often through a codebook that AI annotators follow. Developing a robust codebook, however, takes months. Large language models (LLMs) could spee"
+  },
+  {
+    "id": "arxiv-cs-cl-recognized-but-not-produced-a-generation-benchmark-for-cultu",
+    "headline": "Recognized but Not Produced: A Generation Benchmark for Culturally Specific Kinship Terms",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.26942",
+    "publishedAt": "2026-09-24T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Current literature evaluates large language models (LLMs) on multilingual kinship understanding using multiple choice benchmarks, treating it as a recognition problem. We instead prompt five open weight LLMs to generate "
+  },
+  {
+    "id": "arxiv-cs-cl-classifying-interpretive-canons-at-the-sentence-level-a-benc",
+    "headline": "Classifying Interpretive Canons at the Sentence Level: A Benchmark from the German Federal Constitutional Court",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.26945",
+    "publishedAt": "2026-09-24T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Judicial reasoning remains challenging for large language models (LLMs) to analyze. This paper contributes a sentence-level benchmark for evaluating the ability of LLMs to classify interpretive canons as articulated by L"
+  },
+  {
+    "id": "arxiv-cs-cl-when-learned-context-planning-fails-to-beat-strong-retrieval",
+    "headline": "When Learned Context Planning Fails to Beat Strong Retrieval: A Controlled Study of Planning, Routing, and Reranking for Long-Context QA",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.26976",
+    "publishedAt": "2026-09-24T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "Diachronic word embeddings have become the modern standard for tracking semantic change, yet they have been largely validated on modern, high-resource, and well-segmented languages. This paper tests whether the paradigm "
+    "summary": "Learned context planning selects evidence atoms before an answer model reasons over them. We test whether this learned selection improves long-context multiple-choice QA after strong retrieval, routing, budgeted-selector"
   },
   {
-    "id": "arxiv-cs-cl-from-tone-to-trajectory-continuous-sentiment-and-the-shape-o",
-    "headline": "From Tone to Trajectory: Continuous Sentiment and the Shape of Monetary Policy Communication",
+    "id": "arxiv-cs-cl-lego-synergizing-expert-graphrag-and-expert-chain-of-thought",
+    "headline": "LEGO: Synergizing Expert GraphRAG and Expert Chain-of-Thought for Legal Reasoning",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.25034",
-    "publishedAt": "2026-09-23T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2609.27009",
+    "publishedAt": "2026-09-24T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "Central bank press conferences are not merely information releases --- they are structured narratives. We study whether the shape of sentiment within a statement, not just its average tone, carries policy-relevant signal"
+    "summary": "Large language models are increasingly applied to high-risk domains such as law, yet complex legal reasoning remains limited by two structural challenges. First, existing RAG and GraphRAG methods emphasize lexical or sem"
   },
   {
-    "id": "arxiv-cs-cl-aibuildai-2-5-efficient-autonomous-ai-model-development-thro",
-    "headline": "AIBuildAI-2.5: Efficient Autonomous AI Model Development Through LLM-Guided Tree Search",
+    "id": "arxiv-cs-cl-lexlattice-multilingual-extractive-summarization-via-neural-",
+    "headline": "LexLattice: Multilingual Extractive Summarization via Neural Cellular Automata on Document Hierarchies",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.25047",
-    "publishedAt": "2026-09-23T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Autonomous agents that automatically build artificial intelligence (AI) models could broaden access to AI across science and engineering. A popular line of such agents frames model building as a code search problem and s"
-  },
-  {
-    "id": "arxiv-cs-cl-mitigating-llm-over-refusal-via-dynamic-semantic-routing-cal",
-    "headline": "Mitigating LLM Over-Refusal via Dynamic Semantic Routing Calibratione",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.25049",
-    "publishedAt": "2026-09-23T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) aligned for safety often suffer from over-refusal, incorrectly rejecting benign yet safety-related instructions. Prior studies primarily attribute this to static representation overlap, large"
-  },
-  {
-    "id": "arxiv-cs-cl-llm-driven-training-free-location-attribute-synergic-fusion-",
-    "headline": "LLM-Driven Training-free Location-Attribute Synergic Fusion: A Closed-Loop Paradigm for Dual-source Encrypted POIs and LULC Mapping",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.25051",
-    "publishedAt": "2026-09-23T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Dual-source encrypted points of interest (DSEP), POIs from two encrypted coordinate systems, suffer from intertwined location and attribute uncertainties, including nonlinear systematic misalignment and naming inconsiste"
-  },
-  {
-    "id": "arxiv-cs-cl-mom-memory-of-memory",
-    "headline": "MoM: Memory of Memory",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.25054",
-    "publishedAt": "2026-09-23T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "For a long-horizon LLM agent, the memory question is not what was once recorded but what \\emph{currently holds}. Most designs answer it only indirectly: every interaction is stored, and the present is reconstructed at qu"
-  },
-  {
-    "id": "arxiv-cs-cl-chaindora-tensor-train-factorized-weight-decomposed-low-rank",
-    "headline": "ChainDoRA: Tensor-Train Factorized Weight-Decomposed Low-Rank Adaptation for Parameter-Efficient LLM Fine-Tuning",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.25058",
-    "publishedAt": "2026-09-23T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Parameter-efficient fine-tuning (PEFT) adapts large language models (LLMs) to downstream tasks while updating only a small fraction of their pretrained parameters. Low-Rank Adaptation (LoRA) uses two trainable low-rank m"
-  },
-  {
-    "id": "arxiv-cs-cl-understanding-reliability-in-llm-based-human-behavior-simula",
-    "headline": "Understanding Reliability in LLM-based Human Behavior Simulation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.25066",
-    "publishedAt": "2026-09-23T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are increasingly used to simulate human survey responses and behavioral reactions, yet unreliable simulations can mislead social science conclusions. However, existing evaluations focus on en"
-  },
-  {
-    "id": "arxiv-cs-ir-refilter-bridging-embeddings-and-llm-filtering-for-similar-m",
-    "headline": "ReFilter: Bridging Embeddings and LLM Filtering for Similar Mobile App Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.25306",
-    "publishedAt": "2026-09-23T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2609.27032",
+    "publishedAt": "2026-09-24T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "Retrieving similar mobile applications (apps) is essential for researchers, developers, and end-users. Researchers use similarity detection to study app ecosystems and trends, developers for competitor analysis, and end-"
+    "summary": "Faithfulness is a central concern in legal text summarization, which motivates extractive approaches that select verbatim content traceable to its source. Such methods typically rank paragraphs or other structural units "
   },
   {
-    "id": "arxiv-cs-ir-robust-fusion-of-semantic-and-behavioural-signals-for-llm-re",
-    "headline": "Robust Fusion of Semantic and Behavioural Signals for LLM Reranking in Personalised Search",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.25825",
-    "publishedAt": "2026-09-23T04:00:00.000Z",
+    "id": "arxiv-cs-cl-edubehaviors-assertion-based-schemas-for-auditable-coding-of",
+    "headline": "EduBehaviors: Assertion-based Schemas for Auditable Coding of Educational Dialogues",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.27043",
+    "publishedAt": "2026-09-24T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Personalised search must satisfy query intent while incorporating user context and historical interactions. LLM-based cross-encoders provide a single reranking interface, but injecting predictive behavioural statistics i"
+    "summary": "Large language models have allowed the rapid deployment of pedagogical annotations corresponding to constructs of interest, allowing a natural language interface for generating classifications on a conversational dataset"
   },
   {
-    "id": "arxiv-cs-ir-knowledge-as-skill-a-structural-design-for-autonomous-knowle",
-    "headline": "Knowledge-as-Skill: A Structural Design for Autonomous Knowledge-Base Use by LLM Agents",
+    "id": "arxiv-cs-ir-itcolbert-an-italian-specialised-late-interaction-retriever",
+    "headline": "ItColBERT: An Italian-Specialised Late-Interaction Retriever",
     "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.25991",
-    "publishedAt": "2026-09-23T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2609.26856",
+    "publishedAt": "2026-09-24T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "Retrieval-augmented generation (RAG) gives large language models (LLMs) access to external knowledge, but its conventional retrieve-concatenate-generate pipeline makes retrieval decisions on behalf of the model. As tool "
+    "summary": "Neural information retrieval for Italian is served almost entirely by multilingual models. Several multi-vector (late-interaction) retrievers include Italian among dozens of languages, and several strong Italian dense em"
   },
   {
-    "id": "arxiv-cs-ir-which-reranking-conclusions-survive-the-answer-interface-a-p",
-    "headline": "Which Reranking Conclusions Survive the Answer Interface? A Prospective Finite-Orbit Audit",
+    "id": "arxiv-cs-ir-when-llm-based-user-profiling-adds-value-in-production-strea",
+    "headline": "When LLM-Based User Profiling Adds Value in Production Streaming Recommendation",
     "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.26250",
-    "publishedAt": "2026-09-23T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Rerankers are increasingly evaluated through downstream language-model answers. This raises a retrieval-measurement question: if only the reader's answer interface changes, should we reach the same conclusion about BM25 "
-  },
-  {
-    "id": "arxiv-cs-ir-when-does-permutation-instability-generalize-independent-vie",
-    "headline": "When Does Permutation Instability Generalize? Independent-View Validation for Listwise LLM Reranking",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.26251",
-    "publishedAt": "2026-09-23T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2609.27183",
+    "publishedAt": "2026-09-24T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Listwise language-model rerankers often disagree across equivalent candidate permutations. Finite instability diagnostics are therefore used to motivate additional sampling, aggregation, or selective computation. But an "
+    "summary": "Personalized recommendation depends critically on how user representations are constructed from historical behavior. Two paradigms have emerged for constructing semantic user profiles in content-based recommendation. Fir"
   },
   {
-    "id": "arxiv-cs-ir-parameterized-dense-sparse-fusion-for-hybrid-retrieval-tunin",
-    "headline": "Parameterized Dense-Sparse Fusion for Hybrid Retrieval: Tuning a Rank-Score Mix on BEIR SciFact with Qdrant",
+    "id": "arxiv-cs-ir-boundarymorph-budgeted-reranking-via-active-set-selection-fo",
+    "headline": "BoundaryMORPH: Budgeted Reranking via Active Set Selection for Diffuse Retrieval",
     "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.22770",
-    "publishedAt": "2026-09-23T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2609.27213",
+    "publishedAt": "2026-09-24T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "We study a parameterized hybrid ranker that fuses a dense embedding list and a sparse lexical list. The method has a small, explicit parameter vector: a dense prior $\\alpha \\in [0,1]$, a score-versus-rank mix $\\lambda \\i"
+    "summary": "Open-ended queries in modern Retrieval-Augmented Generation (RAG) are increasingly \"diffuse,\" requiring a large set of documents to be assembled into a finite LLM context window. To ensure retrieval quality, systems use "
   },
   {
-    "id": "arxiv-cs-ir-benchmark-radar-a-living-database-and-search-engine-for-ai-b",
-    "headline": "Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation",
+    "id": "arxiv-cs-ir-test-time-adaptation-with-query-dependent-residuals-for-visu",
+    "headline": "Test-Time Adaptation with Query-Dependent Residuals for Visual Document Retrieval",
     "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.11115",
-    "publishedAt": "2026-09-23T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2609.27688",
+    "publishedAt": "2026-09-24T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Visual document retrieval (VDR) systems depend on page embeddings computed before deployment, which makes adaptation difficult when encoder parameters or corpus re-encoding are unavailable. Rerankers provide useful relev"
+  },
+  {
+    "id": "arxiv-cs-ir-query-implied-generative-engine-optimization",
+    "headline": "Query Implied Generative Engine Optimization",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.27845",
+    "publishedAt": "2026-09-24T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Benchmark researchers and developers of large language models (LLMs) and other AI systems need to find relevant evaluations, locate their benchmark datasets and code, and understand the settings behind reported scores. W"
+    "summary": "The landscape of search has changed drastically with how people look for information online. Traditional search engines are being replaced by Generative Search Engines (GSEs), which use Large Language Models (LLMs) to ge"
+  },
+  {
+    "id": "arxiv-cs-ir-the-recall-ceiling-of-llm-recommendation-reranking",
+    "headline": "The Recall Ceiling of LLM Recommendation Reranking",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.27953",
+    "publishedAt": "2026-09-24T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Some LLM-based recommendation rerankers are evaluated under an oracle protocol that guarantees the ground-truth item is present in the scored set, either by injecting it into the candidate list or by scoring it against s"
+  },
+  {
+    "id": "arxiv-cs-ir-dual-hypergraph-indexing-bridging-knowledge-islands-for-mult",
+    "headline": "Dual-Hypergraph Indexing: Bridging Knowledge Islands for Multi-Hop Reasoning in Retrieval-Augmented Generation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.28108",
+    "publishedAt": "2026-09-24T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "While hypergraph-based Retrieval-Augmented Generation (RAG) effectively captures higher-order multi-entity correlations, existing paradigms treat extracted hyperedges as isolated factual assertions. This structural fragm"
+  },
+  {
+    "id": "arxiv-cs-ir-seal-then-sample-sampled-layerwise-proofs-for-verifiable-llm",
+    "headline": "Seal, Then Sample: Sampled Layerwise Proofs for Verifiable LLM Inference from GPT-2 to 70B",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.27367",
+    "publishedAt": "2026-09-24T04:00:00.000Z",
+    "topic": "Cost",
+    "summary": "Verifying outsourced language-model inference requires a precisely identified computation and an audit whose cost a service can afford. We present Sampled Layerwise Proofs (SLP), a protocol and prototype that commits the"
   },
   {
     "id": "simon-willison-s-blog-llm-0-36",
@@ -214,14 +215,6 @@
     "summary": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack o"
   },
   {
-    "id": "hacker-news-self-hosted-inference-orchestrators-compared-localai-exo-gpu",
-    "headline": "Self-hosted inference orchestrators compared: LocalAI, exo, GPUStack, vLLM",
-    "source": "Hacker News",
-    "url": "https://www.nexlab.net/articles/self-hosted-inference-orchestrators-compared-2026/",
-    "publishedAt": "2026-09-20T17:43:35.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "simon-willison-s-blog-note-on-18th-september-2026",
     "headline": "Note on 18th September 2026",
     "source": "Simon Willison's Blog",
@@ -229,14 +222,6 @@
     "publishedAt": "2026-09-18T19:21:32.000Z",
     "topic": "LLM",
     "summary": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park. Skeptical geneti"
-  },
-  {
-    "id": "hacker-news-my-thoughts-on-ai-and-llms",
-    "headline": "My Thoughts on AI and LLMs",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=49756902",
-    "publishedAt": "2026-09-18T16:43:12.000Z",
-    "topic": "LLM"
   },
   {
     "id": "aws-machine-learning-blog-migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-",
@@ -429,6 +414,14 @@
     "topic": "RAG"
   },
   {
+    "id": "hacker-news-should-you-self-host-llm-inference-cost-and-risk-guide",
+    "headline": "Should You Self-Host LLM Inference? Cost and Risk Guide",
+    "source": "Hacker News",
+    "url": "https://theaiengineer.substack.com/p/should-you-self-host-inference",
+    "publishedAt": "2026-08-11T13:34:25.000Z",
+    "topic": "Cost"
+  },
+  {
     "id": "qdrant-blog-how-to-clean-up-a-qdrant-collection",
     "headline": "How to Clean Up a Qdrant Collection",
     "source": "Qdrant Blog",
@@ -445,6 +438,22 @@
     "publishedAt": "2026-08-05T01:00:00.000Z",
     "topic": "RAG",
     "summary": "Qdrant 1.19.0 is out! Let&rsquo;s look at the main features for this version: TurboQuant Datatype: A new storage format that compresses vectors to four bits without keeping their original full-precision representation, r"
+  },
+  {
+    "id": "hacker-news-what-llm-inference-costs",
+    "headline": "What LLM Inference Costs",
+    "source": "Hacker News",
+    "url": "https://twitter.com/Akashi203/status/2083213197171884505",
+    "publishedAt": "2026-07-31T18:11:45.000Z",
+    "topic": "Cost"
+  },
+  {
+    "id": "hacker-news-ask-hn-what-are-you-using-for-llm-inference-in-production",
+    "headline": "Ask HN: What are you using for LLM inference in production?",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49121047",
+    "publishedAt": "2026-07-31T09:46:24.000Z",
+    "topic": "LLM"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
