@@ -1,5 +1,23 @@
 [
   {
+    "id": "aws-machine-learning-blog-narrateai-production-ready-llm-quality-assurance-on-amazon-b",
+    "headline": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/",
+    "publishedAt": "2026-09-25T16:15:22.000Z",
+    "topic": "LLM",
+    "summary": "NarrateAI delivers production-ready LLM quality assurance on Amazon Bedrock. This post details five techniques—adaptive pipeline orchestration, cross-account multi-model failover, real-time streaming evaluation, composit"
+  },
+  {
+    "id": "aws-machine-learning-blog-how-datacor-built-self-service-rental-analytics-with-amazon-",
+    "headline": "How Datacor built self-service rental analytics with Amazon Quick Sight",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-datacor-built-self-service-rental-analytics-with-amazon-quick-sight/",
+    "publishedAt": "2026-09-25T15:54:42.000Z",
+    "topic": "Cost",
+    "summary": "Learn how Datacor built a self-service rental analytics experience for gas and welding distributors by embedding Amazon Quick Sight dashboards and natural language querying into its TrackAbout platform, powered by an aut"
+  },
+  {
     "id": "arxiv-cs-cl-benchmarking-argumentative-behaviour-of-llms-a-study-of-defe",
     "headline": "Benchmarking Argumentative Behaviour of LLMs: A Study of Defences Against Character Attacks",
     "source": "arXiv (cs.CL)",
@@ -187,15 +205,6 @@
     "publishedAt": "2026-09-21T23:09:20.000Z",
     "topic": "LLM",
     "summary": "Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an in"
-  },
-  {
-    "id": "aws-machine-learning-blog-reducing-medical-claims-review-time-with-ai-on-aws-the-exl-m",
-    "headline": "Reducing medical claims review time with AI on AWS: The EXL Medical IDP solution",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/reducing-medical-claims-review-time-with-ai-on-aws-the-exl-medical-idp-solution/",
-    "publishedAt": "2026-09-21T16:24:40.000Z",
-    "topic": "LLM",
-    "summary": "EXL built an AI-powered Medical intelligent document processing (IDP) solution on AWS, combining IDP with domain-specific large language models on Amazon SageMaker and Amazon Bedrock to extract, summarize, and query medi"
   },
   {
     "id": "hugging-face-blog-pruning-llms-like-a-physicist-block-removal-as-an-ising-opti",
