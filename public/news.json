@@ -1,147 +1,147 @@
 [
   {
-    "id": "arxiv-cs-cl-comed-the-missing-middle-between-routing-and-collaboration-i",
-    "headline": "COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference",
+    "id": "arxiv-cs-cl-benchmarking-argumentative-behaviour-of-llms-a-study-of-defe",
+    "headline": "Benchmarking Argumentative Behaviour of LLMs: A Study of Defences Against Character Attacks",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.26913",
-    "publishedAt": "2026-09-24T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2609.28673",
+    "publishedAt": "2026-09-25T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "No single Large Language Model (LLM) is uniformly reliable across queries, motivating multi-model inference systems that either route among models or combine their outputs. However, routing stops after selecting an initi"
+    "summary": "Large Language Models (LLMs) are increasingly deployed as argumentative agents in persuasive dialogues, necessitating rigorous evaluation of their debating competence relative to human interlocutors. In this study, we fo"
   },
   {
-    "id": "arxiv-cs-cl-experts-rise-where-llms-disagree-using-cross-model-disagreem",
-    "headline": "Experts Rise Where LLMs Disagree: Using Cross-Model Disagreement to Target Expert Effort in LLM Codebook Revision for Large-Scale Annotation",
+    "id": "arxiv-cs-cl-ptc-bias-phoneme-level-temporal-competition-for-bias-retriev",
+    "headline": "PTC-Bias: Phoneme-Level Temporal Competition for Bias Retrieval and Post-Decoding Correction in Speech LLMs",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.26926",
-    "publishedAt": "2026-09-24T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large-scale text annotation brings expert insight to millions of documents, often through a codebook that AI annotators follow. Developing a robust codebook, however, takes months. Large language models (LLMs) could spee"
-  },
-  {
-    "id": "arxiv-cs-cl-recognized-but-not-produced-a-generation-benchmark-for-cultu",
-    "headline": "Recognized but Not Produced: A Generation Benchmark for Culturally Specific Kinship Terms",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.26942",
-    "publishedAt": "2026-09-24T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Current literature evaluates large language models (LLMs) on multilingual kinship understanding using multiple choice benchmarks, treating it as a recognition problem. We instead prompt five open weight LLMs to generate "
-  },
-  {
-    "id": "arxiv-cs-cl-classifying-interpretive-canons-at-the-sentence-level-a-benc",
-    "headline": "Classifying Interpretive Canons at the Sentence Level: A Benchmark from the German Federal Constitutional Court",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.26945",
-    "publishedAt": "2026-09-24T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Judicial reasoning remains challenging for large language models (LLMs) to analyze. This paper contributes a sentence-level benchmark for evaluating the ability of LLMs to classify interpretive canons as articulated by L"
-  },
-  {
-    "id": "arxiv-cs-cl-when-learned-context-planning-fails-to-beat-strong-retrieval",
-    "headline": "When Learned Context Planning Fails to Beat Strong Retrieval: A Controlled Study of Planning, Routing, and Reranking for Long-Context QA",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.26976",
-    "publishedAt": "2026-09-24T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2609.28727",
+    "publishedAt": "2026-09-25T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "Learned context planning selects evidence atoms before an answer model reasons over them. We test whether this learned selection improves long-context multiple-choice QA after strong retrieval, routing, budgeted-selector"
+    "summary": "Contextual biasing improves rare-word recognition in speech large language models (SpeechLLMs), but efficiently exploiting large bias lists remains challenging. We propose PTC-Bias, a two-stage framework based on phoneme"
   },
   {
-    "id": "arxiv-cs-cl-lego-synergizing-expert-graphrag-and-expert-chain-of-thought",
-    "headline": "LEGO: Synergizing Expert GraphRAG and Expert Chain-of-Thought for Legal Reasoning",
+    "id": "arxiv-cs-cl-script-choice-in-llms-evidence-for-late-layer-commitment",
+    "headline": "Script Choice in LLMs: Evidence for Late-Layer Commitment",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.27009",
-    "publishedAt": "2026-09-24T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Large language models are increasingly applied to high-risk domains such as law, yet complex legal reasoning remains limited by two structural challenges. First, existing RAG and GraphRAG methods emphasize lexical or sem"
+    "url": "https://arxiv.org/abs/2609.28784",
+    "publishedAt": "2026-09-25T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "In this paper, we investigate how script knowledge is distributed across the layers of LLMs using two complementary interpretability methods: logistic regression probing and logit-lens analysis. Our probing experiments r"
   },
   {
-    "id": "arxiv-cs-cl-lexlattice-multilingual-extractive-summarization-via-neural-",
-    "headline": "LexLattice: Multilingual Extractive Summarization via Neural Cellular Automata on Document Hierarchies",
+    "id": "arxiv-cs-cl-polite-but-misaligned-evaluating-llm-politeness-judgments-ag",
+    "headline": "Polite but Misaligned: Evaluating LLM Politeness Judgments Against Human Pragmatic Norms",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.27032",
-    "publishedAt": "2026-09-24T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2609.29001",
+    "publishedAt": "2026-09-25T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "Faithfulness is a central concern in legal text summarization, which motivates extractive approaches that select verbatim content traceable to its source. Such methods typically rank paragraphs or other structural units "
+    "summary": "Despite strong performance on standard benchmarks, it remains unclear whether large language models (LLMs) evaluate social pragmatics in ways that align with human judgments. We evaluate LLM politeness judgments using tw"
   },
   {
-    "id": "arxiv-cs-cl-edubehaviors-assertion-based-schemas-for-auditable-coding-of",
-    "headline": "EduBehaviors: Assertion-based Schemas for Auditable Coding of Educational Dialogues",
+    "id": "arxiv-cs-cl-tag-aware-structured-text-translation-towards-a-systematic-u",
+    "headline": "Tag-Aware Structured Text Translation: Towards a Systematic Understanding",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.27043",
-    "publishedAt": "2026-09-24T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2609.29131",
+    "publishedAt": "2026-09-25T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Large language models have allowed the rapid deployment of pedagogical annotations corresponding to constructs of interest, allowing a natural language interface for generating classifications on a conversational dataset"
+    "summary": "Internet texts are replete with format tags that carry structural, semantic, and functional meaning. Current large language model (LLM)-based translation systems struggle to balance translation fluency with tag fidelity "
   },
   {
-    "id": "arxiv-cs-ir-itcolbert-an-italian-specialised-late-interaction-retriever",
-    "headline": "ItColBERT: An Italian-Specialised Late-Interaction Retriever",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.26856",
-    "publishedAt": "2026-09-24T04:00:00.000Z",
+    "id": "arxiv-cs-cl-predicting-emerging-topics-from-outliers-a-prospective-study",
+    "headline": "Predicting Emerging Topics from Outliers: A Prospective Study of Weak Signals in Embedding Space",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.29183",
+    "publishedAt": "2026-09-25T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "Neural information retrieval for Italian is served almost entirely by multilingual models. Several multi-vector (late-interaction) retrievers include Italian among dozens of languages, and several strong Italian dense em"
+    "summary": "Some documents that embedding-based topic models initially classify as noise later become founding members of emerging topics. At publication time, however, they appear as scattered points in embedding space and are diff"
   },
   {
-    "id": "arxiv-cs-ir-when-llm-based-user-profiling-adds-value-in-production-strea",
-    "headline": "When LLM-Based User Profiling Adds Value in Production Streaming Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.27183",
-    "publishedAt": "2026-09-24T04:00:00.000Z",
+    "id": "arxiv-cs-cl-eager-enhancing-generative-event-extraction-via-reinforcemen",
+    "headline": "EAGER: Enhancing Generative Event Extraction via Reinforcement Learning with Verifiable Rewards",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.29230",
+    "publishedAt": "2026-09-25T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Personalized recommendation depends critically on how user representations are constructed from historical behavior. Two paradigms have emerged for constructing semantic user profiles in content-based recommendation. Fir"
+    "summary": "End-to-end event extraction remains challenging for large language models as it requires simultaneous identification of event triggers, classification of event types, and extraction of schema-grounded argument spans. We "
   },
   {
-    "id": "arxiv-cs-ir-boundarymorph-budgeted-reranking-via-active-set-selection-fo",
-    "headline": "BoundaryMORPH: Budgeted Reranking via Active Set Selection for Diffuse Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.27213",
-    "publishedAt": "2026-09-24T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Open-ended queries in modern Retrieval-Augmented Generation (RAG) are increasingly \"diffuse,\" requiring a large set of documents to be assembled into a finite LLM context window. To ensure retrieval quality, systems use "
-  },
-  {
-    "id": "arxiv-cs-ir-test-time-adaptation-with-query-dependent-residuals-for-visu",
-    "headline": "Test-Time Adaptation with Query-Dependent Residuals for Visual Document Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.27688",
-    "publishedAt": "2026-09-24T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Visual document retrieval (VDR) systems depend on page embeddings computed before deployment, which makes adaptation difficult when encoder parameters or corpus re-encoding are unavailable. Rerankers provide useful relev"
-  },
-  {
-    "id": "arxiv-cs-ir-query-implied-generative-engine-optimization",
-    "headline": "Query Implied Generative Engine Optimization",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.27845",
-    "publishedAt": "2026-09-24T04:00:00.000Z",
+    "id": "arxiv-cs-cl-grammatical-grandmother-neurons-are-rare-in-llms",
+    "headline": "Grammatical \"grandmother neurons\" are rare in LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.29328",
+    "publishedAt": "2026-09-25T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "The landscape of search has changed drastically with how people look for information online. Traditional search engines are being replaced by Generative Search Engines (GSEs), which use Large Language Models (LLMs) to ge"
+    "summary": "Understanding how Large Language Models (LLMs) encode linguistic structures remains a fundamental challenge in interpretability research. While diagnostic classifiers (or \"probes\") are widely used for this task, they fac"
   },
   {
-    "id": "arxiv-cs-ir-the-recall-ceiling-of-llm-recommendation-reranking",
-    "headline": "The Recall Ceiling of LLM Recommendation Reranking",
+    "id": "arxiv-cs-ir-onetrans-v2-unifying-retrieval-pre-rank-and-fine-rank-with-o",
+    "headline": "OneTrans-V2: Unifying Retrieval, Pre-rank, and Fine-rank with One Transformer in Industrial Recommender",
     "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.27953",
-    "publishedAt": "2026-09-24T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Some LLM-based recommendation rerankers are evaluated under an oracle protocol that guarantees the ground-truth item is present in the scored set, either by injecting it into the candidate list or by scoring it against s"
-  },
-  {
-    "id": "arxiv-cs-ir-dual-hypergraph-indexing-bridging-knowledge-islands-for-mult",
-    "headline": "Dual-Hypergraph Indexing: Bridging Knowledge Islands for Multi-Hop Reasoning in Retrieval-Augmented Generation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.28108",
-    "publishedAt": "2026-09-24T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2609.28589",
+    "publishedAt": "2026-09-25T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "While hypergraph-based Retrieval-Augmented Generation (RAG) effectively captures higher-order multi-entity correlations, existing paradigms treat extracted hyperedges as isolated factual assertions. This structural fragm"
+    "summary": "Industrial recommendation systems typically operate as a \\emph{cascade} of retrieval, pre-rank, and fine-rank, but these stages are usually trained and served as separate models, causing repeated user-sequence encoding, "
   },
   {
-    "id": "arxiv-cs-ir-seal-then-sample-sampled-layerwise-proofs-for-verifiable-llm",
-    "headline": "Seal, Then Sample: Sampled Layerwise Proofs for Verifiable LLM Inference from GPT-2 to 70B",
+    "id": "arxiv-cs-ir-seek-self-evaluative-exploration-for-knowledge-retrieval",
+    "headline": "Seek: Self-Evaluative Exploration for Knowledge Retrieval",
     "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.27367",
-    "publishedAt": "2026-09-24T04:00:00.000Z",
-    "topic": "Cost",
-    "summary": "Verifying outsourced language-model inference requires a precisely identified computation and an audit whose cost a service can afford. We present Sampled Layerwise Proofs (SLP), a protocol and prototype that commits the"
+    "url": "https://arxiv.org/abs/2609.28980",
+    "publishedAt": "2026-09-25T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "LLM-based retrievers and rerankers have advanced passage ranking, yet both paradigms interact with the corpus in a single pass and commit to the resulting candidate set, leaving relevant documents permanently unrecoverab"
+  },
+  {
+    "id": "arxiv-cs-ir-x-rec-technical-report",
+    "headline": "X-Rec Technical Report",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.29180",
+    "publishedAt": "2026-09-25T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Recent advances in generative modeling have reshaped recommender systems by formulating recommendation as a next-item generation problem. Existing retrieval approaches primarily follow two paradigms: user-to-item (U2I) m"
+  },
+  {
+    "id": "arxiv-cs-ir-scalarlens-numerical-embeddings-with-stable-coordinates-and-",
+    "headline": "ScalarLens: Numerical Embeddings with Stable Coordinates and Contextual Responses for CTR Prediction",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.29182",
+    "publishedAt": "2026-09-25T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Numerical embeddings for click-through rate (CTR) prediction are built on a convenient but restrictive premise: a scalar has one representation. This premise conflates where a value lies with what it means for the curren"
+  },
+  {
+    "id": "arxiv-cs-ir-asymmetric-dynamic-routing-balancing-reasoning-depth-and-com",
+    "headline": "Asymmetric Dynamic Routing: Balancing Reasoning Depth and Computational Efficiency in Hypergraph RAG",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.29282",
+    "publishedAt": "2026-09-25T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "While graph-based and hypergraph-based Retrieval-Augmented Generation (RAG) significantly mitigate hallucinations in Large Language Models (LLMs), existing structure-based RAG systems typically adopt static traversal str"
+  },
+  {
+    "id": "arxiv-cs-ir-a-systematic-multi-domain-evaluation-of-document-retrievers",
+    "headline": "A Systematic Multi-Domain Evaluation of Document Retrievers",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.29455",
+    "publishedAt": "2026-09-25T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Document retrieval is a crucial component of many modern AI systems, directly influencing their effectiveness, robustness, and fairness in downstream tasks. While recent years have seen a growing number of retrievers, co"
+  },
+  {
+    "id": "arxiv-cs-ir-obliq-ir-training-a-dense-retriever-for-oblique-queries",
+    "headline": "OBLIQ-IR: Training a Dense Retriever for Oblique Queries",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.29649",
+    "publishedAt": "2026-09-25T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Oblique retrieval, as exemplified by OBLIQ-Bench, asks a retriever to find documents whose relevance is determined by a latent attribute (an implicit stance, an analogous reasoning technique, an authorial fingerprint, or"
+  },
+  {
+    "id": "arxiv-cs-ir-smallreason-colbert-an-ultra-small-late-interaction-retrieve",
+    "headline": "SmallReason-ColBERT: An Ultra-Small Late-Interaction Retriever for Reasoning Intensive Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.29652",
+    "publishedAt": "2026-09-25T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Reasoning-intensive retrieval remains difficult for small models. Compact public ColBERTs are usually trained on general-purpose corpora and underperform reasoning-tuned 150M+ baselines on BRIGHT~\\cite{bright} by several"
   },
   {
     "id": "simon-willison-s-blog-llm-0-36",
