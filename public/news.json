@@ -18,150 +18,6 @@
     "summary": "Learn how Datacor built a self-service rental analytics experience for gas and welding distributors by embedding Amazon Quick Sight dashboards and natural language querying into its TrackAbout platform, powered by an aut"
   },
   {
-    "id": "arxiv-cs-cl-benchmarking-argumentative-behaviour-of-llms-a-study-of-defe",
-    "headline": "Benchmarking Argumentative Behaviour of LLMs: A Study of Defences Against Character Attacks",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.28673",
-    "publishedAt": "2026-09-25T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large Language Models (LLMs) are increasingly deployed as argumentative agents in persuasive dialogues, necessitating rigorous evaluation of their debating competence relative to human interlocutors. In this study, we fo"
-  },
-  {
-    "id": "arxiv-cs-cl-ptc-bias-phoneme-level-temporal-competition-for-bias-retriev",
-    "headline": "PTC-Bias: Phoneme-Level Temporal Competition for Bias Retrieval and Post-Decoding Correction in Speech LLMs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.28727",
-    "publishedAt": "2026-09-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Contextual biasing improves rare-word recognition in speech large language models (SpeechLLMs), but efficiently exploiting large bias lists remains challenging. We propose PTC-Bias, a two-stage framework based on phoneme"
-  },
-  {
-    "id": "arxiv-cs-cl-script-choice-in-llms-evidence-for-late-layer-commitment",
-    "headline": "Script Choice in LLMs: Evidence for Late-Layer Commitment",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.28784",
-    "publishedAt": "2026-09-25T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "In this paper, we investigate how script knowledge is distributed across the layers of LLMs using two complementary interpretability methods: logistic regression probing and logit-lens analysis. Our probing experiments r"
-  },
-  {
-    "id": "arxiv-cs-cl-polite-but-misaligned-evaluating-llm-politeness-judgments-ag",
-    "headline": "Polite but Misaligned: Evaluating LLM Politeness Judgments Against Human Pragmatic Norms",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.29001",
-    "publishedAt": "2026-09-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Despite strong performance on standard benchmarks, it remains unclear whether large language models (LLMs) evaluate social pragmatics in ways that align with human judgments. We evaluate LLM politeness judgments using tw"
-  },
-  {
-    "id": "arxiv-cs-cl-tag-aware-structured-text-translation-towards-a-systematic-u",
-    "headline": "Tag-Aware Structured Text Translation: Towards a Systematic Understanding",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.29131",
-    "publishedAt": "2026-09-25T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Internet texts are replete with format tags that carry structural, semantic, and functional meaning. Current large language model (LLM)-based translation systems struggle to balance translation fluency with tag fidelity "
-  },
-  {
-    "id": "arxiv-cs-cl-predicting-emerging-topics-from-outliers-a-prospective-study",
-    "headline": "Predicting Emerging Topics from Outliers: A Prospective Study of Weak Signals in Embedding Space",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.29183",
-    "publishedAt": "2026-09-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Some documents that embedding-based topic models initially classify as noise later become founding members of emerging topics. At publication time, however, they appear as scattered points in embedding space and are diff"
-  },
-  {
-    "id": "arxiv-cs-cl-eager-enhancing-generative-event-extraction-via-reinforcemen",
-    "headline": "EAGER: Enhancing Generative Event Extraction via Reinforcement Learning with Verifiable Rewards",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.29230",
-    "publishedAt": "2026-09-25T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "End-to-end event extraction remains challenging for large language models as it requires simultaneous identification of event triggers, classification of event types, and extraction of schema-grounded argument spans. We "
-  },
-  {
-    "id": "arxiv-cs-cl-grammatical-grandmother-neurons-are-rare-in-llms",
-    "headline": "Grammatical \"grandmother neurons\" are rare in LLMs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.29328",
-    "publishedAt": "2026-09-25T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Understanding how Large Language Models (LLMs) encode linguistic structures remains a fundamental challenge in interpretability research. While diagnostic classifiers (or \"probes\") are widely used for this task, they fac"
-  },
-  {
-    "id": "arxiv-cs-ir-onetrans-v2-unifying-retrieval-pre-rank-and-fine-rank-with-o",
-    "headline": "OneTrans-V2: Unifying Retrieval, Pre-rank, and Fine-rank with One Transformer in Industrial Recommender",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.28589",
-    "publishedAt": "2026-09-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Industrial recommendation systems typically operate as a \\emph{cascade} of retrieval, pre-rank, and fine-rank, but these stages are usually trained and served as separate models, causing repeated user-sequence encoding, "
-  },
-  {
-    "id": "arxiv-cs-ir-seek-self-evaluative-exploration-for-knowledge-retrieval",
-    "headline": "Seek: Self-Evaluative Exploration for Knowledge Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.28980",
-    "publishedAt": "2026-09-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "LLM-based retrievers and rerankers have advanced passage ranking, yet both paradigms interact with the corpus in a single pass and commit to the resulting candidate set, leaving relevant documents permanently unrecoverab"
-  },
-  {
-    "id": "arxiv-cs-ir-x-rec-technical-report",
-    "headline": "X-Rec Technical Report",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.29180",
-    "publishedAt": "2026-09-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Recent advances in generative modeling have reshaped recommender systems by formulating recommendation as a next-item generation problem. Existing retrieval approaches primarily follow two paradigms: user-to-item (U2I) m"
-  },
-  {
-    "id": "arxiv-cs-ir-scalarlens-numerical-embeddings-with-stable-coordinates-and-",
-    "headline": "ScalarLens: Numerical Embeddings with Stable Coordinates and Contextual Responses for CTR Prediction",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.29182",
-    "publishedAt": "2026-09-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Numerical embeddings for click-through rate (CTR) prediction are built on a convenient but restrictive premise: a scalar has one representation. This premise conflates where a value lies with what it means for the curren"
-  },
-  {
-    "id": "arxiv-cs-ir-asymmetric-dynamic-routing-balancing-reasoning-depth-and-com",
-    "headline": "Asymmetric Dynamic Routing: Balancing Reasoning Depth and Computational Efficiency in Hypergraph RAG",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.29282",
-    "publishedAt": "2026-09-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "While graph-based and hypergraph-based Retrieval-Augmented Generation (RAG) significantly mitigate hallucinations in Large Language Models (LLMs), existing structure-based RAG systems typically adopt static traversal str"
-  },
-  {
-    "id": "arxiv-cs-ir-a-systematic-multi-domain-evaluation-of-document-retrievers",
-    "headline": "A Systematic Multi-Domain Evaluation of Document Retrievers",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.29455",
-    "publishedAt": "2026-09-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Document retrieval is a crucial component of many modern AI systems, directly influencing their effectiveness, robustness, and fairness in downstream tasks. While recent years have seen a growing number of retrievers, co"
-  },
-  {
-    "id": "arxiv-cs-ir-obliq-ir-training-a-dense-retriever-for-oblique-queries",
-    "headline": "OBLIQ-IR: Training a Dense Retriever for Oblique Queries",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.29649",
-    "publishedAt": "2026-09-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Oblique retrieval, as exemplified by OBLIQ-Bench, asks a retriever to find documents whose relevance is determined by a latent attribute (an implicit stance, an analogous reasoning technique, an authorial fingerprint, or"
-  },
-  {
-    "id": "arxiv-cs-ir-smallreason-colbert-an-ultra-small-late-interaction-retrieve",
-    "headline": "SmallReason-ColBERT: An Ultra-Small Late-Interaction Retriever for Reasoning Intensive Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.29652",
-    "publishedAt": "2026-09-25T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Reasoning-intensive retrieval remains difficult for small models. Compact public ColBERTs are usually trained on general-purpose corpora and underperform reasoning-tuned 150M+ baselines on BRIGHT~\\cite{bright} by several"
-  },
-  {
     "id": "simon-willison-s-blog-llm-0-36",
     "headline": "llm 0.36",
     "source": "Simon Willison's Blog",
@@ -224,6 +80,14 @@
     "summary": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack o"
   },
   {
+    "id": "hacker-news-self-hosted-inference-orchestrators-compared-localai-exo-gpu",
+    "headline": "Self-hosted inference orchestrators compared: LocalAI, exo, GPUStack, vLLM",
+    "source": "Hacker News",
+    "url": "https://www.nexlab.net/articles/self-hosted-inference-orchestrators-compared-2026/",
+    "publishedAt": "2026-09-20T17:43:35.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "simon-willison-s-blog-note-on-18th-september-2026",
     "headline": "Note on 18th September 2026",
     "source": "Simon Willison's Blog",
@@ -231,14 +95,6 @@
     "publishedAt": "2026-09-18T19:21:32.000Z",
     "topic": "LLM",
     "summary": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park. Skeptical geneti"
-  },
-  {
-    "id": "hacker-news-my-thoughts-on-ai-and-llms",
-    "headline": "My Thoughts on AI and LLMs",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=49756902",
-    "publishedAt": "2026-09-18T16:43:12.000Z",
-    "topic": "LLM"
   },
   {
     "id": "simon-willison-s-blog-how-to-write-with-an-llm",
