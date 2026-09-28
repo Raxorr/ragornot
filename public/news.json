@@ -1,5 +1,158 @@
 [
   {
+    "id": "arxiv-cs-cl-not-all-memories-are-equal-hierarchical-collaborative-memory",
+    "headline": "Not All Memories Are Equal: Hierarchical Collaborative Memory for Validity-Aware Retrieval in LLM Agents",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.30289",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "In team collaboration scenarios, memory is heterogeneous and continually evolving. Team memories capture collective decisions, protocols, and current consensus, while individual memories preserve member-specific observat"
+  },
+  {
+    "id": "arxiv-cs-cl-auditing-and-repairing-llm-as-judge-failures-in-a-production",
+    "headline": "Auditing and Repairing LLM-as-Judge Failures in a Production Text-to-SQL Pipeline",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.30290",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Production text-to-SQL pipelines often end with an LLM-as-judge whose agreement with human annotators has never actually been measured. When we checked ours, the deployed gpt-4o-mini judge agreed with two-author gold at "
+  },
+  {
+    "id": "arxiv-cs-cl-a-survey-on-fake-review-detection-from-pre-trained-language-",
+    "headline": "A Survey on Fake Review Detection: From Pre-trained Language Models to Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.30292",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Online reviews shape consumer decisions, platform governance, and corporate reputation.Fake reviews compromise this information channel by injecting deceptive evidence into rating systems, recommendation pipelines, and p"
+  },
+  {
+    "id": "arxiv-cs-cl-cartograph-federated-tool-discovery-with-operator-attested-r",
+    "headline": "Cartograph: Federated Tool Discovery with Operator-Attested Retrieval for AI Agents",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.30293",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "The Model Context Protocol (MCP) enables AI agents to discover and call tools, but loading every definition becomes expensive as connected catalogs grow. We present Cartograph, a federated MCP proxy that changes agent-vi"
+  },
+  {
+    "id": "arxiv-cs-cl-a-benchmark-framework-for-screening-automation-in-systematic",
+    "headline": "A Benchmark Framework for Screening Automation in Systematic Reviews",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.30298",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Systematic reviews (SR) are essential for evidence-based research, but their screening phase is highly time-consuming and labor-intensive. Large language models (LLMs) offer a promising opportunity to reduce this workloa"
+  },
+  {
+    "id": "arxiv-cs-cl-all-in-good-time-causality-aware-framework-for-llm-based-sim",
+    "headline": "All In Good Time: Causality-Aware Framework for LLM-Based Simultaneous Speech-to-Speech Translation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.30416",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large Language Models (LLMs) have shown strong performance in low-resource offline translation; however, extending them to simultaneous speech-to-speech translation (Simul-S2ST) remains challenging due to the scarcity of"
+  },
+  {
+    "id": "arxiv-cs-cl-inference-time-target-speaker-unlearning-in-llm-based-automa",
+    "headline": "Inference-Time Target Speaker Unlearning in LLM-Based Automatic Speech Recognition",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.30439",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "We introduce target-speaker unlearning ASR (TSU-ASR) task in a fully end-to-end framework for multi-speaker ASR and diarization. Given a multi-speaker utterance and a set of opt-out speakers who do not wish to have their"
+  },
+  {
+    "id": "arxiv-cs-cl-where-does-retrieval-based-open-ended-evaluation-fail-automa",
+    "headline": "Where Does Retrieval-Based Open-Ended Evaluation Fail? Automatic Taxonomy Induction from Long-Form Medical Answer Factuality Verification",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.30467",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-based factuality evaluation, where LLM-generated claims are verified against evidence from authoritative medical corpora, has become the dominant paradigm for scalable hallucination detection in high-stakes cli"
+  },
+  {
+    "id": "arxiv-cs-ir-embedding-subspace-partitioning-for-dynamic-multi-objective-",
+    "headline": "Embedding Subspace Partitioning for Dynamic Multi-Objective Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.30601",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Modern industrial recommender systems must optimize across competing objectives, balancing semantic relevance with business metrics such as engagement and revenue. While bi-encoders dominate large-scale retrieval due to "
+  },
+  {
+    "id": "arxiv-cs-ir-qreason-query-focused-decoupled-chain-of-thought-for-efficie",
+    "headline": "QReason: Query-Focused Decoupled Chain-of-Thought for Efficient Passage Reranking",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.30904",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Passage reranking plays a crucial role in information retrieval by refining the ordering of candidate passages to better reflect relevance. Existing listwise LLM rerankers with Chain-of-Thought (CoT) reasoning can handle"
+  },
+  {
+    "id": "arxiv-cs-ir-agentrecommender-llm-agents-enable-customizable-recommender-",
+    "headline": "AgentRecommender: LLM Agents Enable Customizable Recommender Systems on the User Side",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.31166",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Recommender systems have traditionally been developed for platforms. However, this has given rise to many phenomena that may be advantageous for platform lock-in but are a nuisance to users, such as clickbait, filter bub"
+  },
+  {
+    "id": "arxiv-cs-ir-enriching-sequential-recommendation-with-graph-laplacian-pos",
+    "headline": "Enriching Sequential Recommendation with Graph Laplacian Positional Embeddings",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.31253",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Sequential recommenders typically rely on learnable positional embeddings to encode the order of user interactions. In this work, we ask whether this ordinal signal can be replaced by a structural one derived from the it"
+  },
+  {
+    "id": "arxiv-cs-ir-autoresearch-at-production-scale-failure-modes-and-a-multi-a",
+    "headline": "AutoResearch at Production Scale: Failure Modes and a Multi-Agent Framework",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.30541",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Optimizing embedding systems for production recommendation pipelines demands systematic exploration that consumes disproportionate engineering effort at scale. We apply Andrej Karpathy's AutoResearch paradigm -- a large "
+  },
+  {
+    "id": "arxiv-cs-ir-t-rope-time-aware-rotary-position-embedding-for-sequential-r",
+    "headline": "T-RoPE: Time-Aware Rotary Position Embedding for Sequential Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.30576",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large-scale recommenders increasingly adopt the sequential generative recipe behind large language models, bringing the Transformer into recommendation along with design choices made for text, including Rotary Position E"
+  },
+  {
+    "id": "arxiv-cs-ir-high-probability-guarantees-for-linear-accessibility-in-feat",
+    "headline": "High-probability guarantees for linear accessibility in feature superposition",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.09556",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Neural networks can leverage feature superposition to encode more concepts than dimensions, but cross-feature interference constrains the linear accessibility of simultaneously active features. By framing linear accessib"
+  },
+  {
+    "id": "arxiv-cs-ir-mm-contextfold-context-folding-for-multimodal-agentic-retrie",
+    "headline": "MM-ContextFold: Context Folding for Multimodal Agentic Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.23121",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Multimodal Agentic Retrieval (MAR) requires agents to solve complex information-seeking tasks by iteratively invoking external tools. Typical frameworks such as ReAct maintain raw multimodal inputs and the accumulating i"
+  },
+  {
+    "id": "simon-willison-s-blog-2026-in-llms-so-far",
+    "headline": "2026 in LLMs (so far)",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+    "publishedAt": "2026-09-27T23:54:15.000Z",
+    "topic": "LLM",
+    "summary": "On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026"
+  },
+  {
     "id": "aws-machine-learning-blog-narrateai-production-ready-llm-quality-assurance-on-amazon-b",
     "headline": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
     "source": "AWS Machine Learning Blog",
@@ -80,14 +233,6 @@
     "summary": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack o"
   },
   {
-    "id": "hacker-news-self-hosted-inference-orchestrators-compared-localai-exo-gpu",
-    "headline": "Self-hosted inference orchestrators compared: LocalAI, exo, GPUStack, vLLM",
-    "source": "Hacker News",
-    "url": "https://www.nexlab.net/articles/self-hosted-inference-orchestrators-compared-2026/",
-    "publishedAt": "2026-09-20T17:43:35.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "simon-willison-s-blog-note-on-18th-september-2026",
     "headline": "Note on 18th September 2026",
     "source": "Simon Willison's Blog",
@@ -95,23 +240,6 @@
     "publishedAt": "2026-09-18T19:21:32.000Z",
     "topic": "LLM",
     "summary": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park. Skeptical geneti"
-  },
-  {
-    "id": "hacker-news-my-thoughts-on-ai-and-llms",
-    "headline": "My Thoughts on AI and LLMs",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=49756902",
-    "publishedAt": "2026-09-18T16:43:12.000Z",
-    "topic": "LLM"
-  },
-  {
-    "id": "simon-willison-s-blog-how-to-write-with-an-llm",
-    "headline": "How To Write With An LLM",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
-    "publishedAt": "2026-09-17T23:37:27.000Z",
-    "topic": "LLM",
-    "summary": "How To Write With An LLM Thomas Ptacek on using LLMs as copyeditors, not as writing assistants: Rule Number One: You may not use a single word an LLM suggests to you. [...] I think that as a form of intellectual personal"
   },
   {
     "id": "qdrant-blog-shifting-languages-in-multilingual-rag",
@@ -301,6 +429,22 @@
     "publishedAt": "2026-08-05T01:00:00.000Z",
     "topic": "RAG",
     "summary": "Qdrant 1.19.0 is out! Let&rsquo;s look at the main features for this version: TurboQuant Datatype: A new storage format that compresses vectors to four bits without keeping their original full-precision representation, r"
+  },
+  {
+    "id": "hacker-news-what-llm-inference-costs",
+    "headline": "What LLM Inference Costs",
+    "source": "Hacker News",
+    "url": "https://twitter.com/Akashi203/status/2083213197171884505",
+    "publishedAt": "2026-07-31T18:11:45.000Z",
+    "topic": "Cost"
+  },
+  {
+    "id": "hacker-news-ask-hn-what-are-you-using-for-llm-inference-in-production",
+    "headline": "Ask HN: What are you using for LLM inference in production?",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49121047",
+    "publishedAt": "2026-07-31T09:46:24.000Z",
+    "topic": "LLM"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
