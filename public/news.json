@@ -1,5 +1,23 @@
 [
   {
+    "id": "ahead-of-ai-language-models-for-text-classification-from-bag-of-words-to",
+    "headline": "Language Models for Text Classification: From Bag-of-Words to Jev",
+    "source": "Ahead of AI",
+    "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
+    "publishedAt": "2026-09-29T10:50:25.000Z",
+    "topic": "LLM",
+    "summary": "A Visual Guide to RNNs, CNNs, Transformers, and Calibration, with Hands-On Experiments on Accuracy and Efficiency",
+    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/0015e77a-5140-4139-b361-78e28d18df17_2494x1304.png"
+  },
+  {
+    "id": "hacker-news-how-to-host-and-improve-the-token-speed-of-an-llm",
+    "headline": "How to host and improve the token speed of an LLM",
+    "source": "Hacker News",
+    "url": "https://medium.com/@abhijithneilabraham/learning-inference-how-to-host-and-improve-the-token-speed-of-an-llm-cff5623ab505",
+    "publishedAt": "2026-09-29T08:03:21.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "qdrant-blog-constella-preview-swap-query-models-without-re-embedding",
     "headline": "Constella Preview: Swap Query Models Without Re-Embedding",
     "source": "Qdrant Blog",
@@ -97,14 +115,6 @@
     "publishedAt": "2026-09-21T23:09:20.000Z",
     "topic": "LLM",
     "summary": "Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an in"
-  },
-  {
-    "id": "hugging-face-blog-pruning-llms-like-a-physicist-block-removal-as-an-ising-opti",
-    "headline": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
-    "publishedAt": "2026-09-21T13:44:34.000Z",
-    "topic": "LLM"
   },
   {
     "id": "simon-willison-s-blog-llm-keys-ui-0-1",
@@ -313,14 +323,6 @@
     "topic": "Cost"
   },
   {
-    "id": "hacker-news-ask-hn-what-are-you-using-for-llm-inference-in-production",
-    "headline": "Ask HN: What are you using for LLM inference in production?",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=49121047",
-    "publishedAt": "2026-07-31T09:46:24.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
     "headline": "Building AI infrastructure with the Effingham County community",
     "source": "OpenAI",
@@ -364,6 +366,14 @@
     "publishedAt": "2026-07-08T00:00:00.000Z",
     "topic": "RAG",
     "summary": "TL;DR Elastic recently published a benchmark claiming that their proprietary, disk-based index (dubbed “DiskBBQ”) delivers up to 7x higher throughput than Qdrant when deployed on nodes with network-attached storage. Elas"
+  },
+  {
+    "id": "hugging-face-blog-run-ai-workloads-on-any-cloud-store-on-hugging-face-zero-egr",
+    "headline": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/skypilot-hf-storage",
+    "publishedAt": "2026-07-07T00:00:00.000Z",
+    "topic": "RAG"
   },
   {
     "id": "ahead-of-ai-using-local-coding-agents",
@@ -467,16 +477,6 @@
     "publishedAt": "2026-04-22T00:00:00.000Z",
     "topic": "RAG",
     "summary": "Data Graphs is a UK-based platform company that provides a knowledge graph-as-a-service polystore, built on a proprietary, high-performance graph database engine. Co-founded by Paul Wilton over 10 years ago as a consulta"
-  },
-  {
-    "id": "ahead-of-ai-my-workflow-for-understanding-llm-architectures",
-    "headline": "My Workflow for Understanding LLM Architectures",
-    "source": "Ahead of AI",
-    "url": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
-    "publishedAt": "2026-04-18T11:24:36.000Z",
-    "topic": "LLM",
-    "summary": "A learning-oriented workflow for understanding new open-weight model releases",
-    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/43071df5-b297-42f2-b875-36915f5e33a2_1826x1020.png"
   },
   {
     "id": "openai-ai-fundamentals",
