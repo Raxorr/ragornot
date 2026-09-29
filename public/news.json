@@ -1,5 +1,14 @@
 [
   {
+    "id": "qdrant-blog-constella-preview-swap-query-models-without-re-embedding",
+    "headline": "Constella Preview: Swap Query Models Without Re-Embedding",
+    "source": "Qdrant Blog",
+    "url": "https://qdrant.tech/blog/constella-research-preview/",
+    "publishedAt": "2026-09-29T00:00:00.000Z",
+    "topic": "Cost",
+    "summary": "As query traffic grows, so does the compute bill for embedding it. On a low-power device, a large model may not fit in memory. A smaller query model could reduce that cost, but switching usually means re-embedding the co"
+  },
+  {
     "id": "aws-machine-learning-blog-build-real-time-voice-applications-with-vllm-omni-on-sagemak",
     "headline": "Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1",
     "source": "AWS Machine Learning Blog",
@@ -249,15 +258,6 @@
     "publishedAt": "2026-09-20T19:22:19.000Z",
     "topic": "LLM",
     "summary": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack o"
-  },
-  {
-    "id": "simon-willison-s-blog-note-on-18th-september-2026",
-    "headline": "Note on 18th September 2026",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
-    "publishedAt": "2026-09-18T19:21:32.000Z",
-    "topic": "LLM",
-    "summary": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park. Skeptical geneti"
   },
   {
     "id": "qdrant-blog-shifting-languages-in-multilingual-rag",
@@ -639,15 +639,6 @@
     "publishedAt": "2026-04-09T00:00:00.000Z",
     "topic": "RAG",
     "summary": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming."
-  },
-  {
-    "id": "qdrant-blog-qdrant-skills-for-ai-agents",
-    "headline": "Qdrant Skills for AI Agents",
-    "source": "Qdrant Blog",
-    "url": "https://qdrant.tech/blog/qdrant-skills-release/",
-    "publishedAt": "2026-03-31T00:00:00.000Z",
-    "topic": "RAG",
-    "summary": "The standard RAG tutorial teaches a simple pattern: embed your documents, store them in a vector database, retrieve the top K, and feed them to the LLM. The vector engine is passive infrastructure. Put vectors in, get ne"
   },
   {
     "id": "the-gradient-after-orthogonality-virtue-ethical-agency-and-ai-alignment",
