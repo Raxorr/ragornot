@@ -271,6 +271,15 @@
     "summary": "Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an in"
   },
   {
+    "id": "qdrant-blog-how-lucy-built-a-source-of-truth-retrieval-layer-for-2-8m-se",
+    "headline": "How Lucy Built a Source-of-Truth Retrieval Layer for 2.8M+ SEC and DART Filings with Qdrant",
+    "source": "Qdrant Blog",
+    "url": "https://qdrant.tech/blog/case-study-lucy/",
+    "publishedAt": "2026-09-21T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Lucy builds data infrastructure for financial AI. The company turns large-scale regulatory filings from the U.S. Securities and Exchange Commission (SEC) EDGAR system and Korea&rsquo;s DART disclosure system into structu"
+  },
+  {
     "id": "simon-willison-s-blog-llm-keys-ui-0-1",
     "headline": "llm-keys-ui 0.1",
     "source": "Simon Willison's Blog",
@@ -632,15 +641,6 @@
     "summary": "A Researcher's Perspective on Retrieval Quality in RAG Systems"
   },
   {
-    "id": "qdrant-blog-how-data-graphs-built-a-true-hybrid-graph-rag-platform",
-    "headline": "How Data Graphs Built a True Hybrid Graph RAG Platform",
-    "source": "Qdrant Blog",
-    "url": "https://qdrant.tech/blog/case-study-datagraphs/",
-    "publishedAt": "2026-04-22T00:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Data Graphs is a UK-based platform company that provides a knowledge graph-as-a-service polystore, built on a proprietary, high-performance graph database engine. Co-founded by Paul Wilton over 10 years ago as a consulta"
-  },
-  {
     "id": "openai-ai-fundamentals",
     "headline": "AI fundamentals",
     "source": "OpenAI",
@@ -696,16 +696,6 @@
     "publishedAt": "2025-11-10T16:50:39.000Z",
     "topic": "RAG",
     "summary": "A six-month long pilot program with the Northern Ireland Education Authority’s C2k initiative found that integrating Gemini and other generative AI tools saved participating teachers an average of 10 hours per week."
-  },
-  {
-    "id": "deepmind-blog-t5gemma-a-new-collection-of-encoder-decoder-gemma-models",
-    "headline": "T5Gemma: A new collection of encoder-decoder Gemma models",
-    "source": "DeepMind Blog",
-    "url": "https://deepmind.google/blog/t5gemma-a-new-collection-of-encoder-decoder-gemma-models/",
-    "publishedAt": "2025-10-25T18:14:00.000Z",
-    "topic": "LLM",
-    "summary": "Introducing T5Gemma, a new collection of encoder-decoder LLMs.",
-    "imageUrl": "https://lh3.googleusercontent.com/G6ZuFr6d2i13JlGsO-_Sw5JxpyrqKqeQWkfCQRfgFZfabMfHW4kHIBxnFnvQz8Y5-VrTrX_4gY4PdmSm59R3rVKMoS7R6rH4ymrt-SSzvMedTINZBQ=w528-h297-n-nu-rw-lo"
   },
   {
     "id": "the-gradient-agi-is-not-multimodal",
