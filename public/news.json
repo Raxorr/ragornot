@@ -280,15 +280,6 @@
     "summary": "Lucy builds data infrastructure for financial AI. The company turns large-scale regulatory filings from the U.S. Securities and Exchange Commission (SEC) EDGAR system and Korea&rsquo;s DART disclosure system into structu"
   },
   {
-    "id": "simon-willison-s-blog-llm-keys-ui-0-1",
-    "headline": "llm-keys-ui 0.1",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
-    "publishedAt": "2026-09-20T19:22:19.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack o"
-  },
-  {
     "id": "qdrant-blog-shifting-languages-in-multilingual-rag",
     "headline": "SHIFTing Languages in Multilingual RAG",
     "source": "Qdrant Blog",
