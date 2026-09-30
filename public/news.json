@@ -1,11 +1,147 @@
 [
   {
-    "id": "hacker-news-routing-llm-traffic-across-inference-providers-with-tcp-styl",
-    "headline": "Routing LLM traffic across inference providers with TCP-style congestion control",
-    "source": "Hacker News",
-    "url": "https://getunblocked.com/blog/adaptive-routing-inference-providers/",
-    "publishedAt": "2026-09-29T17:43:35.000Z",
-    "topic": "LLM"
+    "id": "arxiv-cs-cl-sieve-and-sage-efficient-distraction-filtering-for-reliable-",
+    "headline": "Sieve and Sage: Efficient Distraction Filtering for Reliable RALM Abstention",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.35794",
+    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Just as Socrates recognized the limits of his own knowledge, Retrieval-Augmented Language Models (RALMs) should learn to abstain when the retrieved evidence cannot support a reliable response. Existing approaches largely"
+  },
+  {
+    "id": "arxiv-cs-cl-evaluating-the-effects-of-prompt-perturbation-on-bias-and-ha",
+    "headline": "Evaluating the Effects of Prompt Perturbation on Bias and Hallucination in Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.35804",
+    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) have shown remarkable capabilities in various natural language processing tasks, leading to their widespread deployment as intelligent assistants in decision-making contexts. However, the inc"
+  },
+  {
+    "id": "arxiv-cs-cl-from-lexical-baselines-to-agentic-retrieval-augmented-genera",
+    "headline": "From Lexical Baselines to Agentic Retrieval-Augmented Generation: Structured Skill and Responsibility-Level Extraction with the SFIA Framework",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.35806",
+    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Automated skill extraction underpins workforce planning, yet most systems represent skills as flat labels with no notion of the responsibility level at which a skill is practiced. The Skills Framework for the Information"
+  },
+  {
+    "id": "arxiv-cs-cl-environment-steering-using-data-flow-control-to-improve-agen",
+    "headline": "Environment Steering: Using Data Flow Control to Improve Agent Utility and Safety",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.35807",
+    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "LLM agents can make unsafe tool calls even when instructed to behave safely. Existing defenses constrain agents before execution, modify tool inputs/outputs, or rely on LLM judges; these approaches may depend on model be"
+  },
+  {
+    "id": "arxiv-cs-cl-can-multimodal-large-language-models-generate-and-detect-mul",
+    "headline": "Can Multimodal Large Language Models Generate and Detect Multimodal Social Media Fake News?",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.35809",
+    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "The rapid advancement of generative AI raises concerns about the misuse of Multimodal LLMs (MLLMs) for large-scale disinformation campaigns on social media. Despite existing research on textual disinformation, a fundamen"
+  },
+  {
+    "id": "arxiv-cs-cl-trace-deployable-tree-relational-structure-enhancement-for-o",
+    "headline": "TRACE: Deployable Tree-Relational Structure Enhancement for Oncology LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.35810",
+    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models are increasingly used in oncology applications, but their predictions are often weakly grounded in explicit medical structure. We present TRACE, a deployable tree-relational enhancement framework fo"
+  },
+  {
+    "id": "arxiv-cs-cl-lookahead-r-budget-aware-tool-retrieval-via-execution-centri",
+    "headline": "Lookahead-R: Budget-Aware Tool Retrieval via Execution-Centric Planning",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.35811",
+    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Tool retrieval is a critical bottleneck for LLM-based agents operating over large, heterogeneous API ecosystems. Existing approaches face an inherent trade-off: semantic retrievers are fast but suffer from the semantic-f"
+  },
+  {
+    "id": "arxiv-cs-cl-how-to-run-statistics-over-llm-judges-and-trust-the-results-",
+    "headline": "How to Run Statistics over LLM Judges and Trust the Results: Calibrated Inference for Small-Sample AI Evaluation with evalstats",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.35815",
+    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Researchers across academia increasingly base significance claims on LLM judge scores and small-sample AI evaluations. Yet without well-calibrated confidence intervals (CIs), hypothesis tests, and judge-bias corrections,"
+  },
+  {
+    "id": "arxiv-cs-ir-socrates-rag-premise-directed-inquiry-against-coordinated-ev",
+    "headline": "Socrates-RAG: Premise-Directed Inquiry against Coordinated Evidence Poisoning",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.35773",
+    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-augmented generation (RAG) defenses typically decide how to filter or aggregate a fixed retrieved set. In open-corpus question answering, however, decisive evidence may be absent from the initial context but re"
+  },
+  {
+    "id": "arxiv-cs-ir-post-generation-verification-dominates-retrieval-optimizatio",
+    "headline": "Post-Generation Verification Dominates Retrieval Optimization: A 2^4 Factorial Ablation of RAG Pipeline Features",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.35774",
+    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Modern RAG pipelines stack many enhancement features, but these features are typically validated in isolation, leaving their interactions unmeasured. We run a 2^4 full factorial ablation of four pipeline features -- sect"
+  },
+  {
+    "id": "arxiv-cs-ir-tsg-suggester-tree-structured-knowledge-graph-retrieval-for-",
+    "headline": "TSG Suggester: Tree-Structured Knowledge-Graph Retrieval for Troubleshooting Guide Recommendation in Cloud Incident Management",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.35780",
+    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "On call engineers in large scale cloud services work under intense time pressure, yet locating the correct Troubleshooting Guide (TSG) for an incident remains a largely manual, keyword driven process, and prior empirical"
+  },
+  {
+    "id": "arxiv-cs-ir-financial-evidence-crowding-diagnosing-and-mitigating-constr",
+    "headline": "Financial Evidence Crowding: Diagnosing and Mitigating Constraint-Induced Displacement in Retrieval-Augmented Generation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.35782",
+    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-augmented generation (RAG) retrieves candidate evidence and sends only a limited top-ranked subset, the top-k context, to a generator. In financial question answering, passages can match a query's topic while c"
+  },
+  {
+    "id": "arxiv-cs-ir-grp-v0-1-technical-report",
+    "headline": "GRP v0.1 Technical Report",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.36688",
+    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Industrial recommendation systems rely on multi-stage cascades whose retrieval, ranking, and serving components are difficult to replace jointly. We present GRP, a generative recommendation framework that combines retrie"
+  },
+  {
+    "id": "arxiv-cs-ir-optimizing-vlp-aligned-multimodal-intent-representation-with",
+    "headline": "Optimizing VLP-aligned Multimodal Intent Representation with Correct Visual Instantiation for Zero-Shot Composed Image Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.36946",
+    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "ZS-CIR aims to retrieve a target image from a reference image and a modification text without paired supervision, typically by encoding composed queries as text-dominant representations within the image-text matching spa"
+  },
+  {
+    "id": "arxiv-cs-ir-do-evidence-reading-diagnostics-improve-interface-selection-",
+    "headline": "Do Evidence-Reading Diagnostics Improve Interface Selection in Small LLM Recommenders?",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.37472",
+    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Behavioral tests measure how a language model reads evidence. We ask whether those measurements help choose a recommendation interface. We evaluate six small instruction-tuned checkpoints across four recommendation domai"
+  },
+  {
+    "id": "arxiv-cs-ir-towards-semi-automatically-comparing-keyword-based-and-seman",
+    "headline": "Towards Semi-Automatically Comparing Keyword-Based and Semantic Search Accuracy",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.37749",
+    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "The increasing importance of Information Retrieval (IR) in managing large datasets has highlighted significant limitations in traditional keyword-based search systems. Context-aware chat-based search methods, such as Ret"
   },
   {
     "id": "aws-machine-learning-blog-building-an-ai-powered-contract-intelligence-platform-with-a",
@@ -34,14 +170,6 @@
     "topic": "LLM",
     "summary": "A Visual Guide to RNNs, CNNs, Transformers, and Calibration, with Hands-On Experiments on Accuracy and Efficiency",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/0015e77a-5140-4139-b361-78e28d18df17_2494x1304.png"
-  },
-  {
-    "id": "hacker-news-how-to-host-and-improve-the-token-speed-of-an-llm",
-    "headline": "How to host and improve the token speed of an LLM",
-    "source": "Hacker News",
-    "url": "https://medium.com/@abhijithneilabraham/learning-inference-how-to-host-and-improve-the-token-speed-of-an-llm-cff5623ab505",
-    "publishedAt": "2026-09-29T08:03:21.000Z",
-    "topic": "LLM"
   },
   {
     "id": "qdrant-blog-constella-preview-swap-query-models-without-re-embedding",
@@ -150,14 +278,6 @@
     "publishedAt": "2026-09-20T19:22:19.000Z",
     "topic": "LLM",
     "summary": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack o"
-  },
-  {
-    "id": "hacker-news-my-thoughts-on-ai-and-llms",
-    "headline": "My Thoughts on AI and LLMs",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=49756902",
-    "publishedAt": "2026-09-18T16:43:12.000Z",
-    "topic": "LLM"
   },
   {
     "id": "qdrant-blog-shifting-languages-in-multilingual-rag",
@@ -323,6 +443,14 @@
     "topic": "RAG"
   },
   {
+    "id": "hacker-news-should-you-self-host-llm-inference-cost-and-risk-guide",
+    "headline": "Should You Self-Host LLM Inference? Cost and Risk Guide",
+    "source": "Hacker News",
+    "url": "https://theaiengineer.substack.com/p/should-you-self-host-inference",
+    "publishedAt": "2026-08-11T13:34:25.000Z",
+    "topic": "Cost"
+  },
+  {
     "id": "qdrant-blog-how-to-clean-up-a-qdrant-collection",
     "headline": "How to Clean Up a Qdrant Collection",
     "source": "Qdrant Blog",
@@ -339,6 +467,22 @@
     "publishedAt": "2026-08-05T01:00:00.000Z",
     "topic": "RAG",
     "summary": "Qdrant 1.19.0 is out! Let&rsquo;s look at the main features for this version: TurboQuant Datatype: A new storage format that compresses vectors to four bits without keeping their original full-precision representation, r"
+  },
+  {
+    "id": "hacker-news-what-llm-inference-costs",
+    "headline": "What LLM Inference Costs",
+    "source": "Hacker News",
+    "url": "https://twitter.com/Akashi203/status/2083213197171884505",
+    "publishedAt": "2026-07-31T18:11:45.000Z",
+    "topic": "Cost"
+  },
+  {
+    "id": "hacker-news-ask-hn-what-are-you-using-for-llm-inference-in-production",
+    "headline": "Ask HN: What are you using for LLM inference in production?",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49121047",
+    "publishedAt": "2026-07-31T09:46:24.000Z",
+    "topic": "LLM"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
