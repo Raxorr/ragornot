@@ -190,15 +190,6 @@
     "summary": "Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated speech over a persistent bidirectional connection. This Part 1 tutorial deploys Qwen3-TTS and strea"
   },
   {
-    "id": "aws-machine-learning-blog-generate-images-and-video-with-vllm-omni-on-sagemaker-ai-par",
-    "headline": "Generate images and video with vLLM-Omni on SageMaker AI – Part 2",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/generate-images-and-video-with-vllm-omni-on-sagemaker-ai-part-2/",
-    "publishedAt": "2026-09-28T16:15:17.000Z",
-    "topic": "LLM",
-    "summary": "Deploy two generative media models from one AWS vLLM-Omni Deep Learning Container on Amazon SageMaker AI. Generate an image with FLUX.2-klein through real-time inference, then animate it into video with Wan2.1-VACE throu"
-  },
-  {
     "id": "simon-willison-s-blog-2026-in-llms-so-far",
     "headline": "2026 in LLMs (so far)",
     "source": "Simon Willison's Blog",
