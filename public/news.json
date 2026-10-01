@@ -208,24 +208,6 @@
     "summary": "On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026"
   },
   {
-    "id": "aws-machine-learning-blog-narrateai-production-ready-llm-quality-assurance-on-amazon-b",
-    "headline": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/",
-    "publishedAt": "2026-09-25T16:15:22.000Z",
-    "topic": "LLM",
-    "summary": "NarrateAI delivers production-ready LLM quality assurance on Amazon Bedrock. This post details five techniques—adaptive pipeline orchestration, cross-account multi-model failover, real-time streaming evaluation, composit"
-  },
-  {
-    "id": "aws-machine-learning-blog-how-datacor-built-self-service-rental-analytics-with-amazon-",
-    "headline": "How Datacor built self-service rental analytics with Amazon Quick Sight",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/how-datacor-built-self-service-rental-analytics-with-amazon-quick-sight/",
-    "publishedAt": "2026-09-25T15:54:42.000Z",
-    "topic": "Cost",
-    "summary": "Learn how Datacor built a self-service rental analytics experience for gas and welding distributors by embedding Amazon Quick Sight dashboards and natural language querying into its TrackAbout platform, powered by an aut"
-  },
-  {
     "id": "simon-willison-s-blog-llm-0-36",
     "headline": "llm 0.36",
     "source": "Simon Willison's Blog",
