@@ -1,147 +1,147 @@
 [
   {
-    "id": "arxiv-cs-cl-sieve-and-sage-efficient-distraction-filtering-for-reliable-",
-    "headline": "Sieve and Sage: Efficient Distraction Filtering for Reliable RALM Abstention",
+    "id": "arxiv-cs-cl-large-language-models-are-approximate-survival-estimators",
+    "headline": "Large Language Models are Approximate Survival Estimators",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.35794",
-    "publishedAt": "2026-09-30T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Just as Socrates recognized the limits of his own knowledge, Retrieval-Augmented Language Models (RALMs) should learn to abstain when the retrieved evidence cannot support a reliable response. Existing approaches largely"
-  },
-  {
-    "id": "arxiv-cs-cl-evaluating-the-effects-of-prompt-perturbation-on-bias-and-ha",
-    "headline": "Evaluating the Effects of Prompt Perturbation on Bias and Hallucination in Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.35804",
-    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2609.38181",
+    "publishedAt": "2026-10-01T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Large language models (LLMs) have shown remarkable capabilities in various natural language processing tasks, leading to their widespread deployment as intelligent assistants in decision-making contexts. However, the inc"
+    "summary": "Survival analysis estimates time-to-event outcomes from patient covariates and is widely used for medical risk assessment. Patients seeking prognostic information after a diagnosis may turn to large language models (LLMs"
   },
   {
-    "id": "arxiv-cs-cl-from-lexical-baselines-to-agentic-retrieval-augmented-genera",
-    "headline": "From Lexical Baselines to Agentic Retrieval-Augmented Generation: Structured Skill and Responsibility-Level Extraction with the SFIA Framework",
+    "id": "arxiv-cs-cl-tomasullm-out-of-order-speculative-execution-for-llm-agents",
+    "headline": "TomasuLLM: Out-of-Order Speculative Execution for LLM Agents",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.35806",
-    "publishedAt": "2026-09-30T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Automated skill extraction underpins workforce planning, yet most systems represent skills as flat labels with no notion of the responsibility level at which a skill is practiced. The Skills Framework for the Information"
-  },
-  {
-    "id": "arxiv-cs-cl-environment-steering-using-data-flow-control-to-improve-agen",
-    "headline": "Environment Steering: Using Data Flow Control to Improve Agent Utility and Safety",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.35807",
-    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2609.38201",
+    "publishedAt": "2026-10-01T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "LLM agents can make unsafe tool calls even when instructed to behave safely. Existing defenses constrain agents before execution, modify tool inputs/outputs, or rely on LLM judges; these approaches may depend on model be"
+    "summary": "Long-running tools can dominate coding-agent latency: compilers, test suites, and repository commands take seconds to minutes while the agent idles. This observation stall presents the same tension that drove out-of-orde"
   },
   {
-    "id": "arxiv-cs-cl-can-multimodal-large-language-models-generate-and-detect-mul",
-    "headline": "Can Multimodal Large Language Models Generate and Detect Multimodal Social Media Fake News?",
+    "id": "arxiv-cs-cl-conformal-factuality-control-for-multi-hop-retrieval-augment",
+    "headline": "Conformal Factuality Control for Multi-Hop Retrieval-Augmented Generation",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.35809",
-    "publishedAt": "2026-09-30T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "The rapid advancement of generative AI raises concerns about the misuse of Multimodal LLMs (MLLMs) for large-scale disinformation campaigns on social media. Despite existing research on textual disinformation, a fundamen"
+    "url": "https://arxiv.org/abs/2609.38222",
+    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-augmented generation (RAG) can ground large language models in external evidence, but retrieved context does not guarantee that generated claims are factually supported. This problem is especially relevant in m"
   },
   {
-    "id": "arxiv-cs-cl-trace-deployable-tree-relational-structure-enhancement-for-o",
-    "headline": "TRACE: Deployable Tree-Relational Structure Enhancement for Oncology LLMs",
+    "id": "arxiv-cs-cl-framing-the-narrative-ideological-mimicry-in-large-language-",
+    "headline": "Framing the Narrative: Ideological Mimicry in Large Language Models",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.35810",
-    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2609.38256",
+    "publishedAt": "2026-10-01T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Large language models are increasingly used in oncology applications, but their predictions are often weakly grounded in explicit medical structure. We present TRACE, a deployable tree-relational enhancement framework fo"
+    "summary": "Large language models (LLMs) are increasingly used to answer questions about politically contentious issues, yet evaluations typically treat a model's stance as a relatively stable property. Real users, however, communic"
   },
   {
-    "id": "arxiv-cs-cl-lookahead-r-budget-aware-tool-retrieval-via-execution-centri",
-    "headline": "Lookahead-R: Budget-Aware Tool Retrieval via Execution-Centric Planning",
+    "id": "arxiv-cs-cl-contextadapt-evaluating-contextual-adaptation-and-value-alig",
+    "headline": "ContextAdapt: Evaluating Contextual Adaptation and Value Alignment in LLMs",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.35811",
-    "publishedAt": "2026-09-30T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Tool retrieval is a critical bottleneck for LLM-based agents operating over large, heterogeneous API ecosystems. Existing approaches face an inherent trade-off: semantic retrievers are fast but suffer from the semantic-f"
+    "url": "https://arxiv.org/abs/2609.38260",
+    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Values such as honesty, autonomy, and confidentiality are often regarded as general principles underpinning AI alignment. However, what it means to act in accordance with these values can depend on the context in which a"
   },
   {
-    "id": "arxiv-cs-cl-how-to-run-statistics-over-llm-judges-and-trust-the-results-",
-    "headline": "How to Run Statistics over LLM Judges and Trust the Results: Calibrated Inference for Small-Sample AI Evaluation with evalstats",
+    "id": "arxiv-cs-cl-which-models-work-well-together-measuring-heterogeneity-for-",
+    "headline": "Which Models Work Well Together? Measuring Heterogeneity for LLM Team Selection",
     "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2609.35815",
-    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2609.38274",
+    "publishedAt": "2026-10-01T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Researchers across academia increasingly base significance claims on LLM judge scores and small-sample AI evaluations. Yet without well-calibrated confidence intervals (CIs), hypothesis tests, and judge-bias corrections,"
+    "summary": "The performance ceiling of an LLM team is constrained not only by individual model capabilities, but also by inter-member error resonance and predictive differences. Although heterogeneous teaming is often observed to be"
   },
   {
-    "id": "arxiv-cs-ir-socrates-rag-premise-directed-inquiry-against-coordinated-ev",
-    "headline": "Socrates-RAG: Premise-Directed Inquiry against Coordinated Evidence Poisoning",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.35773",
-    "publishedAt": "2026-09-30T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-augmented generation (RAG) defenses typically decide how to filter or aggregate a fixed retrieved set. In open-corpus question answering, however, decisive evidence may be absent from the initial context but re"
-  },
-  {
-    "id": "arxiv-cs-ir-post-generation-verification-dominates-retrieval-optimizatio",
-    "headline": "Post-Generation Verification Dominates Retrieval Optimization: A 2^4 Factorial Ablation of RAG Pipeline Features",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.35774",
-    "publishedAt": "2026-09-30T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Modern RAG pipelines stack many enhancement features, but these features are typically validated in isolation, leaving their interactions unmeasured. We run a 2^4 full factorial ablation of four pipeline features -- sect"
-  },
-  {
-    "id": "arxiv-cs-ir-tsg-suggester-tree-structured-knowledge-graph-retrieval-for-",
-    "headline": "TSG Suggester: Tree-Structured Knowledge-Graph Retrieval for Troubleshooting Guide Recommendation in Cloud Incident Management",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.35780",
-    "publishedAt": "2026-09-30T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "On call engineers in large scale cloud services work under intense time pressure, yet locating the correct Troubleshooting Guide (TSG) for an incident remains a largely manual, keyword driven process, and prior empirical"
-  },
-  {
-    "id": "arxiv-cs-ir-financial-evidence-crowding-diagnosing-and-mitigating-constr",
-    "headline": "Financial Evidence Crowding: Diagnosing and Mitigating Constraint-Induced Displacement in Retrieval-Augmented Generation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.35782",
-    "publishedAt": "2026-09-30T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-augmented generation (RAG) retrieves candidate evidence and sends only a limited top-ranked subset, the top-k context, to a generator. In financial question answering, passages can match a query's topic while c"
-  },
-  {
-    "id": "arxiv-cs-ir-grp-v0-1-technical-report",
-    "headline": "GRP v0.1 Technical Report",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.36688",
-    "publishedAt": "2026-09-30T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Industrial recommendation systems rely on multi-stage cascades whose retrieval, ranking, and serving components are difficult to replace jointly. We present GRP, a generative recommendation framework that combines retrie"
-  },
-  {
-    "id": "arxiv-cs-ir-optimizing-vlp-aligned-multimodal-intent-representation-with",
-    "headline": "Optimizing VLP-aligned Multimodal Intent Representation with Correct Visual Instantiation for Zero-Shot Composed Image Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.36946",
-    "publishedAt": "2026-09-30T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "ZS-CIR aims to retrieve a target image from a reference image and a modification text without paired supervision, typically by encoding composed queries as text-dominant representations within the image-text matching spa"
-  },
-  {
-    "id": "arxiv-cs-ir-do-evidence-reading-diagnostics-improve-interface-selection-",
-    "headline": "Do Evidence-Reading Diagnostics Improve Interface Selection in Small LLM Recommenders?",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.37472",
-    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "id": "arxiv-cs-cl-evoke-eliciting-world-knowledge-in-agents-for-transferable-d",
+    "headline": "EVOKE: Eliciting World Knowledge in Agents for Transferable Decision-Making",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.38334",
+    "publishedAt": "2026-10-01T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Behavioral tests measure how a language model reads evidence. We ask whether those measurements help choose a recommendation interface. We evaluate six small instruction-tuned checkpoints across four recommendation domai"
+    "summary": "Large language models (LLMs) are increasingly deployed as agents for multi-step decision-making, yet transfer poorly to unseen environments. World-model methods address this by training agents to predict future observati"
   },
   {
-    "id": "arxiv-cs-ir-towards-semi-automatically-comparing-keyword-based-and-seman",
-    "headline": "Towards Semi-Automatically Comparing Keyword-Based and Semantic Search Accuracy",
+    "id": "arxiv-cs-cl-halluscoring-2026-the-first-shared-task-on-llms-hallucinatio",
+    "headline": "Halluscoring 2026: The first shared task on llms hallucination detection and answer verification",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2609.38355",
+    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "We present HalluScoring 2026, a shared task for evaluating hallucination detection and factual verification in Arabic question answering under challenging generalization settings. The shared task is organized into two ma"
+  },
+  {
+    "id": "arxiv-cs-ir-taggraph-tag-augmented-graphs-for-graph-retrieval-of-agent-p",
+    "headline": "TAGGRAPH: Tag-Augmented Graphs for Graph Retrieval of Agent Persistent Histories",
     "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.37749",
-    "publishedAt": "2026-09-30T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2609.38353",
+    "publishedAt": "2026-10-01T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "The increasing importance of Information Retrieval (IR) in managing large datasets has highlighted significant limitations in traditional keyword-based search systems. Context-aware chat-based search methods, such as Ret"
+    "summary": "Long-term memory lets LLM agents recall past interactions and remain consistent across sessions, but memory systems are hard to compare because they often vary in representation, indexing, retrieval, and evaluation. We p"
+  },
+  {
+    "id": "arxiv-cs-ir-re-ranking-and-late-interaction-drive-retrieval-quality-a-co",
+    "headline": "Re-ranking and Late Interaction Drive Retrieval Quality: A Controlled Comparison of RAG Strategies for Scientific Question Answering",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.38473",
+    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-Augmented Generation (RAG) is now the standard way to ground Large Language Models (LLMs) in external knowledge, yet the design space of retrieval pipelines is large and the trade-offs between variants are not "
+  },
+  {
+    "id": "arxiv-cs-ir-exploring-forum-post-retrieval-with-generative-modeling",
+    "headline": "Exploring Forum Post Retrieval with Generative Modeling",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.38646",
+    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Generative recommendation (GR) has emerged as an alternative to embedding-based retrieval, building on the success of generative models in language and vision. We are exploring GR on Facebook Forum, a standalone applicat"
+  },
+  {
+    "id": "arxiv-cs-ir-patchholmes-agentic-patch-retrieval-via-listwise-selection",
+    "headline": "PatchHolmes: Agentic Patch Retrieval via Listwise Selection",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.38807",
+    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Patch retrieval, the task of finding the commit that fixes a known vulnerability, is the foundation of vulnerability management workflows, yet 60% to 63% of CVEs in the major advisory databases lack a patch link. We pres"
+  },
+  {
+    "id": "arxiv-cs-ir-skillseek-revisiting-agent-skill-retrieval-at-marketplace-sc",
+    "headline": "SkillSeek: Revisiting Agent Skill Retrieval at Marketplace Scale",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.38822",
+    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Anthropic's Agent Skills package reusable procedural know-how for an LLM agent into SKILL.md directories, and open-source aggregations have grown past 230,000 skills, making selection rather than authoring the bottleneck"
+  },
+  {
+    "id": "arxiv-cs-ir-text-video-retrieval-via-multi-dimensional-saliency-assessme",
+    "headline": "Text-Video Retrieval via Multi-Dimensional Saliency Assessment and Granularity-Aware Query Decomposition",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.38949",
+    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Text-video retrieval, which aims to bridge visual and textual modalities by learning a joint embedding space, has become a crucial task in multimodal intelligence. Despite extensive efforts to mitigate visual redundancy,"
+  },
+  {
+    "id": "arxiv-cs-ir-when-llm-inferred-user-context-adds-value-in-production-stre",
+    "headline": "When LLM-Inferred User Context Adds Value in Production Streaming Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.38999",
+    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Contextual information in recommender systems is shifting from static, predefined variables toward latent representations inferred from behavior. Large language models support this shift by rendering an unstructured inte"
+  },
+  {
+    "id": "arxiv-cs-ir-routing-between-generative-and-collaborative-user-profiles-a",
+    "headline": "Routing Between Generative and Collaborative User Profiles: A Serving-Time Gate for Controllable Novelty",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2609.39043",
+    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "topic": "Cost",
+    "summary": "Large language models (LLMs) enable rich semantic user profiles for recommendation, but such profiles are more expensive to generate and are not necessarily desirable to deploy uniformly. We study whether LLM-generated p"
   },
   {
     "id": "aws-machine-learning-blog-building-an-ai-powered-contract-intelligence-platform-with-a",
