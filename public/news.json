@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagema",
+    "headline": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/",
+    "publishedAt": "2026-10-02T15:44:20.000Z",
+    "topic": "Cost",
+    "summary": "Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model at lower latency and cost. In this post, we fine-tune an LLM-powered search agent with multi-turn reinfor"
+  },
+  {
     "id": "arxiv-cs-cl-large-language-models-are-approximate-survival-estimators",
     "headline": "Large Language Models are Approximate Survival Estimators",
     "source": "arXiv (cs.CL)",
@@ -179,15 +188,6 @@
     "publishedAt": "2026-09-29T00:00:00.000Z",
     "topic": "Cost",
     "summary": "As query traffic grows, so does the compute bill for embedding it. On a low-power device, a large model may not fit in memory. A smaller query model could reduce that cost, but switching usually means re-embedding the co"
-  },
-  {
-    "id": "aws-machine-learning-blog-build-real-time-voice-applications-with-vllm-omni-on-sagemak",
-    "headline": "Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1/",
-    "publishedAt": "2026-09-28T16:15:46.000Z",
-    "topic": "LLM",
-    "summary": "Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated speech over a persistent bidirectional connection. This Part 1 tutorial deploys Qwen3-TTS and strea"
   },
   {
     "id": "simon-willison-s-blog-2026-in-llms-so-far",
