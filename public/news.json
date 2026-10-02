@@ -4,7 +4,7 @@
     "headline": "Large Language Models are Approximate Survival Estimators",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2609.38181",
-    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "publishedAt": "2026-10-02T04:00:00.000Z",
     "topic": "LLM",
     "summary": "Survival analysis estimates time-to-event outcomes from patient covariates and is widely used for medical risk assessment. Patients seeking prognostic information after a diagnosis may turn to large language models (LLMs"
   },
@@ -13,7 +13,7 @@
     "headline": "TomasuLLM: Out-of-Order Speculative Execution for LLM Agents",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2609.38201",
-    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "publishedAt": "2026-10-02T04:00:00.000Z",
     "topic": "LLM",
     "summary": "Long-running tools can dominate coding-agent latency: compilers, test suites, and repository commands take seconds to minutes while the agent idles. This observation stall presents the same tension that drove out-of-orde"
   },
@@ -22,7 +22,7 @@
     "headline": "Conformal Factuality Control for Multi-Hop Retrieval-Augmented Generation",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2609.38222",
-    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "publishedAt": "2026-10-02T04:00:00.000Z",
     "topic": "RAG",
     "summary": "Retrieval-augmented generation (RAG) can ground large language models in external evidence, but retrieved context does not guarantee that generated claims are factually supported. This problem is especially relevant in m"
   },
@@ -31,7 +31,7 @@
     "headline": "Framing the Narrative: Ideological Mimicry in Large Language Models",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2609.38256",
-    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "publishedAt": "2026-10-02T04:00:00.000Z",
     "topic": "LLM",
     "summary": "Large language models (LLMs) are increasingly used to answer questions about politically contentious issues, yet evaluations typically treat a model's stance as a relatively stable property. Real users, however, communic"
   },
@@ -40,7 +40,7 @@
     "headline": "ContextAdapt: Evaluating Contextual Adaptation and Value Alignment in LLMs",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2609.38260",
-    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "publishedAt": "2026-10-02T04:00:00.000Z",
     "topic": "LLM",
     "summary": "Values such as honesty, autonomy, and confidentiality are often regarded as general principles underpinning AI alignment. However, what it means to act in accordance with these values can depend on the context in which a"
   },
@@ -49,7 +49,7 @@
     "headline": "Which Models Work Well Together? Measuring Heterogeneity for LLM Team Selection",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2609.38274",
-    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "publishedAt": "2026-10-02T04:00:00.000Z",
     "topic": "LLM",
     "summary": "The performance ceiling of an LLM team is constrained not only by individual model capabilities, but also by inter-member error resonance and predictive differences. Although heterogeneous teaming is often observed to be"
   },
@@ -58,7 +58,7 @@
     "headline": "EVOKE: Eliciting World Knowledge in Agents for Transferable Decision-Making",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2609.38334",
-    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "publishedAt": "2026-10-02T04:00:00.000Z",
     "topic": "LLM",
     "summary": "Large language models (LLMs) are increasingly deployed as agents for multi-step decision-making, yet transfer poorly to unseen environments. World-model methods address this by training agents to predict future observati"
   },
@@ -67,81 +67,81 @@
     "headline": "Halluscoring 2026: The first shared task on llms hallucination detection and answer verification",
     "source": "arXiv (cs.CL)",
     "url": "https://arxiv.org/abs/2609.38355",
-    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "publishedAt": "2026-10-02T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "We present HalluScoring 2026, a shared task for evaluating hallucination detection and factual verification in Arabic question answering under challenging generalization settings. The shared task is organized into two ma"
+    "summary": "We present HalluScoring 2026, a shared task for evaluating hallucination detection and factual verification in Arabic question answering under challenging generalization settings. Its four subtasks are organized into two"
   },
   {
-    "id": "arxiv-cs-ir-taggraph-tag-augmented-graphs-for-graph-retrieval-of-agent-p",
-    "headline": "TAGGRAPH: Tag-Augmented Graphs for Graph Retrieval of Agent Persistent Histories",
+    "id": "arxiv-cs-ir-on-device-commercial-intent-retrieval-under-size-latency-and",
+    "headline": "On-Device Commercial Intent Retrieval Under Size, Latency, and Privacy Constraints: A 3 MiB Retrieval System with Typed Egress Boundaries",
     "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.38353",
-    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2610.00170",
+    "publishedAt": "2026-10-02T04:00:00.000Z",
     "topic": "RAG",
-    "summary": "Long-term memory lets LLM agents recall past interactions and remain consistent across sessions, but memory systems are hard to compare because they often vary in representation, indexing, retrieval, and evaluation. We p"
+    "summary": "We study commercial intent inference that runs entirely on the user's device, under three constraints frozen before the work began: the downloaded payload under 3 MiB, Tier-0 inference under 20 ms at p95, and no raw text"
   },
   {
-    "id": "arxiv-cs-ir-re-ranking-and-late-interaction-drive-retrieval-quality-a-co",
-    "headline": "Re-ranking and Late Interaction Drive Retrieval Quality: A Controlled Comparison of RAG Strategies for Scientific Question Answering",
+    "id": "arxiv-cs-ir-system-attribution-in-llm-brand-recommendations-single-respo",
+    "headline": "System Attribution in LLM Brand Recommendations: Single Responses Identify the System, Aggregated Brand Profiles Do Not Transfer",
     "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.38473",
-    "publishedAt": "2026-10-01T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-Augmented Generation (RAG) is now the standard way to ground Large Language Models (LLMs) in external knowledge, yet the design space of retrieval pipelines is large and the trade-offs between variants are not "
-  },
-  {
-    "id": "arxiv-cs-ir-exploring-forum-post-retrieval-with-generative-modeling",
-    "headline": "Exploring Forum Post Retrieval with Generative Modeling",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.38646",
-    "publishedAt": "2026-10-01T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Generative recommendation (GR) has emerged as an alternative to embedding-based retrieval, building on the success of generative models in language and vision. We are exploring GR on Facebook Forum, a standalone applicat"
-  },
-  {
-    "id": "arxiv-cs-ir-patchholmes-agentic-patch-retrieval-via-listwise-selection",
-    "headline": "PatchHolmes: Agentic Patch Retrieval via Listwise Selection",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.38807",
-    "publishedAt": "2026-10-01T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Patch retrieval, the task of finding the commit that fixes a known vulnerability, is the foundation of vulnerability management workflows, yet 60% to 63% of CVEs in the major advisory databases lack a patch link. We pres"
-  },
-  {
-    "id": "arxiv-cs-ir-skillseek-revisiting-agent-skill-retrieval-at-marketplace-sc",
-    "headline": "SkillSeek: Revisiting Agent Skill Retrieval at Marketplace Scale",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.38822",
-    "publishedAt": "2026-10-01T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Anthropic's Agent Skills package reusable procedural know-how for an LLM agent into SKILL.md directories, and open-source aggregations have grown past 230,000 skills, making selection rather than authoring the bottleneck"
-  },
-  {
-    "id": "arxiv-cs-ir-text-video-retrieval-via-multi-dimensional-saliency-assessme",
-    "headline": "Text-Video Retrieval via Multi-Dimensional Saliency Assessment and Granularity-Aware Query Decomposition",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.38949",
-    "publishedAt": "2026-10-01T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Text-video retrieval, which aims to bridge visual and textual modalities by learning a joint embedding space, has become a crucial task in multimodal intelligence. Despite extensive efforts to mitigate visual redundancy,"
-  },
-  {
-    "id": "arxiv-cs-ir-when-llm-inferred-user-context-adds-value-in-production-stre",
-    "headline": "When LLM-Inferred User Context Adds Value in Production Streaming Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.38999",
-    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "url": "https://arxiv.org/abs/2610.00253",
+    "publishedAt": "2026-10-02T04:00:00.000Z",
     "topic": "LLM",
-    "summary": "Contextual information in recommender systems is shifting from static, predefined variables toward latent representations inferred from behavior. Large language models support this shift by rendering an unstructured inte"
+    "summary": "Audits of AI visibility summarise the brand recommendations of deployed language models into per-system profiles. We test whether such a profile describes the system on one corpus of 6,475 stored responses (6,324 analysa"
   },
   {
-    "id": "arxiv-cs-ir-routing-between-generative-and-collaborative-user-profiles-a",
-    "headline": "Routing Between Generative and Collaborative User Profiles: A Serving-Time Gate for Controllable Novelty",
+    "id": "arxiv-cs-ir-a-shared-taste-for-model-written-text-the-generator-by-selec",
+    "headline": "A Shared Taste for Model-Written Text: The Generator-by-Selector Matrices of \"AI-AI Bias\" Show No Detectable Own-Model Premium",
     "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.39043",
-    "publishedAt": "2026-10-01T04:00:00.000Z",
-    "topic": "Cost",
-    "summary": "Large language models (LLMs) enable rich semantic user profiles for recommendation, but such profiles are more expensive to generate and are not necessarily desirable to deploy uniformly. We study whether LLM-generated p"
+    "url": "https://arxiv.org/abs/2610.00369",
+    "publishedAt": "2026-10-02T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Laurito et al. (PNAS 2025) showed that large language models choosing between two descriptions of the same product, paper or film prefer the description written by a language model over the one written by a person, by a "
+  },
+  {
+    "id": "arxiv-cs-ir-comparison-of-common-crawl-news-gdelt",
+    "headline": "Comparison of Common Crawl News & GDELT",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.00587",
+    "publishedAt": "2026-10-02T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "The corpus of worldwide news is important for natural language processing, knowledge graphs, large language models, and other technical efforts. Additionally, this corpus is important for understanding the people, places"
+  },
+  {
+    "id": "arxiv-cs-ir-canopy-adaptive-granularity-evidence-compression-for-multimo",
+    "headline": "CANOPY: Adaptive-Granularity Evidence Compression for Multimodal RAG",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.00923",
+    "publishedAt": "2026-10-02T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Multimodal RAG retrieves text, tables, images, and videos, but choosing a retrieval granularity does not determine how much context to retain within each item. Coarse units include irrelevant content, while uniformly fin"
+  },
+  {
+    "id": "arxiv-cs-ir-rptune-learned-context-curation-for-llm-catalog-search",
+    "headline": "RPTune: Learned Context Curation for LLM Catalog Search",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.00964",
+    "publishedAt": "2026-10-02T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "For small merchant businesses (SMBs) whose catalogs fit within a long-context LLM, full-catalog prompting offers a compelling alternative to multi-stage retrieval designed primarily for large marketplaces with millions o"
+  },
+  {
+    "id": "arxiv-cs-ir-do-multilingual-encoders-produce-language-consistent-semanti",
+    "headline": "Do Multilingual Encoders Produce Language-Consistent Semantic IDs?",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.01139",
+    "publishedAt": "2026-10-02T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Semantic IDs (SIDs) compress item embeddings into discrete code sequences used in generative retrieval. We ask whether a multilingual encoder is sufficient for different-language renderings of the same product to receive"
+  },
+  {
+    "id": "arxiv-cs-ir-from-rules-to-neural-graphs-scalable-structured-prediction-f",
+    "headline": "From Rules to Neural Graphs: Scalable Structured Prediction for Patent Prior Art Search",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.01553",
+    "publishedAt": "2026-10-02T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Patent search requires processing documents routinely exceeding tens of thousands of tokens. Most neural retrieval approaches operate on truncated inputs, limiting their effectiveness. Graph-based retrieval addresses thi"
   },
   {
     "id": "aws-machine-learning-blog-building-an-ai-powered-contract-intelligence-platform-with-a",
