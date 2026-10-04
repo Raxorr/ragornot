@@ -91,15 +91,6 @@
     "summary": "Learn how to use Engram effectively, from writing topic descriptions that control extraction to choosing bounded topics and scopes, selecting a retrieval mode, and placing memories in your prompt without hurting prompt-c"
   },
   {
-    "id": "simon-willison-s-blog-jev-introduces-a-new-shape-of-llm-system-one-aka-decision-mo",
-    "headline": "Jev introduces a new shape of LLM - System One, aka Decision Models",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Sep/21/jev/",
-    "publishedAt": "2026-09-21T23:09:20.000Z",
-    "topic": "LLM",
-    "summary": "Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an in"
-  },
-  {
     "id": "qdrant-blog-how-lucy-built-a-source-of-truth-retrieval-layer-for-2-8m-se",
     "headline": "How Lucy Built a Source-of-Truth Retrieval Layer for 2.8M+ SEC and DART Filings with Qdrant",
     "source": "Qdrant Blog",
