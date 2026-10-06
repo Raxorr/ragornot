@@ -1,5 +1,13 @@
 [
   {
+    "id": "hugging-face-blog-falcon-emirati-when-an-llm-learns-the-dialect-the-culture-an",
+    "headline": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+    "publishedAt": "2026-10-06T06:44:39.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "aws-machine-learning-blog-agentic-retrieval-with-langchain-and-amazon-bedrock-knowledg",
     "headline": "Agentic retrieval with LangChain and Amazon Bedrock Knowledge Bases",
     "source": "AWS Machine Learning Blog",
@@ -7,141 +15,6 @@
     "publishedAt": "2026-10-05T15:53:56.000Z",
     "topic": "RAG",
     "summary": "Build a Retrieval Augmented Generation (RAG) application on Amazon Bedrock Managed Knowledge Base with LangChain, and see how agentic retrieval handles the multi-part questions that single-shot retrieval answers poorly. "
-  },
-  {
-    "id": "arxiv-cs-cl-finding-the-move-is-not-winning-the-game-xiangqibench-for-cl",
-    "headline": "Finding the Move Is Not Winning the Game: XiangqiBench for Closed-Loop Evaluation of LLM Agents",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.02425",
-    "publishedAt": "2026-10-05T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Static evaluations credit a language model for naming the right move, but an agent must carry a plan through to a verified outcome while an opponent responds. We introduce XiangqiBench, an executable benchmark that measu"
-  },
-  {
-    "id": "arxiv-cs-cl-counterexample-generation-via-per-theorem-symbolic-verifiers",
-    "headline": "Counterexample Generation via Per-Theorem Symbolic Verifiers: When Imitation Hurts and Reinforcement Repairs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.02444",
-    "publishedAt": "2026-10-05T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models often solve a theorem forward yet fail to disprove a closely related false one: a falsification gap that supervised fine-tuning does not close and can actively worsen. We frame counterexample genera"
-  },
-  {
-    "id": "arxiv-cs-cl-cueing-user-simulators-calibrated-user-embeddings-for-multi-",
-    "headline": "CUEing User Simulators: Calibrated User Embeddings for Multi-Turn Benchmarking",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.02460",
-    "publishedAt": "2026-10-05T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Recent benchmarks rely on user simulators to evaluate AI agents in multi-turn interaction. While existing simulation techniques demonstrate surface fidelity to human style and behavior, ecologically valid interactive ben"
-  },
-  {
-    "id": "arxiv-cs-cl-apdmem-agent-controlled-progressive-disclosure-for-query-ada",
-    "headline": "APDMem: Agent-Controlled Progressive Disclosure for Query-Adaptive Long-Term Memory",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.02472",
-    "publishedAt": "2026-10-05T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Personalized LLM assistants must recover sparse evidence from long conversation histories across queries of varying complexity. We introduce APDMem (Agent-controlled Progressive Disclosure Memory), a hierarchical long-te"
-  },
-  {
-    "id": "arxiv-cs-cl-from-retrieval-to-typed-decisions-calibrated-system-one-mode",
-    "headline": "From Retrieval to Typed Decisions: Calibrated System One Models from Biomedical Sentence Encoders",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.02486",
-    "publishedAt": "2026-10-05T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Typed decision models answer schema-constrained questions about a text in one forward pass and return probabilities meant to be thresholded. We ask whether biomedical sentence encoders trained for retrieval are good star"
-  },
-  {
-    "id": "arxiv-cs-cl-evaluating-multi-dimensional-generalization-of-large-languag",
-    "headline": "Evaluating Multi-Dimensional Generalization of Large Language Models in Temporal Extraction Tasks",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.02549",
-    "publishedAt": "2026-10-05T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Time and event expression extraction are fundamental temporal reasoning tasks, but the problem remains difficult due to annotation ambiguity, domain sensitivity, and unstable model behavior. Existing evaluations focus on"
-  },
-  {
-    "id": "arxiv-cs-cl-silent-dissent-llm-agents-that-yield-to-the-majority-still-r",
-    "headline": "Silent Dissent: LLM Agents That Yield to the Majority Still Represent Their Original Premise",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.02702",
-    "publishedAt": "2026-10-05T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Multi-agent debate is increasingly used to reach consensus among LLM agents, yet agents often yield to a unanimous majority. When an agent changes its answer, has it changed its mind or only its statement? We study this "
-  },
-  {
-    "id": "arxiv-cs-cl-epiworld-grounding-llm-policy-agents-in-epidemiological-worl",
-    "headline": "EpiWorld: Grounding LLM Policy Agents in Epidemiological World Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.02744",
-    "publishedAt": "2026-10-05T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Epidemic intervention policies are textual artefacts that human decision-makers interpret, justify, and revise through natural language, making large language models a natural candidate for epidemic policy reasoning. A n"
-  },
-  {
-    "id": "arxiv-cs-ir-adaptive-sparsity-optimization-with-learnable-soft-top-k-and",
-    "headline": "Adaptive Sparsity Optimization with Learnable Soft Top-K and Per-Term Thresholding for Efficient Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.02572",
-    "publishedAt": "2026-10-05T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Recent work on neural sparse retrieval has demonstrated strong relevance by leveraging Large Language Models (LLMs) for semantic term expansion. However, learned models paired with previous sparsification techniques stil"
-  },
-  {
-    "id": "arxiv-cs-ir-when-history-misleads-asymmetric-margin-supervision-for-inst",
-    "headline": "When History Misleads: Asymmetric Margin Supervision for Instruction-Guided LLM Generative Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.02600",
-    "publishedAt": "2026-10-05T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "In instruction-guided generative recommendation, LLM-based recommenders need to balance two goals: responding to the user's current request and aligning with the preferences in their interaction history. When the two con"
-  },
-  {
-    "id": "arxiv-cs-ir-learning-query-encoders-can-be-hard-even-when-vector-retriev",
-    "headline": "Learning Query Encoders Can Be Hard Even When Vector Retrieval Is Geometrically Easy",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.02749",
-    "publishedAt": "2026-10-05T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Efficient vector retrieval requires both a corpus geometry that supports retrieving the right documents through vector similarity, and a query encoder that can embed queries near their desired documents in the embedding "
-  },
-  {
-    "id": "arxiv-cs-ir-on-premises-multi-course-rag-tutoring-for-business-education",
-    "headline": "On-Premises Multi-Course RAG Tutoring for Business Education: Hardware-Software Trade-offs in a Campus AI Tutor",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.02510",
-    "publishedAt": "2026-10-05T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Campus AI tutors based on retrieval-augmented generation (RAG) must ground answers in assigned course materials while keeping textbooks and student dialogue on institutional infrastructure. We present CourseChat, an on-p"
-  },
-  {
-    "id": "arxiv-cs-ir-mrvq-one-resident-index-for-dimension-and-rate-elastic-vecto",
-    "headline": "MRVQ: One Resident Index for Dimension- and Rate-Elastic Vector Search",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.03651",
-    "publishedAt": "2026-10-05T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Dense-retrieval services must switch among embedding-prefix dimensions and index bit rates as latency, quality, and memory budgets change. Tuning a quantizer separately for each rate gives the best quality, but the retri"
-  },
-  {
-    "id": "arxiv-cs-ir-more-efficient-llm-reranking-with-whole-pool-setwise-long-co",
-    "headline": "More Efficient LLM Reranking with Whole-Pool, Setwise, Long-Context Language Models",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2606.01782",
-    "publishedAt": "2026-10-05T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "LLM-based re-rankers produce a rankings through repeated local comparisons (listwise, pairwise or pointwise), requiring many sequential model calls. We study how long-context LLMs can drastically reduce this computation "
-  },
-  {
-    "id": "arxiv-cs-ir-learning-to-route-in-visual-space-via-multi-step-embedding-r",
-    "headline": "Learning to Route in Visual Space via Multi-Step Embedding Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.38743",
-    "publishedAt": "2026-10-05T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "LLM agents rely on retrieval tools to access external knowledge, yet visual agentic search remains severely bottlenecked by standard single-step retrievers. In current pipelines, the agent must issue text queries for eve"
   },
   {
     "id": "aws-machine-learning-blog-fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagema",
@@ -456,14 +329,6 @@
     "publishedAt": "2026-07-08T00:00:00.000Z",
     "topic": "RAG",
     "summary": "TL;DR Elastic recently published a benchmark claiming that their proprietary, disk-based index (dubbed “DiskBBQ”) delivers up to 7x higher throughput than Qdrant when deployed on nodes with network-attached storage. Elas"
-  },
-  {
-    "id": "hugging-face-blog-run-ai-workloads-on-any-cloud-store-on-hugging-face-zero-egr",
-    "headline": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/skypilot-hf-storage",
-    "publishedAt": "2026-07-07T00:00:00.000Z",
-    "topic": "RAG"
   },
   {
     "id": "ahead-of-ai-using-local-coding-agents",
