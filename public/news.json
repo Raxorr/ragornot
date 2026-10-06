@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-agentic-retrieval-with-langchain-and-amazon-bedrock-knowledg",
+    "headline": "Agentic retrieval with LangChain and Amazon Bedrock Knowledge Bases",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases/",
+    "publishedAt": "2026-10-05T15:53:56.000Z",
+    "topic": "RAG",
+    "summary": "Build a Retrieval Augmented Generation (RAG) application on Amazon Bedrock Managed Knowledge Base with LangChain, and see how agentic retrieval handles the multi-part questions that single-shot retrieval answers poorly. "
+  },
+  {
     "id": "arxiv-cs-cl-finding-the-move-is-not-winning-the-game-xiangqibench-for-cl",
     "headline": "Finding the Move Is Not Winning the Game: XiangqiBench for Closed-Loop Evaluation of LLM Agents",
     "source": "arXiv (cs.CL)",
@@ -144,24 +153,6 @@
     "summary": "Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model at lower latency and cost. In this post, we fine-tune an LLM-powered search agent with multi-turn reinfor"
   },
   {
-    "id": "aws-machine-learning-blog-building-an-ai-powered-contract-intelligence-platform-with-a",
-    "headline": "Building an AI-powered contract intelligence platform with Amazon Quick and Amazon Bedrock AgentCore",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-contract-intelligence-platform-with-amazon-quick-and-amazon-bedrock-agentcore/",
-    "publishedAt": "2026-09-29T16:14:24.000Z",
-    "topic": "RAG",
-    "summary": "Manually extracting data from hundreds of vendor contracts doesn't scale, and RAG chat tools fall short on portfolio-wide questions. This post shares a contract intelligence platform on AWS that uses AI agents to extract"
-  },
-  {
-    "id": "aws-machine-learning-blog-how-cond-nast-built-multimodal-video-discovery-with-amazon-b",
-    "headline": "How Condé Nast built multimodal video discovery with Amazon Bedrock",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/how-conde-nast-built-multimodal-video-discovery-with-amazon-bedrock/",
-    "publishedAt": "2026-09-29T15:55:17.000Z",
-    "topic": "RAG",
-    "summary": "Condé Nast's editorial teams spent an average of 250 minutes per task searching a library of more than 140,000 videos using only titles and descriptions. Working with the AWS Generative AI Innovation Center, they built a"
-  },
-  {
     "id": "ahead-of-ai-language-models-for-text-classification-from-bag-of-words-to",
     "headline": "Language Models for Text Classification: From Bag-of-Words to Jev",
     "source": "Ahead of AI",
@@ -181,6 +172,15 @@
     "summary": "As query traffic grows, so does the compute bill for embedding it. On a low-power device, a large model may not fit in memory. A smaller query model could reduce that cost, but switching usually means re-embedding the co"
   },
   {
+    "id": "simon-willison-s-blog-llm-anthropic-0-30",
+    "headline": "llm-anthropic 0.30",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Sep/28/llm-anthropic/",
+    "publishedAt": "2026-09-28T23:06:21.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm-anthropic 0.30 In addition to Claude Sonnet 5.5, this release adds the ability to run llm anthropic refresh to refresh the list of Anthropic models directly from their API - which means I don't need to push "
+  },
+  {
     "id": "simon-willison-s-blog-2026-in-llms-so-far",
     "headline": "2026 in LLMs (so far)",
     "source": "Simon Willison's Blog",
@@ -188,33 +188,6 @@
     "publishedAt": "2026-09-27T23:54:15.000Z",
     "topic": "LLM",
     "summary": "On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026"
-  },
-  {
-    "id": "simon-willison-s-blog-llm-0-36",
-    "headline": "llm 0.36",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Sep/22/llm/",
-    "publishedAt": "2026-09-22T18:48:37.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises l"
-  },
-  {
-    "id": "simon-willison-s-blog-llm-anthropic-0-29",
-    "headline": "llm-anthropic 0.29",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
-    "publishedAt": "2026-09-22T17:14:55.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic"
-  },
-  {
-    "id": "simon-willison-s-blog-llm-typesafe-0-1a0",
-    "headline": "llm-typesafe 0.1a0",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
-    "publishedAt": "2026-09-22T15:54:16.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model . Install it like this: llm install llm-typesafe Then set an API key ( get one here , the waitlist seems to move "
   },
   {
     "id": "weaviate-blog-agent-memory-with-engram-a-practical-guide",
