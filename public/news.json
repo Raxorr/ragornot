@@ -1,11 +1,46 @@
 [
   {
+    "id": "simon-willison-s-blog-embeddinggemma-2",
+    "headline": "EmbeddingGemma 2",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
+    "publishedAt": "2026-10-06T20:37:53.000Z",
+    "topic": "LLM",
+    "summary": "My comment on EmbeddingGemma 2 &mdash; Hacker News. I really appreciate that EmbeddingGemma 2 is under the Apache 2.0 license. For embedding models in particular, I don't think it makes sense to use a closed, proprietary"
+  },
+  {
+    "id": "deepmind-blog-embeddinggemma-2-an-open-lightweight-multimodal-embedding-mo",
+    "headline": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+    "source": "DeepMind Blog",
+    "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+    "publishedAt": "2026-10-06T19:57:04.000Z",
+    "topic": "AI"
+  },
+  {
+    "id": "simon-willison-s-blog-mistral-large-4",
+    "headline": "Mistral Large 4",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
+    "publishedAt": "2026-10-06T18:20:58.000Z",
+    "topic": "LLM",
+    "summary": "My comment on Mistral Large 4 &mdash; Hacker News. wren6991 : The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m clau"
+  },
+  {
     "id": "hugging-face-blog-falcon-emirati-when-an-llm-learns-the-dialect-the-culture-an",
     "headline": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
     "publishedAt": "2026-10-06T06:44:39.000Z",
     "topic": "LLM"
+  },
+  {
+    "id": "qdrant-blog-how-small-can-google-s-new-embeddinggemma-2-get",
+    "headline": "How Small Can Google's New EmbeddingGemma 2 Get?",
+    "source": "Qdrant Blog",
+    "url": "https://qdrant.tech/blog/embeddinggemma-2/",
+    "publishedAt": "2026-10-06T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Google&rsquo;s new EmbeddingGemma 2 can run on a phone. The model travels light. The vectors need their own suitcase. At 10 million documents, full-size float32 vectors alone take 30.7 GB of RAM. We got early access ahea"
   },
   {
     "id": "aws-machine-learning-blog-agentic-retrieval-with-langchain-and-amazon-bedrock-knowledg",
@@ -376,15 +411,6 @@
     "publishedAt": "2026-05-21T00:00:00.000Z",
     "topic": "RAG",
     "summary": "Use Weaviate's built-in MCP server to give Claude Code, Cursor, and VS Code hybrid search over your codebase and docs. No glue code."
-  },
-  {
-    "id": "qdrant-blog-how-goperfect-built-an-agentic-recruiting-workforce-with-qdr",
-    "headline": "How GoPerfect Built an Agentic Recruiting Workforce with Qdrant Cloud",
-    "source": "Qdrant Blog",
-    "url": "https://qdrant.tech/blog/case-study-go-perfect/",
-    "publishedAt": "2026-05-19T00:00:00.000Z",
-    "topic": "RAG",
-    "summary": "GoPerfect mission is to use an AI recruiting workforce that replaces the manual, low-leverage parts of recruiting. Instead, an agent decomposes recruiter intent and runs the work end to end to find top talent. Their agen"
   },
   {
     "id": "ahead-of-ai-recent-developments-in-llm-architectures-kv-sharing-mhc-and-",
