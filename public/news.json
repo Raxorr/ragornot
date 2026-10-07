@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-llm-mistral-0-16",
+    "headline": "llm-mistral 0.16",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+    "publishedAt": "2026-10-06T21:32:34.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning"
+  },
+  {
     "id": "simon-willison-s-blog-embeddinggemma-2",
     "headline": "EmbeddingGemma 2",
     "source": "Simon Willison's Blog",
