@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-rethinking-access-control-for-rag-with-amazon-quick-and-amaz",
+    "headline": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+    "publishedAt": "2026-10-07T18:34:44.000Z",
+    "topic": "RAG",
+    "summary": "Enterprise RAG unlocks insights from knowledge sources like SharePoint, Google Drive, and Confluence, but those sources carry complex permissions. Learn how Amazon Quick and Amazon Bedrock Knowledge Bases enforce documen"
+  },
+  {
     "id": "arxiv-cs-cl-zero-shot-visualization-exploring-text-corpora-with-user-pro",
     "headline": "Zero-Shot Visualization: Exploring Text Corpora with User-Prompted Axes",
     "source": "arXiv (cs.CL)",
@@ -204,15 +213,6 @@
     "publishedAt": "2026-10-05T15:53:56.000Z",
     "topic": "RAG",
     "summary": "Build a Retrieval Augmented Generation (RAG) application on Amazon Bedrock Managed Knowledge Base with LangChain, and see how agentic retrieval handles the multi-part questions that single-shot retrieval answers poorly. "
-  },
-  {
-    "id": "aws-machine-learning-blog-fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagema",
-    "headline": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/",
-    "publishedAt": "2026-10-02T15:44:20.000Z",
-    "topic": "Cost",
-    "summary": "Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model at lower latency and cost. In this post, we fine-tune an LLM-powered search agent with multi-turn reinfor"
   },
   {
     "id": "ahead-of-ai-language-models-for-text-classification-from-bag-of-words-to",
