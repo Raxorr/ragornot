@@ -1,5 +1,158 @@
 [
   {
+    "id": "arxiv-cs-cl-zero-shot-visualization-exploring-text-corpora-with-user-pro",
+    "headline": "Zero-Shot Visualization: Exploring Text Corpora with User-Prompted Axes",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.06889",
+    "publishedAt": "2026-10-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "We study the application of large language models (LLMs) to the visual exploration of textual corpora. We introduce zero-shot visualization (ZSV), a task in which users specify concepts in natural language and documents "
+  },
+  {
+    "id": "arxiv-cs-cl-tree-navigation-without-llm-summaries-a-matched-cost-study-o",
+    "headline": "Tree Navigation Without LLM Summaries: A Matched-Cost Study of Hierarchical Retrieval for Long-Document QA",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.06902",
+    "publishedAt": "2026-10-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-augmented generation grounds language models in external context, but for long documents flat top-$k$ retrieval can cluster on a single region and miss complementary evidence. RAPTOR-style summary trees address"
+  },
+  {
+    "id": "arxiv-cs-cl-component-and-dimension-sparsity-in-transformer-refusal-mech",
+    "headline": "Component and Dimension Sparsity in Transformer Refusal Mechanisms",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.06903",
+    "publishedAt": "2026-10-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Activation steering manipulates large language model behavior by intervening on internal activations, but the mechanistic basis of these interventions remains poorly understood. We decompose refusal steering into compone"
+  },
+  {
+    "id": "arxiv-cs-cl-waveprune-one-period-is-often-enough-for-rope",
+    "headline": "WavePrune: One period is often enough for RoPE",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.06963",
+    "publishedAt": "2026-10-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Rotary Position Embedding (RoPE) encodes token positions by rotating each two-dimensional channel of the query and key vectors at a channel-specific frequency, making the attention logits invariant to a common shift of p"
+  },
+  {
+    "id": "arxiv-cs-cl-judgemoe-distributional-aggregation-for-llm-as-a-judge",
+    "headline": "JudgeMoE: Distributional Aggregation for LLM-as-a-Judge",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.07109",
+    "publishedAt": "2026-10-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "When an LLM judge scores an output, its score distribution retains uncertainty and disagreement information that is lost after scalar compression. We introduce JudgeMoE, a lightweight aggregator that assigns example-spec"
+  },
+  {
+    "id": "arxiv-cs-cl-identifying-introspection-from-the-inside",
+    "headline": "Identifying Introspection From the Inside",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.07186",
+    "publishedAt": "2026-10-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models make claims about themselves that are both consequential and increasingly difficult to verify from behavior alone. How can we distinguish plausible confabulations from genuine introspection? In this"
+  },
+  {
+    "id": "arxiv-cs-cl-who-wrote-it-is-not-enough-detecting-who-contributed-the-ins",
+    "headline": "Who Wrote It Is Not Enough: Detecting Who Contributed the Insight",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.07365",
+    "publishedAt": "2026-10-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "As LLMs increasingly assist scientific writing and peer review, detecting who wrote the text is no longer sufficient: we need to determine who contributed the underlying insight. We introduce Insight Provenance, the task"
+  },
+  {
+    "id": "arxiv-cs-cl-householdbench-evaluating-large-language-models-as-predictor",
+    "headline": "HouseholdBench: Evaluating Large Language Models as Predictors of Household Economic Behavior",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.07563",
+    "publishedAt": "2026-10-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) have the potential to meet a key goal in economics: a quantitative model of household decision making, across a variety of settings. Yet existing evaluations cover few surveys and outcomes, a"
+  },
+  {
+    "id": "arxiv-cs-ir-ragflip-measuring-query-level-negative-flips-in-retriever-up",
+    "headline": "RAGFlip: Measuring Query-Level Negative Flips in Retriever Upgrades",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.07266",
+    "publishedAt": "2026-10-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retriever upgrades are typically evaluated using aggregate metrics, which can hide regressions on queries the previous retriever already served correctly. We study these regressions as negative flips: queries for which B"
+  },
+  {
+    "id": "arxiv-cs-ir-a-study-of-prior-case-retrieval-using-lexical-semantic-and-r",
+    "headline": "A Study of Prior Case Retrieval Using Lexical, Semantic, and Rhetorical Role Information in Indian Legal Documents",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.07437",
+    "publishedAt": "2026-10-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "For retrieving prior cases in Indian legal judgments, the problem involves distinguishing relevant legal facts from mere lexical similarities because a prior case that shares a statute with the query judgment is not nece"
+  },
+  {
+    "id": "arxiv-cs-ir-dbrag-multi-table-retrieval-augmented-generation-for-complex",
+    "headline": "DBRAG: Multi-Table Retrieval-Augmented Generation for Complex Database Queries",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.07622",
+    "publishedAt": "2026-10-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Recent advancements in large language models have introduced new capabilities for reasoning over structured data, particularly through program-aided tools that can analyze tables. However, many existing methods address s"
+  },
+  {
+    "id": "arxiv-cs-ir-token-budgeted-escalation-for-financial-document-qa-cost-is-",
+    "headline": "Token-Budgeted Escalation for Financial Document QA: Cost Is Predictable, Benefit Is the Bottleneck",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.07760",
+    "publishedAt": "2026-10-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-augmented generation systems can route difficult queries to deeper context, but batch deployments must allocate a shared token budget across calls whose costs vary by query. We formulate selective escalation as"
+  },
+  {
+    "id": "arxiv-cs-ir-from-delivery-to-stateful-exploration-rethinking-the-index-f",
+    "headline": "From Delivery to Stateful Exploration: Rethinking the Index for Agentic Search",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.07960",
+    "publishedAt": "2026-10-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Recent advances in agentic search have given large language model (LLM) agents finer control over corpus exploration. However, search interfaces often return matching passages even when feedback about the candidate set w"
+  },
+  {
+    "id": "arxiv-cs-ir-diff-sql-sql-efficiency-optimization-via-patch-generation-an",
+    "headline": "Diff-SQL: SQL Efficiency Optimization via Patch Generation and Constraint Alignment",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.06857",
+    "publishedAt": "2026-10-07T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "SQL efficiency optimization aims to transform slow queries into semantically equivalent but faster alternatives. However, directly optimizing SQL with large language models in an end-to-end fashion often induces Objectiv"
+  },
+  {
+    "id": "arxiv-cs-ir-the-right-memory-in-the-wrong-context-verifying-retrieval-ad",
+    "headline": "The Right Memory in the Wrong Context: Verifying Retrieval Admissibility in Long-Term Agent Memory",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.07309",
+    "publishedAt": "2026-10-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Long-term-memory agents can retrieve relevant information that is inadmissible for the current request because it belongs to another principal, violates policy, or reflects an incompatible lifecycle state. Recall and fin"
+  },
+  {
+    "id": "arxiv-cs-ir-wildmatch-weakly-supervised-image-matcher-adaptation-for-wil",
+    "headline": "WildMatch: Weakly Supervised Image Matcher Adaptation for Wildlife Re-Identification",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.07384",
+    "publishedAt": "2026-10-07T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Individual animal re-identification from camera-trap imagery is an instance retrieval problem central to non-invasive wildlife monitoring: a query image must retrieve the correct individual from a reference set of known "
+  },
+  {
+    "id": "simon-willison-s-blog-llm-openai-decisions-0-1a0",
+    "headline": "llm-openai-decisions 0.1a0",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+    "publishedAt": "2026-10-06T23:04:13.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm-openai-decisions 0.1a0 OpenAI released their new Jev-style Decisions API , as previously announced at last week's DevDay. Since I already have an llm-typesafe plugin for talking to Jev, I had GPT-6 Astra rea"
+  },
+  {
     "id": "simon-willison-s-blog-llm-mistral-0-16",
     "headline": "llm-mistral 0.16",
     "source": "Simon Willison's Blog",
