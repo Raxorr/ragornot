@@ -243,15 +243,6 @@
     "summary": "Release: llm-anthropic 0.30 In addition to Claude Sonnet 5.5, this release adds the ability to run llm anthropic refresh to refresh the list of Anthropic models directly from their API - which means I don't need to push "
   },
   {
-    "id": "simon-willison-s-blog-2026-in-llms-so-far",
-    "headline": "2026 in LLMs (so far)",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
-    "publishedAt": "2026-09-27T23:54:15.000Z",
-    "topic": "LLM",
-    "summary": "On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 2026"
-  },
-  {
     "id": "weaviate-blog-agent-memory-with-engram-a-practical-guide",
     "headline": "Agent Memory with Engram: A Practical Guide",
     "source": "Weaviate Blog",
