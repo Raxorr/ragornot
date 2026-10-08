@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-tokka-bench-evaluating-tokenizers-across-100-natural-and-20-",
+    "headline": "Tokka-Bench: Evaluating Tokenizers Across 100 Natural and 20 Programming Languages",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.08794",
+    "publishedAt": "2026-10-08T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models rely on subword tokenizers whose quality varies across languages, yet no standardized multi-metric framework exists for broad comparative evaluation. We introduce Tokka-Bench, an open-source framewo"
+  },
+  {
+    "id": "arxiv-cs-cl-leveraging-llm-generated-explanations-for-detecting-emotiona",
+    "headline": "Leveraging LLM-Generated Explanations for Detecting Emotionally Rewritten Fake News",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.08835",
+    "publishedAt": "2026-10-08T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "The spread of fake news may cause severe social consequences. Existing fake news detection methods mainly focus on stylistic variations or incorporate external information such as explanations. However, news articles are"
+  },
+  {
+    "id": "arxiv-cs-cl-beyond-the-sycophancy-score-how-task-model-and-pressure-shap",
+    "headline": "Beyond the Sycophancy Score: How Task, Model, and Pressure Shape LLM Yielding",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.08840",
+    "publishedAt": "2026-10-08T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) often abandon a correct answer, or endorse a user's position, once the user pushes back. This behavior, called sycophancy, is usually reported as a single rate per model, which says little ab"
+  },
+  {
+    "id": "arxiv-cs-cl-quad-state-safety-evaluation-of-open-weight-large-language-m",
+    "headline": "Quad-State Safety Evaluation of Open-Weight Large Language Models on Non-Canonical Inputs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.09033",
+    "publishedAt": "2026-10-08T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Standard safety evaluations of large language models assess harmful requests written in canonical plain text, while models in real-world deployment routinely receive inputs containing emojis, altered spellings, encoded s"
+  },
+  {
+    "id": "arxiv-cs-cl-u-space-uncovering-when-and-why-uncertainty-arises-in-langua",
+    "headline": "U-Space: Uncovering When and Why Uncertainty Arises in Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.09087",
+    "publishedAt": "2026-10-08T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models are informing decisions with ever-higher stakes. As the consequences of their errors grow, a central question becomes harder to ignore: how much can we trust an individual answer? Yet recognizing wh"
+  },
+  {
+    "id": "arxiv-cs-cl-sk-bench-a-native-first-benchmark-for-evaluating-large-langu",
+    "headline": "sk-bench: A Native-First Benchmark for Evaluating Large Language Models in Slovak",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.09152",
+    "publishedAt": "2026-10-08T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Multilingual LLM benchmarks omit Slovak, a morphologically rich West Slavic language of five million speakers, or cover it only by machine translation. We present sk-bench, a native-first Slovak benchmark with 30 dataset"
+  },
+  {
+    "id": "arxiv-cs-cl-toolracer-a-robust-agentic-conversation-emulation-resource-f",
+    "headline": "ToolRACER: A Robust Agentic Conversation Emulation Resource for Agent Training and Evaluation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.09163",
+    "publishedAt": "2026-10-08T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Task-oriented conversational agents remain fragile under real world conversation scenarios as they rarely follow a predictable script, especially when users exhibit non-cooperative behavior. Existing function-calling ben"
+  },
+  {
+    "id": "arxiv-cs-cl-multi-objective-aligned-small-language-model-framework-for-s",
+    "headline": "Multi-Objective Aligned Small Language Model Framework for SUD Patient Dialogue Generation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.09209",
+    "publishedAt": "2026-10-08T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Substance Use Disorder (SUD) counseling requires patient responses that reflect underlying cognitive states such as beliefs, coping strategies, and readiness for change. Although large language models (LLMs) can generate"
+  },
+  {
+    "id": "arxiv-cs-ir-trustworthy-domain-specific-ai-for-structured-knowledge-retr",
+    "headline": "Trustworthy Domain-Specific AI for Structured Knowledge Retrieval and Reasoning",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.08894",
+    "publishedAt": "2026-10-08T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "This dissertation presents a scalable architecture for transforming unstructured, domain-specific text into structured knowledge for retrieval and reasoning. It integrates semi-automatic corpus curation, semantic structu"
+  },
+  {
+    "id": "arxiv-cs-ir-what-transfers-from-a-vlm-teacher-comparing-supervision-sign",
+    "headline": "What Transfers from a VLM Teacher? Comparing Supervision Signals for Visual Document Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.09177",
+    "publishedAt": "2026-10-08T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Visual document retrievers are trained contrastively: each query is matched to one page labelled relevant - the positive - and pushed away from negatives, pages presumed irrelevant. Recent methods distil a vision-languag"
+  },
+  {
+    "id": "arxiv-cs-ir-from-chunks-to-functional-evidence-function-aware-retrieval-",
+    "headline": "From Chunks to Functional Evidence: Function-Aware Retrieval for EDA Documentation QA",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.09361",
+    "publishedAt": "2026-10-08T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-Augmented Generation (RAG) is widely used to ground answers in documents. For complex technical documentation, however, the primary bottleneck is often not model reasoning but a mismatch between a query and the"
+  },
+  {
+    "id": "arxiv-cs-ir-the-impact-of-backbone-evolution-on-llm-based-relevance-asse",
+    "headline": "The Impact of Backbone Evolution on LLM-Based Relevance Assessments",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.09820",
+    "publishedAt": "2026-10-08T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "LLMs are evolving rapidly, with newer models offering stronger capabilities. This suggests that in LLM-based relevance judging, more capable models will achieve higher agreement with human judgements under the same promp"
+  },
+  {
+    "id": "arxiv-cs-ir-does-document-structure-help-dense-retrieval-a-placebo-contr",
+    "headline": "Does Document Structure Help Dense Retrieval? A Placebo-Controlled Ablation of Four Mechanisms Across Two Corpora",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.10170",
+    "publishedAt": "2026-10-08T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-augmented generation systems increasingly rely on document-structure treatments: structure-aligned chunking, LLM-generated chunk contexts, heading-path metadata, and hierarchical two-stage retrieval. Separate s"
+  },
+  {
+    "id": "arxiv-cs-ir-from-high-recall-to-high-utility-dataset-adaptive-post-proce",
+    "headline": "From High Recall to High Utility: Dataset-Adaptive Post-Processing of LLM-Generated Customer Intents",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.09039",
+    "publishedAt": "2026-10-08T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models can extract useful signals from heterogeneous enterprise data, but high-recall extraction often produces outputs that are duplicated, uneven in granularity, semantically overlapping, or too numerous"
+  },
+  {
+    "id": "arxiv-cs-ir-soccernet-foulret-retrieving-semantically-similar-soccer-fou",
+    "headline": "SoccerNet-FoulRet: Retrieving Semantically Similar Soccer Foul Videos",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.09742",
+    "publishedAt": "2026-10-08T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Refereeing decisions in professional soccer remain inconsistent because referees cannot easily compare a contentious foul against similar past cases. We cast this as a retrieval problem and introduce SoccerNet-FoulRet, t"
+  },
+  {
+    "id": "arxiv-cs-ir-listwise-explanation-of-embedding-based-rankings-via-semanti",
+    "headline": "Listwise Explanation of Embedding-Based Rankings via Semantic Chunk Grouping",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2606.27980",
+    "publishedAt": "2026-10-08T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Dense embedding rankers score documents through contextual sentence- and passage-level representations, yet listwise explanation methods often attribute rankings to isolated words. We study this mismatch and introduce Ch"
+  },
+  {
     "id": "aws-machine-learning-blog-rethinking-access-control-for-rag-with-amazon-quick-and-amaz",
     "headline": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock",
     "source": "AWS Machine Learning Blog",
@@ -7,150 +151,6 @@
     "publishedAt": "2026-10-07T18:34:44.000Z",
     "topic": "RAG",
     "summary": "Enterprise RAG unlocks insights from knowledge sources like SharePoint, Google Drive, and Confluence, but those sources carry complex permissions. Learn how Amazon Quick and Amazon Bedrock Knowledge Bases enforce documen"
-  },
-  {
-    "id": "arxiv-cs-cl-zero-shot-visualization-exploring-text-corpora-with-user-pro",
-    "headline": "Zero-Shot Visualization: Exploring Text Corpora with User-Prompted Axes",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.06889",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "We study the application of large language models (LLMs) to the visual exploration of textual corpora. We introduce zero-shot visualization (ZSV), a task in which users specify concepts in natural language and documents "
-  },
-  {
-    "id": "arxiv-cs-cl-tree-navigation-without-llm-summaries-a-matched-cost-study-o",
-    "headline": "Tree Navigation Without LLM Summaries: A Matched-Cost Study of Hierarchical Retrieval for Long-Document QA",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.06902",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-augmented generation grounds language models in external context, but for long documents flat top-$k$ retrieval can cluster on a single region and miss complementary evidence. RAPTOR-style summary trees address"
-  },
-  {
-    "id": "arxiv-cs-cl-component-and-dimension-sparsity-in-transformer-refusal-mech",
-    "headline": "Component and Dimension Sparsity in Transformer Refusal Mechanisms",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.06903",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Activation steering manipulates large language model behavior by intervening on internal activations, but the mechanistic basis of these interventions remains poorly understood. We decompose refusal steering into compone"
-  },
-  {
-    "id": "arxiv-cs-cl-waveprune-one-period-is-often-enough-for-rope",
-    "headline": "WavePrune: One period is often enough for RoPE",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.06963",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Rotary Position Embedding (RoPE) encodes token positions by rotating each two-dimensional channel of the query and key vectors at a channel-specific frequency, making the attention logits invariant to a common shift of p"
-  },
-  {
-    "id": "arxiv-cs-cl-judgemoe-distributional-aggregation-for-llm-as-a-judge",
-    "headline": "JudgeMoE: Distributional Aggregation for LLM-as-a-Judge",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.07109",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "When an LLM judge scores an output, its score distribution retains uncertainty and disagreement information that is lost after scalar compression. We introduce JudgeMoE, a lightweight aggregator that assigns example-spec"
-  },
-  {
-    "id": "arxiv-cs-cl-identifying-introspection-from-the-inside",
-    "headline": "Identifying Introspection From the Inside",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.07186",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models make claims about themselves that are both consequential and increasingly difficult to verify from behavior alone. How can we distinguish plausible confabulations from genuine introspection? In this"
-  },
-  {
-    "id": "arxiv-cs-cl-who-wrote-it-is-not-enough-detecting-who-contributed-the-ins",
-    "headline": "Who Wrote It Is Not Enough: Detecting Who Contributed the Insight",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.07365",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "As LLMs increasingly assist scientific writing and peer review, detecting who wrote the text is no longer sufficient: we need to determine who contributed the underlying insight. We introduce Insight Provenance, the task"
-  },
-  {
-    "id": "arxiv-cs-cl-householdbench-evaluating-large-language-models-as-predictor",
-    "headline": "HouseholdBench: Evaluating Large Language Models as Predictors of Household Economic Behavior",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.07563",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) have the potential to meet a key goal in economics: a quantitative model of household decision making, across a variety of settings. Yet existing evaluations cover few surveys and outcomes, a"
-  },
-  {
-    "id": "arxiv-cs-ir-ragflip-measuring-query-level-negative-flips-in-retriever-up",
-    "headline": "RAGFlip: Measuring Query-Level Negative Flips in Retriever Upgrades",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.07266",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retriever upgrades are typically evaluated using aggregate metrics, which can hide regressions on queries the previous retriever already served correctly. We study these regressions as negative flips: queries for which B"
-  },
-  {
-    "id": "arxiv-cs-ir-a-study-of-prior-case-retrieval-using-lexical-semantic-and-r",
-    "headline": "A Study of Prior Case Retrieval Using Lexical, Semantic, and Rhetorical Role Information in Indian Legal Documents",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.07437",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "For retrieving prior cases in Indian legal judgments, the problem involves distinguishing relevant legal facts from mere lexical similarities because a prior case that shares a statute with the query judgment is not nece"
-  },
-  {
-    "id": "arxiv-cs-ir-dbrag-multi-table-retrieval-augmented-generation-for-complex",
-    "headline": "DBRAG: Multi-Table Retrieval-Augmented Generation for Complex Database Queries",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.07622",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Recent advancements in large language models have introduced new capabilities for reasoning over structured data, particularly through program-aided tools that can analyze tables. However, many existing methods address s"
-  },
-  {
-    "id": "arxiv-cs-ir-token-budgeted-escalation-for-financial-document-qa-cost-is-",
-    "headline": "Token-Budgeted Escalation for Financial Document QA: Cost Is Predictable, Benefit Is the Bottleneck",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.07760",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-augmented generation systems can route difficult queries to deeper context, but batch deployments must allocate a shared token budget across calls whose costs vary by query. We formulate selective escalation as"
-  },
-  {
-    "id": "arxiv-cs-ir-from-delivery-to-stateful-exploration-rethinking-the-index-f",
-    "headline": "From Delivery to Stateful Exploration: Rethinking the Index for Agentic Search",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.07960",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Recent advances in agentic search have given large language model (LLM) agents finer control over corpus exploration. However, search interfaces often return matching passages even when feedback about the candidate set w"
-  },
-  {
-    "id": "arxiv-cs-ir-diff-sql-sql-efficiency-optimization-via-patch-generation-an",
-    "headline": "Diff-SQL: SQL Efficiency Optimization via Patch Generation and Constraint Alignment",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.06857",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "SQL efficiency optimization aims to transform slow queries into semantically equivalent but faster alternatives. However, directly optimizing SQL with large language models in an end-to-end fashion often induces Objectiv"
-  },
-  {
-    "id": "arxiv-cs-ir-the-right-memory-in-the-wrong-context-verifying-retrieval-ad",
-    "headline": "The Right Memory in the Wrong Context: Verifying Retrieval Admissibility in Long-Term Agent Memory",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.07309",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Long-term-memory agents can retrieve relevant information that is inadmissible for the current request because it belongs to another principal, violates policy, or reflects an incompatible lifecycle state. Recall and fin"
-  },
-  {
-    "id": "arxiv-cs-ir-wildmatch-weakly-supervised-image-matcher-adaptation-for-wil",
-    "headline": "WildMatch: Weakly Supervised Image Matcher Adaptation for Wildlife Re-Identification",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.07384",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Individual animal re-identification from camera-trap imagery is an instance retrieval problem central to non-invasive wildlife monitoring: a query image must retrieve the correct individual from a reference set of known "
   },
   {
     "id": "simon-willison-s-blog-llm-openai-decisions-0-1a0",
