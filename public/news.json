@@ -1,5 +1,13 @@
 [
   {
+    "id": "hacker-news-show-hn-liquid-inference-auto-routing-to-competitive-llm-mar",
+    "headline": "Show HN: Liquid Inference – auto-routing to competitive LLM marketplace",
+    "source": "Hacker News",
+    "url": "https://liquidinference.ai/",
+    "publishedAt": "2026-10-09T14:52:04.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "arxiv-cs-cl-large-language-model-assisted-preparation-of-transportation-",
     "headline": "Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System",
     "source": "arXiv (cs.CL)",
@@ -222,15 +230,6 @@
     "summary": "Google&rsquo;s new EmbeddingGemma 2 can run on a phone. The model travels light. The vectors need their own suitcase. At 10 million documents, full-size float32 vectors alone take 30.7 GB of RAM. We got early access ahea"
   },
   {
-    "id": "aws-machine-learning-blog-agentic-retrieval-with-langchain-and-amazon-bedrock-knowledg",
-    "headline": "Agentic retrieval with LangChain and Amazon Bedrock Knowledge Bases",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases/",
-    "publishedAt": "2026-10-05T15:53:56.000Z",
-    "topic": "RAG",
-    "summary": "Build a Retrieval Augmented Generation (RAG) application on Amazon Bedrock Managed Knowledge Base with LangChain, and see how agentic retrieval handles the multi-part questions that single-shot retrieval answers poorly. "
-  },
-  {
     "id": "ahead-of-ai-language-models-for-text-classification-from-bag-of-words-to",
     "headline": "Language Models for Text Classification: From Bag-of-Words to Jev",
     "source": "Ahead of AI",
@@ -429,14 +428,6 @@
     "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
     "publishedAt": "2026-08-12T16:14:36.000Z",
     "topic": "RAG"
-  },
-  {
-    "id": "hacker-news-should-you-self-host-llm-inference-cost-and-risk-guide",
-    "headline": "Should You Self-Host LLM Inference? Cost and Risk Guide",
-    "source": "Hacker News",
-    "url": "https://theaiengineer.substack.com/p/should-you-self-host-inference",
-    "publishedAt": "2026-08-11T13:34:25.000Z",
-    "topic": "Cost"
   },
   {
     "id": "qdrant-blog-how-to-clean-up-a-qdrant-collection",
