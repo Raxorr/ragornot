@@ -250,15 +250,6 @@
     "summary": "As query traffic grows, so does the compute bill for embedding it. On a low-power device, a large model may not fit in memory. A smaller query model could reduce that cost, but switching usually means re-embedding the co"
   },
   {
-    "id": "simon-willison-s-blog-llm-anthropic-0-30",
-    "headline": "llm-anthropic 0.30",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Sep/28/llm-anthropic/",
-    "publishedAt": "2026-09-28T23:06:21.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-anthropic 0.30 In addition to Claude Sonnet 5.5, this release adds the ability to run llm anthropic refresh to refresh the list of Anthropic models directly from their API - which means I don't need to push "
-  },
-  {
     "id": "weaviate-blog-agent-memory-with-engram-a-practical-guide",
     "headline": "Agent Memory with Engram: A Practical Guide",
     "source": "Weaviate Blog",
