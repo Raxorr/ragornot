@@ -8,158 +8,6 @@
     "topic": "LLM"
   },
   {
-    "id": "arxiv-cs-cl-large-language-model-assisted-preparation-of-transportation-",
-    "headline": "Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.10650",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Work zones are critical yet hazardous components of transportation infrastructure, requiring carefully designed Transportation Management Plans (TMPs) to ensure safety and mobility. However, TMP preparation remains labor"
-  },
-  {
-    "id": "arxiv-cs-cl-real-long-term-memory-for-ai-a-50-million-token-window-that-",
-    "headline": "Real Long-Term Memory for AI: A 50-Million-Token Window That Is Faster and Cheaper Than Recompute",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.10845",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "topic": "Cost",
-    "summary": "A large language model can only use the text that fits in its context window, and it recomputes its internal key-value (KV) state for a prompt every time the prompt is sent. We test a memory layer, the public package gal"
-  },
-  {
-    "id": "arxiv-cs-cl-sparse-attention-is-matrix-approximation-not-choosing-from-a",
-    "headline": "Sparse Attention Is Matrix Approximation, Not Choosing from a Bag of Values",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.10871",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "topic": "Cost",
-    "summary": "Large Language Models (LLMs) achieve strong performance across many domains, but their efficiency is limited by the quadratic cost of attention with respect to prompt length. Sparse attention reduces this cost by retaini"
-  },
-  {
-    "id": "arxiv-cs-cl-large-language-models-for-machine-translation-quality-annota",
-    "headline": "Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.10918",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "topic": "Cost",
-    "summary": "Large Language Models (LLMs) are considered to be a more efficient and cost-effective alternative to human judgment for Machine Translation (MT) evaluation. With MT evaluation spanning a large number of language pairs, d"
-  },
-  {
-    "id": "arxiv-cs-cl-ai4fire-evaluating-large-language-models-on-wildfire-tasks",
-    "headline": "AI4Fire: Evaluating Large Language Models on Wildfire Tasks",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.10946",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "topic": "Cost",
-    "summary": "Large language models (LLMs) are entering wildfire management, where overstated evaluations can cost property and lives. How do they perform on wildfire tasks, with and without grounding? Bare means a model receives the "
-  },
-  {
-    "id": "arxiv-cs-cl-when-citations-mislead-a-claim-level-benchmark-for-legal-hal",
-    "headline": "When Citations Mislead? A Claim-Level Benchmark for Legal Hallucination Detection",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.10971",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models are increasingly used in legal research and drafting, but they can still produce claims that sound convincing without being supported by the cited source. We introduce PARCEL, a benchmark for checki"
-  },
-  {
-    "id": "arxiv-cs-cl-fedalphaedit-null-space-aligned-merging-for-collaborative-kn",
-    "headline": "FedAlphaEdit: Null-Space-Aligned Merging for Collaborative Knowledge Editing",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.11033",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Multiple institutions may each hold their own private knowledge edits and wish to integrate them into a single large language model without sharing raw edit requests. Null-space-constrained editing methods such as AlphaE"
-  },
-  {
-    "id": "arxiv-cs-cl-clinician-use-of-language-models-diverges-from-how-the-model",
-    "headline": "Clinician use of language models diverges from how the models are evaluated",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.11069",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language model (LLM) assistants are being deployed to clinicians across health systems, and judgments about their readiness rest largely on benchmark scores, most of them derived from examination questions or curat"
-  },
-  {
-    "id": "arxiv-cs-ir-lift-a-lifecycle-aware-interaction-factorization-transformer",
-    "headline": "LIFT: A Lifecycle-aware Interaction Factorization Transformer for Unified Retrieval and Ranking",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.10556",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Cascaded recommender systems use the same user history for retrieval and ranking, while the two stages have access to different information at different points of an interaction. We propose the Lifecycle-aware Interactio"
-  },
-  {
-    "id": "arxiv-cs-ir-evie-evidence-vector-informed-embeddings-for-visual-document",
-    "headline": "EVIE: Evidence-Vector-Informed Embeddings for Visual Document Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.11553",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Accurate and scalable visual document retrieval (VDR) requires both fine-grained page understanding and efficient indexing, yet existing approaches struggle to achieve both. OCR-based text retrieval adds preprocessing la"
-  },
-  {
-    "id": "arxiv-cs-ir-overview-of-the-ntcir-19-automatic-evaluation-of-llms-2-aeol",
-    "headline": "Overview of the NTCIR-19 Automatic Evaluation of LLMs 2 (AEOLLM-2) Task",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.11598",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "In this paper, we provide an overview of the NTCIR-19 Automatic Evaluation of LLMs 2 (AEOLLM-2) task. Building on the success of the NTCIR-18 core task AEOLLM, we proposed AEOLLM-2 for NTCIR-19 to further investigate aut"
-  },
-  {
-    "id": "arxiv-cs-ir-autoregressive-retriever-improving-query-understanding-from-",
-    "headline": "Autoregressive Retriever: Improving Query Understanding from Item Feedback for Universal Multimodal Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.11666",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Universal multimodal retrieval typically encodes a query once and ranks independently indexed items by embedding similarity. This design supports efficient search, but leaves the query representation unchanged even when "
-  },
-  {
-    "id": "arxiv-cs-ir-compact-and-efficient-indexes-for-learned-sparse-retrieval",
-    "headline": "Compact and Efficient Indexes for Learned Sparse Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.12300",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "This paper investigates how to substantially reduce the memory footprint of learned sparse retrieval indexes without sacrificing the efficiency of state-of-the-art retrieval data structures. Building on SEISMIC, we revis"
-  },
-  {
-    "id": "arxiv-cs-ir-rit-rag-navigating-document-corpora-with-retrieval-induced-t",
-    "headline": "RIT-RAG: Navigating Document Corpora with Retrieval-Induced Trees",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.11370",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-augmented generation (RAG) grounds language models in external corpora. Agentic RAG enables iterative search, yet exposes the model to isolated chunks without document structure, making it difficult to distingu"
-  },
-  {
-    "id": "arxiv-cs-ir-beyond-resolution-object-to-image-ratio-mismatch-in-instance",
-    "headline": "Beyond Resolution: Object-to-Image Ratio Mismatch in Instance Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.11489",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Visual instance retrieval often fails when the same object appears at different apparent sizes in the query and gallery. We show that the dominant cause is usually not resolution loss but object-to-image (O2I) ratio mism"
-  },
-  {
-    "id": "arxiv-cs-ir-syn-omni-structured-specialization-and-progressive-collabora",
-    "headline": "Syn-Omni: Structured Specialization and Progressive Collaboration for Omnimodal Embeddings",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.12256",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Omnimodal embeddings naturally involve both shared representations and modality-specific features across heterogeneous inputs. However, existing omnimodal embedding methods often rely on a single shared parameter space o"
-  },
-  {
-    "id": "hacker-news-vosti-specifying-implementing-and-verifying-deterministic-ll",
-    "headline": "Vosti: Specifying, Implementing, and Verifying Deterministic LLM Inference",
-    "source": "Hacker News",
-    "url": "https://arxiv.org/abs/2609.38981",
-    "publishedAt": "2026-10-08T21:11:10.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "hacker-news-show-hn-phobos-a-tiny-kernel-language-that-now-runs-llms-on-",
     "headline": "Show HN: Phobos – a tiny kernel language that now runs LLMs on a 2019 GPU",
     "source": "Hacker News",
@@ -303,6 +151,14 @@
     "topic": "AI"
   },
   {
+    "id": "hacker-news-ask-hn-why-don-t-llm-apis-have-a-first-class-test-mode",
+    "headline": "Ask HN: Why don't LLM APIs have a first-class test mode?",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49556909",
+    "publishedAt": "2026-09-03T20:59:59.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "hacker-news-cutting-llm-inference-costs-by-36-with-prompt-caching",
     "headline": "Cutting LLM inference costs by 36% with prompt caching",
     "source": "Hacker News",
@@ -341,6 +197,14 @@
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
     "publishedAt": "2026-08-25T15:14:14.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "hacker-news-llms-could-control-their-host-machines-by-exploiting-inferen",
+    "headline": "LLMs could control their host machines by exploiting inference engines",
+    "source": "Hacker News",
+    "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+    "publishedAt": "2026-08-24T19:03:06.000Z",
     "topic": "LLM"
   },
   {
@@ -386,14 +250,6 @@
     "topic": "LLM",
     "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
     "imageUrl": "https://substackcdn.com/image/fetch/$s_!Om23!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875b5076-19a9-4ffe-91d4-cafa156f650a_5343x5696.png"
-  },
-  {
-    "id": "hacker-news-show-hn-i-built-a-claude-code-plugin-to-query-10-6m-earnings",
-    "headline": "Show HN: I built a Claude Code plugin to query 10.6M earnings-call embeddings",
-    "source": "Hacker News",
-    "url": "https://fn2.ai/claude",
-    "publishedAt": "2026-08-14T22:09:36.000Z",
-    "topic": "LLM"
   },
   {
     "id": "hugging-face-blog-record-train-and-deploy-from-one-place-with-strands-agents-l",
