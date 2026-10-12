@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-run-multi-node-inference-workloads-using-ray-llm-deep-learni",
+    "headline": "Run multi-node inference workloads using Ray LLM Deep Learning Containers",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/",
+    "publishedAt": "2026-10-12T15:50:14.000Z",
+    "topic": "LLM",
+    "summary": "Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate prefill and decode nodes behind one OpenAI-compatible endpoint. The pre"
+  },
+  {
     "id": "arxiv-cs-cl-autoindexer-flexible-order-decoding-by-training-causal-model",
     "headline": "AutoIndexer: Flexible-Order Decoding by Training Causal Models on Chains of Edits",
     "source": "arXiv (cs.CL)",
