@@ -1,5 +1,77 @@
 [
   {
+    "id": "arxiv-cs-cl-autoindexer-flexible-order-decoding-by-training-causal-model",
+    "headline": "AutoIndexer: Flexible-Order Decoding by Training Causal Models on Chains of Edits",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.12545",
+    "publishedAt": "2026-10-13T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Autoregressive decoding is less suited to non-causally ordered data, e.g., cross-references or future dependencies, since their outputs cannot be revised post hoc, unlike iterative human reasoning. Diffusion LLMs partial"
+  },
+  {
+    "id": "arxiv-cs-cl-contextual-correction-of-parallel-draftsfor-speculative-deco",
+    "headline": "Contextual Correction of Parallel Draftsfor Speculative Decoding",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.12570",
+    "publishedAt": "2026-10-13T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Speculative decoding accelerates large language model inference by using a lightweight drafter to propose multiple tokens that are subsequently verified in parallel by the target model. Recent diffusion-based drafters ma"
+  },
+  {
+    "id": "arxiv-cs-cl-geopoliticalqa-benchmarking-retrieval-and-generation-over-in",
+    "headline": "GeopoliticalQA: Benchmarking Retrieval and Generation over Intelligence Reports",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.12617",
+    "publishedAt": "2026-10-13T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Geopolitical and strategic intelligence reports constitute a rich source of expert knowledge and have increasing value in the current political climate, but their heterogeneity and analytical complexity pose challenges f"
+  },
+  {
+    "id": "arxiv-cs-cl-perturber-a-stateless-service-for-semantics-preserving-text-",
+    "headline": "perturber: A Stateless Service for Semantics-Preserving Text Perturbations",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.12667",
+    "publishedAt": "2026-10-13T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language model (LLM) evaluations on clean benchmarks overstate model robustness: real inputs arrive perturbed, and these meaning-preserving variants routinely move model answers. Studying this systematically requir"
+  },
+  {
+    "id": "arxiv-cs-cl-geofitbench-llm-a-benchmark-for-assessing-large-language-mod",
+    "headline": "GeoFitBench-LLM: A Benchmark for Assessing Large Language Models' Capabilities in Geospatial Data Requirements Elicitation for Geo-Analytic Tasks",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.12669",
+    "publishedAt": "2026-10-13T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large language models are becoming central to GeoAI systems, yet their evaluation rarely considers the elicitation of geospatial data requirements. This omission is critical as retrieval oriented geo-analytic tasks canno"
+  },
+  {
+    "id": "arxiv-cs-cl-u4rasd-at-knowledgegrapheval-2026-ontology-constrained-encod",
+    "headline": "U4RASD at KnowledgeGraphEval-2026: Ontology-Constrained Encoder and LLM Systems for Arabic Relation Extraction",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.12742",
+    "publishedAt": "2026-10-13T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "This paper details our submission to KnowledgeGraphEval 2026 Subtask 2 on directed Arabic relation extraction. We explored encoder-based and large language model approaches for predicting one of 40 relations or no_relati"
+  },
+  {
+    "id": "arxiv-cs-cl-mads-multi-agent-dialog-simulation-for-robust-conversational",
+    "headline": "MADS: Multi-Agent Dialog Simulation for Robust Conversational Agents",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.12757",
+    "publishedAt": "2026-10-13T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Task-oriented conversational agents remain fragile under realistic conditions, especially when users exhibit non-cooperative behavior. Existing function-calling benchmarks underrepresent adversarial conversation trajecto"
+  },
+  {
+    "id": "arxiv-cs-cl-distressbench-evaluating-multi-dimensional-crisis-support-in",
+    "headline": "DistressBench: Evaluating Multi-Dimensional Crisis Support in Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.12758",
+    "publishedAt": "2026-10-13T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Language models have been adopted faster than evaluation practices that reliably assess their risks, and a growing share of use is affective rather than informational. Within that traffic users disclose suicide and self-"
+  },
+  {
     "id": "simon-willison-s-blog-web-edit-0-1a0",
     "headline": "web-edit 0.1a0",
     "source": "Simon Willison's Blog",
@@ -16,150 +88,6 @@
     "publishedAt": "2026-10-12T15:50:14.000Z",
     "topic": "LLM",
     "summary": "Learn how to deploy one large language model across two GPU nodes on Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate prefill and decode nodes behind one OpenAI-compatible endpoint. The pre"
-  },
-  {
-    "id": "arxiv-cs-cl-autoindexer-flexible-order-decoding-by-training-causal-model",
-    "headline": "AutoIndexer: Flexible-Order Decoding by Training Causal Models on Chains of Edits",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.12545",
-    "publishedAt": "2026-10-12T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Autoregressive decoding is less suited to non-causally ordered data, e.g., cross-references or future dependencies, since their outputs cannot be revised post hoc, unlike iterative human reasoning. Diffusion LLMs partial"
-  },
-  {
-    "id": "arxiv-cs-cl-contextual-correction-of-parallel-draftsfor-speculative-deco",
-    "headline": "Contextual Correction of Parallel Draftsfor Speculative Decoding",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.12570",
-    "publishedAt": "2026-10-12T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Speculative decoding accelerates large language model inference by using a lightweight drafter to propose multiple tokens that are subsequently verified in parallel by the target model. Recent diffusion-based drafters ma"
-  },
-  {
-    "id": "arxiv-cs-cl-geopoliticalqa-benchmarking-retrieval-and-generation-over-in",
-    "headline": "GeopoliticalQA: Benchmarking Retrieval and Generation over Intelligence Reports",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.12617",
-    "publishedAt": "2026-10-12T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Geopolitical and strategic intelligence reports constitute a rich source of expert knowledge and have increasing value in the current political climate, but their heterogeneity and analytical complexity pose challenges f"
-  },
-  {
-    "id": "arxiv-cs-cl-perturber-a-stateless-service-for-semantics-preserving-text-",
-    "headline": "perturber: A Stateless Service for Semantics-Preserving Text Perturbations",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.12667",
-    "publishedAt": "2026-10-12T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language model (LLM) evaluations on clean benchmarks overstate model robustness: real inputs arrive perturbed, and these meaning-preserving variants routinely move model answers. Studying this systematically requir"
-  },
-  {
-    "id": "arxiv-cs-cl-geofitbench-llm-a-benchmark-for-assessing-large-language-mod",
-    "headline": "GeoFitBench-LLM: A Benchmark for Assessing Large Language Models' Capabilities in Geospatial Data Requirements Elicitation for Geo-Analytic Tasks",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.12669",
-    "publishedAt": "2026-10-12T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Large language models are becoming central to GeoAI systems, yet their evaluation rarely considers the elicitation of geospatial data requirements. This omission is critical as retrieval oriented geo-analytic tasks canno"
-  },
-  {
-    "id": "arxiv-cs-cl-u4rasd-at-knowledgegrapheval-2026-ontology-constrained-encod",
-    "headline": "U4RASD at KnowledgeGraphEval-2026: Ontology-Constrained Encoder and LLM Systems for Arabic Relation Extraction",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.12742",
-    "publishedAt": "2026-10-12T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "This paper details our submission to KnowledgeGraphEval 2026 Subtask 2 on directed Arabic relation extraction. We explored encoder-based and large language model approaches for predicting one of 40 relations or no_relati"
-  },
-  {
-    "id": "arxiv-cs-cl-mads-multi-agent-dialog-simulation-for-robust-conversational",
-    "headline": "MADS: Multi-Agent Dialog Simulation for Robust Conversational Agents",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.12757",
-    "publishedAt": "2026-10-12T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Task-oriented conversational agents remain fragile under realistic conditions, especially when users exhibit non-cooperative behavior. Existing function-calling benchmarks underrepresent adversarial conversation trajecto"
-  },
-  {
-    "id": "arxiv-cs-cl-distressbench-evaluating-multi-dimensional-crisis-support-in",
-    "headline": "DistressBench: Evaluating Multi-Dimensional Crisis Support in Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.12758",
-    "publishedAt": "2026-10-12T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Language models have been adopted faster than evaluation practices that reliably assess their risks, and a growing share of use is affective rather than informational. Within that traffic users disclose suicide and self-"
-  },
-  {
-    "id": "arxiv-cs-ir-prime-pre-retrieval-index-modeling-enhancement-for-structure",
-    "headline": "PRIME: Pre-Retrieval Index Modeling Enhancement for Structured Document Retrieval-Real",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.13296",
-    "publishedAt": "2026-10-12T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "High-precision retrieval over external knowledge bases is essential for LLM agents to operate effectively. However, existing Information Retrieval (IR) research primarily optimizes query-side retrievers (e.g., ColBERT, B"
-  },
-  {
-    "id": "arxiv-cs-ir-near-neighborhood-aware-residuals-for-memory-retrieval",
-    "headline": "NEAR: Neighborhood-Aware Residuals for Memory Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.13314",
-    "publishedAt": "2026-10-12T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Memory retrieval aims to identify evidence from stored records to answer a query. Stored records with different factual details may share topics, entities, or events. Such shared contents would make records without the r"
-  },
-  {
-    "id": "arxiv-cs-ir-sparql-llm-in-the-text2sparql-2026-challenge",
-    "headline": "SPARQL-LLM in the TEXT2SPARQL 2026 Challenge",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.13648",
-    "publishedAt": "2026-10-12T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Querying distributed data represented as Knowledge Graphs (KGs) via SPARQL remains a difficult task, requiring fluency in query syntax, endpoint specifications, and schema details. Knowledge Graph Question Answering (KGQ"
-  },
-  {
-    "id": "arxiv-cs-ir-web-hell-a-unified-interface-for-agentic-web-access",
-    "headline": "Web$hell: A Unified Interface for Agentic Web Access",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.13416",
-    "publishedAt": "2026-10-12T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language model (LLM) agents are becoming direct users of the open web. As they take on increasingly complex and information-intensive tasks, effective web access is becoming a core capability for agentic problem so"
-  },
-  {
-    "id": "arxiv-cs-ir-rated-reliability-aware-ai-agent-tool-retrieval-via-executio",
-    "headline": "RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.13889",
-    "publishedAt": "2026-10-12T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "As AI agents increasingly rely on external tools, accurate retrieval is essential for reliable behavior. Existing methods optimize semantic relevance but largely ignore tool availability during execution. To address this"
-  },
-  {
-    "id": "arxiv-cs-ir-can-language-models-play-the-wikipedia-game",
-    "headline": "Can Language Models Play the Wikipedia Game?",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.13948",
-    "publishedAt": "2026-10-12T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowledge. We used the Wiki"
-  },
-  {
-    "id": "arxiv-cs-ir-crm-retrieval-model-with-controllable-condition",
-    "headline": "CRM: Retrieval Model with Controllable Condition",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2412.13844",
-    "publishedAt": "2026-10-12T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval models for recommendation need to account for outcomes such as watch time while searching large item corpora efficiently. We present the Controllable Retrieval Model (CRM), an outcome-conditioned retrieval fram"
-  },
-  {
-    "id": "arxiv-cs-ir-imagine-before-acting-prospective-skill-identification-for-l",
-    "headline": "Imagine Before Acting: Prospective Skill Identification for LLM Agents",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2609.01642",
-    "publishedAt": "2026-10-12T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Effective skill identification is crucial for LLM agents to reuse task-solving experience for complex task execution, which however remains challenging as agents must accurately identify useful skills from a large skill "
   },
   {
     "id": "hacker-news-show-hn-liquid-inference-auto-routing-to-competitive-llm-mar",
