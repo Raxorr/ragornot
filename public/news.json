@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-web-edit-0-1a0",
+    "headline": "web-edit 0.1a0",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
+    "publishedAt": "2026-10-12T15:54:36.000Z",
+    "topic": "LLM",
+    "summary": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Code"
+  },
+  {
     "id": "aws-machine-learning-blog-run-multi-node-inference-workloads-using-ray-llm-deep-learni",
     "headline": "Run multi-node inference workloads using Ray LLM Deep Learning Containers",
     "source": "AWS Machine Learning Blog",
