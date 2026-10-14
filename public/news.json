@@ -113,15 +113,6 @@
     "topic": "AI"
   },
   {
-    "id": "simon-willison-s-blog-mistral-large-4",
-    "headline": "Mistral Large 4",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
-    "publishedAt": "2026-10-06T18:20:58.000Z",
-    "topic": "LLM",
-    "summary": "My comment on Mistral Large 4 &mdash; Hacker News. wren6991 : The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m clau"
-  },
-  {
     "id": "qdrant-blog-how-small-can-google-s-new-embeddinggemma-2-get",
     "headline": "How Small Can Google's New EmbeddingGemma 2 Get?",
     "source": "Qdrant Blog",
