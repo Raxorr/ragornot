@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-following-the-flow-the-law-requires-training-voice-agents-to",
+    "headline": "Following the Flow the Law Requires: Training Voice Agents to Transfer to Unseen Regulated Procedures in Debt Collection",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.18881",
+    "publishedAt": "2026-10-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Voice agents built on large language models (LLMs) now handle customer calls, but in regulated applications completing the task is not enough: the agent must follow a conversational flow set by law. In debt collection, i"
+  },
+  {
+    "id": "arxiv-cs-cl-evaluating-large-language-models-for-multilingual-abstractiv",
+    "headline": "Evaluating Large Language Models for Multilingual Abstractive Summarization: A Comprehensive Study of English and Bengali",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.19003",
+    "publishedAt": "2026-10-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Abstractive summarization remains challenging across languages, where linguistic quality and factual consistency may diverge, particularly in low-resource settings. We present a standardized zero-shot benchmark of eight "
+  },
+  {
+    "id": "arxiv-cs-cl-can-llms-access-their-world-knowledge-for-event-prediction",
+    "headline": "Can LLMs Access their World Knowledge for Event Prediction?",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.19021",
+    "publishedAt": "2026-10-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Recent work has questioned whether large language models (LLMs) can be useful for temporal event prediction. Despite vast pretrained world knowledge, LLMs often underperform simpler specialized models. We ask whether thi"
+  },
+  {
+    "id": "arxiv-cs-cl-joint-subspace-sparse-attention-for-efficient-long-context-d",
+    "headline": "Joint Subspace Sparse Attention for Efficient Long-Context Decoding",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.19026",
+    "publishedAt": "2026-10-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Sparse attention reduces the KV-cache traffic that dominates long-context LLM decoding, but practical methods largely operate at coarse granularity. Token-level selection offers finer control, yet presents two challenges"
+  },
+  {
+    "id": "arxiv-cs-cl-fantastic-metrics-and-how-to-find-them-meta-evaluating-metri",
+    "headline": "Fantastic Metrics and How to Find Them: Meta-Evaluating Metrics for Multi-lingual Style-Personalized Generation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.19166",
+    "publishedAt": "2026-10-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Meta-evaluation of text generation metrics and LLM-judges is primarily conducted using metric-human correlations. However, prior work has shown that correlation is not an appropriate estimate of a metric's evaluation cap"
+  },
+  {
+    "id": "arxiv-cs-cl-hero-harnessing-evidence-for-test-time-refinement-and-prompt",
+    "headline": "HERO: Harnessing Evidence for Test-time Refinement and Prompt Optimization in Program Generation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.19184",
+    "publishedAt": "2026-10-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Harness optimization improves LLMs by refining reusable prompts and scaffolding, yet requires further adaptation for program generation tasks such as text-to-SQL and text-to-Python. Existing methods often rely on LLM ref"
+  },
+  {
+    "id": "arxiv-cs-cl-how-to-evaluate-when-you-don-t-know-how-to-evaluate-choosing",
+    "headline": "How to Evaluate When You Don't Know How to Evaluate? Choosing Reliable Setups for Base Language Model Benchmarking",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.19185",
+    "publishedAt": "2026-10-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Evaluation of large language models (LLMs) remains largely pre-scientific: it involves many design decisions, with little guidance on how to make them. These choices can substantially affect measured performance and, con"
+  },
+  {
+    "id": "arxiv-cs-cl-weighted-ensemble-sampling-for-rare-event-estimation-in-lang",
+    "headline": "Weighted Ensemble Sampling for Rare-Event Estimation in Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.19202",
+    "publishedAt": "2026-10-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Rare but severe failures of large language models can become practically significant at deployment scale. Estimating their probabilities with direct Monte Carlo sampling is highly inefficient, while proposal-based method"
+  },
+  {
+    "id": "arxiv-cs-ir-revisiting-generative-vs-dense-retrieval-a-static-value-prio",
+    "headline": "Revisiting Generative vs. Dense Retrieval: A Static Value Prior Reverses the Gap",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.19065",
+    "publishedAt": "2026-10-15T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Generative retrieval (GR) has emerged as a strong candidate generator for sequential recommendation as language models and semantic-item identifiers have improved. However, GR is not a uniformly stronger replacement of d"
+  },
+  {
+    "id": "arxiv-cs-ir-rcer-reconstructing-cross-evidence-relations-for-iterative-r",
+    "headline": "RCER: Reconstructing Cross-Evidence Relations for Iterative Retrieval-Augmented Generation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.19398",
+    "publishedAt": "2026-10-15T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Iterative retrieval-augmented generation (RAG) accumulates knowledge from retrieved evidence to answer complex questions, but existing methods struggle to reconstruct entity correspondences and inferential dependencies a"
+  },
+  {
+    "id": "arxiv-cs-ir-xviewrank-overlap-conditioned-score-fusion-for-llm-augmented",
+    "headline": "XViewRank: Overlap-Conditioned Score Fusion for LLM-Augmented Sparse Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.20122",
+    "publishedAt": "2026-10-15T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large language models can reduce vocabulary mismatch in sparse retrieval by generating alternative views of a query. Once these views are searched independently, however, their ranked lists may be complementary, redundan"
+  },
+  {
+    "id": "arxiv-cs-ir-plan-or-retrieve-first-a-scale-study-of-tool-discovery-archi",
+    "headline": "Plan or Retrieve First? A Scale Study of Tool Discovery Architectures",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.19068",
+    "publishedAt": "2026-10-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Tool-augmented LLM agents discover relevant APIs from large registries before planning execution, yet finite context windows prohibit injecting all tool definitions into a single prompt. The dominant approach, which we t"
+  },
+  {
+    "id": "arxiv-cs-ir-casi-credit-assignment-via-set-intervention-for-agentic-retr",
+    "headline": "CASI: Credit Assignment via Set Intervention for Agentic Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.20293",
+    "publishedAt": "2026-10-15T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large language models increasingly generate multiple retrieval actions jointly, while downstream systems often provide only one reward for the resulting set. Broadcasting this reward provides a valid score-function gradi"
+  },
+  {
+    "id": "arxiv-cs-ir-relevance-supervision-can-teach-neural-retrievers-to-prefer-",
+    "headline": "Relevance Supervision Can Teach Neural Retrievers to Prefer LLM-Generated Text",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2604.06163",
+    "publishedAt": "2026-10-15T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Recent studies show that neural retrievers often exhibit source bias, ranking LLM-generated passages above semantically similar human-written ones, which threatens the reliability of modern information access systems. Wh"
+  },
+  {
+    "id": "arxiv-cs-ir-unirec-bridging-the-expressive-gap-between-generative-and-di",
+    "headline": "UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2604.12234",
+    "publishedAt": "2026-10-15T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Generative Recommendation (GR) reframes retrieval and ranking as autoregressive decoding over Semantic IDs (SIDs), unifying the multi-stage pipeline into a single model. Yet a fundamental expressive gap persists: discrim"
+  },
+  {
+    "id": "arxiv-cs-ir-retrieval-augmented-generation-to-support-railways-engineeri",
+    "headline": "Retrieval-Augmented Generation to Support Railways Engineering Tasks: A Case Study",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.01244",
+    "publishedAt": "2026-10-15T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "The growing number and complexity of technical regulations represent an important challenge for all professionals in regulated industries. This paper describes a case study, from design to deployment, of building a Retri"
+  },
+  {
     "id": "aws-machine-learning-blog-generate-presentations-with-amazon-bedrock-agentcore",
     "headline": "Generate presentations with Amazon Bedrock AgentCore",
     "source": "AWS Machine Learning Blog",
