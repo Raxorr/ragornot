@@ -213,15 +213,6 @@
     "topic": "LLM"
   },
   {
-    "id": "aws-machine-learning-blog-rethinking-access-control-for-rag-with-amazon-quick-and-amaz",
-    "headline": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
-    "publishedAt": "2026-10-07T18:34:44.000Z",
-    "topic": "RAG",
-    "summary": "Enterprise RAG unlocks insights from knowledge sources like SharePoint, Google Drive, and Confluence, but those sources carry complex permissions. Learn how Amazon Quick and Amazon Bedrock Knowledge Bases enforce documen"
-  },
-  {
     "id": "simon-willison-s-blog-llm-openai-decisions-0-1a0",
     "headline": "llm-openai-decisions 0.1a0",
     "source": "Simon Willison's Blog",
@@ -238,15 +229,6 @@
     "publishedAt": "2026-10-06T21:32:34.000Z",
     "topic": "LLM",
     "summary": "Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning"
-  },
-  {
-    "id": "simon-willison-s-blog-embeddinggemma-2",
-    "headline": "EmbeddingGemma 2",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
-    "publishedAt": "2026-10-06T20:37:53.000Z",
-    "topic": "LLM",
-    "summary": "My comment on EmbeddingGemma 2 &mdash; Hacker News. I really appreciate that EmbeddingGemma 2 is under the Apache 2.0 license. For embedding models in particular, I don't think it makes sense to use a closed, proprietary"
   },
   {
     "id": "deepmind-blog-embeddinggemma-2-an-open-lightweight-multimodal-embedding-mo",
