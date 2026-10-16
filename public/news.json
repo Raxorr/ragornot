@@ -213,24 +213,6 @@
     "topic": "LLM"
   },
   {
-    "id": "simon-willison-s-blog-llm-openai-decisions-0-1a0",
-    "headline": "llm-openai-decisions 0.1a0",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
-    "publishedAt": "2026-10-06T23:04:13.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-openai-decisions 0.1a0 OpenAI released their new Jev-style Decisions API , as previously announced at last week's DevDay. Since I already have an llm-typesafe plugin for talking to Jev, I had GPT-6 Astra rea"
-  },
-  {
-    "id": "simon-willison-s-blog-llm-mistral-0-16",
-    "headline": "llm-mistral 0.16",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
-    "publishedAt": "2026-10-06T21:32:34.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning"
-  },
-  {
     "id": "deepmind-blog-embeddinggemma-2-an-open-lightweight-multimodal-embedding-mo",
     "headline": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
     "source": "DeepMind Blog",
