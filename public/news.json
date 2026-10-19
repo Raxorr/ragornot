@@ -162,6 +162,14 @@
     "summary": "Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high "
   },
   {
+    "id": "hacker-news-launch-hn-consus-yc-f24-llm-gateway-for-companies-handling-s",
+    "headline": "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=50073471",
+    "publishedAt": "2026-10-13T15:41:00.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "hacker-news-agentic-retrieval-augmented-generation-a-survey-on-agentic-r",
     "headline": "Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG",
     "source": "Hacker News",
@@ -186,6 +194,14 @@
     "publishedAt": "2026-10-12T15:54:36.000Z",
     "topic": "LLM",
     "summary": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Code"
+  },
+  {
+    "id": "hacker-news-show-hn-liquid-inference-auto-routing-to-competitive-llm-mar",
+    "headline": "Show HN: Liquid Inference – auto-routing to competitive LLM marketplace",
+    "source": "Hacker News",
+    "url": "https://liquidinference.ai/",
+    "publishedAt": "2026-10-09T14:52:04.000Z",
+    "topic": "LLM"
   },
   {
     "id": "deepmind-blog-embeddinggemma-2-an-open-lightweight-multimodal-embedding-mo",
@@ -278,6 +294,14 @@
     "topic": "AI"
   },
   {
+    "id": "hacker-news-cutting-llm-inference-costs-by-36-with-prompt-caching",
+    "headline": "Cutting LLM inference costs by 36% with prompt caching",
+    "source": "Hacker News",
+    "url": "https://www.neradot.com/post/cutting-inference-cost-36-percent-with-prompt-caching",
+    "publishedAt": "2026-09-02T06:46:47.000Z",
+    "topic": "Cost"
+  },
+  {
     "id": "hugging-face-blog-benchmirt-what-are-llm-benchmarks-actually-measuring",
     "headline": "BenchMIRT: What are LLM benchmarks actually measuring?",
     "source": "Hugging Face Blog",
@@ -319,6 +343,14 @@
     "topic": "LLM",
     "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/fb73bfb5-0291-4e5e-b425-6c3be054276e_1914x1076.png"
+  },
+  {
+    "id": "hacker-news-show-hn-pigame-pi-llm-plays-black-box-browser-games-via-obse",
+    "headline": "Show HN: Pigame – pi+LLM plays black-box browser games via observe/move tools",
+    "source": "Hacker News",
+    "url": "https://github.com/ifoxhz/pigame",
+    "publishedAt": "2026-08-21T01:20:26.000Z",
+    "topic": "LLM"
   },
   {
     "id": "hacker-news-offline-rag-on-ios-with-spatial-integration",
@@ -407,14 +439,6 @@
     "summary": "Qdrant 1.19.0 is out! Let&rsquo;s look at the main features for this version: TurboQuant Datatype: A new storage format that compresses vectors to four bits without keeping their original full-precision representation, r"
   },
   {
-    "id": "hacker-news-show-hn-energy-carbon-and-water-estimates-for-ai-content-sho",
-    "headline": "Show HN: Energy, carbon and water estimates for AI content, shown as ranges",
-    "source": "Hacker News",
-    "url": "https://aicontentfootprint.com/",
-    "publishedAt": "2026-07-29T16:29:14.000Z",
-    "topic": "Environment"
-  },
-  {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
     "headline": "Building AI infrastructure with the Effingham County community",
     "source": "OpenAI",
@@ -451,14 +475,6 @@
     "topic": "LLM"
   },
   {
-    "id": "hacker-news-rag",
-    "headline": "RAG",
-    "source": "Hacker News",
-    "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
-    "publishedAt": "2026-07-07T05:34:43.000Z",
-    "topic": "RAG"
-  },
-  {
     "id": "hugging-face-blog-run-ai-workloads-on-any-cloud-store-on-hugging-face-zero-egr",
     "headline": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
     "source": "Hugging Face Blog",
@@ -475,14 +491,6 @@
     "topic": "LLM",
     "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/4e729449-80ff-40c7-bcee-4d9349b46afe_2893x1589.png"
-  },
-  {
-    "id": "hacker-news-show-hn-rag-vector-db-cost-calculator",
-    "headline": "Show HN: RAG Vector DB Cost Calculator",
-    "source": "Hacker News",
-    "url": "https://tools.superml.org/calculators/rag-vector-db-cost-calculator",
-    "publishedAt": "2026-06-26T22:19:14.000Z",
-    "topic": "RAG"
   },
   {
     "id": "openai-openai-and-broadcom-unveil-llm-optimized-inference-chip",
@@ -549,14 +557,6 @@
     "publishedAt": "2026-05-07T11:00:00.000Z",
     "topic": "RAG",
     "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions."
-  },
-  {
-    "id": "hacker-news-show-hn-i-built-a-search-engine-for-llms-txt-sites",
-    "headline": "Show HN: I built a search engine for llms.txt sites",
-    "source": "Hacker News",
-    "url": "https://statespace.com/",
-    "publishedAt": "2026-04-28T16:02:05.000Z",
-    "topic": "LLM"
   },
   {
     "id": "openai-ai-fundamentals",
