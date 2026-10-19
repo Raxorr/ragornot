@@ -1,5 +1,23 @@
 [
   {
+    "id": "simon-willison-s-blog-llm-tools-datasette-0-1-1",
+    "headline": "llm-tools-datasette 0.1.1",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+    "publishedAt": "2026-10-18T23:43:09.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins"
+  },
+  {
+    "id": "simon-willison-s-blog-llm-echo-0-5",
+    "headline": "llm-echo 0.5",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+    "publishedAt": "2026-10-18T23:16:16.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the p"
+  },
+  {
     "id": "aws-machine-learning-blog-generate-presentations-with-amazon-bedrock-agentcore",
     "headline": "Generate presentations with Amazon Bedrock AgentCore",
     "source": "AWS Machine Learning Blog",
