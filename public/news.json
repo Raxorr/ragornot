@@ -1,5 +1,22 @@
 [
   {
+    "id": "aws-machine-learning-blog-how-octave-built-a-secure-multi-tenant-ai-foundation-on-amaz",
+    "headline": "How Octave built a secure multi-tenant AI foundation on Amazon Bedrock",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock/",
+    "publishedAt": "2026-10-20T17:34:04.000Z",
+    "topic": "Cost",
+    "summary": "Octave built a secure, multi-tenant AI foundation on Amazon Bedrock, using Cohere Embed v4 for embeddings and Amazon Bedrock AgentCore for isolated agent execution, to power a Complaint Triage Assistant that searches 2 b"
+  },
+  {
+    "id": "hugging-face-blog-fairstress-a-deeper-evaluation-of-fairness-in-llm-decision-m",
+    "headline": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/allenai/fairstress",
+    "publishedAt": "2026-10-20T16:09:19.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "aws-machine-learning-blog-push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggre",
     "headline": "Push-based KV transfer to improve TTFT and TPOT for disaggregated inference in vLLM",
     "source": "AWS Machine Learning Blog",
@@ -43,15 +60,6 @@
     "publishedAt": "2026-10-18T23:16:16.000Z",
     "topic": "LLM",
     "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the p"
-  },
-  {
-    "id": "aws-machine-learning-blog-generate-presentations-with-amazon-bedrock-agentcore",
-    "headline": "Generate presentations with Amazon Bedrock AgentCore",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore/",
-    "publishedAt": "2026-10-14T13:58:43.000Z",
-    "topic": "RAG",
-    "summary": "This post walks you through building an AI agent system with Amazon Bedrock AgentCore that automates PowerPoint presentation creation from enterprise documents. A supervisor agent, Retrieval Augmented Generation, and Ama"
   },
   {
     "id": "simon-willison-s-blog-llm-gemini-0-35",
@@ -374,14 +382,6 @@
     "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
     "publishedAt": "2026-07-08T00:00:00.000Z",
     "topic": "LLM"
-  },
-  {
-    "id": "hugging-face-blog-run-ai-workloads-on-any-cloud-store-on-hugging-face-zero-egr",
-    "headline": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/skypilot-hf-storage",
-    "publishedAt": "2026-07-07T00:00:00.000Z",
-    "topic": "RAG"
   },
   {
     "id": "ahead-of-ai-using-local-coding-agents",
