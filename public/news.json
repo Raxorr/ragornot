@@ -186,24 +186,6 @@
     "topic": "LLM"
   },
   {
-    "id": "aws-machine-learning-blog-push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggre",
-    "headline": "Push-based KV transfer to improve TTFT and TPOT for disaggregated inference in vLLM",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/",
-    "publishedAt": "2026-10-19T16:05:17.000Z",
-    "topic": "LLM",
-    "summary": "vLLM's prefill-decode disaggregation splits LLM inference across engine instances but must transfer the KV cache between them. This post introduces a push-based NIXL connector that moves transfer coordination off the cri"
-  },
-  {
-    "id": "aws-machine-learning-blog-improve-ttft-for-multi-turn-agentic-workloads-with-bi-direct",
-    "headline": "Improve TTFT for multi-turn agentic workloads with bi-directional KV transfer in vLLM",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/improve-ttft-for-multi-turn-agentic-workloads-with-bi-directional-kv-transfer-in-vllm/",
-    "publishedAt": "2026-10-19T16:03:23.000Z",
-    "topic": "LLM",
-    "summary": "Multi-turn agentic workloads reprocess growing conversation context each turn, driving up latency. See how bi-directional KV cache transfer lets prefill and decode nodes reuse previously computed context across turns, cu"
-  },
-  {
     "id": "qdrant-blog-ultrabert-fits-32k-tokens-in-one-vector-rip-chunking",
     "headline": "UltraBERT Fits 32K Tokens in One Vector. RIP Chunking?",
     "source": "Qdrant Blog",
