@@ -1,5 +1,13 @@
 [
   {
+    "id": "hugging-face-blog-nvidia-nemotron-3-5-embed-rerank-and-parse-advancing-agents-",
+    "headline": "NVIDIA Nemotron 3.5 Embed, Rerank, and Parse: Advancing Agents with World-Class Retrieval Models",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-retriever-world-class-agentic-retrieval",
+    "publishedAt": "2026-10-21T10:41:36.000Z",
+    "topic": "RAG"
+  },
+  {
     "id": "arxiv-cs-cl-autoterm-sst-adaptive-terminology-memory-with-zero-session-t",
     "headline": "AutoTerm-SST: Adaptive Terminology Memory with Zero Session-Time Setup for Streaming Speech Translation",
     "source": "arXiv (cs.CL)",
@@ -518,14 +526,6 @@
     "topic": "LLM",
     "summary": "How LLMs Learn Low-, Medium-, and High-Effort Reasoning Modes",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/286a0beb-32b2-41fc-8bcf-6bae189b53f2_1488x840.png"
-  },
-  {
-    "id": "hugging-face-blog-native-speed-vllm-transformers-modeling-backend",
-    "headline": "Native-speed vLLM transformers modeling backend",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-    "publishedAt": "2026-07-08T00:00:00.000Z",
-    "topic": "LLM"
   },
   {
     "id": "ahead-of-ai-using-local-coding-agents",
