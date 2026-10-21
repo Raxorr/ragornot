@@ -1,11 +1,20 @@
 [
   {
-    "id": "hugging-face-blog-nvidia-nemotron-3-5-embed-rerank-and-parse-advancing-agents-",
-    "headline": "NVIDIA Nemotron 3.5 Embed, Rerank, and Parse: Advancing Agents with World-Class Retrieval Models",
+    "id": "hugging-face-blog-nvidia-kumo-forecast-combines-pretrained-time-series-represe",
+    "headline": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
     "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/nvidia/nemotron-retriever-world-class-agentic-retrieval",
-    "publishedAt": "2026-10-21T10:41:36.000Z",
+    "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
+    "publishedAt": "2026-10-21T12:51:24.000Z",
     "topic": "RAG"
+  },
+  {
+    "id": "openai-how-we-built-chatgpt-s-novel-ad-stack-for-user-trust-and-rel",
+    "headline": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/building-chatgpt-ad-stack",
+    "publishedAt": "2026-10-21T07:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale."
   },
   {
     "id": "arxiv-cs-cl-autoterm-sst-adaptive-terminology-memory-with-zero-session-t",
@@ -611,15 +620,6 @@
     "publishedAt": "2026-04-10T00:00:00.000Z",
     "topic": "LLM",
     "summary": "Learn what AI is, how it works, and how tools like ChatGPT use large language models. A clear, beginner-friendly guide to understanding artificial intelligence."
-  },
-  {
-    "id": "openai-cyberagent-moves-faster-with-chatgpt-enterprise-and-codex",
-    "headline": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
-    "source": "OpenAI",
-    "url": "https://openai.com/index/cyberagent",
-    "publishedAt": "2026-04-09T00:00:00.000Z",
-    "topic": "RAG",
-    "summary": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming."
   },
   {
     "id": "the-gradient-after-orthogonality-virtue-ethical-agency-and-ai-alignment",
