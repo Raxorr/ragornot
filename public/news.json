@@ -1,11 +1,19 @@
 [
   {
-    "id": "hugging-face-blog-nvidia-kumo-forecast-combines-pretrained-time-series-represe",
-    "headline": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
+    "id": "hacker-news-macos-27-has-a-built-in-offline-llm-you-can-call-from-termin",
+    "headline": "macOS 27 has a built-in, offline LLM you can call from Terminal",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=50185265",
+    "publishedAt": "2026-10-21T18:17:50.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "hugging-face-blog-how-specializing-the-vocabulary-of-slms-can-cut-inference-co",
+    "headline": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
     "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
-    "publishedAt": "2026-10-21T12:51:24.000Z",
-    "topic": "RAG"
+    "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+    "publishedAt": "2026-10-21T17:35:36.000Z",
+    "topic": "Cost"
   },
   {
     "id": "openai-how-we-built-chatgpt-s-novel-ad-stack-for-user-trust-and-rel",
@@ -447,14 +455,6 @@
     "topic": "LLM",
     "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
     "imageUrl": "https://substackcdn.com/image/fetch/$s_!Om23!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875b5076-19a9-4ffe-91d4-cafa156f650a_5343x5696.png"
-  },
-  {
-    "id": "hacker-news-show-hn-i-built-a-claude-code-plugin-to-query-10-6m-earnings",
-    "headline": "Show HN: I built a Claude Code plugin to query 10.6M earnings-call embeddings",
-    "source": "Hacker News",
-    "url": "https://fn2.ai/claude",
-    "publishedAt": "2026-08-14T22:09:36.000Z",
-    "topic": "LLM"
   },
   {
     "id": "hugging-face-blog-record-train-and-deploy-from-one-place-with-strands-agents-l",
