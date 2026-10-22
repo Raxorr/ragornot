@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-write-your-own-training-loop-without-managing-gpus-with-amaz",
+    "headline": "Write your own training loop — without managing GPUs — with Amazon SageMaker training session APIs",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions/",
+    "publishedAt": "2026-10-22T18:00:01.000Z",
+    "topic": "LLM",
+    "summary": "Amazon SageMaker AI training session APIs let you write your own LLM training loop (SFT, RL, or custom objectives) in a Python script while the service runs the GPUs. This post introduces the programming model and three "
+  },
+  {
     "id": "hugging-face-blog-olmoearth-v1-3-state-of-the-art-embeddings-for-the-whole-pla",
     "headline": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
     "source": "Hugging Face Blog",
