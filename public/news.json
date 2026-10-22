@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-how-far-can-the-gemma-4-speech-encoder-go-without-changing-i",
+    "headline": "How Far Can the Gemma 4 Speech Encoder Go Without Changing Its Weights? Saudi and Gulf Arabic Speech Recognition with a Frozen and an Adapter-Augmented Encoder",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.28673",
+    "publishedAt": "2026-10-22T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "We study the 305M-parameter audio encoder shared by Gemma 4 and EmbeddingGemma 2 (identical except for its final projection) for Saudi and Gulf Arabic speech recognition, without changing any of its weights. A frozen sys"
+  },
+  {
+    "id": "arxiv-cs-cl-skilleval-learning-interpretable-ability-profiles-of-llms-vi",
+    "headline": "SkillEval: Learning Interpretable Ability Profiles of LLMs via Cognitive Diagnosis Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.28767",
+    "publishedAt": "2026-10-22T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Current evaluation of LLMs on benchmarks typically aggregates performance over individual examples into a single scalar score. This approach is overly coarse and ignores the diverse scope of skills covered by benchmark d"
+  },
+  {
+    "id": "arxiv-cs-cl-scaling-therapy-supervision-assessing-psychotherapy-fidelity",
+    "headline": "Scaling Therapy Supervision: Assessing Psychotherapy Fidelity Using Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.28772",
+    "publishedAt": "2026-10-22T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Psychotherapy fidelity assessment measures how faithfully a therapist adheres to a treatment protocol, a critical determinant of positive patient outcomes. However, fidelity assessment is bottlenecked by manual expert re"
+  },
+  {
+    "id": "arxiv-cs-cl-is-anyone-enforcing-the-cartel-what-reinforcement-learning-t",
+    "headline": "Is Anyone Enforcing the Cartel? What Reinforcement Learning Teaches LLM Agents in Markets",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.28787",
+    "publishedAt": "2026-10-22T04:00:00.000Z",
+    "topic": "Cost",
+    "summary": "Evaluations of large language model (LLM) agents report that pricing agents collude at others' expense. Yet collusion is defined by enforcement: a cartel, in which competitors share monopoly profits, holds only if a memb"
+  },
+  {
+    "id": "arxiv-cs-cl-where-do-legal-factors-live-in-llms",
+    "headline": "Where Do Legal Factors Live in LLMs?",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.28799",
+    "publishedAt": "2026-10-22T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "In case-based legal reasoning, legal professionals identify legally significant fact patterns in a new dispute and compare them with those of decided cases. In AI & Law, HYPO dimensions and CATO factors represent these p"
+  },
+  {
+    "id": "arxiv-cs-cl-sane-automated-scorer-specific-metamorphic-testing-for-llm-j",
+    "headline": "SANE: Automated Scorer-Specific Metamorphic Testing for LLM Judges",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.28886",
+    "publishedAt": "2026-10-22T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "LLM judges increasingly mediate benchmark evaluation, model selection, data curation, and training. Their decisions are useful only when each judge responds reliably to changes affecting its scoring criterion. Existing m"
+  },
+  {
+    "id": "arxiv-cs-cl-scan-or-index-large-evidence-coverage-answer-quality-and-cos",
+    "headline": "Scan or Index? large Evidence Coverage, Answer Quality, and Cost in Long-Document RAG",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.28957",
+    "publishedAt": "2026-10-22T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Scanning every passage in a long document seems thorough, but does it preserve more useful evidence or produce better answers? We compare 11 retrieval configurations spanning lexical and dense search, hybrid reranking, a"
+  },
+  {
+    "id": "arxiv-cs-cl-language-impairment-as-a-lens-onto-large-language-models",
+    "headline": "Language Impairment as a Lens onto Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.28992",
+    "publishedAt": "2026-10-22T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Although large language models (LLMs) encode language in highly distributed spaces, they remain vulnerable to focal disruptions---a phenomenon strikingly similar to how localized brain damage causes clinical aphasia in h"
+  },
+  {
+    "id": "arxiv-cs-ir-can-ai-chat-replace-traditional-search-evidence-from-a-rag-b",
+    "headline": "Can AI Chat Replace Traditional Search? Evidence from a RAG-based Live Events Experiment",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.28639",
+    "publishedAt": "2026-10-22T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Conversational AI tools are being increasingly integrated into online search and browsing interfaces. To understand how such tools affect user behavior and search outcomes, we run a pre-registered, incentivized online ex"
+  },
+  {
+    "id": "arxiv-cs-ir-transaction-foundation-models-for-retrieval-augmented-genera",
+    "headline": "Transaction Foundation Models for Retrieval-Augmented Generation over Financial Transaction Data: A Comparative Evaluation with Text Embeddings",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.28641",
+    "publishedAt": "2026-10-22T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Domain-specific tabular and transaction foundation models are increasingly proposed as drop-in representation learners for financial applications, but their value relative to off-the-shelf text embedding models for retri"
+  },
+  {
+    "id": "arxiv-cs-ir-controllable-generative-recommendation-via-guided-token-refi",
+    "headline": "Controllable Generative Recommendation via Guided Token Refinement",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.28642",
+    "publishedAt": "2026-10-22T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Generative recommendation over discrete Semantic IDs has become a powerful paradigm for item retrieval. Real-world systems, however, frequently require real-time controllability to balance accuracy against objectives suc"
+  },
+  {
+    "id": "arxiv-cs-ir-constrained-tagging-for-span-labeling",
+    "headline": "Constrained Tagging for Span Labeling",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.28922",
+    "publishedAt": "2026-10-22T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Generative LLMs can label spans without task-specific training, but their output is not tied to positions in the input: a returned span may be absent from the input or occur several times. We present constrained tagging,"
+  },
+  {
+    "id": "arxiv-cs-ir-progressive-learning-from-content-to-relevance-to-personaliz",
+    "headline": "Progressive Learning from Content to Relevance to Personalization for CTR Prediction",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.29138",
+    "publishedAt": "2026-10-22T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Multimodal click-through rate (CTR) prediction is central to search systems, where ranking depends on item content, query relevance, and user preference. Existing approaches incorporate content through dense embeddings o"
+  },
+  {
+    "id": "arxiv-cs-ir-learning-marginal-viewpoint-utility-for-budgeted-evidence-se",
+    "headline": "Learning Marginal Viewpoint Utility for Budgeted Evidence Selection in RAG",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.29234",
+    "publishedAt": "2026-10-22T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-augmented generation over multi-viewpoint queries must preserve distinct answers and positions from the retrieved evidence while operating under a fixed context budget. We introduce LMVU, a lightweight ranker t"
+  },
+  {
+    "id": "arxiv-cs-ir-generative-recommenders-forget-the-long-tail-restoring-memor",
+    "headline": "Generative Recommenders Forget the Long Tail: Restoring Memorization in Retrieval and Ranking",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.29298",
+    "publishedAt": "2026-10-22T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Generative recommenders replace the retrieve-then-rank cascade with a single model: beam search over semantic item identifiers performs retrieval, and the same likelihood performs ranking. We show that this shared score "
+  },
+  {
+    "id": "arxiv-cs-ir-directional-posterior-feedback-fusion-for-query-reformulatio",
+    "headline": "Directional Posterior Feedback Fusion for Query Reformulation in Dense Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.29464",
+    "publishedAt": "2026-10-22T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Dense retrieval has become a fundamental paradigm for modern information retrieval, supporting efficient semantic search across a wide range of applications. Its effectiveness, however, relies critically on query embeddi"
+  },
+  {
     "id": "hacker-news-macos-27-has-a-built-in-offline-llm-you-can-call-from-termin",
     "headline": "macOS 27 has a built-in, offline LLM you can call from Terminal",
     "source": "Hacker News",
@@ -23,150 +167,6 @@
     "publishedAt": "2026-10-21T07:00:00.000Z",
     "topic": "LLM",
     "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale."
-  },
-  {
-    "id": "arxiv-cs-cl-autoterm-sst-adaptive-terminology-memory-with-zero-session-t",
-    "headline": "AutoTerm-SST: Adaptive Terminology Memory with Zero Session-Time Setup for Streaming Speech Translation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.26865",
-    "publishedAt": "2026-10-21T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-augmented speech translation improves rare terminology, but systems such as RASST still assume that users provide a glossary before each session. That assumption is inconvenient for live talks, while merging ev"
-  },
-  {
-    "id": "arxiv-cs-cl-wavecommitments-private-and-verifiable-speech-agent-marketpl",
-    "headline": "WaveCommitments: Private and Verifiable Speech-Agent Marketplaces",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.26867",
-    "publishedAt": "2026-10-21T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Modern speech systems are evolving into ecosystems of autonomous speech agents that speak together, negotiate, and trade assets such as embeddings, spectrograms, or raw data. In such markets, sellers cannot reveal assets"
-  },
-  {
-    "id": "arxiv-cs-cl-atomsd-procedural-atom-guided-self-distillation-for-llm-agen",
-    "headline": "AtomSD: Procedural Atom-Guided Self-Distillation for LLM Agents",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.26926",
-    "publishedAt": "2026-10-21T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) possess broad factual knowledge and strong reasoning capabilities, but solving complex tasks also requires procedural knowledge about how to act. Existing approaches often represent procedura"
-  },
-  {
-    "id": "arxiv-cs-cl-do-we-need-the-largest-llms-for-every-clinical-decision",
-    "headline": "Do We Need the Largest LLMs for Every Clinical Decision?",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.26937",
-    "publishedAt": "2026-10-21T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large clinical language models often require multi-GPU infrastructure, limiting local deployment. We introduce CERTA, a decision-level statistical certificate that determines when a quantized model may substitute for its"
-  },
-  {
-    "id": "arxiv-cs-cl-the-bottleneck-is-retrieval-not-reading-diagnosing-evidence-",
-    "headline": "The Bottleneck Is Retrieval, Not Reading: Diagnosing Evidence-Based Generation with RAG for Long Context Question Answering",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.26951",
-    "publishedAt": "2026-10-21T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-augmented generation (RAG) is the dominant paradigm for grounding large language models in external corpora, but its similarity-driven, chunked pipeline has structural blind spots: it cannot anticipate which pa"
-  },
-  {
-    "id": "arxiv-cs-cl-trace-training-aware-robustness-and-challenge-evaluation-for",
-    "headline": "TRACE: Training-aware Robustness and Challenge Evaluation for Text-Vision Embedding Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.26993",
-    "publishedAt": "2026-10-21T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Existing benchmarks for text-vision embedding models report aggregate scores that obscure whether performance comes from general capabilities, task-specific adaptation, or robustness to challenging tasks. We introduce TR"
-  },
-  {
-    "id": "arxiv-cs-cl-fluent-but-fallible-benchmarking-hallucination-and-factual-r",
-    "headline": "Fluent but Fallible: Benchmarking Hallucination and Factual Reliability in Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.27034",
-    "publishedAt": "2026-10-21T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Large Language Models (LLMs) have significantly advanced natural language processing and artificial intelligence applications through their capabilities in reasoning, text generation and knowledge retrieval. However, LLM"
-  },
-  {
-    "id": "arxiv-cs-cl-cross-lingual-reusability-of-llm-pipelines-financial-extract",
-    "headline": "Cross-Lingual Reusability of LLM Pipelines: Financial Extraction, Multilingual Reasoning, and Semantic Screening",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.27043",
-    "publishedAt": "2026-10-21T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Financial institutions increasingly deploy large language models (LLMs) in multilingual markets, raising a practical question: can pipelines developed and validated in English be reused across languages, or must they be "
-  },
-  {
-    "id": "arxiv-cs-ir-moss-a-production-framework-for-monitoring-and-diagnosing-se",
-    "headline": "MOSS: A Production Framework for Monitoring and Diagnosing Semantic Failures in Search and Recommendation Systems",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.26902",
-    "publishedAt": "2026-10-21T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Detecting semantic failures in production recommendation and search systems is hard: behavioral metrics lag by days, manual review does not scale, and most LLM evaluation frameworks are designed for offline, fixed datase"
-  },
-  {
-    "id": "arxiv-cs-ir-uibk-embedding-effective-text-retrieval-by-unifying-dense-an",
-    "headline": "UIBK-Embedding: Effective Text Retrieval by Unifying Dense and Late-Interaction Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.27195",
-    "publishedAt": "2026-10-21T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Dense bi-encoders and late-interaction retrievers are usually treated as alternatives, yet they fail on different queries: one vector captures what a text is about, token-level matching finds its exact entities and phras"
-  },
-  {
-    "id": "arxiv-cs-ir-multimodal-reranking-is-a-system-one-decision",
-    "headline": "Multimodal Reranking Is a System One Decision",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.28435",
-    "publishedAt": "2026-10-21T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Multimodal rerankers are usually dedicated models: a vision-language model (VLM) is trained on retrieval data to score the candidates of a query. Scoring options is not specific to reranking. System One decision models s"
-  },
-  {
-    "id": "arxiv-cs-ir-expert-guided-rubrics-as-dense-reward-signals-for-reinforcem",
-    "headline": "Expert-Guided Rubrics as Dense Reward Signals for Reinforcement Learning in Non-Verifiable Domains",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.26932",
-    "publishedAt": "2026-10-21T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are increasingly deployed as autonomous agents in non-verifiable domains such as financial services, where they must interpret user intent, rewrite queries, and retrieve information under dom"
-  },
-  {
-    "id": "arxiv-cs-ir-sweepann-a-gpu-accelerated-large-k-approximate-vector-search",
-    "headline": "SweepANN: A GPU-Accelerated Large-K Approximate Vector Search for Drug Discovery",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.27306",
-    "publishedAt": "2026-10-21T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "DrugCLIP places small molecules and protein pockets in one space, turning genome-wide drug discovery into large-K retrieval by vector proximity. A campaign fixes over 20K pockets in advance for one library of over 500M m"
-  },
-  {
-    "id": "arxiv-cs-ir-garret-generative-feedback-for-region-retrieval-in-visual-do",
-    "headline": "GARRET: Generative Feedback for Region Retrieval in Visual Documents",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.27829",
-    "publishedAt": "2026-10-21T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Multimodal retrieval-augmented generation over visually rich documents requires evidence at a finer granularity than entire pages. Existing visual retrievers typically index or return full pages, whereas training region-"
-  },
-  {
-    "id": "arxiv-cs-ir-evolving-semantic-indexes-for-generative-retrieval",
-    "headline": "Evolving Semantic Indexes for Generative Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.28568",
-    "publishedAt": "2026-10-21T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Generative retrieval (GR) casts search and recommendation as autoregressive generation of discrete semantic identifiers (SIDs). SID design largely determines GR quality, but its discrete, interdependent components (SID c"
-  },
-  {
-    "id": "arxiv-cs-ir-wegr-towards-unified-generative-retrieval-via-behavior-aware",
-    "headline": "WeGR: Towards Unified Generative Retrieval via Behavior-aware Tokenization and Preference Alignment",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.16979",
-    "publishedAt": "2026-10-21T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Generative retrieval (GR) offers a promising paradigm for industrial search by unifying candidate generation within an autoregressive framework. However, effectively leveraging user behaviors in industrial GR remains cha"
   },
   {
     "id": "aws-machine-learning-blog-how-octave-built-a-secure-multi-tenant-ai-foundation-on-amaz",
