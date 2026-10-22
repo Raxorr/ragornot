@@ -1,5 +1,21 @@
 [
   {
+    "id": "hugging-face-blog-olmoearth-v1-3-state-of-the-art-embeddings-for-the-whole-pla",
+    "headline": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+    "publishedAt": "2026-10-22T16:11:31.000Z",
+    "topic": "RAG"
+  },
+  {
+    "id": "hacker-news-run-llms-across-multiple-machines-distributed-inference-guid",
+    "headline": "Run LLMs Across Multiple Machines: Distributed Inference Guide for Your Homelab (2026)",
+    "source": "Hacker News",
+    "url": "https://lucasaguiar.xyz/posts/run-llm-distributed-inference-homelab-guide-2026/",
+    "publishedAt": "2026-10-22T13:48:19.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "arxiv-cs-cl-how-far-can-the-gemma-4-speech-encoder-go-without-changing-i",
     "headline": "How Far Can the Gemma 4 Speech Encoder Go Without Changing Its Weights? Saudi and Gulf Arabic Speech Recognition with a Frozen and an Adapter-Augmented Encoder",
     "source": "arXiv (cs.CL)",
@@ -144,6 +160,15 @@
     "summary": "Dense retrieval has become a fundamental paradigm for modern information retrieval, supporting efficient semantic search across a wide range of applications. Its effectiveness, however, relies critically on query embeddi"
   },
   {
+    "id": "qdrant-blog-qdrant-1-20-full-text-search-improvements",
+    "headline": "Qdrant 1.20 - Full-Text Search Improvements",
+    "source": "Qdrant Blog",
+    "url": "https://qdrant.tech/blog/qdrant-1.20.x/",
+    "publishedAt": "2026-10-22T01:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Qdrant 1.20.0 is out! Let&rsquo;s look at the main features for this version: BM25 on Full-Text Indexes and Code Search: Rank by BM25 straight from your payload text, with no embeddings to generate. Plus, better code sea"
+  },
+  {
     "id": "hacker-news-macos-27-has-a-built-in-offline-llm-you-can-call-from-termin",
     "headline": "macOS 27 has a built-in, offline LLM you can call from Terminal",
     "source": "Hacker News",
@@ -176,14 +201,6 @@
     "publishedAt": "2026-10-20T17:34:04.000Z",
     "topic": "Cost",
     "summary": "Octave built a secure, multi-tenant AI foundation on Amazon Bedrock, using Cohere Embed v4 for embeddings and Amazon Bedrock AgentCore for isolated agent execution, to power a Complaint Triage Assistant that searches 2 b"
-  },
-  {
-    "id": "hugging-face-blog-fairstress-a-deeper-evaluation-of-fairness-in-llm-decision-m",
-    "headline": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/allenai/fairstress",
-    "publishedAt": "2026-10-20T16:09:19.000Z",
-    "topic": "LLM"
   },
   {
     "id": "qdrant-blog-ultrabert-fits-32k-tokens-in-one-vector-rip-chunking",
@@ -413,14 +430,6 @@
     "topic": "LLM"
   },
   {
-    "id": "hacker-news-offline-rag-on-ios-with-spatial-integration",
-    "headline": "Offline RAG on iOS with Spatial Integration",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=49371913",
-    "publishedAt": "2026-08-20T08:28:22.000Z",
-    "topic": "RAG"
-  },
-  {
     "id": "hugging-face-blog-multi-vector-late-interaction-embedding-models-with-sentence",
     "headline": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
     "source": "Hugging Face Blog",
@@ -480,15 +489,6 @@
     "publishedAt": "2026-08-10T00:00:00.000Z",
     "topic": "RAG",
     "summary": "Every crawl, retried job, and embedding pipeline change writes points into a vector collection. The stored data keeps moving even when the query code never changes, and the top results move with it. At first, little look"
-  },
-  {
-    "id": "qdrant-blog-qdrant-1-19-turboquant-datatype-memory-tiers",
-    "headline": "Qdrant 1.19 - TurboQuant Datatype & Memory Tiers",
-    "source": "Qdrant Blog",
-    "url": "https://qdrant.tech/blog/qdrant-1.19.x/",
-    "publishedAt": "2026-08-05T01:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Qdrant 1.19.0 is out! Let&rsquo;s look at the main features for this version: TurboQuant Datatype: A new storage format that compresses vectors to four bits without keeping their original full-precision representation, r"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
@@ -555,15 +555,6 @@
     "publishedAt": "2026-05-22T00:00:00.000Z",
     "topic": "RAG",
     "summary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects."
-  },
-  {
-    "id": "weaviate-blog-build-a-coding-assistant-with-weaviate-mcp-rag-over-code-doc",
-    "headline": "Build a Coding Assistant with Weaviate MCP: RAG over Code & Docs",
-    "source": "Weaviate Blog",
-    "url": "https://weaviate.io/blog/coding-assistant-weaviate-mcp",
-    "publishedAt": "2026-05-21T00:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Use Weaviate's built-in MCP server to give Claude Code, Cursor, and VS Code hybrid search over your codebase and docs. No glue code."
   },
   {
     "id": "ahead-of-ai-recent-developments-in-llm-architectures-kv-sharing-mhc-and-",
