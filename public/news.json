@@ -144,6 +144,15 @@
     "summary": "Large language models (LLMs) have demonstrated strong reasoning capabilities, motivating their use as the backbone of foundation recommendation models (FRMs). Existing methods enhance recommendations through explicit Cha"
   },
   {
+    "id": "qdrant-blog-scalable-pdf-retrieval-with-cohere-embed-5-and-qdrant-asymme",
+    "headline": "Scalable PDF Retrieval with Cohere Embed 5 and Qdrant Asymmetric Quantization",
+    "source": "Qdrant Blog",
+    "url": "https://qdrant.tech/blog/cohere-embed-5-qdrant/",
+    "publishedAt": "2026-10-23T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Cohere released Embed 5 , a family of embedding models. The family has a quality-focused model, Embed 5 Pro ( embed-v5.0-pro ), and a lighter one, Embed 5 Fast ( embed-v5.0-fast ). Both accept text and images, support 10"
+  },
+  {
     "id": "aws-machine-learning-blog-write-your-own-training-loop-without-managing-gpus-with-amaz",
     "headline": "Write your own training loop — without managing GPUs — with Amazon SageMaker training session APIs",
     "source": "AWS Machine Learning Blog",
@@ -489,15 +498,6 @@
     "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
     "publishedAt": "2026-08-12T16:14:36.000Z",
     "topic": "RAG"
-  },
-  {
-    "id": "qdrant-blog-how-to-clean-up-a-qdrant-collection",
-    "headline": "How to Clean Up a Qdrant Collection",
-    "source": "Qdrant Blog",
-    "url": "https://qdrant.tech/blog/clean-vector-database-collection/",
-    "publishedAt": "2026-08-10T00:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Every crawl, retried job, and embedding pipeline change writes points into a vector collection. The stored data keeps moving even when the query code never changes, and the top results move with it. At first, little look"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
