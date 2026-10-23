@@ -421,6 +421,14 @@
     "topic": "LLM"
   },
   {
+    "id": "hacker-news-llms-could-control-their-host-machines-by-exploiting-inferen",
+    "headline": "LLMs could control their host machines by exploiting inference engines",
+    "source": "Hacker News",
+    "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+    "publishedAt": "2026-08-24T19:03:06.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "ahead-of-ai-how-claude-watermarks-ai-generated-text",
     "headline": "How Claude Watermarks AI-Generated Text",
     "source": "Ahead of AI",
@@ -429,14 +437,6 @@
     "topic": "LLM",
     "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/fb73bfb5-0291-4e5e-b425-6c3be054276e_1914x1076.png"
-  },
-  {
-    "id": "hacker-news-show-hn-pigame-pi-llm-plays-black-box-browser-games-via-obse",
-    "headline": "Show HN: Pigame – pi+LLM plays black-box browser games via observe/move tools",
-    "source": "Hacker News",
-    "url": "https://github.com/ifoxhz/pigame",
-    "publishedAt": "2026-08-21T01:20:26.000Z",
-    "topic": "LLM"
   },
   {
     "id": "hugging-face-blog-multi-vector-late-interaction-embedding-models-with-sentence",
