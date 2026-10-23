@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-fusioneval-benchmarking-model-fusion-for-large-language-mode",
+    "headline": "FusionEval: Benchmarking Model Fusion for Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.30162",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Model fusion aims to integrate the capabilities of multi-expert models into a single model. Existing evaluations offer limited coverage of reasoning with long chains of thought and tool use, while strong average performa"
+  },
+  {
+    "id": "arxiv-cs-cl-measuring-research-progress-and-linguistic-inclusion-in-low-",
+    "headline": "Measuring Research Progress and Linguistic Inclusion in Low-Resource Languages",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.30296",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large Language Models (LLMs) have accelerated research on low-resource and multilingual NLP, but their effectiveness in creating an equitable landscape remains unmapped. We analyze 1,158 peer-reviewed open-access papers "
+  },
+  {
+    "id": "arxiv-cs-cl-aql-lite-enabling-efficient-knowledge-acquisition-for-arabic",
+    "headline": "AQL-Lite: Enabling Efficient Knowledge Acquisition for Arabic LLMs via Data-Centric Continual Pretraining",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.30344",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "topic": "Cost",
+    "summary": "Training Arabic large language models faces challenges from noisy web data, dialectal variation, and the high cost of continual pretraining (CPT). We introduce AQL-Lite (AQL: Arabic Quality Language), a time- and resourc"
+  },
+  {
+    "id": "arxiv-cs-cl-consistency-is-not-validity-self-rewarded-moral-argumentatio",
+    "headline": "Consistency Is Not Validity: Self-Rewarded Moral Argumentation Makes Language Models Decisive but Pliable",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.30349",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "LLMs are increasingly consulted for moral judgment. We aim to improve performance on such tasks by rewarding good arguments, on the premise that arguing well increases the likelihood of judging well. We train a reinforce"
+  },
+  {
+    "id": "arxiv-cs-cl-memplan-memory-conditioned-pddl-planning-for-partially-obser",
+    "headline": "MemPlan: Memory-Conditioned PDDL Planning for Partially Observable Text Environments",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.30379",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "topic": "Cost",
+    "summary": "LLM agents are flexible in language interaction, but using them as long-horizon planners is costly and prone to hallucinated or invalid actions. This paper targets a different role for LLMs: constrained bridges between l"
+  },
+  {
+    "id": "arxiv-cs-cl-sim-ut-a-user-simulation-based-evaluation-framework-for-medi",
+    "headline": "SIM-UT: A User Simulation based Evaluation Framework for Medical Triage Chatbots",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.30412",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "LLM-based chat agents are increasingly used for complex, multi-turn, multilingual medical triage in low- and middle-income countries (LMICs), yet evaluation methods focus on single-turn, English-only benchmarks that prim"
+  },
+  {
+    "id": "arxiv-cs-cl-self-assessment-reinforcement-learning-for-search-state-awar",
+    "headline": "Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.30435",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Recent advances in search agents have enabled large language models to tackle complex tasks by retrieving and synthesizing external information. However, existing search agents often lack search-state awareness, i.e., th"
+  },
+  {
+    "id": "arxiv-cs-cl-rethinking-the-evaluation-of-llm-fact-checkers",
+    "headline": "Rethinking the Evaluation of LLM Fact-Checkers",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.30504",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are widely used to answer factual questions, but their answers can contain errors and must be fact-checked claim by claim. Yet the resulting score depends on three design decisions: which que"
+  },
+  {
+    "id": "arxiv-cs-ir-irah-hierarchical-agentic-tree-search-for-retrieval-pipeline",
+    "headline": "IRAH: Hierarchical Agentic Tree Search for Retrieval Pipeline Optimization",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.30167",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Optimizing Information Retrieval (IR) pipelines for Retrieval-Augmented Generation (RAG) requires jointly selecting structural components and numerical hyperparameters under limited evaluation budgets. We introduce the I"
+  },
+  {
+    "id": "arxiv-cs-ir-formbench-a-benchmark-for-fine-grained-retrieval-in-formulat",
+    "headline": "FormBench: A Benchmark for Fine-Grained Retrieval in Formulation Patents",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.30175",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "We introduce FormBench, a platform for testing the ability of models to retrieve precise chemical information from technical documents. FormBench contains 55,352 queries and two retrieval corpus variants each with ~1M pa"
+  },
+  {
+    "id": "arxiv-cs-ir-flexvdr-learning-to-allocate-matryoshka-representation-budge",
+    "headline": "FlexVDR: Learning to Allocate Matryoshka Representation Budgets for Visual Document Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.30177",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Visual document retrieval relies on rich multi-vector representations to capture fine-grained evidence in document pages, but encoding and matching these representations can be computationally expensive. Existing compres"
+  },
+  {
+    "id": "arxiv-cs-ir-qprotfuse-query-guided-layer-fusion-for-retrieval-augmented-",
+    "headline": "QProtFuse: Query-Guided Layer Fusion for Retrieval-Augmented Protein Function Prediction",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.30180",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Predicting protein functions from amino acid sequences is essential to understanding biological processes. Large language models (LLMs) offer flexible function descriptions to natural-language queries, yet their limited "
+  },
+  {
+    "id": "arxiv-cs-ir-deep-search-in-real-world-web-environments",
+    "headline": "Deep Search in Real-World Web Environments",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.30181",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the "
+  },
+  {
+    "id": "arxiv-cs-ir-when-agentic-retrieval-fails-silently-framework-and-producti",
+    "headline": "When Agentic Retrieval Fails Silently: Framework and Production Evidence from a Creative AI Assistant",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.30423",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "CTR, MRR, and behavioral NDCG assume the user sees ranked results and acts on them. In an agentic assistant, a generation layer consumes retrieval output first, and that assumption breaks in three ways. The agent reads t"
+  },
+  {
+    "id": "arxiv-cs-ir-getting-a-grip-on-graph-based-search-for-learned-sparse-retr",
+    "headline": "Getting a GRIP on Graph-Based Search for Learned Sparse Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.30425",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Learned sparse retrieval (LSR) has recently gained traction in the information retrieval community for the ability to combine the generalization capabilities of neural representations with the interpretability of keyword"
+  },
+  {
+    "id": "arxiv-cs-ir-onelatent-latent-reasoning-for-efficient-foundation-recommen",
+    "headline": "OneLatent: Latent Reasoning for Efficient Foundation Recommendation Models",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.30675",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) have demonstrated strong reasoning capabilities, motivating their use as the backbone of foundation recommendation models (FRMs). Existing methods enhance recommendations through explicit Cha"
+  },
+  {
     "id": "aws-machine-learning-blog-write-your-own-training-loop-without-managing-gpus-with-amaz",
     "headline": "Write your own training loop — without managing GPUs — with Amazon SageMaker training session APIs",
     "source": "AWS Machine Learning Blog",
@@ -23,150 +167,6 @@
     "url": "https://lucasaguiar.xyz/posts/run-llm-distributed-inference-homelab-guide-2026/",
     "publishedAt": "2026-10-22T13:48:19.000Z",
     "topic": "LLM"
-  },
-  {
-    "id": "arxiv-cs-cl-how-far-can-the-gemma-4-speech-encoder-go-without-changing-i",
-    "headline": "How Far Can the Gemma 4 Speech Encoder Go Without Changing Its Weights? Saudi and Gulf Arabic Speech Recognition with a Frozen and an Adapter-Augmented Encoder",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.28673",
-    "publishedAt": "2026-10-22T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "We study the 305M-parameter audio encoder shared by Gemma 4 and EmbeddingGemma 2 (identical except for its final projection) for Saudi and Gulf Arabic speech recognition, without changing any of its weights. A frozen sys"
-  },
-  {
-    "id": "arxiv-cs-cl-skilleval-learning-interpretable-ability-profiles-of-llms-vi",
-    "headline": "SkillEval: Learning Interpretable Ability Profiles of LLMs via Cognitive Diagnosis Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.28767",
-    "publishedAt": "2026-10-22T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Current evaluation of LLMs on benchmarks typically aggregates performance over individual examples into a single scalar score. This approach is overly coarse and ignores the diverse scope of skills covered by benchmark d"
-  },
-  {
-    "id": "arxiv-cs-cl-scaling-therapy-supervision-assessing-psychotherapy-fidelity",
-    "headline": "Scaling Therapy Supervision: Assessing Psychotherapy Fidelity Using Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.28772",
-    "publishedAt": "2026-10-22T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Psychotherapy fidelity assessment measures how faithfully a therapist adheres to a treatment protocol, a critical determinant of positive patient outcomes. However, fidelity assessment is bottlenecked by manual expert re"
-  },
-  {
-    "id": "arxiv-cs-cl-is-anyone-enforcing-the-cartel-what-reinforcement-learning-t",
-    "headline": "Is Anyone Enforcing the Cartel? What Reinforcement Learning Teaches LLM Agents in Markets",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.28787",
-    "publishedAt": "2026-10-22T04:00:00.000Z",
-    "topic": "Cost",
-    "summary": "Evaluations of large language model (LLM) agents report that pricing agents collude at others' expense. Yet collusion is defined by enforcement: a cartel, in which competitors share monopoly profits, holds only if a memb"
-  },
-  {
-    "id": "arxiv-cs-cl-where-do-legal-factors-live-in-llms",
-    "headline": "Where Do Legal Factors Live in LLMs?",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.28799",
-    "publishedAt": "2026-10-22T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "In case-based legal reasoning, legal professionals identify legally significant fact patterns in a new dispute and compare them with those of decided cases. In AI & Law, HYPO dimensions and CATO factors represent these p"
-  },
-  {
-    "id": "arxiv-cs-cl-sane-automated-scorer-specific-metamorphic-testing-for-llm-j",
-    "headline": "SANE: Automated Scorer-Specific Metamorphic Testing for LLM Judges",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.28886",
-    "publishedAt": "2026-10-22T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "LLM judges increasingly mediate benchmark evaluation, model selection, data curation, and training. Their decisions are useful only when each judge responds reliably to changes affecting its scoring criterion. Existing m"
-  },
-  {
-    "id": "arxiv-cs-cl-scan-or-index-large-evidence-coverage-answer-quality-and-cos",
-    "headline": "Scan or Index? large Evidence Coverage, Answer Quality, and Cost in Long-Document RAG",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.28957",
-    "publishedAt": "2026-10-22T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Scanning every passage in a long document seems thorough, but does it preserve more useful evidence or produce better answers? We compare 11 retrieval configurations spanning lexical and dense search, hybrid reranking, a"
-  },
-  {
-    "id": "arxiv-cs-cl-language-impairment-as-a-lens-onto-large-language-models",
-    "headline": "Language Impairment as a Lens onto Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.28992",
-    "publishedAt": "2026-10-22T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Although large language models (LLMs) encode language in highly distributed spaces, they remain vulnerable to focal disruptions---a phenomenon strikingly similar to how localized brain damage causes clinical aphasia in h"
-  },
-  {
-    "id": "arxiv-cs-ir-can-ai-chat-replace-traditional-search-evidence-from-a-rag-b",
-    "headline": "Can AI Chat Replace Traditional Search? Evidence from a RAG-based Live Events Experiment",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.28639",
-    "publishedAt": "2026-10-22T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Conversational AI tools are being increasingly integrated into online search and browsing interfaces. To understand how such tools affect user behavior and search outcomes, we run a pre-registered, incentivized online ex"
-  },
-  {
-    "id": "arxiv-cs-ir-transaction-foundation-models-for-retrieval-augmented-genera",
-    "headline": "Transaction Foundation Models for Retrieval-Augmented Generation over Financial Transaction Data: A Comparative Evaluation with Text Embeddings",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.28641",
-    "publishedAt": "2026-10-22T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Domain-specific tabular and transaction foundation models are increasingly proposed as drop-in representation learners for financial applications, but their value relative to off-the-shelf text embedding models for retri"
-  },
-  {
-    "id": "arxiv-cs-ir-controllable-generative-recommendation-via-guided-token-refi",
-    "headline": "Controllable Generative Recommendation via Guided Token Refinement",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.28642",
-    "publishedAt": "2026-10-22T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Generative recommendation over discrete Semantic IDs has become a powerful paradigm for item retrieval. Real-world systems, however, frequently require real-time controllability to balance accuracy against objectives suc"
-  },
-  {
-    "id": "arxiv-cs-ir-constrained-tagging-for-span-labeling",
-    "headline": "Constrained Tagging for Span Labeling",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.28922",
-    "publishedAt": "2026-10-22T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Generative LLMs can label spans without task-specific training, but their output is not tied to positions in the input: a returned span may be absent from the input or occur several times. We present constrained tagging,"
-  },
-  {
-    "id": "arxiv-cs-ir-progressive-learning-from-content-to-relevance-to-personaliz",
-    "headline": "Progressive Learning from Content to Relevance to Personalization for CTR Prediction",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.29138",
-    "publishedAt": "2026-10-22T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Multimodal click-through rate (CTR) prediction is central to search systems, where ranking depends on item content, query relevance, and user preference. Existing approaches incorporate content through dense embeddings o"
-  },
-  {
-    "id": "arxiv-cs-ir-learning-marginal-viewpoint-utility-for-budgeted-evidence-se",
-    "headline": "Learning Marginal Viewpoint Utility for Budgeted Evidence Selection in RAG",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.29234",
-    "publishedAt": "2026-10-22T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-augmented generation over multi-viewpoint queries must preserve distinct answers and positions from the retrieved evidence while operating under a fixed context budget. We introduce LMVU, a lightweight ranker t"
-  },
-  {
-    "id": "arxiv-cs-ir-generative-recommenders-forget-the-long-tail-restoring-memor",
-    "headline": "Generative Recommenders Forget the Long Tail: Restoring Memorization in Retrieval and Ranking",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.29298",
-    "publishedAt": "2026-10-22T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Generative recommenders replace the retrieve-then-rank cascade with a single model: beam search over semantic item identifiers performs retrieval, and the same likelihood performs ranking. We show that this shared score "
-  },
-  {
-    "id": "arxiv-cs-ir-directional-posterior-feedback-fusion-for-query-reformulatio",
-    "headline": "Directional Posterior Feedback Fusion for Query Reformulation in Dense Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.29464",
-    "publishedAt": "2026-10-22T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Dense retrieval has become a fundamental paradigm for modern information retrieval, supporting efficient semantic search across a wide range of applications. Its effectiveness, however, relies critically on query embeddi"
   },
   {
     "id": "qdrant-blog-qdrant-1-20-full-text-search-improvements",
