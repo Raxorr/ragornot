@@ -9,150 +9,6 @@
     "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT."
   },
   {
-    "id": "arxiv-cs-cl-fusioneval-benchmarking-model-fusion-for-large-language-mode",
-    "headline": "FusionEval: Benchmarking Model Fusion for Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.30162",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Model fusion aims to integrate the capabilities of multi-expert models into a single model. Existing evaluations offer limited coverage of reasoning with long chains of thought and tool use, while strong average performa"
-  },
-  {
-    "id": "arxiv-cs-cl-measuring-research-progress-and-linguistic-inclusion-in-low-",
-    "headline": "Measuring Research Progress and Linguistic Inclusion in Low-Resource Languages",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.30296",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large Language Models (LLMs) have accelerated research on low-resource and multilingual NLP, but their effectiveness in creating an equitable landscape remains unmapped. We analyze 1,158 peer-reviewed open-access papers "
-  },
-  {
-    "id": "arxiv-cs-cl-aql-lite-enabling-efficient-knowledge-acquisition-for-arabic",
-    "headline": "AQL-Lite: Enabling Efficient Knowledge Acquisition for Arabic LLMs via Data-Centric Continual Pretraining",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.30344",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "topic": "Cost",
-    "summary": "Training Arabic large language models faces challenges from noisy web data, dialectal variation, and the high cost of continual pretraining (CPT). We introduce AQL-Lite (AQL: Arabic Quality Language), a time- and resourc"
-  },
-  {
-    "id": "arxiv-cs-cl-consistency-is-not-validity-self-rewarded-moral-argumentatio",
-    "headline": "Consistency Is Not Validity: Self-Rewarded Moral Argumentation Makes Language Models Decisive but Pliable",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.30349",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "LLMs are increasingly consulted for moral judgment. We aim to improve performance on such tasks by rewarding good arguments, on the premise that arguing well increases the likelihood of judging well. We train a reinforce"
-  },
-  {
-    "id": "arxiv-cs-cl-memplan-memory-conditioned-pddl-planning-for-partially-obser",
-    "headline": "MemPlan: Memory-Conditioned PDDL Planning for Partially Observable Text Environments",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.30379",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "topic": "Cost",
-    "summary": "LLM agents are flexible in language interaction, but using them as long-horizon planners is costly and prone to hallucinated or invalid actions. This paper targets a different role for LLMs: constrained bridges between l"
-  },
-  {
-    "id": "arxiv-cs-cl-sim-ut-a-user-simulation-based-evaluation-framework-for-medi",
-    "headline": "SIM-UT: A User Simulation based Evaluation Framework for Medical Triage Chatbots",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.30412",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "LLM-based chat agents are increasingly used for complex, multi-turn, multilingual medical triage in low- and middle-income countries (LMICs), yet evaluation methods focus on single-turn, English-only benchmarks that prim"
-  },
-  {
-    "id": "arxiv-cs-cl-self-assessment-reinforcement-learning-for-search-state-awar",
-    "headline": "Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.30435",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Recent advances in search agents have enabled large language models to tackle complex tasks by retrieving and synthesizing external information. However, existing search agents often lack search-state awareness, i.e., th"
-  },
-  {
-    "id": "arxiv-cs-cl-rethinking-the-evaluation-of-llm-fact-checkers",
-    "headline": "Rethinking the Evaluation of LLM Fact-Checkers",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.30504",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are widely used to answer factual questions, but their answers can contain errors and must be fact-checked claim by claim. Yet the resulting score depends on three design decisions: which que"
-  },
-  {
-    "id": "arxiv-cs-ir-irah-hierarchical-agentic-tree-search-for-retrieval-pipeline",
-    "headline": "IRAH: Hierarchical Agentic Tree Search for Retrieval Pipeline Optimization",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.30167",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Optimizing Information Retrieval (IR) pipelines for Retrieval-Augmented Generation (RAG) requires jointly selecting structural components and numerical hyperparameters under limited evaluation budgets. We introduce the I"
-  },
-  {
-    "id": "arxiv-cs-ir-formbench-a-benchmark-for-fine-grained-retrieval-in-formulat",
-    "headline": "FormBench: A Benchmark for Fine-Grained Retrieval in Formulation Patents",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.30175",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "We introduce FormBench, a platform for testing the ability of models to retrieve precise chemical information from technical documents. FormBench contains 55,352 queries and two retrieval corpus variants each with ~1M pa"
-  },
-  {
-    "id": "arxiv-cs-ir-flexvdr-learning-to-allocate-matryoshka-representation-budge",
-    "headline": "FlexVDR: Learning to Allocate Matryoshka Representation Budgets for Visual Document Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.30177",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Visual document retrieval relies on rich multi-vector representations to capture fine-grained evidence in document pages, but encoding and matching these representations can be computationally expensive. Existing compres"
-  },
-  {
-    "id": "arxiv-cs-ir-qprotfuse-query-guided-layer-fusion-for-retrieval-augmented-",
-    "headline": "QProtFuse: Query-Guided Layer Fusion for Retrieval-Augmented Protein Function Prediction",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.30180",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Predicting protein functions from amino acid sequences is essential to understanding biological processes. Large language models (LLMs) offer flexible function descriptions to natural-language queries, yet their limited "
-  },
-  {
-    "id": "arxiv-cs-ir-deep-search-in-real-world-web-environments",
-    "headline": "Deep Search in Real-World Web Environments",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.30181",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the "
-  },
-  {
-    "id": "arxiv-cs-ir-when-agentic-retrieval-fails-silently-framework-and-producti",
-    "headline": "When Agentic Retrieval Fails Silently: Framework and Production Evidence from a Creative AI Assistant",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.30423",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "CTR, MRR, and behavioral NDCG assume the user sees ranked results and acts on them. In an agentic assistant, a generation layer consumes retrieval output first, and that assumption breaks in three ways. The agent reads t"
-  },
-  {
-    "id": "arxiv-cs-ir-getting-a-grip-on-graph-based-search-for-learned-sparse-retr",
-    "headline": "Getting a GRIP on Graph-Based Search for Learned Sparse Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.30425",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Learned sparse retrieval (LSR) has recently gained traction in the information retrieval community for the ability to combine the generalization capabilities of neural representations with the interpretability of keyword"
-  },
-  {
-    "id": "arxiv-cs-ir-onelatent-latent-reasoning-for-efficient-foundation-recommen",
-    "headline": "OneLatent: Latent Reasoning for Efficient Foundation Recommendation Models",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.30675",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) have demonstrated strong reasoning capabilities, motivating their use as the backbone of foundation recommendation models (FRMs). Existing methods enhance recommendations through explicit Cha"
-  },
-  {
     "id": "qdrant-blog-scalable-pdf-retrieval-with-cohere-embed-5-and-qdrant-asymme",
     "headline": "Scalable PDF Retrieval with Cohere Embed 5 and Qdrant Asymmetric Quantization",
     "source": "Qdrant Blog",
@@ -169,14 +25,6 @@
     "publishedAt": "2026-10-22T18:00:01.000Z",
     "topic": "LLM",
     "summary": "Amazon SageMaker AI training session APIs let you write your own LLM training loop (SFT, RL, or custom objectives) in a Python script while the service runs the GPUs. This post introduces the programming model and three "
-  },
-  {
-    "id": "hacker-news-run-llms-across-multiple-machines-distributed-inference-guid",
-    "headline": "Run LLMs Across Multiple Machines: Distributed Inference Guide for Your Homelab (2026)",
-    "source": "Hacker News",
-    "url": "https://lucasaguiar.xyz/posts/run-llm-distributed-inference-homelab-guide-2026/",
-    "publishedAt": "2026-10-22T13:48:19.000Z",
-    "topic": "LLM"
   },
   {
     "id": "qdrant-blog-qdrant-1-20-full-text-search-improvements",
@@ -422,14 +270,6 @@
     "topic": "LLM"
   },
   {
-    "id": "hacker-news-llms-could-control-their-host-machines-by-exploiting-inferen",
-    "headline": "LLMs could control their host machines by exploiting inference engines",
-    "source": "Hacker News",
-    "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
-    "publishedAt": "2026-08-24T19:03:06.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "ahead-of-ai-how-claude-watermarks-ai-generated-text",
     "headline": "How Claude Watermarks AI-Generated Text",
     "source": "Ahead of AI",
@@ -438,6 +278,22 @@
     "topic": "LLM",
     "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/fb73bfb5-0291-4e5e-b425-6c3be054276e_1914x1076.png"
+  },
+  {
+    "id": "hacker-news-show-hn-pigame-pi-llm-plays-black-box-browser-games-via-obse",
+    "headline": "Show HN: Pigame – pi+LLM plays black-box browser games via observe/move tools",
+    "source": "Hacker News",
+    "url": "https://github.com/ifoxhz/pigame",
+    "publishedAt": "2026-08-21T01:20:26.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "hacker-news-offline-rag-on-ios-with-spatial-integration",
+    "headline": "Offline RAG on iOS with Spatial Integration",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=49371913",
+    "publishedAt": "2026-08-20T08:28:22.000Z",
+    "topic": "RAG"
   },
   {
     "id": "hugging-face-blog-multi-vector-late-interaction-embedding-models-with-sentence",
