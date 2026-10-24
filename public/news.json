@@ -1,5 +1,15 @@
 [
   {
+    "id": "ahead-of-ai-building-reasoning-models-from-the-ground-up-a-video-course",
+    "headline": "Building Reasoning Models from the Ground Up: A Video Course",
+    "source": "Ahead of AI",
+    "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+    "publishedAt": "2026-10-24T11:14:32.000Z",
+    "topic": "LLM",
+    "summary": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
+    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/519db120-1320-411b-adec-a88865345f2c_4083x2916.jpeg"
+  },
+  {
     "id": "openai-rapidly-scaling-online-storage-to-serve-over-1-billion-chatg",
     "headline": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
     "source": "OpenAI",
@@ -420,16 +430,6 @@
     "publishedAt": "2026-05-22T00:00:00.000Z",
     "topic": "RAG",
     "summary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects."
-  },
-  {
-    "id": "ahead-of-ai-recent-developments-in-llm-architectures-kv-sharing-mhc-and-",
-    "headline": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
-    "source": "Ahead of AI",
-    "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
-    "publishedAt": "2026-05-16T11:33:51.000Z",
-    "topic": "Cost",
-    "summary": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
-    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/2b841d26-5b2d-4be9-9710-d89d4f023f0c_1600x900.png"
   },
   {
     "id": "deepmind-blog-strengthening-singapore-s-ai-future-a-new-national-partnersh",
