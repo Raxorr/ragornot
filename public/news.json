@@ -1,5 +1,140 @@
 [
   {
+    "id": "arxiv-cs-cl-validating-the-comparison-not-just-the-scorer-why-overall-ac",
+    "headline": "Validating the Comparison, Not Just the Scorer: Why Overall Accuracy Can Mislead in Interactive LLM Evaluation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.31678",
+    "publishedAt": "2026-10-26T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Many LLM studies compare how models respond to different follow-up prompts. For example, one prompt may neutrally ask a model to reconsider, while another insists that an invented film really exists. The difference is us"
+  },
+  {
+    "id": "arxiv-cs-cl-misconceptdialogue-evaluation-criteria-shape-measured-succes",
+    "headline": "MisconceptDialogue: Evaluation Criteria Shape Measured Success in LLM Math Tutoring",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.31679",
+    "publishedAt": "2026-10-26T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models are increasingly used as math tutors, raising two questions: can a single LLM detect a student's error, diagnose the underlying misconception, and remediate it through multi-turn dialogue - and can "
+  },
+  {
+    "id": "arxiv-cs-cl-knowledge-graphs-quality-assessment-in-the-era-of-llms-a-con",
+    "headline": "Knowledge Graphs Quality Assessment in the Era of LLMs: A Conceptual Framework",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.31684",
+    "publishedAt": "2026-10-26T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Knowledge Graphs (KGs) have been popularized during the last few decades and are increasingly constructed and consumed by Large Language Models (LLMs). Various applications therefore rely on KGs to provide concise, compl"
+  },
+  {
+    "id": "arxiv-cs-cl-an-agentic-approach-with-evidence-grounded-verification-for-",
+    "headline": "An Agentic Approach with Evidence-Grounded Verification for Multimodal Emotion Reasoning in Conversation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.31685",
+    "publishedAt": "2026-10-26T04:00:00.000Z",
+    "topic": "Cost",
+    "summary": "LLM-based multimodal emotion reasoning systems perform well on standard benchmarks, but improving them through instruction tuning can be computationally expensive. Agentic pipelines built from frozen models avoid this co"
+  },
+  {
+    "id": "arxiv-cs-cl-distributional-alignment-of-llms-and-its-generalization-prop",
+    "headline": "Distributional Alignment of LLMs and Its Generalization Properties",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.31687",
+    "publishedAt": "2026-10-26T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models are increasingly used to simulate and probe human behavior, e.g., for surveys. For these applications, a key property is that outputs satisfy distributional alignment: to match its output distributi"
+  },
+  {
+    "id": "arxiv-cs-cl-free-lunch-for-llms-confidence-the-rl-critic-already-knows",
+    "headline": "Free Lunch for LLMs Confidence: The RL Critic Already Knows",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.31820",
+    "publishedAt": "2026-10-26T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Reliable confidence estimation is essential for trustworthy deployment of large language models (LLMs), but dedicated confidence training stage requires additional data and compute. We ask a fundamental question: what pr"
+  },
+  {
+    "id": "arxiv-cs-cl-what-the-query-remembers-query-abstraction-governs-lexical-a",
+    "headline": "What the Query Remembers: Query Abstraction Governs Lexical and Dense Retrieval of Classical Arabic Poetry",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.31821",
+    "publishedAt": "2026-10-26T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "How well a poetry archive can be searched depends on what the user still remembers, not only on what the model understands. We show this for Classical Arabic poetry, benchmarking nine dense encoders and BM25 over two cor"
+  },
+  {
+    "id": "arxiv-cs-cl-machine-readable-operator-manuals-over-the-iso-11783-network",
+    "headline": "Machine-Readable Operator Manuals over the ISO 11783 Network for Offline, Multilingual LLM Assistance",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.31863",
+    "publishedAt": "2026-10-26T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "If agricultural machinery is to support intelligent, offline assistance, then the system must access technical documentation dynamically. In this paper, the Semantic Synchronization of operator manuals over ISO 11783-bas"
+  },
+  {
+    "id": "arxiv-cs-ir-mice-to-meet-you-from-re-ranking-only-to-end-to-end-retrieva",
+    "headline": "MICE to Meet You: From Re-ranking Only to End-to-End Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.31932",
+    "publishedAt": "2026-10-26T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Late-interaction models offer state-of-the-art efficiency-effectiveness trade-offs for neural retrieval by enabling document representations to be pre-computed and efficiently indexed. Yet, their relatively simple intera"
+  },
+  {
+    "id": "arxiv-cs-ir-personalquery-benchmark-evaluating-retrieval-robustness-to-p",
+    "headline": "PersonalQuery-Benchmark:Evaluating Retrieval Robustness to Personalized User Expression Differences",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.32164",
+    "publishedAt": "2026-10-26T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Existing personalized information retrieval methods mainly model differences in user needs through user preferences and query intent, while paying little attention to the personalized expression differences that arise wh"
+  },
+  {
+    "id": "arxiv-cs-ir-skillrep-characterizing-and-understanding-the-representation",
+    "headline": "SkillRep: Characterizing and Understanding the Representation Design Space of Agent Skill Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.32336",
+    "publishedAt": "2026-10-26T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieving the right skill from a large library is essential for LLM agents, yet requests and skills are written for different purposes and in different words. Existing retrievers narrow this request-skill gap with one o"
+  },
+  {
+    "id": "arxiv-cs-ir-agentic-memory-management-is-the-next-frontier-of-informatio",
+    "headline": "Agentic Memory Management Is the Next Frontier of Information Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.32464",
+    "publishedAt": "2026-10-26T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Information retrieval has long been focusing on connecting people with information they need to complete their tasks. Recently, the meaning of this has changed dramatically as more and more AI agents now consume, retain,"
+  },
+  {
+    "id": "arxiv-cs-ir-uae-govtrust-scope-filtering-gains-and-routing-failures-in-b",
+    "headline": "UAE GovTrust Scope Filtering Gains and Routing Failures in Bilingual Public Service Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.32608",
+    "publishedAt": "2026-10-26T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Public-service queries can mention several locations while only one controls the requested service. We study this distinction in UAE GovTrust, a controlled English-Arabic retrieval diagnostic comprising 22 authored servi"
+  },
+  {
+    "id": "arxiv-cs-ir-from-archive-to-resource-bringing-legacy-data-back-to-life-a",
+    "headline": "From archive to resource: bringing legacy data back to life at scale with large language models",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.32616",
+    "publishedAt": "2026-10-26T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Pharmaceutical companies maintain vast archives of legacy preclinical study reports that contain study-context details, such as fasting, anesthesia, and laboratory instrumentation, that are rarely captured in structured "
+  },
+  {
+    "id": "arxiv-cs-ir-driving-video-retrieval-for-complex-queries-with-structured-",
+    "headline": "Driving Video Retrieval for Complex Queries with Structured Grounding",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2606.09109",
+    "publishedAt": "2026-10-26T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Video retrieval at scale is central to data curation and safety validation in autonomous driving, where users want to find not only scenes but also dynamic events such as cut-ins and hard braking. Existing vision-languag"
+  },
+  {
     "id": "ahead-of-ai-building-reasoning-models-from-the-ground-up-a-full-video-co",
     "headline": "Building Reasoning Models from the Ground Up: A Full Video Course",
     "source": "Ahead of AI",
@@ -130,15 +265,6 @@
     "publishedAt": "2026-10-12T23:58:46.000Z",
     "topic": "LLM",
     "summary": "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as "
-  },
-  {
-    "id": "simon-willison-s-blog-web-edit-0-1a0",
-    "headline": "web-edit 0.1a0",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
-    "publishedAt": "2026-10-12T15:54:36.000Z",
-    "topic": "LLM",
-    "summary": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Code"
   },
   {
     "id": "hacker-news-show-hn-liquid-inference-auto-routing-to-competitive-llm-mar",
