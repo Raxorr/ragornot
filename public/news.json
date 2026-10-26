@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledg",
+    "headline": "Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/",
+    "publishedAt": "2026-10-26T17:15:14.000Z",
+    "topic": "RAG",
+    "summary": "Build enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with the AWS CDK: an agent that routes across two knowledge bases, retrieves through the AgentCore Gateway, and returns grounded, cited answer"
+  },
+  {
     "id": "arxiv-cs-cl-validating-the-comparison-not-just-the-scorer-why-overall-ac",
     "headline": "Validating the Comparison, Not Just the Scorer: Why Overall Accuracy Can Mislead in Interactive LLM Evaluation",
     "source": "arXiv (cs.CL)",
