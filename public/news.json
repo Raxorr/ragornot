@@ -267,15 +267,6 @@
     "topic": "RAG"
   },
   {
-    "id": "simon-willison-s-blog-llm-meta-ai-0-2",
-    "headline": "llm-meta-ai 0.2",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
-    "publishedAt": "2026-10-12T23:58:46.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as "
-  },
-  {
     "id": "hacker-news-show-hn-liquid-inference-auto-routing-to-competitive-llm-mar",
     "headline": "Show HN: Liquid Inference – auto-routing to competitive LLM marketplace",
     "source": "Hacker News",
