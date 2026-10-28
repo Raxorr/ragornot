@@ -1,5 +1,29 @@
 [
   {
+    "id": "deepmind-blog-gemini-4-carbon-our-next-frontier-model",
+    "headline": "Gemini 4 Carbon: Our next frontier model",
+    "source": "DeepMind Blog",
+    "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+    "publishedAt": "2026-10-28T17:00:58.000Z",
+    "topic": "Environment"
+  },
+  {
+    "id": "hacker-news-a-garbage-collector-for-llm-context-windows-written-in-rust",
+    "headline": "A garbage collector for LLM context windows, written in Rust",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=50274683",
+    "publishedAt": "2026-10-28T14:52:56.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "hacker-news-show-hn-harness-corp-an-incremental-game-powered-by-a-local-",
+    "headline": "Show HN: Harness Corp – An incremental game powered by a local LLM using WebGPU",
+    "source": "Hacker News",
+    "url": "https://simedw.com/projects/harness-corp/",
+    "publishedAt": "2026-10-28T13:36:05.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "arxiv-cs-cl-finllm-kg-knowledge-graph-enhanced-llms-for-financial-sentim",
     "headline": "FinLLM-KG: Knowledge Graph-Enhanced LLMs for Financial Sentiment Analysis in Algorithmic Trading",
     "source": "arXiv (cs.CL)",
@@ -422,22 +446,6 @@
     "topic": "LLM",
     "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/fb73bfb5-0291-4e5e-b425-6c3be054276e_1914x1076.png"
-  },
-  {
-    "id": "hacker-news-show-hn-pigame-pi-llm-plays-black-box-browser-games-via-obse",
-    "headline": "Show HN: Pigame – pi+LLM plays black-box browser games via observe/move tools",
-    "source": "Hacker News",
-    "url": "https://github.com/ifoxhz/pigame",
-    "publishedAt": "2026-08-21T01:20:26.000Z",
-    "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-offline-rag-on-ios-with-spatial-integration",
-    "headline": "Offline RAG on iOS with Spatial Integration",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=49371913",
-    "publishedAt": "2026-08-20T08:28:22.000Z",
-    "topic": "RAG"
   },
   {
     "id": "hugging-face-blog-multi-vector-late-interaction-embedding-models-with-sentence",
