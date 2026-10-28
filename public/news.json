@@ -1,155 +1,155 @@
 [
   {
+    "id": "arxiv-cs-cl-finllm-kg-knowledge-graph-enhanced-llms-for-financial-sentim",
+    "headline": "FinLLM-KG: Knowledge Graph-Enhanced LLMs for Financial Sentiment Analysis in Algorithmic Trading",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.36083",
+    "publishedAt": "2026-10-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Recent advances in Generative AI have substantially improved financial sentiment analysis through post-trained financial large language models (LLMs). However, existing approaches remain confined to predicting the sentim"
+  },
+  {
+    "id": "arxiv-cs-cl-llm-hallucination-detection-via-low-rank-multilinear-decompo",
+    "headline": "LLM Hallucination Detection via Low-rank Multilinear Decomposition",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.36191",
+    "publishedAt": "2026-10-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) frequently generate fluent yet factually incorrect responses, raising concerns about their reliability. Recent hallucination detectors increasingly exploit internal representations, but extra"
+  },
+  {
+    "id": "arxiv-cs-cl-detect-before-you-disambiguate-perturbation-based-input-ambi",
+    "headline": "Detect Before You Disambiguate: Perturbation-Based Input Ambiguity Detection in LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.36353",
+    "publishedAt": "2026-10-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) often answer ambiguous inputs as if they had a single intended meaning. This is problematic because input ambiguity is an upstream source of uncertainty: when a prompt admits multiple valid i"
+  },
+  {
+    "id": "arxiv-cs-cl-concur-concordant-auxiliary-rewards-for-multi-task-multi-rew",
+    "headline": "CONCUR: Concordant Auxiliary Rewards for Multi-Task, Multi-Reward Reinforcement Learning",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.36437",
+    "publishedAt": "2026-10-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "When a Large Language Model (LLM) is trained with Reinforcement Learning (RL) on multiple tasks, a task's primary reward can gate auxiliary rewards such as a length reward: on a failing response, an auxiliary cannot exce"
+  },
+  {
+    "id": "arxiv-cs-cl-structured-maps-for-landmark-based-route-instructions-with-l",
+    "headline": "Structured Maps for Landmark-Based Route Instructions with LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.36582",
+    "publishedAt": "2026-10-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "To generate landmark-based route instructions, models must understand both map geometry and human landmark preferences. Although large language models (LLMs) show great abilities in language tasks, the best way to struct"
+  },
+  {
+    "id": "arxiv-cs-cl-japanese-discourse-structure-analysis-based-on-segmented-dis",
+    "headline": "Japanese Discourse Structure Analysis Based on Segmented Discourse Representation Theory Using LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.36667",
+    "publishedAt": "2026-10-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Discourse parsing based on Segmented Discourse Representation Theory (SDRT) is crucial for capturing the structural dynamics of dialogues. However, most prior research focuses on English, and its effectiveness for Japane"
+  },
+  {
+    "id": "arxiv-cs-cl-a-quantitative-approach-to-asch-conformity-in-frontier-large",
+    "headline": "A Quantitative Approach to Asch Conformity in Frontier Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.36668",
+    "publishedAt": "2026-10-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "The Asch conformity experiment has recently gained considerable attention as a way of measuring conformity in large language models (LLMs). While previous studies have focused on demonstrating conformity in LLMs, our wor"
+  },
+  {
+    "id": "arxiv-cs-cl-camr-compatibility-aware-memory-replay-for-continual-learnin",
+    "headline": "CAMR: Compatibility-Aware Memory Replay for Continual Learning in Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.36734",
+    "publishedAt": "2026-10-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Continual learning requires large language models to acquire new knowledge and capabilities while retaining what they have learned. Fine-tuning and replay support acquisition and retention, but deciding whether incoming "
+  },
+  {
+    "id": "arxiv-cs-ir-relay-one-query-two-roles-for-sequential-recommendation",
+    "headline": "RELAY: One Query, Two Roles for Sequential Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.36000",
+    "publishedAt": "2026-10-28T04:00:00.000Z",
+    "topic": "Cost",
+    "summary": "Sequential recommendation must combine semantic preferences with behavioral associations to deliver accurate rankings at low inference cost. Sharing history selection connects preference representation directly to the be"
+  },
+  {
+    "id": "arxiv-cs-ir-preserving-rare-item-recall-under-a-storage-budget-quantizat",
+    "headline": "Preserving rare-item recall under a storage budget: quantization, distillation, and the limits of teacher fidelity",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.36267",
+    "publishedAt": "2026-10-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Under a fixed embedding-storage budget, recommenders can use a small full-precision model, a distilled student, or a higher-rank low-precision model. We asked which choice preserves rare-item recall and whether teacher f"
+  },
+  {
+    "id": "arxiv-cs-ir-cross-day-compatibility-of-daily-item-embeddings-an-empirica",
+    "headline": "Cross-Day Compatibility of Daily Item Embeddings: An Empirical Study of Alignment, Scale Management, and CTR Adaptation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.36408",
+    "publishedAt": "2026-10-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Daily item co-occurrence embeddings are paired with next-day behavior without future-behavior leakage. Multi-day click-through rate (CTR) training therefore mixes versions whose directions and norms may differ for the sa"
+  },
+  {
+    "id": "arxiv-cs-ir-acor-incremental-evidence-accumulation-towards-real-time-dna",
+    "headline": "ACOR: incremental evidence accumulation towards real-time DNA storage reconstruction",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.36500",
+    "publishedAt": "2026-10-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "DNA offers high-density, durable storage by encoding digital information into synthetic strands and retrieving it through sequencing. Sequence reconstruction combines noisy copies of each strand before downstream decodin"
+  },
+  {
+    "id": "arxiv-cs-ir-ccp-dp-cross-cluster-context-guided-phase-dynamic-programmin",
+    "headline": "CCP-DP: Cross-cluster context-guided phase dynamic programming for DNA storage sequence reconstruction",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.36559",
+    "publishedAt": "2026-10-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Motivation: DNA data storage offers high information density and long-term stability, but accurate sequence reconstruction remains challenging under limited sequencing coverage and strong insertion, deletion, and substit"
+  },
+  {
+    "id": "arxiv-cs-ir-pailitaommsearch2-0-technical-report-scaling-generative-retr",
+    "headline": "PailitaoMMSearch2.0 Technical Report: Scaling Generative Retrieval to Unified End-to-End Multimodal Search",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.36958",
+    "publishedAt": "2026-10-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Generative retrieval models have been increasingly adopted in search and recommendation systems. However, industrial generative retrieval models are commonly specialized to a fixed online scenario: they learn from scenar"
+  },
+  {
+    "id": "arxiv-cs-ir-tessera-structure-completed-evidence-units-for-web-retrieval",
+    "headline": "Tessera: Structure-Completed Evidence Units for Web Retrieval-Augmented Generation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.37080",
+    "publishedAt": "2026-10-28T04:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Web retrieval-augmented generation (RAG) splits a page into fixed-size text chunks or, in recent visual pipelines, screenshot tiles, and the retrieved item serves at once as the unit of indexing, ranking, and reading. We"
+  },
+  {
+    "id": "arxiv-cs-ir-autorse-evaluating-llm-agents-as-recommendation-engineers-fo",
+    "headline": "AutoRSE: Evaluating LLM Agents as Recommendation Engineers for Self-Evolving Recommender Systems",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.37228",
+    "publishedAt": "2026-10-28T04:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Recommender Systems Engineer Agents (RSE-Agents), which use LLM-based agents to autonomously improve recommendation algorithms, are emerging as a promising paradigm. However, their capabilities and limitations remain poo"
+  },
+  {
     "id": "hugging-face-blog-can-we-trust-llms-to-judge-whether-a-research-idea-is-novel",
     "headline": "Can we trust LLMs to judge whether a research idea is novel?",
     "source": "Hugging Face Blog",
     "url": "https://huggingface.co/blog/allenai/novelty-bench",
     "publishedAt": "2026-10-27T16:12:42.000Z",
     "topic": "LLM"
-  },
-  {
-    "id": "arxiv-cs-cl-openesm-energy-steered-models-are-scalable-foundation-learne",
-    "headline": "OpenESM: Energy-Steered Models Are Scalable Foundation Learners",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.33005",
-    "publishedAt": "2026-10-27T04:00:00.000Z",
-    "topic": "Environment",
-    "summary": "Energy-based models have shown promising properties for domain-specific tasks but remain challenging in modeling general-purpose scenarios. To bridge this gap, we design energy-steered models (ESMs) for foundational lang"
-  },
-  {
-    "id": "arxiv-cs-cl-linear-time-context-compression-with-state-space-encoding",
-    "headline": "Linear-Time Context Compression with State-Space Encoding",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.33006",
-    "publishedAt": "2026-10-27T04:00:00.000Z",
-    "topic": "Cost",
-    "summary": "Transformer-based large language models (LLMs) impose substantial computation and memory costs as context sizes increase, motivating methods that compress a context into a shorter representation before inference. Existin"
-  },
-  {
-    "id": "arxiv-cs-cl-knowledge-guided-llm-for-intent-driven-service-orchestration",
-    "headline": "Knowledge-Guided LLM for Intent-Driven Service Orchestration in Integrated Terrestrial and Non-Terrestrial 6G Networks",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.33007",
-    "publishedAt": "2026-10-27T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Natural-language service intents in integrated terrestrial and non-terrestrial (TN/NTN) 6G networks can be incomplete, ambiguous, or inconsistent, making unconstrained LLM generation challenging for reliable network-faci"
-  },
-  {
-    "id": "arxiv-cs-cl-tracequery-learning-what-to-recompute-from-full-denoising-tr",
-    "headline": "TraceQuery: learning what to recompute from full-denoising trajectory in diffusion language models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.33008",
-    "publishedAt": "2026-10-27T04:00:00.000Z",
-    "topic": "Cost",
-    "summary": "Diffusion large language models (dLLMs) enable flexible generation through iterative masked denoising, but incur substantial inference cost because token representations are repeatedly recomputed across denoising steps. "
-  },
-  {
-    "id": "arxiv-cs-cl-recursive-semantic-divergence-for-llm-agent-consistency",
-    "headline": "Recursive Semantic Divergence for LLM Agent Consistency",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.33012",
-    "publishedAt": "2026-10-27T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large Language Model (LLM) agents with tool use exhibit inconsistent behavior across independent runs from identical states, calling different tools, producing contradictory outputs, or pursuing divergent strategies. Thi"
-  },
-  {
-    "id": "arxiv-cs-cl-slice-mem-salience-gated-lightweight-information-curation-fo",
-    "headline": "SLICE-Mem: Salience-Gated Lightweight Information Curation for Efficient LLM Agent Memory",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.33015",
-    "publishedAt": "2026-10-27T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Long-term memory enables large language model (LLM) agents to maintain personalized and temporally coherent interactions, but repeated LLM inference for memory admission, extraction, and organization introduces substanti"
-  },
-  {
-    "id": "arxiv-cs-cl-merge-based-vocabulary-extension-stalls-at-the-pre-tokenizer",
-    "headline": "Merge-Based Vocabulary Extension Stalls at the Pre-Tokenizer: An English-Preserving Repair for Nepali, Tested in Continued Pretraining",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.33016",
-    "publishedAt": "2026-10-27T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Llama-3, Qwen3 and many other open LLMs pre-tokenize text with a regular expression whose word class admits only Unicode letters. Devanagari vowel signs are combining marks, so this regex splits Nepali words at every vow"
-  },
-  {
-    "id": "arxiv-cs-cl-eviground-ct-sentence-to-volume-grounding-for-verifying-llm-",
-    "headline": "EviGround-CT: Sentence-to-Volume Grounding for Verifying LLM-Generated Chest CT Reports",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.33038",
-    "publishedAt": "2026-10-27T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Chest computed tomography (CT) reports generated by large language models (LLMs) can describe positive findings that lack localized evidence in the scan. We propose EviGround-CT to verify these findings after report gene"
-  },
-  {
-    "id": "arxiv-cs-ir-pinger-token-efficient-generative-retrieval-with-semantic-id",
-    "headline": "PinGER: Token-Efficient Generative Retrieval with Semantic IDs",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.33435",
-    "publishedAt": "2026-10-27T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Generative retrieval replaces nearest-neighbor search with token-by-token decoding of an item's semantic ID (SID). But existing SID-based methods primarily use L levels of tokens sequentially to represent each item in th"
-  },
-  {
-    "id": "arxiv-cs-ir-skillqr-agentic-skill-discovery-for-reason-intensive-query-r",
-    "headline": "SkillQR: Agentic Skill Discovery for Reason-Intensive Query Rewriting",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.33768",
-    "publishedAt": "2026-10-27T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Dense retrievers provide grounded evidence that mitigates hallucinations in outputs from Large Language Models (LLMs). Real-world queries are often verbose, ambiguously framed, or require multi-step reasoning, introducin"
-  },
-  {
-    "id": "arxiv-cs-ir-bridging-search-intent-and-tabular-data-in-dataset-search",
-    "headline": "Bridging Search Intent and Tabular Data in Dataset Search",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.33936",
-    "publishedAt": "2026-10-27T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Dataset search remains a bottleneck in data analysis workflows, as existing systems largely rely on keyword matching or shallow retrieval that fail to capture user intent. To facilitate intent-driven search, we present t"
-  },
-  {
-    "id": "arxiv-cs-ir-decision-native-recommendation-with-large-language-models",
-    "headline": "Decision-Native Recommendation with Large Language Models",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.34124",
-    "publishedAt": "2026-10-27T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) bring world knowledge to user preference modeling in sequential recommendation, but generation-based recommenders express next-item predictions indirectly as text. Generated outputs may fail "
-  },
-  {
-    "id": "arxiv-cs-ir-cross-lingual-information-retrieval-in-tetun-for-ad-hoc-sear",
-    "headline": "Cross-Lingual Information Retrieval in Tetun for Ad-Hoc Search",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.34362",
-    "publishedAt": "2026-10-27T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Developing information retrieval (IR) systems that enable access across multiple languages is crucial in multilingual contexts. In Timor-Leste, where Tetun, Portuguese, English, and Indonesian are official and working la"
-  },
-  {
-    "id": "arxiv-cs-ir-dpe-rec-diversity-preserving-and-efficient-diffusion-languag",
-    "headline": "DPE-Rec: Diversity-Preserving and Efficient Diffusion Language Model Recommendation for Bundle Construction",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.34700",
-    "publishedAt": "2026-10-27T04:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Generative bundle construction completes a partially observed bundle by generating its missing items from a large product catalog. Compared to autoregressive LLMs, diffusion LLM emerges as a natural fit for this unordere"
-  },
-  {
-    "id": "arxiv-cs-ir-slide-search-to-list-item-distillation-for-single-rollout-ge",
-    "headline": "SLIDE: Search-to-List Item Distillation for Single-Rollout Generative Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.34764",
-    "publishedAt": "2026-10-27T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Generative retrieval (GR) typically relies on item-level beam search to retrieve candidates, leaving cross-item dependencies unmodeled and limiting direct optimization of list-level objectives. A natural alternative is t"
-  },
-  {
-    "id": "arxiv-cs-ir-ca-hnm-constraint-aware-hard-negative-mining-for-dense-retri",
-    "headline": "CA-HNM: Constraint-Aware Hard Negative Mining for Dense Retrieval with Structured Domain Models",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.35045",
-    "publishedAt": "2026-10-27T04:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Dense retrievers are commonly trained with hard negatives selected from lexical or dense retrieval results. Retrieval proximity, however, does not indicate whether a candidate conflicts with explicit domain structure. We"
   },
   {
     "id": "aws-machine-learning-blog-build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledg",
