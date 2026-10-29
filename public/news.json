@@ -78,15 +78,6 @@
     "summary": "Cohere released Embed 5 , a family of embedding models. The family has a quality-focused model, Embed 5 Pro ( embed-v5.0-pro ), and a lighter one, Embed 5 Fast ( embed-v5.0-fast ). Both accept text and images, support 10"
   },
   {
-    "id": "aws-machine-learning-blog-write-your-own-training-loop-without-managing-gpus-with-amaz",
-    "headline": "Write your own training loop — without managing GPUs — with Amazon SageMaker training session APIs",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions/",
-    "publishedAt": "2026-10-22T18:00:01.000Z",
-    "topic": "LLM",
-    "summary": "Amazon SageMaker AI training session APIs let you write your own LLM training loop (SFT, RL, or custom objectives) in a Python script while the service runs the GPUs. This post introduces the programming model and three "
-  },
-  {
     "id": "qdrant-blog-qdrant-1-20-full-text-search-improvements",
     "headline": "Qdrant 1.20 - Full-Text Search Improvements",
     "source": "Qdrant Blog",
