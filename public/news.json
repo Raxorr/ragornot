@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-datasette-llm-0-1a9",
+    "headline": "datasette-llm 0.1a9",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+    "publishedAt": "2026-10-31T22:10:01.000Z",
+    "topic": "LLM",
+    "summary": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default "
+  },
+  {
     "id": "simon-willison-s-blog-quoting-ted-sanders",
     "headline": "Quoting Ted Sanders",
     "source": "Simon Willison's Blog",
