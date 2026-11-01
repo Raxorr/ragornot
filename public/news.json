@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-quoting-kyle-kingsbury",
+    "headline": "Quoting Kyle Kingsbury",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+    "publishedAt": "2026-11-01T16:49:04.000Z",
+    "topic": "LLM",
+    "summary": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to "
+  },
+  {
     "id": "simon-willison-s-blog-datasette-llm-0-1a9",
     "headline": "datasette-llm 0.1a9",
     "source": "Simon Willison's Blog",
