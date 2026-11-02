@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-li-2-sao-lifting-light-singl-rollout-asynchronous-rl-optimiz",
+    "headline": "Li$^{2}$SAO: Lifting Light Singl-Rollout Asynchronous RL Optimization via Group-Relative Actor-Critic Bootstrapping",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.40726",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Asynchronous reinforcement learning (RL) is becoming a mainstream paradigm for post-training large language models (LLMs), as it improves training efficiency by updating the model as rollouts arrive. Recent work argues t"
+  },
+  {
+    "id": "arxiv-cs-cl-qistas-a-pre-registered-portable-protocol-for-fairness-evalu",
+    "headline": "Qistas: A Pre-Registered, Portable Protocol for Fairness Evaluation of Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.40893",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Fairness benchmarks for large language models (LLMs) are overwhelmingly English-born and American in their social categories; translated versions carry those categories into societies where they do not apply, and almost "
+  },
+  {
+    "id": "arxiv-cs-cl-cofibreak-a-coarse-to-fine-diversity-reward-for-effective-mu",
+    "headline": "CoFiBreak: A Coarse-to-Fine Diversity Reward for Effective Multi-Turn Jailbreak",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.40926",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Automated red teaming trains an attacker large language model (LLM) to elicit harmful responses from a victim LLM, but reinforcement learning can collapse attackers onto a narrow set of prompts when attack success is the"
+  },
+  {
+    "id": "arxiv-cs-cl-better-retrievers-worse-labels-how-incomplete-relevance-judg",
+    "headline": "Better Retrievers, Worse Labels: How Incomplete Relevance Judgments Distort Abstention Evaluation in Conversational RAG",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.40966",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Conversational RAG benchmarks such as MTRAG and RETECO evaluate retrieval and generation end to end: each system answers from its own retrieval, so abstention must be scored against whether each retrieved context is suff"
+  },
+  {
+    "id": "arxiv-cs-cl-fewer-heads-fewer-memories-pruning-redundant-attention-heads",
+    "headline": "Fewer Heads, Fewer Memories: Pruning Redundant Attention Heads Suppresses Verbatim Memorisation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.40974",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models have been shown to memorise and reproduce verbatim sequences from their training data, raising concerns about privacy leakage, intellectual property exposure, and the limits of generalisation. Recen"
+  },
+  {
+    "id": "arxiv-cs-cl-language-models-show-conformity-bias-in-rag-when-the-majorit",
+    "headline": "Language Models Show Conformity Bias in RAG: When the Majority Endorses a Poisoned Claim",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.41012",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-augmented generation (RAG) can expose language models to misleading evidence in retrieved documents. We investigate whether increasing the number of mutually agreeing poisoned documents affects a model's abilit"
+  },
+  {
+    "id": "arxiv-cs-cl-tracespec-understanding-and-improving-speculative-decoding-f",
+    "headline": "TraceSpec: Understanding and Improving Speculative Decoding for LLM Agents",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.41177",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "LLM agents execute tasks through repeated model calls over evolving histories of reasoning, actions, and tool feedback. Aggregate speculative-decoding metrics merge these distinct decisions, providing limited guidance on"
+  },
+  {
+    "id": "arxiv-cs-cl-psyinterviewee-informational-invariance-and-relational-adapt",
+    "headline": "PsyInterviewee: Informational Invariance and Relational Adaptivity in Mental Health Interview Simulation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2610.41289",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "LLM-based simulated interviewees support interviewer training and the evaluation of mental health interviewing systems. Existing studies have primarily focused on improving human-likeness through richer patient profiles "
+  },
+  {
+    "id": "arxiv-cs-ir-pix2evidence-a-multimodal-rag-system-for-text-and-visual-evi",
+    "headline": "Pix2Evidence: A Multimodal RAG System for Text and Visual Evidence",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.41335",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-augmented generation (RAG) over visually rich documents must find both relevant content and the evidence that supports an answer. Screenshot retrieval preserves images and page structure, but written facts with"
+  },
+  {
+    "id": "arxiv-cs-ir-defining-page-centric-visual-document-retrieval-and-evaluati",
+    "headline": "Defining Page-Centric Visual Document Retrieval and Evaluating Existing Benchmarks",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.41360",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "In modern information retrieval (IR), documents are increasingly encountered as structured sequences of visually rich, paginated units, rather than as flat text. Example documents encountered in our daily life include Wo"
+  },
+  {
+    "id": "arxiv-cs-ir-how-bert-based-cross-encoders-model-relevance-in-information",
+    "headline": "How BERT-based Cross-Encoders Model Relevance in Information Retrieval?",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.41425",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Cross-encoders are the most effective but also the least efficient models in Information Retrieval. Despite their success, the mechanisms underlying their relevance predictions remain poorly understood, particularly how "
+  },
+  {
+    "id": "arxiv-cs-ir-kite-retrieval-as-a-decision-procedure-for-long-term-convers",
+    "headline": "KITE: Retrieval as a Decision Procedure for Long-Term Conversational Memory",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.41521",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Many long-term memory systems for LLM agents are built around embedding-based retrieval. Al- though effective for semantic matching, similarity ranking alone does not establish whether re- trieved memories satisfy the co"
+  },
+  {
+    "id": "arxiv-cs-ir-search-when-needed-proceed-when-reliable-metacognitive-relia",
+    "headline": "Search When Needed, Proceed When Reliable: Metacognitive Reliability Supervision for Efficient Agentic Search",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.41738",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Efficient agentic search requires large language models (LLMs) to determine whether they can reliably proceed with their current knowledge or need additional external evidence. Supervision based on final-answer correctne"
+  },
+  {
+    "id": "arxiv-cs-ir-fieldguiderag-image-grounded-graphrag-for-fine-grained-recog",
+    "headline": "FieldGuideRAG: Image-Grounded GraphRAG for Fine-Grained Recognition with Vision-Language Models",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.40971",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "We present FieldGuideRAG, a training-free GraphRAG method in which a vision-language model, or VLM, recognizes fine-grained species by comparing the query with real photographs stored on the nodes of a knowledge graph. M"
+  },
+  {
+    "id": "arxiv-cs-ir-weboverlay-high-throughput-vision-only-distillation-for-extr",
+    "headline": "WebOverlay: High-Throughput Vision-Only Distillation for Extreme Aspect-Ratio Web Overlay Detection",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.41037",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Web overlays, such as cookie consent banners, newsletter prompts, and age gates, obstruct automated web crawlers and degrade downstream document representations. While proprietary multimodal Large Language Models (MLLMs)"
+  },
+  {
+    "id": "arxiv-cs-ir-hierarchical-dual-graph-retrieval-for-long-form-audio-reason",
+    "headline": "Hierarchical Dual-Graph Retrieval for Long-form Audio Reasoning",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.41390",
+    "publishedAt": "2026-11-02T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large audio language models (LALMs) struggle with long-form audio reasoning, as processing entire recordings often limits to capture query-relevant content distributed across distant segments while incurring substantial "
+  },
+  {
     "id": "simon-willison-s-blog-quoting-kyle-kingsbury",
     "headline": "Quoting Kyle Kingsbury",
     "source": "Simon Willison's Blog",
