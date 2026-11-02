@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-agentic-engineering-intelligence-with-amazon-nova-multimodal",
+    "headline": "Agentic engineering intelligence with Amazon Nova Multimodal Embeddings and Amazon Bedrock AgentCore",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/",
+    "publishedAt": "2026-11-02T17:01:16.000Z",
+    "topic": "Cost",
+    "summary": "Learn how to build a multi-agent engineering assistant that compresses aerospace component substitution evaluation from days to minutes, using Amazon Nova Multimodal Embeddings, Amazon Bedrock AgentCore, and the Strands "
+  },
+  {
     "id": "arxiv-cs-cl-li-2-sao-lifting-light-singl-rollout-asynchronous-rl-optimiz",
     "headline": "Li$^{2}$SAO: Lifting Light Singl-Rollout Asynchronous RL Optimization via Group-Relative Actor-Critic Bootstrapping",
     "source": "arXiv (cs.CL)",
@@ -187,15 +196,6 @@
     "topic": "LLM"
   },
   {
-    "id": "aws-machine-learning-blog-build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledg",
-    "headline": "Build agentic retrieval on a Managed Amazon Bedrock Knowledge Base with CDK",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/",
-    "publishedAt": "2026-10-26T17:15:14.000Z",
-    "topic": "RAG",
-    "summary": "Build enterprise agentic retrieval on a Managed Amazon Bedrock Knowledge Base with the AWS CDK: an agent that routes across two knowledge bases, retrieves through the AgentCore Gateway, and returns grounded, cited answer"
-  },
-  {
     "id": "ahead-of-ai-building-reasoning-models-from-the-ground-up-a-full-video-co",
     "headline": "Building Reasoning Models from the Ground Up: A Full Video Course",
     "source": "Ahead of AI",
@@ -274,15 +274,6 @@
     "publishedAt": "2026-10-18T23:43:09.000Z",
     "topic": "LLM",
     "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins"
-  },
-  {
-    "id": "simon-willison-s-blog-llm-echo-0-5",
-    "headline": "llm-echo 0.5",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
-    "publishedAt": "2026-10-18T23:16:16.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the p"
   },
   {
     "id": "weaviate-blog-weaviate-1-40-release",
