@@ -18,150 +18,6 @@
     "summary": "Learn how to build a multi-agent engineering assistant that compresses aerospace component substitution evaluation from days to minutes, using Amazon Nova Multimodal Embeddings, Amazon Bedrock AgentCore, and the Strands "
   },
   {
-    "id": "arxiv-cs-cl-li-2-sao-lifting-light-singl-rollout-asynchronous-rl-optimiz",
-    "headline": "Li$^{2}$SAO: Lifting Light Singl-Rollout Asynchronous RL Optimization via Group-Relative Actor-Critic Bootstrapping",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.40726",
-    "publishedAt": "2026-11-02T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Asynchronous reinforcement learning (RL) is becoming a mainstream paradigm for post-training large language models (LLMs), as it improves training efficiency by updating the model as rollouts arrive. Recent work argues t"
-  },
-  {
-    "id": "arxiv-cs-cl-qistas-a-pre-registered-portable-protocol-for-fairness-evalu",
-    "headline": "Qistas: A Pre-Registered, Portable Protocol for Fairness Evaluation of Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.40893",
-    "publishedAt": "2026-11-02T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Fairness benchmarks for large language models (LLMs) are overwhelmingly English-born and American in their social categories; translated versions carry those categories into societies where they do not apply, and almost "
-  },
-  {
-    "id": "arxiv-cs-cl-cofibreak-a-coarse-to-fine-diversity-reward-for-effective-mu",
-    "headline": "CoFiBreak: A Coarse-to-Fine Diversity Reward for Effective Multi-Turn Jailbreak",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.40926",
-    "publishedAt": "2026-11-02T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Automated red teaming trains an attacker large language model (LLM) to elicit harmful responses from a victim LLM, but reinforcement learning can collapse attackers onto a narrow set of prompts when attack success is the"
-  },
-  {
-    "id": "arxiv-cs-cl-better-retrievers-worse-labels-how-incomplete-relevance-judg",
-    "headline": "Better Retrievers, Worse Labels: How Incomplete Relevance Judgments Distort Abstention Evaluation in Conversational RAG",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.40966",
-    "publishedAt": "2026-11-02T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Conversational RAG benchmarks such as MTRAG and RETECO evaluate retrieval and generation end to end: each system answers from its own retrieval, so abstention must be scored against whether each retrieved context is suff"
-  },
-  {
-    "id": "arxiv-cs-cl-fewer-heads-fewer-memories-pruning-redundant-attention-heads",
-    "headline": "Fewer Heads, Fewer Memories: Pruning Redundant Attention Heads Suppresses Verbatim Memorisation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.40974",
-    "publishedAt": "2026-11-02T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models have been shown to memorise and reproduce verbatim sequences from their training data, raising concerns about privacy leakage, intellectual property exposure, and the limits of generalisation. Recen"
-  },
-  {
-    "id": "arxiv-cs-cl-language-models-show-conformity-bias-in-rag-when-the-majorit",
-    "headline": "Language Models Show Conformity Bias in RAG: When the Majority Endorses a Poisoned Claim",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.41012",
-    "publishedAt": "2026-11-02T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-augmented generation (RAG) can expose language models to misleading evidence in retrieved documents. We investigate whether increasing the number of mutually agreeing poisoned documents affects a model's abilit"
-  },
-  {
-    "id": "arxiv-cs-cl-tracespec-understanding-and-improving-speculative-decoding-f",
-    "headline": "TraceSpec: Understanding and Improving Speculative Decoding for LLM Agents",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.41177",
-    "publishedAt": "2026-11-02T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "LLM agents execute tasks through repeated model calls over evolving histories of reasoning, actions, and tool feedback. Aggregate speculative-decoding metrics merge these distinct decisions, providing limited guidance on"
-  },
-  {
-    "id": "arxiv-cs-cl-psyinterviewee-informational-invariance-and-relational-adapt",
-    "headline": "PsyInterviewee: Informational Invariance and Relational Adaptivity in Mental Health Interview Simulation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2610.41289",
-    "publishedAt": "2026-11-02T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "LLM-based simulated interviewees support interviewer training and the evaluation of mental health interviewing systems. Existing studies have primarily focused on improving human-likeness through richer patient profiles "
-  },
-  {
-    "id": "arxiv-cs-ir-pix2evidence-a-multimodal-rag-system-for-text-and-visual-evi",
-    "headline": "Pix2Evidence: A Multimodal RAG System for Text and Visual Evidence",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.41335",
-    "publishedAt": "2026-11-02T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-augmented generation (RAG) over visually rich documents must find both relevant content and the evidence that supports an answer. Screenshot retrieval preserves images and page structure, but written facts with"
-  },
-  {
-    "id": "arxiv-cs-ir-defining-page-centric-visual-document-retrieval-and-evaluati",
-    "headline": "Defining Page-Centric Visual Document Retrieval and Evaluating Existing Benchmarks",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.41360",
-    "publishedAt": "2026-11-02T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "In modern information retrieval (IR), documents are increasingly encountered as structured sequences of visually rich, paginated units, rather than as flat text. Example documents encountered in our daily life include Wo"
-  },
-  {
-    "id": "arxiv-cs-ir-how-bert-based-cross-encoders-model-relevance-in-information",
-    "headline": "How BERT-based Cross-Encoders Model Relevance in Information Retrieval?",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.41425",
-    "publishedAt": "2026-11-02T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Cross-encoders are the most effective but also the least efficient models in Information Retrieval. Despite their success, the mechanisms underlying their relevance predictions remain poorly understood, particularly how "
-  },
-  {
-    "id": "arxiv-cs-ir-kite-retrieval-as-a-decision-procedure-for-long-term-convers",
-    "headline": "KITE: Retrieval as a Decision Procedure for Long-Term Conversational Memory",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.41521",
-    "publishedAt": "2026-11-02T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Many long-term memory systems for LLM agents are built around embedding-based retrieval. Al- though effective for semantic matching, similarity ranking alone does not establish whether re- trieved memories satisfy the co"
-  },
-  {
-    "id": "arxiv-cs-ir-search-when-needed-proceed-when-reliable-metacognitive-relia",
-    "headline": "Search When Needed, Proceed When Reliable: Metacognitive Reliability Supervision for Efficient Agentic Search",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.41738",
-    "publishedAt": "2026-11-02T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Efficient agentic search requires large language models (LLMs) to determine whether they can reliably proceed with their current knowledge or need additional external evidence. Supervision based on final-answer correctne"
-  },
-  {
-    "id": "arxiv-cs-ir-fieldguiderag-image-grounded-graphrag-for-fine-grained-recog",
-    "headline": "FieldGuideRAG: Image-Grounded GraphRAG for Fine-Grained Recognition with Vision-Language Models",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.40971",
-    "publishedAt": "2026-11-02T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "We present FieldGuideRAG, a training-free GraphRAG method in which a vision-language model, or VLM, recognizes fine-grained species by comparing the query with real photographs stored on the nodes of a knowledge graph. M"
-  },
-  {
-    "id": "arxiv-cs-ir-weboverlay-high-throughput-vision-only-distillation-for-extr",
-    "headline": "WebOverlay: High-Throughput Vision-Only Distillation for Extreme Aspect-Ratio Web Overlay Detection",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.41037",
-    "publishedAt": "2026-11-02T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Web overlays, such as cookie consent banners, newsletter prompts, and age gates, obstruct automated web crawlers and degrade downstream document representations. While proprietary multimodal Large Language Models (MLLMs)"
-  },
-  {
-    "id": "arxiv-cs-ir-hierarchical-dual-graph-retrieval-for-long-form-audio-reason",
-    "headline": "Hierarchical Dual-Graph Retrieval for Long-form Audio Reasoning",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2610.41390",
-    "publishedAt": "2026-11-02T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Large audio language models (LALMs) struggle with long-form audio reasoning, as processing entire recordings often limits to capture query-relevant content distributed across distant segments while incurring substantial "
-  },
-  {
     "id": "simon-willison-s-blog-quoting-kyle-kingsbury",
     "headline": "Quoting Kyle Kingsbury",
     "source": "Simon Willison's Blog",
@@ -242,14 +98,6 @@
     "summary": "Qdrant 1.20.0 is out! Let&rsquo;s look at the main features for this version: BM25 on Full-Text Indexes and Code Search: Rank by BM25 straight from your payload text, with no embeddings to generate. Plus, better code sea"
   },
   {
-    "id": "hacker-news-macos-27-has-a-built-in-offline-llm-you-can-call-from-termin",
-    "headline": "macOS 27 has a built-in, offline LLM you can call from Terminal",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=50185265",
-    "publishedAt": "2026-10-21T18:17:50.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "hugging-face-blog-how-specializing-the-vocabulary-of-slms-can-cut-inference-co",
     "headline": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
     "source": "Hugging Face Blog",
@@ -283,30 +131,6 @@
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "topic": "RAG",
     "summary": "Weaviate 1.40 makes dropping a named vector and 4-bit Rotational Quantization GA, adds multi-vector embeddings on HFresh and PathSeer filtering, and changes vector configuration defaults."
-  },
-  {
-    "id": "hacker-news-launch-hn-consus-yc-f24-llm-gateway-for-companies-handling-s",
-    "headline": "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=50073471",
-    "publishedAt": "2026-10-13T15:41:00.000Z",
-    "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-agentic-retrieval-augmented-generation-a-survey-on-agentic-r",
-    "headline": "Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG",
-    "source": "Hacker News",
-    "url": "https://arxiv.org/abs/2501.09136",
-    "publishedAt": "2026-10-13T14:31:07.000Z",
-    "topic": "RAG"
-  },
-  {
-    "id": "hacker-news-show-hn-liquid-inference-auto-routing-to-competitive-llm-mar",
-    "headline": "Show HN: Liquid Inference – auto-routing to competitive LLM marketplace",
-    "source": "Hacker News",
-    "url": "https://liquidinference.ai/",
-    "publishedAt": "2026-10-09T14:52:04.000Z",
-    "topic": "LLM"
   },
   {
     "id": "deepmind-blog-embeddinggemma-2-an-open-lightweight-multimodal-embedding-mo",
@@ -399,14 +223,6 @@
     "topic": "AI"
   },
   {
-    "id": "hacker-news-cutting-llm-inference-costs-by-36-with-prompt-caching",
-    "headline": "Cutting LLM inference costs by 36% with prompt caching",
-    "source": "Hacker News",
-    "url": "https://www.neradot.com/post/cutting-inference-cost-36-percent-with-prompt-caching",
-    "publishedAt": "2026-09-02T06:46:47.000Z",
-    "topic": "Cost"
-  },
-  {
     "id": "hugging-face-blog-benchmirt-what-are-llm-benchmarks-actually-measuring",
     "headline": "BenchMIRT: What are LLM benchmarks actually measuring?",
     "source": "Hugging Face Blog",
@@ -450,14 +266,6 @@
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/fb73bfb5-0291-4e5e-b425-6c3be054276e_1914x1076.png"
   },
   {
-    "id": "hacker-news-show-hn-pigame-pi-llm-plays-black-box-browser-games-via-obse",
-    "headline": "Show HN: Pigame – pi+LLM plays black-box browser games via observe/move tools",
-    "source": "Hacker News",
-    "url": "https://github.com/ifoxhz/pigame",
-    "publishedAt": "2026-08-21T01:20:26.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "hacker-news-offline-rag-on-ios-with-spatial-integration",
     "headline": "Offline RAG on iOS with Spatial Integration",
     "source": "Hacker News",
@@ -482,6 +290,14 @@
     "topic": "LLM",
     "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
     "imageUrl": "https://substackcdn.com/image/fetch/$s_!Om23!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875b5076-19a9-4ffe-91d4-cafa156f650a_5343x5696.png"
+  },
+  {
+    "id": "hacker-news-show-hn-i-built-a-claude-code-plugin-to-query-10-6m-earnings",
+    "headline": "Show HN: I built a Claude Code plugin to query 10.6M earnings-call embeddings",
+    "source": "Hacker News",
+    "url": "https://fn2.ai/claude",
+    "publishedAt": "2026-08-14T22:09:36.000Z",
+    "topic": "LLM"
   },
   {
     "id": "hugging-face-blog-record-train-and-deploy-from-one-place-with-strands-agents-l",
@@ -516,6 +332,14 @@
     "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
     "publishedAt": "2026-08-12T16:14:36.000Z",
     "topic": "RAG"
+  },
+  {
+    "id": "hacker-news-show-hn-energy-carbon-and-water-estimates-for-ai-content-sho",
+    "headline": "Show HN: Energy, carbon and water estimates for AI content, shown as ranges",
+    "source": "Hacker News",
+    "url": "https://aicontentfootprint.com/",
+    "publishedAt": "2026-07-29T16:29:14.000Z",
+    "topic": "Environment"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
@@ -554,6 +378,14 @@
     "topic": "LLM",
     "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/4e729449-80ff-40c7-bcee-4d9349b46afe_2893x1589.png"
+  },
+  {
+    "id": "hacker-news-show-hn-rag-vector-db-cost-calculator",
+    "headline": "Show HN: RAG Vector DB Cost Calculator",
+    "source": "Hacker News",
+    "url": "https://tools.superml.org/calculators/rag-vector-db-cost-calculator",
+    "publishedAt": "2026-06-26T22:19:14.000Z",
+    "topic": "RAG"
   },
   {
     "id": "openai-openai-and-broadcom-unveil-llm-optimized-inference-chip",
@@ -601,6 +433,30 @@
     "publishedAt": "2026-05-07T11:00:00.000Z",
     "topic": "RAG",
     "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions."
+  },
+  {
+    "id": "hacker-news-show-hn-i-built-a-search-engine-for-llms-txt-sites",
+    "headline": "Show HN: I built a search engine for llms.txt sites",
+    "source": "Hacker News",
+    "url": "https://statespace.com/",
+    "publishedAt": "2026-04-28T16:02:05.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "hacker-news-rag-pipelines-leaking-pii-into-vector-databases-and-nobody-s",
+    "headline": "RAG pipelines, leaking PII into vector databases and nobody's talking about it",
+    "source": "Hacker News",
+    "url": "https://comply-tech.co.uk/blog/rag-pipeline-pii-vector-embeddings.html",
+    "publishedAt": "2026-04-24T09:21:55.000Z",
+    "topic": "RAG"
+  },
+  {
+    "id": "hacker-news-show-hn-xtrace-encrypted-vector-db-search-embeddings-without",
+    "headline": "Show HN: XTrace – Encrypted vector DB (search embeddings without exposing them)",
+    "source": "Hacker News",
+    "url": "https://github.com/XTraceAI/xtrace-sdk",
+    "publishedAt": "2026-04-22T18:09:57.000Z",
+    "topic": "AI"
   },
   {
     "id": "the-gradient-after-orthogonality-virtue-ethical-agency-and-ai-alignment",
