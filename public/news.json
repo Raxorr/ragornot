@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-llm-0-37",
+    "headline": "llm 0.37",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Nov/2/llm/",
+    "publishedAt": "2026-11-02T23:49:30.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm"
+  },
+  {
     "id": "aws-machine-learning-blog-agentic-engineering-intelligence-with-amazon-nova-multimodal",
     "headline": "Agentic engineering intelligence with Amazon Nova Multimodal Embeddings and Amazon Bedrock AgentCore",
     "source": "AWS Machine Learning Blog",
@@ -265,15 +274,6 @@
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "topic": "RAG",
     "summary": "Every retrieval pipeline starts with the same call: how big is a chunk? Too small, and a chunk loses its context. Too big, and the embedding model cuts it off. DMIS Lab&rsquo;s UltraBERT-Embed-150M moves that cutoff to 3"
-  },
-  {
-    "id": "simon-willison-s-blog-llm-tools-datasette-0-1-1",
-    "headline": "llm-tools-datasette 0.1.1",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
-    "publishedAt": "2026-10-18T23:43:09.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins"
   },
   {
     "id": "weaviate-blog-weaviate-1-40-release",
