@@ -1,5 +1,22 @@
 [
   {
+    "id": "simon-willison-s-blog-qwen-3-8-27b-on-my-laptop-can-interpret-model-weights-too",
+    "headline": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+    "publishedAt": "2026-11-03T16:29:48.000Z",
+    "topic": "LLM",
+    "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read &amp; write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper found that frontier models, i"
+  },
+  {
+    "id": "hugging-face-blog-cwe-bench-v2-more-coverage-quality-and-transparency",
+    "headline": "CWE-bench v2: More coverage, quality, and transparency",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/cwe-bench",
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "topic": "RAG"
+  },
+  {
     "id": "simon-willison-s-blog-llm-0-37",
     "headline": "llm 0.37",
     "source": "Simon Willison's Blog",
@@ -53,14 +70,6 @@
     "topic": "Environment"
   },
   {
-    "id": "hugging-face-blog-can-we-trust-llms-to-judge-whether-a-research-idea-is-novel",
-    "headline": "Can we trust LLMs to judge whether a research idea is novel?",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/allenai/novelty-bench",
-    "publishedAt": "2026-10-27T16:12:42.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "ahead-of-ai-building-reasoning-models-from-the-ground-up-a-full-video-co",
     "headline": "Building Reasoning Models from the Ground Up: A Full Video Course",
     "source": "Ahead of AI",
@@ -98,6 +107,14 @@
     "summary": "Qdrant 1.20.0 is out! Let&rsquo;s look at the main features for this version: BM25 on Full-Text Indexes and Code Search: Rank by BM25 straight from your payload text, with no embeddings to generate. Plus, better code sea"
   },
   {
+    "id": "hacker-news-macos-27-has-a-built-in-offline-llm-you-can-call-from-termin",
+    "headline": "macOS 27 has a built-in, offline LLM you can call from Terminal",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=50185265",
+    "publishedAt": "2026-10-21T18:17:50.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "hugging-face-blog-how-specializing-the-vocabulary-of-slms-can-cut-inference-co",
     "headline": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
     "source": "Hugging Face Blog",
@@ -131,6 +148,30 @@
     "publishedAt": "2026-10-14T00:00:00.000Z",
     "topic": "RAG",
     "summary": "Weaviate 1.40 makes dropping a named vector and 4-bit Rotational Quantization GA, adds multi-vector embeddings on HFresh and PathSeer filtering, and changes vector configuration defaults."
+  },
+  {
+    "id": "hacker-news-launch-hn-consus-yc-f24-llm-gateway-for-companies-handling-s",
+    "headline": "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=50073471",
+    "publishedAt": "2026-10-13T15:41:00.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "hacker-news-agentic-retrieval-augmented-generation-a-survey-on-agentic-r",
+    "headline": "Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG",
+    "source": "Hacker News",
+    "url": "https://arxiv.org/abs/2501.09136",
+    "publishedAt": "2026-10-13T14:31:07.000Z",
+    "topic": "RAG"
+  },
+  {
+    "id": "hacker-news-show-hn-liquid-inference-auto-routing-to-competitive-llm-mar",
+    "headline": "Show HN: Liquid Inference – auto-routing to competitive LLM marketplace",
+    "source": "Hacker News",
+    "url": "https://liquidinference.ai/",
+    "publishedAt": "2026-10-09T14:52:04.000Z",
+    "topic": "LLM"
   },
   {
     "id": "deepmind-blog-embeddinggemma-2-an-open-lightweight-multimodal-embedding-mo",
@@ -223,6 +264,14 @@
     "topic": "AI"
   },
   {
+    "id": "hacker-news-cutting-llm-inference-costs-by-36-with-prompt-caching",
+    "headline": "Cutting LLM inference costs by 36% with prompt caching",
+    "source": "Hacker News",
+    "url": "https://www.neradot.com/post/cutting-inference-cost-36-percent-with-prompt-caching",
+    "publishedAt": "2026-09-02T06:46:47.000Z",
+    "topic": "Cost"
+  },
+  {
     "id": "hugging-face-blog-benchmirt-what-are-llm-benchmarks-actually-measuring",
     "headline": "BenchMIRT: What are LLM benchmarks actually measuring?",
     "source": "Hugging Face Blog",
@@ -266,6 +315,14 @@
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/fb73bfb5-0291-4e5e-b425-6c3be054276e_1914x1076.png"
   },
   {
+    "id": "hacker-news-show-hn-pigame-pi-llm-plays-black-box-browser-games-via-obse",
+    "headline": "Show HN: Pigame – pi+LLM plays black-box browser games via observe/move tools",
+    "source": "Hacker News",
+    "url": "https://github.com/ifoxhz/pigame",
+    "publishedAt": "2026-08-21T01:20:26.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "hacker-news-offline-rag-on-ios-with-spatial-integration",
     "headline": "Offline RAG on iOS with Spatial Integration",
     "source": "Hacker News",
@@ -290,14 +347,6 @@
     "topic": "LLM",
     "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
     "imageUrl": "https://substackcdn.com/image/fetch/$s_!Om23!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875b5076-19a9-4ffe-91d4-cafa156f650a_5343x5696.png"
-  },
-  {
-    "id": "hacker-news-show-hn-i-built-a-claude-code-plugin-to-query-10-6m-earnings",
-    "headline": "Show HN: I built a Claude Code plugin to query 10.6M earnings-call embeddings",
-    "source": "Hacker News",
-    "url": "https://fn2.ai/claude",
-    "publishedAt": "2026-08-14T22:09:36.000Z",
-    "topic": "LLM"
   },
   {
     "id": "hugging-face-blog-record-train-and-deploy-from-one-place-with-strands-agents-l",
@@ -332,14 +381,6 @@
     "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
     "publishedAt": "2026-08-12T16:14:36.000Z",
     "topic": "RAG"
-  },
-  {
-    "id": "hacker-news-show-hn-energy-carbon-and-water-estimates-for-ai-content-sho",
-    "headline": "Show HN: Energy, carbon and water estimates for AI content, shown as ranges",
-    "source": "Hacker News",
-    "url": "https://aicontentfootprint.com/",
-    "publishedAt": "2026-07-29T16:29:14.000Z",
-    "topic": "Environment"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
@@ -378,14 +419,6 @@
     "topic": "LLM",
     "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/4e729449-80ff-40c7-bcee-4d9349b46afe_2893x1589.png"
-  },
-  {
-    "id": "hacker-news-show-hn-rag-vector-db-cost-calculator",
-    "headline": "Show HN: RAG Vector DB Cost Calculator",
-    "source": "Hacker News",
-    "url": "https://tools.superml.org/calculators/rag-vector-db-cost-calculator",
-    "publishedAt": "2026-06-26T22:19:14.000Z",
-    "topic": "RAG"
   },
   {
     "id": "openai-openai-and-broadcom-unveil-llm-optimized-inference-chip",
@@ -433,30 +466,6 @@
     "publishedAt": "2026-05-07T11:00:00.000Z",
     "topic": "RAG",
     "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions."
-  },
-  {
-    "id": "hacker-news-show-hn-i-built-a-search-engine-for-llms-txt-sites",
-    "headline": "Show HN: I built a search engine for llms.txt sites",
-    "source": "Hacker News",
-    "url": "https://statespace.com/",
-    "publishedAt": "2026-04-28T16:02:05.000Z",
-    "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-rag-pipelines-leaking-pii-into-vector-databases-and-nobody-s",
-    "headline": "RAG pipelines, leaking PII into vector databases and nobody's talking about it",
-    "source": "Hacker News",
-    "url": "https://comply-tech.co.uk/blog/rag-pipeline-pii-vector-embeddings.html",
-    "publishedAt": "2026-04-24T09:21:55.000Z",
-    "topic": "RAG"
-  },
-  {
-    "id": "hacker-news-show-hn-xtrace-encrypted-vector-db-search-embeddings-without",
-    "headline": "Show HN: XTrace – Encrypted vector DB (search embeddings without exposing them)",
-    "source": "Hacker News",
-    "url": "https://github.com/XTraceAI/xtrace-sdk",
-    "publishedAt": "2026-04-22T18:09:57.000Z",
-    "topic": "AI"
   },
   {
     "id": "the-gradient-after-orthogonality-virtue-ethical-agency-and-ai-alignment",
