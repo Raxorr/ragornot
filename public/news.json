@@ -1,5 +1,77 @@
 [
   {
+    "id": "arxiv-cs-cl-from-fragmentation-to-fusion-a-survey-and-roadmap-for-omnimo",
+    "headline": "From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.00172",
+    "publishedAt": "2026-11-04T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Embedding models underpin virtually every modern AI system, from search engines to recommendation systems. Despite shared mathematical foundations, research on embedding models remains fragmented by modality: the communi"
+  },
+  {
+    "id": "arxiv-cs-cl-memento-learning-context-management-for-long-context-process",
+    "headline": "MEMENTO: Learning Context Management for Long Context Processing Agents",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.00244",
+    "publishedAt": "2026-11-04T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "LLM agents that operate over long inputs must perform context management: deciding what to retain in a fixed-size context window. A common approach is compaction, where the model replaces its history with a self-generate"
+  },
+  {
+    "id": "arxiv-cs-cl-cross-lingual-persona-effects-in-llm-negotiation",
+    "headline": "Cross-Lingual Persona Effects in LLM Negotiation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.00300",
+    "publishedAt": "2026-11-04T05:00:00.000Z",
+    "topic": "Cost",
+    "summary": "Tell an LLM negotiator to be \"headstrong\" and it should hold firm on price, but does that instruction retain the same behavior in every language? To test this, we use identical buyer and seller instances of Gemini 3.6 Fl"
+  },
+  {
+    "id": "arxiv-cs-cl-humanized-but-still-true-auditing-facts-and-detection-in-ai-",
+    "headline": "Humanized but Still True? Auditing Facts and Detection in AI-Text Humanizers",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.00359",
+    "publishedAt": "2026-11-04T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "AI \"humanizers\" rewrite machine-generated text so that detectors classify it as human-written. Public leaderboards score evasion and embedding similarity, but not whether checkable details survive. We check whether numbe"
+  },
+  {
+    "id": "arxiv-cs-cl-from-lookups-to-lessons-turning-retrieved-knowledge-into-par",
+    "headline": "From Lookups to Lessons: Turning Retrieved Knowledge into Parametric Memory",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.00450",
+    "publishedAt": "2026-11-04T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-augmented generation (RAG) helps large language models (LLMs) answer factual questions beyond their training data, but it adds storage and inference costs. Distilling previously retrieved information into param"
+  },
+  {
+    "id": "arxiv-cs-cl-steering-readerly-dynamics-trajectory-guided-story-generatio",
+    "headline": "Steering Readerly Dynamics: Trajectory-Guided Story Generation with Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.00469",
+    "publishedAt": "2026-11-04T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are increasingly used to generate stories, but these stories struggle to reproduce engaging readerly dynamics, the evolving reader responses that shape narrative experience. To address this c"
+  },
+  {
+    "id": "arxiv-cs-cl-spotting-the-artificial-dialogic-humor-improvisation-in-huma",
+    "headline": "Spotting the Artificial: Dialogic Humor Improvisation in Humans and LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.00492",
+    "publishedAt": "2026-11-04T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "We propose a methodology for investigating the differences between natural and synthetic language in a challenging setting: humorous improvisational dialogue. Our experimental setting compares human-produced comedy impro"
+  },
+  {
+    "id": "arxiv-cs-cl-astockarena-beyond-returns-can-we-entrust-real-capital-to-th",
+    "headline": "AStockArena: Beyond Returns, Can We Entrust Real Capital to the Decisions of Financial Agents?",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.00515",
+    "publishedAt": "2026-11-04T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are increasingly used in dynamic financial trading, yet real-time trading benchmarks mainly evaluate agents by cumulative returns and risk-adjusted performance. Such outcome metrics cannot sh"
+  },
+  {
     "id": "simon-willison-s-blog-qwen-3-8-27b-on-my-laptop-can-interpret-model-weights-too",
     "headline": "Qwen 3.8 27B on my laptop can interpret model weights, too",
     "source": "Simon Willison's Blog",
