@@ -1,5 +1,23 @@
 [
   {
+    "id": "aws-machine-learning-blog-how-indegene-is-modernizing-and-scaling-enterprise-data-qual",
+    "headline": "How Indegene is modernizing and scaling enterprise data quality in life sciences",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-indegene-is-modernizing-and-scaling-enterprise-data-quality-in-life-sciences/",
+    "publishedAt": "2026-11-04T16:25:57.000Z",
+    "topic": "LLM",
+    "summary": "This post explores how Indegene built a production-grade, LLM-powered Data Quality Agent in its NEXT Unified Data Platform on AWS. The agent generates context-aware data quality rules, validates them, and produces ready-"
+  },
+  {
+    "id": "simon-willison-s-blog-datasette-llm-0-1a10",
+    "headline": "datasette-llm 0.1a10",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+    "publishedAt": "2026-11-04T15:26:02.000Z",
+    "topic": "LLM",
+    "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: datasette , llm"
+  },
+  {
     "id": "arxiv-cs-cl-from-fragmentation-to-fusion-a-survey-and-roadmap-for-omnimo",
     "headline": "From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings",
     "source": "arXiv (cs.CL)",
@@ -70,6 +88,24 @@
     "publishedAt": "2026-11-04T05:00:00.000Z",
     "topic": "LLM",
     "summary": "Large language models (LLMs) are increasingly used in dynamic financial trading, yet real-time trading benchmarks mainly evaluate agents by cumulative returns and risk-adjusted performance. Such outcome metrics cannot sh"
+  },
+  {
+    "id": "simon-willison-s-blog-datasette-apps-0-3a0",
+    "headline": "datasette-apps 0.3a0",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+    "publishedAt": "2026-11-04T00:29:36.000Z",
+    "topic": "LLM",
+    "summary": "Release: datasette-apps 0.3a0 Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette. These can be created by hand, but it's easier to create them using LLMs via Datasette Agent "
+  },
+  {
+    "id": "simon-willison-s-blog-llm-0-37-1",
+    "headline": "llm 0.37.1",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Nov/3/llm/",
+    "publishedAt": "2026-11-03T21:41:42.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm 0.37.1 A bugfix release for LLM , with contributions from Steven Huang , Tao An , Arjan Mossel , and XQ . Tags: llm"
   },
   {
     "id": "simon-willison-s-blog-qwen-3-8-27b-on-my-laptop-can-interpret-model-weights-too",
