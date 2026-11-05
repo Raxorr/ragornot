@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-human-like-cross-language-generalisation-in-deep-neural-spea",
+    "headline": "Human-like cross-language generalisation in deep neural speaker embeddings and its acoustic foundations",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.05384",
+    "publishedAt": "2026-11-05T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Generalisability is a central question for deep neural networks, including the cross-language generalisation of speaker embeddings. This study examined whether deep neural speaker embeddings generalise across languages a"
+  },
+  {
+    "id": "arxiv-cs-cl-srrm-a-retrieval-reconstruction-benchmark-for-evaluating-lon",
+    "headline": "SRRM: A Retrieval-Reconstruction Benchmark for Evaluating Long-Context Memory in Small Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.05386",
+    "publishedAt": "2026-11-05T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Small Language Models (SLMs) are increasingly deployed on consumer-grade hardware, yet their ability to preserve information across progressively longer contexts remains insufficiently understood. Existing benchmarks pri"
+  },
+  {
+    "id": "arxiv-cs-cl-ai-driven-saas-platform-integration-ai-express-for-unified-g",
+    "headline": "AI-Driven SaaS Platform Integration: AI Express for Unified Generative AI Services with Pay-As-You-Go Credit Systems and Scalable Microservice Architecture",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.05389",
+    "publishedAt": "2026-11-05T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Generative AI is currently fragmented, with separate subscriptions required for text generation, image synthesis, and code assistance, leading to high costs and workflow disruptions. AI Express is a SaaS platform that co"
+  },
+  {
+    "id": "arxiv-cs-cl-when-to-ask-when-to-answer-strategic-clarification-for-ambig",
+    "headline": "When to Ask, When to Answer: Strategic Clarification for Ambiguous Reference Resolution in Dialogue",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.05517",
+    "publishedAt": "2026-11-05T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "For humans, referential disambiguation is a collaborative process involving clarification questions asked when they will meaningfully change the outcome. However, large language models (LLMs) have been shown to be biased"
+  },
+  {
+    "id": "arxiv-cs-cl-rewrite-then-veto-rewriter-agnostic-edit-gating-for-llm-base",
+    "headline": "Rewrite, Then Veto: Rewriter-Agnostic Edit Gating for LLM-Based Post-OCR Correction",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.05539",
+    "publishedAt": "2026-11-05T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "LLMs can repair noisy OCR transcripts of historical documents, but they also change text that was already correct. We propose EditVeto, a veto gate placed after a full-context LLM rewrite. The rewrite is character-aligne"
+  },
+  {
+    "id": "arxiv-cs-cl-ragcompass-generalizable-retriever-routing-via-reranking",
+    "headline": "RAGCompass: Generalizable Retriever Routing via Reranking",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.05596",
+    "publishedAt": "2026-11-05T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Different retrievers exist for retrieval-augmented generation, yet none performs best for all queries. Therefore, the key question is: given a query and retrieved passages from different retrievers, which one is most sui"
+  },
+  {
+    "id": "arxiv-cs-cl-cognitive-bias-signatures-in-search-equipped-llm-agents-a-st",
+    "headline": "Cognitive Bias Signatures in Search-Equipped LLM Agents: A Stage-Resolved Analysis",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.05720",
+    "publishedAt": "2026-11-05T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Search can help LLM agents correct mistakes, but their starting conditions may shape which evidence they find and use. Drawing on cognitive-bias paradigms, we develop a controlled search harness to examine result order, "
+  },
+  {
+    "id": "arxiv-cs-cl-prospective-memory-for-proactive-llm-agents",
+    "headline": "Prospective Memory for Proactive LLM Agents",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.05731",
+    "publishedAt": "2026-11-05T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Most memory systems for LLM agents are retrospective, preserving and retrieving past information to inform current decisions. Proactive agents, however, also require prospective memory: retaining future-directed intentio"
+  },
+  {
+    "id": "arxiv-cs-ir-item-representations-matter-bridging-hard-semantic-ids-and-s",
+    "headline": "Item Representations Matter: Bridging Hard Semantic IDs and Soft Prototype Mixtures for Generative Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.05799",
+    "publishedAt": "2026-11-05T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Modern recommender systems rely on generative retrieval techniques to predict the next item either as discrete codes or as a continuous vector. On the one hand, Semantic IDs (SIDs) give discrete models shared parameters "
+  },
+  {
+    "id": "arxiv-cs-ir-scitot-multimodal-tip-of-the-tongue-retrieval-for-scientific",
+    "headline": "SciToT: Multimodal Tip-of-the-Tongue Retrieval for Scientific Papers",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.05829",
+    "publishedAt": "2026-11-05T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Researchers frequently encounter difficulties re-finding scientific papers when they remember aspects of the content but cannot recall reliable identifiers, such as titles or author names. This type of re-finding task, k"
+  },
+  {
+    "id": "arxiv-cs-ir-weaver-weaving-preference-evidence-through-incremental-reaso",
+    "headline": "Weaver: Weaving Preference Evidence through Incremental Reasoning for Personalized Retrieval-Augmented Generation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.05900",
+    "publishedAt": "2026-11-05T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Personalized retrieval-augmented generation requires extracting and applying user preferences from extended interaction histories. This task is challenging because preference evidence is scattered across past conversatio"
+  },
+  {
+    "id": "arxiv-cs-ir-optimal-re-ranking-depth",
+    "headline": "Optimal Re-Ranking Depth",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.05908",
+    "publishedAt": "2026-11-05T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Second-stage neural rankers are commonly applied with a fixed re-ranking depth, assuming that retrieval effectiveness saturates as depth increases. Prior research has questioned the assumption that increasing the re-rank"
+  },
+  {
+    "id": "arxiv-cs-ir-generative-retrieval-under-real-time-supply-constraints-in-l",
+    "headline": "Generative Retrieval under Real-Time Supply Constraints in Local Commerce",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.06323",
+    "publishedAt": "2026-11-05T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Generative retrieval predicts semantic identifiers for candidate entities. In local retail and food delivery, candidates must also be serviceable for a particular user at a particular time. Location, weather, and traffic"
+  },
+  {
+    "id": "arxiv-cs-ir-libra-programmatic-induction-of-executable-tool-libraries",
+    "headline": "LIBRA: Programmatic Induction of Executable Tool Libraries",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.05445",
+    "publishedAt": "2026-11-05T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language model agents increasingly retrieve tools from large catalogs, yet most retrievers rank each tool independently by request similarity. For multi tool tasks, this recovers the goal matching tool while omitti"
+  },
+  {
+    "id": "arxiv-cs-ir-data-efficient-scaling-law-discovery-for-recommendation-syst",
+    "headline": "Data-Efficient Scaling-Law Discovery for Recommendation Systems via Coupled Hyperparameter Scaling",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.05643",
+    "publishedAt": "2026-11-05T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large-scale ranking and recommendation models of Web platforms benefit from increased compute much as large language models do, and their scaling behavior is broadly power-law in form. Yet ranking models have heterogeneo"
+  },
+  {
+    "id": "arxiv-cs-ir-signed-but-steerable-measuring-and-closing-the-text-vector-i",
+    "headline": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.06498",
+    "publishedAt": "2026-11-05T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text and precomputed embedding vectors. A signature proves who published a pack, not that its vectors enco"
+  },
+  {
     "id": "aws-machine-learning-blog-how-indegene-is-modernizing-and-scaling-enterprise-data-qual",
     "headline": "How Indegene is modernizing and scaling enterprise data quality in life sciences",
     "source": "AWS Machine Learning Blog",
@@ -16,78 +160,6 @@
     "publishedAt": "2026-11-04T15:26:02.000Z",
     "topic": "LLM",
     "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: datasette , llm"
-  },
-  {
-    "id": "arxiv-cs-cl-from-fragmentation-to-fusion-a-survey-and-roadmap-for-omnimo",
-    "headline": "From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.00172",
-    "publishedAt": "2026-11-04T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Embedding models underpin virtually every modern AI system, from search engines to recommendation systems. Despite shared mathematical foundations, research on embedding models remains fragmented by modality: the communi"
-  },
-  {
-    "id": "arxiv-cs-cl-memento-learning-context-management-for-long-context-process",
-    "headline": "MEMENTO: Learning Context Management for Long Context Processing Agents",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.00244",
-    "publishedAt": "2026-11-04T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "LLM agents that operate over long inputs must perform context management: deciding what to retain in a fixed-size context window. A common approach is compaction, where the model replaces its history with a self-generate"
-  },
-  {
-    "id": "arxiv-cs-cl-cross-lingual-persona-effects-in-llm-negotiation",
-    "headline": "Cross-Lingual Persona Effects in LLM Negotiation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.00300",
-    "publishedAt": "2026-11-04T05:00:00.000Z",
-    "topic": "Cost",
-    "summary": "Tell an LLM negotiator to be \"headstrong\" and it should hold firm on price, but does that instruction retain the same behavior in every language? To test this, we use identical buyer and seller instances of Gemini 3.6 Fl"
-  },
-  {
-    "id": "arxiv-cs-cl-humanized-but-still-true-auditing-facts-and-detection-in-ai-",
-    "headline": "Humanized but Still True? Auditing Facts and Detection in AI-Text Humanizers",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.00359",
-    "publishedAt": "2026-11-04T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "AI \"humanizers\" rewrite machine-generated text so that detectors classify it as human-written. Public leaderboards score evasion and embedding similarity, but not whether checkable details survive. We check whether numbe"
-  },
-  {
-    "id": "arxiv-cs-cl-from-lookups-to-lessons-turning-retrieved-knowledge-into-par",
-    "headline": "From Lookups to Lessons: Turning Retrieved Knowledge into Parametric Memory",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.00450",
-    "publishedAt": "2026-11-04T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieval-augmented generation (RAG) helps large language models (LLMs) answer factual questions beyond their training data, but it adds storage and inference costs. Distilling previously retrieved information into param"
-  },
-  {
-    "id": "arxiv-cs-cl-steering-readerly-dynamics-trajectory-guided-story-generatio",
-    "headline": "Steering Readerly Dynamics: Trajectory-Guided Story Generation with Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.00469",
-    "publishedAt": "2026-11-04T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are increasingly used to generate stories, but these stories struggle to reproduce engaging readerly dynamics, the evolving reader responses that shape narrative experience. To address this c"
-  },
-  {
-    "id": "arxiv-cs-cl-spotting-the-artificial-dialogic-humor-improvisation-in-huma",
-    "headline": "Spotting the Artificial: Dialogic Humor Improvisation in Humans and LLMs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.00492",
-    "publishedAt": "2026-11-04T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "We propose a methodology for investigating the differences between natural and synthetic language in a challenging setting: humorous improvisational dialogue. Our experimental setting compares human-produced comedy impro"
-  },
-  {
-    "id": "arxiv-cs-cl-astockarena-beyond-returns-can-we-entrust-real-capital-to-th",
-    "headline": "AStockArena: Beyond Returns, Can We Entrust Real Capital to the Decisions of Financial Agents?",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.00515",
-    "publishedAt": "2026-11-04T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are increasingly used in dynamic financial trading, yet real-time trading benchmarks mainly evaluate agents by cumulative returns and risk-adjusted performance. Such outcome metrics cannot sh"
   },
   {
     "id": "simon-willison-s-blog-datasette-apps-0-3a0",
