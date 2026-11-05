@@ -1,5 +1,13 @@
 [
   {
+    "id": "hacker-news-show-hn-cerea-yet-another-self-hosted-llm-chat-front-end",
+    "headline": "Show HN: Cerea – yet another self-hosted LLM chat front end",
+    "source": "Hacker News",
+    "url": "https://github.com/paoloviviani/Cerea",
+    "publishedAt": "2026-11-05T21:11:50.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "hacker-news-kinference-open-source-inference-control-plane-for-vllm",
     "headline": "Kinference: Open-source inference control plane for vLLM",
     "source": "Hacker News",
@@ -501,14 +509,6 @@
     "topic": "LLM",
     "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/fb73bfb5-0291-4e5e-b425-6c3be054276e_1914x1076.png"
-  },
-  {
-    "id": "hacker-news-show-hn-pigame-pi-llm-plays-black-box-browser-games-via-obse",
-    "headline": "Show HN: Pigame – pi+LLM plays black-box browser games via observe/move tools",
-    "source": "Hacker News",
-    "url": "https://github.com/ifoxhz/pigame",
-    "publishedAt": "2026-08-21T01:20:26.000Z",
-    "topic": "LLM"
   },
   {
     "id": "hugging-face-blog-multi-vector-late-interaction-embedding-models-with-sentence",
