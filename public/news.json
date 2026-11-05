@@ -1,5 +1,13 @@
 [
   {
+    "id": "hacker-news-kinference-open-source-inference-control-plane-for-vllm",
+    "headline": "Kinference: Open-source inference control plane for vLLM",
+    "source": "Hacker News",
+    "url": "https://vllm.ai/blog/2026-11-04-introducing-kinference",
+    "publishedAt": "2026-11-05T10:21:08.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "arxiv-cs-cl-human-like-cross-language-generalisation-in-deep-neural-spea",
     "headline": "Human-like cross-language generalisation in deep neural speaker embeddings and its acoustic foundations",
     "source": "arXiv (cs.CL)",
@@ -233,6 +241,15 @@
     "summary": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default "
   },
   {
+    "id": "weaviate-blog-weaviate-1-40-release",
+    "headline": "Weaviate 1.40 Release",
+    "source": "Weaviate Blog",
+    "url": "https://weaviate.io/blog/weaviate-1-40-release",
+    "publishedAt": "2026-10-30T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Weaviate 1.40 makes dropping a named vector and 4-bit Rotational Quantization GA, adds multi-vector embeddings on HFresh and PathSeer filtering, and changes vector configuration defaults."
+  },
+  {
     "id": "simon-willison-s-blog-quoting-ted-sanders",
     "headline": "Quoting Ted Sanders",
     "source": "Simon Willison's Blog",
@@ -319,15 +336,6 @@
     "publishedAt": "2026-10-19T00:00:00.000Z",
     "topic": "RAG",
     "summary": "Every retrieval pipeline starts with the same call: how big is a chunk? Too small, and a chunk loses its context. Too big, and the embedding model cuts it off. DMIS Lab&rsquo;s UltraBERT-Embed-150M moves that cutoff to 3"
-  },
-  {
-    "id": "weaviate-blog-weaviate-1-40-release",
-    "headline": "Weaviate 1.40 Release",
-    "source": "Weaviate Blog",
-    "url": "https://weaviate.io/blog/weaviate-1-40-release",
-    "publishedAt": "2026-10-14T00:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Weaviate 1.40 makes dropping a named vector and 4-bit Rotational Quantization GA, adds multi-vector embeddings on HFresh and PathSeer filtering, and changes vector configuration defaults."
   },
   {
     "id": "hacker-news-launch-hn-consus-yc-f24-llm-gateway-for-companies-handling-s",
@@ -501,14 +509,6 @@
     "url": "https://github.com/ifoxhz/pigame",
     "publishedAt": "2026-08-21T01:20:26.000Z",
     "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-offline-rag-on-ios-with-spatial-integration",
-    "headline": "Offline RAG on iOS with Spatial Integration",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=49371913",
-    "publishedAt": "2026-08-20T08:28:22.000Z",
-    "topic": "RAG"
   },
   {
     "id": "hugging-face-blog-multi-vector-late-interaction-embedding-models-with-sentence",
