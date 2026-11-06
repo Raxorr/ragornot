@@ -222,15 +222,6 @@
     "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm"
   },
   {
-    "id": "aws-machine-learning-blog-agentic-engineering-intelligence-with-amazon-nova-multimodal",
-    "headline": "Agentic engineering intelligence with Amazon Nova Multimodal Embeddings and Amazon Bedrock AgentCore",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/",
-    "publishedAt": "2026-11-02T17:01:16.000Z",
-    "topic": "Cost",
-    "summary": "Learn how to build a multi-agent engineering assistant that compresses aerospace component substitution evaluation from days to minutes, using Amazon Nova Multimodal Embeddings, Amazon Bedrock AgentCore, and the Strands "
-  },
-  {
     "id": "simon-willison-s-blog-quoting-kyle-kingsbury",
     "headline": "Quoting Kyle Kingsbury",
     "source": "Simon Willison's Blog",
