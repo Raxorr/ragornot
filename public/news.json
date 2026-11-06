@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-interactive-backdoor-attacks-in-llm-based-proactive-dialogue",
+    "headline": "Interactive Backdoor Attacks in LLM-Based Proactive Dialogue Systems",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.06969",
+    "publishedAt": "2026-11-06T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "LLM-based proactive dialogue systems provide goal-directed support through sustained interaction. Fine-tuning their underlying models on externally supplied dialogue data introduces backdoor risks. Existing LLM backdoor "
+  },
+  {
+    "id": "arxiv-cs-cl-adapting-llm-judges-to-observed-human-annotation-policy-thro",
+    "headline": "Adapting LLM Judges to Observed Human Annotation Policy through Soft Prompt Tuning",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.07126",
+    "publishedAt": "2026-11-06T05:00:00.000Z",
+    "topic": "Cost",
+    "summary": "Large Language Models (LLMs) are increasingly employed as automated judges for evaluating chatbot responses. While proprietary models can achieve high agreement with human annotators, they remain costly and difficult to "
+  },
+  {
+    "id": "arxiv-cs-cl-hyflash-a-prefix-memory-prior-for-on-device-speculative-deco",
+    "headline": "HyFlash: A Prefix-Memory Prior for On-Device Speculative Decoding",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.07263",
+    "publishedAt": "2026-11-06T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Parallel block drafting accelerates speculative decoding by predicting multiple future positions in a single backbone pass, but on-device deployment constrains both drafter capacity and context storage. Under tight memor"
+  },
+  {
+    "id": "arxiv-cs-cl-encoding-and-propagation-of-grammatical-number-in-large-lang",
+    "headline": "Encoding and Propagation of Grammatical Number in Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.07283",
+    "publishedAt": "2026-11-06T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Sparse autoencoders (SAEs) have become an increasingly popular means of translating Large Language Model (LLM) hidden state vectors into a human-comprehensible list of features or symbols. As such, SAEs may provide insig"
+  },
+  {
+    "id": "arxiv-cs-cl-reviewmap-mapping-evaluative-acts-and-automation-boundaries-",
+    "headline": "ReviewMap: Mapping Evaluative Acts and Automation Boundaries in Peer-Review Comments",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.07489",
+    "publishedAt": "2026-11-06T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Peer-review comments check what a paper does and judge why it matters, but no existing scheme distinguishes these two evaluative acts. We argue that making these acts explicit and measuring how reliably LLMs identify the"
+  },
+  {
+    "id": "arxiv-cs-cl-enhancing-repository-level-code-completion-with-reinforcemen",
+    "headline": "Enhancing Repository-Level Code Completion with Reinforcement Learning in Real-World Scenarios",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.07510",
+    "publishedAt": "2026-11-06T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "The rapid development of large language models (LLMs) for code, which closely aligns with the practical needs of real-world software development, has sparked growing attention in repository-level code completion. However"
+  },
+  {
+    "id": "arxiv-cs-cl-skim-pruning-large-language-model-agents-via-selective-knowl",
+    "headline": "SKIM: Pruning Large Language Model Agents via Selective Knowledge Informed Masking",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.07558",
+    "publishedAt": "2026-11-06T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large Language Model (LLM) agents are increasingly deployed under structured generation, where grammar constraints enforce output format at inference time. Whereas existing compression methods target unconstrained genera"
+  },
+  {
+    "id": "arxiv-cs-cl-stress-testing-chain-of-thought-monitoring-against-covert-mi",
+    "headline": "Stress Testing Chain-of-Thought Monitoring Against Covert Misalignment",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.07586",
+    "publishedAt": "2026-11-06T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "As LLM agents advance rapidly in autonomy, the risk of hidden objectives that bypass safety constraints becomes increasingly plausible. Chain-of-thought (CoT) monitoring offers a key control mechanism by reading the agen"
+  },
+  {
+    "id": "arxiv-cs-ir-reducing-representational-interference-in-retrieval-embeddin",
+    "headline": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.07298",
+    "publishedAt": "2026-11-06T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Embedding models compress variable-length text into fixed-size vector representations, but this compression can entangle semantic content with residual token-level information, such as artifacts arising from attention si"
+  },
+  {
+    "id": "arxiv-cs-ir-cachegraft-enhancing-retrieval-augmented-generation-via-late",
+    "headline": "CacheGraft: Enhancing Retrieval-Augmented Generation via Latent-Space Document Enrichment",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.07393",
+    "publishedAt": "2026-11-06T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Recent work in machine learning has demonstrated that transformer-based language model agents can communicate state not only through text, but also directly in latent space via key-value (KV) caches. In this paper, we ar"
+  },
+  {
+    "id": "arxiv-cs-ir-optst-optimizing-semantic-tokenization-for-llm-enhanced-reco",
+    "headline": "OptST: Optimizing Semantic Tokenization for LLM-Enhanced Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.07523",
+    "publishedAt": "2026-11-06T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Semantic information can enrich the identifiers and structured fields used by recommender systems. Semantic tokenization provides a structured representation of this information by converting LLM-derived user profiles in"
+  },
+  {
+    "id": "arxiv-cs-ir-what-gets-hacked-in-a-collaborative-reward-for-llm-recommend",
+    "headline": "What Gets Hacked in a Collaborative Reward for LLM Recommenders: The Part That Does Not Depend on the User",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.07588",
+    "publishedAt": "2026-11-06T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Collaborative-filtering (CF) scores provide graded, personalized rewards for training large language model (LLM) recommenders through reinforcement learning. However, these rewards can cause exposure collapse: even thoug"
+  },
+  {
+    "id": "arxiv-cs-ir-memoir-a-training-free-memory-lifecycle-for-long-horizon-llm",
+    "headline": "MEMOIR: A Training-Free Memory Lifecycle for Long-Horizon LLM Agents",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.07631",
+    "publishedAt": "2026-11-06T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Long-horizon LLM agents require memory systems that preserve useful information across sessions and retrieve it when needed. Existing systems treat these as separate problems: memories are written prospectively with stat"
+  },
+  {
+    "id": "arxiv-cs-ir-probabilistic-relevance-decisions-for-semantic-retrieval",
+    "headline": "Probabilistic Relevance Decisions for Semantic Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.08014",
+    "publishedAt": "2026-11-06T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Dense similarity supplies reusable corpus representations, while probabilistic relevance decisions offer query-dependent document scoring. We compare dense-only BGE-M3 with TypeSafe Jev Noul and OpenAI Decisions Predicat"
+  },
+  {
+    "id": "arxiv-cs-ir-domain-specific-information-retrieval",
+    "headline": "Domain-specific information retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.08228",
+    "publishedAt": "2026-11-06T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Information Retrieval (IR) is much more than ad hoc web search: a large portion of the information seeking activities takes place in specific domains, often addressing work-related tasks. Examples are lawyers finding rel"
+  },
+  {
+    "id": "arxiv-cs-ir-maphub-daily-relevance-heatmaps-of-new-arxiv-preprints-for-a",
+    "headline": "MapHub: Daily Relevance Heatmaps of New arXiv Preprints for a Research Community",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.07174",
+    "publishedAt": "2026-11-06T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "MapHub, the MIDAS arXiv Preprint Hub, assesses each day's new arXiv submissions for every participant in a research community, with a large language model reading each paper against portfolios built for the participants."
+  },
+  {
     "id": "hacker-news-show-hn-cerea-yet-another-self-hosted-llm-chat-front-end",
     "headline": "Show HN: Cerea – yet another self-hosted LLM chat front end",
     "source": "Hacker News",
@@ -14,150 +158,6 @@
     "url": "https://vllm.ai/blog/2026-11-04-introducing-kinference",
     "publishedAt": "2026-11-05T10:21:08.000Z",
     "topic": "LLM"
-  },
-  {
-    "id": "arxiv-cs-cl-human-like-cross-language-generalisation-in-deep-neural-spea",
-    "headline": "Human-like cross-language generalisation in deep neural speaker embeddings and its acoustic foundations",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.05384",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Generalisability is a central question for deep neural networks, including the cross-language generalisation of speaker embeddings. This study examined whether deep neural speaker embeddings generalise across languages a"
-  },
-  {
-    "id": "arxiv-cs-cl-srrm-a-retrieval-reconstruction-benchmark-for-evaluating-lon",
-    "headline": "SRRM: A Retrieval-Reconstruction Benchmark for Evaluating Long-Context Memory in Small Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.05386",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Small Language Models (SLMs) are increasingly deployed on consumer-grade hardware, yet their ability to preserve information across progressively longer contexts remains insufficiently understood. Existing benchmarks pri"
-  },
-  {
-    "id": "arxiv-cs-cl-ai-driven-saas-platform-integration-ai-express-for-unified-g",
-    "headline": "AI-Driven SaaS Platform Integration: AI Express for Unified Generative AI Services with Pay-As-You-Go Credit Systems and Scalable Microservice Architecture",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.05389",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Generative AI is currently fragmented, with separate subscriptions required for text generation, image synthesis, and code assistance, leading to high costs and workflow disruptions. AI Express is a SaaS platform that co"
-  },
-  {
-    "id": "arxiv-cs-cl-when-to-ask-when-to-answer-strategic-clarification-for-ambig",
-    "headline": "When to Ask, When to Answer: Strategic Clarification for Ambiguous Reference Resolution in Dialogue",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.05517",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "For humans, referential disambiguation is a collaborative process involving clarification questions asked when they will meaningfully change the outcome. However, large language models (LLMs) have been shown to be biased"
-  },
-  {
-    "id": "arxiv-cs-cl-rewrite-then-veto-rewriter-agnostic-edit-gating-for-llm-base",
-    "headline": "Rewrite, Then Veto: Rewriter-Agnostic Edit Gating for LLM-Based Post-OCR Correction",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.05539",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "LLMs can repair noisy OCR transcripts of historical documents, but they also change text that was already correct. We propose EditVeto, a veto gate placed after a full-context LLM rewrite. The rewrite is character-aligne"
-  },
-  {
-    "id": "arxiv-cs-cl-ragcompass-generalizable-retriever-routing-via-reranking",
-    "headline": "RAGCompass: Generalizable Retriever Routing via Reranking",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.05596",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Different retrievers exist for retrieval-augmented generation, yet none performs best for all queries. Therefore, the key question is: given a query and retrieved passages from different retrievers, which one is most sui"
-  },
-  {
-    "id": "arxiv-cs-cl-cognitive-bias-signatures-in-search-equipped-llm-agents-a-st",
-    "headline": "Cognitive Bias Signatures in Search-Equipped LLM Agents: A Stage-Resolved Analysis",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.05720",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Search can help LLM agents correct mistakes, but their starting conditions may shape which evidence they find and use. Drawing on cognitive-bias paradigms, we develop a controlled search harness to examine result order, "
-  },
-  {
-    "id": "arxiv-cs-cl-prospective-memory-for-proactive-llm-agents",
-    "headline": "Prospective Memory for Proactive LLM Agents",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.05731",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Most memory systems for LLM agents are retrospective, preserving and retrieving past information to inform current decisions. Proactive agents, however, also require prospective memory: retaining future-directed intentio"
-  },
-  {
-    "id": "arxiv-cs-ir-item-representations-matter-bridging-hard-semantic-ids-and-s",
-    "headline": "Item Representations Matter: Bridging Hard Semantic IDs and Soft Prototype Mixtures for Generative Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.05799",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Modern recommender systems rely on generative retrieval techniques to predict the next item either as discrete codes or as a continuous vector. On the one hand, Semantic IDs (SIDs) give discrete models shared parameters "
-  },
-  {
-    "id": "arxiv-cs-ir-scitot-multimodal-tip-of-the-tongue-retrieval-for-scientific",
-    "headline": "SciToT: Multimodal Tip-of-the-Tongue Retrieval for Scientific Papers",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.05829",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Researchers frequently encounter difficulties re-finding scientific papers when they remember aspects of the content but cannot recall reliable identifiers, such as titles or author names. This type of re-finding task, k"
-  },
-  {
-    "id": "arxiv-cs-ir-weaver-weaving-preference-evidence-through-incremental-reaso",
-    "headline": "Weaver: Weaving Preference Evidence through Incremental Reasoning for Personalized Retrieval-Augmented Generation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.05900",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Personalized retrieval-augmented generation requires extracting and applying user preferences from extended interaction histories. This task is challenging because preference evidence is scattered across past conversatio"
-  },
-  {
-    "id": "arxiv-cs-ir-optimal-re-ranking-depth",
-    "headline": "Optimal Re-Ranking Depth",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.05908",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Second-stage neural rankers are commonly applied with a fixed re-ranking depth, assuming that retrieval effectiveness saturates as depth increases. Prior research has questioned the assumption that increasing the re-rank"
-  },
-  {
-    "id": "arxiv-cs-ir-generative-retrieval-under-real-time-supply-constraints-in-l",
-    "headline": "Generative Retrieval under Real-Time Supply Constraints in Local Commerce",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.06323",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Generative retrieval predicts semantic identifiers for candidate entities. In local retail and food delivery, candidates must also be serviceable for a particular user at a particular time. Location, weather, and traffic"
-  },
-  {
-    "id": "arxiv-cs-ir-libra-programmatic-induction-of-executable-tool-libraries",
-    "headline": "LIBRA: Programmatic Induction of Executable Tool Libraries",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.05445",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language model agents increasingly retrieve tools from large catalogs, yet most retrievers rank each tool independently by request similarity. For multi tool tasks, this recovers the goal matching tool while omitti"
-  },
-  {
-    "id": "arxiv-cs-ir-data-efficient-scaling-law-discovery-for-recommendation-syst",
-    "headline": "Data-Efficient Scaling-Law Discovery for Recommendation Systems via Coupled Hyperparameter Scaling",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.05643",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large-scale ranking and recommendation models of Web platforms benefit from increased compute much as large language models do, and their scaling behavior is broadly power-law in form. Yet ranking models have heterogeneo"
-  },
-  {
-    "id": "arxiv-cs-ir-signed-but-steerable-measuring-and-closing-the-text-vector-i",
-    "headline": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.06498",
-    "publishedAt": "2026-11-05T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text and precomputed embedding vectors. A signature proves who published a pack, not that its vectors enco"
   },
   {
     "id": "aws-machine-learning-blog-how-indegene-is-modernizing-and-scaling-enterprise-data-qual",
