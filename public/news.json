@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-llm-gemini-0-36",
+    "headline": "llm-gemini 0.36",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+    "publishedAt": "2026-11-10T20:09:44.000Z",
+    "topic": "Cost",
+    "summary": "Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else . This is Google's best ever Gemini, priced at $2/million input and $10/mi"
+  },
+  {
     "id": "deepmind-blog-gemini-4-carbon-is-now-available",
     "headline": "Gemini 4 Carbon is now available",
     "source": "DeepMind Blog",
@@ -158,15 +167,6 @@
     "publishedAt": "2026-11-01T16:49:04.000Z",
     "topic": "LLM",
     "summary": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to "
-  },
-  {
-    "id": "simon-willison-s-blog-datasette-llm-0-1a9",
-    "headline": "datasette-llm 0.1a9",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
-    "publishedAt": "2026-10-31T22:10:01.000Z",
-    "topic": "LLM",
-    "summary": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default "
   },
   {
     "id": "weaviate-blog-weaviate-1-40-release",
