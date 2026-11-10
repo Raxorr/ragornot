@@ -1,12 +1,84 @@
 [
   {
+    "id": "arxiv-cs-cl-forcing-a-letter-suppresses-refusal-mechanistic-evidence-fro",
+    "headline": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.08639",
+    "publishedAt": "2026-11-10T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Safety benchmarks for large language models (LLMs) commonly use multiple-choice question (MCQ) format. However, prior studies documented that MCQ format reduces refusal rates, which may significantly affect the safety be"
+  },
+  {
+    "id": "arxiv-cs-cl-finevolvekg-controlled-and-attributable-prompt-evolution-for",
+    "headline": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.08643",
+    "publishedAt": "2026-11-10T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Financial institutions construct knowledge graphs (KGs) from shared SEC 10-Ks to serve risk analysis, portfolio management, and investment research, whose analytical needs differ. Extraction must adapt without fragmentin"
+  },
+  {
+    "id": "arxiv-cs-cl-compression-of-emotion-in-language-model-representations",
+    "headline": "Compression of Emotion in Language Model Representations",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.08683",
+    "publishedAt": "2026-11-10T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) have been evaluated on their ability to identify emotions expressed in text and produce fluent emotional language. However, output predictions alone do not reveal how fine-grained emotion dis"
+  },
+  {
+    "id": "arxiv-cs-cl-rl-attack-a-generalized-black-box-adversarial-attack-on-lang",
+    "headline": "RL-ATTACK: A Generalized Black-Box Adversarial Attack on Language Models via Reinforcement Learning",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.08711",
+    "publishedAt": "2026-11-10T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) exhibit vulnerabilities to adversarial perturbations that can induce unintended responses. These vulnerabilities can be identified via intentional attacks and subsequently used to improve mod"
+  },
+  {
+    "id": "arxiv-cs-cl-structuring-survey-histories-for-llm-digital-twins-a-control",
+    "headline": "Structuring Survey Histories for LLM Digital Twins: A Controlled Study of Background, Decision Procedure, and Evaluation Profiles",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.08730",
+    "publishedAt": "2026-11-10T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "LLM-based digital twins aim to predict how individuals would respond in new settings from representations of their prior responses. Existing evidence that compression of survey histories need not reduce predictive accura"
+  },
+  {
+    "id": "arxiv-cs-cl-guardrail-erosion-in-domain-fine-tuned-large-language-models",
+    "headline": "Guardrail Erosion in Domain Fine-Tuned Large Language Models: A Paired Audit of Knowledge-Centric Abstention in Biomedical LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.08780",
+    "publishedAt": "2026-11-10T05:00:00.000Z",
+    "topic": "Cost",
+    "summary": "The number of domain fine-tuned models, particularly in the biomedical domain, is rapidly expanding. Fine-tuning promises high-performing models at a fraction of the cost of training a base model, but it can also produce"
+  },
+  {
+    "id": "arxiv-cs-cl-using-an-llm-to-tackle-difficult-cases-in-ner-for-nepali-twe",
+    "headline": "Using an LLM to Tackle Difficult Cases in NER for Nepali Tweets",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.08967",
+    "publishedAt": "2026-11-10T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Named entity recognition (NER) is challenging for social media data in a low-resource language. LLMs often lag behind pretrained language models (PLMs) in NER performance, but they show promise in handling cases that PLM"
+  },
+  {
+    "id": "arxiv-cs-cl-beyond-truncation-entailment-licensed-elision-and-the-limits",
+    "headline": "Beyond Truncation? Entailment-Licensed Elision and the Limits of Semantic Preservation in LLM Decoding",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.08975",
+    "publishedAt": "2026-11-10T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Instruction-tuned large language models (LLMs) answer at greater length than a request needs. We ask whether a training-free controller inside the decoding loop can remove that surplus while preserving content, judged ag"
+  },
+  {
     "id": "simon-willison-s-blog-llm-anthropic-0-31",
     "headline": "llm-anthropic 0.31",
     "source": "Simon Willison's Blog",
     "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
     "publishedAt": "2026-11-09T23:58:46.000Z",
     "topic": "LLM",
-    "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. I've added them to llm-anthropic , so you can now run prompts through Fable 5.2 like this: uv tool install llm llm install llm-anthropic llm "
+    "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so cl"
   },
   {
     "id": "aws-machine-learning-blog-single-shot-and-agentic-retrieval-with-amazon-bedrock-manage",
@@ -16,150 +88,6 @@
     "publishedAt": "2026-11-09T20:13:18.000Z",
     "topic": "RAG",
     "summary": "Amazon Bedrock Managed Knowledge Base now supports single-shot RAG and retrieval-only requests through AgenticRetrieveStream, alongside agentic retrieval. This post explains how the maxAgentIteration parameter matches re"
-  },
-  {
-    "id": "arxiv-cs-cl-forcing-a-letter-suppresses-refusal-mechanistic-evidence-fro",
-    "headline": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.08639",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Safety benchmarks for large language models (LLMs) commonly use multiple-choice question (MCQ) format. However, prior studies documented that MCQ format reduces refusal rates, which may significantly affect the safety be"
-  },
-  {
-    "id": "arxiv-cs-cl-finevolvekg-controlled-and-attributable-prompt-evolution-for",
-    "headline": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.08643",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Financial institutions construct knowledge graphs (KGs) from shared SEC 10-Ks to serve risk analysis, portfolio management, and investment research, whose analytical needs differ. Extraction must adapt without fragmentin"
-  },
-  {
-    "id": "arxiv-cs-cl-compression-of-emotion-in-language-model-representations",
-    "headline": "Compression of Emotion in Language Model Representations",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.08683",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) have been evaluated on their ability to identify emotions expressed in text and produce fluent emotional language. However, output predictions alone do not reveal how fine-grained emotion dis"
-  },
-  {
-    "id": "arxiv-cs-cl-rl-attack-a-generalized-black-box-adversarial-attack-on-lang",
-    "headline": "RL-ATTACK: A Generalized Black-Box Adversarial Attack on Language Models via Reinforcement Learning",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.08711",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) exhibit vulnerabilities to adversarial perturbations that can induce unintended responses. These vulnerabilities can be identified via intentional attacks and subsequently used to improve mod"
-  },
-  {
-    "id": "arxiv-cs-cl-structuring-survey-histories-for-llm-digital-twins-a-control",
-    "headline": "Structuring Survey Histories for LLM Digital Twins: A Controlled Study of Background, Decision Procedure, and Evaluation Profiles",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.08730",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "LLM-based digital twins aim to predict how individuals would respond in new settings from representations of their prior responses. Existing evidence that compression of survey histories need not reduce predictive accura"
-  },
-  {
-    "id": "arxiv-cs-cl-guardrail-erosion-in-domain-fine-tuned-large-language-models",
-    "headline": "Guardrail Erosion in Domain Fine-Tuned Large Language Models: A Paired Audit of Knowledge-Centric Abstention in Biomedical LLMs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.08780",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "topic": "Cost",
-    "summary": "The number of domain fine-tuned models, particularly in the biomedical domain, is rapidly expanding. Fine-tuning promises high-performing models at a fraction of the cost of training a base model, but it can also produce"
-  },
-  {
-    "id": "arxiv-cs-cl-using-an-llm-to-tackle-difficult-cases-in-ner-for-nepali-twe",
-    "headline": "Using an LLM to Tackle Difficult Cases in NER for Nepali Tweets",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.08967",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Named entity recognition (NER) is challenging for social media data in a low-resource language. LLMs often lag behind pretrained language models (PLMs) in NER performance, but they show promise in handling cases that PLM"
-  },
-  {
-    "id": "arxiv-cs-cl-beyond-truncation-entailment-licensed-elision-and-the-limits",
-    "headline": "Beyond Truncation? Entailment-Licensed Elision and the Limits of Semantic Preservation in LLM Decoding",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.08975",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Instruction-tuned large language models (LLMs) answer at greater length than a request needs. We ask whether a training-free controller inside the decoding loop can remove that surplus while preserving content, judged ag"
-  },
-  {
-    "id": "arxiv-cs-ir-cascaderec-deployed-adaptive-llm-compute-allocation-for-mult",
-    "headline": "CascadeRec: Deployed Adaptive LLM Compute Allocation for Multi-Tenant Content Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.08566",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "topic": "Cost",
-    "summary": "Large language models (LLMs) are attractive rerankers for recommendation. Running an expensive model on every request is costly, and for users with sparse interaction histories it often lowers quality. We present Cascade"
-  },
-  {
-    "id": "arxiv-cs-ir-generative-search-and-recommendation-at-shopify",
-    "headline": "Generative Search and Recommendation at Shopify",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.08804",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Search and recommendation at Shopify require retrieving relevant products from a changing catalog of billions of products under strict latency constraints. We present SID-LLM, which casts both tasks as generating semanti"
-  },
-  {
-    "id": "arxiv-cs-ir-skinmind-equipping-agentic-rag-with-human-inspired-graph-pro",
-    "headline": "SkinMind: Equipping Agentic RAG with Human-Inspired Graph Probing for Reliable Dermatology AI",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.08935",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Reliable dermatology AI requires access to verifiable evidence distributed across heterogeneous textual and visual sources. However, conventional retrieval-augmented generation (RAG) typically relies on one-shot retrieva"
-  },
-  {
-    "id": "arxiv-cs-ir-mv-ivf-multi-vector-retrieval-via-multi-vector-clustering",
-    "headline": "MV-IVF: Multi-Vector Retrieval via Multi-Vector Clustering",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.09040",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Multi-vector retrieval represents each query and document as a set of embeddings and scores relevance via fine-grained set-to-set interactions such as MaxSim (Chamfer similarity). This expressiveness improves retrieval q"
-  },
-  {
-    "id": "arxiv-cs-ir-orthogonal-norm-growth-in-two-tower-retrieval-a-popularity-m",
-    "headline": "Orthogonal Norm Growth in Two-Tower Retrieval: A Popularity Mechanism for Unified Discovery",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.09294",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Unified search and recommendation systems may update the same item vectors from both interaction streams. We study how repeated updates can increase an item vector's norm and affect retrieval under an unnormalized dot pr"
-  },
-  {
-    "id": "arxiv-cs-ir-sparseup-towards-better-recipes-for-training-modern-learned-",
-    "headline": "SPARSEUP: Towards Better Recipes for Training Modern Learned Sparse Retrievers",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.09680",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Learned sparse embeddings are a powerful alternative to dense retrieval, yet they have fallen behind single-vector and late interaction models. One reason for their limited adoption is that they are notoriously difficult"
-  },
-  {
-    "id": "arxiv-cs-ir-large-language-model-consensus-and-corpus-adaptive-topic-mod",
-    "headline": "Large Language Model Consensus and Corpus-Adaptive Topic Modeling for Classifying and Mapping Patent Innovation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.09194",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Patent analytics increasingly relies on transformer representations and large language models (LLMs), yet linking conceptual classification, topic formation and interpretation requires explicit decisions about model role"
-  },
-  {
-    "id": "arxiv-cs-ir-fondueqa-a-benchmark-for-evaluating-parametric-compensation-",
-    "headline": "FondueQA: A Benchmark for Evaluating Parametric Compensation in Multi-Hop QA",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.09274",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large Language Models (LLMs) show remarkable performance based on parametric knowledge, i.e., their ability to recall facts and associations internalized in a model's weights. However, studying this capability on establi"
   },
   {
     "id": "simon-willison-s-blog-datasette-llm-0-1a10",
