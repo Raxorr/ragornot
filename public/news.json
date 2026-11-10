@@ -1,5 +1,13 @@
 [
   {
+    "id": "deepmind-blog-gemini-4-carbon-is-now-available",
+    "headline": "Gemini 4 Carbon is now available",
+    "source": "DeepMind Blog",
+    "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+    "publishedAt": "2026-11-10T16:03:47.000Z",
+    "topic": "Environment"
+  },
+  {
     "id": "arxiv-cs-cl-forcing-a-letter-suppresses-refusal-mechanistic-evidence-fro",
     "headline": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
     "source": "arXiv (cs.CL)",
@@ -585,16 +593,6 @@
     "topic": "LLM",
     "summary": "Systematically evaluating the factuality of large language models with the FACTS Benchmark Suite.",
     "imageUrl": "https://lh3.googleusercontent.com/eEfDhwb-u99oZnuvwc3STyyWrtN-4LnaqKBXCTP6Zy7yZGEJ-ryNjOOYaWJ3Lc8JmRXVH9DA-EqSb7k61rXtDeG0wB6Tj0ho0mAax8QWUHDkpyUjig=w528-h297-n-nu-rw-lo"
-  },
-  {
-    "id": "deepmind-blog-google-deepmind-supports-u-s-department-of-energy-on-genesis",
-    "headline": "Google DeepMind supports U.S. Department of Energy on Genesis: a national mission to accelerate innovation and scientific discovery",
-    "source": "DeepMind Blog",
-    "url": "https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis/",
-    "publishedAt": "2025-11-24T14:12:03.000Z",
-    "topic": "Environment",
-    "summary": "Google DeepMind and the DOE partner on Genesis, a new effort to accelerate science with AI.",
-    "imageUrl": "https://lh3.googleusercontent.com/Aij3S61tCOKUv_-lxFEBAvGZBWAlGh2E0gGRyol8p0L53KFkhgEEDcuw2rg9JzpdH40kwy_e_PkjaHdvbInPj55lDIKx6cd9xzzmRAy9eUapVkKJrw=w528-h297-n-nu-rw-lo"
   },
   {
     "id": "the-gradient-agi-is-not-multimodal",
