@@ -1,5 +1,23 @@
 [
   {
+    "id": "simon-willison-s-blog-llm-anthropic-0-31",
+    "headline": "llm-anthropic 0.31",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+    "publishedAt": "2026-11-09T23:58:46.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. I've added them to llm-anthropic , so you can now run prompts through Fable 5.2 like this: uv tool install llm llm install llm-anthropic llm "
+  },
+  {
+    "id": "aws-machine-learning-blog-single-shot-and-agentic-retrieval-with-amazon-bedrock-manage",
+    "headline": "Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/",
+    "publishedAt": "2026-11-09T20:13:18.000Z",
+    "topic": "RAG",
+    "summary": "Amazon Bedrock Managed Knowledge Base now supports single-shot RAG and retrieval-only requests through AgenticRetrieveStream, alongside agentic retrieval. This post explains how the maxAgentIteration parameter matches re"
+  },
+  {
     "id": "arxiv-cs-cl-forcing-a-letter-suppresses-refusal-mechanistic-evidence-fro",
     "headline": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
     "source": "arXiv (cs.CL)",
@@ -144,22 +162,13 @@
     "summary": "Large Language Models (LLMs) show remarkable performance based on parametric knowledge, i.e., their ability to recall facts and associations internalized in a model's weights. However, studying this capability on establi"
   },
   {
-    "id": "aws-machine-learning-blog-how-indegene-is-modernizing-and-scaling-enterprise-data-qual",
-    "headline": "How Indegene is modernizing and scaling enterprise data quality in life sciences",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/how-indegene-is-modernizing-and-scaling-enterprise-data-quality-in-life-sciences/",
-    "publishedAt": "2026-11-04T16:25:57.000Z",
-    "topic": "LLM",
-    "summary": "This post explores how Indegene built a production-grade, LLM-powered Data Quality Agent in its NEXT Unified Data Platform on AWS. The agent generates context-aware data quality rules, validates them, and produces ready-"
-  },
-  {
     "id": "simon-willison-s-blog-datasette-llm-0-1a10",
     "headline": "datasette-llm 0.1a10",
     "source": "Simon Willison's Blog",
     "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
     "publishedAt": "2026-11-04T15:26:02.000Z",
     "topic": "LLM",
-    "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: datasette , llm"
+    "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: llm , datasette"
   },
   {
     "id": "simon-willison-s-blog-datasette-apps-0-3a0",
@@ -233,15 +242,6 @@
     "summary": "Weaviate 1.40 makes dropping a named vector and 4-bit Rotational Quantization GA, adds multi-vector embeddings on HFresh and PathSeer filtering, and changes vector configuration defaults."
   },
   {
-    "id": "simon-willison-s-blog-quoting-ted-sanders",
-    "headline": "Quoting Ted Sanders",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
-    "publishedAt": "2026-10-28T23:23:21.000Z",
-    "topic": "LLM",
-    "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the varia"
-  },
-  {
     "id": "deepmind-blog-gemini-4-carbon-our-next-frontier-model",
     "headline": "Gemini 4 Carbon: Our next frontier model",
     "source": "DeepMind Blog",
@@ -287,6 +287,14 @@
     "summary": "Qdrant 1.20.0 is out! Let&rsquo;s look at the main features for this version: BM25 on Full-Text Indexes and Code Search: Rank by BM25 straight from your payload text, with no embeddings to generate. Plus, better code sea"
   },
   {
+    "id": "hacker-news-macos-27-has-a-built-in-offline-llm-you-can-call-from-termin",
+    "headline": "macOS 27 has a built-in, offline LLM you can call from Terminal",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=50185265",
+    "publishedAt": "2026-10-21T18:17:50.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "hugging-face-blog-how-specializing-the-vocabulary-of-slms-can-cut-inference-co",
     "headline": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
     "source": "Hugging Face Blog",
@@ -313,12 +321,28 @@
     "summary": "Every retrieval pipeline starts with the same call: how big is a chunk? Too small, and a chunk loses its context. Too big, and the embedding model cuts it off. DMIS Lab&rsquo;s UltraBERT-Embed-150M moves that cutoff to 3"
   },
   {
+    "id": "hacker-news-launch-hn-consus-yc-f24-llm-gateway-for-companies-handling-s",
+    "headline": "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=50073471",
+    "publishedAt": "2026-10-13T15:41:00.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "hacker-news-agentic-retrieval-augmented-generation-a-survey-on-agentic-r",
     "headline": "Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG",
     "source": "Hacker News",
     "url": "https://arxiv.org/abs/2501.09136",
     "publishedAt": "2026-10-13T14:31:07.000Z",
     "topic": "RAG"
+  },
+  {
+    "id": "hacker-news-show-hn-liquid-inference-auto-routing-to-competitive-llm-mar",
+    "headline": "Show HN: Liquid Inference – auto-routing to competitive LLM marketplace",
+    "source": "Hacker News",
+    "url": "https://liquidinference.ai/",
+    "publishedAt": "2026-10-09T14:52:04.000Z",
+    "topic": "LLM"
   },
   {
     "id": "deepmind-blog-embeddinggemma-2-an-open-lightweight-multimodal-embedding-mo",
@@ -411,6 +435,14 @@
     "topic": "AI"
   },
   {
+    "id": "hacker-news-cutting-llm-inference-costs-by-36-with-prompt-caching",
+    "headline": "Cutting LLM inference costs by 36% with prompt caching",
+    "source": "Hacker News",
+    "url": "https://www.neradot.com/post/cutting-inference-cost-36-percent-with-prompt-caching",
+    "publishedAt": "2026-09-02T06:46:47.000Z",
+    "topic": "Cost"
+  },
+  {
     "id": "hugging-face-blog-benchmirt-what-are-llm-benchmarks-actually-measuring",
     "headline": "BenchMIRT: What are LLM benchmarks actually measuring?",
     "source": "Hugging Face Blog",
@@ -454,6 +486,14 @@
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/fb73bfb5-0291-4e5e-b425-6c3be054276e_1914x1076.png"
   },
   {
+    "id": "hacker-news-show-hn-pigame-pi-llm-plays-black-box-browser-games-via-obse",
+    "headline": "Show HN: Pigame – pi+LLM plays black-box browser games via observe/move tools",
+    "source": "Hacker News",
+    "url": "https://github.com/ifoxhz/pigame",
+    "publishedAt": "2026-08-21T01:20:26.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "hacker-news-offline-rag-on-ios-with-spatial-integration",
     "headline": "Offline RAG on iOS with Spatial Integration",
     "source": "Hacker News",
@@ -478,14 +518,6 @@
     "topic": "LLM",
     "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
     "imageUrl": "https://substackcdn.com/image/fetch/$s_!Om23!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875b5076-19a9-4ffe-91d4-cafa156f650a_5343x5696.png"
-  },
-  {
-    "id": "hacker-news-show-hn-i-built-a-claude-code-plugin-to-query-10-6m-earnings",
-    "headline": "Show HN: I built a Claude Code plugin to query 10.6M earnings-call embeddings",
-    "source": "Hacker News",
-    "url": "https://fn2.ai/claude",
-    "publishedAt": "2026-08-14T22:09:36.000Z",
-    "topic": "LLM"
   },
   {
     "id": "hugging-face-blog-record-train-and-deploy-from-one-place-with-strands-agents-l",
@@ -522,14 +554,6 @@
     "topic": "RAG"
   },
   {
-    "id": "hacker-news-show-hn-energy-carbon-and-water-estimates-for-ai-content-sho",
-    "headline": "Show HN: Energy, carbon and water estimates for AI content, shown as ranges",
-    "source": "Hacker News",
-    "url": "https://aicontentfootprint.com/",
-    "publishedAt": "2026-07-29T16:29:14.000Z",
-    "topic": "Environment"
-  },
-  {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
     "headline": "Building AI infrastructure with the Effingham County community",
     "source": "OpenAI",
@@ -558,14 +582,6 @@
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/286a0beb-32b2-41fc-8bcf-6bae189b53f2_1488x840.png"
   },
   {
-    "id": "hacker-news-rag",
-    "headline": "RAG",
-    "source": "Hacker News",
-    "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
-    "publishedAt": "2026-07-07T05:34:43.000Z",
-    "topic": "RAG"
-  },
-  {
     "id": "ahead-of-ai-using-local-coding-agents",
     "headline": "Using Local Coding Agents",
     "source": "Ahead of AI",
@@ -574,14 +590,6 @@
     "topic": "LLM",
     "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/4e729449-80ff-40c7-bcee-4d9349b46afe_2893x1589.png"
-  },
-  {
-    "id": "hacker-news-show-hn-rag-vector-db-cost-calculator",
-    "headline": "Show HN: RAG Vector DB Cost Calculator",
-    "source": "Hacker News",
-    "url": "https://tools.superml.org/calculators/rag-vector-db-cost-calculator",
-    "publishedAt": "2026-06-26T22:19:14.000Z",
-    "topic": "RAG"
   },
   {
     "id": "openai-openai-and-broadcom-unveil-llm-optimized-inference-chip",
@@ -629,14 +637,6 @@
     "publishedAt": "2026-05-07T11:00:00.000Z",
     "topic": "RAG",
     "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions."
-  },
-  {
-    "id": "hacker-news-show-hn-i-built-a-search-engine-for-llms-txt-sites",
-    "headline": "Show HN: I built a search engine for llms.txt sites",
-    "source": "Hacker News",
-    "url": "https://statespace.com/",
-    "publishedAt": "2026-04-28T16:02:05.000Z",
-    "topic": "LLM"
   },
   {
     "id": "the-gradient-after-orthogonality-virtue-ethical-agency-and-ai-alignment",
