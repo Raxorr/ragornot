@@ -144,6 +144,14 @@
     "summary": "Graph Retrieval-Augmented Generation (GraphRAG) faces significant challenges in complex relational retrieval tasks, particularly in densely connected knowledge graphs where the number of possible paths grows rapidly with"
   },
   {
+    "id": "hugging-face-blog-token-pooling-aware-training-for-multi-vector-embedding-mode",
+    "headline": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/token-pooling",
+    "publishedAt": "2026-11-11T00:00:00.000Z",
+    "topic": "RAG"
+  },
+  {
     "id": "simon-willison-s-blog-llm-gemini-0-36",
     "headline": "llm-gemini 0.36",
     "source": "Simon Willison's Blog",
@@ -552,14 +560,6 @@
     "publishedAt": "2026-08-13T00:00:00.000Z",
     "topic": "RAG",
     "summary": "Reducing Retrieval and Calls When a retrieval-augmented generation (RAG) agent runs, it often has to plan a search, check the evidence it gets back, and try again when that evidence falls short. Those inefficiencies comp"
-  },
-  {
-    "id": "hugging-face-blog-introducing-olmoearth-embeddings-custom-embedding-exports-fr",
-    "headline": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-    "publishedAt": "2026-08-12T16:14:36.000Z",
-    "topic": "RAG"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
