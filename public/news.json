@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-timeomni-o1-bidirectionally-coupling-time-series-foundation-",
+    "headline": "TimeOmni-o1: Bidirectionally Coupling Time Series Foundation Models and LLMs for Multimodal Reasoning and Forecasting",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.12902",
+    "publishedAt": "2026-11-11T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Time series from real-world systems are often accompanied by text, such as a report on an event that affects them. Two common tasks on these series are understanding, e.g., answering questions about a series, and forecas"
+  },
+  {
+    "id": "arxiv-cs-cl-actionable-feedback-improving-model-capabilities-from-user-e",
+    "headline": "Actionable Feedback: Improving Model Capabilities from User Edit Data on Clinical Documentation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.12904",
+    "publishedAt": "2026-11-11T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are increasingly being deployed in clinical documentation workflows, where clinicians review and edit their outputs before use. In principle, these clinician edits represent a scalable source"
+  },
+  {
+    "id": "arxiv-cs-cl-brasilidade-measuring-brazilian-identity-for-large-language-",
+    "headline": "Brasilidade: Measuring Brazilian Identity for Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.12906",
+    "publishedAt": "2026-11-11T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "This work presents a new benchmark that aims to address the limitations of current methods for evaluating LLMs in Brazilian Portuguese. We introduced Brasilidade, an assessment methodology comprised of standardized tasks"
+  },
+  {
+    "id": "arxiv-cs-cl-capacity-allocation-at-the-source-sparse-target-optimization",
+    "headline": "Capacity Allocation at the Source: Sparse Target Optimization for LLM Knowledge Editing",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.12995",
+    "publishedAt": "2026-11-11T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Knowledge editing has emerged as a promising approach for efficiently updating embedded knowledge in large language models (LLMs). It first computes an ideal target hidden state that steers the LLM toward the new output,"
+  },
+  {
+    "id": "arxiv-cs-cl-catch-it-where-it-happens-real-time-error-correction-during-",
+    "headline": "Catch It Where It Happens: Real Time Error Correction During LLM Reasoning",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.13107",
+    "publishedAt": "2026-11-11T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are increasingly trusted with mathematical, scientific and engineering work, yet their mistakes are often confidently written and hard to spot. A single wrong step tends to propagate, making "
+  },
+  {
+    "id": "arxiv-cs-cl-what-drives-the-emergence-of-symbolic-mechanisms-in-large-la",
+    "headline": "What drives the emergence of symbolic mechanisms in large language models?",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.13270",
+    "publishedAt": "2026-11-11T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Recent work has identified a set of emergent symbolic mechanisms that support abstract reasoning in large language models, but it remains unclear what factors drive the emergence of these mechanisms. To address this ques"
+  },
+  {
+    "id": "arxiv-cs-cl-measuring-definition-sensitivity-in-llm-annotation-of-social",
+    "headline": "Measuring Definition Sensitivity in LLM Annotation of Social Science Concepts",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.13339",
+    "publishedAt": "2026-11-11T05:00:00.000Z",
+    "topic": "Cost",
+    "summary": "In social science research, text annotation is a fundamental task that is traditionally a costly, hard-to-scale manual process. Researchers have used large language models (LLMs) to perform annotation by writing a defini"
+  },
+  {
+    "id": "arxiv-cs-cl-biomem-agentic-memory-for-biomedical-llm-agents",
+    "headline": "BioMem: Agentic Memory for Biomedical LLM Agents",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.13426",
+    "publishedAt": "2026-11-11T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) have demonstrated considerable potential in biomedical applications, while agentic memory systems have emerged as a promising approach to preserving and utilizing information across tasks and"
+  },
+  {
+    "id": "arxiv-cs-ir-auditing-llm-pseudo-label-distillation-for-review-informativ",
+    "headline": "Auditing LLM Pseudo-Label Distillation for Review Informativeness at E-Commerce Scale",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.13797",
+    "publishedAt": "2026-11-11T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "We study hard-label distillation from Gemini 3.1 Flash-Lite to compact encoders on 5.34 million Turkish marketplace reviews. A strict new-SKU temporal test measures teacher fidelity; a separate, teacher-label-blind audit"
+  },
+  {
+    "id": "arxiv-cs-ir-controlled-knowledge-engineering-for-taxonomy-induction-with",
+    "headline": "Controlled Knowledge Engineering for Taxonomy Induction with Tool-Grounded LLM Agents and Runtime-Adaptive Policies",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.13966",
+    "publishedAt": "2026-11-11T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Taxonomies are structured knowledge representations that support semantic search, recommendation, product catalog organization, and retrieval-augmented generation. Their automated construction from a fixed set of candida"
+  },
+  {
+    "id": "arxiv-cs-ir-ontology-guided-knowledge-graph-construction-and-robust-evid",
+    "headline": "Ontology-Guided Knowledge Graph Construction and Robust Evidence Retrieval for Indian Knowledge Systems",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.14050",
+    "publishedAt": "2026-11-11T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieving evidence from Indian Knowledge Systems is complicated by transliteration variants, ambiguous names, and relations distributed across passages. We present an ontology-guided knowledge graph (KG) pipeline that l"
+  },
+  {
+    "id": "arxiv-cs-ir-from-search-to-decision-how-post-training-shapes-information",
+    "headline": "From Search to Decision: How Post-Training Shapes Information-Seeking Capabilities in Large Language Models",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.14149",
+    "publishedAt": "2026-11-11T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Information seeking in large language model (LLM) systems increasingly involves decisions about when to acquire information, where to search, and how to evaluate and use evidence. Recent post-training methods have improv"
+  },
+  {
+    "id": "arxiv-cs-ir-sharp-semantic-hierarchical-agentic-reasoning-for-next-poi-p",
+    "headline": "SHARP: Semantic Hierarchical Agentic Reasoning for Next POI Prediction with Dynamic Memory",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.14220",
+    "publishedAt": "2026-11-11T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Next point-of-interest (POI) prediction supports personalized location services by anticipating users' next destinations. Recent methods leverage large language models (LLMs) for semantic reasoning and graphs for collect"
+  },
+  {
+    "id": "arxiv-cs-ir-from-counterfactual-edits-to-human-narratives-llm-driven-int",
+    "headline": "From Counterfactual Edits to Human Narratives: LLM-Driven Interpretations for Recommender System Explanations",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.13914",
+    "publishedAt": "2026-11-11T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Recommender systems increasingly influence what users discover and consume online, yet the decision logic behind their outputs often remains opaque. Counterfactual explanation (CFX) methods provide an effective way to sh"
+  },
+  {
+    "id": "arxiv-cs-ir-omnireview-a-large-scale-benchmark-and-llm-enhanced-framewor",
+    "headline": "OmniReview: A Large-scale Benchmark and LLM-enhanced Framework for Realistic Reviewer Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2602.08896",
+    "publishedAt": "2026-11-11T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Academic peer review remains the cornerstone of scholarly validation, yet the field faces some challenges in data and methods. From the data perspective, existing research is hindered by the scarcity of large-scale, veri"
+  },
+  {
+    "id": "arxiv-cs-ir-dotrag-retrieval-time-reasoning-along-paths",
+    "headline": "DOTRAG: Retrieval-Time Reasoning Along Paths",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2605.18760",
+    "publishedAt": "2026-11-11T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Graph Retrieval-Augmented Generation (GraphRAG) faces significant challenges in complex relational retrieval tasks, particularly in densely connected knowledge graphs where the number of possible paths grows rapidly with"
+  },
+  {
     "id": "simon-willison-s-blog-llm-gemini-0-36",
     "headline": "llm-gemini 0.36",
     "source": "Simon Willison's Blog",
@@ -15,78 +159,6 @@
     "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
     "publishedAt": "2026-11-10T16:03:47.000Z",
     "topic": "Environment"
-  },
-  {
-    "id": "arxiv-cs-cl-forcing-a-letter-suppresses-refusal-mechanistic-evidence-fro",
-    "headline": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.08639",
-    "publishedAt": "2026-11-10T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Safety benchmarks for large language models (LLMs) commonly use multiple-choice question (MCQ) format. However, prior studies documented that MCQ format reduces refusal rates, which may significantly affect the safety be"
-  },
-  {
-    "id": "arxiv-cs-cl-finevolvekg-controlled-and-attributable-prompt-evolution-for",
-    "headline": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.08643",
-    "publishedAt": "2026-11-10T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Financial institutions construct knowledge graphs (KGs) from shared SEC 10-Ks to serve risk analysis, portfolio management, and investment research, whose analytical needs differ. Extraction must adapt without fragmentin"
-  },
-  {
-    "id": "arxiv-cs-cl-compression-of-emotion-in-language-model-representations",
-    "headline": "Compression of Emotion in Language Model Representations",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.08683",
-    "publishedAt": "2026-11-10T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) have been evaluated on their ability to identify emotions expressed in text and produce fluent emotional language. However, output predictions alone do not reveal how fine-grained emotion dis"
-  },
-  {
-    "id": "arxiv-cs-cl-rl-attack-a-generalized-black-box-adversarial-attack-on-lang",
-    "headline": "RL-ATTACK: A Generalized Black-Box Adversarial Attack on Language Models via Reinforcement Learning",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.08711",
-    "publishedAt": "2026-11-10T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) exhibit vulnerabilities to adversarial perturbations that can induce unintended responses. These vulnerabilities can be identified via intentional attacks and subsequently used to improve mod"
-  },
-  {
-    "id": "arxiv-cs-cl-structuring-survey-histories-for-llm-digital-twins-a-control",
-    "headline": "Structuring Survey Histories for LLM Digital Twins: A Controlled Study of Background, Decision Procedure, and Evaluation Profiles",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.08730",
-    "publishedAt": "2026-11-10T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "LLM-based digital twins aim to predict how individuals would respond in new settings from representations of their prior responses. Existing evidence that compression of survey histories need not reduce predictive accura"
-  },
-  {
-    "id": "arxiv-cs-cl-guardrail-erosion-in-domain-fine-tuned-large-language-models",
-    "headline": "Guardrail Erosion in Domain Fine-Tuned Large Language Models: A Paired Audit of Knowledge-Centric Abstention in Biomedical LLMs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.08780",
-    "publishedAt": "2026-11-10T05:00:00.000Z",
-    "topic": "Cost",
-    "summary": "The number of domain fine-tuned models, particularly in the biomedical domain, is rapidly expanding. Fine-tuning promises high-performing models at a fraction of the cost of training a base model, but it can also produce"
-  },
-  {
-    "id": "arxiv-cs-cl-using-an-llm-to-tackle-difficult-cases-in-ner-for-nepali-twe",
-    "headline": "Using an LLM to Tackle Difficult Cases in NER for Nepali Tweets",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.08967",
-    "publishedAt": "2026-11-10T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Named entity recognition (NER) is challenging for social media data in a low-resource language. LLMs often lag behind pretrained language models (PLMs) in NER performance, but they show promise in handling cases that PLM"
-  },
-  {
-    "id": "arxiv-cs-cl-beyond-truncation-entailment-licensed-elision-and-the-limits",
-    "headline": "Beyond Truncation? Entailment-Licensed Elision and the Limits of Semantic Preservation in LLM Decoding",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.08975",
-    "publishedAt": "2026-11-10T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Instruction-tuned large language models (LLMs) answer at greater length than a request needs. We ask whether a training-free controller inside the decoding loop can remove that surplus while preserving content, judged ag"
   },
   {
     "id": "simon-willison-s-blog-llm-anthropic-0-31",
