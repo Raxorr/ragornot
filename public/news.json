@@ -1,12 +1,20 @@
 [
   {
-    "id": "aws-machine-learning-blog-accelerating-generative-ai-delivery-with-reusable-assets",
-    "headline": "Accelerating generative AI delivery with reusable assets",
+    "id": "hugging-face-blog-llmon-an-llm-native-markup-language-now-in-granite-4-1-3b-an",
+    "headline": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+    "source": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+    "publishedAt": "2026-11-12T19:07:35.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "aws-machine-learning-blog-building-a-self-service-llm-gateway-with-amazon-bedrock-and-",
+    "headline": "Building a self-service LLM gateway with Amazon Bedrock and LiteLLM",
     "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets/",
-    "publishedAt": "2026-11-11T19:19:21.000Z",
-    "topic": "RAG",
-    "summary": "Every generative AI team keeps rebuilding the same components: RAG pipelines, document processors, and agent scaffolding. This post shows how to access a curated catalog of 23 production-ready, open source reusable asset"
+    "url": "https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm/",
+    "publishedAt": "2026-11-12T18:41:12.000Z",
+    "topic": "LLM",
+    "summary": "Build a self-service LLM gateway with LiteLLM on AWS Fargate that puts Amazon Bedrock foundation models behind an OpenAI-compatible API. Developers get instant access through a single API key, while platform teams gain p"
   },
   {
     "id": "simon-willison-s-blog-llm-0-37-2",
@@ -383,14 +391,6 @@
     "imageUrl": "https://substackcdn.com/image/fetch/$s_!Om23!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875b5076-19a9-4ffe-91d4-cafa156f650a_5343x5696.png"
   },
   {
-    "id": "hugging-face-blog-record-train-and-deploy-from-one-place-with-strands-agents-l",
-    "headline": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-    "source": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-    "publishedAt": "2026-08-13T17:16:04.000Z",
-    "topic": "RAG"
-  },
-  {
     "id": "weaviate-blog-building-foundry-part-2-where-creative-workflows-break",
     "headline": "Building Foundry Part 2: Where creative workflows break",
     "source": "Weaviate Blog",
@@ -511,16 +511,6 @@
     "topic": "AI",
     "summary": "Preface This essay argues that rational people don&#x2019;t have goals, and that rational AIs shouldn&#x2019;t have goals. Human actions are rational not because we direct them at some final &#x2018;goals,&#x2019; but be",
     "imageUrl": "https://thegradient.pub/content/images/2026/02/ramelli-featured.jpg"
-  },
-  {
-    "id": "deepmind-blog-facts-benchmark-suite-systematically-evaluating-the-factuali",
-    "headline": "FACTS Benchmark Suite: Systematically evaluating the factuality of large language models",
-    "source": "DeepMind Blog",
-    "url": "https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/",
-    "publishedAt": "2025-12-09T11:29:03.000Z",
-    "topic": "LLM",
-    "summary": "Systematically evaluating the factuality of large language models with the FACTS Benchmark Suite.",
-    "imageUrl": "https://lh3.googleusercontent.com/eEfDhwb-u99oZnuvwc3STyyWrtN-4LnaqKBXCTP6Zy7yZGEJ-ryNjOOYaWJ3Lc8JmRXVH9DA-EqSb7k61rXtDeG0wB6Tj0ho0mAax8QWUHDkpyUjig=w528-h297-n-nu-rw-lo"
   },
   {
     "id": "the-gradient-agi-is-not-multimodal",
