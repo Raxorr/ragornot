@@ -18,150 +18,6 @@
     "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai end"
   },
   {
-    "id": "arxiv-cs-cl-timeomni-o1-bidirectionally-coupling-time-series-foundation-",
-    "headline": "TimeOmni-o1: Bidirectionally Coupling Time Series Foundation Models and LLMs for Multimodal Reasoning and Forecasting",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.12902",
-    "publishedAt": "2026-11-11T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Time series from real-world systems are often accompanied by text, such as a report on an event that affects them. Two common tasks on these series are understanding, e.g., answering questions about a series, and forecas"
-  },
-  {
-    "id": "arxiv-cs-cl-actionable-feedback-improving-model-capabilities-from-user-e",
-    "headline": "Actionable Feedback: Improving Model Capabilities from User Edit Data on Clinical Documentation",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.12904",
-    "publishedAt": "2026-11-11T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are increasingly being deployed in clinical documentation workflows, where clinicians review and edit their outputs before use. In principle, these clinician edits represent a scalable source"
-  },
-  {
-    "id": "arxiv-cs-cl-brasilidade-measuring-brazilian-identity-for-large-language-",
-    "headline": "Brasilidade: Measuring Brazilian Identity for Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.12906",
-    "publishedAt": "2026-11-11T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "This work presents a new benchmark that aims to address the limitations of current methods for evaluating LLMs in Brazilian Portuguese. We introduced Brasilidade, an assessment methodology comprised of standardized tasks"
-  },
-  {
-    "id": "arxiv-cs-cl-capacity-allocation-at-the-source-sparse-target-optimization",
-    "headline": "Capacity Allocation at the Source: Sparse Target Optimization for LLM Knowledge Editing",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.12995",
-    "publishedAt": "2026-11-11T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Knowledge editing has emerged as a promising approach for efficiently updating embedded knowledge in large language models (LLMs). It first computes an ideal target hidden state that steers the LLM toward the new output,"
-  },
-  {
-    "id": "arxiv-cs-cl-catch-it-where-it-happens-real-time-error-correction-during-",
-    "headline": "Catch It Where It Happens: Real Time Error Correction During LLM Reasoning",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.13107",
-    "publishedAt": "2026-11-11T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are increasingly trusted with mathematical, scientific and engineering work, yet their mistakes are often confidently written and hard to spot. A single wrong step tends to propagate, making "
-  },
-  {
-    "id": "arxiv-cs-cl-what-drives-the-emergence-of-symbolic-mechanisms-in-large-la",
-    "headline": "What drives the emergence of symbolic mechanisms in large language models?",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.13270",
-    "publishedAt": "2026-11-11T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Recent work has identified a set of emergent symbolic mechanisms that support abstract reasoning in large language models, but it remains unclear what factors drive the emergence of these mechanisms. To address this ques"
-  },
-  {
-    "id": "arxiv-cs-cl-measuring-definition-sensitivity-in-llm-annotation-of-social",
-    "headline": "Measuring Definition Sensitivity in LLM Annotation of Social Science Concepts",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.13339",
-    "publishedAt": "2026-11-11T05:00:00.000Z",
-    "topic": "Cost",
-    "summary": "In social science research, text annotation is a fundamental task that is traditionally a costly, hard-to-scale manual process. Researchers have used large language models (LLMs) to perform annotation by writing a defini"
-  },
-  {
-    "id": "arxiv-cs-cl-biomem-agentic-memory-for-biomedical-llm-agents",
-    "headline": "BioMem: Agentic Memory for Biomedical LLM Agents",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.13426",
-    "publishedAt": "2026-11-11T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) have demonstrated considerable potential in biomedical applications, while agentic memory systems have emerged as a promising approach to preserving and utilizing information across tasks and"
-  },
-  {
-    "id": "arxiv-cs-ir-auditing-llm-pseudo-label-distillation-for-review-informativ",
-    "headline": "Auditing LLM Pseudo-Label Distillation for Review Informativeness at E-Commerce Scale",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.13797",
-    "publishedAt": "2026-11-11T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "We study hard-label distillation from Gemini 3.1 Flash-Lite to compact encoders on 5.34 million Turkish marketplace reviews. A strict new-SKU temporal test measures teacher fidelity; a separate, teacher-label-blind audit"
-  },
-  {
-    "id": "arxiv-cs-ir-controlled-knowledge-engineering-for-taxonomy-induction-with",
-    "headline": "Controlled Knowledge Engineering for Taxonomy Induction with Tool-Grounded LLM Agents and Runtime-Adaptive Policies",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.13966",
-    "publishedAt": "2026-11-11T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Taxonomies are structured knowledge representations that support semantic search, recommendation, product catalog organization, and retrieval-augmented generation. Their automated construction from a fixed set of candida"
-  },
-  {
-    "id": "arxiv-cs-ir-ontology-guided-knowledge-graph-construction-and-robust-evid",
-    "headline": "Ontology-Guided Knowledge Graph Construction and Robust Evidence Retrieval for Indian Knowledge Systems",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.14050",
-    "publishedAt": "2026-11-11T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Retrieving evidence from Indian Knowledge Systems is complicated by transliteration variants, ambiguous names, and relations distributed across passages. We present an ontology-guided knowledge graph (KG) pipeline that l"
-  },
-  {
-    "id": "arxiv-cs-ir-from-search-to-decision-how-post-training-shapes-information",
-    "headline": "From Search to Decision: How Post-Training Shapes Information-Seeking Capabilities in Large Language Models",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.14149",
-    "publishedAt": "2026-11-11T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Information seeking in large language model (LLM) systems increasingly involves decisions about when to acquire information, where to search, and how to evaluate and use evidence. Recent post-training methods have improv"
-  },
-  {
-    "id": "arxiv-cs-ir-sharp-semantic-hierarchical-agentic-reasoning-for-next-poi-p",
-    "headline": "SHARP: Semantic Hierarchical Agentic Reasoning for Next POI Prediction with Dynamic Memory",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.14220",
-    "publishedAt": "2026-11-11T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Next point-of-interest (POI) prediction supports personalized location services by anticipating users' next destinations. Recent methods leverage large language models (LLMs) for semantic reasoning and graphs for collect"
-  },
-  {
-    "id": "arxiv-cs-ir-from-counterfactual-edits-to-human-narratives-llm-driven-int",
-    "headline": "From Counterfactual Edits to Human Narratives: LLM-Driven Interpretations for Recommender System Explanations",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.13914",
-    "publishedAt": "2026-11-11T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Recommender systems increasingly influence what users discover and consume online, yet the decision logic behind their outputs often remains opaque. Counterfactual explanation (CFX) methods provide an effective way to sh"
-  },
-  {
-    "id": "arxiv-cs-ir-omnireview-a-large-scale-benchmark-and-llm-enhanced-framewor",
-    "headline": "OmniReview: A Large-scale Benchmark and LLM-enhanced Framework for Realistic Reviewer Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2602.08896",
-    "publishedAt": "2026-11-11T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Academic peer review remains the cornerstone of scholarly validation, yet the field faces some challenges in data and methods. From the data perspective, existing research is hindered by the scarcity of large-scale, veri"
-  },
-  {
-    "id": "arxiv-cs-ir-dotrag-retrieval-time-reasoning-along-paths",
-    "headline": "DOTRAG: Retrieval-Time Reasoning Along Paths",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2605.18760",
-    "publishedAt": "2026-11-11T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Graph Retrieval-Augmented Generation (GraphRAG) faces significant challenges in complex relational retrieval tasks, particularly in densely connected knowledge graphs where the number of possible paths grows rapidly with"
-  },
-  {
     "id": "hugging-face-blog-token-pooling-aware-training-for-multi-vector-embedding-mode",
     "headline": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
     "source": "Hugging Face Blog",
@@ -194,15 +50,6 @@
     "publishedAt": "2026-11-09T23:58:46.000Z",
     "topic": "LLM",
     "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so cl"
-  },
-  {
-    "id": "aws-machine-learning-blog-single-shot-and-agentic-retrieval-with-amazon-bedrock-manage",
-    "headline": "Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/",
-    "publishedAt": "2026-11-09T20:13:18.000Z",
-    "topic": "RAG",
-    "summary": "Amazon Bedrock Managed Knowledge Base now supports single-shot RAG and retrieval-only requests through AgenticRetrieveStream, alongside agentic retrieval. This post explains how the maxAgentIteration parameter matches re"
   },
   {
     "id": "simon-willison-s-blog-datasette-llm-0-1a10",
@@ -312,14 +159,6 @@
     "summary": "Qdrant 1.20.0 is out! Let&rsquo;s look at the main features for this version: BM25 on Full-Text Indexes and Code Search: Rank by BM25 straight from your payload text, with no embeddings to generate. Plus, better code sea"
   },
   {
-    "id": "hacker-news-macos-27-has-a-built-in-offline-llm-you-can-call-from-termin",
-    "headline": "macOS 27 has a built-in, offline LLM you can call from Terminal",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=50185265",
-    "publishedAt": "2026-10-21T18:17:50.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "hugging-face-blog-how-specializing-the-vocabulary-of-slms-can-cut-inference-co",
     "headline": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
     "source": "Hugging Face Blog",
@@ -346,28 +185,12 @@
     "summary": "Every retrieval pipeline starts with the same call: how big is a chunk? Too small, and a chunk loses its context. Too big, and the embedding model cuts it off. DMIS Lab&rsquo;s UltraBERT-Embed-150M moves that cutoff to 3"
   },
   {
-    "id": "hacker-news-launch-hn-consus-yc-f24-llm-gateway-for-companies-handling-s",
-    "headline": "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=50073471",
-    "publishedAt": "2026-10-13T15:41:00.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "hacker-news-agentic-retrieval-augmented-generation-a-survey-on-agentic-r",
     "headline": "Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG",
     "source": "Hacker News",
     "url": "https://arxiv.org/abs/2501.09136",
     "publishedAt": "2026-10-13T14:31:07.000Z",
     "topic": "RAG"
-  },
-  {
-    "id": "hacker-news-show-hn-liquid-inference-auto-routing-to-competitive-llm-mar",
-    "headline": "Show HN: Liquid Inference – auto-routing to competitive LLM marketplace",
-    "source": "Hacker News",
-    "url": "https://liquidinference.ai/",
-    "publishedAt": "2026-10-09T14:52:04.000Z",
-    "topic": "LLM"
   },
   {
     "id": "deepmind-blog-embeddinggemma-2-an-open-lightweight-multimodal-embedding-mo",
@@ -460,14 +283,6 @@
     "topic": "AI"
   },
   {
-    "id": "hacker-news-cutting-llm-inference-costs-by-36-with-prompt-caching",
-    "headline": "Cutting LLM inference costs by 36% with prompt caching",
-    "source": "Hacker News",
-    "url": "https://www.neradot.com/post/cutting-inference-cost-36-percent-with-prompt-caching",
-    "publishedAt": "2026-09-02T06:46:47.000Z",
-    "topic": "Cost"
-  },
-  {
     "id": "hugging-face-blog-benchmirt-what-are-llm-benchmarks-actually-measuring",
     "headline": "BenchMIRT: What are LLM benchmarks actually measuring?",
     "source": "Hugging Face Blog",
@@ -511,14 +326,6 @@
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/fb73bfb5-0291-4e5e-b425-6c3be054276e_1914x1076.png"
   },
   {
-    "id": "hacker-news-show-hn-pigame-pi-llm-plays-black-box-browser-games-via-obse",
-    "headline": "Show HN: Pigame – pi+LLM plays black-box browser games via observe/move tools",
-    "source": "Hacker News",
-    "url": "https://github.com/ifoxhz/pigame",
-    "publishedAt": "2026-08-21T01:20:26.000Z",
-    "topic": "LLM"
-  },
-  {
     "id": "hacker-news-offline-rag-on-ios-with-spatial-integration",
     "headline": "Offline RAG on iOS with Spatial Integration",
     "source": "Hacker News",
@@ -543,6 +350,14 @@
     "topic": "LLM",
     "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
     "imageUrl": "https://substackcdn.com/image/fetch/$s_!Om23!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875b5076-19a9-4ffe-91d4-cafa156f650a_5343x5696.png"
+  },
+  {
+    "id": "hacker-news-show-hn-i-built-a-claude-code-plugin-to-query-10-6m-earnings",
+    "headline": "Show HN: I built a Claude Code plugin to query 10.6M earnings-call embeddings",
+    "source": "Hacker News",
+    "url": "https://fn2.ai/claude",
+    "publishedAt": "2026-08-14T22:09:36.000Z",
+    "topic": "LLM"
   },
   {
     "id": "hugging-face-blog-record-train-and-deploy-from-one-place-with-strands-agents-l",
@@ -599,6 +414,14 @@
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/286a0beb-32b2-41fc-8bcf-6bae189b53f2_1488x840.png"
   },
   {
+    "id": "hacker-news-rag",
+    "headline": "RAG",
+    "source": "Hacker News",
+    "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+    "publishedAt": "2026-07-07T05:34:43.000Z",
+    "topic": "RAG"
+  },
+  {
     "id": "ahead-of-ai-using-local-coding-agents",
     "headline": "Using Local Coding Agents",
     "source": "Ahead of AI",
@@ -607,6 +430,14 @@
     "topic": "LLM",
     "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/4e729449-80ff-40c7-bcee-4d9349b46afe_2893x1589.png"
+  },
+  {
+    "id": "hacker-news-show-hn-rag-vector-db-cost-calculator",
+    "headline": "Show HN: RAG Vector DB Cost Calculator",
+    "source": "Hacker News",
+    "url": "https://tools.superml.org/calculators/rag-vector-db-cost-calculator",
+    "publishedAt": "2026-06-26T22:19:14.000Z",
+    "topic": "RAG"
   },
   {
     "id": "openai-openai-and-broadcom-unveil-llm-optimized-inference-chip",
@@ -654,6 +485,22 @@
     "publishedAt": "2026-05-07T11:00:00.000Z",
     "topic": "RAG",
     "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions."
+  },
+  {
+    "id": "hacker-news-show-hn-i-built-a-search-engine-for-llms-txt-sites",
+    "headline": "Show HN: I built a search engine for llms.txt sites",
+    "source": "Hacker News",
+    "url": "https://statespace.com/",
+    "publishedAt": "2026-04-28T16:02:05.000Z",
+    "topic": "LLM"
+  },
+  {
+    "id": "hacker-news-rag-pipelines-leaking-pii-into-vector-databases-and-nobody-s",
+    "headline": "RAG pipelines, leaking PII into vector databases and nobody's talking about it",
+    "source": "Hacker News",
+    "url": "https://comply-tech.co.uk/blog/rag-pipeline-pii-vector-embeddings.html",
+    "publishedAt": "2026-04-24T09:21:55.000Z",
+    "topic": "RAG"
   },
   {
     "id": "the-gradient-after-orthogonality-virtue-ethical-agency-and-ai-alignment",
