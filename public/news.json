@@ -159,6 +159,14 @@
     "summary": "Qdrant 1.20.0 is out! Let&rsquo;s look at the main features for this version: BM25 on Full-Text Indexes and Code Search: Rank by BM25 straight from your payload text, with no embeddings to generate. Plus, better code sea"
   },
   {
+    "id": "hacker-news-macos-27-has-a-built-in-offline-llm-you-can-call-from-termin",
+    "headline": "macOS 27 has a built-in, offline LLM you can call from Terminal",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=50185265",
+    "publishedAt": "2026-10-21T18:17:50.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "hugging-face-blog-how-specializing-the-vocabulary-of-slms-can-cut-inference-co",
     "headline": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
     "source": "Hugging Face Blog",
@@ -185,12 +193,28 @@
     "summary": "Every retrieval pipeline starts with the same call: how big is a chunk? Too small, and a chunk loses its context. Too big, and the embedding model cuts it off. DMIS Lab&rsquo;s UltraBERT-Embed-150M moves that cutoff to 3"
   },
   {
+    "id": "hacker-news-launch-hn-consus-yc-f24-llm-gateway-for-companies-handling-s",
+    "headline": "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=50073471",
+    "publishedAt": "2026-10-13T15:41:00.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "hacker-news-agentic-retrieval-augmented-generation-a-survey-on-agentic-r",
     "headline": "Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG",
     "source": "Hacker News",
     "url": "https://arxiv.org/abs/2501.09136",
     "publishedAt": "2026-10-13T14:31:07.000Z",
     "topic": "RAG"
+  },
+  {
+    "id": "hacker-news-show-hn-liquid-inference-auto-routing-to-competitive-llm-mar",
+    "headline": "Show HN: Liquid Inference – auto-routing to competitive LLM marketplace",
+    "source": "Hacker News",
+    "url": "https://liquidinference.ai/",
+    "publishedAt": "2026-10-09T14:52:04.000Z",
+    "topic": "LLM"
   },
   {
     "id": "deepmind-blog-embeddinggemma-2-an-open-lightweight-multimodal-embedding-mo",
@@ -227,15 +251,6 @@
     "publishedAt": "2026-09-29T00:00:00.000Z",
     "topic": "Cost",
     "summary": "As query traffic grows, so does the compute bill for embedding it. On a low-power device, a large model may not fit in memory. A smaller query model could reduce that cost, but switching usually means re-embedding the co"
-  },
-  {
-    "id": "weaviate-blog-agent-memory-with-engram-a-practical-guide",
-    "headline": "Agent Memory with Engram: A Practical Guide",
-    "source": "Weaviate Blog",
-    "url": "https://weaviate.io/blog/engram-memory-practical-guide",
-    "publishedAt": "2026-09-22T00:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Learn how to use Engram effectively, from writing topic descriptions that control extraction to choosing bounded topics and scopes, selecting a retrieval mode, and placing memories in your prompt without hurting prompt-c"
   },
   {
     "id": "qdrant-blog-how-lucy-built-a-source-of-truth-retrieval-layer-for-2-8m-se",
@@ -283,6 +298,14 @@
     "topic": "AI"
   },
   {
+    "id": "hacker-news-cutting-llm-inference-costs-by-36-with-prompt-caching",
+    "headline": "Cutting LLM inference costs by 36% with prompt caching",
+    "source": "Hacker News",
+    "url": "https://www.neradot.com/post/cutting-inference-cost-36-percent-with-prompt-caching",
+    "publishedAt": "2026-09-02T06:46:47.000Z",
+    "topic": "Cost"
+  },
+  {
     "id": "hugging-face-blog-benchmirt-what-are-llm-benchmarks-actually-measuring",
     "headline": "BenchMIRT: What are LLM benchmarks actually measuring?",
     "source": "Hugging Face Blog",
@@ -326,6 +349,14 @@
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/fb73bfb5-0291-4e5e-b425-6c3be054276e_1914x1076.png"
   },
   {
+    "id": "hacker-news-show-hn-pigame-pi-llm-plays-black-box-browser-games-via-obse",
+    "headline": "Show HN: Pigame – pi+LLM plays black-box browser games via observe/move tools",
+    "source": "Hacker News",
+    "url": "https://github.com/ifoxhz/pigame",
+    "publishedAt": "2026-08-21T01:20:26.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "hacker-news-offline-rag-on-ios-with-spatial-integration",
     "headline": "Offline RAG on iOS with Spatial Integration",
     "source": "Hacker News",
@@ -350,14 +381,6 @@
     "topic": "LLM",
     "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
     "imageUrl": "https://substackcdn.com/image/fetch/$s_!Om23!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F875b5076-19a9-4ffe-91d4-cafa156f650a_5343x5696.png"
-  },
-  {
-    "id": "hacker-news-show-hn-i-built-a-claude-code-plugin-to-query-10-6m-earnings",
-    "headline": "Show HN: I built a Claude Code plugin to query 10.6M earnings-call embeddings",
-    "source": "Hacker News",
-    "url": "https://fn2.ai/claude",
-    "publishedAt": "2026-08-14T22:09:36.000Z",
-    "topic": "LLM"
   },
   {
     "id": "hugging-face-blog-record-train-and-deploy-from-one-place-with-strands-agents-l",
@@ -414,14 +437,6 @@
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/286a0beb-32b2-41fc-8bcf-6bae189b53f2_1488x840.png"
   },
   {
-    "id": "hacker-news-rag",
-    "headline": "RAG",
-    "source": "Hacker News",
-    "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
-    "publishedAt": "2026-07-07T05:34:43.000Z",
-    "topic": "RAG"
-  },
-  {
     "id": "ahead-of-ai-using-local-coding-agents",
     "headline": "Using Local Coding Agents",
     "source": "Ahead of AI",
@@ -430,14 +445,6 @@
     "topic": "LLM",
     "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/4e729449-80ff-40c7-bcee-4d9349b46afe_2893x1589.png"
-  },
-  {
-    "id": "hacker-news-show-hn-rag-vector-db-cost-calculator",
-    "headline": "Show HN: RAG Vector DB Cost Calculator",
-    "source": "Hacker News",
-    "url": "https://tools.superml.org/calculators/rag-vector-db-cost-calculator",
-    "publishedAt": "2026-06-26T22:19:14.000Z",
-    "topic": "RAG"
   },
   {
     "id": "openai-openai-and-broadcom-unveil-llm-optimized-inference-chip",
@@ -468,6 +475,15 @@
     "summary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects."
   },
   {
+    "id": "weaviate-blog-build-a-coding-assistant-with-weaviate-mcp-rag-over-code-doc",
+    "headline": "Build a Coding Assistant with Weaviate MCP: RAG over Code & Docs",
+    "source": "Weaviate Blog",
+    "url": "https://weaviate.io/blog/coding-assistant-weaviate-mcp",
+    "publishedAt": "2026-05-21T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Use Weaviate's built-in MCP server to give Claude Code, Cursor, and VS Code hybrid search over your codebase and docs. No glue code."
+  },
+  {
     "id": "deepmind-blog-strengthening-singapore-s-ai-future-a-new-national-partnersh",
     "headline": "Strengthening Singapore’s AI Future: A New National Partnership",
     "source": "DeepMind Blog",
@@ -485,22 +501,6 @@
     "publishedAt": "2026-05-07T11:00:00.000Z",
     "topic": "RAG",
     "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions."
-  },
-  {
-    "id": "hacker-news-show-hn-i-built-a-search-engine-for-llms-txt-sites",
-    "headline": "Show HN: I built a search engine for llms.txt sites",
-    "source": "Hacker News",
-    "url": "https://statespace.com/",
-    "publishedAt": "2026-04-28T16:02:05.000Z",
-    "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-rag-pipelines-leaking-pii-into-vector-databases-and-nobody-s",
-    "headline": "RAG pipelines, leaking PII into vector databases and nobody's talking about it",
-    "source": "Hacker News",
-    "url": "https://comply-tech.co.uk/blog/rag-pipeline-pii-vector-embeddings.html",
-    "publishedAt": "2026-04-24T09:21:55.000Z",
-    "topic": "RAG"
   },
   {
     "id": "the-gradient-after-orthogonality-virtue-ethical-agency-and-ai-alignment",
