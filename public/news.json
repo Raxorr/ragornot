@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-llm-gemini-0-37",
+    "headline": "llm-gemini 0.37",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+    "publishedAt": "2026-11-12T22:55:19.000Z",
+    "topic": "Cost",
+    "summary": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini "
+  },
+  {
     "id": "hugging-face-blog-llmon-an-llm-native-markup-language-now-in-granite-4-1-3b-an",
     "headline": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
     "source": "Hugging Face Blog",
@@ -102,15 +111,6 @@
     "url": "https://huggingface.co/blog/cwe-bench",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "topic": "RAG"
-  },
-  {
-    "id": "simon-willison-s-blog-llm-0-37",
-    "headline": "llm 0.37",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Nov/2/llm/",
-    "publishedAt": "2026-11-02T23:49:30.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm"
   },
   {
     "id": "weaviate-blog-weaviate-1-40-release",
