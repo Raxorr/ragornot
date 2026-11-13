@@ -1,5 +1,13 @@
 [
   {
+    "id": "hacker-news-eliminating-nondeterminism-in-llm-inference-with-integer-onl",
+    "headline": "Eliminating Nondeterminism in LLM Inference with Integer-Only Arithmetic",
+    "source": "Hacker News",
+    "url": "https://nathan.rs/posts/detllm/",
+    "publishedAt": "2026-11-13T16:32:18.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "simon-willison-s-blog-llm-gemini-0-37",
     "headline": "llm-gemini 0.37",
     "source": "Simon Willison's Blog",
@@ -363,14 +371,6 @@
     "url": "https://github.com/ifoxhz/pigame",
     "publishedAt": "2026-08-21T01:20:26.000Z",
     "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-offline-rag-on-ios-with-spatial-integration",
-    "headline": "Offline RAG on iOS with Spatial Integration",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=49371913",
-    "publishedAt": "2026-08-20T08:28:22.000Z",
-    "topic": "RAG"
   },
   {
     "id": "hugging-face-blog-multi-vector-late-interaction-embedding-models-with-sentence",
