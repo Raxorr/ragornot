@@ -60,16 +60,6 @@
     "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai end"
   },
   {
-    "id": "last-week-in-ai-last-week-month-in-ai-347-nvidia-s-spy-anthropic-s-1-4t-ipo-",
-    "headline": "Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave",
-    "source": "Last Week in AI",
-    "url": "https://lastweekin.ai/p/last-week-month-in-ai-347-nvidias",
-    "publishedAt": "2026-11-11T14:21:42.000Z",
-    "topic": "Cost",
-    "summary": "Catching up on five weeks: Huang under investigation, Anthropic and OpenAI priced at $1.4T and $1.25T as spending stalls, Anthropic warns it may be nearing recursive self-improvement, Gemini 4 Carbon",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!N5MW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ea61f46-93d0-4d43-a74b-5751a649daba_1720x980.png"
-  },
-  {
     "id": "hugging-face-blog-token-pooling-aware-training-for-multi-vector-embedding-mode",
     "headline": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
     "source": "Hugging Face Blog",
@@ -102,16 +92,6 @@
     "publishedAt": "2026-11-09T23:58:46.000Z",
     "topic": "LLM",
     "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so cl"
-  },
-  {
-    "id": "import-ai-import-ai-480-self-sustaining-space-economies-ai-for-science",
-    "headline": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
-    "source": "Import AI",
-    "url": "https://importai.substack.com/p/import-ai-480-self-sustaining-space",
-    "publishedAt": "2026-11-09T13:31:34.000Z",
-    "topic": "AI",
-    "summary": "When do you think we'll have robots on the moon?",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
   },
   {
     "id": "simon-willison-s-blog-datasette-llm-0-1a10",
@@ -158,16 +138,6 @@
     "topic": "RAG"
   },
   {
-    "id": "import-ai-import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4",
-    "headline": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-    "source": "Import AI",
-    "url": "https://importai.substack.com/p/import-ai-479-spacewar-low-latency",
-    "publishedAt": "2026-11-02T14:30:54.000Z",
-    "topic": "LLM",
-    "summary": "What do LLMs think about vision models?",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
-  },
-  {
     "id": "weaviate-blog-weaviate-1-40-release",
     "headline": "Weaviate 1.40 Release",
     "source": "Weaviate Blog",
@@ -183,16 +153,6 @@
     "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
     "publishedAt": "2026-10-28T17:00:58.000Z",
     "topic": "Environment"
-  },
-  {
-    "id": "import-ai-import-ai-478-math-for-alignment-programbench-and-mirendil-s",
-    "headline": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means",
-    "source": "Import AI",
-    "url": "https://importai.substack.com/p/import-ai-478-math-for-alignment",
-    "publishedAt": "2026-10-26T12:31:52.000Z",
-    "topic": "AI",
-    "summary": "What is “night” to a machine?",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
   },
   {
     "id": "ahead-of-ai-building-reasoning-models-from-the-ground-up-a-full-video-co",
@@ -257,16 +217,6 @@
     "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale."
   },
   {
-    "id": "import-ai-import-ai-477-in-which-i-tell-the-imf-the-singularity-has-be",
-    "headline": "Import AI 477: In which I tell the IMF the Singularity has begun",
-    "source": "Import AI",
-    "url": "https://importai.substack.com/p/import-ai-477-in-which-i-tell-the",
-    "publishedAt": "2026-10-19T12:31:37.000Z",
-    "topic": "AI",
-    "summary": "What do you think?",
-    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/bab50107-8241-4342-a473-f546f17cf9a4_1826x1084.png"
-  },
-  {
     "id": "qdrant-blog-ultrabert-fits-32k-tokens-in-one-vector-rip-chunking",
     "headline": "UltraBERT Fits 32K Tokens in One Vector. RIP Chunking?",
     "source": "Qdrant Blog",
@@ -292,32 +242,12 @@
     "topic": "RAG"
   },
   {
-    "id": "import-ai-import-ai-476-creativity-and-rsi-worse-than-china-open-weigh",
-    "headline": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-    "source": "Import AI",
-    "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-    "publishedAt": "2026-10-12T12:30:39.000Z",
-    "topic": "AI",
-    "summary": "Will we give robots the moon?",
-    "imageUrl": "https://substackcdn.com/image/youtube/w_728,c_limit/4v837X1Py4M"
-  },
-  {
     "id": "hacker-news-show-hn-liquid-inference-auto-routing-to-competitive-llm-mar",
     "headline": "Show HN: Liquid Inference – auto-routing to competitive LLM marketplace",
     "source": "Hacker News",
     "url": "https://liquidinference.ai/",
     "publishedAt": "2026-10-09T14:52:04.000Z",
     "topic": "LLM"
-  },
-  {
-    "id": "last-week-in-ai-last-week-in-ai-346-719-math-manuscripts-2-western-open-mode",
-    "headline": "Last Week in AI #346 - 719 math manuscripts, 2 Western open models, 1 more safety resignation",
-    "source": "Last Week in AI",
-    "url": "https://lastweekin.ai/p/last-week-in-ai-346-719-math-manuscripts",
-    "publishedAt": "2026-10-09T05:06:58.000Z",
-    "topic": "AI",
-    "summary": "OpenAI publishes hundreds of math proofs from unreleased frontier model, Mistral and Reflection AI launch open-weight models to rival China, and more!",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!R3QU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba131027-ff6e-428d-8c3c-29d44aa8ddcd_1128x780.png"
   },
   {
     "id": "deepmind-blog-embeddinggemma-2-an-open-lightweight-multimodal-embedding-mo",
@@ -335,35 +265,6 @@
     "publishedAt": "2026-10-06T00:00:00.000Z",
     "topic": "RAG",
     "summary": "Google&rsquo;s new EmbeddingGemma 2 can run on a phone. The model travels light. The vectors need their own suitcase. At 10 million documents, full-size float32 vectors alone take 30.7 GB of RAM. We got early access ahea"
-  },
-  {
-    "id": "import-ai-import-ai-475-swarm-scaling-google-deepmind-watermarks-biolo",
-    "headline": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
-    "source": "Import AI",
-    "url": "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
-    "publishedAt": "2026-10-05T12:32:30.000Z",
-    "topic": "AI",
-    "summary": "Who chooses what AI gets to do?",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
-  },
-  {
-    "id": "last-week-in-ai-lwiai-podcast-258-opus-5-5-sol-and-luna-muse-deepseek-v4-1-f",
-    "headline": "LWiAI Podcast #258 - Opus 5.5, Sol and Luna, Muse, DeepSeek-V4.1-Flash, Xi",
-    "source": "Last Week in AI",
-    "url": "https://lastweekin.ai/p/lwiai-podcast-258-opus-55-sol-and",
-    "publishedAt": "2026-10-03T07:32:03.000Z",
-    "topic": "Cost",
-    "summary": "(Belated post :/ ) Anthropic releases Opus 5.5 with lower prices and Fable-level performance, OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes"
-  },
-  {
-    "id": "last-week-in-ai-last-week-in-ai-345-5-new-models-9-misalignment-incidents-so",
-    "headline": "Last Week in AI #345 - 5 new models, 9 misalignment incidents, some Dots",
-    "source": "Last Week in AI",
-    "url": "https://lastweekin.ai/p/last-week-in-ai-345-5-new-models",
-    "publishedAt": "2026-09-30T11:23:54.000Z",
-    "topic": "Cost",
-    "summary": "Anthropic and OpenAI race to release smarter and cheaper models, OpenAI discloses nine misalignment incidents, and more!",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!DNBq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c4469ba-7850-43e0-a582-d155f7d08ae0_2048x1270.jpeg"
   },
   {
     "id": "ahead-of-ai-language-models-for-text-classification-from-bag-of-words-to",
@@ -385,35 +286,6 @@
     "summary": "As query traffic grows, so does the compute bill for embedding it. On a low-power device, a large model may not fit in memory. A smaller query model could reduce that cost, but switching usually means re-embedding the co"
   },
   {
-    "id": "import-ai-import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-",
-    "headline": "Import AI 474: Platonic mindspace; TPUs in space; Zhipu starts an outer RSI loop",
-    "source": "Import AI",
-    "url": "https://importai.substack.com/p/import-ai-474-platonic-mindspace",
-    "publishedAt": "2026-09-28T12:32:03.000Z",
-    "topic": "LLM",
-    "summary": "Where do you exceed the capabilities of an LLM?",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
-  },
-  {
-    "id": "last-week-in-ai-lwiai-podcast-257-gpt-6-astra-ai-extinction-security-inciden",
-    "headline": "LWiAI Podcast #257 - GPT 6 Astra, AI Extinction, Security Incidents",
-    "source": "Last Week in AI",
-    "url": "https://lastweekin.ai/p/lwiai-podcast-257-gpt-6-astra-ai",
-    "publishedAt": "2026-09-24T09:12:28.000Z",
-    "topic": "LLM",
-    "summary": "A belated discussion of Astra’s release, a bunch of AI incidents, and the broader situation we are in with regards to AI safety."
-  },
-  {
-    "id": "import-ai-import-ai-473-the-us-s-superintelligence-strategy-human-brai",
-    "headline": "Import AI 473: The US's superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
-    "source": "Import AI",
-    "url": "https://importai.substack.com/p/import-ai-473-the-uss-superintelligence",
-    "publishedAt": "2026-09-21T12:31:04.000Z",
-    "topic": "AI",
-    "summary": "Is the wall AI is hitting in the room with us right now?",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png"
-  },
-  {
     "id": "qdrant-blog-how-lucy-built-a-source-of-truth-retrieval-layer-for-2-8m-se",
     "headline": "How Lucy Built a Source-of-Truth Retrieval Layer for 2.8M+ SEC and DART Filings with Qdrant",
     "source": "Qdrant Blog",
@@ -421,16 +293,6 @@
     "publishedAt": "2026-09-21T00:00:00.000Z",
     "topic": "RAG",
     "summary": "Lucy builds data infrastructure for financial AI. The company turns large-scale regulatory filings from the U.S. Securities and Exchange Commission (SEC) EDGAR system and Korea&rsquo;s DART disclosure system into structu"
-  },
-  {
-    "id": "last-week-in-ai-last-week-in-ai-344-navier-stokes-pacing-the-frontier-ai-mis",
-    "headline": "Last Week in AI #344 - Navier–Stokes, Pacing the Frontier, AI Misuse",
-    "source": "Last Week in AI",
-    "url": "https://lastweekin.ai/p/last-week-in-ai-344-navierstokes",
-    "publishedAt": "2026-09-17T08:02:55.000Z",
-    "topic": "AI",
-    "summary": "OpenAI claims a Millennium Prize proof amid a feud with mathematicians, Anthropic's CEO calls to pace the frontier, extinction warnings spur a regulation push, and more!",
-    "imageUrl": "https://substackcdn.com/image/fetch/$s_!8O1b!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e0a37b2-d2dd-46ec-8a9b-2526c35b5a86_1254x1254.webp"
   },
   {
     "id": "qdrant-blog-shifting-languages-in-multilingual-rag",
@@ -461,31 +323,12 @@
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/3d2ac2ec-ab80-43a8-aa93-a33a846dda43_1564x874.png"
   },
   {
-    "id": "last-week-in-ai-lwiai-podcast-256-fable-5-1-astra-tease-gemini-3-8-flash",
-    "headline": "LWiAI Podcast #256 - Fable 5.1, Astra Tease, Gemini 3.8 Flash",
-    "source": "Last Week in AI",
-    "url": "https://lastweekin.ai/p/lwiai-podcast-256-fable-51-astra",
-    "publishedAt": "2026-09-09T08:01:40.000Z",
-    "topic": "LLM",
-    "summary": "Anthropic launches Claude Fable 5.1, OpenAI Is About (already has) to Release Its First AI Model With ‘Critical’ Cyber Abilities, OpenAI’s rogue AI model incident was worse than we thought"
-  },
-  {
     "id": "hacker-news-show-hn-zero-downtime-embedding-model-upgrades",
     "headline": "Show HN: Zero downtime embedding model upgrades",
     "source": "Hacker News",
     "url": "https://github.com/arnsri33/embedflow",
     "publishedAt": "2026-09-08T02:35:36.000Z",
     "topic": "AI"
-  },
-  {
-    "id": "last-week-in-ai-last-week-in-ai-343-gpt-6-openai-s-agents-chatted-on-a-wiki-",
-    "headline": "Last Week in AI #343 - GPT-6, OpenAI’s agents chatted on a wiki, Fable 5.1",
-    "source": "Last Week in AI",
-    "url": "https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais",
-    "publishedAt": "2026-09-07T13:02:49.000Z",
-    "topic": "Cost",
-    "summary": "GPT-6 Astra Is Here, Discovery of a new OpenAI agent message board, Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work, and more!",
-    "imageUrl": "https://substackcdn.com/image/youtube/w_728,c_limit/1QNsdr-Qx_I"
   },
   {
     "id": "hacker-news-cutting-llm-inference-costs-by-36-with-prompt-caching",
