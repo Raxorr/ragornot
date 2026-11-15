@@ -1,5 +1,15 @@
 [
   {
+    "id": "ahead-of-ai-understanding-positional-embeddings-in-modern-llms",
+    "headline": "Understanding Positional Embeddings in Modern LLMs",
+    "source": "Ahead of AI",
+    "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+    "publishedAt": "2026-11-15T12:10:37.000Z",
+    "topic": "LLM",
+    "summary": "The Methods Behind How LLMs Represent Token Positions",
+    "imageUrl": "https://substackcdn.com/image/fetch/$s_!8RKL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb461a2cb-11ab-474a-affe-0ee99e5a8782_2850x2777.png"
+  },
+  {
     "id": "simon-willison-s-blog-datasette-llm-0-1a11",
     "headline": "datasette-llm 0.1a11",
     "source": "Simon Willison's Blog",
@@ -16,6 +26,14 @@
     "publishedAt": "2026-11-13T22:30:12.000Z",
     "topic": "Cost",
     "summary": "Coding agents work in tasks, and the number that matters is cost per solved task, not price per token. In this post, you use the AWS CDK to deploy LiteLLM with the NVIDIA NeMo Switchyard routing plugin on Amazon Bedrock,"
+  },
+  {
+    "id": "hacker-news-using-llms-outside-of-reflection-is-an-anti-pattern",
+    "headline": "Using LLMs outside of reflection is an anti-pattern",
+    "source": "Hacker News",
+    "url": "https://news.ycombinator.com/item?id=50489240",
+    "publishedAt": "2026-11-13T20:32:40.000Z",
+    "topic": "LLM"
   },
   {
     "id": "simon-willison-s-blog-llm-gemini-0-37",
@@ -374,14 +392,6 @@
     "topic": "LLM"
   },
   {
-    "id": "hacker-news-offline-rag-on-ios-with-spatial-integration",
-    "headline": "Offline RAG on iOS with Spatial Integration",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=49371913",
-    "publishedAt": "2026-08-20T08:28:22.000Z",
-    "topic": "RAG"
-  },
-  {
     "id": "hugging-face-blog-multi-vector-late-interaction-embedding-models-with-sentence",
     "headline": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
     "source": "Hugging Face Blog",
@@ -463,16 +473,6 @@
     "publishedAt": "2026-06-24T06:00:00.000Z",
     "topic": "LLM",
     "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems."
-  },
-  {
-    "id": "ahead-of-ai-llm-research-papers-the-2026-list-january-to-may",
-    "headline": "LLM Research Papers: The 2026 List (January to May)",
-    "source": "Ahead of AI",
-    "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
-    "publishedAt": "2026-06-06T11:16:22.000Z",
-    "topic": "LLM",
-    "summary": "A curated roundup of notable LLM research papers that came out this year",
-    "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/8630eb02-eeac-4411-bef3-1865c1920b03_2912x1632.png"
   },
   {
     "id": "openai-how-virgin-atlantic-ships-faster-with-codex",
