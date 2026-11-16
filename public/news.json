@@ -123,15 +123,6 @@
     "summary": "Release: datasette-apps 0.3a0 Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette. These can be created by hand, but it's easier to create them using LLMs via Datasette Agent "
   },
   {
-    "id": "simon-willison-s-blog-llm-0-37-1",
-    "headline": "llm 0.37.1",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Nov/3/llm/",
-    "publishedAt": "2026-11-03T21:41:42.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm 0.37.1 A bugfix release for LLM , with contributions from Steven Huang , Tao An , Arjan Mossel , and XQ . Tags: llm"
-  },
-  {
     "id": "hugging-face-blog-cwe-bench-v2-more-coverage-quality-and-transparency",
     "headline": "CWE-bench v2: More coverage, quality, and transparency",
     "source": "Hugging Face Blog",
