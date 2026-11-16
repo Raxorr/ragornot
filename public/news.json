@@ -1,5 +1,32 @@
 [
   {
+    "id": "aws-machine-learning-blog-novo-nordisk-modernizes-manufacturing-process-documents-with",
+    "headline": "Novo Nordisk modernizes manufacturing process documents with Amazon Bedrock AgentCore",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/novo-nordisk-modernizes-manufacturing-process-documents-with-amazon-bedrock-agentcore/",
+    "publishedAt": "2026-11-16T17:04:11.000Z",
+    "topic": "RAG",
+    "summary": "Novo Nordisk's Manufacturing Technology team within the Tablet area team built a process-intelligence assistant on Amazon Bedrock AgentCore, using a GraphRAG architecture that pairs a knowledge graph in Amazon Neptune wi"
+  },
+  {
+    "id": "aws-machine-learning-blog-get-answers-from-tables-with-tabular-search-in-amazon-bedroc",
+    "headline": "Get answers from tables with tabular search in Amazon Bedrock Managed Knowledge Base",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/",
+    "publishedAt": "2026-11-16T16:12:16.000Z",
+    "topic": "RAG",
+    "summary": "Amazon Bedrock Managed Knowledge Base now supports tabular search, so agentic retrieval can answer questions over CSV, XLSX, and XLS files. It looks up values and runs calculations across every relevant row, then combine"
+  },
+  {
+    "id": "aws-machine-learning-blog-customize-answers-per-tenant-in-amazon-bedrock-managed-knowl",
+    "headline": "Customize answers per tenant in Amazon Bedrock Managed Knowledge Base",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/customize-answers-per-tenant-in-amazon-bedrock-managed-knowledge-base/",
+    "publishedAt": "2026-11-16T15:46:28.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval instructions in Amazon Bedrock Managed Knowledge Base set the voice, format, retrieval guidance, and answer policy for each tenant on shared knowledge bases. This post shows how to give each tenant its own answ"
+  },
+  {
     "id": "arxiv-cs-cl-tracing-knowledge-and-reasoning-in-llm",
     "headline": "Tracing Knowledge and Reasoning in LLM",
     "source": "arXiv (cs.CL)",
@@ -171,15 +198,6 @@
     "topic": "LLM"
   },
   {
-    "id": "aws-machine-learning-blog-building-a-self-service-llm-gateway-with-amazon-bedrock-and-",
-    "headline": "Building a self-service LLM gateway with Amazon Bedrock and LiteLLM",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm/",
-    "publishedAt": "2026-11-12T18:41:12.000Z",
-    "topic": "LLM",
-    "summary": "Build a self-service LLM gateway with LiteLLM on AWS Fargate that puts Amazon Bedrock foundation models behind an OpenAI-compatible API. Developers get instant access through a single API key, while platform teams gain p"
-  },
-  {
     "id": "simon-willison-s-blog-llm-0-37-2",
     "headline": "llm 0.37.2",
     "source": "Simon Willison's Blog",
@@ -187,6 +205,15 @@
     "publishedAt": "2026-11-11T17:19:52.000Z",
     "topic": "LLM",
     "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai end"
+  },
+  {
+    "id": "qdrant-blog-how-to-run-an-embedding-model-on-bare-metal",
+    "headline": "How to Run an Embedding Model on Bare Metal",
+    "source": "Qdrant Blog",
+    "url": "https://qdrant.tech/blog/embeddings-on-bare-metal/",
+    "publishedAt": "2026-11-11T01:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Running vector search on the edge is something we&rsquo;ve been working towards here at Qdrant. The main problem is that vector search is resource-hungry, starting with the embedding step: EmbeddingGemma-2 , a small mode"
   },
   {
     "id": "hugging-face-blog-token-pooling-aware-training-for-multi-vector-embedding-mode",
@@ -483,6 +510,14 @@
     "topic": "LLM"
   },
   {
+    "id": "hacker-news-llms-could-control-their-host-machines-by-exploiting-inferen",
+    "headline": "LLMs could control their host machines by exploiting inference engines",
+    "source": "Hacker News",
+    "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+    "publishedAt": "2026-08-24T19:03:06.000Z",
+    "topic": "LLM"
+  },
+  {
     "id": "ahead-of-ai-how-claude-watermarks-ai-generated-text",
     "headline": "How Claude Watermarks AI-Generated Text",
     "source": "Ahead of AI",
@@ -499,14 +534,6 @@
     "url": "https://github.com/ifoxhz/pigame",
     "publishedAt": "2026-08-21T01:20:26.000Z",
     "topic": "LLM"
-  },
-  {
-    "id": "hacker-news-offline-rag-on-ios-with-spatial-integration",
-    "headline": "Offline RAG on iOS with Spatial Integration",
-    "source": "Hacker News",
-    "url": "https://news.ycombinator.com/item?id=49371913",
-    "publishedAt": "2026-08-20T08:28:22.000Z",
-    "topic": "RAG"
   },
   {
     "id": "hugging-face-blog-multi-vector-late-interaction-embedding-models-with-sentence",
@@ -534,15 +561,6 @@
     "publishedAt": "2026-08-13T00:00:00.000Z",
     "topic": "RAG",
     "summary": "Part 2: Why folders, tags, and keyword search break down in real creative workflows and what retrieval needs to do instead."
-  },
-  {
-    "id": "qdrant-blog-qdrant-and-minima-deliver-2-92x-more-agentic-rag-tasks-per-g",
-    "headline": "Qdrant and Minima Deliver 2.92x More Agentic RAG Tasks per GPU-Hour",
-    "source": "Qdrant Blog",
-    "url": "https://qdrant.tech/blog/case-study-minima/",
-    "publishedAt": "2026-08-13T00:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Reducing Retrieval and Calls When a retrieval-augmented generation (RAG) agent runs, it often has to plan a search, check the evidence it gets back, and try again when that evidence falls short. Those inefficiencies comp"
   },
   {
     "id": "openai-building-ai-infrastructure-with-the-effingham-county-communi",
