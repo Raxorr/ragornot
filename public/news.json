@@ -1,5 +1,14 @@
 [
   {
+    "id": "simon-willison-s-blog-llm-0-37-3",
+    "headline": "llm 0.37.3",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Nov/16/llm/",
+    "publishedAt": "2026-11-16T23:57:26.000Z",
+    "topic": "LLM",
+    "summary": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's loggin"
+  },
+  {
     "id": "aws-machine-learning-blog-novo-nordisk-modernizes-manufacturing-process-documents-with",
     "headline": "Novo Nordisk modernizes manufacturing process documents with Amazon Bedrock AgentCore",
     "source": "AWS Machine Learning Blog",
@@ -257,15 +266,6 @@
     "publishedAt": "2026-11-04T15:26:02.000Z",
     "topic": "LLM",
     "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: llm , datasette"
-  },
-  {
-    "id": "simon-willison-s-blog-datasette-apps-0-3a0",
-    "headline": "datasette-apps 0.3a0",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
-    "publishedAt": "2026-11-04T00:29:36.000Z",
-    "topic": "LLM",
-    "summary": "Release: datasette-apps 0.3a0 Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette. These can be created by hand, but it's easier to create them using LLMs via Datasette Agent "
   },
   {
     "id": "hugging-face-blog-cwe-bench-v2-more-coverage-quality-and-transparency",
