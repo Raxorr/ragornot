@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-how-salesforce-is-advancing-global-scale-model-serving-with-",
+    "headline": "How Salesforce is advancing global-scale model serving with cross-Region inference routing in Amazon SageMaker AI",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai/",
+    "publishedAt": "2026-11-18T20:13:18.000Z",
+    "topic": "RAG",
+    "summary": "Learn how Salesforce uses the cross-Region inference router in Amazon SageMaker AI to turn fragmented Regional capacity into reliable model serving. Salesforce adds capacity securely across Regions and accounts while kee"
+  },
+  {
     "id": "arxiv-cs-cl-crisisbench-an-evaluation-suite-for-crisis-counseling-ai",
     "headline": "CrisisBench: an evaluation suite for crisis counseling AI",
     "source": "arXiv (cs.CL)",
@@ -144,6 +153,15 @@
     "summary": "We show that efficient and high-precision quantum associative retrieval is possible with an exponential complexity advantage with respect to the classical brute force approach and with a polynomial capacity advantage wit"
   },
   {
+    "id": "qdrant-blog-does-a-code-tuned-embedding-model-pay-off-papr-embed-code-1-",
+    "headline": "Does a Code-Tuned Embedding Model Pay Off? papr-embed-code-1 in Qdrant",
+    "source": "Qdrant Blog",
+    "url": "https://qdrant.tech/blog/papr-embed-code/",
+    "publishedAt": "2026-11-18T00:00:00.000Z",
+    "topic": "RAG",
+    "summary": "If you search code, you&rsquo;ve probably asked this: is a code-specific embedding model worth it, or is a strong general one good enough? Papr&rsquo;s papr-embed-code-1 is a good test case. It&rsquo;s Qwen3-Embedding tr"
+  },
+  {
     "id": "hacker-news-show-hn-trnrt-an-open-source-llm-inference-engine-for-aws-tr",
     "headline": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
     "source": "Hacker News",
@@ -159,15 +177,6 @@
     "publishedAt": "2026-11-16T23:57:26.000Z",
     "topic": "LLM",
     "summary": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's loggin"
-  },
-  {
-    "id": "aws-machine-learning-blog-novo-nordisk-modernizes-manufacturing-process-documents-with",
-    "headline": "Novo Nordisk modernizes manufacturing process documents with Amazon Bedrock AgentCore",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/novo-nordisk-modernizes-manufacturing-process-documents-with-amazon-bedrock-agentcore/",
-    "publishedAt": "2026-11-16T17:04:11.000Z",
-    "topic": "RAG",
-    "summary": "Novo Nordisk's Manufacturing Technology team within the Tablet area team built a process-intelligence assistant on Amazon Bedrock AgentCore, using a GraphRAG architecture that pairs a knowledge graph in Amazon Neptune wi"
   },
   {
     "id": "ahead-of-ai-understanding-positional-embeddings-in-modern-llms",
@@ -421,15 +430,6 @@
     "publishedAt": "2026-09-21T00:00:00.000Z",
     "topic": "RAG",
     "summary": "Lucy builds data infrastructure for financial AI. The company turns large-scale regulatory filings from the U.S. Securities and Exchange Commission (SEC) EDGAR system and Korea&rsquo;s DART disclosure system into structu"
-  },
-  {
-    "id": "qdrant-blog-shifting-languages-in-multilingual-rag",
-    "headline": "SHIFTing Languages in Multilingual RAG",
-    "source": "Qdrant Blog",
-    "url": "https://qdrant.tech/blog/shift-multilingual-rag/",
-    "publishedAt": "2026-09-16T07:00:00.000Z",
-    "topic": "RAG",
-    "summary": "If you speak more than one language, you know the feeling when the mental switch in your head starts up with the rattling sound of a struggling engine, mixing every word you have to produce into some Denglish, Frenglish,"
   },
   {
     "id": "openai-rapidly-scaling-online-storage-to-serve-over-1-billion-chatg",
