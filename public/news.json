@@ -26,15 +26,6 @@
     "summary": "Novo Nordisk's Manufacturing Technology team within the Tablet area team built a process-intelligence assistant on Amazon Bedrock AgentCore, using a GraphRAG architecture that pairs a knowledge graph in Amazon Neptune wi"
   },
   {
-    "id": "aws-machine-learning-blog-get-answers-from-tables-with-tabular-search-in-amazon-bedroc",
-    "headline": "Get answers from tables with tabular search in Amazon Bedrock Managed Knowledge Base",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/",
-    "publishedAt": "2026-11-16T16:12:16.000Z",
-    "topic": "RAG",
-    "summary": "Amazon Bedrock Managed Knowledge Base now supports tabular search, so agentic retrieval can answer questions over CSV, XLSX, and XLS files. It looks up values and runs calculations across every relevant row, then combine"
-  },
-  {
     "id": "ahead-of-ai-understanding-positional-embeddings-in-modern-llms",
     "headline": "Understanding Positional Embeddings in Modern LLMs",
     "source": "Ahead of AI",
