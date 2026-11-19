@@ -1,5 +1,23 @@
 [
   {
+    "id": "aws-machine-learning-blog-exa-boosts-embedding-throughput-by-50-to-index-billions-of-d",
+    "headline": "Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips/",
+    "publishedAt": "2026-11-18T23:58:22.000Z",
+    "topic": "Cost",
+    "summary": "Exa's neural search engine is backed by an in-house vector database, so the unit economics of embedding tens of billions of web documents drive the business. This post shares how Exa optimized embedding inference on AWS "
+  },
+  {
+    "id": "aws-machine-learning-blog-design-responsible-ai-controls-for-amazon-aurora-postgresql",
+    "headline": "Design responsible AI controls for Amazon Aurora PostgreSQL",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/design-responsible-ai-controls-for-amazon-aurora-postgresql/",
+    "publishedAt": "2026-11-18T21:38:22.000Z",
+    "topic": "RAG",
+    "summary": "Learn how to make RAG chatbot answers traceable with Amazon Aurora PostgreSQL, pgvector, and Amazon Bedrock Guardrails, logging sources, scores, and guardrail traces in SQL."
+  },
+  {
     "id": "aws-machine-learning-blog-how-salesforce-is-advancing-global-scale-model-serving-with-",
     "headline": "How Salesforce is advancing global-scale model serving with cross-Region inference routing in Amazon SageMaker AI",
     "source": "AWS Machine Learning Blog",
