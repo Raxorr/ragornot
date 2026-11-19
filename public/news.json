@@ -1,5 +1,15 @@
 [
   {
+    "id": "google-ai-blog-introducing-tool-retrieval-in-the-gemini-api",
+    "headline": "Introducing Tool Retrieval in the Gemini API",
+    "source": "Google AI Blog",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+    "publishedAt": "2026-11-19T18:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.max-600x600.format-webp.webp"
+  },
+  {
     "id": "arxiv-cs-cl-crisisbench-an-evaluation-suite-for-crisis-counseling-ai",
     "headline": "CrisisBench: an evaluation suite for crisis counseling AI",
     "source": "arXiv (cs.CL)",
@@ -626,15 +636,6 @@
     "publishedAt": "2026-05-22T00:00:00.000Z",
     "topic": "RAG",
     "summary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects."
-  },
-  {
-    "id": "weaviate-blog-build-a-coding-assistant-with-weaviate-mcp-rag-over-code-doc",
-    "headline": "Build a Coding Assistant with Weaviate MCP: RAG over Code & Docs",
-    "source": "Weaviate Blog",
-    "url": "https://weaviate.io/blog/coding-assistant-weaviate-mcp",
-    "publishedAt": "2026-05-21T00:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Use Weaviate's built-in MCP server to give Claude Code, Cursor, and VS Code hybrid search over your codebase and docs. No glue code."
   },
   {
     "id": "deepmind-blog-strengthening-singapore-s-ai-future-a-new-national-partnersh",
