@@ -1,5 +1,158 @@
 [
   {
+    "id": "arxiv-cs-cl-crisisbench-an-evaluation-suite-for-crisis-counseling-ai",
+    "headline": "CrisisBench: an evaluation suite for crisis counseling AI",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.21622",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Background: Crisis helplines are essential to mental health systems but are often understaffed and underfunded. LLMs could support counselors, but existing benchmarks do not capture the escalation, risk assessment, and d"
+  },
+  {
+    "id": "arxiv-cs-cl-raw-refusal-aversion-in-the-wild-a-causal-measurement-method",
+    "headline": "RAW: Refusal Aversion in the Wild, A Causal Measurement Method for Deployed LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.21641",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "topic": "Cost",
+    "summary": "Deployed LLMs field hundreds of millions of conversations a day and refuse a non-trivial fraction of user requests, yet the user-side cost of refusal, whether users disengage and by how much, is unmeasured on any product"
+  },
+  {
+    "id": "arxiv-cs-cl-minfovisqa-a-multilingual-benchmark-for-information-rich-vis",
+    "headline": "MInfoVisQA: A Multilingual Benchmark for Information-Rich Visual Question Answering",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.21644",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Multimodal large language models (MLLMs) excel in vision-language tasks; yet, whether they maintain consistent understanding of information-rich visuals (InfoVis) when the surface language changes remains unclear. To qua"
+  },
+  {
+    "id": "arxiv-cs-cl-can-an-llm-dream-testing-the-overfitted-brain-hypothesis-on-",
+    "headline": "Can an LLM dream? Testing the overfitted brain hypothesis on an agent with text memory",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.21648",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Hoel (2021) proposed that dreams distort replayed experience so that the brain does not overfit to recent events. We test this hypothesis on an LLM agent (Claude Opus 5.5) that stores what it learns in a text memory and "
+  },
+  {
+    "id": "arxiv-cs-cl-literary-language-mashup-curating-fictions-with-large-langua",
+    "headline": "Literary Language Mashup: Curating Fictions with Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.21649",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "In this paper, we propose an alternative approach to human evaluation of literary fictions by employing LLMs themselves as evaluators within the GrAImes framework. We apply this methodology to assess human-written and AI"
+  },
+  {
+    "id": "arxiv-cs-cl-from-preference-data-to-personalization-tracing-sycophancy-i",
+    "headline": "From Preference Data to Personalization: Tracing Sycophancy in Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.21650",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Sycophancy in large language models is often measured as agreement with the user, yet agreement can be appropriate when the user's claim is valid, their preference is genuine, or their experience warrants acknowledgment."
+  },
+  {
+    "id": "arxiv-cs-cl-consistency-is-not-correction-separating-confidence-abstenti",
+    "headline": "Consistency Is Not Correction: Separating Confidence, Abstention, and Recovery in LLM Agents",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.21651",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "A controller that resamples an answer, escalates to a larger model, or abstains is usually justified by a confidence signal. Three claims about such a signal do not follow from one another: it ranks answers (discriminati"
+  },
+  {
+    "id": "arxiv-cs-cl-tusi-a-citation-grounded-graph-based-benchmark",
+    "headline": "TUSI: A Citation-Grounded Graph-Based Benchmark",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.21823",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Evaluating retrieval-augmented generation (RAG) systems in Persian law remains challenging because benchmarks lack realism, grounding, and coverage of legal reasoning. Existing resources are either synthetically generate"
+  },
+  {
+    "id": "arxiv-cs-ir-pgpo-prototype-guided-progressive-obfuscation-for-privacy-pr",
+    "headline": "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.23236",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "LLM-enhanced recommender systems encode item side information into semantic embeddings, but these embeddings may leak sensitive textual attributes through inversion attacks. Existing input-side defenses rely on trusted c"
+  },
+  {
+    "id": "arxiv-cs-ir-from-docket-minutes-to-case-trajectories-building-analysis-r",
+    "headline": "From Docket Minutes to Case Trajectories: Building Analysis-Ready Criminal Court Data",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.23537",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Criminal court records are often fragmented, noisy, and siloed, making it challenging for both legal experts and community stakeholders to access and analyze court data to identify trends and provide public oversight. In"
+  },
+  {
+    "id": "arxiv-cs-ir-mars-technical-report",
+    "headline": "MARS Technical Report",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.24006",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Modern industrial recommender systems use multi-stage cascades--retrieval, pre-ranking, ranking, and re-ranking--to narrow millions of candidates to a personalized list. While each stage deploys sophisticated models, pip"
+  },
+  {
+    "id": "arxiv-cs-ir-can-programs-replace-llm-judges-executable-program-judges-fo",
+    "headline": "Can Programs Replace LLM Judges? Executable Program Judges for Scalable and Efficient Relevance Labeling",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.24849",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large language model (LLM) judges have become a common way to create large-scale relevance judgments for retrieval evaluation. However, each judgment requires a potentially expensive call to a frontier model, and the jud"
+  },
+  {
+    "id": "arxiv-cs-ir-lusoclin-a-synthetic-clinical-note-dataset-for-medical-infor",
+    "headline": "LusoClin: A Synthetic Clinical Note Dataset for Medical Information Retrieval in European Portuguese",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.23454",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Access to large-scale clinical text collections is crucial for advancing medical information retrieval research, including clinical note search, patient cohort identification, and domain-adapted retrieval models. However"
+  },
+  {
+    "id": "arxiv-cs-ir-vibra-backward-compatible-cross-modal-retrieval-with-consens",
+    "headline": "VIBRA: Backward-Compatible Cross-Modal Retrieval with Consensus Barycenters",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.23606",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Backward-compatible retrieval enables a new encoder to query the gallery that an old model has already encoded, so that a cross-modal retrieval system can be upgraded without re-encoding billions of items. Existing compa"
+  },
+  {
+    "id": "arxiv-cs-ir-reflectrec-cycle-consistency-preference-verification-for-llm",
+    "headline": "ReflectRec: Cycle-Consistency Preference Verification for LLM-based Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.23969",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "CoT-style LLM recommenders generate a natural-language preference note as a chain-of-thought prefix to ranking, but the note is trusted without verification, and the ranker never consults behaviorally similar users. We p"
+  },
+  {
+    "id": "arxiv-cs-ir-learning-binary-codes-with-spiking-neural-networks-for-cross",
+    "headline": "Learning Binary Codes with Spiking Neural Networks for Cross-Modal Hashing Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2606.00740",
+    "publishedAt": "2026-11-19T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Cross-modal hashing (CMH) uses compact binary codes for efficient image-text retrieval. Most methods learn image-text relationships in a continuous space and binarize the representation only at the end. Semantic learning"
+  },
+  {
+    "id": "simon-willison-s-blog-llm-gemini-0-38",
+    "headline": "llm-gemini 0.38",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+    "publishedAt": "2026-11-18T23:59:20.000Z",
+    "topic": "Cost",
+    "summary": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon . I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse. Previously the Gemini 4 lineup was Hy"
+  },
+  {
     "id": "aws-machine-learning-blog-exa-boosts-embedding-throughput-by-50-to-index-billions-of-d",
     "headline": "Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips",
     "source": "AWS Machine Learning Blog",
@@ -25,150 +178,6 @@
     "publishedAt": "2026-11-18T20:13:18.000Z",
     "topic": "RAG",
     "summary": "Learn how Salesforce uses the cross-Region inference router in Amazon SageMaker AI to turn fragmented Regional capacity into reliable model serving. Salesforce adds capacity securely across Regions and accounts while kee"
-  },
-  {
-    "id": "arxiv-cs-cl-crisisbench-an-evaluation-suite-for-crisis-counseling-ai",
-    "headline": "CrisisBench: an evaluation suite for crisis counseling AI",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.21622",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Background: Crisis helplines are essential to mental health systems but are often understaffed and underfunded. LLMs could support counselors, but existing benchmarks do not capture the escalation, risk assessment, and d"
-  },
-  {
-    "id": "arxiv-cs-cl-raw-refusal-aversion-in-the-wild-a-causal-measurement-method",
-    "headline": "RAW: Refusal Aversion in the Wild, A Causal Measurement Method for Deployed LLMs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.21641",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "topic": "Cost",
-    "summary": "Deployed LLMs field hundreds of millions of conversations a day and refuse a non-trivial fraction of user requests, yet the user-side cost of refusal, whether users disengage and by how much, is unmeasured on any product"
-  },
-  {
-    "id": "arxiv-cs-cl-minfovisqa-a-multilingual-benchmark-for-information-rich-vis",
-    "headline": "MInfoVisQA: A Multilingual Benchmark for Information-Rich Visual Question Answering",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.21644",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Multimodal large language models (MLLMs) excel in vision-language tasks; yet, whether they maintain consistent understanding of information-rich visuals (InfoVis) when the surface language changes remains unclear. To qua"
-  },
-  {
-    "id": "arxiv-cs-cl-can-an-llm-dream-testing-the-overfitted-brain-hypothesis-on-",
-    "headline": "Can an LLM dream? Testing the overfitted brain hypothesis on an agent with text memory",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.21648",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Hoel (2021) proposed that dreams distort replayed experience so that the brain does not overfit to recent events. We test this hypothesis on an LLM agent (Claude Opus 5.5) that stores what it learns in a text memory and "
-  },
-  {
-    "id": "arxiv-cs-cl-literary-language-mashup-curating-fictions-with-large-langua",
-    "headline": "Literary Language Mashup: Curating Fictions with Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.21649",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "In this paper, we propose an alternative approach to human evaluation of literary fictions by employing LLMs themselves as evaluators within the GrAImes framework. We apply this methodology to assess human-written and AI"
-  },
-  {
-    "id": "arxiv-cs-cl-from-preference-data-to-personalization-tracing-sycophancy-i",
-    "headline": "From Preference Data to Personalization: Tracing Sycophancy in Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.21650",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Sycophancy in large language models is often measured as agreement with the user, yet agreement can be appropriate when the user's claim is valid, their preference is genuine, or their experience warrants acknowledgment."
-  },
-  {
-    "id": "arxiv-cs-cl-consistency-is-not-correction-separating-confidence-abstenti",
-    "headline": "Consistency Is Not Correction: Separating Confidence, Abstention, and Recovery in LLM Agents",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.21651",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "A controller that resamples an answer, escalates to a larger model, or abstains is usually justified by a confidence signal. Three claims about such a signal do not follow from one another: it ranks answers (discriminati"
-  },
-  {
-    "id": "arxiv-cs-cl-tusi-a-citation-grounded-graph-based-benchmark",
-    "headline": "TUSI: A Citation-Grounded Graph-Based Benchmark",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.21823",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Evaluating retrieval-augmented generation (RAG) systems in Persian law remains challenging because benchmarks lack realism, grounding, and coverage of legal reasoning. Existing resources are either synthetically generate"
-  },
-  {
-    "id": "arxiv-cs-ir-simq-a-single-graph-based-index-for-multi-vector-query",
-    "headline": "SIMQ: A Single Graph-based Index for Multi-Vector Query",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.22079",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Multi-vector retrieval models such as ColBERT achieve state-of-the-art effectiveness by representing documents as sets of token-level vectors and scoring via MaxSim, but their high computational cost limits scalability t"
-  },
-  {
-    "id": "arxiv-cs-ir-guardagent-a-memory-augmented-agentic-framework-for-adaptive",
-    "headline": "GuardAgent: A Memory-Augmented Agentic Framework for Adaptive Detection of Adversarial Promotions in LLM-Based Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.22274",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "In traditional recommender systems (RSs), textual information typically serves as auxiliary signals for representation learning. In contrast, in LLM-based RSs, textual information becomes the primary medium for recommend"
-  },
-  {
-    "id": "arxiv-cs-ir-deal-with-it-on-better-schedules-for-listwise-reranking",
-    "headline": "Deal With It: On Better Schedules for Listwise Reranking",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.22392",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Listwise LLM rerankers cannot reliably rank hundreds of documents in a single call, and rely on schedules to orchestrate their calls. Parallel schedules split candidates into groups and advance a fixed quota from each. W"
-  },
-  {
-    "id": "arxiv-cs-ir-more-than-a-score-reinforcement-learning-with-verbalized-fee",
-    "headline": "More Than a Score: Reinforcement Learning with Verbalized Feedback for Generative Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.22410",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are increasingly used for generative recommendation, where recommended items are generated directly from users' interaction histories. To further improve recommendation quality, reinforcement"
-  },
-  {
-    "id": "arxiv-cs-ir-from-relevance-to-utility-rubric-alignment-in-yuanbao-search",
-    "headline": "From Relevance to Utility: Rubric Alignment in Yuanbao Search",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.22503",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Agentic search demands that a search engine move beyond per document relevance ranking to assemble document sets optimized for downstream LLM reasoning. Prior work addresses this either by improving individual pipeline s"
-  },
-  {
-    "id": "arxiv-cs-ir-mipr-a-benchmark-for-reasoning-intensive-multimodal-intent-t",
-    "headline": "MIPR: A Benchmark for Reasoning-Intensive Multimodal Intent-to-Product Retrieval with Multi-Category Solutions",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.22509",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Real-world e-commerce queries often express user intent without naming a target product, and a single intent may be fulfilled by products from multiple categories. However, existing multimodal retrieval benchmarks typica"
-  },
-  {
-    "id": "arxiv-cs-ir-evaluating-ast-derived-knowledge-graph-retrieval-for-aiops-i",
-    "headline": "Evaluating AST-Derived Knowledge Graph Retrieval for AIOps Incident Diagnosis in Apache Kafka",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.21625",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Incident diagnosis requires retrieving source-linked operational evidence from large codebases. We evaluate graph-augmented retrieval for Apache Kafka using an abstract-syntax-tree (AST)-derived ownership graph over 1,60"
-  },
-  {
-    "id": "arxiv-cs-ir-complexity-and-precision-in-quantum-associative-retrieval",
-    "headline": "Complexity and precision in quantum associative retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.21941",
-    "publishedAt": "2026-11-18T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "We show that efficient and high-precision quantum associative retrieval is possible with an exponential complexity advantage with respect to the classical brute force approach and with a polynomial capacity advantage wit"
   },
   {
     "id": "qdrant-blog-does-a-code-tuned-embedding-model-pay-off-papr-embed-code-1-",
