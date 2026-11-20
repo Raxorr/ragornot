@@ -1,5 +1,14 @@
 [
   {
+    "id": "aws-machine-learning-blog-amazon-sagemaker-inference-2026-launches-in-review-part-2",
+    "headline": "Amazon SageMaker Inference: 2026 launches in review, part 2",
+    "source": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/",
+    "publishedAt": "2026-11-20T00:34:07.000Z",
+    "topic": "LLM",
+    "summary": "This second installment reviews 13 more Amazon SageMaker AI inference launches from 2026, spanning configuration recommendations, fitting more models onto each GPU, serving models too large for one instance, cross-Region"
+  },
+  {
     "id": "google-ai-blog-introducing-tool-retrieval-in-the-gemini-api",
     "headline": "Introducing Tool Retrieval in the Gemini API",
     "source": "Google AI Blog",
@@ -170,24 +179,6 @@
     "publishedAt": "2026-11-18T23:58:22.000Z",
     "topic": "Cost",
     "summary": "Exa's neural search engine is backed by an in-house vector database, so the unit economics of embedding tens of billions of web documents drive the business. This post shares how Exa optimized embedding inference on AWS "
-  },
-  {
-    "id": "aws-machine-learning-blog-design-responsible-ai-controls-for-amazon-aurora-postgresql",
-    "headline": "Design responsible AI controls for Amazon Aurora PostgreSQL",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/design-responsible-ai-controls-for-amazon-aurora-postgresql/",
-    "publishedAt": "2026-11-18T21:38:22.000Z",
-    "topic": "RAG",
-    "summary": "Learn how to make RAG chatbot answers traceable with Amazon Aurora PostgreSQL, pgvector, and Amazon Bedrock Guardrails, logging sources, scores, and guardrail traces in SQL."
-  },
-  {
-    "id": "aws-machine-learning-blog-how-salesforce-is-advancing-global-scale-model-serving-with-",
-    "headline": "How Salesforce is advancing global-scale model serving with cross-Region inference routing in Amazon SageMaker AI",
-    "source": "AWS Machine Learning Blog",
-    "url": "https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai/",
-    "publishedAt": "2026-11-18T20:13:18.000Z",
-    "topic": "RAG",
-    "summary": "Learn how Salesforce uses the cross-Region inference router in Amazon SageMaker AI to turn fragmented Regional capacity into reliable model serving. Salesforce adds capacity securely across Regions and accounts while kee"
   },
   {
     "id": "qdrant-blog-does-a-code-tuned-embedding-model-pay-off-papr-embed-code-1-",
