@@ -1,5 +1,122 @@
 [
   {
+    "id": "arxiv-cs-cl-llm-complexity-towards-a-computational-complexity-view-of-la",
+    "headline": "LLM Complexity: Towards a Computational Complexity View of Large Language Model Inference",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.24943",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Computational complexity theory offers a principled framework for characterizing the efficiency of computational problems, and Large Language Models (LLMs) can similarly be viewed as computational systems executing a str"
+  },
+  {
+    "id": "arxiv-cs-cl-icare-cross-domain-text-classification-with-incremental-clas",
+    "headline": "ICARE: cross-domain text classification with incremental class-aware representation and distillation learning",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.24959",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "The rise of powerful, fine-tuned large language models (LLMs) necessitates robust natural language inference (NLI) systems. These NLI systems ideally train across various tasks, encompassing diverse concepts like sentime"
+  },
+  {
+    "id": "arxiv-cs-cl-tether-training-free-elastic-toc-anchored-hierarchy-extracti",
+    "headline": "TETHER: Training-Free, Elastic, ToC-Anchored Hierarchy Extraction and Recovery in Design-Driven Long Documents",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.24960",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Converting complex documents into structured knowledge constitutes the critical infrastructure urgently required for deploying Large Language Models (LLMs) in downstream research. However, blind to the Table of Contents "
+  },
+  {
+    "id": "arxiv-cs-cl-global-importance-estimation-for-kv-cache-eviction",
+    "headline": "Global Importance Estimation for KV Cache Eviction",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.24969",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Memory consumption of the key-value (KV) cache remains a central bottleneck for long-context LLM inference. We introduce PRKV, a training-free KV eviction method that estimates multi-hop global token importance by applyi"
+  },
+  {
+    "id": "arxiv-cs-cl-hirewatch-evaluating-llm-compliance-with-u-s-employment-law-",
+    "headline": "HireWatch: Evaluating LLM Compliance with U.S. Employment Law Under Contextual Pressure",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.24970",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "The deployment of large language models (LLMs) in hiring pipelines is growing, yet existing evaluations generally overlook their compliance with legal rules. To fill this gap, we introduce HireWatch, an evaluation that a"
+  },
+  {
+    "id": "arxiv-cs-cl-the-roi-of-small-examples-optimizing-in-context-learning-und",
+    "headline": "The ROI of Small Examples: Optimizing In-Context Learning Under Token Budgets",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.24971",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "In-context learning (ICL) improves large language model performance at inference time without updating model parameters. However, these gains are not free: in practical deployments, longer prompts directly increase infer"
+  },
+  {
+    "id": "arxiv-cs-cl-what-the-model-knows-but-does-not-say-monitoring-medical-llm",
+    "headline": "What the model knows but does not say: monitoring medical LLMs through verbalized thoughts",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.24994",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Efforts to keep clinical language models safe have concentrated on what enters and leaves the model, but a manipulated model can return an answer that looks entirely ordinary. Here we show that the model's own internal s"
+  },
+  {
+    "id": "arxiv-cs-cl-finveriqa-financial-research-agents-for-question-answering-r",
+    "headline": "FinVeriQA: Financial Research Agents for Question Answering: Routing, Retrieval, MCP Tool Use, and Provenance-Aware Evidence Verification",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.25071",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large language models (LLMs) write fluent financial analyses but miscompute ratios, recall stale prices, and route questions to the wrong tool with high confidence. We ask which component should do each job in a financia"
+  },
+  {
+    "id": "arxiv-cs-ir-lsp-rag-latent-scoring-perspectives-for-knowledge-graph-retr",
+    "headline": "LSP-RAG: Latent Scoring Perspectives for Knowledge Graph Retrieval-Augmented Generation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.25229",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large Language Models (LLMs) have demonstrated strong capabilities in open-domain question answering, but often struggle with factual accuracy and multi-hop reasoning due to the incompleteness of the training corpora. A "
+  },
+  {
+    "id": "arxiv-cs-ir-lq-rec-late-quantization-for-sequential-recommendation",
+    "headline": "LQ-Rec: Late Quantization for Sequential Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.25256",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Generative retrieval (GR) for sequential recommendation compresses each item into a short semantic ID and trains an autoregressive decoder to generate next-item codes from a user history. While appealing for cold-start h"
+  },
+  {
+    "id": "arxiv-cs-ir-beyond-dimensionality-domain-shift-and-catastrophic-forgetti",
+    "headline": "Beyond Dimensionality: Domain Shift and Catastrophic Forgetting in Single- vs. Multi-Vector Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2603.29519",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Recent work by Weller et al. introduced the naturalistic benchmark LIMIT and showed that widely used single-vector embedding models suffer substantial degradation in retrieval quality, attributing this primarily to limit"
+  },
+  {
+    "id": "arxiv-cs-ir-when-is-additional-retrieval-worthwhile-a-cost-aware-study-o",
+    "headline": "When Is Additional Retrieval Worthwhile? A Cost-Aware Study of Evidence Gain and Answer Reliability in RAG",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2610.37358",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Retrieval-augmented generation (RAG) can benefit from more sophisticated retrieval, but extra retrieval may be unnecessary for many questions and gains in evidence retrieval may not translate into faithful or correct ans"
+  },
+  {
+    "id": "arxiv-cs-ir-keep-it-simple-a-multiple-choice-task-can-benefit-generative",
+    "headline": "Keep it Simple! A Multiple-Choice Task can Benefit Generative Recommendation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.19320",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Sequential recommendation has recently witnessed growing interest in generative retrieval. One of the most popular approaches is to autoregressively generate the semantic identifiers (SIDs) of items as recommendations. E"
+  },
+  {
     "id": "aws-machine-learning-blog-amazon-sagemaker-inference-2026-launches-in-review-part-2",
     "headline": "Amazon SageMaker Inference: 2026 launches in review, part 2",
     "source": "AWS Machine Learning Blog",
@@ -17,150 +134,6 @@
     "topic": "RAG",
     "summary": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
     "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.max-600x600.format-webp.webp"
-  },
-  {
-    "id": "arxiv-cs-cl-crisisbench-an-evaluation-suite-for-crisis-counseling-ai",
-    "headline": "CrisisBench: an evaluation suite for crisis counseling AI",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.21622",
-    "publishedAt": "2026-11-19T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Background: Crisis helplines are essential to mental health systems but are often understaffed and underfunded. LLMs could support counselors, but existing benchmarks do not capture the escalation, risk assessment, and d"
-  },
-  {
-    "id": "arxiv-cs-cl-raw-refusal-aversion-in-the-wild-a-causal-measurement-method",
-    "headline": "RAW: Refusal Aversion in the Wild, A Causal Measurement Method for Deployed LLMs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.21641",
-    "publishedAt": "2026-11-19T05:00:00.000Z",
-    "topic": "Cost",
-    "summary": "Deployed LLMs field hundreds of millions of conversations a day and refuse a non-trivial fraction of user requests, yet the user-side cost of refusal, whether users disengage and by how much, is unmeasured on any product"
-  },
-  {
-    "id": "arxiv-cs-cl-minfovisqa-a-multilingual-benchmark-for-information-rich-vis",
-    "headline": "MInfoVisQA: A Multilingual Benchmark for Information-Rich Visual Question Answering",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.21644",
-    "publishedAt": "2026-11-19T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Multimodal large language models (MLLMs) excel in vision-language tasks; yet, whether they maintain consistent understanding of information-rich visuals (InfoVis) when the surface language changes remains unclear. To qua"
-  },
-  {
-    "id": "arxiv-cs-cl-can-an-llm-dream-testing-the-overfitted-brain-hypothesis-on-",
-    "headline": "Can an LLM dream? Testing the overfitted brain hypothesis on an agent with text memory",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.21648",
-    "publishedAt": "2026-11-19T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Hoel (2021) proposed that dreams distort replayed experience so that the brain does not overfit to recent events. We test this hypothesis on an LLM agent (Claude Opus 5.5) that stores what it learns in a text memory and "
-  },
-  {
-    "id": "arxiv-cs-cl-literary-language-mashup-curating-fictions-with-large-langua",
-    "headline": "Literary Language Mashup: Curating Fictions with Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.21649",
-    "publishedAt": "2026-11-19T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "In this paper, we propose an alternative approach to human evaluation of literary fictions by employing LLMs themselves as evaluators within the GrAImes framework. We apply this methodology to assess human-written and AI"
-  },
-  {
-    "id": "arxiv-cs-cl-from-preference-data-to-personalization-tracing-sycophancy-i",
-    "headline": "From Preference Data to Personalization: Tracing Sycophancy in Large Language Models",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.21650",
-    "publishedAt": "2026-11-19T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Sycophancy in large language models is often measured as agreement with the user, yet agreement can be appropriate when the user's claim is valid, their preference is genuine, or their experience warrants acknowledgment."
-  },
-  {
-    "id": "arxiv-cs-cl-consistency-is-not-correction-separating-confidence-abstenti",
-    "headline": "Consistency Is Not Correction: Separating Confidence, Abstention, and Recovery in LLM Agents",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.21651",
-    "publishedAt": "2026-11-19T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "A controller that resamples an answer, escalates to a larger model, or abstains is usually justified by a confidence signal. Three claims about such a signal do not follow from one another: it ranks answers (discriminati"
-  },
-  {
-    "id": "arxiv-cs-cl-tusi-a-citation-grounded-graph-based-benchmark",
-    "headline": "TUSI: A Citation-Grounded Graph-Based Benchmark",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.21823",
-    "publishedAt": "2026-11-19T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Evaluating retrieval-augmented generation (RAG) systems in Persian law remains challenging because benchmarks lack realism, grounding, and coverage of legal reasoning. Existing resources are either synthetically generate"
-  },
-  {
-    "id": "arxiv-cs-ir-pgpo-prototype-guided-progressive-obfuscation-for-privacy-pr",
-    "headline": "PGPO: Prototype-Guided Progressive Obfuscation for Privacy-Preserving LLM-Enhanced Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.23236",
-    "publishedAt": "2026-11-19T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "LLM-enhanced recommender systems encode item side information into semantic embeddings, but these embeddings may leak sensitive textual attributes through inversion attacks. Existing input-side defenses rely on trusted c"
-  },
-  {
-    "id": "arxiv-cs-ir-from-docket-minutes-to-case-trajectories-building-analysis-r",
-    "headline": "From Docket Minutes to Case Trajectories: Building Analysis-Ready Criminal Court Data",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.23537",
-    "publishedAt": "2026-11-19T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Criminal court records are often fragmented, noisy, and siloed, making it challenging for both legal experts and community stakeholders to access and analyze court data to identify trends and provide public oversight. In"
-  },
-  {
-    "id": "arxiv-cs-ir-mars-technical-report",
-    "headline": "MARS Technical Report",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.24006",
-    "publishedAt": "2026-11-19T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Modern industrial recommender systems use multi-stage cascades--retrieval, pre-ranking, ranking, and re-ranking--to narrow millions of candidates to a personalized list. While each stage deploys sophisticated models, pip"
-  },
-  {
-    "id": "arxiv-cs-ir-can-programs-replace-llm-judges-executable-program-judges-fo",
-    "headline": "Can Programs Replace LLM Judges? Executable Program Judges for Scalable and Efficient Relevance Labeling",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.24849",
-    "publishedAt": "2026-11-19T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Large language model (LLM) judges have become a common way to create large-scale relevance judgments for retrieval evaluation. However, each judgment requires a potentially expensive call to a frontier model, and the jud"
-  },
-  {
-    "id": "arxiv-cs-ir-lusoclin-a-synthetic-clinical-note-dataset-for-medical-infor",
-    "headline": "LusoClin: A Synthetic Clinical Note Dataset for Medical Information Retrieval in European Portuguese",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.23454",
-    "publishedAt": "2026-11-19T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Access to large-scale clinical text collections is crucial for advancing medical information retrieval research, including clinical note search, patient cohort identification, and domain-adapted retrieval models. However"
-  },
-  {
-    "id": "arxiv-cs-ir-vibra-backward-compatible-cross-modal-retrieval-with-consens",
-    "headline": "VIBRA: Backward-Compatible Cross-Modal Retrieval with Consensus Barycenters",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.23606",
-    "publishedAt": "2026-11-19T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Backward-compatible retrieval enables a new encoder to query the gallery that an old model has already encoded, so that a cross-modal retrieval system can be upgraded without re-encoding billions of items. Existing compa"
-  },
-  {
-    "id": "arxiv-cs-ir-reflectrec-cycle-consistency-preference-verification-for-llm",
-    "headline": "ReflectRec: Cycle-Consistency Preference Verification for LLM-based Recommendation",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2611.23969",
-    "publishedAt": "2026-11-19T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "CoT-style LLM recommenders generate a natural-language preference note as a chain-of-thought prefix to ranking, but the note is trusted without verification, and the ranker never consults behaviorally similar users. We p"
-  },
-  {
-    "id": "arxiv-cs-ir-learning-binary-codes-with-spiking-neural-networks-for-cross",
-    "headline": "Learning Binary Codes with Spiking Neural Networks for Cross-Modal Hashing Retrieval",
-    "source": "arXiv (cs.IR)",
-    "url": "https://arxiv.org/abs/2606.00740",
-    "publishedAt": "2026-11-19T05:00:00.000Z",
-    "topic": "RAG",
-    "summary": "Cross-modal hashing (CMH) uses compact binary codes for efficient image-text retrieval. Most methods learn image-text relationships in a continuous space and binarize the representation only at the end. Semantic learning"
   },
   {
     "id": "simon-willison-s-blog-llm-gemini-0-38",
@@ -284,15 +257,6 @@
     "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
     "publishedAt": "2026-11-10T16:03:47.000Z",
     "topic": "Environment"
-  },
-  {
-    "id": "simon-willison-s-blog-llm-anthropic-0-31",
-    "headline": "llm-anthropic 0.31",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
-    "publishedAt": "2026-11-09T23:58:46.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so cl"
   },
   {
     "id": "hugging-face-blog-cwe-bench-v2-more-coverage-quality-and-transparency",
