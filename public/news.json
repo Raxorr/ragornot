@@ -9,6 +9,15 @@
     "summary": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks"
   },
   {
+    "id": "simon-willison-s-blog-llm-gemini-0-38-1",
+    "headline": "llm-gemini 0.38.1",
+    "source": "Simon Willison's Blog",
+    "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
+    "publishedAt": "2026-11-20T03:01:57.000Z",
+    "topic": "Environment",
+    "summary": "Release: llm-gemini 0.38.1 Gemini 4 Carbon only supports low , medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh level. I missed that when I added those models to the llm"
+  },
+  {
     "id": "aws-machine-learning-blog-amazon-sagemaker-inference-2026-launches-in-review-part-2",
     "headline": "Amazon SageMaker Inference: 2026 launches in review, part 2",
     "source": "AWS Machine Learning Blog",
