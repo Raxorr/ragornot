@@ -1,5 +1,149 @@
 [
   {
+    "id": "arxiv-cs-cl-medicalrsi-medical-recursive-self-improving-agents-via-clini",
+    "headline": "MedicalRSI: Medical Recursive Self-Improving Agents via Clinical Model-Harness Co-Evolution",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.26806",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Medical agents built on large language models (LLMs) have advanced rapidly, yet most stay fixed once deployed and do not keep using their experience to improve later attempts. As a result, the same kind of error can recu"
+  },
+  {
+    "id": "arxiv-cs-cl-rethinking-full-weight-lora-with-domain-and-task-adapter-sca",
+    "headline": "Rethinking Full-Weight LoRA with Domain and Task Adapter Scaling for Question Answering over Portuguese Well Drilling Reports",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.26833",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Adapting large language models (LLMs) to specialized domains remains challenging, particularly for technical documents such as Portuguese well drilling reports, where annotated data are scarce and domain adaptation may c"
+  },
+  {
+    "id": "arxiv-cs-cl-llms-memorize-their-own-hallucinations-during-post-training",
+    "headline": "LLMs Memorize Their Own Hallucinations During Post-Training",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.26863",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Reasoning domains have shaped the post-training recipes of frontier models even though they are trained and deployed in domains beyond math and code. In this paper, we study the consequences of directly adopting reasonin"
+  },
+  {
+    "id": "arxiv-cs-cl-how-long-will-my-language-model-run-a-benchmark-for-pre-exec",
+    "headline": "How Long Will My Language Model Run? A Benchmark for Pre-Execution Runtime Prediction",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.26875",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Researchers submitting deep learning jobs to shared GPU clusters need runtime estimates to request time limits, choose hardware, and budget compute. Large language models (LLMs) offer a tempting shortcut: describe the jo"
+  },
+  {
+    "id": "arxiv-cs-cl-your-judge-inherits-your-prompt-in-context-label-bias-in-an-",
+    "headline": "Your Judge Inherits Your Prompt: In-Context Label Bias in an LLM-as-Judge Is Directional, Not Symmetric",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.26881",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "LLM-as-judge has become a standard way to score open-ended model outputs, yet the judge is itself a frozen language model steered by a few in-context examples, and such models are known to absorb the label balance of the"
+  },
+  {
+    "id": "arxiv-cs-cl-partially-canonical-axes-in-large-language-model-representat",
+    "headline": "Partially canonical axes in large language model representations",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.26920",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) develop rich internal representations of language, but whether their individual coordinate axes carry meaning, or whether meaning is encoded only in directions in representation space, is sti"
+  },
+  {
+    "id": "arxiv-cs-cl-beyond-prompt-heuristics-assessing-child-safety-alignment-in",
+    "headline": "Beyond Prompt Heuristics: Assessing Child Safety Alignment in LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.26965",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Child-safety taxonomies typically characterize safety risks through a predefined set of harm categories, and existing evaluations largely operationalize these categories using prompts that explicitly invoke them. However"
+  },
+  {
+    "id": "arxiv-cs-cl-when-do-llm-elicited-priors-help-a-controlled-audit-of-langu",
+    "headline": "When Do LLM-Elicited Priors Help? A Controlled Audit of Language Models as Priors for Small-Sample Bayesian Regression",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.27075",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are increasingly asked where to center the coefficients of a small-sample Bayesian regression, but the evidence is unclear: benchmarks are often built to match the prior and models may rememb"
+  },
+  {
+    "id": "arxiv-cs-ir-decision-columns-as-an-index-interpretable-embeddings-for-ex",
+    "headline": "Decision Columns as an Index: Interpretable Embeddings for Explainable Entity Matching and Search",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.27910",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Business data systems must determine whether records refer to the same entity and retrieve records satisfying requests whose decisive properties are implicit. As agents act on these records, both tasks require auditable "
+  },
+  {
+    "id": "arxiv-cs-ir-which-dwarf-is-this-doppeldwarf-306-and-near-identical-insta",
+    "headline": "Which Dwarf Is This? Doppeldwarf-306 and Near-Identical Instance Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.27490",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Most established instance-retrieval benchmarks emphasise landmarks; small sculptures from visually similar series offer a complementary challenge. We introduce Doppeldwarf-306: 1,691 openly licensed photographs of 306 br"
+  },
+  {
+    "id": "arxiv-cs-ir-pre-crawl-prioritization-and-seed-classification-for-large-s",
+    "headline": "Pre-Crawl Prioritization and Seed Classification for Large-Scale Web Archiving",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.27743",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Pre-crawl prioritization systems decide which pages to fetch first before indexing, aiming to improve crawl efficiency and coverage. Existing approaches based on page popularity and relevance are unsuited to web-archival"
+  },
+  {
+    "id": "arxiv-cs-ir-ditrar-diverse-scorers-and-transcript-guided-re-ranking-for-",
+    "headline": "DiTraR: Diverse Scorers and Transcript-Guided Re-ranking for Video Corpus Moment Retrieval",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.27931",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Video corpus moment retrieval asks a system to find, in a large collection of untrimmed videos with subtitles, the video and the time interval that a natural-language query describes. We find that most top-ranked errors "
+  },
+  {
+    "id": "arxiv-cs-ir-towards-comprehensible-recommendation-with-large-language-mo",
+    "headline": "Towards Comprehensible Recommendation with Large Language Model Fine-tuning",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2508.07595",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Recommender systems have become increasingly ubiquitous in daily life. While traditional recommendation approaches primarily rely on ID-based representations or item-side content features, they often fall short in captur"
+  },
+  {
+    "id": "arxiv-cs-ir-tokens-are-all-you-need-dual-purpose-semantic-ids-for-achiev",
+    "headline": "Tokens are All You Need: Dual-purpose Semantic IDs for Achieving LLM-Level I/O Efficiency in recommendation systems",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2607.24865",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Large-scale recommendation systems face \"Memory Wall\" bottlenecks due to massive, dense embedding tables. While generative retrieval uses discrete tokens for IDs, high-dimensional context still relies on inefficient dens"
+  },
+  {
+    "id": "arxiv-cs-ir-from-relevance-to-utility-rubric-alignment-in-yuanbao-search",
+    "headline": "From Relevance to Utility: Rubric Alignment in Yuanbao Search",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.22503",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Agentic search demands that a search engine move beyond per document relevance ranking to assemble document sets optimized for downstream LLM reasoning. Prior work addresses this either by improving individual pipeline s"
+  },
+  {
+    "id": "arxiv-cs-ir-gaama-graph-augmented-associative-memory-for-agents",
+    "headline": "GAAMA: Graph Augmented Associative Memory for Agents",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2603.27910",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "AI agents that talk with users across many sessions need long-term memory to stay coherent and personalized. Existing approaches use either flat retrieval-augmented generation (RAG) that ignores how memories connect, or "
+  },
+  {
     "id": "aws-machine-learning-blog-cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv",
     "headline": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
     "source": "AWS Machine Learning Blog",
