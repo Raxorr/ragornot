@@ -6,7 +6,7 @@
     "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
     "publishedAt": "2026-11-24T03:45:57.000Z",
     "topic": "RAG",
-    "summary": "Release: datasette-agent 0.7a1 I small improvement to Datasette Agent : chat sessions can open an iframe side panel, and that panel can then navigate to different pages. This version improves navigation by fragment hashe"
+    "summary": "Release: datasette-agent 0.7a1 A small improvement to Datasette Agent : chat sessions could already open an iframe side panel that could then navigate to different pages. This version improves navigation by fragment hash"
   },
   {
     "id": "arxiv-cs-cl-medicalrsi-medical-recursive-self-improving-agents-via-clini",
