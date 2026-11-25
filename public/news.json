@@ -1,5 +1,77 @@
 [
   {
+    "id": "arxiv-cs-cl-validation-bias-in-large-language-model-responses-to-cancer-",
+    "headline": "Validation Bias in Large Language Model Responses to Cancer Treatment Queries: A Factorial Cross-Sectional Study",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.31251",
+    "publishedAt": "2026-11-25T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language model (LLM) chatbots are increasingly used by patients seeking cancer information, but their safety when users present evidence-misaligned beliefs about treatment remains uncharacterized. We hypothesized t"
+  },
+  {
+    "id": "arxiv-cs-cl-the-date-you-didn-t-set-the-system-prompt-date-as-a-hidden-v",
+    "headline": "The Date You Didn't Set: The System-Prompt Date as a Hidden Variable in LLM Evaluation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.31254",
+    "publishedAt": "2026-11-25T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "The system prompt of many instruction-tuned models carries a date, usually today's, filled in automatically for conversational and agentic requests alike, so an unchanged evaluation can send a different prompt each day. "
+  },
+  {
+    "id": "arxiv-cs-cl-include-2-0-disentangling-knowledge-gaps-in-multilingual-llm",
+    "headline": "INCLUDE-2.0: Disentangling Knowledge Gaps in Multilingual LLM Evaluation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.31255",
+    "publishedAt": "2026-11-25T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Current multilingual benchmarks cover only a fraction of the languages represented in modern pretraining corpora and often conflate language proficiency with the ability to answer questions grounded in specific regions a"
+  },
+  {
+    "id": "arxiv-cs-cl-directly-maximizing-on-policy-expected-accepted-length-for-s",
+    "headline": "Directly Maximizing On-policy Expected Accepted Length for Speculative Decoding",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.31256",
+    "publishedAt": "2026-11-25T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Speculative decoding accelerates large language model inference by using a lightweight draft model to propose tokens for verification by a target model. Draft training commonly optimizes token-level distribution alignmen"
+  },
+  {
+    "id": "arxiv-cs-cl-scopd-routed-on-policy-self-distillation-for-llm-based-singl",
+    "headline": "scOPD: Routed On-Policy Self-Distillation for LLM-Based Single-Cell Annotation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.31257",
+    "publishedAt": "2026-11-25T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Motivation: Large language models (LLMs) have shown promise for single-cell annotation, but existing training methods mainly rely on scalar outcome rewards that provide limited supervision for intermediate biological rea"
+  },
+  {
+    "id": "arxiv-cs-cl-recap-training-long-horizon-llm-agents-with-context-compacti",
+    "headline": "RECAP: Training Long-horizon LLM Agents with Context Compaction",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.31258",
+    "publishedAt": "2026-11-25T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Context compaction enables large language model agents to tackle long-horizon tasks within limited context budgets by replacing interaction histories with compressed summaries. However, learning effective compaction join"
+  },
+  {
+    "id": "arxiv-cs-cl-does-item-response-theory-generalize-across-languages-eviden",
+    "headline": "Does Item Response Theory Generalize Across Languages? Evidence from Cross-Lingual LLM Benchmarks",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.31261",
+    "publishedAt": "2026-11-25T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "The application of Item Response Theory (IRT) for data selection in benchmarks has mostly been limited to monolingual settings. In this work, we ask: how does IRT generalize when the same benchmark is translated across l"
+  },
+  {
+    "id": "arxiv-cs-cl-regiozh-unveiling-comprehension-disparities-across-regional-",
+    "headline": "RegioZH: Unveiling Comprehension Disparities across Regional Chinese Varieties in LLMs",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.31262",
+    "publishedAt": "2026-11-25T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Current evaluations often treat Chinese varieties as monolithic, obscuring failures for regional users. We introduce RegioZH, a 2,607-item multiple-choice benchmark for regional lexical reasoning across Mainland China, T"
+  },
+  {
     "id": "simon-willison-s-blog-three-llm-inflection-points-in-twelve-months",
     "headline": "Three LLM inflection points in twelve months",
     "source": "Simon Willison's Blog",
@@ -16,78 +88,6 @@
     "publishedAt": "2026-11-24T03:45:57.000Z",
     "topic": "RAG",
     "summary": "Release: datasette-agent 0.7a1 A small improvement to Datasette Agent : chat sessions could already open an iframe side panel that could then navigate to different pages. This version improves navigation by fragment hash"
-  },
-  {
-    "id": "arxiv-cs-cl-medicalrsi-medical-recursive-self-improving-agents-via-clini",
-    "headline": "MedicalRSI: Medical Recursive Self-Improving Agents via Clinical Model-Harness Co-Evolution",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.26806",
-    "publishedAt": "2026-11-23T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Medical agents built on large language models (LLMs) have advanced rapidly, yet most stay fixed once deployed and do not keep using their experience to improve later attempts. As a result, the same kind of error can recu"
-  },
-  {
-    "id": "arxiv-cs-cl-rethinking-full-weight-lora-with-domain-and-task-adapter-sca",
-    "headline": "Rethinking Full-Weight LoRA with Domain and Task Adapter Scaling for Question Answering over Portuguese Well Drilling Reports",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.26833",
-    "publishedAt": "2026-11-23T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Adapting large language models (LLMs) to specialized domains remains challenging, particularly for technical documents such as Portuguese well drilling reports, where annotated data are scarce and domain adaptation may c"
-  },
-  {
-    "id": "arxiv-cs-cl-llms-memorize-their-own-hallucinations-during-post-training",
-    "headline": "LLMs Memorize Their Own Hallucinations During Post-Training",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.26863",
-    "publishedAt": "2026-11-23T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Reasoning domains have shaped the post-training recipes of frontier models even though they are trained and deployed in domains beyond math and code. In this paper, we study the consequences of directly adopting reasonin"
-  },
-  {
-    "id": "arxiv-cs-cl-how-long-will-my-language-model-run-a-benchmark-for-pre-exec",
-    "headline": "How Long Will My Language Model Run? A Benchmark for Pre-Execution Runtime Prediction",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.26875",
-    "publishedAt": "2026-11-23T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Researchers submitting deep learning jobs to shared GPU clusters need runtime estimates to request time limits, choose hardware, and budget compute. Large language models (LLMs) offer a tempting shortcut: describe the jo"
-  },
-  {
-    "id": "arxiv-cs-cl-your-judge-inherits-your-prompt-in-context-label-bias-in-an-",
-    "headline": "Your Judge Inherits Your Prompt: In-Context Label Bias in an LLM-as-Judge Is Directional, Not Symmetric",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.26881",
-    "publishedAt": "2026-11-23T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "LLM-as-judge has become a standard way to score open-ended model outputs, yet the judge is itself a frozen language model steered by a few in-context examples, and such models are known to absorb the label balance of the"
-  },
-  {
-    "id": "arxiv-cs-cl-partially-canonical-axes-in-large-language-model-representat",
-    "headline": "Partially canonical axes in large language model representations",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.26920",
-    "publishedAt": "2026-11-23T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) develop rich internal representations of language, but whether their individual coordinate axes carry meaning, or whether meaning is encoded only in directions in representation space, is sti"
-  },
-  {
-    "id": "arxiv-cs-cl-beyond-prompt-heuristics-assessing-child-safety-alignment-in",
-    "headline": "Beyond Prompt Heuristics: Assessing Child Safety Alignment in LLMs",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.26965",
-    "publishedAt": "2026-11-23T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Child-safety taxonomies typically characterize safety risks through a predefined set of harm categories, and existing evaluations largely operationalize these categories using prompts that explicitly invoke them. However"
-  },
-  {
-    "id": "arxiv-cs-cl-when-do-llm-elicited-priors-help-a-controlled-audit-of-langu",
-    "headline": "When Do LLM-Elicited Priors Help? A Controlled Audit of Language Models as Priors for Small-Sample Bayesian Regression",
-    "source": "arXiv (cs.CL)",
-    "url": "https://arxiv.org/abs/2611.27075",
-    "publishedAt": "2026-11-23T05:00:00.000Z",
-    "topic": "LLM",
-    "summary": "Large language models (LLMs) are increasingly asked where to center the coefficients of a small-sample Bayesian regression, but the evidence is unclear: benchmarks are often built to match the prior and models may rememb"
   },
   {
     "id": "aws-machine-learning-blog-cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv",
