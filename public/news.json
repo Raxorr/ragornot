@@ -1,5 +1,131 @@
 [
   {
+    "id": "arxiv-cs-cl-mgmem-an-efficient-deterministic-and-provenance-preserving-f",
+    "headline": "MGMem: An Efficient, Deterministic, and Provenance-Preserving Framework for Long-Horizon Agent Memory",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.33174",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Long-horizon Large Language Model (LLM) agents need persistent memory that surfaces the right past interaction at the right time across thousands of turns. Many systems index by invoking generative LLMs to rewrite histor"
+  },
+  {
+    "id": "arxiv-cs-cl-psychophysics-of-duration-perception-in-multimodal-large-lan",
+    "headline": "Psychophysics of Duration Perception in Multimodal Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.33176",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Studies of time perception in language models focus mainly on text-based settings. Yet multimodal models are increasingly used for tasks that require perceiving the passage of time, making the limits of their temporal pe"
+  },
+  {
+    "id": "arxiv-cs-cl-verified-experience-improves-materials-prediction-with-large",
+    "headline": "Verified experience improves materials prediction with large language models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.33195",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Materials discovery is an iterative loop: experiments and calculations verify predictions, and each outcome can inform the next. Yet most predictors are specialized single-task models fixed after training. Large language"
+  },
+  {
+    "id": "arxiv-cs-cl-extraneous-cognitive-load-in-large-language-models",
+    "headline": "Extraneous Cognitive Load in Large Language Models",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.33197",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Cognitive Load Theory (CLT) shows that human problem-solving is affected by both intrinsic load, arising from task difficulty, and extraneous load, arising from how task information is presented. Large language models (L"
+  },
+  {
+    "id": "arxiv-cs-cl-focus-on-facts-stylistically-invariant-and-factually-sensiti",
+    "headline": "Focus On Facts: Stylistically Invariant and Factually Sensitive Text Embeddings",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.33250",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Text embedding models can conflate surface-form similarity with factual identity. Given an altered near-copy with one corrupted fact and a differently worded fact-preserving rewrite, the base model prefers the altered ne"
+  },
+  {
+    "id": "arxiv-cs-cl-frid-eo-french-news-outlet-ideology-scoring-via-multi-source",
+    "headline": "FrId\\'eo: French News Outlet Ideology Scoring via Multi-Source Evidence Fusion and Distancing-Aware Lexical Scoring",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.33266",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Outlet ideology is a standard explanatory variable in media framing, media effects, and political communication research, but continuous, ecosystem-wide coverage lets it enter as graded exposure rather than a coarse bin."
+  },
+  {
+    "id": "arxiv-cs-cl-evaluating-large-language-models-on-conversational-african-a",
+    "headline": "Evaluating Large Language Models on conversational African American English: Feature classification and next-turn generation",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.33499",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large Language Models (LLMs) are known to misinterpret and misrepresent regional and social varieties of English other than Mainstream American English (MAE), such as African American English (AAE), yet most evaluations "
+  },
+  {
+    "id": "arxiv-cs-cl-failure-broadens-success-sharpens-continual-adaptation-of-to",
+    "headline": "Failure Broadens, Success Sharpens: Continual Adaptation of Tool-Use Agents Across Diverse Tasks with Dual-Polarity Memory",
+    "source": "arXiv (cs.CL)",
+    "url": "https://arxiv.org/abs/2611.33612",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language model agents can self-improve over time by utilizing procedural memory derived from prior task trajectories, yet the distinct utilities of memories derived from local successes and failures remain underexp"
+  },
+  {
+    "id": "arxiv-cs-ir-learning-the-platform-not-the-learner-sequencing-shortcuts-i",
+    "headline": "Learning the Platform, Not the Learner: Sequencing Shortcuts in the Offline Evaluation of Educational Recommender Systems and LLM Rankers",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.33240",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Educational recommenders are usually compared offline, by how well they predict the next activity in logs of tutoring systems, learning applications and MOOCs, where the next activity is largely decided by the platform: "
+  },
+  {
+    "id": "arxiv-cs-ir-structure-aware-multimodal-retrieval-under-data-scarcity-pri",
+    "headline": "Structure-Aware Multimodal Retrieval Under Data Scarcity, Privacy Constraints and Out-of-Domain Content",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.33649",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Purpose: Figure retrieval from reference atlases in expert domains like forensic pathology, dentistry and geology must work without labels or training pairs, on content that often cannot leave local hardware, and on imag"
+  },
+  {
+    "id": "arxiv-cs-ir-onequery-unified-sequence-to-structure-generation-for-multil",
+    "headline": "OneQuery: Unified Sequence-to-Structure Generation for Multilingual E-commerce Query Understanding",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.33653",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Multilingual e-commerce search requires robust query understanding to convert cross-lingual user queries with varied linguistic patterns into standardized semantic representations that support retrieval and ranking. Howe"
+  },
+  {
+    "id": "arxiv-cs-ir-privacy-aware-adaptive-client-selection-for-federated-retrie",
+    "headline": "Privacy-Aware Adaptive Client Selection for Federated Retrieval-Augmented Generation",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.33890",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "Federated retrieval-augmented generation retrieves evidence from distributed corpora. However, broadcasting queries to all clients increases the retrieval burden and query exposure. We present Privacy-Aware Adaptive Clie"
+  },
+  {
+    "id": "arxiv-cs-ir-vulcpe-context-aware-cybersecurity-vulnerability-retrieval-a",
+    "headline": "VulCPE: Context-Aware Cybersecurity Vulnerability Retrieval and Management",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2505.13895",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "topic": "RAG",
+    "summary": "The dynamic landscape of cybersecurity demands precise and scalable solutions for vulnerability management in heterogeneous systems, where configuration-specific vulnerabilities are often misidentified due to inconsisten"
+  },
+  {
+    "id": "arxiv-cs-ir-knowme-paper-radar-lightweight-discovery-of-promising-papers",
+    "headline": "KnowMe Paper Radar: Lightweight Discovery of Promising Papers in the Age of Autoresearch",
+    "source": "arXiv (cs.IR)",
+    "url": "https://arxiv.org/abs/2611.23702",
+    "publishedAt": "2026-11-26T05:00:00.000Z",
+    "topic": "LLM",
+    "summary": "Large language models (LLMs) are pushing research toward semi-automation: ideas turn into preprints ever faster, and autoresearch pipelines add papers of uneven rigor. When a technique can be overtaken within months, cit"
+  },
+  {
     "id": "simon-willison-s-blog-three-llm-inflection-points-in-twelve-months",
     "headline": "Three LLM inflection points in twelve months",
     "source": "Simon Willison's Blog",
@@ -107,15 +233,6 @@
     "topic": "LLM",
     "summary": "The Methods Behind How LLMs Represent Token Positions",
     "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/2a036907-4c1e-473b-8d82-20f2c777df5f_2912x1632.png"
-  },
-  {
-    "id": "simon-willison-s-blog-datasette-llm-0-1a11",
-    "headline": "datasette-llm 0.1a11",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
-    "publishedAt": "2026-11-14T23:59:28.000Z",
-    "topic": "LLM",
-    "summary": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you "
   },
   {
     "id": "hugging-face-blog-llmon-an-llm-native-markup-language-now-in-granite-4-1-3b-an",
