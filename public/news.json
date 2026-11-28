@@ -162,15 +162,6 @@
     "topic": "LLM"
   },
   {
-    "id": "simon-willison-s-blog-llm-0-37-3",
-    "headline": "llm 0.37.3",
-    "source": "Simon Willison's Blog",
-    "url": "https://simonwillison.net/2026/Nov/16/llm/",
-    "publishedAt": "2026-11-16T23:57:26.000Z",
-    "topic": "LLM",
-    "summary": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's loggin"
-  },
-  {
     "id": "ahead-of-ai-understanding-positional-embeddings-in-modern-llms",
     "headline": "Understanding Positional Embeddings in Modern LLMs",
     "source": "Ahead of AI",
